@@ -648,6 +648,16 @@ export default function FolkloreMap() {
   const [builderMotivation, setBuilderMotivation] = useState("");
   const [builderArc, setBuilderArc] = useState("");
   const [builderResult, setBuilderResult] = useState(null);
+  // Synopsis Generator states
+  const [synopsisBeings, setSynopsisBeings] = useState([]);
+  const [synopsisGenre, setSynopsisGenre] = useState(null);
+  const [synopsisEra, setSynopsisEra] = useState(null);
+  const [synopsisLack, setSynopsisLack] = useState(null);
+  const [synopsisRelation, setSynopsisRelation] = useState(null);
+  const [synopsisTheme, setSynopsisTheme] = useState(null);
+  const [synopsisEnding, setSynopsisEnding] = useState(null);
+  const [synopsisResult, setSynopsisResult] = useState(null);
+  const [synopsisCopied, setSynopsisCopied] = useState(false);
   const [showCredits, setShowCredits] = useState(false);
   // Creature Profile state
   const [profileBeing, setProfileBeing] = useState(null);
@@ -2905,6 +2915,359 @@ export default function FolkloreMap() {
   };
 
   // ═══════════════════════════════════════════════════════════════
+  //  📖 SYNOPSIS GENERATOR — 3-Act Structure Synopsis from Creature Data
+  // ═══════════════════════════════════════════════════════════════
+  const SynopsisGenerator = () => {
+    const [synSearch, setSynSearch] = useState("");
+
+    const allBeings = useMemo(() => {
+      const arr = [];
+      DATA.forEach(c => c.b.forEach(b => arr.push({ ...b, country: c.c, region: c.r, iso: c.i })));
+      return arr;
+    }, [DATA]);
+
+    const searchedBeings = useMemo(() => {
+      if (!synSearch) return allBeings.slice(0, 20);
+      const q = synSearch.toLowerCase();
+      return allBeings.filter(b => b.n.toLowerCase().includes(q) || b.country.toLowerCase().includes(q) || b.t.toLowerCase().includes(q)).slice(0, 20);
+    }, [allBeings, synSearch]);
+
+    const GENRES = ["호러", "로맨스", "액션", "다크판타지", "미스터리"];
+    const ERAS = ["고대", "중세", "조선시대", "근현대", "현대", "미래"];
+    const LACKS = ["사랑", "가족", "정체성", "복수", "생존"];
+    const RELATIONS = ["적", "조력자", "연인", "계약자"];
+    const THEMES = ["복수", "성장", "구원", "희생", "공존"];
+    const ENDINGS = ["비극", "열린결말", "해피엔딩", "반전"];
+
+    const toggleBeing = (b) => {
+      const exists = synopsisBeings.find(x => x.n === b.n && x.country === b.country);
+      if (exists) {
+        setSynopsisBeings(synopsisBeings.filter(x => !(x.n === b.n && x.country === b.country)));
+      } else if (synopsisBeings.length < 3) {
+        setSynopsisBeings([...synopsisBeings, b]);
+      }
+      setSynopsisResult(null);
+    };
+
+    const pickRandom = (arr) => arr[Math.floor(Math.random() * arr.length)];
+
+    const generateSynopsis = () => {
+      if (synopsisBeings.length === 0) return;
+      const genre = synopsisGenre || pickRandom(GENRES);
+      const era = synopsisEra || pickRandom(ERAS);
+      const lack = synopsisLack || pickRandom(LACKS);
+      const relation = synopsisRelation || pickRandom(RELATIONS);
+      const thm = synopsisTheme || pickRandom(THEMES);
+      const ending = synopsisEnding || pickRandom(ENDINGS);
+
+      const main = synopsisBeings[0];
+      const sub = synopsisBeings.length > 1 ? synopsisBeings[1] : null;
+      const third = synopsisBeings.length > 2 ? synopsisBeings[2] : null;
+
+      const mainAb = main.ab ? main.ab.filter(a => a !== "불명") : [];
+      const mainWk = main.wk ? main.wk.filter(w => !w.includes("불명")) : [];
+      const mainSh = main.sh || [];
+      const mainGf = main.gf || [];
+
+      // Era-based setting
+      const eraSettings = {
+        "고대": "신화와 전설이 살아 숨쉬는 고대의 땅",
+        "중세": "영주와 기사, 그리고 어둠이 지배하는 중세",
+        "조선시대": "유교적 질서 아래 은밀한 초자연이 공존하는 조선",
+        "근현대": "급변하는 시대의 소용돌이 속 근현대",
+        "현대": "네온과 콘크리트 사이로 고대의 존재가 깨어나는 현대 도시",
+        "미래": "기술과 초자연이 융합된 먼 미래의 세계",
+      };
+
+      // Genre-based tone
+      const genreTones = {
+        "호러": { mood: "공포와 불안이 스며드는", conflict: "생존을 위한 처절한", climax: "숨막히는 공포 속" },
+        "로맨스": { mood: "운명적 이끌림이 시작되는", conflict: "금기된 감정과의", climax: "마침내 진심이 드러나는" },
+        "액션": { mood: "긴장감이 폭발하는", conflict: "치명적인 대결의", climax: "최후의 결전 속" },
+        "다크판타지": { mood: "어둠과 신비가 교차하는", conflict: "빛과 어둠의 경계에서", climax: "금기를 넘어서는 순간" },
+        "미스터리": { mood: "의문과 단서가 얽히는", conflict: "진실에 다가갈수록 깊어지는", climax: "모든 퍼즐이 맞춰지는 순간" },
+      };
+
+      // Relation dynamics
+      const relationDynamics = {
+        "적": { intro: `${main.n}은(는) 주인공에게 있어 가장 위험한 존재다.`, mid: `${main.n}과(와)의 대립은 점점 격화되고`, resolve: `숙명의 적 ${main.n}과(와)의 최종 대결에서` },
+        "조력자": { intro: `${main.n}은(는) 뜻밖에도 주인공의 편에 선다.`, mid: `${main.n}의 도움으로 서서히 길이 열리지만`, resolve: `${main.n}과(와) 쌓아온 신뢰를 바탕으로` },
+        "연인": { intro: `${main.n}과(와)의 만남은 운명처럼 찾아온다.`, mid: `${main.n}을(를) 향한 감정은 금기를 넘어서고`, resolve: `${main.n}과(와)의 사랑이 시험받는 순간` },
+        "계약자": { intro: `${main.n}과(와)의 계약은 대가를 요구한다.`, mid: `계약의 조건이 점점 가혹해지면서`, resolve: `${main.n}과(와)의 계약이 종결되는 순간` },
+      };
+
+      // Theme arcs
+      const themeArcs = {
+        "복수": "피로 물든 복수의 칼날은 결국 자신을 향한다",
+        "성장": "시련을 통해 진정한 자신을 발견하게 된다",
+        "구원": "어둠 속에서도 구원의 빛은 존재한다는 것을 깨닫는다",
+        "희생": "사랑하는 것을 지키기 위해 가장 소중한 것을 내려놓는다",
+        "공존": "다름을 인정할 때 비로소 진정한 평화가 찾아온다",
+      };
+
+      // Ending variations
+      const endingTexts = {
+        "비극": "그러나 운명은 잔혹했다. 모든 것을 잃은 자리에 남은 것은 쓸쓸한 바람뿐이다. 그 이름은 전설이 되어 후대에 경고로 전해진다.",
+        "열린결말": "이야기는 끝나지 않았다. 새로운 여정의 시작점에 서서, 주인공은 아직 오지 않은 내일을 바라본다. 진정한 결말은 아직 쓰이지 않았다.",
+        "해피엔딩": "오랜 고난 끝에 마침내 평화가 찾아온다. 상처는 아물고, 잃었던 것들이 새로운 형태로 되돌아온다. 이것이 그들이 원한 결말이다.",
+        "반전": "그러나 모든 것이 계획대로였다. 진정한 흑막은 처음부터 가장 가까운 곳에 있었으며, 이제야 그 얼굴을 드러낸다. 진짜 이야기는 이제 시작이다.",
+      };
+
+      const tone = genreTones[genre];
+      const rel = relationDynamics[relation];
+
+      // ── ACT 1: Setup ──
+      let act1 = `${eraSettings[era]}에서, ${lack}을(를) 잃은 주인공은 공허한 나날을 보내고 있다. `;
+      act1 += `${tone.mood} 분위기 속에서, ${rel.intro} `;
+      if (mainAb.length > 0) act1 += `${main.n}은(는) '${mainAb[0]}'의 능력을 지닌 ${main.t}으로, `;
+      act1 += `${main.country}의 전승에서 전해지는 존재다. `;
+      if (sub) {
+        act1 += `한편, ${sub.country}에서 전해지는 ${sub.n}의 그림자가 드리우기 시작한다. `;
+      }
+      if (mainSh.length > 0) act1 += mainSh[0] + " ";
+
+      // ── ACT 2: Confrontation ──
+      let act2 = `${tone.conflict} 갈등이 깊어진다. ${rel.mid}, `;
+      act2 += `주인공은 ${thm}의 의미를 묻기 시작한다. `;
+      if (mainWk.length > 0) act2 += `${main.n}의 약점인 '${mainWk[0]}'이(가) 드러나면서 전세가 뒤바뀐다. `;
+      if (mainAb.length > 1) act2 += `동시에 '${mainAb[1]}'의 힘이 폭주하며 상황은 걷잡을 수 없이 치닫는다. `;
+      if (sub) {
+        const subAb = sub.ab ? sub.ab.filter(a => a !== "불명") : [];
+        if (subAb.length > 0) act2 += `${sub.n}은(는) '${subAb[0]}'의 능력으로 사태에 개입하고, `;
+        act2 += `두 존재의 충돌은 주인공을 극한으로 몰아간다. `;
+      }
+      if (third) {
+        act2 += `그리고 ${third.country}의 ${third.n}까지 나타나면서, 삼파전의 양상을 띠기 시작한다. `;
+      }
+      if (mainSh.length > 1) act2 += mainSh[1] + " ";
+
+      // ── ACT 3: Resolution ──
+      let act3 = `${tone.climax}, ${rel.resolve} `;
+      act3 += `${themeArcs[thm]}. `;
+      if (mainGf.length > 0) act3 += `이 이야기는 ${mainGf.join(", ")} 장르의 결을 따라 흐른다. `;
+      act3 += endingTexts[ending];
+
+      const title = (() => {
+        const titles = {
+          "호러": [`${main.n}의 저주`, `어둠 속의 ${main.n}`, `${era}, 금기의 문`],
+          "로맨스": [`${main.n}에게 바치는 노래`, `금기된 연`, `${main.n}과(와)의 계절`],
+          "액션": [`${main.n} 토벌기`, `${era}의 전쟁`, `최후의 ${main.t}`],
+          "다크판타지": [`${main.n}의 왕좌`, `어둠의 계약`, `${era}, 신들의 황혼`],
+          "미스터리": [`${main.n} 사건`, `${era}의 비밀`, `사라진 ${main.t}의 흔적`],
+        };
+        return pickRandom(titles[genre]);
+      })();
+
+      setSynopsisResult({
+        title,
+        genre, era, lack, relation, theme: thm, ending,
+        beings: synopsisBeings,
+        act1, act2, act3,
+        fullText: `[제목] ${title}\n\n[1막 — 설정]\n${act1}\n\n[2막 — 대립]\n${act2}\n\n[3막 — 해결]\n${act3}`,
+      });
+      setSynopsisCopied(false);
+    };
+
+    const copyToClipboard = () => {
+      if (!synopsisResult) return;
+      navigator.clipboard.writeText(synopsisResult.fullText).then(() => {
+        setSynopsisCopied(true);
+        setTimeout(() => setSynopsisCopied(false), 2000);
+      });
+    };
+
+    const resetSynopsis = () => {
+      setSynopsisBeings([]);
+      setSynopsisGenre(null);
+      setSynopsisEra(null);
+      setSynopsisLack(null);
+      setSynopsisRelation(null);
+      setSynopsisTheme(null);
+      setSynopsisEnding(null);
+      setSynopsisResult(null);
+    };
+
+    const OptionGrid = ({ label, options, value, setter, color }) => (
+      <div style={{ marginBottom: 14 }}>
+        <div style={{ fontSize: 11, fontWeight: 600, color: color || theme.accent, marginBottom: 6 }}>{label}</div>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
+          {options.map(opt => (
+            <button key={opt} onClick={() => { setter(value === opt ? null : opt); setSynopsisResult(null); }} style={{
+              padding: "6px 14px", borderRadius: 14, fontSize: 12, cursor: "pointer",
+              border: `1px solid ${value === opt ? (color || theme.accent) : "#333"}`,
+              background: value === opt ? (color || theme.accent) + "18" : "#111",
+              color: value === opt ? (color || theme.accent) : "#777",
+              fontFamily: "'Crimson Text', serif", fontWeight: value === opt ? 600 : 400,
+              transition: "all 0.2s",
+            }}>
+              {opt}
+            </button>
+          ))}
+        </div>
+      </div>
+    );
+
+    return (
+      <div style={{ maxWidth: 960, margin: "0 auto", padding: "16px" }}>
+        <h2 style={{ fontSize: 26, fontWeight: 700, textAlign: "center", color: theme.accent, marginBottom: 4 }}>
+          📖 시놉시스 생성기
+        </h2>
+        <p style={{ textAlign: "center", fontSize: 13, opacity: 0.5, marginBottom: 24 }}>
+          크리처와 설정을 조합하여 3막 구조 시놉시스를 자동 생성합니다
+        </p>
+
+        {/* ─── Creature Selection ─── */}
+        <div style={{ marginBottom: 20 }}>
+          <div style={{ fontSize: 13, fontWeight: 600, color: theme.accent, marginBottom: 6 }}>
+            ① 크리처 선택 <span style={{ fontSize: 11, opacity: 0.5, fontWeight: 400 }}>(1~3개)</span>
+          </div>
+          {synopsisBeings.length > 0 && (
+            <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginBottom: 8 }}>
+              {synopsisBeings.map((b, i) => (
+                <div key={i} onClick={() => toggleBeing(b)} style={{
+                  display: "inline-flex", gap: 6, alignItems: "center", padding: "5px 12px", borderRadius: 14,
+                  background: [theme.accent + "18", "#ff980018", "#9c27b018"][i],
+                  border: `1px solid ${[theme.accent, "#ff9800", "#9c27b0"][i]}44`,
+                  cursor: "pointer", fontSize: 12,
+                  color: [theme.accent, "#ff9800", "#9c27b0"][i],
+                }}>
+                  {getTypeIcon(b.t)} {b.n} · {b.country}
+                  <span style={{ opacity: 0.5, fontSize: 10 }}>✕</span>
+                </div>
+              ))}
+            </div>
+          )}
+          <input value={synSearch} onChange={e => setSynSearch(e.target.value)} placeholder="이름, 국가, 유형으로 검색..."
+            style={{ width: "100%", maxWidth: 280, padding: "7px 14px", borderRadius: 14, border: `1px solid ${theme.accent}33`,
+              background: "#0a0a0a", color: "#fff", fontSize: 12, fontFamily: "'Crimson Text', serif", outline: "none", display: "block", marginBottom: 6 }} />
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 4, maxHeight: 110, overflow: "auto" }}>
+            {searchedBeings.map((b, i) => {
+              const selected = synopsisBeings.find(x => x.n === b.n && x.country === b.country);
+              return (
+                <span key={i} onClick={() => toggleBeing(b)} style={{
+                  padding: "4px 10px", borderRadius: 10, fontSize: 11, cursor: synopsisBeings.length >= 3 && !selected ? "not-allowed" : "pointer",
+                  background: selected ? theme.accent + "22" : "#111",
+                  border: `1px solid ${selected ? theme.accent : "#222"}`,
+                  color: selected ? theme.accent : "#999",
+                  opacity: synopsisBeings.length >= 3 && !selected ? 0.4 : 1,
+                  transition: "all 0.2s",
+                }}>
+                  {getTypeIcon(b.t)} {b.n} <span style={{ opacity: 0.4 }}>{b.country}</span>
+                </span>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* ─── Options Grid ─── */}
+        <div style={{ marginBottom: 8 }}>
+          <div style={{ fontSize: 13, fontWeight: 600, color: theme.accent, marginBottom: 12 }}>② 설정 선택 <span style={{ fontSize: 11, opacity: 0.5, fontWeight: 400 }}>(미선택 시 랜덤)</span></div>
+          <OptionGrid label="장르" options={GENRES} value={synopsisGenre} setter={setSynopsisGenre} color={theme.accent} />
+          <OptionGrid label="시대배경" options={ERAS} value={synopsisEra} setter={setSynopsisEra} color="#2196f3" />
+          <OptionGrid label="주인공 결핍" options={LACKS} value={synopsisLack} setter={setSynopsisLack} color="#ff9800" />
+          <OptionGrid label="크리처와의 관계" options={RELATIONS} value={synopsisRelation} setter={setSynopsisRelation} color="#e91e63" />
+          <OptionGrid label="테마" options={THEMES} value={synopsisTheme} setter={setSynopsisTheme} color="#9c27b0" />
+          <OptionGrid label="결말 톤" options={ENDINGS} value={synopsisEnding} setter={setSynopsisEnding} color="#00bcd4" />
+        </div>
+
+        {/* ─── Generate Button ─── */}
+        <div style={{ textAlign: "center", marginBottom: 24, display: "flex", justifyContent: "center", gap: 10 }}>
+          <button onClick={generateSynopsis} disabled={synopsisBeings.length === 0} style={{
+            padding: "14px 36px", borderRadius: 28,
+            border: `2px solid ${synopsisBeings.length > 0 ? theme.accent : "#333"}`,
+            background: synopsisBeings.length > 0 ? `linear-gradient(135deg, ${theme.accent}22, ${theme.accent}08)` : "#111",
+            color: synopsisBeings.length > 0 ? theme.accent : "#555",
+            cursor: synopsisBeings.length > 0 ? "pointer" : "not-allowed",
+            fontSize: 16, fontWeight: 700, fontFamily: "'Crimson Text', serif",
+            transition: "all 0.3s", opacity: synopsisBeings.length > 0 ? 1 : 0.5,
+          }}>
+            📖 시놉시스 생성
+          </button>
+          {synopsisResult && (
+            <button onClick={resetSynopsis} style={{
+              padding: "14px 20px", borderRadius: 28, border: "1px solid #444",
+              background: "transparent", color: "#888", cursor: "pointer",
+              fontSize: 13, fontFamily: "'Crimson Text', serif",
+            }}>
+              🔄 초기화
+            </button>
+          )}
+        </div>
+        {synopsisBeings.length === 0 && (
+          <div style={{ textAlign: "center", fontSize: 11, opacity: 0.4, marginTop: -16, marginBottom: 16 }}>크리처를 최소 1개 선택해주세요</div>
+        )}
+
+        {/* ─── Result Synopsis Card ─── */}
+        {synopsisResult && (
+          <div style={{ background: "linear-gradient(145deg, #0f0f1a, #0a0a0a)", border: `1px solid ${theme.accent}44`,
+            borderRadius: 20, overflow: "hidden" }}>
+            {/* Title Header */}
+            <div style={{ padding: "28px 28px 16px", textAlign: "center", position: "relative" }}>
+              <div style={{ position: "absolute", inset: 0, background: `radial-gradient(circle at 50% 0%, ${theme.accent}15, transparent 60%)`, pointerEvents: "none" }} />
+              <h3 style={{ fontSize: 22, fontWeight: 700, color: "#fff", position: "relative", marginBottom: 8 }}>{synopsisResult.title}</h3>
+              <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: 4, position: "relative" }}>
+                <span style={{ fontSize: 10, padding: "3px 8px", borderRadius: 8, background: theme.accent + "18", color: theme.accent }}>{synopsisResult.genre}</span>
+                <span style={{ fontSize: 10, padding: "3px 8px", borderRadius: 8, background: "#2196f318", color: "#2196f3" }}>{synopsisResult.era}</span>
+                <span style={{ fontSize: 10, padding: "3px 8px", borderRadius: 8, background: "#ff980018", color: "#ff9800" }}>결핍: {synopsisResult.lack}</span>
+                <span style={{ fontSize: 10, padding: "3px 8px", borderRadius: 8, background: "#e91e6318", color: "#e91e63" }}>관계: {synopsisResult.relation}</span>
+                <span style={{ fontSize: 10, padding: "3px 8px", borderRadius: 8, background: "#9c27b018", color: "#9c27b0" }}>{synopsisResult.theme}</span>
+                <span style={{ fontSize: 10, padding: "3px 8px", borderRadius: 8, background: "#00bcd418", color: "#00bcd4" }}>{synopsisResult.ending}</span>
+              </div>
+              {/* Being tags */}
+              <div style={{ display: "flex", justifyContent: "center", gap: 6, marginTop: 10, position: "relative" }}>
+                {synopsisResult.beings.map((b, i) => (
+                  <span key={i} style={{ fontSize: 11, padding: "4px 10px", borderRadius: 10,
+                    background: [theme.accent + "15", "#ff980015", "#9c27b015"][i],
+                    border: `1px solid ${[theme.accent, "#ff9800", "#9c27b0"][i]}33`,
+                    color: [theme.accent, "#ff9800", "#9c27b0"][i],
+                  }}>
+                    {getTypeIcon(b.t)} {b.n}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            {/* 3 Acts */}
+            <div style={{ padding: "0 28px 20px", display: "flex", flexDirection: "column", gap: 12 }}>
+              {[
+                { label: "1막 — 설정", text: synopsisResult.act1, color: "#4caf50", icon: "🌅" },
+                { label: "2막 — 대립", text: synopsisResult.act2, color: "#ff9800", icon: "⚔️" },
+                { label: "3막 — 해결", text: synopsisResult.act3, color: "#f44336", icon: "🌙" },
+              ].map((act, i) => (
+                <div key={i} style={{ padding: 16, borderRadius: 14, background: act.color + "06", border: `1px solid ${act.color}20` }}>
+                  <div style={{ fontSize: 11, color: act.color, fontWeight: 700, letterSpacing: "0.12em", marginBottom: 8 }}>
+                    {act.icon} {act.label}
+                  </div>
+                  <div style={{ fontSize: 13, color: "#ccc", lineHeight: 1.7 }}>{act.text}</div>
+                </div>
+              ))}
+            </div>
+
+            {/* Actions */}
+            <div style={{ textAlign: "center", paddingBottom: 20, display: "flex", justifyContent: "center", gap: 8 }}>
+              <button onClick={copyToClipboard} style={{
+                padding: "8px 20px", borderRadius: 20, border: `1px solid ${synopsisCopied ? "#4caf50" : theme.accent}66`,
+                background: synopsisCopied ? "#4caf5015" : "transparent",
+                color: synopsisCopied ? "#4caf50" : theme.accent,
+                cursor: "pointer", fontSize: 12, fontFamily: "'Crimson Text', serif", transition: "all 0.3s",
+              }}>
+                {synopsisCopied ? "✓ 복사됨!" : "📋 시놉시스 복사"}
+              </button>
+              <button onClick={generateSynopsis} style={{
+                padding: "8px 20px", borderRadius: 20, border: `1px solid ${theme.accent}66`,
+                background: "transparent", color: theme.accent, cursor: "pointer", fontSize: 12,
+                fontFamily: "'Crimson Text', serif",
+              }}>
+                🎲 다시 생성
+              </button>
+            </div>
+          </div>
+        )}
+      </div>
+    );
+  };
+
+  // ═══════════════════════════════════════════════════════════════
   //  ⚔ COMPARE PANEL — Side-by-side Creature Comparison
   // ═══════════════════════════════════════════════════════════════
   const ComparePanel = () => {
@@ -3826,6 +4189,7 @@ export default function FolkloreMap() {
           { id: "character", label: "🧙 캐릭터" },
           { id: "webtoon", label: "📱 웹툰 IP" },
           { id: "builder", label: "🛠 빌더" },
+          { id: "synopsis", label: "📖 시놉시스" },
         ].map(tab => (
           <button key={tab.id} onClick={() => setActiveTab(tab.id)} style={{
             padding: "6px 14px", borderRadius: 16,
@@ -4053,6 +4417,7 @@ export default function FolkloreMap() {
       {activeTab === "character" && <CharacterBuilder />}
       {activeTab === "webtoon" && <WebtoonIPDev />}
       {activeTab === "builder" && <CreatureCharBuilder />}
+      {activeTab === "synopsis" && <SynopsisGenerator />}
 
       {/* Modal */}
       <Modal />
