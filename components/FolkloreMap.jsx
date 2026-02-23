@@ -640,6 +640,14 @@ export default function FolkloreMap() {
   const [webtoonResult, setWebtoonResult] = useState(null);
   const [loglineMode, setLoglineMode] = useState("auto"); // "auto" or "custom"
   const [customLogline, setCustomLogline] = useState("");
+  // Creature Character Builder states
+  const [builderBeing, setBuilderBeing] = useState(null);
+  const [builderCharName, setBuilderCharName] = useState("");
+  const [builderAppearance, setBuilderAppearance] = useState("");
+  const [builderPersonality, setBuilderPersonality] = useState("");
+  const [builderMotivation, setBuilderMotivation] = useState("");
+  const [builderArc, setBuilderArc] = useState("");
+  const [builderResult, setBuilderResult] = useState(null);
   const [showCredits, setShowCredits] = useState(false);
   // Creature Profile state
   const [profileBeing, setProfileBeing] = useState(null);
@@ -2538,6 +2546,365 @@ export default function FolkloreMap() {
   };
 
   // ═══════════════════════════════════════════════════════════════
+  //  🛠 CREATURE CHARACTER BUILDER
+  // ═══════════════════════════════════════════════════════════════
+  const CreatureCharBuilder = () => {
+    const [bSearch, setBSearch] = useState("");
+    const [bTypeFilter, setBTypeFilter] = useState(null);
+
+    const allBeings = useMemo(() => {
+      const arr = [];
+      DATA.forEach(c => c.b.forEach(b => arr.push({ ...b, country: c.c, region: c.r, iso: c.i, continent: CONTINENT_MAP[c.r] })));
+      return arr;
+    }, [DATA]);
+
+    const types = useMemo(() => {
+      const s = new Set();
+      allBeings.forEach(b => s.add(b.t));
+      return [...s].sort();
+    }, [allBeings]);
+
+    const filteredBeings = useMemo(() => {
+      let list = allBeings;
+      if (bTypeFilter) list = list.filter(b => b.t === bTypeFilter);
+      if (bSearch) {
+        const q = bSearch.toLowerCase();
+        list = list.filter(b => b.n.toLowerCase().includes(q) || b.country.toLowerCase().includes(q));
+      }
+      return list.slice(0, 24);
+    }, [allBeings, bSearch, bTypeFilter]);
+
+    const generateSheet = () => {
+      if (!builderBeing) return;
+      const b = builderBeing;
+      const name = builderCharName || `이름 없는 ${b.n} 계열 캐릭터`;
+      const appearance = builderAppearance || (b.vk && b.vk.length > 0 ? b.vk.join(", ") + "의 특징을 지닌 존재" : "알 수 없는 외형");
+      const personality = builderPersonality || "미스터리한 성격";
+      const motivation = builderMotivation || "알 수 없는 동기";
+      const arc = builderArc || "운명에 이끌려 변화의 여정을 시작한다";
+
+      const abilities = b.ab ? b.ab.filter(a => a !== "불명") : [];
+      const weaknesses = b.wk ? b.wk.filter(w => !w.includes("불명")) : [];
+      const genres = b.gf || [];
+      const storyHooks = b.sh || [];
+      const visuals = b.vk || [];
+
+      // Generate narrative hooks combining creature data + user input
+      const narrativeHooks = [];
+      if (abilities.length > 0) narrativeHooks.push(`${abilities[0]}의 힘을 지닌 ${name}은(는) ${motivation}을(를) 위해 나아간다.`);
+      if (weaknesses.length > 0) narrativeHooks.push(`그러나 ${weaknesses[0]}이(가) 치명적 약점이 되어 갈등의 원인이 된다.`);
+      if (storyHooks.length > 0) narrativeHooks.push(storyHooks[0]);
+
+      setBuilderResult({
+        name, appearance, personality, motivation, arc,
+        baseBeing: b,
+        abilities, weaknesses, genres, storyHooks, visuals,
+        narrativeHooks,
+      });
+    };
+
+    const resetBuilder = () => {
+      setBuilderBeing(null);
+      setBuilderCharName("");
+      setBuilderAppearance("");
+      setBuilderPersonality("");
+      setBuilderMotivation("");
+      setBuilderArc("");
+      setBuilderResult(null);
+    };
+
+    const inputStyle = {
+      width: "100%", padding: "8px 14px", borderRadius: 12,
+      border: `1px solid ${theme.accent}33`, background: "#0a0a0a",
+      color: "#fff", fontSize: 13, fontFamily: "'Crimson Text', serif", outline: "none",
+    };
+
+    const textareaStyle = {
+      ...inputStyle, minHeight: 60, resize: "vertical", borderRadius: 12,
+    };
+
+    const sectionLabel = (text, color) => (
+      <div style={{ fontSize: 11, fontWeight: 600, color: color || theme.accent, letterSpacing: "0.1em", marginBottom: 6 }}>{text}</div>
+    );
+
+    return (
+      <div style={{ maxWidth: 960, margin: "0 auto", padding: "16px" }}>
+        <h2 style={{ fontSize: 26, fontWeight: 700, textAlign: "center", color: theme.accent, marginBottom: 4 }}>
+          🛠 크리처 캐릭터 빌더
+        </h2>
+        <p style={{ textAlign: "center", fontSize: 13, opacity: 0.5, marginBottom: 24 }}>
+          크리처를 선택하고, 그 능력과 특성을 기반으로 캐릭터 시트를 생성하세요
+        </p>
+
+        {/* ─── Creature Selection ─── */}
+        <div style={{ marginBottom: 20 }}>
+          {sectionLabel("① 크리처 선택")}
+          {builderBeing && (
+            <div style={{ display: "inline-flex", gap: 6, alignItems: "center", padding: "6px 14px", borderRadius: 16,
+              background: theme.accent + "18", border: `1px solid ${theme.accent}44`, marginBottom: 8, cursor: "pointer" }}
+              onClick={() => { setBuilderBeing(null); setBuilderResult(null); }}>
+              <span>{getTypeIcon(builderBeing.t)} {builderBeing.n} · {builderBeing.country}</span>
+              <span style={{ opacity: 0.5, fontSize: 11 }}>✕</span>
+            </div>
+          )}
+          <div style={{ display: "flex", gap: 6, marginBottom: 6, flexWrap: "wrap" }}>
+            <input value={bSearch} onChange={e => setBSearch(e.target.value)} placeholder="이름 또는 국가로 검색..."
+              style={{ ...inputStyle, maxWidth: 240 }} />
+            <select value={bTypeFilter || ""} onChange={e => setBTypeFilter(e.target.value || null)}
+              style={{ padding: "6px 10px", borderRadius: 12, border: "1px solid #333", background: "#0a0a0a", color: "#999", fontSize: 12, outline: "none", cursor: "pointer" }}>
+              <option value="">모든 유형</option>
+              {types.map(t => <option key={t} value={t}>{getTypeIcon(t)} {t}</option>)}
+            </select>
+          </div>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 4, maxHeight: 120, overflow: "auto" }}>
+            {filteredBeings.map((b, i) => (
+              <span key={i} onClick={() => { setBuilderBeing(b); setBuilderResult(null); }} style={{
+                padding: "4px 10px", borderRadius: 10, fontSize: 11, cursor: "pointer",
+                background: builderBeing?.n === b.n && builderBeing?.country === b.country ? theme.accent + "22" : "#111",
+                border: `1px solid ${builderBeing?.n === b.n && builderBeing?.country === b.country ? theme.accent : "#222"}`,
+                color: builderBeing?.n === b.n && builderBeing?.country === b.country ? theme.accent : "#999",
+                transition: "all 0.2s",
+              }}>
+                {getTypeIcon(b.t)} {b.n} <span style={{ opacity: 0.4 }}>{b.country}</span>
+              </span>
+            ))}
+          </div>
+        </div>
+
+        {/* ─── Creature Reference Panel ─── */}
+        {builderBeing && (
+          <div style={{ marginBottom: 20, padding: 16, borderRadius: 16, background: "#0d0d0d", border: `1px solid ${theme.accent}22` }}>
+            <div style={{ fontSize: 15, fontWeight: 700, color: "#fff", marginBottom: 2 }}>
+              {getTypeIcon(builderBeing.t)} {builderBeing.n}
+            </div>
+            <div style={{ fontSize: 11, opacity: 0.5, marginBottom: 10 }}>
+              {builderBeing.country} · {builderBeing.t} · {builderBeing.region}
+            </div>
+            <div style={{ fontSize: 12, opacity: 0.7, marginBottom: 12, lineHeight: 1.5 }}>{builderBeing.d}</div>
+            <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+              {builderBeing.ab && builderBeing.ab.length > 0 && (
+                <div>
+                  <div style={{ fontSize: 10, color: theme.accent, fontWeight: 600, marginBottom: 3 }}>능력</div>
+                  <div style={{ display: "flex", flexWrap: "wrap" }}>{builderBeing.ab.map((a, i) => <TagPill key={i} text={a} color={theme.accent} />)}</div>
+                </div>
+              )}
+              {builderBeing.wk && builderBeing.wk.length > 0 && (
+                <div>
+                  <div style={{ fontSize: 10, color: "#ff9800", fontWeight: 600, marginBottom: 3 }}>약점</div>
+                  <div style={{ display: "flex", flexWrap: "wrap" }}>{builderBeing.wk.map((w, i) => <TagPill key={i} text={w} color="#ff9800" />)}</div>
+                </div>
+              )}
+              {builderBeing.vk && builderBeing.vk.length > 0 && (
+                <div>
+                  <div style={{ fontSize: 10, color: "#9c27b0", fontWeight: 600, marginBottom: 3 }}>외형 키워드</div>
+                  <div style={{ display: "flex", flexWrap: "wrap" }}>{builderBeing.vk.map((v, i) => <TagPill key={i} text={v} color="#9c27b0" />)}</div>
+                </div>
+              )}
+              {builderBeing.gf && builderBeing.gf.length > 0 && (
+                <div>
+                  <div style={{ fontSize: 10, color: "#2196f3", fontWeight: 600, marginBottom: 3 }}>적합 장르</div>
+                  <div style={{ display: "flex", flexWrap: "wrap" }}>{builderBeing.gf.map((g, i) => <TagPill key={i} text={g} color="#2196f3" />)}</div>
+                </div>
+              )}
+              {builderBeing.sh && builderBeing.sh.length > 0 && (
+                <div>
+                  <div style={{ fontSize: 10, color: "#00bcd4", fontWeight: 600, marginBottom: 3 }}>스토리 훅</div>
+                  <div style={{ display: "flex", flexWrap: "wrap" }}>{builderBeing.sh.map((s, i) => <TagPill key={i} text={s} color="#00bcd4" />)}</div>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+
+        {/* ─── Character Input Fields ─── */}
+        <div style={{ marginBottom: 20, display: "flex", flexDirection: "column", gap: 14 }}>
+          {sectionLabel("② 캐릭터 정보 입력")}
+          <div>
+            <div style={{ fontSize: 11, opacity: 0.6, marginBottom: 4 }}>캐릭터 이름</div>
+            <input value={builderCharName} onChange={e => setBuilderCharName(e.target.value)} placeholder="캐릭터 이름을 입력하세요..."
+              style={{ ...inputStyle, maxWidth: 320 }} />
+          </div>
+          <div>
+            <div style={{ fontSize: 11, opacity: 0.6, marginBottom: 4 }}>외형 묘사</div>
+            <textarea value={builderAppearance} onChange={e => setBuilderAppearance(e.target.value)}
+              placeholder="캐릭터의 외형을 묘사하세요... (비워두면 크리처 외형 키워드 기반으로 자동 생성)"
+              style={textareaStyle} />
+          </div>
+          <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
+            <div style={{ flex: 1, minWidth: 200 }}>
+              <div style={{ fontSize: 11, opacity: 0.6, marginBottom: 4 }}>성격</div>
+              <input value={builderPersonality} onChange={e => setBuilderPersonality(e.target.value)} placeholder="예: 냉정하지만 내면은 따뜻한..."
+                style={inputStyle} />
+            </div>
+            <div style={{ flex: 1, minWidth: 200 }}>
+              <div style={{ fontSize: 11, opacity: 0.6, marginBottom: 4 }}>동기</div>
+              <input value={builderMotivation} onChange={e => setBuilderMotivation(e.target.value)} placeholder="예: 잃어버린 기억을 되찾기 위해..."
+                style={inputStyle} />
+            </div>
+          </div>
+          <div>
+            <div style={{ fontSize: 11, opacity: 0.6, marginBottom: 4 }}>캐릭터 아크</div>
+            <textarea value={builderArc} onChange={e => setBuilderArc(e.target.value)}
+              placeholder="캐릭터가 겪을 변화와 성장의 여정을 묘사하세요..."
+              style={textareaStyle} />
+          </div>
+        </div>
+
+        {/* ─── Generate Button ─── */}
+        <div style={{ textAlign: "center", marginBottom: 24, display: "flex", justifyContent: "center", gap: 10 }}>
+          <button onClick={generateSheet} disabled={!builderBeing} style={{
+            padding: "14px 36px", borderRadius: 28, border: `2px solid ${builderBeing ? theme.accent : "#333"}`,
+            background: builderBeing ? `linear-gradient(135deg, ${theme.accent}22, ${theme.accent}08)` : "#111",
+            color: builderBeing ? theme.accent : "#555", cursor: builderBeing ? "pointer" : "not-allowed",
+            fontSize: 16, fontWeight: 700, fontFamily: "'Crimson Text', serif", transition: "all 0.3s",
+            opacity: builderBeing ? 1 : 0.5,
+          }}>
+            📋 캐릭터 시트 생성
+          </button>
+          {builderResult && (
+            <button onClick={resetBuilder} style={{
+              padding: "14px 20px", borderRadius: 28, border: "1px solid #444",
+              background: "transparent", color: "#888", cursor: "pointer",
+              fontSize: 13, fontFamily: "'Crimson Text', serif",
+            }}>
+              🔄 초기화
+            </button>
+          )}
+        </div>
+        {!builderBeing && (
+          <div style={{ textAlign: "center", fontSize: 11, opacity: 0.4, marginTop: -16, marginBottom: 16 }}>
+            크리처를 먼저 선택해주세요
+          </div>
+        )}
+
+        {/* ─── Result Character Sheet Card ─── */}
+        {builderResult && (
+          <div style={{ background: "linear-gradient(145deg, #0f0f1a, #0a0a0a)", border: `1px solid ${theme.accent}44`,
+            borderRadius: 20, overflow: "hidden" }}>
+            {/* Header */}
+            <div style={{ padding: "28px 28px 16px", textAlign: "center", position: "relative" }}>
+              <div style={{ position: "absolute", inset: 0, background: `radial-gradient(circle at 50% 0%, ${theme.accent}15, transparent 60%)`, pointerEvents: "none" }} />
+              <div style={{ fontSize: 48, marginBottom: 8, position: "relative" }}>{getTypeIcon(builderResult.baseBeing.t)}</div>
+              <h3 style={{ fontSize: 24, fontWeight: 700, color: "#fff", position: "relative", marginBottom: 4 }}>{builderResult.name}</h3>
+              <div style={{ display: "inline-flex", gap: 4, position: "relative" }}>
+                <span style={{ fontSize: 11, padding: "3px 10px", borderRadius: 10, background: theme.accent + "18", color: theme.accent, border: `1px solid ${theme.accent}33` }}>
+                  {builderResult.baseBeing.n}
+                </span>
+                <span style={{ fontSize: 11, padding: "3px 10px", borderRadius: 10, background: "#ffffff08", color: "#888", border: "1px solid #ffffff15" }}>
+                  {builderResult.baseBeing.country}
+                </span>
+                <span style={{ fontSize: 11, padding: "3px 10px", borderRadius: 10, background: "#ffffff08", color: "#888", border: "1px solid #ffffff15" }}>
+                  {builderResult.baseBeing.t}
+                </span>
+              </div>
+            </div>
+
+            {/* Bio Sections */}
+            <div style={{ padding: "0 28px 20px", display: "flex", flexDirection: "column", gap: 10 }}>
+              {/* Appearance */}
+              <div style={{ padding: 14, borderRadius: 12, background: "#9c27b008", border: "1px solid #9c27b022" }}>
+                <div style={{ fontSize: 10, color: "#9c27b0", letterSpacing: "0.15em", marginBottom: 4 }}>외형</div>
+                <div style={{ fontSize: 13, opacity: 0.8, lineHeight: 1.5 }}>{builderResult.appearance}</div>
+                {builderResult.visuals.length > 0 && (
+                  <div style={{ display: "flex", flexWrap: "wrap", marginTop: 6 }}>
+                    {builderResult.visuals.map((v, i) => <TagPill key={i} text={v} color="#9c27b0" />)}
+                  </div>
+                )}
+              </div>
+
+              {/* Personality */}
+              <div style={{ padding: 14, borderRadius: 12, background: "#ffffff06", border: "1px solid #ffffff0a" }}>
+                <div style={{ fontSize: 10, color: theme.accent, letterSpacing: "0.15em", marginBottom: 4 }}>성격</div>
+                <div style={{ fontSize: 13, opacity: 0.8 }}>{builderResult.personality}</div>
+              </div>
+
+              {/* Motivation */}
+              <div style={{ padding: 14, borderRadius: 12, background: "#ffffff06", border: "1px solid #ffffff0a" }}>
+                <div style={{ fontSize: 10, color: theme.accent, letterSpacing: "0.15em", marginBottom: 4 }}>동기</div>
+                <div style={{ fontSize: 13, opacity: 0.8 }}>{builderResult.motivation}</div>
+              </div>
+
+              {/* Arc */}
+              <div style={{ padding: 14, borderRadius: 12, background: "#ffffff06", border: "1px solid #ffffff0a" }}>
+                <div style={{ fontSize: 10, color: theme.accent, letterSpacing: "0.15em", marginBottom: 4 }}>캐릭터 아크</div>
+                <div style={{ fontSize: 13, opacity: 0.8, lineHeight: 1.5 }}>{builderResult.arc}</div>
+              </div>
+
+              {/* Abilities */}
+              {builderResult.abilities.length > 0 && (
+                <div style={{ padding: 14, borderRadius: 12, background: `${theme.accent}08`, border: `1px solid ${theme.accent}22` }}>
+                  <div style={{ fontSize: 10, color: theme.accent, letterSpacing: "0.15em", marginBottom: 6 }}>기반 능력</div>
+                  <div style={{ display: "flex", flexWrap: "wrap" }}>
+                    {builderResult.abilities.map((a, i) => <TagPill key={i} text={a} color={theme.accent} />)}
+                  </div>
+                </div>
+              )}
+
+              {/* Weaknesses */}
+              {builderResult.weaknesses.length > 0 && (
+                <div style={{ padding: 14, borderRadius: 12, background: "#ff980008", border: "1px solid #ff980022" }}>
+                  <div style={{ fontSize: 10, color: "#ff9800", letterSpacing: "0.15em", marginBottom: 6 }}>약점</div>
+                  <div style={{ display: "flex", flexWrap: "wrap" }}>
+                    {builderResult.weaknesses.map((w, i) => <TagPill key={i} text={w} color="#ff9800" />)}
+                  </div>
+                </div>
+              )}
+
+              {/* Genres */}
+              {builderResult.genres.length > 0 && (
+                <div style={{ padding: 14, borderRadius: 12, background: "#2196f308", border: "1px solid #2196f322" }}>
+                  <div style={{ fontSize: 10, color: "#2196f3", letterSpacing: "0.15em", marginBottom: 6 }}>적합 장르</div>
+                  <div style={{ display: "flex", flexWrap: "wrap" }}>
+                    {builderResult.genres.map((g, i) => <TagPill key={i} text={g} color="#2196f3" />)}
+                  </div>
+                </div>
+              )}
+
+              {/* Narrative Hooks */}
+              {builderResult.narrativeHooks.length > 0 && (
+                <div style={{ padding: 14, borderRadius: 12, background: "#00bcd408", border: "1px solid #00bcd422" }}>
+                  <div style={{ fontSize: 10, color: "#00bcd4", letterSpacing: "0.15em", marginBottom: 6 }}>내러티브 훅</div>
+                  {builderResult.narrativeHooks.map((h, i) => (
+                    <div key={i} style={{ fontSize: 12, opacity: 0.8, marginBottom: 4, paddingLeft: 8, borderLeft: "2px solid #00bcd433", lineHeight: 1.5 }}>{h}</div>
+                  ))}
+                </div>
+              )}
+
+              {/* Original Story Hooks */}
+              {builderResult.storyHooks.length > 0 && (
+                <div style={{ padding: 14, borderRadius: 12, background: "#00bcd405", border: "1px solid #00bcd415" }}>
+                  <div style={{ fontSize: 10, color: "#00bcd4", letterSpacing: "0.15em", marginBottom: 6, opacity: 0.7 }}>원본 스토리 훅</div>
+                  <div style={{ display: "flex", flexWrap: "wrap" }}>
+                    {builderResult.storyHooks.map((s, i) => <TagPill key={i} text={s} color="#00bcd4" />)}
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {/* Actions */}
+            <div style={{ textAlign: "center", paddingBottom: 20, display: "flex", justifyContent: "center", gap: 8 }}>
+              <button onClick={generateSheet} style={{
+                padding: "8px 20px", borderRadius: 20, border: `1px solid ${theme.accent}66`,
+                background: "transparent", color: theme.accent, cursor: "pointer", fontSize: 12,
+                fontFamily: "'Crimson Text', serif",
+              }}>
+                🔄 다시 생성
+              </button>
+              <button onClick={resetBuilder} style={{
+                padding: "8px 20px", borderRadius: 20, border: "1px solid #444",
+                background: "transparent", color: "#888", cursor: "pointer", fontSize: 12,
+                fontFamily: "'Crimson Text', serif",
+              }}>
+                🗑 초기화
+              </button>
+            </div>
+          </div>
+        )}
+      </div>
+    );
+  };
+
+  // ═══════════════════════════════════════════════════════════════
   //  ⚔ COMPARE PANEL — Side-by-side Creature Comparison
   // ═══════════════════════════════════════════════════════════════
   const ComparePanel = () => {
@@ -3458,6 +3825,7 @@ export default function FolkloreMap() {
           { id: "scenario", label: "🎬 시나리오" },
           { id: "character", label: "🧙 캐릭터" },
           { id: "webtoon", label: "📱 웹툰 IP" },
+          { id: "builder", label: "🛠 빌더" },
         ].map(tab => (
           <button key={tab.id} onClick={() => setActiveTab(tab.id)} style={{
             padding: "6px 14px", borderRadius: 16,
@@ -3684,6 +4052,7 @@ export default function FolkloreMap() {
       {activeTab === "scenario" && <ScenarioGenerator />}
       {activeTab === "character" && <CharacterBuilder />}
       {activeTab === "webtoon" && <WebtoonIPDev />}
+      {activeTab === "builder" && <CreatureCharBuilder />}
 
       {/* Modal */}
       <Modal />
