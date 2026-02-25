@@ -86,27 +86,91 @@ const getRandomEncounter = (data) => {
   return { country, being };
 };
 
-// ── Illustrated card data for 5 featured countries ──
-const FEATURED_CARDS = [
-  { iso: "NO", title: "노르웨이 · Norge", tagline: "바이킹의 어둠이 깨어나는 곳",
-    art: "⚔️", gradient: ["#0a0a1a","#1a1033"],
-    lore: "피오르의 검은 물속에서 크라켄이 뒤틀리고, 고분에서 드라우그가 일어나 부패한 손으로 보물을 움켜쥔다. 요르문간드가 꼬리를 놓으면 라그나로크가 시작되고, 펜리르가 오딘을 삼킨다. 북유럽의 어둠은 세계 그 자체를 끝낸다." },
-  { iso: "JP", title: "일본 · 日本", tagline: "천 개의 요괴가 사는 섬",
-    art: "🏯", gradient: ["#1a0000","#330011"],
-    lore: "산사 깊은 곳부터 안개 낀 강가까지, 일본의 요괴들은 모든 그림자에 도사린다. 쿠치사케온나는 치명적인 질문을 던지고, 갓파는 고대 수로를 지키며, 유레이는 버려진 복도를 떠돈다." },
-  { iso: "PH", title: "필리핀 · Pilipinas", tagline: "밤이 사냥하는 곳",
-    art: "🌴", gradient: ["#0a0a1a","#1a0033"],
-    lore: "필리핀 군도에는 세계에서 가장 두려운 존재들이 서식한다. 아스왕은 어둠 속에서 변신하고, 마나낭갈은 스스로 몸을 분리해 날아다니며, 틱발랑은 여행자를 길을 잃게 만든다." },
-  { iso: "RO", title: "루마니아 · România", tagline: "뱀파이어의 고향",
-    art: "🏰", gradient: ["#0d0008","#1a0020"],
-    lore: "트란실바니아의 안개 낀 골짜기에서 스트리고이가 무덤에서 일어난다. 모로이는 산 자의 생명력을 빨아들이고, 프리콜리치는—죽음으로도 벌할 수 없는 영혼—언데드 늑대로 배회한다." },
-  { iso: "NG", title: "나이지리아 · Nàìjíríà", tagline: "고대 숲의 정령들",
-    art: "🌿", gradient: ["#001a0a","#0a1a00"],
-    lore: "나이지리아 민담은 영적 힘으로 맥동한다. 아비쿠 정령은 영아의 영혼을 괴롭히고, 에그베레는 그늘진 숲에서 울며, 부시 베이비의 울음소리는 황야의 죽음의 덫이다." },
-  { iso: "MX", title: "멕시코 · México", tagline: "죽은 자가 쉬지 않는 곳",
-    art: "💀", gradient: ["#1a0f00","#1a0500"],
-    lore: "라 요로나의 울음이 수로를 따라 메아리친다. 나왈은 달빛 아래 인간과 재규어 사이를 변신한다. 추파카브라는 사막의 밤에 가축을 습격한다." },
-];
+// ── 매일 자동 회전하는 특집 카드 시스템 ──
+const CONTINENT_GRADIENTS = {
+  Asia: [["#1a0000","#330011"],["#1a0505","#2a0015"],["#200008","#180020"]],
+  Europe: [["#0a0a1a","#1a1033"],["#0d0008","#1a0020"],["#080818","#1a0a30"]],
+  Africa: [["#001a0a","#0a1a00"],["#1a140a","#1a0f00"],["#0f1a08","#0a1a0a"]],
+  Americas: [["#1a0f00","#1a0500"],["#0a1a0f","#001a15"],["#0f1a0a","#051a0f"]],
+  Oceania: [["#0a161a","#0a1a1a"],["#081a1a","#0a1520"],["#0a101a","#0a1a18"]],
+};
+const CONTINENT_ART = {
+  Asia: ["🏯","🐉","🎌","🗡️","👺","🌸"],
+  Europe: ["🏰","⚔️","🧛","🗝️","🐺","🌑"],
+  Africa: ["🌿","🦁","🌍","🌙","🔱","🏺"],
+  Americas: ["💀","🗿","🌵","🦅","🐍","🌋"],
+  Oceania: ["🌊","🦈","🏝️","🐚","🌺","🐊"],
+};
+const SPOTLIGHT_TAGLINES = {
+  Asia: ["고대 전설이 숨 쉬는 땅","요괴의 그림자가 드리우는 곳","영혼과 인간이 교차하는 밤","천년의 어둠이 서린 곳"],
+  Europe: ["안개 속에서 전설이 깨어난다","고성에 울리는 비명","달빛 아래 늑대가 울부짖는 곳","봉인된 어둠이 풀리는 밤"],
+  Africa: ["정령의 숲이 속삭이는 곳","고대 영혼의 메아리","대지의 저주가 살아 숨 쉰다","밤의 사냥꾼이 깨어나는 땅"],
+  Americas: ["죽은 자가 쉬지 않는 곳","정글 깊은 곳의 포식자","고대 문명의 어둠","대륙을 뒤흔든 전설"],
+  Oceania: ["깊은 바다의 공포","태고의 땅에서 온 존재","섬에 봉인된 전설","파도 너머의 괴물"],
+};
+function getDailyFeatured(data) {
+  const today = new Date();
+  const daySeed = today.getFullYear() * 10000 + (today.getMonth()+1) * 100 + today.getDate();
+  // Simple deterministic hash from seed
+  const hash = (seed, idx) => {
+    let h = seed * 2654435761 + idx * 40503;
+    h = ((h >>> 16) ^ h) * 0x45d9f3b;
+    h = ((h >>> 16) ^ h) * 0x45d9f3b;
+    return (h >>> 16) ^ h;
+  };
+  // Group countries by continent
+  const byContinent = {};
+  data.forEach(c => {
+    const cont = CONTINENT_MAP[c.r];
+    if (!byContinent[cont]) byContinent[cont] = [];
+    byContinent[cont].push(c);
+  });
+  const continents = Object.keys(byContinent).sort();
+  const cards = [];
+  // Pick 1 from each continent + 1 bonus = 6 cards
+  continents.forEach((cont, ci) => {
+    const pool = byContinent[cont];
+    const pick = Math.abs(hash(daySeed, ci)) % pool.length;
+    const country = pool[pick];
+    const gradients = CONTINENT_GRADIENTS[cont];
+    const arts = CONTINENT_ART[cont];
+    const taglines = SPOTLIGHT_TAGLINES[cont];
+    const topBeing = [...country.b].sort((a,b) => b.f - a.f)[0];
+    const beingNames = country.b.slice(0, 3).map(b => b.n).join(", ");
+    cards.push({
+      iso: country.i,
+      title: country.c,
+      tagline: taglines[Math.abs(hash(daySeed, ci + 100)) % taglines.length],
+      art: arts[Math.abs(hash(daySeed, ci + 200)) % arts.length],
+      gradient: gradients[Math.abs(hash(daySeed, ci + 300)) % gradients.length],
+      lore: `${country.c}의 민담 속에서 ${beingNames} 등 ${country.b.length}개의 존재가 어둠 속에 도사린다. 가장 두려운 ${topBeing.n}(공포 ${topBeing.f}/10)이(가) 이 땅의 전설을 지배한다.`,
+    });
+  });
+  // Bonus: 6th card from random continent
+  const bonusCont = continents[Math.abs(hash(daySeed, 999)) % continents.length];
+  const bonusPool = byContinent[bonusCont];
+  // Pick a different country than the one already chosen for this continent
+  const existingIso = cards.find(c => CONTINENT_MAP[data.find(d => d.i === c.iso)?.r] === bonusCont)?.iso;
+  const filtered = bonusPool.filter(c => c.i !== existingIso);
+  if (filtered.length > 0) {
+    const pick2 = Math.abs(hash(daySeed, 777)) % filtered.length;
+    const country2 = filtered[pick2];
+    const gradients = CONTINENT_GRADIENTS[bonusCont];
+    const arts = CONTINENT_ART[bonusCont];
+    const taglines = SPOTLIGHT_TAGLINES[bonusCont];
+    const topBeing = [...country2.b].sort((a,b) => b.f - a.f)[0];
+    const beingNames = country2.b.slice(0, 3).map(b => b.n).join(", ");
+    cards.push({
+      iso: country2.i,
+      title: country2.c,
+      tagline: taglines[Math.abs(hash(daySeed, 888)) % taglines.length],
+      art: arts[Math.abs(hash(daySeed, 888)) % arts.length],
+      gradient: gradients[Math.abs(hash(daySeed, 888)) % gradients.length],
+      lore: `${country2.c}의 민담 속에서 ${beingNames} 등 ${country2.b.length}개의 존재가 어둠 속에 도사린다. 가장 두려운 ${topBeing.n}(공포 ${topBeing.f}/10)이(가) 이 땅의 전설을 지배한다.`,
+    });
+  }
+  return cards;
+}
 
 // ═══════════════════════════════════════════════════════════════
 //  CREATIVE STUDIO DATA — Scenario Generator, Character Builder, Webtoon IP
@@ -1592,17 +1656,155 @@ export default function FolkloreMap() {
     </div>
   );
 
-  // ── Featured Illustrated Cards ──
-  const FeaturedCards = () => (
+  // ── Featured Illustrated Cards (매일 자동 회전 + 외부 발굴) ──
+  const dailyFeatured = useMemo(() => getDailyFeatured(DATA), [DATA]);
+  const [spotlight, setSpotlight] = useState(null);
+  const [spotlightLoading, setSpotlightLoading] = useState(true);
+
+  useEffect(() => {
+    let cancelled = false;
+    fetch('/api/daily-spotlight')
+      .then(r => r.json())
+      .then(data => { if (!cancelled) setSpotlight(data); })
+      .catch(() => {})
+      .finally(() => { if (!cancelled) setSpotlightLoading(false); });
+    return () => { cancelled = true; };
+  }, []);
+
+  const FeaturedCards = () => {
+    const today = new Date();
+    const dateStr = `${today.getFullYear()}.${String(today.getMonth()+1).padStart(2,'0')}.${String(today.getDate()).padStart(2,'0')}`;
+    return (
     <div style={{ maxWidth: 1100, margin: "0 auto", padding: "16px" }}>
       <h2 style={{ fontSize: 22, fontWeight: 700, textAlign: "center", marginBottom: 4, color: theme.accent }}>
         🎴 특집 민담 스포트라이트
       </h2>
       <p style={{ textAlign: "center", fontSize: 12, opacity: 0.5, marginBottom: 20 }}>
-        전설적인 민담 전통을 깊이 들여다보는 일러스트 카드
+        매일 새로운 전설을 만나보세요 — {dateStr}
       </p>
+
+      {/* ── 1) 오늘의 민담 발견 (Wikipedia) ── */}
+      {spotlightLoading ? (
+        <div style={{ textAlign: "center", padding: 30, opacity: 0.5 }}>
+          <div style={{ fontSize: 28, marginBottom: 8, animation: "pulse 1.5s infinite" }}>🔍</div>
+          <div style={{ fontSize: 13 }}>전 세계 민담을 탐색하는 중...</div>
+        </div>
+      ) : spotlight && spotlight.discoveries && spotlight.discoveries.length > 0 ? (
+        <div style={{ marginBottom: 28 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 14 }}>
+            <span style={{ fontSize: 16 }}>📜</span>
+            <h3 style={{ fontSize: 16, fontWeight: 700, color: theme.accent }}>오늘의 민담 발견</h3>
+            <div style={{ flex: 1, height: 1, background: theme.accent + "22" }} />
+            {spotlight.categories && (
+              <div style={{ display: "flex", gap: 4 }}>
+                {spotlight.categories.map((cat, i) => (
+                  <span key={i} style={{ fontSize: 9, padding: "2px 6px", borderRadius: 8, background: theme.accent + "15", color: theme.accent, border: `1px solid ${theme.accent}33` }}>
+                    {cat}
+                  </span>
+                ))}
+              </div>
+            )}
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))", gap: 14 }}>
+            {spotlight.discoveries.map((d, i) => (
+              <a
+                key={i}
+                href={d.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  background: `linear-gradient(145deg, ${theme.card || "#1a1a2e"}, ${theme.bg || "#0d0d1a"})`,
+                  border: `1px solid ${theme.accent}22`,
+                  borderRadius: 14,
+                  padding: 0,
+                  overflow: "hidden",
+                  cursor: "pointer",
+                  transition: "all 0.3s",
+                  textDecoration: "none",
+                  color: "inherit",
+                  display: "flex",
+                  flexDirection: "column",
+                }}
+                onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-3px)"; e.currentTarget.style.borderColor = theme.accent + "55"; }}
+                onMouseLeave={e => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.borderColor = theme.accent + "22"; }}
+              >
+                {d.thumbnail && (
+                  <div style={{ width: "100%", height: 140, overflow: "hidden", position: "relative" }}>
+                    <img src={d.thumbnail} alt={d.title} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                    <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, height: 50, background: `linear-gradient(transparent, ${theme.bg || "#0d0d1a"})` }} />
+                  </div>
+                )}
+                <div style={{ padding: "12px 16px 16px" }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 6 }}>
+                    <span style={{ fontSize: 9, padding: "2px 6px", borderRadius: 6, background: d.lang === 'ko' ? "#3b82f622" : "#f59e0b22", color: d.lang === 'ko' ? "#60a5fa" : "#fbbf24" }}>
+                      {d.lang === 'ko' ? '한국어' : 'English'}
+                    </span>
+                    <span style={{ fontSize: 9, padding: "2px 6px", borderRadius: 6, background: theme.accent + "15", color: theme.accent }}>
+                      {d.category}
+                    </span>
+                    <span style={{ fontSize: 9, opacity: 0.4, marginLeft: "auto" }}>Wikipedia</span>
+                  </div>
+                  <h4 style={{ fontSize: 15, fontWeight: 700, color: "#fff", marginBottom: 6, lineHeight: 1.3 }}>{d.title}</h4>
+                  <p style={{ fontSize: 12, lineHeight: 1.6, opacity: 0.6, margin: 0 }}>
+                    {d.extract.length > 150 ? d.extract.substring(0, 150) + '...' : d.extract}
+                  </p>
+                  <div style={{ marginTop: 10, fontSize: 11, color: theme.accent, opacity: 0.8 }}>
+                    자세히 읽기 →
+                  </div>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      ) : null}
+
+      {/* ── 2) 관련 뉴스 (Google News) ── */}
+      {spotlight && spotlight.news && spotlight.news.length > 0 && (
+        <div style={{ marginBottom: 28 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 14 }}>
+            <span style={{ fontSize: 16 }}>📰</span>
+            <h3 style={{ fontSize: 16, fontWeight: 700, color: theme.accent }}>민담 · 신화 관련 뉴스</h3>
+            <div style={{ flex: 1, height: 1, background: theme.accent + "22" }} />
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))", gap: 10 }}>
+            {spotlight.news.map((n, i) => (
+              <a
+                key={i}
+                href={n.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  background: theme.card || "#1a1a2e",
+                  border: `1px solid ${theme.accent}15`,
+                  borderRadius: 10,
+                  padding: "14px 16px",
+                  cursor: "pointer",
+                  transition: "all 0.3s",
+                  textDecoration: "none",
+                  color: "inherit",
+                }}
+                onMouseEnter={e => { e.currentTarget.style.borderColor = theme.accent + "44"; }}
+                onMouseLeave={e => { e.currentTarget.style.borderColor = theme.accent + "15"; }}
+              >
+                <h4 style={{ fontSize: 13, fontWeight: 600, color: "#fff", marginBottom: 6, lineHeight: 1.4 }}>{n.title}</h4>
+                <div style={{ display: "flex", justifyContent: "space-between", fontSize: 10, opacity: 0.4 }}>
+                  <span>{n.source}</span>
+                  <span>{n.pubDate ? new Date(n.pubDate).toLocaleDateString('ko-KR') : ''}</span>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* ── 3) 오늘의 추천 국가 (기존 크리처 데이터 회전) ── */}
+      <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 14 }}>
+        <span style={{ fontSize: 16 }}>🌍</span>
+        <h3 style={{ fontSize: 16, fontWeight: 700, color: theme.accent }}>오늘의 추천 국가</h3>
+        <div style={{ flex: 1, height: 1, background: theme.accent + "22" }} />
+      </div>
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: 20 }}>
-        {FEATURED_CARDS.map((card) => {
+        {dailyFeatured.map((card) => {
           const countryData = DATA.find(c => c.i === card.iso);
           const cont = countryData ? CONTINENT_MAP[countryData.r] : "Asia";
           const cTheme = CONTINENT_COLORS[cont];
@@ -1637,8 +1839,8 @@ export default function FolkloreMap() {
                 <p style={{ fontSize: 13, lineHeight: 1.6, opacity: 0.7, marginBottom: 12 }}>{card.lore}</p>
                 {countryData && (
                   <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
-                    {countryData.b.map((b, i) => (
-                      <span key={i} style={{ fontSize: 10, padding: "3px 8px", borderRadius: 10, background: cTheme.accent + "18", color: cTheme.accent, border: `1px solid ${cTheme.accent}33` }}>
+                    {countryData.b.map((b, bi) => (
+                      <span key={bi} style={{ fontSize: 10, padding: "3px 8px", borderRadius: 10, background: cTheme.accent + "18", color: cTheme.accent, border: `1px solid ${cTheme.accent}33` }}>
                         {getTypeIcon(b.t)} {b.n} {"☠".repeat(b.f >= 7 ? b.f - 6 : 0)}
                       </span>
                     ))}
@@ -1650,7 +1852,7 @@ export default function FolkloreMap() {
         })}
       </div>
     </div>
-  );
+  );};
 
   // ═══════════════════════════════════════════════════════════════
   //  🎬 SCENARIO GENERATOR
