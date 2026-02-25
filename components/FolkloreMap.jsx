@@ -1357,14 +1357,14 @@ export default function FolkloreMap() {
           <span style={styles.regionTag(cTheme.accent)}>{country.r}</span>
         </div>
         {/* Portrait watermark */}
-        <div style={{ position: "absolute", right: -8, top: "50%", transform: "translateY(-50%)", pointerEvents: "none", opacity: 0.05 }}>
-          <Portrait name={country.b[0]?.n || ""} type={country.b[0]?.t || "Ghost"} color={cTheme.accent} size={120} />
+        <div style={{ position: "absolute", right: -8, top: "50%", transform: "translateY(-50%)", pointerEvents: "none", opacity: getCreatureImage(country.b[0]?.id) ? 0.12 : 0.05 }}>
+          {getCreatureImage(country.b[0]?.id) ? <img src={getCreatureImage(country.b[0]?.id)} alt="" style={{ width: 120, height: 120, objectFit: "cover", borderRadius: "50%" }} /> : <Portrait name={country.b[0]?.n || ""} type={country.b[0]?.t || "Ghost"} color={cTheme.accent} size={120} />}
         </div>
 
         {country.b.slice(0, 2).map((being, i) => (
           <div key={i} style={styles.beingItem}>
             <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
-              <Portrait name={being.n} type={being.t} color={cTheme.accent} size={20} />
+              {getCreatureImage(being.id) ? <img src={getCreatureImage(being.id)} alt={being.n} style={{ width: 20, height: 20, objectFit: "cover", borderRadius: 4 }} /> : <Portrait name={being.n} type={being.t} color={cTheme.accent} size={20} />}
               <span style={{ fontSize: 14, fontWeight: 600 }}>{being.n}</span>
             </div>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
@@ -1570,9 +1570,10 @@ export default function FolkloreMap() {
                   <span style={{ fontSize: 20, fontWeight: 800, color: i === 0 ? "#ffd700" : i === 1 ? "#c0c0c0" : i === 2 ? "#cd7f32" : "#555", width: 26, textAlign: "center", fontFamily: "monospace" }}>
                     {i + 1}
                   </span>
+                  {getCreatureImage(b.id) ? <img src={getCreatureImage(b.id)} alt={b.n} style={{ width: 32, height: 32, objectFit: "cover", borderRadius: 8, flexShrink: 0 }} /> : null}
                   <div style={{ flex: 1 }}>
                     <div style={{ fontSize: 14, fontWeight: 600 }}>
-                      {getTypeIcon(b.t)} {b.n}
+                      {!getCreatureImage(b.id) && getTypeIcon(b.t)} {b.n}
                     </div>
                     <div style={{ fontSize: 11, opacity: 0.5 }}>{b.country} · {b.t}</div>
                   </div>
@@ -3376,7 +3377,7 @@ export default function FolkloreMap() {
               }} onClick={() => item && removeFromCompare(i)}>
                 {item ? (
                   <>
-                    <Portrait name={item.being.n} type={item.being.t} color={COMP_COLORS[i]} size={28} />
+                    {getCreatureImage(item.being.id) ? <img src={getCreatureImage(item.being.id)} alt={item.being.n} style={{ width: 28, height: 28, objectFit: "cover", borderRadius: 6 }} /> : <Portrait name={item.being.n} type={item.being.t} color={COMP_COLORS[i]} size={28} />}
                     <div style={{ overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", maxWidth: 100 }}>
                       <div style={{ fontSize: 12, fontWeight: 700 }}>{item.being.n.split("(")[0].trim()}</div>
                       <div style={{ fontSize: 9, opacity: 0.6 }}>{item.country} · ✕제거</div>
@@ -3435,8 +3436,8 @@ export default function FolkloreMap() {
 
                     {/* Portrait */}
                     <div style={{ textAlign: "center", marginBottom: 10 }}>
-                      <div style={{ display: "inline-block", background: COMP_COLORS[i] + "15", borderRadius: 16, padding: 8 }}>
-                        <Portrait name={b.n} type={b.t} color={COMP_COLORS[i]} size={56} glow={b.f >= 7} />
+                      <div style={{ display: "inline-block", background: COMP_COLORS[i] + "15", borderRadius: 16, padding: 8, overflow: "hidden" }}>
+                        {getCreatureImage(b.id) ? <img src={getCreatureImage(b.id)} alt={b.n} style={{ width: 56, height: 56, objectFit: "cover", borderRadius: 12 }} /> : <Portrait name={b.n} type={b.t} color={COMP_COLORS[i]} size={56} glow={b.f >= 7} />}
                       </div>
                     </div>
 
@@ -3567,7 +3568,13 @@ export default function FolkloreMap() {
           </div>
           <div style={{ position: "relative", marginBottom: 16, display: "flex", justifyContent: "center" }}>
             <div style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", width: 160, height: 160, borderRadius: "50%", background: `radial-gradient(circle, ${cTheme.accent}15, transparent 65%)`, animation: "fearPulse 2.5s ease-in-out infinite" }} />
-            <Portrait name={encounter.being.n} type={encounter.being.t} color={cTheme.accent} size={110} glow={true} animate={true} />
+            {getCreatureImage(encounter.being.id) ? (
+              <div style={{ width: 110, height: 110, borderRadius: "50%", overflow: "hidden", border: `3px solid ${cTheme.accent}66`, boxShadow: `0 0 30px ${cTheme.accent}33` }}>
+                <img src={getCreatureImage(encounter.being.id)} alt={encounter.being.n} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+              </div>
+            ) : (
+              <Portrait name={encounter.being.n} type={encounter.being.t} color={cTheme.accent} size={110} glow={true} animate={true} />
+            )}
           </div>
           <h2 style={{ fontSize: 26, fontWeight: 700, color: "#fff", position: "relative", marginBottom: 4 }}>
             {encounter.being.n}
@@ -4089,8 +4096,8 @@ export default function FolkloreMap() {
                         cursor: "pointer", transition: "all 0.3s",
                         display: "flex", gap: 12, alignItems: "center",
                       }}>
-                        <div style={{ background: rC + "12", borderRadius: 10, padding: 4, flexShrink: 0 }}>
-                          <Portrait name={r.n} type={r.t} color={rC} size={40} glow={r.f >= 4} />
+                        <div style={{ background: rC + "12", borderRadius: 10, padding: 4, flexShrink: 0, overflow: "hidden" }}>
+                          {getCreatureImage(r.id) ? <img src={getCreatureImage(r.id)} alt={r.n} style={{ width: 40, height: 40, objectFit: "cover", borderRadius: 8 }} /> : <Portrait name={r.n} type={r.t} color={rC} size={40} glow={r.f >= 4} />}
                         </div>
                         <div style={{ flex: 1, minWidth: 0 }}>
                           <div style={{ fontSize: 14, fontWeight: 600, color: "#eee" }}>{r.n}</div>
