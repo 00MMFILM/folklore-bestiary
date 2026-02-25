@@ -1,0 +1,188 @@
+{
+  "timestamp": "2026-02-25T04:58:26.729Z",
+  "total": 30,
+  "success": 30,
+  "failed": 0,
+  "results": [
+    {
+      "id": "dokkaebi",
+      "name": "도깨비",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/east-asia/dokkaebi.webp"
+    },
+    {
+      "id": "gumiho",
+      "name": "구미호",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/east-asia/gumiho.webp"
+    },
+    {
+      "id": "tengu",
+      "name": "텐구",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/east-asia/tengu.webp"
+    },
+    {
+      "id": "jiangshi",
+      "name": "강시",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/east-asia/jiangshi.webp"
+    },
+    {
+      "id": "olgoi-khorkhoi",
+      "name": "올고이코르코이",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/east-asia/olgoi-khorkhoi.webp"
+    },
+    {
+      "id": "banshee",
+      "name": "밴시",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/europe/banshee.webp"
+    },
+    {
+      "id": "kraken",
+      "name": "크라켄",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/europe/kraken.webp"
+    },
+    {
+      "id": "baba-yaga",
+      "name": "바바야가",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/europe/baba-yaga.webp"
+    },
+    {
+      "id": "strigoi",
+      "name": "스트리고이",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/europe/strigoi.webp"
+    },
+    {
+      "id": "draugr",
+      "name": "드라우그",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/europe/draugr.webp"
+    },
+    {
+      "id": "wendigo",
+      "name": "웬디고",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/americas/wendigo.webp"
+    },
+    {
+      "id": "quetzalcoatl",
+      "name": "케찰코아틀",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/americas/quetzalcoatl.webp"
+    },
+    {
+      "id": "chupacabra",
+      "name": "추파카브라",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/americas/chupacabra.webp"
+    },
+    {
+      "id": "mapinguari",
+      "name": "마핑구아리",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/americas/mapinguari.webp"
+    },
+    {
+      "id": "pishtaco",
+      "name": "피시타코",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/americas/pishtaco.webp"
+    },
+    {
+      "id": "adze",
+      "name": "아제",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/africa/adze.webp"
+    },
+    {
+      "id": "tokoloshe",
+      "name": "토콜로셰",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/africa/tokoloshe.webp"
+    },
+    {
+      "id": "ninki-nanka",
+      "name": "닌키난카",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/africa/ninki-nanka.webp"
+    },
+    {
+      "id": "popobawa",
+      "name": "포포바와",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/africa/popobawa.webp"
+    },
+    {
+      "id": "impundulu",
+      "name": "임푼둘루",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/africa/impundulu.webp"
+    },
+    {
+      "id": "rakshasa",
+      "name": "락샤사",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/south-asia/rakshasa.webp"
+    },
+    {
+      "id": "vetala",
+      "name": "베탈라",
+      "status": "success",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/south-asia/vetala.webp"
+    },
+    {
+      "id": "yaksha",
+      "name": "야차",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/south-asia/yaksha.webp"
+    },
+    {
+      "id": "bhoot",
+      "name": "부트",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/south-asia/bhoot.webp"
+    },
+    {
+      "id": "mahakala",
+      "name": "마하칼라",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/south-asia/mahakala.webp"
+    },
+    {
+      "id": "taniwha",
+      "name": "타니화",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/oceania/taniwha.webp"
+    },
+    {
+      "id": "bunyip",
+      "name": "버닙",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/oceania/bunyip.webp"
+    },
+    {
+      "id": "adaro",
+      "name": "아다로",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/oceania/adaro.webp"
+    },
+    {
+      "id": "tipua",
+      "name": "티푸아",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/oceania/tipua.webp"
+    },
+    {
+      "id": "yowie",
+      "name": "요위",
+      "status": "exists",
+      "path": "/Users/leechangyeop/folklore-bestiary/public/creatures/oceania/yowie.webp"
+    }
+  ]
+}
