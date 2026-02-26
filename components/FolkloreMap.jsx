@@ -632,7 +632,7 @@ const createStyles = (theme) => ({
     gap: 6,
     padding: "4px 16px 12px",
     flexWrap: "wrap",
-    zIndex: 2,
+    zIndex: 1,
     position: "relative",
   },
   filterBtn: (active, color) => ({
