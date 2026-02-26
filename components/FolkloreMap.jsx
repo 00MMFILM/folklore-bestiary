@@ -4482,7 +4482,7 @@ export default function FolkloreMap() {
       </div>
 
       {/* Tab Navigation */}
-      <div style={{ display: "flex", justifyContent: "center", gap: 6, padding: "4px 16px 8px", flexWrap: "wrap", zIndex: 2, position: "relative" }}>
+      <div style={{ display: "flex", justifyContent: "center", gap: 6, padding: "4px 16px 8px", flexWrap: "wrap", zIndex: 10, position: "relative" }}>
         {[
           { id: "explore", label: "🗺 탐험" },
           { id: "stats", label: "📊 통계" },
