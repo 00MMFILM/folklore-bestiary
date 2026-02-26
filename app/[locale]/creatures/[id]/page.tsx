@@ -102,6 +102,7 @@ export default async function CreaturePage({
 
   const breadcrumbItems = [
     { label: t["nav.home"], href: "/" },
+    { label: t["index.breadcrumb"], href: `/${locale}/creatures` },
     {
       label: creature.region,
       href: `/${locale}/creatures/region/${creature.region.toLowerCase().replace(/\s+/g, "-")}`,

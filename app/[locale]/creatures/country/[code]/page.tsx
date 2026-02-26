@@ -80,6 +80,7 @@ export default async function CountryPage({
 
   const breadcrumbItems = [
     { label: t["nav.home"], href: "/" },
+    { label: t["index.breadcrumb"], href: `/${locale}/creatures` },
     { label: country.region, href: `/${locale}/creatures/region/${regionSlug}` },
     { label: country.name },
   ];

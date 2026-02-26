@@ -691,6 +691,15 @@ export default function FolkloreMap() {
   const [viewMode, setViewMode] = useState("map"); // "map" or "grid"
   const [activeTab, setActiveTab] = useState("explore"); // "explore","stats","ranking","featured"
   const [showCreativeMenu, setShowCreativeMenu] = useState(false);
+  const creativeMenuRef = useRef(null);
+  useEffect(() => {
+    if (!showCreativeMenu) return;
+    const handler = (e) => {
+      if (creativeMenuRef.current && !creativeMenuRef.current.contains(e.target)) setShowCreativeMenu(false);
+    };
+    document.addEventListener("mousedown", handler);
+    return () => document.removeEventListener("mousedown", handler);
+  }, [showCreativeMenu]);
   const [encounter, setEncounter] = useState(null);
   const [encounterAnim, setEncounterAnim] = useState(false);
   // Creative Studio states
@@ -1693,6 +1702,11 @@ export default function FolkloreMap() {
           <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 14 }}>
             <span style={{ fontSize: 16 }}>📜</span>
             <h3 style={{ fontSize: 16, fontWeight: 700, color: theme.accent }}>오늘의 민담 발견</h3>
+            {spotlight.date && (
+              <span style={{ fontSize: 10, color: "#888", background: "#ffffff08", padding: "2px 8px", borderRadius: 8 }}>
+                🕐 {spotlight.date}
+              </span>
+            )}
             <div style={{ flex: 1, height: 1, background: theme.accent + "22" }} />
             {spotlight.categories && (
               <div style={{ display: "flex", gap: 4 }}>
@@ -1788,7 +1802,7 @@ export default function FolkloreMap() {
                 <h4 style={{ fontSize: 13, fontWeight: 600, color: "#fff", marginBottom: 6, lineHeight: 1.4 }}>{n.title}</h4>
                 <div style={{ display: "flex", justifyContent: "space-between", fontSize: 10, opacity: 0.4 }}>
                   <span>{n.source}</span>
-                  <span>{n.pubDate ? new Date(n.pubDate).toLocaleDateString('ko-KR') : ''}</span>
+                  <span>{n.pubDate ? new Date(n.pubDate).toLocaleString('ko-KR', { month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false }) : ''}</span>
                 </div>
               </a>
             ))}
@@ -4489,7 +4503,7 @@ export default function FolkloreMap() {
         ))}
 
         {/* 창작 도구 드롭다운 */}
-        <div style={{ position: "relative" }}>
+        <div ref={creativeMenuRef} style={{ position: "relative" }}>
           <button onClick={() => setShowCreativeMenu(!showCreativeMenu)} style={{
             padding: "6px 14px", borderRadius: 16,
             border: `1px solid ${["scenario","character","webtoon","builder","synopsis"].includes(activeTab) ? theme.accent : "#333"}`,
