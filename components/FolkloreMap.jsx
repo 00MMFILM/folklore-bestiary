@@ -4503,7 +4503,7 @@ export default function FolkloreMap() {
         ))}
 
         {/* 창작 도구 드롭다운 */}
-        <div ref={creativeMenuRef} style={{ position: "relative" }}>
+        <div ref={creativeMenuRef} style={{ position: "relative", zIndex: 200 }}>
           <button onClick={() => setShowCreativeMenu(!showCreativeMenu)} style={{
             padding: "6px 14px", borderRadius: 16,
             border: `1px solid ${["scenario","character","webtoon","builder","synopsis"].includes(activeTab) ? theme.accent : "#333"}`,
