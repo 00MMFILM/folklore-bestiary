@@ -48,6 +48,48 @@ interface Dictionary {
   // Meta
   "meta.siteName": string;
   "meta.siteDesc": string;
+  // Community
+  "community.title": string;
+  "community.desc": string;
+  "community.write": string;
+  "community.nickname": string;
+  "community.password": string;
+  "community.passwordPlaceholder": string;
+  "community.titleField": string;
+  "community.content": string;
+  "community.genre": string;
+  "community.creatures": string;
+  "community.submit": string;
+  "community.edit": string;
+  "community.delete": string;
+  "community.cancel": string;
+  "community.save": string;
+  "community.confirmDelete": string;
+  "community.passwordRequired": string;
+  "community.wrongPassword": string;
+  "community.noPosts": string;
+  "community.firstPost": string;
+  "community.views": string;
+  "community.searchCreature": string;
+  "community.back": string;
+  "community.createdAt": string;
+  "community.enterPassword": string;
+  "community.passwordHint": string;
+  "community.prev": string;
+  "community.next": string;
+  "community.page": string;
+  "community.allGenres": string;
+  "community.nicknamePlaceholder": string;
+  "community.titlePlaceholder": string;
+  "community.contentPlaceholder": string;
+  "community.writeSuccess": string;
+  "community.editSuccess": string;
+  "community.deleteSuccess": string;
+  "genre.free": string;
+  "genre.story": string;
+  "genre.scenario": string;
+  "genre.character": string;
+  "genre.worldbuilding": string;
 }
 
 const ko: Dictionary = {
@@ -82,6 +124,47 @@ const ko: Dictionary = {
   "index.breadcrumb": "크리처 도감",
   "meta.siteName": "세계 요괴 도감",
   "meta.siteDesc": "150개국 707종 전설 속 존재들의 인터랙티브 월드맵",
+  "community.title": "☕ 창작 카페",
+  "community.desc": "크리처 기반 창작물을 공유하세요",
+  "community.write": "글쓰기",
+  "community.nickname": "닉네임",
+  "community.password": "비밀번호",
+  "community.passwordPlaceholder": "4자리 숫자",
+  "community.titleField": "제목",
+  "community.content": "내용",
+  "community.genre": "장르",
+  "community.creatures": "관련 크리처",
+  "community.submit": "등록",
+  "community.edit": "수정",
+  "community.delete": "삭제",
+  "community.cancel": "취소",
+  "community.save": "저장",
+  "community.confirmDelete": "정말 삭제하시겠습니까?",
+  "community.passwordRequired": "비밀번호를 입력하세요",
+  "community.wrongPassword": "비밀번호가 틀립니다",
+  "community.noPosts": "아직 게시글이 없습니다",
+  "community.firstPost": "첫 번째 글을 작성해보세요!",
+  "community.views": "조회",
+  "community.searchCreature": "크리처 검색...",
+  "community.back": "← 목록으로",
+  "community.createdAt": "작성일",
+  "community.enterPassword": "비밀번호 확인",
+  "community.passwordHint": "글 작성 시 입력한 비밀번호",
+  "community.prev": "이전",
+  "community.next": "다음",
+  "community.page": "페이지",
+  "community.allGenres": "전체",
+  "community.nicknamePlaceholder": "닉네임 입력",
+  "community.titlePlaceholder": "제목을 입력하세요",
+  "community.contentPlaceholder": "내용을 입력하세요",
+  "community.writeSuccess": "글이 등록되었습니다",
+  "community.editSuccess": "글이 수정되었습니다",
+  "community.deleteSuccess": "글이 삭제되었습니다",
+  "genre.free": "💬 자유",
+  "genre.story": "📖 소설/단편",
+  "genre.scenario": "🎬 시나리오",
+  "genre.character": "🧙 캐릭터 설정",
+  "genre.worldbuilding": "🌍 세계관 구축",
 };
 
 const en: Dictionary = {
@@ -116,6 +199,47 @@ const en: Dictionary = {
   "index.breadcrumb": "Creature Index",
   "meta.siteName": "Global Folklore Bestiary",
   "meta.siteDesc": "Interactive world map of 707 legendary creatures from 150 countries",
+  "community.title": "☕ Creative Cafe",
+  "community.desc": "Share creature-based creative works",
+  "community.write": "Write",
+  "community.nickname": "Nickname",
+  "community.password": "Password",
+  "community.passwordPlaceholder": "4-digit PIN",
+  "community.titleField": "Title",
+  "community.content": "Content",
+  "community.genre": "Genre",
+  "community.creatures": "Related Creatures",
+  "community.submit": "Submit",
+  "community.edit": "Edit",
+  "community.delete": "Delete",
+  "community.cancel": "Cancel",
+  "community.save": "Save",
+  "community.confirmDelete": "Are you sure you want to delete this post?",
+  "community.passwordRequired": "Please enter your password",
+  "community.wrongPassword": "Incorrect password",
+  "community.noPosts": "No posts yet",
+  "community.firstPost": "Be the first to write!",
+  "community.views": "views",
+  "community.searchCreature": "Search creatures...",
+  "community.back": "← Back to list",
+  "community.createdAt": "Created",
+  "community.enterPassword": "Verify Password",
+  "community.passwordHint": "Password you used when writing",
+  "community.prev": "Previous",
+  "community.next": "Next",
+  "community.page": "Page",
+  "community.allGenres": "All",
+  "community.nicknamePlaceholder": "Enter nickname",
+  "community.titlePlaceholder": "Enter title",
+  "community.contentPlaceholder": "Enter content",
+  "community.writeSuccess": "Post created successfully",
+  "community.editSuccess": "Post updated successfully",
+  "community.deleteSuccess": "Post deleted successfully",
+  "genre.free": "💬 Free",
+  "genre.story": "📖 Story",
+  "genre.scenario": "🎬 Scenario",
+  "genre.character": "🧙 Character",
+  "genre.worldbuilding": "🌍 Worldbuilding",
 };
 
 const dictionaries: Record<Locale, Dictionary> = { ko, en };

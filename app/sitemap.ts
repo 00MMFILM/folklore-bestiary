@@ -66,5 +66,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
+  // Community pages (2)
+  for (const locale of LOCALES) {
+    entries.push({
+      url: `${SITE_URL}/${locale}/community`,
+      lastModified: now,
+      changeFrequency: "daily",
+      priority: 0.6,
+    });
+  }
+
   return entries;
 }

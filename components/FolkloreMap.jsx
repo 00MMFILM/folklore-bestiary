@@ -4554,6 +4554,17 @@ export default function FolkloreMap() {
         }}>
           🎲 랜덤 조우
         </button>
+
+        <a href="/ko/community" style={{
+          padding: "6px 14px", borderRadius: 16,
+          border: "1px solid #cc884488",
+          background: "#cc884418",
+          color: "#cc8844",
+          textDecoration: "none", fontSize: 12, fontFamily: "'Crimson Text', serif",
+          fontWeight: 700, transition: "all 0.3s",
+        }}>
+          ☕ 창작 카페
+        </a>
       </div>
 
       {/* Sub filter (only on explore tab) */}
@@ -4887,6 +4898,14 @@ export default function FolkloreMap() {
         <span style={{color:"#333",margin:"0 10px"}}>|</span>
         <a href="/en/creatures" style={{color:"#6cb4ee",fontSize:12,textDecoration:"none"}}>
           📖 Bestiary
+        </a>
+        <span style={{color:"#333",margin:"0 10px"}}>|</span>
+        <a href="/ko/community" style={{color:"#cc8844",fontSize:12,textDecoration:"none"}}>
+          ☕ 창작 카페
+        </a>
+        <span style={{color:"#333",margin:"0 10px"}}>|</span>
+        <a href="/en/community" style={{color:"#cc8844",fontSize:12,textDecoration:"none"}}>
+          ☕ Creative Cafe
         </a>
         <span style={{color:"#333",margin:"0 10px"}}>|</span>
         <button onClick={()=>setShowCredits(true)} style={{
