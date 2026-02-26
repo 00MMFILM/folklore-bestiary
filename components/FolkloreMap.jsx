@@ -690,6 +690,7 @@ export default function FolkloreMap() {
   const [heatmapMode, setHeatmapMode] = useState("fear"); // "fear", "density", "type"
   const [viewMode, setViewMode] = useState("map"); // "map" or "grid"
   const [activeTab, setActiveTab] = useState("explore"); // "explore","stats","ranking","featured"
+  const [showCreativeMenu, setShowCreativeMenu] = useState(false);
   const [encounter, setEncounter] = useState(null);
   const [encounterAnim, setEncounterAnim] = useState(false);
   // Creative Studio states
@@ -4469,16 +4470,11 @@ export default function FolkloreMap() {
       {/* Tab Navigation */}
       <div style={{ display: "flex", justifyContent: "center", gap: 6, padding: "4px 16px 8px", flexWrap: "wrap", zIndex: 2, position: "relative" }}>
         {[
-          { id: "explore", label: "🗺 탐험", },
-          { id: "compare", label: `⚔ 비교${compareList.length > 0 ? ` (${compareList.length})` : ""}` },
+          { id: "explore", label: "🗺 탐험" },
           { id: "stats", label: "📊 통계" },
           { id: "ranking", label: "🏆 랭킹" },
           { id: "featured", label: "🎴 특집" },
-          { id: "scenario", label: "🎬 시나리오" },
-          { id: "character", label: "🧙 캐릭터" },
-          { id: "webtoon", label: "📱 웹툰 IP" },
-          { id: "builder", label: "🛠 빌더" },
-          { id: "synopsis", label: "📖 시놉시스" },
+          ...(compareList.length > 0 ? [{ id: "compare", label: `⚔ 비교 (${compareList.length})` }] : []),
         ].map(tab => (
           <button key={tab.id} onClick={() => setActiveTab(tab.id)} style={{
             padding: "6px 14px", borderRadius: 16,
@@ -4491,6 +4487,48 @@ export default function FolkloreMap() {
             {tab.label}
           </button>
         ))}
+
+        {/* 창작 도구 드롭다운 */}
+        <div style={{ position: "relative" }}>
+          <button onClick={() => setShowCreativeMenu(!showCreativeMenu)} style={{
+            padding: "6px 14px", borderRadius: 16,
+            border: `1px solid ${["scenario","character","webtoon","builder","synopsis"].includes(activeTab) ? theme.accent : "#333"}`,
+            background: ["scenario","character","webtoon","builder","synopsis"].includes(activeTab) ? theme.accent + "22" : "transparent",
+            color: ["scenario","character","webtoon","builder","synopsis"].includes(activeTab) ? theme.accent : "#666",
+            cursor: "pointer", fontSize: 12, fontFamily: "'Crimson Text', serif",
+            fontWeight: ["scenario","character","webtoon","builder","synopsis"].includes(activeTab) ? 700 : 400, transition: "all 0.3s",
+          }}>
+            🎨 창작 도구 ▾
+          </button>
+          {showCreativeMenu && (
+            <div style={{
+              position: "absolute", top: "100%", left: "50%", transform: "translateX(-50%)",
+              marginTop: 6, background: "#1a1a2e", border: "1px solid #333", borderRadius: 12,
+              padding: 6, zIndex: 100, minWidth: 140,
+              boxShadow: "0 8px 24px rgba(0,0,0,0.6)",
+            }}>
+              {[
+                { id: "scenario", label: "🎬 시나리오" },
+                { id: "character", label: "🧙 캐릭터" },
+                { id: "webtoon", label: "📱 웹툰 IP" },
+                { id: "builder", label: "🛠 빌더" },
+                { id: "synopsis", label: "📖 시놉시스" },
+              ].map(tab => (
+                <button key={tab.id} onClick={() => { setActiveTab(tab.id); setShowCreativeMenu(false); }} style={{
+                  display: "block", width: "100%", padding: "8px 12px", borderRadius: 8,
+                  border: "none", textAlign: "left",
+                  background: activeTab === tab.id ? theme.accent + "22" : "transparent",
+                  color: activeTab === tab.id ? theme.accent : "#999",
+                  cursor: "pointer", fontSize: 12, fontFamily: "'Crimson Text', serif",
+                  fontWeight: activeTab === tab.id ? 700 : 400,
+                }}>
+                  {tab.label}
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+
         <button onClick={triggerRandomEncounter} style={{
           padding: "6px 14px", borderRadius: 16,
           border: "1px solid #ff444488",
@@ -4504,18 +4542,9 @@ export default function FolkloreMap() {
         </button>
       </div>
 
-      {/* Fear filter (only on explore tab) */}
+      {/* Sub filter (only on explore tab) */}
       {activeTab === "explore" && (
       <div style={styles.filterRow}>
-        {[0, 5, 7, 8, 9].map((f) => (
-          <button
-            key={f}
-            style={styles.filterBtn(fearFilter === f, theme.accent)}
-            onClick={() => setFearFilter(f === fearFilter ? 0 : f)}
-          >
-            {f === 0 ? "전체" : f === 5 ? "⚠ 5+" : f === 7 ? "☠ 7+" : f === 8 ? "💀 8+" : "🔥 9+"}
-          </button>
-        ))}
         <button
           style={styles.filterBtn(viewMode === "map", theme.accent)}
           onClick={() => setViewMode(viewMode === "map" ? "grid" : "map")}
@@ -4525,19 +4554,12 @@ export default function FolkloreMap() {
         {viewMode === "map" && (
           <>
             <span style={{ color: "#333", fontSize: 11, padding: "0 2px" }}>│</span>
-            {[
-              { mode: "fear", label: "🌡 공포도" },
-              { mode: "density", label: "📊 밀도" },
-              { mode: "type", label: "💀 최대" },
-            ].map(({ mode, label }) => (
-              <button
-                key={mode}
-                style={styles.filterBtn(heatmapMode === mode, heatmapMode === mode ? "#ff8844" : theme.accent)}
-                onClick={() => setHeatmapMode(mode)}
-              >
-                {label}
-              </button>
-            ))}
+            <button
+              style={styles.filterBtn(heatmapMode === "fear", heatmapMode === "fear" ? "#ff8844" : theme.accent)}
+              onClick={() => setHeatmapMode("fear")}
+            >
+              🌡 공포도
+            </button>
           </>
         )}
         <span style={{ color: "#333", fontSize: 11, padding: "0 2px" }}>│</span>
@@ -4548,7 +4570,7 @@ export default function FolkloreMap() {
           }}
           onClick={() => setShowAdvFilters(!showAdvFilters)}
         >
-          🔬 고급 필터{activeFilterCount > 0 ? ` (${activeFilterCount})` : ""}
+          🔬 필터{activeFilterCount > 0 ? ` (${activeFilterCount})` : ""}
         </button>
       </div>
       )}
