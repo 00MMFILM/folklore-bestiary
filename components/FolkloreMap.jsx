@@ -4518,7 +4518,7 @@ export default function FolkloreMap() {
             <div style={{
               position: "absolute", top: "100%", left: "50%", transform: "translateX(-50%)",
               marginTop: 6, background: "#1a1a2e", border: "1px solid #333", borderRadius: 12,
-              padding: 6, zIndex: 100, minWidth: 140,
+              padding: 6, zIndex: 300, minWidth: 140,
               boxShadow: "0 8px 24px rgba(0,0,0,0.6)",
             }}>
               {[
