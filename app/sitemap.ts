@@ -20,6 +20,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 1.0,
   });
 
+  // Creature index pages (2)
+  for (const locale of LOCALES) {
+    entries.push({
+      url: `${SITE_URL}/${locale}/creatures`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    });
+  }
+
   // Creature detail pages (2 × 707 = 1414)
   for (const locale of LOCALES) {
     for (const c of creatures) {

@@ -4,7 +4,8 @@ import { useState, useMemo, useCallback, useRef, useEffect } from "react";
 import { PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, RadarChart, Radar, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Legend } from "recharts";
 import { CREATURE_IMAGE_MAP, FOLKLORE_DATA, getCreatureImage } from "@/lib/folklore-data";
 
-
+// 크롤 스크립트가 자동 갱신 (아래 한 줄만 교체)
+const LAST_UPDATED = "2026-02-26T09:21:30.943Z";
 
 
 // ═══════════════════════════════════════════════════════════════
@@ -4397,6 +4398,18 @@ export default function FolkloreMap() {
         }}
       />
 
+      {/* Update banner */}
+      <div style={{
+        textAlign: "center", padding: "6px 16px",
+        background: theme.accent + "12", borderBottom: `1px solid ${theme.accent}22`,
+        fontSize: 12, color: theme.accent,
+      }}>
+        🆕 마지막 업데이트: {new Date(LAST_UPDATED).toLocaleString("ko-KR", {
+          year: "numeric", month: "2-digit", day: "2-digit",
+          hour: "2-digit", minute: "2-digit", hour12: false,
+        })} · 총 {FOLKLORE_DATA.reduce((a, c) => a + c.b.length, 0)}종
+      </div>
+
       {/* Header */}
       <header style={styles.header}>
         <h1 style={styles.title}>세계 민담 도감</h1>
@@ -4408,6 +4421,23 @@ export default function FolkloreMap() {
           <span>·</span>
           <span>{Object.keys(CONTINENT_MAP).length}개 지역</span>
         </div>
+        <a
+          href="/ko/creatures"
+          style={{
+            display: "inline-block",
+            marginTop: 12,
+            padding: "8px 20px",
+            borderRadius: 20,
+            background: theme.accent + "18",
+            color: theme.accent,
+            fontSize: 13,
+            fontWeight: 600,
+            textDecoration: "none",
+            border: `1px solid ${theme.accent}33`,
+          }}
+        >
+          📖 크리처 도감 보기
+        </a>
       </header>
 
       {/* Continent nav */}
@@ -4814,6 +4844,14 @@ export default function FolkloreMap() {
         <span style={{color:"#444",fontSize:12}}>
           Global Folklore Studio — Creature Codex · {DATA.length} Countries · {DATA.reduce((a,c)=>a+c.b.length,0)} Creatures
         </span>
+        <span style={{color:"#333",margin:"0 10px"}}>|</span>
+        <a href="/ko/creatures" style={{color:"#6cb4ee",fontSize:12,textDecoration:"none"}}>
+          📖 크리처 도감
+        </a>
+        <span style={{color:"#333",margin:"0 10px"}}>|</span>
+        <a href="/en/creatures" style={{color:"#6cb4ee",fontSize:12,textDecoration:"none"}}>
+          📖 Bestiary
+        </a>
         <span style={{color:"#333",margin:"0 10px"}}>|</span>
         <button onClick={()=>setShowCredits(true)} style={{
           background:"none",border:"none",color:"#6cb4ee",fontSize:12,

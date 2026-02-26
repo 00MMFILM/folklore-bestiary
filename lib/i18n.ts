@@ -40,6 +40,11 @@ interface Dictionary {
   "list.country": string;
   "list.fearLevel": string;
   "list.type": string;
+  // Index page
+  "index.title": string;
+  "index.desc": string;
+  "index.viewAll": string;
+  "index.breadcrumb": string;
   // Meta
   "meta.siteName": string;
   "meta.siteDesc": string;
@@ -71,6 +76,10 @@ const ko: Dictionary = {
   "list.country": "국가",
   "list.fearLevel": "공포",
   "list.type": "유형",
+  "index.title": "세계 전설 속 존재 도감",
+  "index.desc": "19개 대륙, 151개국의 전설 속 존재들을 탐험하세요",
+  "index.viewAll": "전체 보기 →",
+  "index.breadcrumb": "크리처 도감",
   "meta.siteName": "세계 요괴 도감",
   "meta.siteDesc": "150개국 707종 전설 속 존재들의 인터랙티브 월드맵",
 };
@@ -101,6 +110,10 @@ const en: Dictionary = {
   "list.country": "Country",
   "list.fearLevel": "Fear",
   "list.type": "Type",
+  "index.title": "Global Folklore Bestiary",
+  "index.desc": "Explore legendary creatures from 19 regions and 151 countries",
+  "index.viewAll": "View all →",
+  "index.breadcrumb": "Creature Index",
   "meta.siteName": "Global Folklore Bestiary",
   "meta.siteDesc": "Interactive world map of 707 legendary creatures from 150 countries",
 };

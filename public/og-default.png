@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a0a0a"/>
+      <stop offset="50%" style="stop-color:#0a0a1a"/>
+      <stop offset="100%" style="stop-color:#0a1a0f"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#cc8844"/>
+      <stop offset="100%" style="stop-color:#ffcc88"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="40" y="40" width="1120" height="550" rx="20" fill="none" stroke="#cc884444" stroke-width="2"/>
+  
+  <!-- Globe icon -->
+  <circle cx="600" cy="240" r="80" fill="none" stroke="#cc884466" stroke-width="3"/>
+  <ellipse cx="600" cy="240" rx="40" ry="80" fill="none" stroke="#cc884444" stroke-width="2"/>
+  <line x1="520" y1="240" x2="680" y2="240" stroke="#cc884444" stroke-width="2"/>
+  <line x1="600" y1="160" x2="600" y2="320" stroke="#cc884444" stroke-width="2"/>
+  
+  <!-- Creature icons -->
+  <text x="460" y="200" font-size="40" fill="#ff3b3b66">&#x1F409;</text>
+  <text x="700" y="200" font-size="40" fill="#6b8aff66">&#x1F9DB;</text>
+  <text x="460" y="300" font-size="40" fill="#ffaa2b66">&#x1F981;</text>
+  <text x="700" y="300" font-size="40" fill="#3bff6b66">&#x1F479;</text>
+  
+  <!-- Title -->
+  <text x="600" y="420" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif" font-size="52" font-weight="800" fill="url(#gold)">Global Folklore Bestiary</text>
+  <text x="600" y="475" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif" font-size="28" fill="#eed8c0">세계 요괴 도감</text>
+  <text x="600" y="520" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif" font-size="20" fill="#999">150개국 707종 신화 · 전설 · 민담 크리처</text>
+</svg>
