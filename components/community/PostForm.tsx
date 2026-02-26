@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import type { Locale } from "@/lib/i18n";
 import { getDictionary } from "@/lib/i18n";
@@ -32,6 +32,21 @@ export default function PostForm({ locale, mode, postId, initial }: PostFormProp
   const [creatureIds, setCreatureIds] = useState<string[]>(initial?.creature_ids || []);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+
+  // Prefill from scenario generator (sessionStorage)
+  useEffect(() => {
+    if (mode !== "create") return;
+    try {
+      const raw = sessionStorage.getItem("scenarioPost");
+      if (!raw) return;
+      const data = JSON.parse(raw);
+      if (data.title) setTitle(data.title);
+      if (data.content) setContent(data.content);
+      if (data.genre) setGenre(data.genre as Genre);
+      if (data.creature_ids?.length) setCreatureIds(data.creature_ids);
+      sessionStorage.removeItem("scenarioPost");
+    } catch {}
+  }, [mode]);
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();

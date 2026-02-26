@@ -5,7 +5,7 @@ import { PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveCo
 import { CREATURE_IMAGE_MAP, FOLKLORE_DATA, getCreatureImage } from "@/lib/folklore-data";
 
 // 크롤 스크립트가 자동 갱신 (아래 한 줄만 교체)
-const LAST_UPDATED = "2026-02-26T12:37:12.654Z";
+const LAST_UPDATED = "2026-02-26T15:04:53.818Z";
 
 
 // ═══════════════════════════════════════════════════════════════
@@ -195,6 +195,86 @@ const SCENARIO_TEMPLATES = [
     hooks: ["소환을 잘못해서 집에 눌러앉은 존재", "존재가 인간 사회에 취직을 원한다", "여러 나라 존재들이 한 집에 모인다", "SNS 인플루언서 요괴"],
     twists: ["존재가 인간보다 인간적이었다", "코미디였던 상황이 세계적 위기로 확대", "모든 소동의 원인이 문화적 오해", "존재들의 리얼리티 쇼로 끝난다"] },
 ];
+
+const ERA_PRESETS_KO = ["현대", "조선시대", "중세", "미래", "고대", "근대"];
+const ERA_PRESETS_EN = ["Modern", "Joseon Era", "Medieval", "Future", "Ancient", "Early Modern"];
+const TONE_PRESETS_KO = ["어두운", "밝은", "잔잔한", "긴장감", "유머러스"];
+const TONE_PRESETS_EN = ["Dark", "Bright", "Calm", "Tense", "Humorous"];
+
+const SCENARIO_I18N = {
+  ko: {
+    title: "🎬 시나리오 생성기",
+    subtitle: "장르와 존재를 선택하고 상세 설정을 추가하세요",
+    genreLabel: "① 장르 선택",
+    beingLabel: "② 등장 존재 선택",
+    beingSearch: "존재 이름, 국가, 유형 검색...",
+    protaLabel: "③ 주인공 설정",
+    protaName: "주인공 이름",
+    protaRole: "역할/직업 (예: 퇴마사, 민속학 교수)",
+    eraLabel: "④ 배경 시대",
+    customInput: "✏️ 직접 입력",
+    customEraPlaceholder: "배경 시대를 직접 입력하세요",
+    keywordLabel: "⑤ 키워드",
+    keywordHint: "(최대 5개, Enter로 추가)",
+    keywordPlaceholder: "키워드 입력 후 Enter",
+    keywordMax: "최대 5개",
+    toneLabel: "⑥ 분위기",
+    optional: "(선택)",
+    fastMode: "⚡ 빠른 생성",
+    aiMode: "🤖 AI 생성",
+    generating: "🤖 생성 중...",
+    aiGenerate: "🤖 AI 시나리오 생성",
+    fastGenerate: "⚡ 시나리오 생성",
+    aiHint: "GPT-4o-mini가 창의적인 시나리오를 생성합니다",
+    fastHint: "장르 미선택 시 랜덤 · 존재 미선택 시 자동 배정",
+    aiStreaming: "🤖 AI 생성 중...",
+    twist: "🔥 핵심 반전",
+    regenerate: "🎲 다시 생성",
+    copy: "📋 복사하기",
+    postToCafe: "☕ 카페에 게시",
+    copied: "클립보드에 복사되었습니다!",
+    castLabel: "🎭 등장 존재:",
+    scenario: "시나리오",
+    protagonist: "주인공",
+    ch1: "서막 — 균열의 징조", ch2: "발단 — 첫 번째 조우", ch3: "전개 — 얽히는 실타래", ch4: "위기 — 반전의 순간", ch5: "절정과 결말",
+  },
+  en: {
+    title: "🎬 Scenario Generator",
+    subtitle: "Select genre & creatures, then customize your settings",
+    genreLabel: "① Genre",
+    beingLabel: "② Select Creatures",
+    beingSearch: "Search by name, country, or type...",
+    protaLabel: "③ Protagonist",
+    protaName: "Protagonist name",
+    protaRole: "Role/job (e.g., exorcist, folklorist)",
+    eraLabel: "④ Era / Setting",
+    customInput: "✏️ Custom",
+    customEraPlaceholder: "Enter custom era...",
+    keywordLabel: "⑤ Keywords",
+    keywordHint: "(max 5, press Enter)",
+    keywordPlaceholder: "Type keyword, press Enter",
+    keywordMax: "Max 5",
+    toneLabel: "⑥ Tone",
+    optional: "(optional)",
+    fastMode: "⚡ Quick",
+    aiMode: "🤖 AI",
+    generating: "🤖 Generating...",
+    aiGenerate: "🤖 AI Generate",
+    fastGenerate: "⚡ Generate Scenario",
+    aiHint: "GPT-4o-mini generates a creative scenario",
+    fastHint: "Random genre if unselected · auto-assign creatures",
+    aiStreaming: "🤖 AI Generating...",
+    twist: "🔥 Key Twist",
+    regenerate: "🎲 Regenerate",
+    copy: "📋 Copy",
+    postToCafe: "☕ Post to Cafe",
+    copied: "Copied to clipboard!",
+    castLabel: "🎭 Cast:",
+    scenario: "Scenario",
+    protagonist: "Protagonist",
+    ch1: "Prologue — Omen", ch2: "Act I — First Encounter", ch3: "Act II — Entangled Threads", ch4: "Act III — Turning Point", ch5: "Climax & Resolution",
+  },
+};
 
 const CHARACTER_CLASSES = [
   { id: "exorcist", name: "퇴마사", icon: "⚡", desc: "고대의 의식과 봉인술로 존재를 제압", stats: { str: 3, int: 4, cha: 2, spd: 3, spr: 5 } },
@@ -711,6 +791,17 @@ export default function FolkloreMap() {
   const [charOrigin, setCharOrigin] = useState(null);
   const [charMotivation, setCharMotivation] = useState(null);
   const [charName, setCharName] = useState("");
+  // Scenario custom inputs
+  const [scenarioMode, setScenarioMode] = useState("fast"); // "fast" or "ai"
+  const [scenarioProtaName, setScenarioProtaName] = useState("");
+  const [scenarioProtaRole, setScenarioProtaRole] = useState("");
+  const [scenarioEra, setScenarioEra] = useState("");
+  const [scenarioCustomEra, setScenarioCustomEra] = useState("");
+  const [scenarioKeywords, setScenarioKeywords] = useState([]);
+  const [scenarioKeywordInput, setScenarioKeywordInput] = useState("");
+  const [scenarioTone, setScenarioTone] = useState("");
+  const [scenarioAILoading, setScenarioAILoading] = useState(false);
+  const [scenarioStreamText, setScenarioStreamText] = useState("");
   const [charBuilt, setCharBuilt] = useState(null);
   const [webtoonGenre, setWebtoonGenre] = useState(null);
   const [webtoonBeings, setWebtoonBeings] = useState([]);
@@ -1871,6 +1962,11 @@ export default function FolkloreMap() {
   //  🎬 SCENARIO GENERATOR
   // ═══════════════════════════════════════════════════════════════
   const ScenarioGenerator = () => {
+    const isKo = typeof navigator !== "undefined" ? navigator.language.startsWith("ko") : true;
+    const L = isKo ? SCENARIO_I18N.ko : SCENARIO_I18N.en;
+    const ERA_PRESETS = isKo ? ERA_PRESETS_KO : ERA_PRESETS_EN;
+    const TONE_PRESETS = isKo ? TONE_PRESETS_KO : TONE_PRESETS_EN;
+
     const allBeings = useMemo(() => {
       const arr = [];
       DATA.forEach(c => c.b.forEach(b => arr.push({ ...b, country: c.c, region: c.r, iso: c.i })));
@@ -1879,9 +1975,31 @@ export default function FolkloreMap() {
 
     const pickRandom = (arr) => arr[Math.floor(Math.random() * arr.length)];
 
+    const effectiveEra = scenarioEra === "직접 입력" || scenarioEra === "Custom" ? scenarioCustomEra : scenarioEra;
+
+    const formatScenarioText = (result) => {
+      if (!result) return "";
+      const lines = [];
+      const tplName = result.template?.name || result.title || L.scenario;
+      lines.push(`🎬 ${tplName}`);
+      lines.push(`📍 ${result.setting}`);
+      lines.push("");
+      if (result.beings?.length) {
+        lines.push(L.castLabel);
+        result.beings.forEach(b => lines.push(`  - ${b.n} (${b.t}, ${b.country}): ${b.d}`));
+        lines.push("");
+      }
+      result.chapters.forEach(ch => {
+        lines.push(`[Chapter ${ch.num}] ${ch.title}`);
+        lines.push(ch.desc);
+        lines.push("");
+      });
+      lines.push(`🔥 ${L.twist}: ${result.twist}`);
+      return lines.join("\n");
+    };
+
     const generateScenario = () => {
       const template = scenarioGenre || pickRandom(SCENARIO_TEMPLATES);
-      // Pick 2-3 beings (user-selected or random)
       let beings = scenarioBeings.length >= 1 ? [...scenarioBeings] : [];
       while (beings.length < 2) {
         const b = pickRandom(allBeings);
@@ -1890,15 +2008,130 @@ export default function FolkloreMap() {
       const setting = pickRandom(template.settings);
       const hook = pickRandom(template.hooks);
       const twist = pickRandom(template.twists);
-      // Generate chapters
-      const chapters = [
-        { num: 1, title: "서막 — 균열의 징조", desc: `${setting}에서 ${hook}. ${beings[0].n}의 그림자가 드리워지기 시작한다.` },
-        { num: 2, title: "발단 — 첫 번째 조우", desc: `${beings[0].n}(${beings[0].t})과 마주하다. "${beings[0].d}" — 이 존재의 본질이 서서히 드러난다.` },
-        { num: 3, title: "전개 — 얽히는 실타래", desc: `${beings.length > 1 ? beings[1].n : "미지의 존재"}(이)가 등장하며 상황이 복잡해진다. ${beings.length > 1 ? beings[1].country : "알 수 없는 땅"}의 전승이 단서가 된다.` },
-        { num: 4, title: "위기 — 반전의 순간", desc: twist + ". 모든 것이 뒤집힌다." },
-        { num: 5, title: "절정과 결말", desc: `${beings.map(b => b.n).join(", ")}와(과)의 최종 대결. 결말은 열려 있다...` },
+      const prota = scenarioProtaName || L.protagonist;
+      const chapters = isKo ? [
+        { num: 1, title: L.ch1, desc: `${effectiveEra ? effectiveEra + ", " : ""}${setting}에서 ${hook}. ${beings[0].n}의 그림자가 드리워지기 시작한다.${scenarioProtaRole ? ` ${prota}(${scenarioProtaRole})은(는) 이를 감지한다.` : ""}` },
+        { num: 2, title: L.ch2, desc: `${prota}이(가) ${beings[0].n}(${beings[0].t})과 마주하다. "${beings[0].d}" — 이 존재의 본질이 서서히 드러난다.` },
+        { num: 3, title: L.ch3, desc: `${beings.length > 1 ? beings[1].n : "미지의 존재"}(이)가 등장하며 상황이 복잡해진다. ${beings.length > 1 ? beings[1].country : "알 수 없는 땅"}의 전승이 단서가 된다.${scenarioKeywords.length ? ` [${scenarioKeywords.join(", ")}]의 요소가 얽힌다.` : ""}` },
+        { num: 4, title: L.ch4, desc: twist + ". 모든 것이 뒤집힌다." },
+        { num: 5, title: L.ch5, desc: `${beings.map(b => b.n).join(", ")}와(과)의 최종 대결. ${scenarioTone ? `${scenarioTone} 분위기 속에서 ` : ""}결말은 열려 있다...` },
+      ] : [
+        { num: 1, title: L.ch1, desc: `${effectiveEra ? effectiveEra + " — " : ""}${setting}. ${hook}. The shadow of ${beings[0].n} begins to loom.${scenarioProtaRole ? ` ${prota} (${scenarioProtaRole}) senses the change.` : ""}` },
+        { num: 2, title: L.ch2, desc: `${prota} encounters ${beings[0].n} (${beings[0].t}). "${beings[0].d}" — the true nature of this being is slowly revealed.` },
+        { num: 3, title: L.ch3, desc: `${beings.length > 1 ? beings[1].n : "An unknown entity"} appears, complicating the situation. Folklore from ${beings.length > 1 ? beings[1].country : "unknown lands"} becomes a clue.${scenarioKeywords.length ? ` Elements of [${scenarioKeywords.join(", ")}] intertwine.` : ""}` },
+        { num: 4, title: L.ch4, desc: twist + ". Everything is turned upside down." },
+        { num: 5, title: L.ch5, desc: `The final confrontation with ${beings.map(b => b.n).join(", ")}. ${scenarioTone ? `In a ${scenarioTone.toLowerCase()} atmosphere, ` : ""}the ending remains open...` },
       ];
       setScenarioResult({ template, beings, setting, hook, twist, chapters });
+      setScenarioStreamText("");
+    };
+
+    const generateScenarioAI = async () => {
+      setScenarioAILoading(true);
+      setScenarioStreamText("");
+      setScenarioResult(null);
+
+      const template = scenarioGenre || pickRandom(SCENARIO_TEMPLATES);
+      let beings = scenarioBeings.length >= 1 ? [...scenarioBeings] : [];
+      while (beings.length < 2) {
+        const b = pickRandom(allBeings);
+        if (!beings.find(x => x.n === b.n)) beings.push(b);
+      }
+
+      try {
+        const res = await fetch("/api/scenario/generate", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            genre: template.name,
+            beings: beings.map(b => ({ n: b.n, t: b.t, d: b.d, country: b.country, ct: b.ct })),
+            protagonist: { name: scenarioProtaName, role: scenarioProtaRole },
+            era: effectiveEra,
+            keywords: scenarioKeywords,
+            tone: scenarioTone,
+            lang: isKo ? "ko" : "en",
+          }),
+        });
+
+        if (!res.ok) throw new Error("AI generation failed");
+
+        const reader = res.body.getReader();
+        const decoder = new TextDecoder();
+        let fullText = "";
+
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+          const chunk = decoder.decode(value, { stream: true });
+          const lines = chunk.split("\n");
+          for (const line of lines) {
+            if (!line.startsWith("data: ")) continue;
+            const data = line.slice(6);
+            if (data === "[DONE]") break;
+            try {
+              const parsed = JSON.parse(data);
+              const content = parsed.choices?.[0]?.delta?.content;
+              if (content) {
+                fullText += content;
+                setScenarioStreamText(fullText);
+              }
+            } catch {}
+          }
+        }
+
+        // Parse the JSON from accumulated text
+        const jsonMatch = fullText.match(/\{[\s\S]*\}/);
+        if (jsonMatch) {
+          const aiResult = JSON.parse(jsonMatch[0]);
+          setScenarioResult({
+            template,
+            beings,
+            setting: aiResult.setting || template.settings[0],
+            hook: "",
+            twist: aiResult.twist || "",
+            chapters: aiResult.chapters || [],
+            title: aiResult.title,
+            isAI: true,
+          });
+          setScenarioStreamText("");
+        } else {
+          throw new Error("Failed to parse AI response");
+        }
+      } catch (err) {
+        console.warn("AI generation failed, falling back to template:", err);
+        generateScenario();
+      } finally {
+        setScenarioAILoading(false);
+      }
+    };
+
+    const handleCopyScenario = async () => {
+      const text = formatScenarioText(scenarioResult);
+      try {
+        await navigator.clipboard.writeText(text);
+        alert(L.copied);
+      } catch {
+        const ta = document.createElement("textarea");
+        ta.value = text;
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand("copy");
+        document.body.removeChild(ta);
+        alert(L.copied);
+      }
+    };
+
+    const handlePostToCafe = () => {
+      const text = formatScenarioText(scenarioResult);
+      const ttl = scenarioResult.title || scenarioResult.template?.name || L.scenario;
+      const locale = isKo ? "ko" : "en";
+      sessionStorage.setItem("scenarioPost", JSON.stringify({
+        title: `[${L.scenario}] ${ttl}`,
+        content: text,
+        genre: "scenario",
+        creature_ids: (scenarioResult.beings || []).map(b => b.n),
+      }));
+      window.location.href = `/${locale}/community/write`;
     };
 
     const toggleBeing = (b) => {
@@ -1910,6 +2143,17 @@ export default function FolkloreMap() {
       });
     };
 
+    const addKeyword = (e) => {
+      if (e.key === "Enter" && scenarioKeywordInput.trim() && scenarioKeywords.length < 5) {
+        e.preventDefault();
+        const kw = scenarioKeywordInput.trim();
+        if (!scenarioKeywords.includes(kw)) {
+          setScenarioKeywords(prev => [...prev, kw]);
+        }
+        setScenarioKeywordInput("");
+      }
+    };
+
     const [beingSearch, setBeingSearch] = useState("");
     const searchedBeings = useMemo(() => {
       if (!beingSearch) return allBeings.slice(0, 20);
@@ -1917,18 +2161,32 @@ export default function FolkloreMap() {
       return allBeings.filter(b => b.n.toLowerCase().includes(q) || b.country.toLowerCase().includes(q) || b.t.toLowerCase().includes(q)).slice(0, 20);
     }, [allBeings, beingSearch]);
 
+    const chipStyle = (active) => ({
+      padding: "6px 14px", borderRadius: 16, fontSize: 12, cursor: "pointer", transition: "all 0.2s",
+      border: `1px solid ${active ? theme.accent : "#333"}`,
+      background: active ? theme.accent + "22" : "#111",
+      color: active ? theme.accent : "#888",
+      fontFamily: "'Crimson Text', serif",
+    });
+
+    const inputFieldStyle = {
+      padding: "8px 14px", borderRadius: 10, border: `1px solid ${theme.accent}33`,
+      background: "#0a0a0a", color: "#fff", fontSize: 13, fontFamily: "'Crimson Text', serif",
+      outline: "none", width: "100%", boxSizing: "border-box",
+    };
+
     return (
       <div style={{ maxWidth: 960, margin: "0 auto", padding: "16px" }}>
         <h2 style={{ fontSize: 26, fontWeight: 700, textAlign: "center", color: theme.accent, marginBottom: 4 }}>
-          🎬 시나리오 생성기
+          {L.title}
         </h2>
         <p style={{ textAlign: "center", fontSize: 13, opacity: 0.5, marginBottom: 24 }}>
-          장르와 존재를 선택하면 자동으로 시나리오 플롯이 생성됩니다
+          {L.subtitle}
         </p>
 
         {/* Genre Selection */}
         <div style={{ marginBottom: 20 }}>
-          <div style={{ fontSize: 13, fontWeight: 600, marginBottom: 8, color: theme.accent, letterSpacing: "0.1em" }}>① 장르 선택</div>
+          <div style={{ fontSize: 13, fontWeight: 600, marginBottom: 8, color: theme.accent, letterSpacing: "0.1em" }}>{L.genreLabel}</div>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
             {SCENARIO_TEMPLATES.map(t => (
               <button key={t.id} onClick={() => setScenarioGenre(scenarioGenre?.id === t.id ? null : t)}
@@ -1947,7 +2205,7 @@ export default function FolkloreMap() {
         {/* Being Selection */}
         <div style={{ marginBottom: 20 }}>
           <div style={{ fontSize: 13, fontWeight: 600, marginBottom: 8, color: theme.accent, letterSpacing: "0.1em" }}>
-            ② 등장 존재 선택 ({scenarioBeings.length}/4)
+            {L.beingLabel} ({scenarioBeings.length}/4)
           </div>
           {scenarioBeings.length > 0 && (
             <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginBottom: 10 }}>
@@ -1962,7 +2220,7 @@ export default function FolkloreMap() {
             </div>
           )}
           <input value={beingSearch} onChange={e => setBeingSearch(e.target.value)}
-            placeholder="존재 이름, 국가, 유형 검색..."
+            placeholder={L.beingSearch}
             style={{ width: "100%", maxWidth: 400, padding: "8px 14px", borderRadius: 20, border: `1px solid ${theme.accent}33`,
               background: "#0a0a0a", color: "#fff", fontSize: 13, fontFamily: "'Crimson Text', serif", outline: "none", marginBottom: 8 }} />
           <div style={{ display: "flex", flexWrap: "wrap", gap: 6, maxHeight: 140, overflow: "auto" }}>
@@ -1982,34 +2240,144 @@ export default function FolkloreMap() {
           </div>
         </div>
 
-        {/* Generate Button */}
-        <div style={{ textAlign: "center", marginBottom: 24 }}>
-          <button onClick={generateScenario} style={{
-            padding: "14px 36px", borderRadius: 28, border: `2px solid ${theme.accent}`,
-            background: `linear-gradient(135deg, ${theme.accent}22, ${theme.accent}08)`,
-            color: theme.accent, cursor: "pointer", fontSize: 16, fontWeight: 700,
-            fontFamily: "'Crimson Text', serif", letterSpacing: "0.05em", transition: "all 0.3s",
-          }}>
-            ⚡ 시나리오 생성
-          </button>
-          <div style={{ fontSize: 11, opacity: 0.4, marginTop: 6 }}>장르 미선택 시 랜덤 · 존재 미선택 시 자동 배정</div>
+        {/* ③ Protagonist */}
+        <div style={{ marginBottom: 20 }}>
+          <div style={{ fontSize: 13, fontWeight: 600, marginBottom: 8, color: theme.accent, letterSpacing: "0.1em" }}>{L.protaLabel} <span style={{ opacity: 0.4, fontWeight: 400 }}>{L.optional}</span></div>
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
+            <input value={scenarioProtaName} onChange={e => setScenarioProtaName(e.target.value)}
+              placeholder={L.protaName} maxLength={20} style={inputFieldStyle} />
+            <input value={scenarioProtaRole} onChange={e => setScenarioProtaRole(e.target.value)}
+              placeholder={L.protaRole} maxLength={30} style={inputFieldStyle} />
+          </div>
         </div>
+
+        {/* ④ Era / Setting */}
+        <div style={{ marginBottom: 20 }}>
+          <div style={{ fontSize: 13, fontWeight: 600, marginBottom: 8, color: theme.accent, letterSpacing: "0.1em" }}>{L.eraLabel} <span style={{ opacity: 0.4, fontWeight: 400 }}>{L.optional}</span></div>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
+            {ERA_PRESETS.map(era => (
+              <button key={era} onClick={() => setScenarioEra(scenarioEra === era ? "" : era)} style={chipStyle(scenarioEra === era)}>
+                {era}
+              </button>
+            ))}
+            <button onClick={() => { const v = isKo ? "직접 입력" : "Custom"; setScenarioEra(scenarioEra === v ? "" : v); }} style={chipStyle(scenarioEra === "직접 입력" || scenarioEra === "Custom")}>
+              {L.customInput}
+            </button>
+          </div>
+          {(scenarioEra === "직접 입력" || scenarioEra === "Custom") && (
+            <input value={scenarioCustomEra} onChange={e => setScenarioCustomEra(e.target.value)}
+              placeholder={L.customEraPlaceholder} maxLength={30}
+              style={{ ...inputFieldStyle, marginTop: 8, maxWidth: 300 }} />
+          )}
+        </div>
+
+        {/* ⑤ Keywords */}
+        <div style={{ marginBottom: 20 }}>
+          <div style={{ fontSize: 13, fontWeight: 600, marginBottom: 8, color: theme.accent, letterSpacing: "0.1em" }}>{L.keywordLabel} <span style={{ opacity: 0.4, fontWeight: 400 }}>{L.keywordHint}</span></div>
+          {scenarioKeywords.length > 0 && (
+            <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginBottom: 8 }}>
+              {scenarioKeywords.map((kw, i) => (
+                <span key={i} onClick={() => setScenarioKeywords(prev => prev.filter((_, j) => j !== i))} style={{
+                  padding: "4px 12px", borderRadius: 14, background: theme.accent + "22", border: `1px solid ${theme.accent}44`,
+                  color: theme.accent, fontSize: 12, cursor: "pointer",
+                }}>
+                  {kw} ✕
+                </span>
+              ))}
+            </div>
+          )}
+          <input value={scenarioKeywordInput} onChange={e => setScenarioKeywordInput(e.target.value)}
+            onKeyDown={addKeyword} placeholder={scenarioKeywords.length >= 5 ? L.keywordMax : L.keywordPlaceholder}
+            disabled={scenarioKeywords.length >= 5}
+            style={{ ...inputFieldStyle, maxWidth: 300, opacity: scenarioKeywords.length >= 5 ? 0.4 : 1 }} />
+        </div>
+
+        {/* ⑥ Tone */}
+        <div style={{ marginBottom: 24 }}>
+          <div style={{ fontSize: 13, fontWeight: 600, marginBottom: 8, color: theme.accent, letterSpacing: "0.1em" }}>{L.toneLabel} <span style={{ opacity: 0.4, fontWeight: 400 }}>{L.optional}</span></div>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
+            {TONE_PRESETS.map(t => (
+              <button key={t} onClick={() => setScenarioTone(scenarioTone === t ? "" : t)} style={chipStyle(scenarioTone === t)}>
+                {t}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Mode Toggle + Generate */}
+        <div style={{ textAlign: "center", marginBottom: 24 }}>
+          <div style={{ display: "inline-flex", borderRadius: 24, border: "1px solid #333", overflow: "hidden", marginBottom: 16 }}>
+            <button onClick={() => setScenarioMode("fast")} style={{
+              padding: "8px 20px", border: "none", fontSize: 13, cursor: "pointer", fontFamily: "'Crimson Text', serif",
+              background: scenarioMode === "fast" ? theme.accent + "33" : "transparent",
+              color: scenarioMode === "fast" ? theme.accent : "#666",
+              fontWeight: scenarioMode === "fast" ? 700 : 400,
+            }}>
+              {L.fastMode}
+            </button>
+            <button onClick={() => setScenarioMode("ai")} style={{
+              padding: "8px 20px", border: "none", borderLeft: "1px solid #333", fontSize: 13, cursor: "pointer", fontFamily: "'Crimson Text', serif",
+              background: scenarioMode === "ai" ? "#8b5cf633" : "transparent",
+              color: scenarioMode === "ai" ? "#a78bfa" : "#666",
+              fontWeight: scenarioMode === "ai" ? 700 : 400,
+            }}>
+              {L.aiMode}
+            </button>
+          </div>
+          <div>
+            <button onClick={scenarioMode === "ai" ? generateScenarioAI : generateScenario}
+              disabled={scenarioAILoading}
+              style={{
+                padding: "14px 36px", borderRadius: 28,
+                border: `2px solid ${scenarioMode === "ai" ? "#8b5cf6" : theme.accent}`,
+                background: scenarioAILoading ? "#222"
+                  : `linear-gradient(135deg, ${scenarioMode === "ai" ? "#8b5cf6" : theme.accent}22, ${scenarioMode === "ai" ? "#8b5cf6" : theme.accent}08)`,
+                color: scenarioAILoading ? "#666" : (scenarioMode === "ai" ? "#a78bfa" : theme.accent),
+                cursor: scenarioAILoading ? "wait" : "pointer", fontSize: 16, fontWeight: 700,
+                fontFamily: "'Crimson Text', serif", letterSpacing: "0.05em", transition: "all 0.3s",
+              }}>
+              {scenarioAILoading ? L.generating : (scenarioMode === "ai" ? L.aiGenerate : L.fastGenerate)}
+            </button>
+          </div>
+          <div style={{ fontSize: 11, opacity: 0.4, marginTop: 6 }}>
+            {scenarioMode === "ai" ? L.aiHint : L.fastHint}
+          </div>
+        </div>
+
+        {/* AI Streaming indicator */}
+        {scenarioAILoading && scenarioStreamText && (
+          <div style={{ background: "#0d0d1a", border: "1px solid #8b5cf633", borderRadius: 16, padding: 20, marginBottom: 24 }}>
+            <div style={{ fontSize: 12, color: "#8b5cf6", marginBottom: 8, letterSpacing: "0.1em" }}>{L.aiStreaming}</div>
+            <div style={{ fontSize: 12, color: "#888", lineHeight: 1.6, fontFamily: "monospace", whiteSpace: "pre-wrap", maxHeight: 200, overflow: "auto" }}>
+              {scenarioStreamText}
+              <span style={{ animation: "pulse 1s infinite", color: "#8b5cf6" }}>▊</span>
+            </div>
+          </div>
+        )}
 
         {/* Result */}
         {scenarioResult && (
-          <div style={{ background: "linear-gradient(145deg, #1a1008, #0a0a0a)", border: `1px solid ${theme.accent}44`,
+          <div style={{ background: "linear-gradient(145deg, #1a1008, #0a0a0a)", border: `1px solid ${scenarioResult.isAI ? "#8b5cf6" : theme.accent}44`,
             borderRadius: 20, padding: 28, position: "relative", overflow: "hidden" }}>
-            <div style={{ position: "absolute", inset: 0, background: `radial-gradient(circle at 20% 20%, ${theme.accent}08, transparent 60%)`, pointerEvents: "none" }} />
+            <div style={{ position: "absolute", inset: 0, background: `radial-gradient(circle at 20% 20%, ${scenarioResult.isAI ? "#8b5cf6" : theme.accent}08, transparent 60%)`, pointerEvents: "none" }} />
             <div style={{ position: "relative" }}>
+              {/* Header */}
               <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 16 }}>
-                <span style={{ fontSize: 28 }}>{scenarioResult.template.label.split(" ")[0]}</span>
+                <span style={{ fontSize: 28 }}>{scenarioResult.isAI ? "🤖" : scenarioResult.template.label.split(" ")[0]}</span>
                 <div>
-                  <div style={{ fontSize: 11, color: theme.accent, letterSpacing: "0.2em", textTransform: "uppercase" }}>{scenarioResult.template.name}</div>
+                  <div style={{ fontSize: 11, color: scenarioResult.isAI ? "#8b5cf6" : theme.accent, letterSpacing: "0.2em", textTransform: "uppercase" }}>
+                    {scenarioResult.isAI ? "AI Generated" : scenarioResult.template.name}
+                  </div>
                   <h3 style={{ fontSize: 22, fontWeight: 700, color: "#fff" }}>
-                    "{scenarioResult.setting}"
+                    "{scenarioResult.title || scenarioResult.setting}"
                   </h3>
                 </div>
               </div>
+
+              {/* Setting (AI mode) */}
+              {scenarioResult.isAI && scenarioResult.setting && (
+                <div style={{ fontSize: 13, opacity: 0.7, marginBottom: 16, lineHeight: 1.6 }}>📍 {scenarioResult.setting}</div>
+              )}
 
               {/* Cast */}
               <div style={{ display: "flex", flexWrap: "wrap", gap: 8, marginBottom: 20 }}>
@@ -2026,12 +2394,12 @@ export default function FolkloreMap() {
               </div>
 
               {/* Chapters */}
-              <div style={{ borderLeft: `2px solid ${theme.accent}33`, paddingLeft: 20, marginBottom: 16 }}>
+              <div style={{ borderLeft: `2px solid ${scenarioResult.isAI ? "#8b5cf6" : theme.accent}33`, paddingLeft: 20, marginBottom: 16 }}>
                 {scenarioResult.chapters.map((ch, i) => (
                   <div key={i} style={{ marginBottom: 16, position: "relative" }}>
                     <div style={{ position: "absolute", left: -27, top: 2, width: 12, height: 12, borderRadius: "50%",
-                      background: i === 3 ? "#ff3b3b" : theme.accent, border: "2px solid #0a0a0a" }} />
-                    <div style={{ fontSize: 12, color: theme.accent, fontWeight: 600, letterSpacing: "0.1em" }}>
+                      background: i === 3 ? "#ff3b3b" : (scenarioResult.isAI ? "#8b5cf6" : theme.accent), border: "2px solid #0a0a0a" }} />
+                    <div style={{ fontSize: 12, color: scenarioResult.isAI ? "#8b5cf6" : theme.accent, fontWeight: 600, letterSpacing: "0.1em" }}>
                       CHAPTER {ch.num}
                     </div>
                     <div style={{ fontSize: 16, fontWeight: 700, color: "#fff", marginBottom: 4 }}>{ch.title}</div>
@@ -2041,18 +2409,35 @@ export default function FolkloreMap() {
               </div>
 
               {/* Twist highlight */}
-              <div style={{ padding: 16, borderRadius: 12, background: "#ff3b3b0a", border: "1px solid #ff3b3b33", textAlign: "center" }}>
-                <div style={{ fontSize: 11, color: "#ff3b3b", letterSpacing: "0.2em", marginBottom: 4 }}>🔥 핵심 반전</div>
-                <div style={{ fontSize: 14, fontWeight: 600, color: "#ffaaaa" }}>{scenarioResult.twist}</div>
-              </div>
+              {scenarioResult.twist && (
+                <div style={{ padding: 16, borderRadius: 12, background: "#ff3b3b0a", border: "1px solid #ff3b3b33", textAlign: "center" }}>
+                  <div style={{ fontSize: 11, color: "#ff3b3b", letterSpacing: "0.2em", marginBottom: 4 }}>{L.twist}</div>
+                  <div style={{ fontSize: 14, fontWeight: 600, color: "#ffaaaa" }}>{scenarioResult.twist}</div>
+                </div>
+              )}
 
-              <div style={{ textAlign: "center", marginTop: 16 }}>
-                <button onClick={generateScenario} style={{
+              {/* Action buttons */}
+              <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: 8, marginTop: 16 }}>
+                <button onClick={scenarioMode === "ai" ? generateScenarioAI : generateScenario} style={{
                   padding: "8px 20px", borderRadius: 20, border: `1px solid ${theme.accent}66`,
                   background: "transparent", color: theme.accent, cursor: "pointer", fontSize: 12,
                   fontFamily: "'Crimson Text', serif",
                 }}>
-                  🎲 다시 생성
+                  {L.regenerate}
+                </button>
+                <button onClick={handleCopyScenario} style={{
+                  padding: "8px 20px", borderRadius: 20, border: "1px solid #44888866",
+                  background: "transparent", color: "#44aaaa", cursor: "pointer", fontSize: 12,
+                  fontFamily: "'Crimson Text', serif",
+                }}>
+                  {L.copy}
+                </button>
+                <button onClick={handlePostToCafe} style={{
+                  padding: "8px 20px", borderRadius: 20, border: "1px solid #cc884466",
+                  background: "#cc884411", color: "#cc8844", cursor: "pointer", fontSize: 12,
+                  fontFamily: "'Crimson Text', serif",
+                }}>
+                  {L.postToCafe}
                 </button>
               </div>
             </div>

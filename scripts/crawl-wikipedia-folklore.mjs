@@ -121,13 +121,112 @@ const CATEGORY_COUNTRY_MAP = [
   { lang: 'en', cat: 'Category:Cambodian_legendary_creatures', iso: 'KH', label: 'Cambodian creatures' },
   { lang: 'en', cat: 'Category:Hungarian_legendary_creatures', iso: 'HU', label: 'Hungarian creatures' },
   { lang: 'en', cat: 'Category:Polish_legendary_creatures', iso: 'PL', label: 'Polish creatures' },
+
+  // ── 추가 카테고리 (2차 확장) ──
+
+  // 유럽 추가
+  { lang: 'en', cat: 'Category:Portuguese_legendary_creatures', iso: 'PT', label: 'Portuguese creatures' },
+  { lang: 'en', cat: 'Category:Finnish_legendary_creatures', iso: 'FI', label: 'Finnish creatures' },
+  { lang: 'en', cat: 'Category:Cornish_legendary_creatures', iso: 'GB', label: 'Cornish creatures' },
+  { lang: 'en', cat: 'Category:Icelandic_folklore', iso: 'IS', label: 'Icelandic folklore' },
+  { lang: 'en', cat: 'Category:Welsh_mythology', iso: 'GB', label: 'Welsh mythology' },
+  { lang: 'en', cat: 'Category:Lithuanian_mythology', iso: 'LT', label: 'Lithuanian mythology' },
+  { lang: 'en', cat: 'Category:Basque_legendary_creatures', iso: 'ES', label: 'Basque creatures' },
+  { lang: 'en', cat: 'Category:Georgian_mythology', iso: 'GE', label: 'Georgian mythology' },
+  { lang: 'en', cat: 'Category:Armenian_mythology', iso: 'AM', label: 'Armenian mythology' },
+
+  // 아시아 추가
+  { lang: 'en', cat: 'Category:Chinese_legendary_creatures', iso: 'CN', label: 'Chinese creatures' },
+  { lang: 'en', cat: 'Category:Korean_mythology', iso: 'KR', label: 'Korean mythology' },
+  { lang: 'en', cat: 'Category:Japanese_folklore', iso: 'JP', label: 'Japanese folklore' },
+  { lang: 'en', cat: 'Category:Burmese_legendary_creatures', iso: 'MM', label: 'Burmese creatures' },
+  { lang: 'en', cat: 'Category:Laotian_legendary_creatures', iso: 'LA', label: 'Laotian creatures' },
+  { lang: 'en', cat: 'Category:Sri_Lankan_legendary_creatures', iso: 'LK', label: 'Sri Lankan creatures' },
+  { lang: 'en', cat: 'Category:Nepalese_legendary_creatures', iso: 'NP', label: 'Nepalese creatures' },
+  { lang: 'en', cat: 'Category:Balinese_mythology', iso: 'ID', label: 'Balinese mythology' },
+  { lang: 'en', cat: 'Category:Tibetan_legendary_creatures', iso: 'CN', label: 'Tibetan creatures' },
+  { lang: 'en', cat: 'Category:Oni', iso: 'JP', label: 'Oni' },
+  { lang: 'en', cat: 'Category:Tengu', iso: 'JP', label: 'Tengu' },
+
+  // 오세아니아 추가
+  { lang: 'en', cat: 'Category:Polynesian_legendary_creatures', iso: 'NZ', label: 'Polynesian creatures' },
+  { lang: 'en', cat: 'Category:Samoan_mythology', iso: 'WS', label: 'Samoan mythology' },
+
+  // 아메리카 추가
+  { lang: 'en', cat: 'Category:Algonquian_mythology', iso: 'US', label: 'Algonquian mythology' },
+  { lang: 'en', cat: 'Category:Caribbean_mythology', iso: 'JM', label: 'Caribbean mythology' },
+
+  // 아프리카 추가 (기존 나이지리아/가나/남아공 외)
+
+  // 타입별 크로스컷 카테고리
+  { lang: 'en', cat: 'Category:Legendary_serpents', iso: '_MULTI', label: 'Legendary serpents' },
+  { lang: 'en', cat: 'Category:Legendary_birds', iso: '_MULTI', label: 'Legendary birds' },
+  { lang: 'en', cat: 'Category:Mythological_canines', iso: '_MULTI', label: 'Mythological canines' },
+  { lang: 'en', cat: 'Category:Mythological_horses', iso: '_MULTI', label: 'Mythological horses' },
+  { lang: 'en', cat: 'Category:Water_spirits', iso: '_MULTI', label: 'Water spirits' },
+  { lang: 'en', cat: 'Category:Werewolves', iso: '_MULTI', label: 'Werewolves' },
+  { lang: 'en', cat: 'Category:Trolls', iso: '_MULTI', label: 'Trolls' },
+  { lang: 'en', cat: 'Category:Banshees', iso: 'IE', label: 'Banshees' },
+  { lang: 'en', cat: 'Category:Shapeshifting', iso: '_MULTI', label: 'Shapeshifters' },
+  { lang: 'en', cat: 'Category:Cryptids', iso: '_MULTI', label: 'Cryptids' },
+  { lang: 'en', cat: 'Category:Fairy_tale_stock_characters', iso: '_MULTI', label: 'Fairy tale characters' },
 ];
+
+// ═══════════════════════════════════════════════════════════════
+//  _MULTI 카테고리용 국가 추정
+// ═══════════════════════════════════════════════════════════════
+const COUNTRY_KEYWORDS = {
+  GR: ['greek', 'greece', 'hellenic', 'olymp', 'athen'],
+  NO: ['norse', 'norway', 'norwegian', 'viking', 'scandinavian'],
+  JP: ['japan', 'japanese', 'shinto', 'edo', 'yokai'],
+  CN: ['china', 'chinese', 'taoist', 'tang dynasty', 'ming'],
+  KR: ['korea', 'korean', 'joseon', 'goryeo'],
+  IN: ['india', 'indian', 'hindu', 'vedic', 'sanskrit'],
+  EG: ['egypt', 'egyptian', 'pharao', 'nile'],
+  IE: ['irish', 'ireland', 'celtic', 'gaelic'],
+  RU: ['russia', 'russian', 'slavic', 'slav'],
+  DE: ['german', 'germany', 'germanic', 'teutonic'],
+  FR: ['france', 'french', 'gaul'],
+  IT: ['italy', 'italian', 'roman', 'rome'],
+  GB: ['british', 'english', 'england', 'scotland', 'scottish', 'welsh', 'wales'],
+  ES: ['spain', 'spanish', 'iberian', 'basque'],
+  TR: ['turk', 'ottoman', 'anatoli'],
+  IR: ['persia', 'persian', 'iran'],
+  MX: ['mexico', 'mexican', 'aztec', 'maya'],
+  BR: ['brazil', 'brazilian', 'tupi'],
+  US: ['america', 'native american', 'navajo', 'cherokee', 'iroquois', 'algonquin'],
+  PH: ['philippin', 'filipino', 'tagalog'],
+  ID: ['indonesia', 'indonesian', 'java', 'bali'],
+  TH: ['thai', 'thailand', 'siam'],
+  RO: ['romania', 'romanian', 'transylvan'],
+  SE: ['sweden', 'swedish'],
+  FI: ['finland', 'finnish', 'kalevala'],
+  PL: ['poland', 'polish'],
+  SA: ['arab', 'arabian', 'islam', 'bedouin'],
+  AU: ['australia', 'australian', 'aboriginal'],
+  NZ: ['maori', 'new zealand', 'polynesia'],
+};
+
+function guessCountryFromText(text) {
+  if (!text) return null;
+  const lower = text.toLowerCase();
+  let best = null;
+  let bestScore = 0;
+  for (const [iso, keywords] of Object.entries(COUNTRY_KEYWORDS)) {
+    let score = 0;
+    for (const kw of keywords) {
+      if (lower.includes(kw)) score++;
+    }
+    if (score > bestScore) { bestScore = score; best = iso; }
+  }
+  return bestScore > 0 ? best : null;
+}
 
 // ═══════════════════════════════════════════════════════════════
 //  Wikipedia API 호출
 // ═══════════════════════════════════════════════════════════════
 let apiCallCount = 0;
-const MAX_API_CALLS = 20;
+const MAX_API_CALLS = 50;
 
 async function fetchJSON(url) {
   if (apiCallCount >= MAX_API_CALLS) return null;
@@ -309,9 +408,9 @@ function loadState() {
 }
 
 function saveState(state) {
-  // 처리된 페이지 ID는 최근 2000개만 유지 (무한 증가 방지)
-  if (state.processedPageIds.length > 2000) {
-    state.processedPageIds = state.processedPageIds.slice(-2000);
+  // 처리된 페이지 ID는 최근 5000개만 유지 (무한 증가 방지)
+  if (state.processedPageIds.length > 5000) {
+    state.processedPageIds = state.processedPageIds.slice(-5000);
   }
   fs.writeFileSync(STATE_PATH, JSON.stringify(state, null, 2), 'utf8');
 }
@@ -384,7 +483,7 @@ async function main() {
 
   // ── 라운드 로빈: 2~3개 카테고리 선택 ──
   const totalCats = CATEGORY_COUNTRY_MAP.length;
-  const batchSize = 3;
+  const batchSize = 6;
   const startIdx = state.lastCategoryIndex % totalCats;
   const selectedCats = [];
   for (let i = 0; i < batchSize; i++) {
@@ -396,7 +495,7 @@ async function main() {
   selectedCats.forEach(c => console.log(`   - [${c.iso}] ${c.label} (${c.lang})`));
 
   // ── 각 카테고리에서 기사 수집 ──
-  const MAX_NEW = 5;
+  const MAX_NEW = 15;
   let added = 0;
   const processedIds = new Set(state.processedPageIds);
 
@@ -420,8 +519,8 @@ async function main() {
       continue;
     }
 
-    // 랜덤 셔플 대신 순서대로 최대 5개 시도
-    const candidates = unprocessed.slice(0, 5);
+    // 랜덤 셔플 대신 순서대로 최대 10개 시도
+    const candidates = unprocessed.slice(0, 10);
 
     for (const member of candidates) {
       if (added >= MAX_NEW) break;
@@ -470,11 +569,24 @@ async function main() {
         continue;
       }
 
-      // 해당 국가 찾기
-      const country = data.find(c => c.i === catDef.iso);
+      // 해당 국가 찾기 (_MULTI 카테고리는 본문에서 추정)
+      let targetIso = catDef.iso;
+      if (targetIso === '_MULTI') {
+        const guessed = guessCountryFromText(article.extract);
+        if (!guessed) {
+          console.log(`   ⏭️ ${koName}(${enName}) — 국가 추정 불가, 스킵`);
+          continue;
+        }
+        targetIso = guessed;
+      }
+      const country = data.find(c => c.i === targetIso);
       if (!country) {
-        console.log(`   ⚠️ ${catDef.iso} 국가를 데이터에서 찾을 수 없음`);
+        console.log(`   ⚠️ ${targetIso} 국가를 데이터에서 찾을 수 없음`);
         continue;
+      }
+      // _MULTI일 경우 creature의 ISO도 교정
+      if (catDef.iso === '_MULTI') {
+        creature.id = `${targetIso.toLowerCase()}-${creature.id.split('-').slice(1).join('-')}`;
       }
 
       country.b.push(creature);
