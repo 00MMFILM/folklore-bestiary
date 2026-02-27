@@ -196,6 +196,107 @@ const SCENARIO_TEMPLATES = [
     twists: ["존재가 인간보다 인간적이었다", "코미디였던 상황이 세계적 위기로 확대", "모든 소동의 원인이 문화적 오해", "존재들의 리얼리티 쇼로 끝난다"] },
 ];
 
+const SCENARIO_LOGLINES_KO = [
+  "{prota}은(는) {being0}의 출현으로 평범한 일상을 잃고, {flaw}을(를) 극복해야만 {setting}에서 살아남을 수 있다.",
+  "{setting}에서 {being0}을(를) 만난 {prota}은(는), {flaw}에 눈먼 채 진실에 다가가지만 {being1}이(가) 모든 것을 뒤흔든다.",
+  "{prota}은(는) {being0}과(와) 얽히며 자신의 {flaw}과(와) 마주하고, {setting}의 비밀을 풀어야 한다.",
+];
+const SCENARIO_LOGLINES_EN = [
+  "{prota} loses their ordinary life when {being0} appears, and must overcome {flaw} to survive in {setting}.",
+  "In {setting}, {prota} encounters {being0} and, blinded by {flaw}, edges toward the truth — until {being1} shatters everything.",
+  "{prota} becomes entangled with {being0}, forced to confront their {flaw} and unravel the secrets of {setting}.",
+];
+const SCENARIO_FLAWS_KO = ["과도한 자만심", "타인에 대한 불신", "과거에 대한 집착", "두려움을 외면하는 습관", "책임 회피", "분노 조절 불능", "과잉 통제욕"];
+const SCENARIO_FLAWS_EN = ["Hubris", "Distrust of others", "Obsession with the past", "Denial of fear", "Avoidance of responsibility", "Uncontrollable anger", "Need for control"];
+const SCENARIO_TRANSFORMS_KO = ["겸손과 연대를 배운다", "타인을 신뢰하는 법을 알게 된다", "과거를 놓아주고 현재를 산다", "두려움을 직면할 용기를 얻는다", "책임을 받아들인다", "분노 대신 이해를 선택한다", "통제를 내려놓고 흐름을 받아들인다"];
+const SCENARIO_TRANSFORMS_EN = ["Learns humility and solidarity", "Discovers how to trust others", "Lets go of the past, lives in the present", "Gains courage to face fear", "Accepts responsibility", "Chooses understanding over anger", "Releases control and accepts the flow"];
+
+const SCENARIO_GHOSTS_KO = ["어린 시절 부모의 갑작스러운 실종을 목격했다", "사랑하는 사람을 지키지 못한 기억이 있다", "과거에 자신의 선택이 누군가를 다치게 했다", "어릴 때 초자연적 존재에게 공포를 경험했다", "신뢰했던 사람에게 배신당한 적이 있다", "자신의 능력 때문에 주변 사람들이 떠났다", "금기를 어겨 공동체에서 추방당한 적이 있다"];
+const SCENARIO_GHOSTS_EN = ["Witnessed a parent's sudden disappearance as a child", "Carries the memory of failing to protect a loved one", "A past choice led to someone getting hurt", "Experienced supernatural terror as a child", "Was betrayed by someone they trusted completely", "People left because of their abilities", "Was exiled from their community for breaking a taboo"];
+
+const SECONDARY_CHARS_KO = [
+  { name: "서진", role: "멘토", function: "주인공에게 초자연 세계의 규칙을 가르치는 안내자", miniArc: "과거의 실패를 주인공을 통해 극복한다" },
+  { name: "하윤", role: "연인/동행자", function: "주인공의 감정적 닻이자 인간성의 거울", miniArc: "주인공을 위해 자신의 안전을 포기하는 선택을 한다" },
+  { name: "도현", role: "라이벌", function: "주인공과 같은 목표를 다른 방식으로 추구하는 그림자", miniArc: "결국 주인공의 방식이 옳았음을 인정한다" },
+  { name: "미래", role: "트릭스터", function: "긴장을 완화하고 예상치 못한 정보를 제공하는 야생 카드", miniArc: "장난기 뒤에 숨겨진 진심을 드러낸다" },
+];
+const SECONDARY_CHARS_EN = [
+  { name: "Seojin", role: "Mentor", function: "Guide who teaches the protagonist the rules of the supernatural world", miniArc: "Overcomes past failures through the protagonist" },
+  { name: "Hayoon", role: "Love interest/Companion", function: "Emotional anchor and mirror of the protagonist's humanity", miniArc: "Chooses to sacrifice safety for the protagonist" },
+  { name: "Dohyun", role: "Rival", function: "Shadow who pursues the same goal through different means", miniArc: "Eventually acknowledges the protagonist's way was right" },
+  { name: "Mirae", role: "Trickster", function: "Wild card who relieves tension and provides unexpected information", miniArc: "Reveals sincerity hidden behind playfulness" },
+];
+
+const CONFLICT_TEMPLATES_KO = {
+  horror: { external: "존재의 물리적 위협과 생존의 위기", internal: "공포를 직면할 용기 vs 도망치려는 본능", relational: "동료 간의 불신과 희생의 선택", thematic: "공포의 본질은 외부가 아닌 내면에 있다" },
+  romance: { external: "인간과 초자연 존재의 금기된 결합에 대한 외부 압력", internal: "사랑과 자기보존 사이의 갈등", relational: "서로의 본질을 받아들이는 과정", thematic: "사랑은 경계를 초월할 수 있는가" },
+  adventure: { external: "세계를 위협하는 봉인의 해제와 시간 제한", internal: "영웅이 될 자격이 있는가에 대한 자기 의심", relational: "동맹의 신뢰 구축과 배신의 가능성", thematic: "진정한 힘은 무엇인가" },
+  mystery: { external: "연쇄 사건의 패턴을 풀고 다음 피해를 막아야 한다", internal: "진실을 알고 싶은 욕구 vs 진실의 무게", relational: "정보를 숨기는 관계자들과의 긴장", thematic: "진실이 항상 정의를 가져오는가" },
+  comedy: { external: "초자연 존재의 정체가 탄로날 위기의 연속", internal: "평범한 일상을 지키고 싶은 욕구", relational: "문화 차이에서 오는 코믹한 오해와 우정", thematic: "다름은 위협이 아닌 풍요다" },
+};
+const CONFLICT_TEMPLATES_EN = {
+  horror: { external: "Physical threat from the creature and survival crisis", internal: "Courage to face fear vs instinct to flee", relational: "Distrust among companions and choices of sacrifice", thematic: "The essence of fear lies within, not without" },
+  romance: { external: "External pressure against the forbidden union of human and supernatural", internal: "Conflict between love and self-preservation", relational: "The process of accepting each other's true nature", thematic: "Can love transcend boundaries?" },
+  adventure: { external: "A world-threatening seal breaking with a time limit", internal: "Self-doubt about being worthy of heroism", relational: "Building trust among allies amid possibility of betrayal", thematic: "What is true power?" },
+  mystery: { external: "Must decode the pattern of serial incidents and prevent the next", internal: "Desire for truth vs the weight of truth", relational: "Tension with those who hide information", thematic: "Does truth always bring justice?" },
+  comedy: { external: "A series of near-exposures of the supernatural being's identity", internal: "Desire to maintain an ordinary life", relational: "Comic misunderstandings from cultural differences leading to friendship", thematic: "Difference is richness, not threat" },
+};
+
+const MOOD_TEMPLATES_KO = [
+  "차가운 블루톤의 달빛, 안개 낀 롱테이크",
+  "따뜻한 앰버 조명, 핸드헬드 카메라의 친밀함",
+  "고대비 흑백에 가까운 그림자 연출",
+  "네온과 어둠이 교차하는 도시 야경",
+];
+const MOOD_TEMPLATES_EN = [
+  "Cold blue moonlight tones, foggy long takes",
+  "Warm amber lighting, handheld camera intimacy",
+  "Near black-and-white high-contrast shadow work",
+  "Urban nightscape with alternating neon and darkness",
+];
+
+const DIALOGUE_TEMPLATES_KO = [
+  ["\"이 세계에는... 설명할 수 없는 것들이 있어.\"", "\"진짜 괴물은 인간 안에 있는 거야.\"", "\"도망치면 끝이야? 아니, 그때부터 시작이야.\"", "\"이제 알겠어. 두려워할 건 저것이 아니라 나 자신이었어.\""],
+  ["\"처음 봤을 때부터 알았어... 너는 달라.\"", "\"사랑한다고? 네가 뭔지도 모르면서?\"", "\"기억이 사라져도 이 감정만은 남을 거야.\"", "\"끝이 아니야. 우리의 이야기는 여기서 다시 시작해.\""],
+  ["\"봉인이 풀리고 있어. 시간이 없다.\"", "\"동맹? 난 널 이용하는 거고, 넌 날 이용하는 거야.\"", "\"영웅이 필요하다고? 난 살아남고 싶을 뿐이야.\"", "\"결국 이 모든 건 하나로 연결되어 있었어.\""],
+  ["\"이건 단순한 사건이 아니야. 패턴이 있어.\"", "\"진실을 알면 돌아갈 수 없어.\"", "\"모든 단서가 한 곳을 가리키고 있었어.\"", "\"범인은... 처음부터 우리 곁에 있었어.\""],
+];
+const DIALOGUE_TEMPLATES_EN = [
+  ["\"There are things in this world... that can't be explained.\"", "\"The real monster lives inside us.\"", "\"Running doesn't end it. That's where it begins.\"", "\"Now I see. What I should've feared was myself.\""],
+  ["\"I knew from the first moment... you were different.\"", "\"You love me? You don't even know what I am.\"", "\"Even if memories fade, this feeling will remain.\"", "\"It's not the end. Our story begins again here.\""],
+  ["\"The seals are breaking. We're running out of time.\"", "\"Alliance? I'm using you, and you're using me.\"", "\"You need a hero? I just want to survive.\"", "\"It was all connected from the very beginning.\""],
+  ["\"This isn't a simple case. There's a pattern.\"", "\"Once you know the truth, there's no going back.\"", "\"Every clue was pointing to the same place.\"", "\"The culprit... was beside us all along.\""],
+];
+
+const OPENING_IMAGES_KO = [
+  "안개 속에서 희미하게 빛나는 등불 하나. 그 너머로 폐허가 된 사원의 처마가 보인다.",
+  "오래된 필름처럼 바래진 마을 풍경. 누군가의 발자국이 눈 덮인 길 위에 하나씩 찍혀 있다.",
+  "달빛이 물 위에 부서지는 밤. 수면 아래로 거대한 그림자가 천천히 움직인다.",
+  "벚꽃잎이 흩날리는 고궁의 회랑. 한 사람이 닫힌 문 앞에 서 있다.",
+  "현대 도시의 심야 골목. 네온사인 아래로 인간이 아닌 것의 그림자가 스친다.",
+];
+const OPENING_IMAGES_EN = [
+  "A single lantern glowing faintly through fog. Beyond it, the eaves of a ruined temple emerge.",
+  "A village landscape faded like old film. Footprints press one by one into a snow-covered path.",
+  "Moonlight shattering on water at night. Beneath the surface, an enormous shadow moves slowly.",
+  "Cherry blossoms scattering through an ancient palace corridor. Someone stands before a closed door.",
+  "A late-night alley in a modern city. Beneath neon signs, a shadow of something not human flickers past.",
+];
+const CLOSING_IMAGES_KO = [
+  "처음과 같은 안개. 하지만 이번엔 등불이 두 개다. 나란히 걸어가는 두 실루엣.",
+  "눈이 녹기 시작한 길. 발자국 위로 새싹이 돋아나고 있다.",
+  "수면이 잔잔해진 호수. 달빛 아래 물 위에 한 송이 꽃이 떠 있다.",
+  "열린 궁궐의 문. 벚꽃잎 사이로 두 사람이 함께 걸어 나온다.",
+  "같은 골목, 하지만 네온 대신 아침 햇살. 카페 앞 벤치에서 미소 짓는 주인공.",
+];
+const CLOSING_IMAGES_EN = [
+  "The same fog as the beginning. But now there are two lanterns. Two silhouettes walking side by side.",
+  "A path where snow has begun to melt. Sprouts emerge atop the footprints.",
+  "A lake with calm surface. Under moonlight, a single flower floats on the water.",
+  "The palace door, now open. Two people walk out together through the cherry blossoms.",
+  "The same alley, but morning sunlight instead of neon. The protagonist smiling on a bench outside a cafe.",
+];
+
 const ERA_PRESETS_KO = ["현대", "조선시대", "중세", "미래", "고대", "근대"];
 const ERA_PRESETS_EN = ["Modern", "Joseon Era", "Medieval", "Future", "Ancient", "Early Modern"];
 const TONE_PRESETS_KO = ["어두운", "밝은", "잔잔한", "긴장감", "유머러스"];
@@ -223,9 +324,9 @@ const SCENARIO_I18N = {
     fastMode: "⚡ 빠른 생성",
     aiMode: "🤖 AI 생성",
     generating: "🤖 생성 중...",
-    aiGenerate: "🤖 AI 시나리오 생성",
-    fastGenerate: "⚡ 시나리오 생성",
-    aiHint: "GPT-4o-mini가 창의적인 시나리오를 생성합니다",
+    aiGenerate: "🤖 AI 트리트먼트 생성",
+    fastGenerate: "⚡ 트리트먼트 생성",
+    aiHint: "GPT-4o-mini가 전문 트리트먼트를 생성합니다",
     fastHint: "장르 미선택 시 랜덤 · 존재 미선택 시 자동 배정",
     aiStreaming: "🤖 AI 생성 중...",
     twist: "🔥 핵심 반전",
@@ -237,6 +338,47 @@ const SCENARIO_I18N = {
     scenario: "시나리오",
     protagonist: "주인공",
     ch1: "서막 — 균열의 징조", ch2: "발단 — 첫 번째 조우", ch3: "전개 — 얽히는 실타래", ch4: "위기 — 반전의 순간", ch5: "절정과 결말",
+    loglineLabel: "로그라인",
+    themeLabel: "주제",
+    characterArcLabel: "🎭 캐릭터 아크",
+    flawLabel: "내적 결함",
+    ghostLabel: "과거의 상처",
+    wantLabel: "욕구",
+    needLabel: "필요",
+    transformLabel: "변화",
+    creatureRoleLabel: "서사 역할",
+    plotMechanicLabel: "플롯 기능",
+    visualSignatureLabel: "외형 시그니처",
+    folkloreSignificanceLabel: "민속학적 의미",
+    narrativeRoles: { antagonist: "적대자", ally: "조력자", mirror: "거울", catalyst: "촉매", thresholdguardian: "문지기", shapeshifter: "변신자" },
+    act1: "기 (Setup)", act2: "승 (Development)", act3: "전 (Twist)", act4: "결 (Resolution)",
+    beat1_1: "일상 세계", beat1_2: "촉발 사건", beat1_3: "망설임/저항", beat1_4: "B스토리 도입", beat1_5: "결심/문턱넘기",
+    beat2_1: "새로운 세계", beat2_2: "시련과 동맹", beat2_3: "B스토리 심화", beat2_4: "중간점", beat2_5: "적의 반격",
+    beat3_1: "위기 고조", beat3_2: "가장 어두운 순간", beat3_3: "B스토리 교차", beat3_4: "반전/깨달음", beat3_5: "재기의 결단",
+    beat4_1: "최종 대결 준비", beat4_2: "클라이맥스", beat4_3: "B스토리 해소", beat4_4: "해결", beat4_5: "새로운 일상",
+    targetAudienceLabel: "타겟 관객",
+    openingImageLabel: "오프닝 이미지",
+    closingImageLabel: "클로징 이미지",
+    culturalContextLabel: "민속학적 맥락",
+    secondaryCharLabel: "조연 캐릭터",
+    secCharName: "이름",
+    secCharRole: "역할",
+    secCharFunction: "서사 기능",
+    secCharMiniArc: "미니 아크",
+    conflictLayersLabel: "4중 갈등 구조",
+    conflictExternal: "외적 갈등",
+    conflictInternal: "내적 갈등",
+    conflictRelational: "관계적 갈등",
+    conflictThematic: "주제적 갈등",
+    subplotLabel: "서브플롯 (B스토리)",
+    subplotIntersection: "교차 막",
+    moodLabel: "촬영 톤",
+    keyDialogueLabel: "핵심 대사",
+    emotionLabel: "감정",
+    beatSubplotTag: "B",
+    expandBeats: "비트 펼치기",
+    collapseBeats: "비트 접기",
+    emotionArcLabel: "감정 아크",
   },
   en: {
     title: "🎬 Scenario Generator",
@@ -259,9 +401,9 @@ const SCENARIO_I18N = {
     fastMode: "⚡ Quick",
     aiMode: "🤖 AI",
     generating: "🤖 Generating...",
-    aiGenerate: "🤖 AI Generate",
-    fastGenerate: "⚡ Generate Scenario",
-    aiHint: "GPT-4o-mini generates a creative scenario",
+    aiGenerate: "🤖 AI Treatment",
+    fastGenerate: "⚡ Generate Treatment",
+    aiHint: "GPT-4o-mini generates a professional treatment",
     fastHint: "Random genre if unselected · auto-assign creatures",
     aiStreaming: "🤖 AI Generating...",
     twist: "🔥 Key Twist",
@@ -273,6 +415,47 @@ const SCENARIO_I18N = {
     scenario: "Scenario",
     protagonist: "Protagonist",
     ch1: "Prologue — Omen", ch2: "Act I — First Encounter", ch3: "Act II — Entangled Threads", ch4: "Act III — Turning Point", ch5: "Climax & Resolution",
+    loglineLabel: "Logline",
+    themeLabel: "Theme",
+    characterArcLabel: "🎭 Character Arc",
+    flawLabel: "Flaw",
+    ghostLabel: "Ghost (Past Wound)",
+    wantLabel: "Want",
+    needLabel: "Need",
+    transformLabel: "Transformation",
+    creatureRoleLabel: "Narrative Role",
+    plotMechanicLabel: "Plot Mechanic",
+    visualSignatureLabel: "Visual Signature",
+    folkloreSignificanceLabel: "Folklore Significance",
+    narrativeRoles: { antagonist: "Antagonist", ally: "Ally", mirror: "Mirror", catalyst: "Catalyst", thresholdguardian: "Threshold Guardian", shapeshifter: "Shapeshifter" },
+    act1: "Act I (Setup)", act2: "Act II (Development)", act3: "Act III (Twist)", act4: "Act IV (Resolution)",
+    beat1_1: "Ordinary World", beat1_2: "Inciting Incident", beat1_3: "Hesitation/Resistance", beat1_4: "B-Story Introduction", beat1_5: "Decision/Crossing Threshold",
+    beat2_1: "New World", beat2_2: "Trials & Allies", beat2_3: "B-Story Deepening", beat2_4: "Midpoint", beat2_5: "Enemy Strikes Back",
+    beat3_1: "Rising Crisis", beat3_2: "Darkest Moment", beat3_3: "B-Story Intersection", beat3_4: "Reversal/Epiphany", beat3_5: "Rally",
+    beat4_1: "Final Preparation", beat4_2: "Climax", beat4_3: "B-Story Resolution", beat4_4: "Resolution", beat4_5: "New Normal",
+    targetAudienceLabel: "Target Audience",
+    openingImageLabel: "Opening Image",
+    closingImageLabel: "Closing Image",
+    culturalContextLabel: "Folklore Context",
+    secondaryCharLabel: "Secondary Character",
+    secCharName: "Name",
+    secCharRole: "Role",
+    secCharFunction: "Narrative Function",
+    secCharMiniArc: "Mini Arc",
+    conflictLayersLabel: "4-Layer Conflict Structure",
+    conflictExternal: "External",
+    conflictInternal: "Internal",
+    conflictRelational: "Relational",
+    conflictThematic: "Thematic",
+    subplotLabel: "Subplot (B-Story)",
+    subplotIntersection: "Intersects Act",
+    moodLabel: "Cinematography",
+    keyDialogueLabel: "Key Dialogue",
+    emotionLabel: "Emotion",
+    beatSubplotTag: "B",
+    expandBeats: "Expand Beats",
+    collapseBeats: "Collapse Beats",
+    emotionArcLabel: "Emotion Arc",
   },
 };
 
@@ -802,6 +985,7 @@ export default function FolkloreMap() {
   const [scenarioTone, setScenarioTone] = useState("");
   const [scenarioAILoading, setScenarioAILoading] = useState(false);
   const [scenarioStreamText, setScenarioStreamText] = useState("");
+  const [expandedActs, setExpandedActs] = useState({0: true, 1: true, 2: true, 3: true});
   const [charBuilt, setCharBuilt] = useState(null);
   const [webtoonGenre, setWebtoonGenre] = useState(null);
   const [webtoonBeings, setWebtoonBeings] = useState([]);
@@ -1980,21 +2164,141 @@ export default function FolkloreMap() {
     const formatScenarioText = (result) => {
       if (!result) return "";
       const lines = [];
+      const sep = "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━";
       const tplName = result.template?.name || result.title || L.scenario;
+
+      lines.push(sep);
       lines.push(`🎬 ${tplName}`);
-      lines.push(`📍 ${result.setting}`);
+      lines.push(sep);
       lines.push("");
-      if (result.beings?.length) {
+      if (result.logline) lines.push(`💡 ${L.loglineLabel}: ${result.logline}`);
+      if (result.targetAudience) lines.push(`🎯 ${L.targetAudienceLabel}: ${result.targetAudience}`);
+      lines.push(`📍 ${result.setting}`);
+      if (result.theme) lines.push(`🏷️ ${L.themeLabel}: ${result.theme}`);
+      lines.push("");
+
+      // Opening Image
+      if (result.openingImage) {
+        lines.push(`🎬 ${L.openingImageLabel}`);
+        lines.push(`  ${result.openingImage}`);
+        lines.push("");
+      }
+
+      // Cultural Context
+      if (result.culturalContext) {
+        lines.push(`📜 ${L.culturalContextLabel}`);
+        lines.push(`  ${result.culturalContext}`);
+        lines.push("");
+      }
+
+      // Character Arc
+      if (result.characterArc) {
+        const ca = result.characterArc;
+        lines.push(sep);
+        lines.push(L.characterArcLabel);
+        lines.push(sep);
+        lines.push(`  ${ca.protagonist}${ca.role ? ` (${ca.role})` : ""}`);
+        if (ca.ghost) lines.push(`  ${L.ghostLabel}: ${ca.ghost}`);
+        lines.push(`  ${L.flawLabel}: ${ca.flaw}`);
+        lines.push(`  ${L.wantLabel}: ${ca.want} → ${L.needLabel}: ${ca.need}`);
+        lines.push(`  ${L.transformLabel}: ${ca.transformation}`);
+        lines.push("");
+      }
+
+      // Secondary Character
+      if (result.secondaryCharacter) {
+        const sc = result.secondaryCharacter;
+        lines.push(`🧑‍🤝‍🧑 ${L.secondaryCharLabel}`);
+        lines.push(`  ${sc.name} — ${sc.role}`);
+        lines.push(`  ${L.secCharFunction}: ${sc.function}`);
+        lines.push(`  ${L.secCharMiniArc}: ${sc.miniArc}`);
+        lines.push("");
+      }
+
+      // Conflict Layers
+      if (result.conflictLayers) {
+        const cl = result.conflictLayers;
+        lines.push(`⚔️ ${L.conflictLayersLabel}`);
+        lines.push(`  ${L.conflictExternal}: ${cl.external}`);
+        lines.push(`  ${L.conflictInternal}: ${cl.internal}`);
+        lines.push(`  ${L.conflictRelational}: ${cl.relational}`);
+        lines.push(`  ${L.conflictThematic}: ${cl.thematic}`);
+        lines.push("");
+      }
+
+      // Subplot
+      if (result.subplot) {
+        lines.push(`📖 ${L.subplotLabel}: ${result.subplot.name}`);
+        lines.push(`  ${result.subplot.description}`);
+        if (result.subplot.intersections?.length) {
+          lines.push(`  ${L.subplotIntersection}: ${result.subplot.intersections.join(", ")}`);
+        }
+        lines.push("");
+      }
+
+      // Creature Roles
+      if (result.creatureRoles?.length) {
+        lines.push(sep);
+        lines.push(L.castLabel);
+        lines.push(sep);
+        result.creatureRoles.forEach(cr => {
+          lines.push(`  - ${cr.name} [${cr.narrativeRole}]: ${cr.plotMechanic}`);
+          if (cr.visualSignature) lines.push(`    👁️ ${L.visualSignatureLabel}: ${cr.visualSignature}`);
+          if (cr.folkloreSignificance) lines.push(`    📜 ${L.folkloreSignificanceLabel}: ${cr.folkloreSignificance}`);
+        });
+        lines.push("");
+      } else if (result.beings?.length) {
         lines.push(L.castLabel);
         result.beings.forEach(b => lines.push(`  - ${b.n} (${b.t}, ${b.country}): ${b.d}`));
         lines.push("");
       }
-      result.chapters.forEach(ch => {
-        lines.push(`[Chapter ${ch.num}] ${ch.title}`);
-        lines.push(ch.desc);
+
+      // 4-Act Treatment
+      if (result.acts) {
+        result.acts.forEach(act => {
+          lines.push(sep);
+          lines.push(`${act.label} — ${act.title}`);
+          lines.push(sep);
+          if (act.mood) lines.push(`  🎥 ${L.moodLabel}: ${act.mood}`);
+          if (act.beats) {
+            act.beats.forEach(beat => {
+              const tags = [];
+              if (beat.emotion) tags.push(beat.emotion);
+              if (beat.subplot) tags.push(`[${L.beatSubplotTag}]`);
+              const tagStr = tags.length ? ` (${tags.join(" · ")})` : "";
+              lines.push(`  [${beat.beat}]${tagStr}`);
+              lines.push(`    ${beat.desc}`);
+            });
+          } else if (act.summary) {
+            lines.push(`  ${act.summary}`);
+          }
+          if (act.keyDialogue) lines.push(`  💬 ${L.keyDialogueLabel}: ${act.keyDialogue}`);
+          lines.push("");
+        });
+      } else if (result.chapters) {
+        result.chapters.forEach(ch => {
+          lines.push(`[Chapter ${ch.num}] ${ch.title}`);
+          lines.push(ch.desc);
+          lines.push("");
+        });
+      }
+
+      if (result.twist) {
+        lines.push(`🔥 ${L.twist}: ${result.twist}`);
         lines.push("");
-      });
-      lines.push(`🔥 ${L.twist}: ${result.twist}`);
+      }
+
+      // Closing Image
+      if (result.closingImage) {
+        lines.push(`🎬 ${L.closingImageLabel}`);
+        lines.push(`  ${result.closingImage}`);
+        lines.push("");
+      }
+
+      lines.push(sep);
+      lines.push("Generated by Folklore Bestiary — https://folklore-bestiary.vercel.app");
+      lines.push(sep);
+
       return lines.join("\n");
     };
 
@@ -2009,21 +2313,117 @@ export default function FolkloreMap() {
       const hook = pickRandom(template.hooks);
       const twist = pickRandom(template.twists);
       const prota = scenarioProtaName || L.protagonist;
-      const chapters = isKo ? [
-        { num: 1, title: L.ch1, desc: `${effectiveEra ? effectiveEra + ", " : ""}${setting}에서 ${hook}. ${beings[0].n}의 그림자가 드리워지기 시작한다.${scenarioProtaRole ? ` ${prota}(${scenarioProtaRole})은(는) 이를 감지한다.` : ""}` },
-        { num: 2, title: L.ch2, desc: `${prota}이(가) ${beings[0].n}(${beings[0].t})과 마주하다. "${beings[0].d}" — 이 존재의 본질이 서서히 드러난다.` },
-        { num: 3, title: L.ch3, desc: `${beings.length > 1 ? beings[1].n : "미지의 존재"}(이)가 등장하며 상황이 복잡해진다. ${beings.length > 1 ? beings[1].country : "알 수 없는 땅"}의 전승이 단서가 된다.${scenarioKeywords.length ? ` [${scenarioKeywords.join(", ")}]의 요소가 얽힌다.` : ""}` },
-        { num: 4, title: L.ch4, desc: twist + ". 모든 것이 뒤집힌다." },
-        { num: 5, title: L.ch5, desc: `${beings.map(b => b.n).join(", ")}와(과)의 최종 대결. ${scenarioTone ? `${scenarioTone} 분위기 속에서 ` : ""}결말은 열려 있다...` },
+      const flawIdx = Math.floor(Math.random() * SCENARIO_FLAWS_KO.length);
+      const flaw = isKo ? SCENARIO_FLAWS_KO[flawIdx] : SCENARIO_FLAWS_EN[flawIdx];
+      const transformation = isKo ? SCENARIO_TRANSFORMS_KO[flawIdx] : SCENARIO_TRANSFORMS_EN[flawIdx];
+      const ghost = isKo ? SCENARIO_GHOSTS_KO[flawIdx] : SCENARIO_GHOSTS_EN[flawIdx];
+      const loglineTemplates = isKo ? SCENARIO_LOGLINES_KO : SCENARIO_LOGLINES_EN;
+      const logline = pickRandom(loglineTemplates)
+        .replace("{prota}", prota).replace("{being0}", beings[0].n)
+        .replace("{being1}", beings.length > 1 ? beings[1].n : beings[0].n)
+        .replace("{flaw}", flaw).replace("{setting}", setting);
+
+      const characterArc = {
+        protagonist: prota,
+        role: scenarioProtaRole || (isKo ? "탐색자" : "Seeker"),
+        flaw,
+        ghost,
+        want: isKo ? "진실을 밝히고 싶다" : "Wants to uncover the truth",
+        need: isKo ? "자신의 내면과 화해하는 것" : "To reconcile with their inner self",
+        transformation,
+      };
+
+      const secChars = isKo ? SECONDARY_CHARS_KO : SECONDARY_CHARS_EN;
+      const secondaryCharacter = pickRandom(secChars);
+
+      const genreId = template.id || "horror";
+      const conflictPool = isKo ? CONFLICT_TEMPLATES_KO : CONFLICT_TEMPLATES_EN;
+      const conflictLayers = conflictPool[genreId] || conflictPool.horror;
+
+      const subplot = isKo
+        ? { name: `${secondaryCharacter.name}의 이야기`, description: `${secondaryCharacter.name}(${secondaryCharacter.role})이(가) ${prota}과(와) 함께하며 자신만의 여정을 겪는다.`, intersections: [2, 3] }
+        : { name: `${secondaryCharacter.name}'s Story`, description: `${secondaryCharacter.name} (${secondaryCharacter.role}) undergoes their own journey alongside ${prota}.`, intersections: [2, 3] };
+
+      const targetAudience = isKo ? "15세 이상, 20-40대" : "PG-15, ages 20-40";
+
+      const openingImage = pickRandom(isKo ? OPENING_IMAGES_KO : OPENING_IMAGES_EN);
+      const closingImage = pickRandom(isKo ? CLOSING_IMAGES_KO : CLOSING_IMAGES_EN);
+
+      const culturalContext = isKo
+        ? `${beings[0].n}은(는) ${beings[0].country}의 전통 민담에서 유래한 존재로, ${beings[0].src || beings[0].d}. ${beings.length > 1 ? `${beings[1].n}은(는) ${beings[1].country}의 전승에서 전해지는 ${beings[1].t}이다.` : ""} 이 시나리오는 이러한 민속학적 전통을 현대적 서사로 재해석한다.`
+        : `${beings[0].n} originates from the folklore of ${beings[0].country}, ${beings[0].src || beings[0].d}. ${beings.length > 1 ? `${beings[1].n} is a ${beings[1].t} from the traditions of ${beings[1].country}.` : ""} This scenario reinterprets these folkloric traditions through a modern narrative lens.`;
+
+      const narrativeRoleOptions = isKo ? ["적대자", "촉매", "조력자", "거울", "문지기", "변신자"] : ["Antagonist", "Catalyst", "Ally", "Mirror", "Threshold Guardian", "Shapeshifter"];
+      const creatureRoles = beings.map((b, i) => ({
+        name: b.n,
+        narrativeRole: narrativeRoleOptions[i] || narrativeRoleOptions[1],
+        plotMechanic: isKo
+          ? `${b.n}의 존재가 ${prota}의 ${flaw}을(를) 시험한다.`
+          : `${b.n}'s presence tests ${prota}'s ${flaw.toLowerCase()}.`,
+        visualSignature: b.vk || (isKo ? `${b.t} 특유의 초자연적 외형` : `Supernatural appearance typical of ${b.t}`),
+        folkloreSignificance: b.src || (isKo ? `${b.country} 전통 민담의 ${b.t}` : `A ${b.t} from ${b.country} traditional folklore`),
+      }));
+
+      const moodPool = isKo ? MOOD_TEMPLATES_KO : MOOD_TEMPLATES_EN;
+      const dialogueGenreIdx = { horror: 0, romance: 1, adventure: 2, mystery: 3, comedy: 0 }[genreId] || 0;
+      const dialoguePool = isKo ? DIALOGUE_TEMPLATES_KO[dialogueGenreIdx] : DIALOGUE_TEMPLATES_EN[dialogueGenreIdx];
+
+      const beatNames = isKo
+        ? [
+          [L.beat1_1, L.beat1_2, L.beat1_3, L.beat1_4, L.beat1_5],
+          [L.beat2_1, L.beat2_2, L.beat2_3, L.beat2_4, L.beat2_5],
+          [L.beat3_1, L.beat3_2, L.beat3_3, L.beat3_4, L.beat3_5],
+          [L.beat4_1, L.beat4_2, L.beat4_3, L.beat4_4, L.beat4_5],
+        ]
+        : [
+          [L.beat1_1, L.beat1_2, L.beat1_3, L.beat1_4, L.beat1_5],
+          [L.beat2_1, L.beat2_2, L.beat2_3, L.beat2_4, L.beat2_5],
+          [L.beat3_1, L.beat3_2, L.beat3_3, L.beat3_4, L.beat3_5],
+          [L.beat4_1, L.beat4_2, L.beat4_3, L.beat4_4, L.beat4_5],
+        ];
+
+      const emotions = isKo
+        ? [["평온", "충격", "두려움", "호기심", "결의"], ["경이", "긴장", "공감", "각성", "절박"], ["긴장", "절망", "혼란", "각성", "결의"], ["비장", "격정", "해소", "해방", "평온"]]
+        : [["Calm", "Shock", "Fear", "Curiosity", "Resolve"], ["Wonder", "Tension", "Empathy", "Awakening", "Urgency"], ["Tension", "Despair", "Confusion", "Awakening", "Resolve"], ["Gravitas", "Intensity", "Release", "Liberation", "Peace"]];
+
+      const subplotBeatFlags = [[false, false, false, true, false], [false, false, true, false, false], [false, false, true, false, false], [false, false, true, false, false]];
+
+      const actTitles = isKo ? ["균열의 징조", "새로운 세계", "반전의 순간", "새로운 시작"] : ["Omen", "New World", "Turning Point", "New Beginning"];
+
+      const actDescs = isKo ? [
+        [`${effectiveEra ? effectiveEra + ", " : ""}${setting}. ${prota}의 평범한 일상이 펼쳐진다.`, `${hook}. ${beings[0].n}의 그림자가 드리워지기 시작한다.`, `${prota}은(는) 변화의 징조에 불안을 느끼지만 외면하려 한다.`, `${secondaryCharacter.name}(${secondaryCharacter.role})이(가) ${prota}의 일상에 등장한다.`, `더 이상 외면할 수 없는 사건이 벌어지고, ${prota}은(는) 미지의 세계로 발을 내딛는다.`],
+        [`${prota}은(는) ${beings[0].n}(${beings[0].t})의 세계에 발을 들이며 새로운 규칙을 배운다.`, `시련이 닥치고, ${beings.length > 1 ? beings[1].n + "이(가) 등장하며" : "상황이"} 갈등이 복잡해진다.${scenarioKeywords.length ? ` [${scenarioKeywords.join(", ")}]의 요소가 얽힌다.` : ""}`, `${secondaryCharacter.name}과(와) ${prota}의 관계가 깊어지며 B스토리가 진행된다.`, `중요한 전환점. ${prota}은(는) 자신의 ${flaw}이(가) 진정한 장애물임을 감지하기 시작한다.`, `적대 세력의 반격. 지금까지 쌓아온 것들이 위협받는다.`],
+        [`상황이 극도로 악화된다. ${beings.map(b => b.n).join(", ")}의 본성이 드러난다.`, `모든 것을 잃을 위기. ${prota}은(는) 가장 어두운 순간에 빠진다.`, `${secondaryCharacter.name}의 선택이 예상치 못한 방향으로 B스토리와 메인 플롯을 교차시킨다.`, `${twist}. ${prota}은(는) 자신의 ${flaw}의 근원(ghost)과 마주하며 진정한 need를 깨닫는다.`, `깨달음을 바탕으로 다시 일어선다. 최종 대결을 향한 결단.`],
+        [`${beings.map(b => b.n).join(", ")}와(과)의 최종 대결을 준비한다.`, `클라이맥스. ${scenarioTone ? `${scenarioTone} 분위기 속에서 ` : ""}모든 갈등이 정점에 달한다.`, `${secondaryCharacter.name}의 미니 아크가 해소된다: ${secondaryCharacter.miniArc}`, `${prota}은(는) ${transformation}.`, `새로운 일상. 변화한 ${prota}의 모습이 오프닝과 대비되며 이야기가 마무리된다.`],
       ] : [
-        { num: 1, title: L.ch1, desc: `${effectiveEra ? effectiveEra + " — " : ""}${setting}. ${hook}. The shadow of ${beings[0].n} begins to loom.${scenarioProtaRole ? ` ${prota} (${scenarioProtaRole}) senses the change.` : ""}` },
-        { num: 2, title: L.ch2, desc: `${prota} encounters ${beings[0].n} (${beings[0].t}). "${beings[0].d}" — the true nature of this being is slowly revealed.` },
-        { num: 3, title: L.ch3, desc: `${beings.length > 1 ? beings[1].n : "An unknown entity"} appears, complicating the situation. Folklore from ${beings.length > 1 ? beings[1].country : "unknown lands"} becomes a clue.${scenarioKeywords.length ? ` Elements of [${scenarioKeywords.join(", ")}] intertwine.` : ""}` },
-        { num: 4, title: L.ch4, desc: twist + ". Everything is turned upside down." },
-        { num: 5, title: L.ch5, desc: `The final confrontation with ${beings.map(b => b.n).join(", ")}. ${scenarioTone ? `In a ${scenarioTone.toLowerCase()} atmosphere, ` : ""}the ending remains open...` },
+        [`${effectiveEra ? effectiveEra + " — " : ""}${setting}. ${prota}'s ordinary life unfolds.`, `${hook}. The shadow of ${beings[0].n} begins to loom.`, `${prota} feels uneasy about the signs of change but tries to look away.`, `${secondaryCharacter.name} (${secondaryCharacter.role}) enters ${prota}'s life.`, `An undeniable event occurs, and ${prota} steps into the unknown.`],
+        [`${prota} enters the world of ${beings[0].n} (${beings[0].t}) and learns new rules.`, `Trials arise. ${beings.length > 1 ? beings[1].n + " appears," : "The situation"} complicating the conflict.${scenarioKeywords.length ? ` Elements of [${scenarioKeywords.join(", ")}] intertwine.` : ""}`, `The relationship between ${secondaryCharacter.name} and ${prota} deepens as the B-story progresses.`, `A crucial turning point. ${prota} begins to sense that their ${flaw.toLowerCase()} is the true obstacle.`, `The enemy strikes back. Everything built so far is threatened.`],
+        [`The situation deteriorates severely. The true nature of ${beings.map(b => b.n).join(", ")} is revealed.`, `On the verge of losing everything. ${prota} falls into the darkest moment.`, `${secondaryCharacter.name}'s choice unexpectedly intersects the B-story with the main plot.`, `${twist}. ${prota} confronts the root of their ${flaw.toLowerCase()} (ghost) and realizes their true need.`, `Rising from epiphany. A decisive step toward the final confrontation.`],
+        [`Preparing for the final confrontation with ${beings.map(b => b.n).join(", ")}.`, `Climax. ${scenarioTone ? `In a ${scenarioTone.toLowerCase()} atmosphere, ` : ""}all conflicts reach their peak.`, `${secondaryCharacter.name}'s mini arc resolves: ${secondaryCharacter.miniArc}`, `${prota} ${transformation.toLowerCase()}.`, `A new normal. The changed ${prota} contrasts with the opening, bringing the story full circle.`],
       ];
-      setScenarioResult({ template, beings, setting, hook, twist, chapters });
+
+      const acts = [0, 1, 2, 3].map(ai => ({
+        act: ai + 1,
+        label: [L.act1, L.act2, L.act3, L.act4][ai],
+        title: actTitles[ai],
+        mood: moodPool[ai % moodPool.length],
+        keyDialogue: dialoguePool[ai],
+        beats: [0, 1, 2, 3, 4].map(bi => ({
+          beat: beatNames[ai][bi],
+          desc: actDescs[ai][bi],
+          emotion: emotions[ai][bi],
+          subplot: subplotBeatFlags[ai][bi],
+        })),
+      }));
+
+      setScenarioResult({
+        template, beings, setting, hook, twist, acts, logline, characterArc, creatureRoles,
+        theme: isKo ? template.desc : template.desc,
+        targetAudience, openingImage, closingImage, culturalContext,
+        secondaryCharacter, conflictLayers, subplot,
+      });
       setScenarioStreamText("");
+      setExpandedActs({0: true, 1: true, 2: true, 3: true});
     };
 
     const generateScenarioAI = async () => {
@@ -2044,7 +2444,7 @@ export default function FolkloreMap() {
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             genre: template.name,
-            beings: beings.map(b => ({ n: b.n, t: b.t, d: b.d, country: b.country, ct: b.ct })),
+            beings: beings.map(b => ({ n: b.n, t: b.t, d: b.d, country: b.country, ct: b.ct, ab: b.ab, wk: b.wk, sh: b.sh, gf: b.gf, vk: b.vk, src: b.src, ln: b.ln })),
             protagonist: { name: scenarioProtaName, role: scenarioProtaRole },
             era: effectiveEra,
             keywords: scenarioKeywords,
@@ -2083,16 +2483,57 @@ export default function FolkloreMap() {
         const jsonMatch = fullText.match(/\{[\s\S]*\}/);
         if (jsonMatch) {
           const aiResult = JSON.parse(jsonMatch[0]);
-          setScenarioResult({
-            template,
-            beings,
-            setting: aiResult.setting || template.settings[0],
-            hook: "",
-            twist: aiResult.twist || "",
-            chapters: aiResult.chapters || [],
-            title: aiResult.title,
-            isAI: true,
-          });
+          if (aiResult.acts) {
+            // Ensure each act has 5 beats with emotion/subplot fields
+            const normalizedActs = (aiResult.acts || []).map(act => ({
+              ...act,
+              mood: act.mood || "",
+              keyDialogue: act.keyDialogue || "",
+              beats: (act.beats || []).map(beat => ({
+                ...beat,
+                emotion: beat.emotion || "",
+                subplot: !!beat.subplot,
+              })),
+            }));
+            setScenarioResult({
+              template,
+              beings,
+              setting: aiResult.setting || template.settings[0],
+              hook: "",
+              twist: aiResult.twist || "",
+              acts: normalizedActs,
+              logline: aiResult.logline || "",
+              theme: aiResult.theme || "",
+              characterArc: aiResult.characterArc || null,
+              creatureRoles: (aiResult.creatureRoles || []).map(cr => ({
+                ...cr,
+                visualSignature: cr.visualSignature || "",
+                folkloreSignificance: cr.folkloreSignificance || "",
+              })),
+              title: aiResult.title,
+              isAI: true,
+              targetAudience: aiResult.targetAudience || "",
+              openingImage: aiResult.openingImage || "",
+              closingImage: aiResult.closingImage || "",
+              culturalContext: aiResult.culturalContext || "",
+              secondaryCharacter: aiResult.secondaryCharacter || null,
+              conflictLayers: aiResult.conflictLayers || null,
+              subplot: aiResult.subplot || null,
+            });
+            setExpandedActs({0: true, 1: true, 2: true, 3: true});
+          } else {
+            // Legacy fallback: chapters-based response
+            setScenarioResult({
+              template,
+              beings,
+              setting: aiResult.setting || template.settings[0],
+              hook: "",
+              twist: aiResult.twist || "",
+              chapters: aiResult.chapters || [],
+              title: aiResult.title,
+              isAI: true,
+            });
+          }
           setScenarioStreamText("");
         } else {
           throw new Error("Failed to parse AI response");
@@ -2356,67 +2797,389 @@ export default function FolkloreMap() {
         )}
 
         {/* Result */}
-        {scenarioResult && (
-          <div style={{ background: "linear-gradient(145deg, #1a1008, #0a0a0a)", border: `1px solid ${scenarioResult.isAI ? "#8b5cf6" : theme.accent}44`,
+        {scenarioResult && (() => {
+          const accent = scenarioResult.isAI ? "#8b5cf6" : theme.accent;
+          const ACT_COLORS = ["#22c55e", "#f59e0b", "#ef4444", "#3b82f6"];
+          const ACT_LABELS = [L.act1, L.act2, L.act3, L.act4];
+          const hasActs = !!scenarioResult.acts;
+          const hasChapters = !!scenarioResult.chapters;
+
+          const roleLabel = (role) => {
+            if (!role) return role;
+            const key = role.toLowerCase().replace(/[^a-z]/g, "");
+            return L.narrativeRoles[key] || role;
+          };
+          const getCreatureRole = (name) => (scenarioResult.creatureRoles || []).find(cr => cr.name === name);
+
+          // Collect all emotions for the emotion arc visualization
+          const allEmotions = [];
+          if (hasActs) {
+            scenarioResult.acts.forEach(act => {
+              (act.beats || []).forEach(beat => {
+                allEmotions.push({ emotion: beat.emotion || "", subplot: !!beat.subplot, beat: beat.beat });
+              });
+            });
+          }
+
+          const sectionCard = (children, extra = {}) => (
+            <div style={{ padding: 16, borderRadius: 14, background: "#ffffff06", border: "1px solid #ffffff12", marginBottom: 16, ...extra }}>
+              {children}
+            </div>
+          );
+
+          const sectionTitle = (text, color = accent) => (
+            <div style={{ fontSize: 13, fontWeight: 700, color, marginBottom: 10, letterSpacing: "0.1em" }}>{text}</div>
+          );
+
+          return (
+          <div style={{ background: "linear-gradient(145deg, #1a1008, #0a0a0a)", border: `1px solid ${accent}44`,
             borderRadius: 20, padding: 28, position: "relative", overflow: "hidden" }}>
-            <div style={{ position: "absolute", inset: 0, background: `radial-gradient(circle at 20% 20%, ${scenarioResult.isAI ? "#8b5cf6" : theme.accent}08, transparent 60%)`, pointerEvents: "none" }} />
+            <div style={{ position: "absolute", inset: 0, background: `radial-gradient(circle at 20% 20%, ${accent}08, transparent 60%)`, pointerEvents: "none" }} />
             <div style={{ position: "relative" }}>
-              {/* Header */}
-              <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 16 }}>
-                <span style={{ fontSize: 28 }}>{scenarioResult.isAI ? "🤖" : scenarioResult.template.label.split(" ")[0]}</span>
+
+              {/* 1. Header */}
+              <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 8 }}>
+                <span style={{ fontSize: 28 }}>{scenarioResult.isAI ? "🤖" : (scenarioResult.template?.label?.split(" ")[0] || "🎬")}</span>
                 <div>
-                  <div style={{ fontSize: 11, color: scenarioResult.isAI ? "#8b5cf6" : theme.accent, letterSpacing: "0.2em", textTransform: "uppercase" }}>
-                    {scenarioResult.isAI ? "AI Generated" : scenarioResult.template.name}
+                  <div style={{ fontSize: 11, color: accent, letterSpacing: "0.2em", textTransform: "uppercase" }}>
+                    {scenarioResult.isAI ? "AI Treatment" : (scenarioResult.template?.name || "Treatment")}
                   </div>
                   <h3 style={{ fontSize: 22, fontWeight: 700, color: "#fff" }}>
-                    "{scenarioResult.title || scenarioResult.setting}"
+                    &ldquo;{scenarioResult.title || scenarioResult.setting}&rdquo;
                   </h3>
                 </div>
               </div>
 
-              {/* Setting (AI mode) */}
-              {scenarioResult.isAI && scenarioResult.setting && (
-                <div style={{ fontSize: 13, opacity: 0.7, marginBottom: 16, lineHeight: 1.6 }}>📍 {scenarioResult.setting}</div>
+              {/* 2. Logline */}
+              {scenarioResult.logline && (
+                <div style={{ fontSize: 14, fontStyle: "italic", color: "#ccc", marginBottom: 12, lineHeight: 1.6, paddingLeft: 4 }}>
+                  💡 {scenarioResult.logline}
+                </div>
               )}
 
-              {/* Cast */}
+              {/* 3. Target Audience badge */}
+              {scenarioResult.targetAudience && (
+                <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 12 }}>
+                  <span style={{ padding: "4px 12px", borderRadius: 12, background: "#6366f118", border: "1px solid #6366f144", color: "#a5b4fc", fontSize: 11, letterSpacing: "0.05em" }}>
+                    🎯 {L.targetAudienceLabel}: {scenarioResult.targetAudience}
+                  </span>
+                </div>
+              )}
+
+              {/* 4. Setting */}
+              {scenarioResult.setting && (
+                <div style={{ fontSize: 13, opacity: 0.7, marginBottom: 8, lineHeight: 1.6 }}>📍 {scenarioResult.setting}</div>
+              )}
+
+              {/* 5. Theme badge */}
+              {scenarioResult.theme && (
+                <div style={{ marginBottom: 16 }}>
+                  <span style={{ padding: "4px 12px", borderRadius: 12, background: accent + "18", border: `1px solid ${accent}44`, color: accent, fontSize: 12, letterSpacing: "0.05em" }}>
+                    🏷️ {scenarioResult.theme}
+                  </span>
+                </div>
+              )}
+
+              {/* 6. Opening Image */}
+              {scenarioResult.openingImage && sectionCard(
+                <>
+                  {sectionTitle(`🎬 ${L.openingImageLabel}`)}
+                  <div style={{ fontSize: 13, color: "#d1d5db", lineHeight: 1.7, fontStyle: "italic", padding: "8px 12px", borderLeft: `3px solid ${accent}44`, background: "#ffffff04" }}>
+                    {scenarioResult.openingImage}
+                  </div>
+                </>
+              )}
+
+              {/* 7. Cultural Context */}
+              {scenarioResult.culturalContext && sectionCard(
+                <>
+                  {sectionTitle(`📜 ${L.culturalContextLabel}`)}
+                  <div style={{ fontSize: 13, color: "#d1d5db", lineHeight: 1.7 }}>
+                    {scenarioResult.culturalContext}
+                  </div>
+                </>
+              )}
+
+              {/* 8. Character Arc (expanded with ghost) */}
+              {scenarioResult.characterArc && sectionCard(
+                <>
+                  {sectionTitle(L.characterArcLabel)}
+                  <div style={{ fontSize: 15, fontWeight: 600, color: "#fff", marginBottom: 8 }}>
+                    {scenarioResult.characterArc.protagonist}{scenarioResult.characterArc.role ? ` — ${scenarioResult.characterArc.role}` : ""}
+                  </div>
+                  <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 8 }}>
+                    {scenarioResult.characterArc.ghost && (
+                      <div style={{ padding: "8px 12px", borderRadius: 10, background: "#78716c12", border: "1px solid #78716c22", gridColumn: "1 / -1" }}>
+                        <div style={{ fontSize: 10, color: "#a8a29e", letterSpacing: "0.1em", marginBottom: 2 }}>{L.ghostLabel}</div>
+                        <div style={{ fontSize: 12, color: "#d6d3d1" }}>{scenarioResult.characterArc.ghost}</div>
+                      </div>
+                    )}
+                    <div style={{ padding: "8px 12px", borderRadius: 10, background: "#ef444412", border: "1px solid #ef444422" }}>
+                      <div style={{ fontSize: 10, color: "#ef4444", letterSpacing: "0.1em", marginBottom: 2 }}>{L.flawLabel}</div>
+                      <div style={{ fontSize: 12, color: "#fca5a5" }}>{scenarioResult.characterArc.flaw}</div>
+                    </div>
+                    <div style={{ padding: "8px 12px", borderRadius: 10, background: "#f59e0b12", border: "1px solid #f59e0b22" }}>
+                      <div style={{ fontSize: 10, color: "#f59e0b", letterSpacing: "0.1em", marginBottom: 2 }}>{L.wantLabel}</div>
+                      <div style={{ fontSize: 12, color: "#fcd34d" }}>{scenarioResult.characterArc.want}</div>
+                    </div>
+                    <div style={{ padding: "8px 12px", borderRadius: 10, background: "#3b82f612", border: "1px solid #3b82f622" }}>
+                      <div style={{ fontSize: 10, color: "#3b82f6", letterSpacing: "0.1em", marginBottom: 2 }}>{L.needLabel}</div>
+                      <div style={{ fontSize: 12, color: "#93c5fd" }}>{scenarioResult.characterArc.need}</div>
+                    </div>
+                    <div style={{ padding: "8px 12px", borderRadius: 10, background: "#22c55e12", border: "1px solid #22c55e22", gridColumn: "1 / -1" }}>
+                      <div style={{ fontSize: 10, color: "#22c55e", letterSpacing: "0.1em", marginBottom: 2 }}>{L.transformLabel}</div>
+                      <div style={{ fontSize: 12, color: "#86efac" }}>{scenarioResult.characterArc.transformation}</div>
+                    </div>
+                  </div>
+                </>
+              )}
+
+              {/* 9. Secondary Character */}
+              {scenarioResult.secondaryCharacter && sectionCard(
+                <>
+                  {sectionTitle(`🧑‍🤝‍🧑 ${L.secondaryCharLabel}`)}
+                  <div style={{ fontSize: 15, fontWeight: 600, color: "#fff", marginBottom: 8 }}>
+                    {scenarioResult.secondaryCharacter.name} — {scenarioResult.secondaryCharacter.role}
+                  </div>
+                  <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8 }}>
+                    <div style={{ padding: "8px 12px", borderRadius: 10, background: "#8b5cf612", border: "1px solid #8b5cf622" }}>
+                      <div style={{ fontSize: 10, color: "#8b5cf6", letterSpacing: "0.1em", marginBottom: 2 }}>{L.secCharFunction}</div>
+                      <div style={{ fontSize: 12, color: "#c4b5fd" }}>{scenarioResult.secondaryCharacter.function}</div>
+                    </div>
+                    <div style={{ padding: "8px 12px", borderRadius: 10, background: "#06b6d412", border: "1px solid #06b6d422" }}>
+                      <div style={{ fontSize: 10, color: "#06b6d4", letterSpacing: "0.1em", marginBottom: 2 }}>{L.secCharMiniArc}</div>
+                      <div style={{ fontSize: 12, color: "#67e8f9" }}>{scenarioResult.secondaryCharacter.miniArc}</div>
+                    </div>
+                  </div>
+                </>
+              )}
+
+              {/* 10. Conflict Layers (2x2) */}
+              {scenarioResult.conflictLayers && sectionCard(
+                <>
+                  {sectionTitle(`⚔️ ${L.conflictLayersLabel}`)}
+                  <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8 }}>
+                    {[
+                      { key: "external", label: L.conflictExternal, color: "#ef4444", bg: "#ef4444" },
+                      { key: "internal", label: L.conflictInternal, color: "#f59e0b", bg: "#f59e0b" },
+                      { key: "relational", label: L.conflictRelational, color: "#3b82f6", bg: "#3b82f6" },
+                      { key: "thematic", label: L.conflictThematic, color: "#8b5cf6", bg: "#8b5cf6" },
+                    ].map(({ key, label, color, bg }) => (
+                      <div key={key} style={{ padding: "8px 12px", borderRadius: 10, background: bg + "12", border: `1px solid ${bg}22` }}>
+                        <div style={{ fontSize: 10, color, letterSpacing: "0.1em", marginBottom: 2 }}>{label}</div>
+                        <div style={{ fontSize: 12, color: "#d1d5db", lineHeight: 1.5 }}>{scenarioResult.conflictLayers[key]}</div>
+                      </div>
+                    ))}
+                  </div>
+                </>
+              )}
+
+              {/* 11. Subplot */}
+              {scenarioResult.subplot && sectionCard(
+                <>
+                  {sectionTitle(`📖 ${L.subplotLabel}`)}
+                  <div style={{ fontSize: 14, fontWeight: 600, color: "#fff", marginBottom: 4 }}>{scenarioResult.subplot.name}</div>
+                  <div style={{ fontSize: 13, color: "#d1d5db", lineHeight: 1.6, marginBottom: 8 }}>{scenarioResult.subplot.description}</div>
+                  {scenarioResult.subplot.intersections?.length > 0 && (
+                    <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+                      {scenarioResult.subplot.intersections.map(actNum => (
+                        <span key={actNum} style={{ padding: "3px 10px", borderRadius: 10, background: ACT_COLORS[(actNum - 1)] + "22", border: `1px solid ${ACT_COLORS[(actNum - 1)]}44`, color: ACT_COLORS[(actNum - 1)], fontSize: 11 }}>
+                          {L.subplotIntersection} {actNum}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+                </>
+              )}
+
+              {/* 12. Creature Cast (expanded) */}
               <div style={{ display: "flex", flexWrap: "wrap", gap: 8, marginBottom: 20 }}>
-                {scenarioResult.beings.map((b, i) => (
+                {scenarioResult.beings.map((b, i) => {
+                  const cr = getCreatureRole(b.n);
+                  return (
                   <div key={i} style={{ padding: "10px 14px", borderRadius: 12, background: "#ffffff06", border: "1px solid #ffffff12", flex: "1 1 200px", minWidth: 180 }}>
-                    <div style={{ fontSize: 15, fontWeight: 600 }}>{getTypeIcon(b.t)} {b.n}</div>
+                    <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 4 }}>
+                      <span style={{ fontSize: 15, fontWeight: 600 }}>{getTypeIcon(b.t)} {b.n}</span>
+                      {cr && (
+                        <span style={{ padding: "2px 8px", borderRadius: 8, background: accent + "22", border: `1px solid ${accent}44`, color: accent, fontSize: 10, fontWeight: 600 }}>
+                          {roleLabel(cr.narrativeRole)}
+                        </span>
+                      )}
+                    </div>
                     <div style={{ fontSize: 11, opacity: 0.5 }}>{b.country} · {b.t}{b.ct ? ` · ${CT_LABELS[b.ct]}` : ''}</div>
                     <div style={{ fontSize: 11, opacity: 0.6, marginTop: 4 }}>{b.d}</div>
+                    {cr?.plotMechanic && (
+                      <div style={{ fontSize: 11, color: accent, opacity: 0.8, marginTop: 6, paddingTop: 6, borderTop: "1px solid #ffffff0a", lineHeight: 1.5 }}>
+                        ⚙️ {cr.plotMechanic}
+                      </div>
+                    )}
+                    {cr?.visualSignature && (
+                      <div style={{ fontSize: 11, color: "#a78bfa", opacity: 0.8, marginTop: 4, lineHeight: 1.5 }}>
+                        👁️ {L.visualSignatureLabel}: {cr.visualSignature}
+                      </div>
+                    )}
+                    {cr?.folkloreSignificance && (
+                      <div style={{ fontSize: 11, color: "#fbbf24", opacity: 0.8, marginTop: 4, lineHeight: 1.5 }}>
+                        📜 {L.folkloreSignificanceLabel}: {cr.folkloreSignificance}
+                      </div>
+                    )}
                     <div style={{ display: "flex", gap: 2, marginTop: 4 }}>
                       {[1,2,3,4,5,6,7,8,9,10].map(j => <div key={j} style={{ width: 3, height: 3, borderRadius: "50%", background: j <= b.f ? (b.f >= 9 ? "#ff2222" : "#ff6633") : "#333" }} />)}
                     </div>
                   </div>
-                ))}
+                  );
+                })}
               </div>
 
-              {/* Chapters */}
-              <div style={{ borderLeft: `2px solid ${scenarioResult.isAI ? "#8b5cf6" : theme.accent}33`, paddingLeft: 20, marginBottom: 16 }}>
-                {scenarioResult.chapters.map((ch, i) => (
-                  <div key={i} style={{ marginBottom: 16, position: "relative" }}>
-                    <div style={{ position: "absolute", left: -27, top: 2, width: 12, height: 12, borderRadius: "50%",
-                      background: i === 3 ? "#ff3b3b" : (scenarioResult.isAI ? "#8b5cf6" : theme.accent), border: "2px solid #0a0a0a" }} />
-                    <div style={{ fontSize: 12, color: scenarioResult.isAI ? "#8b5cf6" : theme.accent, fontWeight: 600, letterSpacing: "0.1em" }}>
-                      CHAPTER {ch.num}
+              {/* 13. 4-Act Timeline (expanded with mood, 5 beats, emotion, subplot, keyDialogue, toggle) */}
+              {hasActs && (
+                <div style={{ marginBottom: 16 }}>
+                  {scenarioResult.acts.map((act, ai) => {
+                    const actColor = ACT_COLORS[ai] || accent;
+                    const isExpanded = expandedActs[ai] !== false;
+                    return (
+                    <div key={ai} style={{ marginBottom: 20 }}>
+                      <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 6, cursor: "pointer" }}
+                        onClick={() => setExpandedActs(prev => ({ ...prev, [ai]: !prev[ai] }))}>
+                        <div style={{ width: 28, height: 28, borderRadius: "50%", background: actColor + "22", border: `2px solid ${actColor}`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 13, fontWeight: 700, color: actColor }}>
+                          {act.act || ai + 1}
+                        </div>
+                        <div style={{ flex: 1 }}>
+                          <div style={{ fontSize: 11, color: actColor, letterSpacing: "0.15em", fontWeight: 600, textTransform: "uppercase" }}>
+                            {act.label || ACT_LABELS[ai]}
+                          </div>
+                          <div style={{ fontSize: 15, fontWeight: 700, color: "#fff" }}>{act.title}</div>
+                        </div>
+                        <span style={{ fontSize: 12, color: "#666", userSelect: "none" }}>{isExpanded ? "▼" : "▶"}</span>
+                      </div>
+
+                      {/* Mood note */}
+                      {act.mood && (
+                        <div style={{ fontSize: 11, color: "#9ca3af", fontStyle: "italic", marginBottom: 6, paddingLeft: 36 }}>
+                          🎥 {L.moodLabel}: {act.mood}
+                        </div>
+                      )}
+
+                      {/* Beats */}
+                      {isExpanded && act.beats ? (
+                        <div style={{ borderLeft: `2px solid ${actColor}33`, paddingLeft: 16, marginLeft: 14 }}>
+                          {act.beats.map((beat, bi) => (
+                            <div key={bi} style={{ marginBottom: 14, position: "relative" }}>
+                              <div style={{ position: "absolute", left: -22, top: 4, width: 8, height: 8, borderRadius: "50%", background: beat.subplot ? "#a78bfa" : actColor, border: "2px solid #0a0a0a" }} />
+                              <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 2 }}>
+                                <span style={{ fontSize: 11, color: actColor, fontWeight: 600, letterSpacing: "0.08em" }}>{beat.beat}</span>
+                                {beat.emotion && (
+                                  <span style={{ padding: "1px 6px", borderRadius: 6, background: "#ffffff0a", border: "1px solid #ffffff15", fontSize: 9, color: "#9ca3af" }}>
+                                    {beat.emotion}
+                                  </span>
+                                )}
+                                {beat.subplot && (
+                                  <span style={{ padding: "1px 5px", borderRadius: 4, background: "#8b5cf622", color: "#a78bfa", fontSize: 9, fontWeight: 700 }}>
+                                    {L.beatSubplotTag}
+                                  </span>
+                                )}
+                              </div>
+                              <div style={{ fontSize: 13, opacity: 0.75, lineHeight: 1.7 }}>{beat.desc}</div>
+                            </div>
+                          ))}
+                        </div>
+                      ) : isExpanded && act.summary ? (
+                        <div style={{ paddingLeft: 16, marginLeft: 14, borderLeft: `2px solid ${actColor}33` }}>
+                          <div style={{ fontSize: 13, opacity: 0.75, lineHeight: 1.6, paddingBottom: 8 }}>{act.summary}</div>
+                        </div>
+                      ) : null}
+
+                      {/* Key Dialogue */}
+                      {isExpanded && act.keyDialogue && (
+                        <div style={{ paddingLeft: 36, marginTop: 4 }}>
+                          <div style={{ fontSize: 12, color: "#fcd34d", fontStyle: "italic", lineHeight: 1.5 }}>
+                            💬 {act.keyDialogue}
+                          </div>
+                        </div>
+                      )}
                     </div>
-                    <div style={{ fontSize: 16, fontWeight: 700, color: "#fff", marginBottom: 4 }}>{ch.title}</div>
-                    <div style={{ fontSize: 13, opacity: 0.7, lineHeight: 1.6 }}>{ch.desc}</div>
-                  </div>
-                ))}
-              </div>
+                    );
+                  })}
+                </div>
+              )}
 
-              {/* Twist highlight */}
+              {/* 14. Emotion Arc Visualization */}
+              {allEmotions.length > 0 && sectionCard(
+                <>
+                  {sectionTitle(`📈 ${L.emotionArcLabel}`)}
+                  <div style={{ display: "flex", gap: 2, alignItems: "flex-end", height: 60, padding: "0 4px" }}>
+                    {allEmotions.map((em, i) => {
+                      const intensityMap = {
+                        "평온": 2, "calm": 2, "peace": 2, "hope": 3, "peace/hope": 3, "평온/희망": 3,
+                        "호기심": 3, "curiosity": 3, "경이": 4, "wonder": 4, "공감": 4, "empathy": 4,
+                        "두려움": 5, "fear": 5, "긴장": 6, "tension": 6, "결의": 6, "resolve": 6,
+                        "충격": 7, "shock": 7, "각성": 7, "awakening": 7, "비장": 7, "gravitas": 7,
+                        "절박": 8, "urgency": 8, "혼란": 6, "confusion": 6,
+                        "절망": 9, "despair": 9, "격정": 9, "intensity": 9,
+                        "해방": 5, "liberation": 5, "해소": 4, "release": 4,
+                      };
+                      const key = (em.emotion || "").toLowerCase().replace(/[^a-z가-힣\/]/g, "");
+                      const intensity = intensityMap[key] || 5;
+                      const h = Math.max(8, (intensity / 10) * 52);
+                      const actIdx = Math.floor(i / 5);
+                      const barColor = em.subplot ? "#a78bfa" : (ACT_COLORS[actIdx] || accent);
+                      return (
+                        <div key={i} style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", gap: 2 }}>
+                          <div style={{ width: "100%", maxWidth: 24, height: h, borderRadius: 4, background: barColor + "88", border: `1px solid ${barColor}`, transition: "height 0.3s" }}
+                            title={`${em.beat}: ${em.emotion}`} />
+                          <div style={{ fontSize: 7, color: "#666", textAlign: "center", lineHeight: 1.1, maxWidth: 32, overflow: "hidden", whiteSpace: "nowrap", textOverflow: "ellipsis" }}>
+                            {em.emotion}
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                  <div style={{ display: "flex", justifyContent: "space-between", marginTop: 6, padding: "0 4px" }}>
+                    {ACT_COLORS.slice(0, 4).map((c, i) => (
+                      <div key={i} style={{ fontSize: 9, color: c, fontWeight: 600, letterSpacing: "0.1em" }}>
+                        {ACT_LABELS[i]?.split(" ")[0] || `Act ${i + 1}`}
+                      </div>
+                    ))}
+                  </div>
+                </>
+              )}
+
+              {/* 15. Twist */}
               {scenarioResult.twist && (
-                <div style={{ padding: 16, borderRadius: 12, background: "#ff3b3b0a", border: "1px solid #ff3b3b33", textAlign: "center" }}>
+                <div style={{ padding: 16, borderRadius: 12, background: "#ff3b3b0a", border: "1px solid #ff3b3b33", textAlign: "center", marginBottom: 16 }}>
                   <div style={{ fontSize: 11, color: "#ff3b3b", letterSpacing: "0.2em", marginBottom: 4 }}>{L.twist}</div>
                   <div style={{ fontSize: 14, fontWeight: 600, color: "#ffaaaa" }}>{scenarioResult.twist}</div>
                 </div>
               )}
 
-              {/* Action buttons */}
+              {/* 16. Closing Image */}
+              {scenarioResult.closingImage && sectionCard(
+                <>
+                  {sectionTitle(`🎬 ${L.closingImageLabel}`)}
+                  <div style={{ fontSize: 13, color: "#d1d5db", lineHeight: 1.7, fontStyle: "italic", padding: "8px 12px", borderLeft: `3px solid ${accent}44`, background: "#ffffff04" }}>
+                    {scenarioResult.closingImage}
+                  </div>
+                </>
+              )}
+
+              {/* 17. Legacy 5-chapter fallback */}
+              {!hasActs && hasChapters && (
+                <div style={{ borderLeft: `2px solid ${accent}33`, paddingLeft: 20, marginBottom: 16 }}>
+                  {scenarioResult.chapters.map((ch, i) => (
+                    <div key={i} style={{ marginBottom: 16, position: "relative" }}>
+                      <div style={{ position: "absolute", left: -27, top: 2, width: 12, height: 12, borderRadius: "50%",
+                        background: i === 3 ? "#ff3b3b" : accent, border: "2px solid #0a0a0a" }} />
+                      <div style={{ fontSize: 12, color: accent, fontWeight: 600, letterSpacing: "0.1em" }}>
+                        CHAPTER {ch.num}
+                      </div>
+                      <div style={{ fontSize: 16, fontWeight: 700, color: "#fff", marginBottom: 4 }}>{ch.title}</div>
+                      <div style={{ fontSize: 13, opacity: 0.7, lineHeight: 1.6 }}>{ch.desc}</div>
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              {/* 18. Action buttons */}
               <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: 8, marginTop: 16 }}>
                 <button onClick={scenarioMode === "ai" ? generateScenarioAI : generateScenario} style={{
                   padding: "8px 20px", borderRadius: 20, border: `1px solid ${theme.accent}66`,
@@ -2442,7 +3205,8 @@ export default function FolkloreMap() {
               </div>
             </div>
           </div>
-        )}
+          );
+        })()}
       </div>
     );
   };
