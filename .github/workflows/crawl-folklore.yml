@@ -44,8 +44,8 @@ jobs:
             const c = fs.readFileSync('lib/folklore-data.ts','utf8');
             const marker = 'export const FOLKLORE_DATA: CountryData[] = ';
             const s = c.indexOf(marker) + marker.length;
-            let d=0,e=s;
-            for(let i=s;i<c.length;i++){if(c[i]==='[')d++;if(c[i]===']'){d--;if(d===0){e=i+1;break;}}}
+            let d=0,e=s,inStr=false,esc=false;
+            for(let i=s;i<c.length;i++){const ch=c[i];if(esc){esc=false;continue;}if(ch==='\\\\'){esc=true;continue;}if(ch==='\"'){inStr=!inStr;continue;}if(inStr)continue;if(ch==='[')d++;if(ch===']'){d--;if(d===0){e=i+1;break;}}}
             const data=JSON.parse(c.substring(s,e));
             console.log(data.reduce((a,b)=>a+b.b.length,0));
           ")
