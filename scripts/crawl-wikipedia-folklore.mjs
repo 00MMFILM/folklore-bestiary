@@ -425,24 +425,36 @@ function saveState(state) {
 //  중복 방지 (4중 체크)
 // ═══════════════════════════════════════════════════════════════
 function isDuplicate(creature, data, state) {
-  // 1) 이미 처리된 Wikipedia 페이지 ID
-  // (pageid는 creature에 직접 없으므로 state에서 체크)
+  // Helper: extract core name without parenthetical (e.g. "Gumiho (구미호)" → "gumiho")
+  const coreName = (name) => (name || '').replace(/\s*\(.*?\)\s*/g, '').trim().toLowerCase();
 
-  // 2) ID 중복
+  // 1) ID 중복
   for (const country of data) {
     if (country.b.some(b => b.id === creature.id)) return true;
   }
 
-  // 3) 영어 이름 (ln) 중복
-  const lnLower = (creature.ln || '').toLowerCase();
+  // 2) 영어 이름 (n) 중복 — exact + core name
+  const nLower = (creature.n || '').toLowerCase();
+  const nCore = coreName(creature.n);
   for (const country of data) {
-    if (country.b.some(b => (b.ln || '').toLowerCase() === lnLower)) return true;
+    if (country.b.some(b => {
+      const bLower = (b.n || '').toLowerCase();
+      const bCore = coreName(b.n);
+      return bLower === nLower || (nCore && bCore && nCore === bCore);
+    })) return true;
   }
 
-  // 4) 한국어 이름 (n) 중복
-  const nLower = (creature.n || '').toLowerCase();
-  for (const country of data) {
-    if (country.b.some(b => (b.n || '').toLowerCase() === nLower)) return true;
+  // 3) 한국어 이름 (ln) 중복 — exact + core name
+  const lnLower = (creature.ln || '').toLowerCase();
+  const lnCore = coreName(creature.ln);
+  if (lnLower) {
+    for (const country of data) {
+      if (country.b.some(b => {
+        const bLnLower = (b.ln || '').toLowerCase();
+        const bLnCore = coreName(b.ln);
+        return bLnLower === lnLower || (lnCore && bLnCore && lnCore === bLnCore);
+      })) return true;
+    }
   }
 
   return false;
