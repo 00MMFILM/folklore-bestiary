@@ -16,9 +16,15 @@ const DATA_MARKER = 'export const FOLKLORE_DATA: CountryData[] = ';
 function findDataRange(content) {
   const startIdx = content.indexOf(DATA_MARKER) + DATA_MARKER.length;
   let depth = 0, endIdx = startIdx;
+  let inString = false, escape = false;
   for (let i = startIdx; i < content.length; i++) {
-    if (content[i] === '[') depth++;
-    if (content[i] === ']') { depth--; if (depth === 0) { endIdx = i + 1; break; } }
+    const ch = content[i];
+    if (escape) { escape = false; continue; }
+    if (ch === '\\') { escape = true; continue; }
+    if (ch === '"') { inString = !inString; continue; }
+    if (inString) continue;
+    if (ch === '[') depth++;
+    if (ch === ']') { depth--; if (depth === 0) { endIdx = i + 1; break; } }
   }
   return { startIdx, endIdx };
 }
