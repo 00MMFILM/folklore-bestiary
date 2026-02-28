@@ -3,8 +3,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getAllCreatures, getCreatureById, getCreatureImage } from "@/lib/folklore-data";
 import { isValidLocale, getDictionary, getCtLabel, LOCALES, type Locale } from "@/lib/i18n";
+import { getCountryName, getRegionName, getTypeName } from "@/lib/i18n-names";
 import { getRegionColors } from "@/lib/region-colors";
 import Breadcrumb from "@/components/Breadcrumb";
+import LanguageSelector from "@/components/LanguageSelector";
+import { getCreatureTranslation } from "@/lib/creature-translations";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://folklore-bestiary.vercel.app";
 
@@ -34,7 +37,11 @@ export async function generateMetadata({
   const ogImage = image || "/og-default.png";
   const title = `${creature.n} — ${creature.country}`;
   const description = creature.d.length > 160 ? creature.d.slice(0, 157) + "..." : creature.d;
-  const altLocale = locale === "ko" ? "en" : "ko";
+
+  const langAlternates: Record<string, string> = {};
+  for (const l of LOCALES) {
+    langAlternates[l] = `${SITE_URL}/${l}/creatures/${creature.id}`;
+  }
 
   return {
     title,
@@ -54,10 +61,7 @@ export async function generateMetadata({
     },
     alternates: {
       canonical: `${SITE_URL}/${locale}/creatures/${creature.id}`,
-      languages: {
-        [locale]: `${SITE_URL}/${locale}/creatures/${creature.id}`,
-        [altLocale]: `${SITE_URL}/${altLocale}/creatures/${creature.id}`,
-      },
+      languages: langAlternates,
     },
   };
 }
@@ -79,7 +83,17 @@ export default async function CreaturePage({
   const t = getDictionary(locale);
   const image = getCreatureImage(creature.id);
   const colors = getRegionColors(creature.region);
-  const altLocale = locale === "ko" ? "en" : "ko";
+  const trans = getCreatureTranslation(creature.id, locale);
+
+  const countryName = getCountryName(creature.country, locale);
+  const regionName = getRegionName(creature.region, locale);
+  const typeName = getTypeName(creature.t, locale);
+
+  const description = trans?.d || creature.d;
+  const abilities = Array.isArray(trans?.ab) ? trans.ab : creature.ab;
+  const weaknesses = Array.isArray(trans?.wk) ? trans.wk : creature.wk;
+  const rawSh = trans?.sh || creature.sh;
+  const storyHooks = rawSh ? (Array.isArray(rawSh) ? rawSh : [rawSh]) : null;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -104,11 +118,11 @@ export default async function CreaturePage({
     { label: t["nav.home"], href: "/" },
     { label: t["index.breadcrumb"], href: `/${locale}/creatures` },
     {
-      label: creature.region,
+      label: regionName,
       href: `/${locale}/creatures/region/${creature.region.toLowerCase().replace(/\s+/g, "-")}`,
     },
     {
-      label: creature.country,
+      label: countryName,
       href: `/${locale}/creatures/country/${creature.countryCode.toLowerCase()}`,
     },
     { label: creature.ln || creature.n },
@@ -131,15 +145,7 @@ export default async function CreaturePage({
       >
         <Breadcrumb items={breadcrumbItems} locale={locale} accentColor={colors.accent} />
 
-        {/* Language switch */}
-        <div style={{ padding: "8px 24px", textAlign: "right" }}>
-          <Link
-            href={`/${altLocale}/creatures/${creature.id}`}
-            style={{ color: "#888", textDecoration: "none", fontSize: "13px" }}
-          >
-            {altLocale === "ko" ? "한국어" : "English"}
-          </Link>
-        </div>
+        <LanguageSelector locale={locale} basePath={`/creatures/${creature.id}`} />
 
         <article style={{ maxWidth: "800px", margin: "0 auto", padding: "40px 24px" }}>
           {/* Creature Image */}
@@ -197,7 +203,7 @@ export default async function CreaturePage({
                   border: `1px solid ${colors.accent}44`,
                 }}
               >
-                {creature.t}
+                {typeName}
               </span>
               <span
                 style={{
@@ -206,7 +212,7 @@ export default async function CreaturePage({
                   borderRadius: "20px",
                 }}
               >
-                {creature.country} · {creature.region}
+                {countryName} · {regionName}
               </span>
               {creature.ct && (
                 <span
@@ -237,7 +243,7 @@ export default async function CreaturePage({
             <h2 style={{ fontSize: "18px", color: colors.accent, marginBottom: "12px" }}>
               {t["creature.description"]}
             </h2>
-            <p style={{ lineHeight: 1.8, fontSize: "16px", color: "#ccc" }}>{creature.d}</p>
+            <p style={{ lineHeight: 1.8, fontSize: "16px", color: "#ccc" }}>{description}</p>
           </section>
 
           {/* Abilities & Weaknesses */}
@@ -249,7 +255,7 @@ export default async function CreaturePage({
               marginBottom: "32px",
             }}
           >
-            {creature.ab && creature.ab.length > 0 && (
+            {abilities && abilities.length > 0 && (
               <section>
                 <h2
                   style={{ fontSize: "16px", color: colors.accent, marginBottom: "12px" }}
@@ -257,7 +263,7 @@ export default async function CreaturePage({
                   {t["creature.abilities"]}
                 </h2>
                 <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
-                  {creature.ab.map((a) => (
+                  {abilities.map((a) => (
                     <li
                       key={a}
                       style={{
@@ -272,7 +278,7 @@ export default async function CreaturePage({
                 </ul>
               </section>
             )}
-            {creature.wk && creature.wk.length > 0 && (
+            {weaknesses && weaknesses.length > 0 && (
               <section>
                 <h2
                   style={{ fontSize: "16px", color: "#ff6666", marginBottom: "12px" }}
@@ -280,7 +286,7 @@ export default async function CreaturePage({
                   {t["creature.weaknesses"]}
                 </h2>
                 <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
-                  {creature.wk.map((w) => (
+                  {weaknesses.map((w) => (
                     <li
                       key={w}
                       style={{
@@ -342,7 +348,7 @@ export default async function CreaturePage({
           )}
 
           {/* Story Hooks */}
-          {creature.sh && (
+          {storyHooks && storyHooks.length > 0 && (
             <section style={{ marginBottom: "32px" }}>
               <h2
                 style={{ fontSize: "16px", color: colors.accent, marginBottom: "12px" }}
@@ -350,7 +356,7 @@ export default async function CreaturePage({
                 {t["creature.storyHooks"]}
               </h2>
               <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
-                {(Array.isArray(creature.sh) ? creature.sh : [creature.sh]).map((s) => (
+                {storyHooks.map((s) => (
                   <li
                     key={s}
                     style={{

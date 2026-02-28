@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { getAllCreatures, getAllRegions, getAllCountries, regionToSlug } from "@/lib/folklore-data";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://folklore-bestiary.vercel.app";
-const LOCALES = ["ko", "en"] as const;
+const LOCALES = ["ko", "en", "zh", "ja"] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const creatures = getAllCreatures();

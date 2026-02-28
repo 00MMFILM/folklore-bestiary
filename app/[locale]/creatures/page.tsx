@@ -9,9 +9,11 @@ import {
   regionToSlug,
 } from "@/lib/folklore-data";
 import { isValidLocale, getDictionary, LOCALES, type Locale } from "@/lib/i18n";
+import { getCountryName, getRegionName } from "@/lib/i18n-names";
 import { getRegionColors } from "@/lib/region-colors";
 import Breadcrumb from "@/components/Breadcrumb";
 import CreatureCard from "@/components/CreatureCard";
+import LanguageSelector from "@/components/LanguageSelector";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://folklore-bestiary.vercel.app";
 
@@ -33,12 +35,14 @@ export async function generateMetadata({
 
   const t = getDictionary(locale);
   const creatures = getAllCreatures();
-  const altLocale = locale === "ko" ? "en" : "ko";
-  const title =
-    locale === "ko"
-      ? `${t["index.title"]} (${creatures.length}종)`
-      : `${t["index.title"]} (${creatures.length} Creatures)`;
+  const countLabel = locale === "ko" ? "종" : locale === "zh" ? "种" : locale === "ja" ? "種" : " Creatures";
+  const title = `${t["index.title"]} (${creatures.length}${countLabel})`;
   const description = t["index.desc"];
+
+  const langAlternates: Record<string, string> = {};
+  for (const l of LOCALES) {
+    langAlternates[l] = `${SITE_URL}/${l}/creatures`;
+  }
 
   return {
     title,
@@ -58,10 +62,7 @@ export async function generateMetadata({
     },
     alternates: {
       canonical: `${SITE_URL}/${locale}/creatures`,
-      languages: {
-        [locale]: `${SITE_URL}/${locale}/creatures`,
-        [altLocale]: `${SITE_URL}/${altLocale}/creatures`,
-      },
+      languages: langAlternates,
     },
   };
 }
@@ -81,7 +82,7 @@ export default async function CreatureIndexPage({
   const allCreatures = getAllCreatures();
   const regions = getAllRegions();
   const allCountries = getAllCountries();
-  const altLocale = locale === "ko" ? "en" : "ko";
+  const countLabel = locale === "ko" ? "종" : locale === "zh" ? "种" : locale === "ja" ? "種" : " creatures";
 
   // Group countries by region
   const countriesByRegion = new Map<string, { code: string; name: string }[]>();
@@ -105,10 +106,7 @@ export default async function CreatureIndexPage({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name:
-      locale === "ko"
-        ? `${t["index.title"]} (${allCreatures.length}종)`
-        : `${t["index.title"]} (${allCreatures.length} Creatures)`,
+    name: `${t["index.title"]} (${allCreatures.length}${countLabel})`,
     description: t["index.desc"],
     url: `${SITE_URL}/${locale}/creatures`,
     inLanguage: locale,
@@ -138,15 +136,7 @@ export default async function CreatureIndexPage({
       >
         <Breadcrumb items={breadcrumbItems} locale={locale} accentColor="#cc8844" />
 
-        {/* Language switch */}
-        <div style={{ padding: "8px 24px", textAlign: "right" }}>
-          <Link
-            href={`/${altLocale}/creatures`}
-            style={{ color: "#888", textDecoration: "none", fontSize: "13px" }}
-          >
-            {altLocale === "ko" ? "한국어" : "English"}
-          </Link>
-        </div>
+        <LanguageSelector locale={locale} basePath="/creatures" />
 
         <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "32px 24px" }}>
           {/* Header */}
@@ -163,7 +153,7 @@ export default async function CreatureIndexPage({
               {t["index.title"]}{" "}
               <span style={{ fontSize: "0.6em", color: "#999" }}>
                 ({allCreatures.length}
-                {locale === "ko" ? "종" : " creatures"})
+                {countLabel})
               </span>
             </h1>
             <p style={{ color: "#999", fontSize: "18px", margin: 0 }}>
@@ -208,7 +198,7 @@ export default async function CreatureIndexPage({
                         fontWeight: 700,
                       }}
                     >
-                      {region}
+                      {getRegionName(region, locale)}
                     </Link>
                     <span
                       style={{
@@ -219,7 +209,7 @@ export default async function CreatureIndexPage({
                       }}
                     >
                       ({creatures.length}
-                      {locale === "ko" ? "종" : " creatures"})
+                      {countLabel})
                     </span>
                   </h2>
                   <Link
@@ -257,7 +247,7 @@ export default async function CreatureIndexPage({
                         border: "1px solid #ffffff11",
                       }}
                     >
-                      {c.name}
+                      {getCountryName(c.name, locale)}
                     </Link>
                   ))}
                 </div>

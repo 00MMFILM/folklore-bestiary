@@ -8,9 +8,11 @@ import {
   regionToSlug,
 } from "@/lib/folklore-data";
 import { isValidLocale, getDictionary, LOCALES, type Locale } from "@/lib/i18n";
+import { getCountryName, getRegionName } from "@/lib/i18n-names";
 import { getRegionColors } from "@/lib/region-colors";
 import Breadcrumb from "@/components/Breadcrumb";
 import CreatureCard from "@/components/CreatureCard";
+import LanguageSelector from "@/components/LanguageSelector";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://folklore-bestiary.vercel.app";
 
@@ -35,14 +37,23 @@ export async function generateMetadata({
 
   const t = getDictionary(locale);
   const creatures = getCreaturesByCountryCode(code);
-  const altLocale = locale === "ko" ? "en" : "ko";
-  const title = `${country.name}${t["list.creaturesInCountry"]} (${creatures.length}${t["list.creatureCount"]})`;
+  const cName = getCountryName(country.name, locale);
+  const title = `${cName}${t["list.creaturesInCountry"]} (${creatures.length}${t["list.creatureCount"]})`;
+
+  const langAlternates: Record<string, string> = {};
+  for (const l of LOCALES) {
+    langAlternates[l] = `${SITE_URL}/${l}/creatures/country/${code}`;
+  }
 
   return {
     title,
     description:
       locale === "ko"
-        ? `${country.name}의 전설 속 존재 ${creatures.length}종을 만나보세요.`
+        ? `${cName}의 전설 속 존재 ${creatures.length}종을 만나보세요.`
+        : locale === "zh"
+        ? `探索${cName}的${creatures.length}种传说生物。`
+        : locale === "ja"
+        ? `${cName}の伝説の存在${creatures.length}種をご覧ください。`
         : `Discover ${creatures.length} legendary creatures from ${country.name}.`,
     openGraph: {
       type: "website",
@@ -52,10 +63,7 @@ export async function generateMetadata({
     },
     alternates: {
       canonical: `${SITE_URL}/${locale}/creatures/country/${code}`,
-      languages: {
-        [locale]: `${SITE_URL}/${locale}/creatures/country/${code}`,
-        [altLocale]: `${SITE_URL}/${altLocale}/creatures/country/${code}`,
-      },
+      languages: langAlternates,
     },
   };
 }
@@ -75,14 +83,15 @@ export default async function CountryPage({
   const t = getDictionary(locale);
   const creatures = getCreaturesByCountryCode(code);
   const colors = getRegionColors(country.region);
-  const altLocale = locale === "ko" ? "en" : "ko";
   const regionSlug = regionToSlug(country.region);
+  const countryName = getCountryName(country.name, locale);
+  const regionName = getRegionName(country.region, locale);
 
   const breadcrumbItems = [
     { label: t["nav.home"], href: "/" },
     { label: t["index.breadcrumb"], href: `/${locale}/creatures` },
-    { label: country.region, href: `/${locale}/creatures/region/${regionSlug}` },
-    { label: country.name },
+    { label: regionName, href: `/${locale}/creatures/region/${regionSlug}` },
+    { label: countryName },
   ];
 
   return (
@@ -96,15 +105,7 @@ export default async function CountryPage({
     >
       <Breadcrumb items={breadcrumbItems} locale={locale} accentColor={colors.accent} />
 
-      {/* Language switch */}
-      <div style={{ padding: "8px 24px", textAlign: "right" }}>
-        <Link
-          href={`/${altLocale}/creatures/country/${code}`}
-          style={{ color: "#888", textDecoration: "none", fontSize: "13px" }}
-        >
-          {altLocale === "ko" ? "한국어" : "English"}
-        </Link>
-      </div>
+      <LanguageSelector locale={locale} basePath={`/creatures/country/${code}`} />
 
       <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "32px 24px" }}>
         {/* Header */}
@@ -117,14 +118,14 @@ export default async function CountryPage({
               marginBottom: "8px",
             }}
           >
-            {country.name}
+            {countryName}
           </h1>
           <p style={{ color: "#999", fontSize: "16px" }}>
             <Link
               href={`/${locale}/creatures/region/${regionSlug}`}
               style={{ color: colors.accent, textDecoration: "none" }}
             >
-              {country.region}
+              {regionName}
             </Link>
             {" · "}
             {creatures.length}

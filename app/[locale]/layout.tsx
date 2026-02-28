@@ -27,7 +27,7 @@ export async function generateMetadata({
     description: t["meta.siteDesc"],
     openGraph: {
       type: "website",
-      locale: locale === "ko" ? "ko_KR" : "en_US",
+      locale: locale === "ko" ? "ko_KR" : locale === "zh" ? "zh_CN" : locale === "ja" ? "ja_JP" : "en_US",
       siteName: t["meta.siteName"],
     },
     robots: {

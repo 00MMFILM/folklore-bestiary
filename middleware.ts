@@ -1,6 +1,6 @@
 import { NextResponse, type NextRequest } from "next/server";
 
-const LOCALES = ["ko", "en"];
+const LOCALES = ["ko", "en", "zh", "ja"];
 
 // Paths that should NOT be locale-prefixed
 const SKIP_PREFIXES = ["/api/", "/_next/", "/creatures/", "/og-"];

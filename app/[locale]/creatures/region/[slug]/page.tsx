@@ -8,9 +8,11 @@ import {
   slugToRegion,
 } from "@/lib/folklore-data";
 import { isValidLocale, getDictionary, LOCALES, type Locale } from "@/lib/i18n";
+import { getCountryName, getRegionName } from "@/lib/i18n-names";
 import { getRegionColors } from "@/lib/region-colors";
 import Breadcrumb from "@/components/Breadcrumb";
 import CreatureCard from "@/components/CreatureCard";
+import LanguageSelector from "@/components/LanguageSelector";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://folklore-bestiary.vercel.app";
 
@@ -35,14 +37,23 @@ export async function generateMetadata({
 
   const t = getDictionary(locale);
   const creatures = getCreaturesByRegion(region);
-  const altLocale = locale === "ko" ? "en" : "ko";
-  const title = `${region}${t["list.creaturesInRegion"]} (${creatures.length}${t["list.creatureCount"]})`;
+  const rName = getRegionName(region, locale);
+  const title = `${rName}${t["list.creaturesInRegion"]} (${creatures.length}${t["list.creatureCount"]})`;
+
+  const langAlternates: Record<string, string> = {};
+  for (const l of LOCALES) {
+    langAlternates[l] = `${SITE_URL}/${l}/creatures/region/${slug}`;
+  }
 
   return {
     title,
     description:
       locale === "ko"
-        ? `${region} 지역의 전설 속 존재 ${creatures.length}종을 만나보세요.`
+        ? `${rName} 지역의 전설 속 존재 ${creatures.length}종을 만나보세요.`
+        : locale === "zh"
+        ? `探索${rName}的${creatures.length}种传说生物。`
+        : locale === "ja"
+        ? `${rName}の伝説の存在${creatures.length}種をご覧ください。`
         : `Discover ${creatures.length} legendary creatures from ${region}.`,
     openGraph: {
       type: "website",
@@ -52,10 +63,7 @@ export async function generateMetadata({
     },
     alternates: {
       canonical: `${SITE_URL}/${locale}/creatures/region/${slug}`,
-      languages: {
-        [locale]: `${SITE_URL}/${locale}/creatures/region/${slug}`,
-        [altLocale]: `${SITE_URL}/${altLocale}/creatures/region/${slug}`,
-      },
+      languages: langAlternates,
     },
   };
 }
@@ -75,7 +83,7 @@ export default async function RegionPage({
   const t = getDictionary(locale);
   const creatures = getCreaturesByRegion(region);
   const colors = getRegionColors(region);
-  const altLocale = locale === "ko" ? "en" : "ko";
+  const regionName = getRegionName(region, locale);
 
   // Get unique countries in this region
   const countries = Array.from(
@@ -85,7 +93,7 @@ export default async function RegionPage({
   const breadcrumbItems = [
     { label: t["nav.home"], href: "/" },
     { label: t["index.breadcrumb"], href: `/${locale}/creatures` },
-    { label: region },
+    { label: regionName },
   ];
 
   return (
@@ -99,15 +107,7 @@ export default async function RegionPage({
     >
       <Breadcrumb items={breadcrumbItems} locale={locale} accentColor={colors.accent} />
 
-      {/* Language switch */}
-      <div style={{ padding: "8px 24px", textAlign: "right" }}>
-        <Link
-          href={`/${altLocale}/creatures/region/${slug}`}
-          style={{ color: "#888", textDecoration: "none", fontSize: "13px" }}
-        >
-          {altLocale === "ko" ? "한국어" : "English"}
-        </Link>
-      </div>
+      <LanguageSelector locale={locale} basePath={`/creatures/region/${slug}`} />
 
       <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "32px 24px" }}>
         {/* Header */}
@@ -120,7 +120,7 @@ export default async function RegionPage({
               marginBottom: "8px",
             }}
           >
-            {region}
+            {regionName}
           </h1>
           <p style={{ color: "#999", fontSize: "16px" }}>
             {creatures.length}
@@ -148,7 +148,7 @@ export default async function RegionPage({
                   border: "1px solid #ffffff11",
                 }}
               >
-                {c.name}
+                {getCountryName(c.name, locale)}
               </Link>
             ))}
           </div>

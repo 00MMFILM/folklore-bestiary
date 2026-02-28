@@ -3,6 +3,7 @@ import React from "react";
 import { useState, useMemo, useCallback, useRef, useEffect } from "react";
 import { PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, RadarChart, Radar, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Legend } from "recharts";
 import { CREATURE_IMAGE_MAP, FOLKLORE_DATA, getCreatureImage } from "@/lib/folklore-data";
+import { getCountryName, getRegionName, getTypeName } from "@/lib/i18n-names";
 
 // 크롤 스크립트가 자동 갱신 (아래 한 줄만 교체)
 const LAST_UPDATED = "2026-03-02T05:08:50.081Z";
@@ -45,8 +46,20 @@ const CONTINENT_COLORS = {
 
 const CONTINENT_EMOJI = { Asia: "🐉", Europe: "🧛", Africa: "🦁", Americas: "👹", Oceania: "🦈" };
 
-const FEAR_LABELS = ["", "평화", "장난", "불안", "긴장", "위험", "공포", "경악", "악몽", "재앙", "종말"];
+const FEAR_LABELS_I18N = {
+  ko: ["", "평화", "장난", "불안", "긴장", "위험", "공포", "경악", "악몽", "재앙", "종말"],
+  en: ["", "Peace", "Prank", "Unease", "Tension", "Danger", "Horror", "Terror", "Nightmare", "Calamity", "Apocalypse"],
+  zh: ["", "平和", "恶作剧", "不安", "紧张", "危险", "恐惧", "惊骇", "噩梦", "灾祸", "末日"],
+  ja: ["", "平和", "悪戯", "不安", "緊張", "危険", "恐怖", "驚愕", "悪夢", "災厄", "終末"],
+};
+const FEAR_LABELS = FEAR_LABELS_I18N.ko; // backward compat default
 
+const CT_LABELS_I18N = {
+  ko: { myth: "신화", legend: "전설", folktale: "민담" },
+  en: { myth: "Myth", legend: "Legend", folktale: "Folktale" },
+  zh: { myth: "神话", legend: "传说", folktale: "民间故事" },
+  ja: { myth: "神話", legend: "伝説", folktale: "民話" },
+};
 const CT_LABELS = { myth: "신화", legend: "전설", folktale: "민담" };
 const CT_COLORS = { myth: "#f59e0b", legend: "#6b8aff", folktale: "#3bff6b" };
 const CT_ICONS = { myth: "🏛", legend: "📜", folktale: "📖" };
@@ -98,14 +111,210 @@ const CONTINENT_ART = {
   Americas: ["💀","🗿","🌵","🦅","🐍","🌋"],
   Oceania: ["🌊","🦈","🏝️","🐚","🌺","🐊"],
 };
-const SPOTLIGHT_TAGLINES = {
-  Asia: ["고대 전설이 숨 쉬는 땅","요괴의 그림자가 드리우는 곳","영혼과 인간이 교차하는 밤","천년의 어둠이 서린 곳"],
-  Europe: ["안개 속에서 전설이 깨어난다","고성에 울리는 비명","달빛 아래 늑대가 울부짖는 곳","봉인된 어둠이 풀리는 밤"],
-  Africa: ["정령의 숲이 속삭이는 곳","고대 영혼의 메아리","대지의 저주가 살아 숨 쉰다","밤의 사냥꾼이 깨어나는 땅"],
-  Americas: ["죽은 자가 쉬지 않는 곳","정글 깊은 곳의 포식자","고대 문명의 어둠","대륙을 뒤흔든 전설"],
-  Oceania: ["깊은 바다의 공포","태고의 땅에서 온 존재","섬에 봉인된 전설","파도 너머의 괴물"],
+const SPOTLIGHT_TAGLINES_I18N = {
+  ko: {
+    Asia: ["고대 전설이 숨 쉬는 땅","요괴의 그림자가 드리우는 곳","영혼과 인간이 교차하는 밤","천년의 어둠이 서린 곳"],
+    Europe: ["안개 속에서 전설이 깨어난다","고성에 울리는 비명","달빛 아래 늑대가 울부짖는 곳","봉인된 어둠이 풀리는 밤"],
+    Africa: ["정령의 숲이 속삭이는 곳","고대 영혼의 메아리","대지의 저주가 살아 숨 쉰다","밤의 사냥꾼이 깨어나는 땅"],
+    Americas: ["죽은 자가 쉬지 않는 곳","정글 깊은 곳의 포식자","고대 문명의 어둠","대륙을 뒤흔든 전설"],
+    Oceania: ["깊은 바다의 공포","태고의 땅에서 온 존재","섬에 봉인된 전설","파도 너머의 괴물"],
+  },
+  en: {
+    Asia: ["Land where ancient legends breathe","Where yokai shadows loom","Night where spirits and humans cross","Where millennia of darkness dwell"],
+    Europe: ["Legends awaken in the mist","Screams echo through old castles","Where wolves howl under moonlight","Night when sealed darkness breaks free"],
+    Africa: ["Where spirit forests whisper","Echoes of ancient souls","Curses of the earth live on","Land where night hunters awaken"],
+    Americas: ["Where the dead do not rest","Predators of the deep jungle","Darkness of ancient civilizations","Legends that shook the continent"],
+    Oceania: ["Terror of the deep sea","Beings from primordial lands","Legends sealed on islands","Monsters beyond the waves"],
+  },
+  zh: {
+    Asia: ["古代传说沉睡之地","妖怪阴影笼罩之处","灵魂与人类交汇之夜","千年黑暗栖居之所"],
+    Europe: ["传说在迷雾中苏醒","古堡回荡的尖叫","月光下狼嚎之处","封印黑暗解除之夜"],
+    Africa: ["精灵之森低语之处","远古灵魂的回响","大地的诅咒仍在呼吸","夜之猎人觉醒之地"],
+    Americas: ["死者不安息之地","丛林深处的捕食者","古代文明的黑暗","撼动大陆的传说"],
+    Oceania: ["深海的恐惧","来自太古之地的存在","封印在岛屿上的传说","波涛彼岸的怪物"],
+  },
+  ja: {
+    Asia: ["古代伝説が息づく地","妖怪の影が差す場所","霊と人が交差する夜","千年の闇が宿る場所"],
+    Europe: ["霧の中で伝説が目覚める","古城に響く叫び","月光の下で狼が吠える場所","封印された闇が解かれる夜"],
+    Africa: ["精霊の森がささやく場所","古代の魂のこだま","大地の呪いが生きている","夜の狩人が目覚める地"],
+    Americas: ["死者が眠らぬ場所","密林の奥の捕食者","古代文明の闇","大陸を揺るがした伝説"],
+    Oceania: ["深海の恐怖","太古の地から来た存在","島に封じられた伝説","波の向こうの怪物"],
+  },
 };
-function getDailyFeatured(data) {
+const SPOTLIGHT_TAGLINES = SPOTLIGHT_TAGLINES_I18N.ko; // backward compat default
+
+// ─── MAP_I18N: All UI strings for the client-side map ───
+const MAP_I18N = {
+  ko: {
+    siteTitle: "세계 민담 도감",
+    siteSubtitle: "전 세계 민담과 신화 속 존재들을 탐험하세요",
+    lastUpdate: "마지막 업데이트",
+    totalSpecies: "종",
+    countries: "개국",
+    beings: "개 존재",
+    regions: "개 지역",
+    search: "국가, 존재, 유형으로 검색...",
+    explore: "🗺 탐험",
+    stats: "📊 통계",
+    ranking: "🏆 랭킹",
+    featured: "🎴 특집",
+    compare: "⚔ 비교",
+    creativeTools: "🎨 창작 도구",
+    scenario: "🎬 시나리오",
+    character: "🧙 캐릭터",
+    webtoon: "📱 웹툰 IP",
+    builder: "🛠 빌더",
+    synopsis: "📖 시놉시스",
+    randomEncounter: "🎲 랜덤 조우",
+    creativeCafe: "☕ 창작 카페",
+    grid: "⊞ 그리드",
+    map: "🗺 지도",
+    fear: "🌡 공포도",
+    filter: "🔬 필터",
+    fearHeatmap: "공포도 히트맵",
+    densityHeatmap: "존재 밀도 히트맵",
+    maxFearHeatmap: "최대 공포 히트맵",
+    creatureIndex: "📖 크리처 도감 보기",
+    beingCount: "존재 수",
+    countryCount: "국가 수",
+    avgFear: "평균 공포도",
+    typeDiversity: "타입 다양성",
+    maxFearDensity: "최대 공포 밀도",
+    continentComparison: "대륙별 민담 풍부도 비교 — 존재 수, 국가 수, 평균 공포도, 타입 다양성",
+    fearSpectrum: "🌡 공포도 스펙트럼",
+    fearSpectrumDesc: "전체 {0}개 존재의 공포도 분포 — 호버하여 탐색하세요",
+    topFearPerContinent: "각 대륙에서 공포도가 가장 높은 존재 TOP 5",
+    exploring: "전 세계 민담을 탐색하는 중...",
+    unselected: "미선택 항목은 랜덤 배정",
+  },
+  en: {
+    siteTitle: "Global Folklore Bestiary",
+    siteSubtitle: "Explore legendary beings from folklore and myths worldwide",
+    lastUpdate: "Last update",
+    totalSpecies: " species",
+    countries: " countries",
+    beings: " beings",
+    regions: " regions",
+    search: "Search by country, creature, type...",
+    explore: "🗺 Explore",
+    stats: "📊 Stats",
+    ranking: "🏆 Ranking",
+    featured: "🎴 Featured",
+    compare: "⚔ Compare",
+    creativeTools: "🎨 Creative Tools",
+    scenario: "🎬 Scenario",
+    character: "🧙 Character",
+    webtoon: "📱 Webtoon IP",
+    builder: "🛠 Builder",
+    synopsis: "📖 Synopsis",
+    randomEncounter: "🎲 Random",
+    creativeCafe: "☕ Creative Cafe",
+    grid: "⊞ Grid",
+    map: "🗺 Map",
+    fear: "🌡 Fear",
+    filter: "🔬 Filter",
+    fearHeatmap: "Fear Heatmap",
+    densityHeatmap: "Density Heatmap",
+    maxFearHeatmap: "Max Fear Heatmap",
+    creatureIndex: "📖 Creature Index",
+    beingCount: "Beings",
+    countryCount: "Countries",
+    avgFear: "Avg Fear",
+    typeDiversity: "Type Diversity",
+    maxFearDensity: "Max Fear Density",
+    continentComparison: "Continent folklore richness — beings, countries, avg fear, type diversity",
+    fearSpectrum: "🌡 Fear Spectrum",
+    fearSpectrumDesc: "Fear distribution of {0} beings — hover to explore",
+    topFearPerContinent: "Top 5 most feared beings per continent",
+    exploring: "Exploring folklore worldwide...",
+    unselected: "Unselected items will be random",
+  },
+  zh: {
+    siteTitle: "世界民间传说图鉴",
+    siteSubtitle: "探索全世界民间传说与神话中的存在",
+    lastUpdate: "最后更新",
+    totalSpecies: "种",
+    countries: "个国家",
+    beings: "个存在",
+    regions: "个地区",
+    search: "按国家、生物、类型搜索...",
+    explore: "🗺 探索",
+    stats: "📊 统计",
+    ranking: "🏆 排名",
+    featured: "🎴 特辑",
+    compare: "⚔ 比较",
+    creativeTools: "🎨 创作工具",
+    scenario: "🎬 剧本",
+    character: "🧙 角色",
+    webtoon: "📱 网漫IP",
+    builder: "🛠 构建器",
+    synopsis: "📖 简介",
+    randomEncounter: "🎲 随机",
+    creativeCafe: "☕ 创作咖啡",
+    grid: "⊞ 网格",
+    map: "🗺 地图",
+    fear: "🌡 恐惧",
+    filter: "🔬 筛选",
+    fearHeatmap: "恐惧度热力图",
+    densityHeatmap: "存在密度热力图",
+    maxFearHeatmap: "最大恐惧热力图",
+    creatureIndex: "📖 查看生物图鉴",
+    beingCount: "存在数",
+    countryCount: "国家数",
+    avgFear: "平均恐惧度",
+    typeDiversity: "类型多样性",
+    maxFearDensity: "最大恐惧密度",
+    continentComparison: "各大洲民间传说丰富度对比——存在数、国家数、平均恐惧度、类型多样性",
+    fearSpectrum: "🌡 恐惧度光谱",
+    fearSpectrumDesc: "全部{0}个存在的恐惧度分布——悬停探索",
+    topFearPerContinent: "各大洲恐惧度最高的存在TOP 5",
+    exploring: "正在探索全世界的民间传说...",
+    unselected: "未选择的项目将随机分配",
+  },
+  ja: {
+    siteTitle: "世界民話図鑑",
+    siteSubtitle: "世界中の民話と神話の存在を探検しよう",
+    lastUpdate: "最終更新",
+    totalSpecies: "種",
+    countries: "カ国",
+    beings: "体",
+    regions: "地域",
+    search: "国、存在、タイプで検索...",
+    explore: "🗺 探検",
+    stats: "📊 統計",
+    ranking: "🏆 ランキング",
+    featured: "🎴 特集",
+    compare: "⚔ 比較",
+    creativeTools: "🎨 創作ツール",
+    scenario: "🎬 シナリオ",
+    character: "🧙 キャラクター",
+    webtoon: "📱 ウェブトゥーンIP",
+    builder: "🛠 ビルダー",
+    synopsis: "📖 あらすじ",
+    randomEncounter: "🎲 ランダム",
+    creativeCafe: "☕ 創作カフェ",
+    grid: "⊞ グリッド",
+    map: "🗺 マップ",
+    fear: "🌡 恐怖度",
+    filter: "🔬 フィルター",
+    fearHeatmap: "恐怖度ヒートマップ",
+    densityHeatmap: "存在密度ヒートマップ",
+    maxFearHeatmap: "最大恐怖ヒートマップ",
+    creatureIndex: "📖 クリーチャー図鑑を見る",
+    beingCount: "存在数",
+    countryCount: "国数",
+    avgFear: "平均恐怖度",
+    typeDiversity: "タイプ多様性",
+    maxFearDensity: "最大恐怖密度",
+    continentComparison: "大陸別民話豊富度比較——存在数、国数、平均恐怖度、タイプ多様性",
+    fearSpectrum: "🌡 恐怖度スペクトラム",
+    fearSpectrumDesc: "全{0}体の存在の恐怖度分布——ホバーして探索",
+    topFearPerContinent: "各大陸で恐怖度が最も高い存在TOP 5",
+    exploring: "世界中の民話を探索中...",
+    unselected: "未選択の項目はランダム配定",
+  },
+};
+function getDailyFeatured(data, taglineMap, loc) {
   const today = new Date();
   const daySeed = today.getFullYear() * 10000 + (today.getMonth()+1) * 100 + today.getDate();
   // Simple deterministic hash from seed
@@ -131,7 +340,7 @@ function getDailyFeatured(data) {
     const country = pool[pick];
     const gradients = CONTINENT_GRADIENTS[cont];
     const arts = CONTINENT_ART[cont];
-    const taglines = SPOTLIGHT_TAGLINES[cont];
+    const taglines = taglineMap[cont];
     const topBeing = [...country.b].sort((a,b) => b.f - a.f)[0];
     const beingNames = country.b.slice(0, 3).map(b => b.n).join(", ");
     cards.push({
@@ -140,7 +349,7 @@ function getDailyFeatured(data) {
       tagline: taglines[Math.abs(hash(daySeed, ci + 100)) % taglines.length],
       art: arts[Math.abs(hash(daySeed, ci + 200)) % arts.length],
       gradient: gradients[Math.abs(hash(daySeed, ci + 300)) % gradients.length],
-      lore: `${country.c}의 민담 속에서 ${beingNames} 등 ${country.b.length}개의 존재가 어둠 속에 도사린다. 가장 두려운 ${topBeing.n}(공포 ${topBeing.f}/10)이(가) 이 땅의 전설을 지배한다.`,
+      lore: loc === "en" ? `In the folklore of ${country.c}, ${country.b.length} beings lurk in the dark, including ${beingNames}. The most feared ${topBeing.n} (fear ${topBeing.f}/10) dominates the legends of this land.` : loc === "zh" ? `${country.c}的民间传说中，${beingNames}等${country.b.length}个存在潜伏在黑暗中。最令人恐惧的${topBeing.n}（恐惧${topBeing.f}/10）主宰着这片土地的传说。` : loc === "ja" ? `${country.c}の民話の中で、${beingNames}など${country.b.length}体の存在が闇に潜む。最も恐ろしい${topBeing.n}（恐怖${topBeing.f}/10）がこの地の伝説を支配する。` : `${country.c}의 민담 속에서 ${beingNames} 등 ${country.b.length}개의 존재가 어둠 속에 도사린다. 가장 두려운 ${topBeing.n}(공포 ${topBeing.f}/10)이(가) 이 땅의 전설을 지배한다.`,
     });
   });
   // Bonus: 6th card from random continent
@@ -154,7 +363,7 @@ function getDailyFeatured(data) {
     const country2 = filtered[pick2];
     const gradients = CONTINENT_GRADIENTS[bonusCont];
     const arts = CONTINENT_ART[bonusCont];
-    const taglines = SPOTLIGHT_TAGLINES[bonusCont];
+    const taglines = taglineMap[bonusCont];
     const topBeing = [...country2.b].sort((a,b) => b.f - a.f)[0];
     const beingNames = country2.b.slice(0, 3).map(b => b.n).join(", ");
     cards.push({
@@ -163,7 +372,7 @@ function getDailyFeatured(data) {
       tagline: taglines[Math.abs(hash(daySeed, 888)) % taglines.length],
       art: arts[Math.abs(hash(daySeed, 888)) % arts.length],
       gradient: gradients[Math.abs(hash(daySeed, 888)) % gradients.length],
-      lore: `${country2.c}의 민담 속에서 ${beingNames} 등 ${country2.b.length}개의 존재가 어둠 속에 도사린다. 가장 두려운 ${topBeing.n}(공포 ${topBeing.f}/10)이(가) 이 땅의 전설을 지배한다.`,
+      lore: loc === "en" ? `In the folklore of ${country2.c}, ${country2.b.length} beings lurk in the dark, including ${beingNames}. The most feared ${topBeing.n} (fear ${topBeing.f}/10) dominates the legends of this land.` : loc === "zh" ? `${country2.c}的民间传说中，${beingNames}等${country2.b.length}个存在潜伏在黑暗中。最令人恐惧的${topBeing.n}（恐惧${topBeing.f}/10）主宰着这片土地的传说。` : loc === "ja" ? `${country2.c}の民話の中で、${beingNames}など${country2.b.length}体の存在が闇に潜む。最も恐ろしい${topBeing.n}（恐怖${topBeing.f}/10）がこの地の伝説を支配する。` : `${country2.c}의 민담 속에서 ${beingNames} 등 ${country2.b.length}개의 존재가 어둠 속에 도사린다. 가장 두려운 ${topBeing.n}(공포 ${topBeing.f}/10)이(가) 이 땅의 전설을 지배한다.`,
     });
   }
   return cards;
@@ -518,7 +727,7 @@ const IP_EXPANSION = [
 const PIE_COLORS = ["#ff4444","#ff8844","#ffcc44","#44ff88","#44aaff","#aa44ff","#ff44aa","#88ff44","#ff6644","#44ffcc","#8888ff","#ff88cc"];
 
 // ── Helper: Radar chart data (continent comparison) ──
-const getRadarData = (data) => {
+const getRadarData = (data, metricLabels) => {
   const stats = {};
   Object.keys(CONTINENT_COLORS).forEach(cont => { stats[cont] = { beings: 0, countries: 0, fearSum: 0, types: new Set(), maxFear: 0 }; });
   data.forEach(c => {
@@ -532,20 +741,19 @@ const getRadarData = (data) => {
       if (b.f > stats[cont].maxFear) stats[cont].maxFear = b.f;
     });
   });
-  const metrics = ["존재 수", "국가 수", "평균 공포도", "타입 다양성", "최대 공포 밀도"];
+  const metrics = metricLabels;
   // Normalize each metric 0-100
   const maxBeings = Math.max(...Object.values(stats).map(s => s.beings));
   const maxCountries = Math.max(...Object.values(stats).map(s => s.countries));
   const maxTypes = Math.max(...Object.values(stats).map(s => s.types.size));
-  return metrics.map(m => {
+  return metrics.map((m, mi) => {
     const row = { metric: m };
     Object.entries(stats).forEach(([cont, s]) => {
-      if (m === "존재 수") row[cont] = Math.round(s.beings / maxBeings * 100);
-      else if (m === "국가 수") row[cont] = Math.round(s.countries / maxCountries * 100);
-      else if (m === "평균 공포도") row[cont] = s.beings ? Math.round((s.fearSum / s.beings) / 10 * 100) : 0;
-      else if (m === "타입 다양성") row[cont] = Math.round(s.types.size / maxTypes * 100);
-      else if (m === "최대 공포 밀도") {
-        const f5count = 0;
+      if (mi === 0) row[cont] = Math.round(s.beings / maxBeings * 100);
+      else if (mi === 1) row[cont] = Math.round(s.countries / maxCountries * 100);
+      else if (mi === 2) row[cont] = s.beings ? Math.round((s.fearSum / s.beings) / 10 * 100) : 0;
+      else if (mi === 3) row[cont] = Math.round(s.types.size / maxTypes * 100);
+      else if (mi === 4) {
         row[cont] = s.beings ? Math.round(s.beings > 0 ? (s.fearSum / s.beings / 10 * 100) * (s.maxFear / 10) : 0) : 0;
       }
     });
@@ -945,6 +1153,21 @@ const createStyles = (theme) => ({
 
 // ── Main Component ──────────────────────────────────────────
 export default function FolkloreMap() {
+  const [locale, setLocaleState] = useState("ko");
+  useEffect(() => {
+    const saved = typeof localStorage !== "undefined" && localStorage.getItem("bestiary-locale");
+    if (saved && ["ko","en","zh","ja"].includes(saved)) { setLocaleState(saved); return; }
+    const nav = typeof navigator !== "undefined" ? navigator.language : "ko";
+    if (nav.startsWith("zh")) setLocaleState("zh");
+    else if (nav.startsWith("ja")) setLocaleState("ja");
+    else if (nav.startsWith("en")) setLocaleState("en");
+  }, []);
+  const setLocale = useCallback((l) => { setLocaleState(l); localStorage.setItem("bestiary-locale", l); }, []);
+  const L = MAP_I18N[locale] || MAP_I18N.ko;
+  const FL = FEAR_LABELS_I18N[locale] || FEAR_LABELS_I18N.ko;
+  const CTL = CT_LABELS_I18N[locale] || CT_LABELS_I18N.ko;
+  const spotlightTaglines = SPOTLIGHT_TAGLINES_I18N[locale] || SPOTLIGHT_TAGLINES_I18N.ko;
+
   const [activeContinent, setActiveContinent] = useState("All");
   const [search, setSearch] = useState("");
   const [fearFilter, setFearFilter] = useState(0);
@@ -1107,7 +1330,8 @@ export default function FolkloreMap() {
   const totalBeings = useMemo(() => filtered.reduce((s, c) => s + c.b.length, 0), [filtered]);
   const typeStats = useMemo(() => getTypeStats(DATA), [DATA]);
   const top5Map = useMemo(() => getTop5ByContinent(DATA), [DATA]);
-  const radarData = useMemo(() => getRadarData(DATA), [DATA]);
+  const radarMetrics = useMemo(() => [L.beingCount, L.countryCount, L.avgFear, L.typeDiversity, L.maxFearDensity], [L]);
+  const radarData = useMemo(() => getRadarData(DATA, radarMetrics), [DATA, radarMetrics]);
   const fearSpectrum = useMemo(() => getFearSpectrum(DATA), [DATA]);
 
   // Fear heatmap intensity per country
@@ -1258,7 +1482,7 @@ export default function FolkloreMap() {
           </div>
           <div style={{ fontSize: 11, opacity: 0.5, marginTop: 2, display: "flex", alignItems: "center", gap: 6 }}>
             <span>{being.t}{being.ln ? <span style={{ marginLeft: 6, opacity: 0.7 }}>({being.ln})</span> : null}</span>
-            {being.ct && <span style={{ fontSize: 9, padding: "1px 6px", borderRadius: 6, background: (CT_COLORS[being.ct] || "#888") + "18", color: CT_COLORS[being.ct] || "#888", border: `1px solid ${(CT_COLORS[being.ct] || "#888")}33`, opacity: 1 }}>{CT_ICONS[being.ct]} {CT_LABELS[being.ct]}</span>}
+            {being.ct && <span style={{ fontSize: 9, padding: "1px 6px", borderRadius: 6, background: (CT_COLORS[being.ct] || "#888") + "18", color: CT_COLORS[being.ct] || "#888", border: `1px solid ${(CT_COLORS[being.ct] || "#888")}33`, opacity: 1 }}>{CT_ICONS[being.ct]} {CTL[being.ct]}</span>}
           </div>
           <div style={{ fontSize: 13, opacity: 0.7, marginTop: 6, lineHeight: 1.6 }}>{being.d}</div>
           
@@ -1595,7 +1819,7 @@ export default function FolkloreMap() {
                           fontWeight="400"
                           opacity="0.8"
                         >
-                          {country.b.length}개 존재 · {heatmapMode === "fear" ? `공포 avg ${avgFear.toFixed(1)}` : heatmapMode === "density" ? `밀도 ${country.b.length}` : `최대 ${countryHeatData[country.i]?.maxFear || 0}`}
+                          {country.b.length}{L.beings} · {heatmapMode === "fear" ? `${L.fear} avg ${avgFear.toFixed(1)}` : heatmapMode === "density" ? `${country.b.length}` : `max ${countryHeatData[country.i]?.maxFear || 0}`}
                         </text>
                       </g>
                     )}
@@ -1611,7 +1835,7 @@ export default function FolkloreMap() {
           <g transform="translate(90, 358)">
             <rect x="0" y="0" width="170" height="44" rx="8" fill="#000000cc" stroke="#ffffff15" strokeWidth="0.5" />
             <text x="8" y="12" fill="#888" fontSize="5.5" fontFamily="'Crimson Text', serif" fontWeight="600" letterSpacing="1">
-              {heatmapMode === "fear" ? "공포도 히트맵" : heatmapMode === "density" ? "존재 밀도 히트맵" : "최대 공포 히트맵"}
+              {heatmapMode === "fear" ? L.fearHeatmap : heatmapMode === "density" ? L.densityHeatmap : L.maxFearHeatmap}
             </text>
             {/* Gradient bar */}
             <defs>
@@ -1772,10 +1996,10 @@ export default function FolkloreMap() {
 
       {/* Section 2: Continent Radar */}
       <h2 style={{ fontSize: 22, fontWeight: 700, textAlign: "center", marginBottom: 4, color: theme.accent }}>
-        🕸 대륙별 비교 레이더
+        🕸 {L.continentComparison.split("—")[0].trim()}
       </h2>
       <p style={{ textAlign: "center", fontSize: 12, opacity: 0.5, marginBottom: 20 }}>
-        대륙별 민담 풍부도 비교 — 존재 수, 국가 수, 평균 공포도, 타입 다양성
+        {L.continentComparison}
       </p>
       <div style={{ width: "100%", maxWidth: 520, margin: "0 auto", height: 380 }}>
         <ResponsiveContainer width="100%" height="100%">
@@ -1797,10 +2021,10 @@ export default function FolkloreMap() {
 
       {/* Section 3: Fear Spectrum */}
       <h2 style={{ fontSize: 22, fontWeight: 700, textAlign: "center", marginBottom: 4, color: theme.accent }}>
-        🌡 공포도 스펙트럼
+        {L.fearSpectrum}
       </h2>
       <p style={{ textAlign: "center", fontSize: 12, opacity: 0.5, marginBottom: 20 }}>
-        전체 {totalAll}개 존재의 공포도 분포 — 호버하여 탐색하세요
+        {L.fearSpectrumDesc.replace("{0}", totalAll)}
       </p>
 
       {/* Spectrum Bar */}
@@ -1898,10 +2122,10 @@ export default function FolkloreMap() {
   const RankingPanel = () => (
     <div style={{ maxWidth: 1100, margin: "0 auto", padding: "16px" }}>
       <h2 style={{ fontSize: 22, fontWeight: 700, textAlign: "center", marginBottom: 4, color: theme.accent }}>
-        🏆 대륙별 가장 무서운 존재
+        🏆 {L.topFearPerContinent.split("TOP")[0].trim()}
       </h2>
       <p style={{ textAlign: "center", fontSize: 12, opacity: 0.5, marginBottom: 20 }}>
-        각 대륙에서 공포도가 가장 높은 존재 TOP 5
+        {L.topFearPerContinent}
       </p>
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: 16 }}>
         {Object.entries(top5Map).map(([cont, beings]) => {
@@ -1922,7 +2146,7 @@ export default function FolkloreMap() {
                     <div style={{ fontSize: 14, fontWeight: 600 }}>
                       {!getCreatureImage(b.id) && getTypeIcon(b.t)} {b.n}
                     </div>
-                    <div style={{ fontSize: 11, opacity: 0.5 }}>{b.country} · {b.t}{b.ct ? ` · ${CT_LABELS[b.ct]}` : ''}</div>
+                    <div style={{ fontSize: 11, opacity: 0.5 }}>{b.country} · {b.t}{b.ct ? ` · ${CTL[b.ct]}` : ''}</div>
                   </div>
                   <div style={{ display: "flex", gap: 1, alignItems: "flex-end" }}>
                     {[1,2,3,4,5,6,7,8,9,10].map(j => (
@@ -1940,7 +2164,7 @@ export default function FolkloreMap() {
   );
 
   // ── Featured Illustrated Cards (매일 자동 회전 + 외부 발굴) ──
-  const dailyFeatured = useMemo(() => getDailyFeatured(DATA), [DATA]);
+  const dailyFeatured = useMemo(() => getDailyFeatured(DATA, spotlightTaglines, locale), [DATA, spotlightTaglines, locale]);
   const [spotlight, setSpotlight] = useState(null);
   const [spotlightLoading, setSpotlightLoading] = useState(true);
 
@@ -1970,7 +2194,7 @@ export default function FolkloreMap() {
       {spotlightLoading ? (
         <div style={{ textAlign: "center", padding: 30, opacity: 0.5 }}>
           <div style={{ fontSize: 28, marginBottom: 8, animation: "pulse 1.5s infinite" }}>🔍</div>
-          <div style={{ fontSize: 13 }}>전 세계 민담을 탐색하는 중...</div>
+          <div style={{ fontSize: 13 }}>{L.exploring}</div>
         </div>
       ) : spotlight && spotlight.discoveries && spotlight.discoveries.length > 0 ? (
         <div style={{ marginBottom: 28 }}>
@@ -2146,7 +2370,7 @@ export default function FolkloreMap() {
   //  🎬 SCENARIO GENERATOR
   // ═══════════════════════════════════════════════════════════════
   const ScenarioGenerator = () => {
-    const isKo = typeof navigator !== "undefined" ? navigator.language.startsWith("ko") : true;
+    const isKo = locale === "ko" || locale === "zh" || locale === "ja";
     const L = isKo ? SCENARIO_I18N.ko : SCENARIO_I18N.en;
     const ERA_PRESETS = isKo ? ERA_PRESETS_KO : ERA_PRESETS_EN;
     const TONE_PRESETS = isKo ? TONE_PRESETS_KO : TONE_PRESETS_EN;
@@ -2565,7 +2789,7 @@ export default function FolkloreMap() {
     const handlePostToCafe = () => {
       const text = formatScenarioText(scenarioResult);
       const ttl = scenarioResult.title || scenarioResult.template?.name || L.scenario;
-      const locale = isKo ? "ko" : "en";
+      const postLocale = isKo ? "ko" : "en";
       sessionStorage.setItem("scenarioPost", JSON.stringify({
         title: `[${L.scenario}] ${ttl}`,
         content: text,
@@ -3006,7 +3230,7 @@ export default function FolkloreMap() {
                         </span>
                       )}
                     </div>
-                    <div style={{ fontSize: 11, opacity: 0.5 }}>{b.country} · {b.t}{b.ct ? ` · ${CT_LABELS[b.ct]}` : ''}</div>
+                    <div style={{ fontSize: 11, opacity: 0.5 }}>{b.country} · {b.t}{b.ct ? ` · ${CTL[b.ct]}` : ''}</div>
                     <div style={{ fontSize: 11, opacity: 0.6, marginTop: 4 }}>{b.d}</div>
                     {cr?.plotMechanic && (
                       <div style={{ fontSize: 11, color: accent, opacity: 0.8, marginTop: 6, paddingTop: 6, borderTop: "1px solid #ffffff0a", lineHeight: 1.5 }}>
@@ -5187,7 +5411,7 @@ export default function FolkloreMap() {
               color: CT_COLORS[b.ct] || "#888", fontSize: 13, fontWeight: 600,
               fontFamily: "'Crimson Text', serif",
             }}>
-              {CT_ICONS[b.ct]} {CT_LABELS[b.ct]}
+              {CT_ICONS[b.ct]} {CTL[b.ct]}
             </span>}
             <span style={{
               padding: "6px 16px", borderRadius: 20,
@@ -5562,31 +5786,47 @@ export default function FolkloreMap() {
         }}
       />
 
+      {/* Language selector */}
+      <div style={{ display: "flex", justifyContent: "center", gap: 8, padding: "10px 16px 0", zIndex: 10, position: "relative" }}>
+        {[
+          { l: "ko", flag: "\uD83C\uDDF0\uD83C\uDDF7" },
+          { l: "en", flag: "\uD83C\uDDFA\uD83C\uDDF8" },
+          { l: "zh", flag: "\uD83C\uDDE8\uD83C\uDDF3" },
+          { l: "ja", flag: "\uD83C\uDDEF\uD83C\uDDF5" },
+        ].map(o => (
+          <button key={o.l} onClick={() => setLocale(o.l)} style={{
+            fontSize: 22, background: "none", border: "none", cursor: "pointer",
+            opacity: locale === o.l ? 1 : 0.35, filter: locale === o.l ? "none" : "grayscale(50%)",
+            transition: "all 0.2s", padding: "2px 6px",
+          }}>{o.flag}</button>
+        ))}
+      </div>
+
       {/* Update banner */}
       <div style={{
         textAlign: "center", padding: "6px 16px",
         background: theme.accent + "12", borderBottom: `1px solid ${theme.accent}22`,
         fontSize: 12, color: theme.accent,
       }}>
-        🆕 마지막 업데이트: {new Date(LAST_UPDATED).toLocaleString("ko-KR", {
+        🆕 {L.lastUpdate}: {new Date(LAST_UPDATED).toLocaleString(locale === "ko" ? "ko-KR" : locale === "zh" ? "zh-CN" : locale === "ja" ? "ja-JP" : "en-US", {
           year: "numeric", month: "2-digit", day: "2-digit",
           hour: "2-digit", minute: "2-digit", hour12: false,
-        })} · 총 {FOLKLORE_DATA.reduce((a, c) => a + c.b.length, 0)}종
+        })} · {FOLKLORE_DATA.reduce((a, c) => a + c.b.length, 0)}{L.totalSpecies}
       </div>
 
       {/* Header */}
       <header style={styles.header}>
-        <h1 style={styles.title}>세계 민담 도감</h1>
-        <div style={styles.subtitle}>전 세계 민담과 신화 속 존재들을 탐험하세요</div>
+        <h1 style={styles.title}>{L.siteTitle}</h1>
+        <div style={styles.subtitle}>{L.siteSubtitle}</div>
         <div style={styles.stats}>
-          <span>{filtered.length}개국</span>
+          <span>{filtered.length}{L.countries}</span>
           <span>·</span>
-          <span>{totalBeings}개 존재</span>
+          <span>{totalBeings}{L.beings}</span>
           <span>·</span>
-          <span>{Object.keys(CONTINENT_MAP).length}개 지역</span>
+          <span>{Object.keys(CONTINENT_MAP).length}{L.regions}</span>
         </div>
         <a
-          href="/ko/creatures"
+          href={`/${locale}/creatures`}
           style={{
             display: "inline-block",
             marginTop: 12,
@@ -5600,7 +5840,7 @@ export default function FolkloreMap() {
             border: `1px solid ${theme.accent}33`,
           }}
         >
-          📖 크리처 도감 보기
+          {L.creatureIndex}
         </a>
       </header>
 
@@ -5624,7 +5864,7 @@ export default function FolkloreMap() {
       <div style={styles.searchBar}>
         <input
           style={styles.searchInput(theme.accent)}
-          placeholder="국가, 존재, 유형으로 검색..."
+          placeholder={L.search}
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
@@ -5633,11 +5873,11 @@ export default function FolkloreMap() {
       {/* Tab Navigation */}
       <div style={{ display: "flex", justifyContent: "center", gap: 6, padding: "4px 16px 8px", flexWrap: "wrap", zIndex: 10, position: "relative" }}>
         {[
-          { id: "explore", label: "🗺 탐험" },
-          { id: "stats", label: "📊 통계" },
-          { id: "ranking", label: "🏆 랭킹" },
-          { id: "featured", label: "🎴 특집" },
-          ...(compareList.length > 0 ? [{ id: "compare", label: `⚔ 비교 (${compareList.length})` }] : []),
+          { id: "explore", label: L.explore },
+          { id: "stats", label: L.stats },
+          { id: "ranking", label: L.ranking },
+          { id: "featured", label: L.featured },
+          ...(compareList.length > 0 ? [{ id: "compare", label: `${L.compare} (${compareList.length})` }] : []),
         ].map(tab => (
           <button key={tab.id} onClick={() => setActiveTab(tab.id)} style={{
             padding: "6px 14px", borderRadius: 16,
@@ -5661,7 +5901,7 @@ export default function FolkloreMap() {
             cursor: "pointer", fontSize: 12, fontFamily: "'Crimson Text', serif",
             fontWeight: ["scenario","character","webtoon","builder","synopsis"].includes(activeTab) ? 700 : 400, transition: "all 0.3s",
           }}>
-            🎨 창작 도구 ▾
+            {L.creativeTools} ▾
           </button>
           {showCreativeMenu && (
             <div style={{
@@ -5671,11 +5911,11 @@ export default function FolkloreMap() {
               boxShadow: "0 8px 24px rgba(0,0,0,0.6)",
             }}>
               {[
-                { id: "scenario", label: "🎬 시나리오" },
-                { id: "character", label: "🧙 캐릭터" },
-                { id: "webtoon", label: "📱 웹툰 IP" },
-                { id: "builder", label: "🛠 빌더" },
-                { id: "synopsis", label: "📖 시놉시스" },
+                { id: "scenario", label: L.scenario },
+                { id: "character", label: L.character },
+                { id: "webtoon", label: L.webtoon },
+                { id: "builder", label: L.builder },
+                { id: "synopsis", label: L.synopsis },
               ].map(tab => (
                 <button key={tab.id} onClick={() => { setActiveTab(tab.id); setShowCreativeMenu(false); }} style={{
                   display: "block", width: "100%", padding: "8px 12px", borderRadius: 8,
@@ -5701,10 +5941,10 @@ export default function FolkloreMap() {
           fontWeight: 700, transition: "all 0.3s",
           animation: "pulse 2s infinite",
         }}>
-          🎲 랜덤 조우
+          {L.randomEncounter}
         </button>
 
-        <a href="/ko/community" style={{
+        <a href={`/${locale}/community`} style={{
           padding: "6px 14px", borderRadius: 16,
           border: "1px solid #cc884488",
           background: "#cc884418",
@@ -5712,7 +5952,7 @@ export default function FolkloreMap() {
           textDecoration: "none", fontSize: 12, fontFamily: "'Crimson Text', serif",
           fontWeight: 700, transition: "all 0.3s",
         }}>
-          ☕ 창작 카페
+          {L.creativeCafe}
         </a>
       </div>
 
@@ -5723,7 +5963,7 @@ export default function FolkloreMap() {
           style={styles.filterBtn(viewMode === "map", theme.accent)}
           onClick={() => setViewMode(viewMode === "map" ? "grid" : "map")}
         >
-          {viewMode === "map" ? "⊞ 그리드" : "🗺 지도"}
+          {viewMode === "map" ? L.grid : L.map}
         </button>
         {viewMode === "map" && (
           <>
@@ -5732,7 +5972,7 @@ export default function FolkloreMap() {
               style={styles.filterBtn(heatmapMode === "fear", heatmapMode === "fear" ? "#ff8844" : theme.accent)}
               onClick={() => setHeatmapMode("fear")}
             >
-              🌡 공포도
+              {L.fear}
             </button>
           </>
         )}
@@ -5744,7 +5984,7 @@ export default function FolkloreMap() {
           }}
           onClick={() => setShowAdvFilters(!showAdvFilters)}
         >
-          🔬 필터{activeFilterCount > 0 ? ` (${activeFilterCount})` : ""}
+          {L.filter}{activeFilterCount > 0 ? ` (${activeFilterCount})` : ""}
         </button>
       </div>
       )}
@@ -5866,7 +6106,7 @@ export default function FolkloreMap() {
               {genreFilter && <span style={{ padding: "2px 8px", borderRadius: 8, background: "#2196f315", color: "#2196f3", fontSize: 10 }}>장르: {genreFilter} ✕</span>}
               {visualFilter && <span style={{ padding: "2px 8px", borderRadius: 8, background: "#9c27b015", color: "#9c27b0", fontSize: 10 }}>외형: {visualFilter} ✕</span>}
               {ipFilter && <span style={{ padding: "2px 8px", borderRadius: 8, background: "#4caf5015", color: "#4caf50", fontSize: 10 }}>IP Ready ✕</span>}
-              <span style={{ opacity: 0.4, fontSize: 11, marginLeft: 6 }}>→ {filtered.length}개국 / {totalBeings}개 존재</span>
+              <span style={{ opacity: 0.4, fontSize: 11, marginLeft: 6 }}>→ {filtered.length}{L.countries} / {totalBeings}{L.beings}</span>
             </div>
           )}
         </div>
@@ -6041,20 +6281,12 @@ export default function FolkloreMap() {
           Global Folklore Studio — Creature Codex · {DATA.length} Countries · {DATA.reduce((a,c)=>a+c.b.length,0)} Creatures
         </span>
         <span style={{color:"#333",margin:"0 10px"}}>|</span>
-        <a href="/ko/creatures" style={{color:"#6cb4ee",fontSize:12,textDecoration:"none"}}>
-          📖 크리처 도감
+        <a href={`/${locale}/creatures`} style={{color:"#6cb4ee",fontSize:12,textDecoration:"none"}}>
+          {L.creatureIndex}
         </a>
         <span style={{color:"#333",margin:"0 10px"}}>|</span>
-        <a href="/en/creatures" style={{color:"#6cb4ee",fontSize:12,textDecoration:"none"}}>
-          📖 Bestiary
-        </a>
-        <span style={{color:"#333",margin:"0 10px"}}>|</span>
-        <a href="/ko/community" style={{color:"#cc8844",fontSize:12,textDecoration:"none"}}>
-          ☕ 창작 카페
-        </a>
-        <span style={{color:"#333",margin:"0 10px"}}>|</span>
-        <a href="/en/community" style={{color:"#cc8844",fontSize:12,textDecoration:"none"}}>
-          ☕ Creative Cafe
+        <a href={`/${locale}/community`} style={{color:"#cc8844",fontSize:12,textDecoration:"none"}}>
+          {L.creativeCafe}
         </a>
         <span style={{color:"#333",margin:"0 10px"}}>|</span>
         <button onClick={()=>setShowCredits(true)} style={{
