@@ -5,7 +5,7 @@ import { PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveCo
 import { CREATURE_IMAGE_MAP, FOLKLORE_DATA, getCreatureImage } from "@/lib/folklore-data";
 
 // 크롤 스크립트가 자동 갱신 (아래 한 줄만 교체)
-const LAST_UPDATED = "2026-03-01T05:11:32.630Z";
+const LAST_UPDATED = "2026-03-01T07:47:41.865Z";
 
 
 // ═══════════════════════════════════════════════════════════════
