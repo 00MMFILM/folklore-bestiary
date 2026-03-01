@@ -20,7 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 1.0,
   });
 
-  // Creature index pages (2)
+  // Creature index pages (4)
   for (const locale of LOCALES) {
     entries.push({
       url: `${SITE_URL}/${locale}/creatures`,
@@ -30,7 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   }
 
-  // Creature detail pages (2 × 707 = 1414)
+  // Creature detail pages (4 × N)
   for (const locale of LOCALES) {
     for (const c of creatures) {
       entries.push({
@@ -42,7 +42,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // Region list pages (2 × 19 = 38)
+  // Region list pages (4 × 19 = 76)
   for (const locale of LOCALES) {
     for (const region of regions) {
       entries.push({
@@ -54,7 +54,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // Country list pages (2 × 151 = 302)
+  // Country list pages (4 × 151 = 604)
   for (const locale of LOCALES) {
     for (const country of countries) {
       entries.push({
@@ -66,7 +66,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // Community pages (2)
+  // Community pages (4)
   for (const locale of LOCALES) {
     entries.push({
       url: `${SITE_URL}/${locale}/community`,

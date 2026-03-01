@@ -55,7 +55,7 @@ export default function RootLayout({
     url: SITE_URL,
     description:
       "150개국 707종 전설 속 존재들의 인터랙티브 월드맵",
-    inLanguage: ["ko", "en"],
+    inLanguage: ["ko", "en", "zh", "ja"],
   };
 
   return (

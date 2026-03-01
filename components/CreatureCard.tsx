@@ -2,6 +2,7 @@ import Link from "next/link";
 import { getCreatureImage } from "@/lib/folklore-data";
 import type { Locale } from "@/lib/i18n";
 import { getRegionColors } from "@/lib/region-colors";
+import { getTypeName, getCountryName } from "@/lib/i18n-names";
 
 interface CreatureCardProps {
   id: string;
@@ -108,7 +109,7 @@ export default function CreatureCard({
               border: `1px solid ${colors.accent}33`,
             }}
           >
-            {type}
+            {getTypeName(type, locale)}
           </span>
           <span
             style={{
@@ -130,7 +131,7 @@ export default function CreatureCard({
               color: "#888",
             }}
           >
-            {country}
+            {getCountryName(country, locale)}
           </span>
         </div>
       </div>

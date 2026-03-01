@@ -17,7 +17,7 @@ import LanguageSelector from "@/components/LanguageSelector";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://folklore-bestiary.vercel.app";
 
-// ─── SSG: 2 pages ───
+// ─── SSG: 4 pages ───
 
 export function generateStaticParams() {
   return LOCALES.map((locale) => ({ locale }));

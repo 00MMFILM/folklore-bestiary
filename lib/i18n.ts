@@ -105,7 +105,7 @@ const ko: Dictionary = {
   "creature.storyHooks": "스토리 훅",
   "creature.fear": "공포",
   "creature.notFound": "이 크리처를 찾을 수 없습니다",
-  "creature.notFoundDesc": "The creature you are looking for does not exist in our bestiary.",
+  "creature.notFoundDesc": "찾으시는 크리처가 도감에 존재하지 않습니다.",
   "ct.myth": "신화 (Myth)",
   "ct.legend": "전설 (Legend)",
   "ct.folktale": "민담 (Folktale)",

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { isValidLocale, getDictionary, LOCALES, type Locale } from "@/lib/i18n";
-import { Analytics } from "@vercel/analytics/react";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://folklore-bestiary.vercel.app";
 
@@ -58,17 +57,12 @@ export default async function LocaleLayout({
   };
 
   return (
-    <html lang={locale}>
-      <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
-      </head>
-      <body>
-        {children}
-        <Analytics />
-      </body>
-    </html>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      {children}
+    </>
   );
 }

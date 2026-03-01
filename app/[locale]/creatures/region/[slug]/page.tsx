@@ -16,7 +16,7 @@ import LanguageSelector from "@/components/LanguageSelector";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://folklore-bestiary.vercel.app";
 
-// ─── SSG: 2 × 19 = 38 pages ───
+// ─── SSG: 4 × 19 = 76 pages ───
 
 export function generateStaticParams() {
   const regions = getAllRegions();

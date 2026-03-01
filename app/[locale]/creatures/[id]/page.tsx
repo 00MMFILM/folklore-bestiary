@@ -11,7 +11,7 @@ import { getCreatureTranslation } from "@/lib/creature-translations";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://folklore-bestiary.vercel.app";
 
-// ─── SSG: generate 2 × 707 = 1414 pages ───
+// ─── SSG: generate 4 × N creature pages ───
 
 export function generateStaticParams() {
   const creatures = getAllCreatures();
@@ -35,8 +35,11 @@ export async function generateMetadata({
   const t = getDictionary(locale);
   const image = getCreatureImage(creature.id);
   const ogImage = image || "/og-default.png";
-  const title = `${creature.n} — ${creature.country}`;
-  const description = creature.d.length > 160 ? creature.d.slice(0, 157) + "..." : creature.d;
+  const countryLocalized = getCountryName(creature.country, locale as any);
+  const trans = getCreatureTranslation(creature.id, locale as any);
+  const descText = trans?.d || creature.d;
+  const title = `${creature.n} — ${countryLocalized}`;
+  const description = descText.length > 160 ? descText.slice(0, 157) + "..." : descText;
 
   const langAlternates: Record<string, string> = {};
   for (const l of LOCALES) {
