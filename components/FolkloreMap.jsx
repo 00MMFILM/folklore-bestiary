@@ -91,7 +91,8 @@ const getTop5ByContinent = (data) => {
 
 // ── Helper: Random encounter ──
 const getRandomEncounter = (data) => {
-  const country = data[Math.floor(Math.random() * data.length)];
+  const valid = data.filter(c => c.b && c.b.length > 0);
+  const country = valid[Math.floor(Math.random() * valid.length)];
   const being = country.b[Math.floor(Math.random() * country.b.length)];
   return { country, being };
 };
@@ -394,7 +395,7 @@ function getDailyFeatured(data, taglineMap, loc) {
   };
   // Group countries by continent
   const byContinent = {};
-  data.forEach(c => {
+  data.filter(c => c.b && c.b.length > 0).forEach(c => {
     const cont = CONTINENT_MAP[c.r];
     if (!byContinent[cont]) byContinent[cont] = [];
     byContinent[cont].push(c);
@@ -1957,7 +1958,7 @@ export default function FolkloreMap() {
   const CountryCard = ({ country }) => {
     const continent = CONTINENT_MAP[country.r];
     const cTheme = CONTINENT_COLORS[continent] || CONTINENT_COLORS.Asia;
-    const maxFear = Math.max(...country.b.map((b) => b.f));
+    const maxFear = country.b.length > 0 ? Math.max(...country.b.map((b) => b.f)) : 0;
 
     return (
       <div
