@@ -204,6 +204,21 @@ const MAP_I18N = {
     compareBtn: "비교하기 →",
     selected: "개 선택",
     selectCreature: "크리처를 최소 1개 선택해주세요",
+    compareEmpty: "위에서 2개 이상의 존재를 선택하면 비교 분석이 표시됩니다",
+    heatLow: "낮음",
+    heatMid: "중간",
+    heatHigh: "높음",
+    heatFear: "공포",
+    heatDensity: "밀도",
+    heatMax: "최대",
+    heatModeSwitch: "모드 전환",
+    specPrank: "장난",
+    specAnxiety: "불안",
+    specDanger: "위험",
+    specHorror: "공포",
+    specNightmare: "악몽",
+    specCalamity: "재앙",
+    specApocalypse: "종말",
   },
   en: {
     siteTitle: "Global Folklore Bestiary",
@@ -263,6 +278,21 @@ const MAP_I18N = {
     compareBtn: "Compare →",
     selected: " selected",
     selectCreature: "Please select at least 1 creature",
+    compareEmpty: "Select 2 or more beings above to see comparison analysis",
+    heatLow: "Low",
+    heatMid: "Mid",
+    heatHigh: "High",
+    heatFear: "Fear",
+    heatDensity: "Density",
+    heatMax: "Max",
+    heatModeSwitch: "Mode",
+    specPrank: "Prank",
+    specAnxiety: "Anxiety",
+    specDanger: "Danger",
+    specHorror: "Horror",
+    specNightmare: "Nightmare",
+    specCalamity: "Calamity",
+    specApocalypse: "Apocalypse",
   },
   zh: {
     siteTitle: "世界民间传说图鉴",
@@ -322,6 +352,21 @@ const MAP_I18N = {
     compareBtn: "比较 →",
     selected: "个已选",
     selectCreature: "请至少选择1个生物",
+    compareEmpty: "在上方选择2个以上的存在即可查看比较分析",
+    heatLow: "低",
+    heatMid: "中",
+    heatHigh: "高",
+    heatFear: "恐惧",
+    heatDensity: "密度",
+    heatMax: "最大",
+    heatModeSwitch: "切换模式",
+    specPrank: "恶作剧",
+    specAnxiety: "不安",
+    specDanger: "危险",
+    specHorror: "恐惧",
+    specNightmare: "噩梦",
+    specCalamity: "灾难",
+    specApocalypse: "末日",
   },
   ja: {
     siteTitle: "世界民話図鑑",
@@ -381,6 +426,21 @@ const MAP_I18N = {
     compareBtn: "比較する →",
     selected: "体選択",
     selectCreature: "クリーチャーを最低1体選択してください",
+    compareEmpty: "上で2体以上の存在を選択すると比較分析が表示されます",
+    heatLow: "低",
+    heatMid: "中",
+    heatHigh: "高",
+    heatFear: "恐怖",
+    heatDensity: "密度",
+    heatMax: "最大",
+    heatModeSwitch: "モード切替",
+    specPrank: "いたずら",
+    specAnxiety: "不安",
+    specDanger: "危険",
+    specHorror: "恐怖",
+    specNightmare: "悪夢",
+    specCalamity: "災厄",
+    specApocalypse: "終末",
   },
 };
 function getDailyFeatured(data, taglineMap, loc) {
@@ -833,15 +893,16 @@ const getRadarData = (data, metricLabels) => {
 };
 
 // ── Helper: Fear spectrum data ──
-const getFearSpectrum = (data) => {
+const SPEC_KEYS = ["specPrank","specAnxiety","specDanger","specHorror","specNightmare","specCalamity","specApocalypse"];
+const getFearSpectrum = (data, L) => {
   const buckets = [
-    { level: 2, label: "장난", color: "#88ccff", beings: [] },
-    { level: 4, label: "불안", color: "#44aaff", beings: [] },
-    { level: 5, label: "위험", color: "#44ddaa", beings: [] },
-    { level: 7, label: "공포", color: "#ffcc44", beings: [] },
-    { level: 8, label: "악몽", color: "#ff8844", beings: [] },
-    { level: 9, label: "재앙", color: "#ff4444", beings: [] },
-    { level: 10, label: "종말", color: "#cc00ff", beings: [] },
+    { level: 2, label: L?.specPrank || "장난", color: "#88ccff", beings: [] },
+    { level: 4, label: L?.specAnxiety || "불안", color: "#44aaff", beings: [] },
+    { level: 5, label: L?.specDanger || "위험", color: "#44ddaa", beings: [] },
+    { level: 7, label: L?.specHorror || "공포", color: "#ffcc44", beings: [] },
+    { level: 8, label: L?.specNightmare || "악몽", color: "#ff8844", beings: [] },
+    { level: 9, label: L?.specCalamity || "재앙", color: "#ff4444", beings: [] },
+    { level: 10, label: L?.specApocalypse || "종말", color: "#cc00ff", beings: [] },
   ];
   data.forEach(c => c.b.forEach(b => {
     const bucket = buckets.find(bk => bk.level === b.f);
@@ -1403,7 +1464,7 @@ export default function FolkloreMap() {
   const top5Map = useMemo(() => getTop5ByContinent(DATA), [DATA]);
   const radarMetrics = useMemo(() => [L.beingCount, L.countryCount, L.avgFear, L.typeDiversity, L.maxFearDensity], [L]);
   const radarData = useMemo(() => getRadarData(DATA, radarMetrics), [DATA, radarMetrics]);
-  const fearSpectrum = useMemo(() => getFearSpectrum(DATA), [DATA]);
+  const fearSpectrum = useMemo(() => getFearSpectrum(DATA, L), [DATA, L]);
 
   // Fear heatmap intensity per country
   const fearIntensity = useMemo(() => {
@@ -1442,6 +1503,7 @@ export default function FolkloreMap() {
   const countryHeatData = useMemo(() => {
     const map = {};
     DATA.forEach(c => {
+      if (!c.b || c.b.length === 0) return;
       const avgFear = c.b.reduce((s, b) => s + b.f, 0) / c.b.length;
       const density = c.b.length; // num beings
       const maxFear = Math.max(...c.b.map(b => b.f));
@@ -1919,14 +1981,14 @@ export default function FolkloreMap() {
               </linearGradient>
             </defs>
             <rect x="8" y="17" width="100" height="6" rx="3" fill="url(#legendGrad)" />
-            <text x="8" y="32" fill="#666" fontSize="5" fontFamily="monospace">낮음</text>
-            <text x="48" y="32" fill="#666" fontSize="5" fontFamily="monospace" textAnchor="middle">중간</text>
-            <text x="108" y="32" fill="#666" fontSize="5" fontFamily="monospace" textAnchor="end">높음</text>
+            <text x="8" y="32" fill="#666" fontSize="5" fontFamily="monospace">{L.heatLow}</text>
+            <text x="48" y="32" fill="#666" fontSize="5" fontFamily="monospace" textAnchor="middle">{L.heatMid}</text>
+            <text x="108" y="32" fill="#666" fontSize="5" fontFamily="monospace" textAnchor="end">{L.heatHigh}</text>
             {/* Mode toggle buttons */}
             {[
-              { mode: "fear", label: "공포", x: 116 },
-              { mode: "density", label: "밀도", x: 136 },
-              { mode: "type", label: "최대", x: 156 },
+              { mode: "fear", label: L.heatFear, x: 116 },
+              { mode: "density", label: L.heatDensity, x: 136 },
+              { mode: "type", label: L.heatMax, x: 156 },
             ].map(({ mode, label, x }) => (
               <g key={mode} style={{ cursor: "pointer" }} onClick={() => setHeatmapMode(mode)}>
                 <rect
@@ -1947,7 +2009,7 @@ export default function FolkloreMap() {
                 </text>
               </g>
             ))}
-            <text x="135" y="38" fill="#555" fontSize="4" fontFamily="monospace" textAnchor="middle">모드 전환</text>
+            <text x="135" y="38" fill="#555" fontSize="4" fontFamily="monospace" textAnchor="middle">{L.heatModeSwitch}</text>
           </g>
         </svg>
       </div>
@@ -5192,7 +5254,7 @@ export default function FolkloreMap() {
         {compareList.length < 2 && (
           <div style={{ textAlign: "center", padding: 48, opacity: 0.3 }}>
             <div style={{ fontSize: 56 }}>⚔</div>
-            <div style={{ marginTop: 12, fontSize: 14 }}>위에서 2개 이상의 존재를 선택하면 비교 분석이 표시됩니다</div>
+            <div style={{ marginTop: 12, fontSize: 14 }}>{L.compareEmpty}</div>
           </div>
         )}
       </div>
