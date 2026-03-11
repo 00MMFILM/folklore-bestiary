@@ -64,6 +64,16 @@ const CT_LABELS = { myth: "신화", legend: "전설", folktale: "민담" };
 const CT_COLORS = { myth: "#f59e0b", legend: "#6b8aff", folktale: "#3bff6b" };
 const CT_ICONS = { myth: "🏛", legend: "📜", folktale: "📖" };
 
+const RL_LABELS_I18N = {
+  ko: { protagonist: "주인공", helper: "조력자", episodic: "에피소드", villain: "빌런" },
+  en: { protagonist: "Protagonist", helper: "Helper", episodic: "Episodic", villain: "Villain" },
+  zh: { protagonist: "主角", helper: "助手", episodic: "过场", villain: "反派" },
+  ja: { protagonist: "主人公", helper: "助力者", episodic: "エピソード", villain: "ヴィラン" },
+};
+const RL_COLORS = { protagonist: "#ffd700", helper: "#4caf50", episodic: "#9e9e9e", villain: "#f44336" };
+const RL_ICONS = { protagonist: "👑", helper: "🤝", episodic: "📎", villain: "💀" };
+const RL_KEYS = ["protagonist", "helper", "episodic", "villain"];
+
 // ── Helper: Aggregate type stats across all data ──
 const getTypeStats = (data) => {
   const map = {};
@@ -1298,6 +1308,7 @@ export default function FolkloreMap() {
   const L = MAP_I18N[locale] || MAP_I18N.ko;
   const FL = FEAR_LABELS_I18N[locale] || FEAR_LABELS_I18N.ko;
   const CTL = CT_LABELS_I18N[locale] || CT_LABELS_I18N.ko;
+  const RLL = RL_LABELS_I18N[locale] || RL_LABELS_I18N.ko;
   const spotlightTaglines = SPOTLIGHT_TAGLINES_I18N[locale] || SPOTLIGHT_TAGLINES_I18N.ko;
 
   const [activeContinent, setActiveContinent] = useState("All");
@@ -1380,6 +1391,7 @@ export default function FolkloreMap() {
   const [typeFilter, setTypeFilter] = useState(null);
   const [visualFilter, setVisualFilter] = useState(null);
   const [ipFilter, setIpFilter] = useState(false);
+  const [roleFilter, setRoleFilter] = useState(null);
   const [showAdvFilters, setShowAdvFilters] = useState(false);
   const mapRef = useRef(null);
 
@@ -1399,12 +1411,14 @@ export default function FolkloreMap() {
     const genres = new Map();
     const types = new Map();
     const visuals = new Map();
+    const roles = new Map();
     DATA.forEach(c => c.b.forEach(b => {
       if (b.ab) b.ab.forEach(a => { if (a !== "불명") abilities.set(a, (abilities.get(a)||0)+1); });
       if (b.gf) b.gf.forEach(g => genres.set(g, (genres.get(g)||0)+1));
       const t = b.t.replace(/Vengeful /,'').replace(/Evil /,'').replace(/Possessing /,'');
       types.set(t, (types.get(t)||0)+1);
       if (b.vk) b.vk.forEach(v => visuals.set(v, (visuals.get(v)||0)+1));
+      if (b.rl) roles.set(b.rl, (roles.get(b.rl)||0)+1);
     }));
     const sortMap = (m) => [...m.entries()].sort((a,b) => b[1]-a[1]);
     return {
@@ -1412,6 +1426,7 @@ export default function FolkloreMap() {
       genres: sortMap(genres),
       types: sortMap(types).slice(0, 25),
       visuals: sortMap(visuals).slice(0, 20),
+      roles: RL_KEYS.map(k => [k, roles.get(k) || 0]),
     };
   }, [DATA]);
 
@@ -1422,8 +1437,9 @@ export default function FolkloreMap() {
     if (typeFilter) c++;
     if (visualFilter) c++;
     if (ipFilter) c++;
+    if (roleFilter) c++;
     return c;
-  }, [abilityFilter, genreFilter, typeFilter, visualFilter, ipFilter]);
+  }, [abilityFilter, genreFilter, typeFilter, visualFilter, ipFilter, roleFilter]);
 
   const filtered = useMemo(() => {
     return DATA.filter((c) => {
@@ -1441,7 +1457,7 @@ export default function FolkloreMap() {
         if (!c.b.some((b) => b.f >= fearFilter)) return false;
       }
       // Advanced filters — at least one being in this country must match ALL active filters
-      if (abilityFilter || genreFilter || typeFilter || visualFilter || ipFilter) {
+      if (abilityFilter || genreFilter || typeFilter || visualFilter || ipFilter || roleFilter) {
         const hasMatch = c.b.some(b => {
           if (abilityFilter && !(b.ab && b.ab.includes(abilityFilter))) return false;
           if (genreFilter && !(b.gf && b.gf.includes(genreFilter))) return false;
@@ -1451,13 +1467,14 @@ export default function FolkloreMap() {
           }
           if (visualFilter && !(b.vk && b.vk.includes(visualFilter))) return false;
           if (ipFilter && !b.ip) return false;
+          if (roleFilter && b.rl !== roleFilter) return false;
           return true;
         });
         if (!hasMatch) return false;
       }
       return true;
     });
-  }, [DATA, activeContinent, search, fearFilter, abilityFilter, genreFilter, typeFilter, visualFilter, ipFilter]);
+  }, [DATA, activeContinent, search, fearFilter, abilityFilter, genreFilter, typeFilter, visualFilter, ipFilter, roleFilter]);
 
   const totalBeings = useMemo(() => filtered.reduce((s, c) => s + c.b.length, 0), [filtered]);
   const typeStats = useMemo(() => getTypeStats(DATA), [DATA]);
@@ -5546,6 +5563,14 @@ export default function FolkloreMap() {
             }}>
               {CT_ICONS[b.ct]} {CTL[b.ct]}
             </span>}
+            {b.rl && <span style={{
+              padding: "6px 14px", borderRadius: 20,
+              background: (RL_COLORS[b.rl] || "#888") + "15", border: `1px solid ${(RL_COLORS[b.rl] || "#888")}44`,
+              color: RL_COLORS[b.rl] || "#888", fontSize: 13, fontWeight: 600,
+              fontFamily: "'Crimson Text', serif",
+            }}>
+              {RL_ICONS[b.rl]} {RLL[b.rl]}
+            </span>}
             <span style={{
               padding: "6px 16px", borderRadius: 20,
               background: "#ffffff08", border: "1px solid #ffffff18",
@@ -6133,7 +6158,7 @@ export default function FolkloreMap() {
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12 }}>
             <div style={{ fontSize: 14, fontWeight: 700, color: theme.accent }}>🔬 고급 필터</div>
             {activeFilterCount > 0 && (
-              <button onClick={() => { setAbilityFilter(null); setGenreFilter(null); setTypeFilter(null); setVisualFilter(null); setIpFilter(false); }}
+              <button onClick={() => { setAbilityFilter(null); setGenreFilter(null); setTypeFilter(null); setVisualFilter(null); setIpFilter(false); setRoleFilter(null); }}
                 style={{ padding: "3px 10px", borderRadius: 10, border: "1px solid #ff444444", background: "#ff444412", color: "#ff6666", cursor: "pointer", fontSize: 11, fontFamily: "'Crimson Text', serif" }}>
                 ✕ 초기화
               </button>
@@ -6216,6 +6241,25 @@ export default function FolkloreMap() {
             </div>
           </div>
 
+          {/* Narrative role filter */}
+          <div style={{ marginBottom: 12 }}>
+            <div style={{ fontSize: 11, opacity: 0.5, marginBottom: 5 }}>🎭 {locale === "en" ? "Narrative Role" : locale === "zh" ? "叙事角色" : locale === "ja" ? "物語の役割" : "서사 역할"}</div>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: 4 }}>
+              {filterOptions.roles.map(([r, cnt]) => (
+                <button key={r} onClick={() => setRoleFilter(roleFilter === r ? null : r)}
+                  style={{
+                    padding: "3px 9px", borderRadius: 10, fontSize: 10, cursor: "pointer",
+                    border: `1px solid ${roleFilter === r ? RL_COLORS[r] : "#222"}`,
+                    background: roleFilter === r ? RL_COLORS[r] + "18" : "#0e0e0e",
+                    color: roleFilter === r ? RL_COLORS[r] : "#777",
+                    fontFamily: "'Crimson Text', serif", transition: "all 0.2s",
+                  }}>
+                  {RL_ICONS[r]} {RLL[r]} <span style={{ opacity: 0.4 }}>({cnt})</span>
+                </button>
+              ))}
+            </div>
+          </div>
+
           {/* IP Ready filter */}
           <div>
             <button onClick={() => setIpFilter(!ipFilter)}
@@ -6238,6 +6282,7 @@ export default function FolkloreMap() {
               {abilityFilter && <span style={{ padding: "2px 8px", borderRadius: 8, background: "#e91e6315", color: "#e91e63", fontSize: 10 }}>능력: {abilityFilter} ✕</span>}
               {genreFilter && <span style={{ padding: "2px 8px", borderRadius: 8, background: "#2196f315", color: "#2196f3", fontSize: 10 }}>장르: {genreFilter} ✕</span>}
               {visualFilter && <span style={{ padding: "2px 8px", borderRadius: 8, background: "#9c27b015", color: "#9c27b0", fontSize: 10 }}>외형: {visualFilter} ✕</span>}
+              {roleFilter && <span style={{ padding: "2px 8px", borderRadius: 8, background: RL_COLORS[roleFilter] + "15", color: RL_COLORS[roleFilter], fontSize: 10 }}>{RL_ICONS[roleFilter]} {RLL[roleFilter]} ✕</span>}
               {ipFilter && <span style={{ padding: "2px 8px", borderRadius: 8, background: "#4caf5015", color: "#4caf50", fontSize: 10 }}>IP Ready ✕</span>}
               <span style={{ opacity: 0.4, fontSize: 11, marginLeft: 6 }}>→ {filtered.length}{L.countries} / {totalBeings}{L.beings}</span>
             </div>

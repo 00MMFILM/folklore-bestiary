@@ -56,7 +56,18 @@ function mk(iso, ln, n, t, f, d, ab, wk, vk, src, ct) {
     sh: d.substring(0, 60),
     ip: `${n}(${ln}) — ${ct === 'myth' ? '신화' : ct === 'folktale' ? '민담' : '전설'} 기반 ${t} IP. ${f >= 7 ? '공포/스릴러' : f >= 5 ? '판타지/드라마' : '모험/가족'} 장르.`,
     ct,
+    rl: autoRole(t, d, f),
   };
+}
+
+// ─── 서사 역할 자동 분류 ───
+function autoRole(t, d, f) {
+  const tl = (t || '').toLowerCase();
+  const dl = (d || '').toLowerCase();
+  if (f >= 8 || tl.includes('demon') || tl.includes('evil') || tl.includes('vengeful') || tl.includes('vampire') || tl.includes('undead')) return 'villain';
+  if (tl.includes('deity') || tl.includes('god') || tl.includes('hero') || tl.includes('divine')) return 'protagonist';
+  if (f <= 3 || tl.includes('guardian') || tl.includes('fairy') || tl.includes('protector') || dl.includes('protect') || dl.includes('guardian')) return 'helper';
+  return 'episodic';
 }
 
 // ─── 자동 분류 (expand-folklore.mjs와 동일) ───
