@@ -11,10 +11,10 @@ import { getCreatureTranslation } from "@/lib/creature-translations";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://folklore-bestiary.vercel.app";
 
-// ─── SSG: generate 4 × N creature pages ───
+// ─── SSG: pre-render important creatures only (rest via ISR) ───
 
 export function generateStaticParams() {
-  const creatures = getAllCreatures();
+  const creatures = getAllCreatures().filter((c) => c.ip);
   return LOCALES.flatMap((locale) =>
     creatures.map((c) => ({ locale, id: c.id }))
   );
