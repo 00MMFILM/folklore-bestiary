@@ -10,7 +10,7 @@ const LAST_UPDATED = "2026-03-20T06:43:42.920Z";
 
 
 // ═══════════════════════════════════════════════════════════════
-//  GLOBAL FOLKLORE BESTIARY — 151 Countries · 600 Beings
+//  GLOBAL FOLKLORE BESTIARY — 151 Countries · 1261 Beings
 //  Interactive World Map + Card Explorer
 // ═══════════════════════════════════════════════════════════════
 

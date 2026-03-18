@@ -159,17 +159,23 @@ export async function POST(req: NextRequest) {
   }
 }
 
-// ─── 생성 상태 확인 (GET) ───
+// ─── 생성 상태 확인 (GET): 로컬 파일 기반 ───
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);
   const creatureId = searchParams.get('creatureId');
-  
-  // TODO: DB에서 이미지 존재 여부 확인
-  // const creature = await db.creature.findUnique({ where: { id: creatureId } });
-  
+
+  if (!creatureId) {
+    return NextResponse.json({ error: 'creatureId is required' }, { status: 400 });
+  }
+
+  const fs = await import('fs');
+  const path = await import('path');
+  const imgPath = path.join(process.cwd(), 'public', 'creatures', `${creatureId}.webp`);
+  const hasImage = fs.existsSync(imgPath);
+
   return NextResponse.json({
     creatureId,
-    hasImage: false, // creature?.imageUrl ? true : false
-    imageUrl: null,   // creature?.imageUrl
+    hasImage,
+    imageUrl: hasImage ? `/creatures/${creatureId}.webp` : null,
   });
 }

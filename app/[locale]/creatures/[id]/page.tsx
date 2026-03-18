@@ -35,8 +35,8 @@ export async function generateMetadata({
   const t = getDictionary(locale);
   const image = getCreatureImage(creature.id);
   const ogImage = image || "/og-default.png";
-  const countryLocalized = getCountryName(creature.country, locale as any);
-  const trans = getCreatureTranslation(creature.id, locale as any);
+  const countryLocalized = getCountryName(creature.country, locale as Locale);
+  const trans = getCreatureTranslation(creature.id, locale as Locale);
   const descText = trans?.d || creature.d;
   const title = `${creature.n} — ${countryLocalized}`;
   const description = descText.length > 160 ? descText.slice(0, 157) + "..." : descText;
