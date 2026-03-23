@@ -4,6 +4,7 @@
 // ============================================================
 
 import { NextRequest, NextResponse } from 'next/server';
+import { getCreatureImage } from '@/lib/folklore-data';
 
 // ─── 스타일 베이스 프롬프트 ───
 const STYLE_BASE = `semi-realistic webtoon concept art style, dramatic cinematic lighting, 
@@ -159,7 +160,7 @@ export async function POST(req: NextRequest) {
   }
 }
 
-// ─── 생성 상태 확인 (GET): 로컬 파일 기반 ───
+// ─── 생성 상태 확인 (GET) ───
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);
   const creatureId = searchParams.get('creatureId');
@@ -168,14 +169,11 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: 'creatureId is required' }, { status: 400 });
   }
 
-  const fs = await import('fs');
-  const path = await import('path');
-  const imgPath = path.join(process.cwd(), 'public', 'creatures', `${creatureId}.webp`);
-  const hasImage = fs.existsSync(imgPath);
+  const imageUrl = getCreatureImage(creatureId);
 
   return NextResponse.json({
     creatureId,
-    hasImage,
-    imageUrl: hasImage ? `/creatures/${creatureId}.webp` : null,
+    hasImage: !!imageUrl,
+    imageUrl,
   });
 }
