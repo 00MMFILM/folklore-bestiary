@@ -92,6 +92,11 @@ const CATEGORY_COUNTRY_MAP = [
   { lang: 'ko', cat: '분류:한국의_전설', iso: 'KR', label: '한국 전설' },
   { lang: 'ko', cat: '분류:한국의_요괴', iso: 'KR', label: '한국 요괴' },
   { lang: 'ko', cat: '분류:한국_신화', iso: 'KR', label: '한국 신화' },
+  { lang: 'ko', cat: '분류:한국의_신화적_인물', iso: 'KR', label: '한국 신화 인물' },
+  { lang: 'ko', cat: '분류:한국의_민담', iso: 'KR', label: '한국 민담' },
+  { lang: 'ko', cat: '분류:한국의_설화', iso: 'KR', label: '한국 설화' },
+  { lang: 'ko', cat: '분류:한국의_무속', iso: 'KR', label: '한국 무속' },
+  { lang: 'ko', cat: '분류:한국의_신', iso: 'KR', label: '한국 신' },
   { lang: 'ko', cat: '분류:일본의_요괴', iso: 'JP', label: '일본 요괴' },
   { lang: 'ko', cat: '분류:중국_신화', iso: 'CN', label: '중국 신화' },
 
@@ -155,6 +160,9 @@ const CATEGORY_COUNTRY_MAP = [
   // 아시아 추가
   { lang: 'en', cat: 'Category:Chinese_legendary_creatures', iso: 'CN', label: 'Chinese creatures' },
   { lang: 'en', cat: 'Category:Korean_mythology', iso: 'KR', label: 'Korean mythology' },
+  { lang: 'en', cat: 'Category:Korean_folklore', iso: 'KR', label: 'Korean folklore' },
+  { lang: 'en', cat: 'Category:Korean_shamanism', iso: 'KR', label: 'Korean shamanism' },
+  { lang: 'en', cat: 'Category:Characters_in_Korean_mythology', iso: 'KR', label: 'Korean myth characters' },
   { lang: 'en', cat: 'Category:Japanese_folklore', iso: 'JP', label: 'Japanese folklore' },
   { lang: 'en', cat: 'Category:Burmese_legendary_creatures', iso: 'MM', label: 'Burmese creatures' },
   { lang: 'en', cat: 'Category:Laotian_legendary_creatures', iso: 'LA', label: 'Laotian creatures' },
