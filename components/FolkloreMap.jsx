@@ -6,7 +6,7 @@ import { CREATURE_IMAGE_MAP, FOLKLORE_DATA, getCreatureImage } from "@/lib/folkl
 import { getCountryName, getRegionName, getTypeName } from "@/lib/i18n-names";
 
 // 크롤 스크립트가 자동 갱신 (아래 한 줄만 교체)
-const LAST_UPDATED = "2026-05-13T08:34:41.385Z";
+const LAST_UPDATED = "2026-05-13T14:09:25.265Z";
 
 
 // ═══════════════════════════════════════════════════════════════
