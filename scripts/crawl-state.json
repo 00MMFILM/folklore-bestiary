@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 10,
+  "lastCategoryIndex": 16,
   "processedPageIds": [
     1481896,
     1347753,
@@ -1500,9 +1500,10 @@
     83271335,
     1123781,
     6272911,
-    1727693
+    1727693,
+    83062683
   ],
-  "totalAdded": 932,
-  "runs": 374,
-  "lastRun": "2026-06-03T10:44:46.123Z"
+  "totalAdded": 933,
+  "runs": 375,
+  "lastRun": "2026-06-03T16:29:43.969Z"
 }
