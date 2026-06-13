@@ -183,6 +183,53 @@ const CATEGORY_COUNTRY_MAP = [
 
   // 아프리카 추가 (기존 나이지리아/가나/남아공 외)
 
+  // ── 3차 확장 (2026-06): 풀 고갈 대응 ──
+
+  // 슬라브/동유럽 세분화
+  { lang: 'en', cat: 'Category:Russian_folklore', iso: 'RU', label: 'Russian folklore' },
+  { lang: 'en', cat: 'Category:Russian_mythology', iso: 'RU', label: 'Russian mythology' },
+  { lang: 'en', cat: 'Category:Ukrainian_mythology', iso: 'UA', label: 'Ukrainian mythology' },
+  { lang: 'en', cat: 'Category:Bulgarian_mythology', iso: 'BG', label: 'Bulgarian mythology' },
+  { lang: 'en', cat: 'Category:Czech_folklore', iso: 'CZ', label: 'Czech folklore' },
+  { lang: 'en', cat: 'Category:Albanian_mythology', iso: 'AL', label: 'Albanian mythology' },
+  { lang: 'en', cat: 'Category:Latvian_mythology', iso: 'LV', label: 'Latvian mythology' },
+  { lang: 'en', cat: 'Category:Estonian_mythology', iso: 'EE', label: 'Estonian mythology' },
+  { lang: 'en', cat: 'Category:Sami_mythology', iso: 'NO', label: 'Sami mythology' },
+
+  // 라틴 아메리카 보강
+  { lang: 'en', cat: 'Category:Aztec_mythology', iso: 'MX', label: 'Aztec mythology' },
+  { lang: 'en', cat: 'Category:Maya_mythology', iso: 'MX', label: 'Maya mythology' },
+  { lang: 'en', cat: 'Category:Inca_mythology', iso: 'PE', label: 'Inca mythology' },
+  { lang: 'en', cat: 'Category:Guatemalan_legendary_creatures', iso: 'GT', label: 'Guatemalan creatures' },
+  { lang: 'en', cat: 'Category:Chilean_legendary_creatures', iso: 'CL', label: 'Chilean creatures' },
+  { lang: 'en', cat: 'Category:Venezuelan_legendary_creatures', iso: 'VE', label: 'Venezuelan creatures' },
+
+  // 인도/남아시아 세분화
+  { lang: 'en', cat: 'Category:Rakshasas', iso: 'IN', label: 'Rakshasas' },
+  { lang: 'en', cat: 'Category:Asuras', iso: 'IN', label: 'Asuras' },
+  { lang: 'en', cat: 'Category:Nagas', iso: 'IN', label: 'Nagas' },
+  { lang: 'en', cat: 'Category:Apsaras', iso: 'IN', label: 'Apsaras' },
+  { lang: 'en', cat: 'Category:Yakshas', iso: 'IN', label: 'Yakshas' },
+  { lang: 'en', cat: 'Category:Buddhist_legendary_creatures', iso: '_MULTI', label: 'Buddhist creatures' },
+  { lang: 'en', cat: 'Category:Hindu_deities', iso: 'IN', label: 'Hindu deities' },
+
+  // 아프리카 보강
+  { lang: 'en', cat: 'Category:Akan_religion', iso: 'GH', label: 'Akan religion' },
+  { lang: 'en', cat: 'Category:Igbo_mythology', iso: 'NG', label: 'Igbo mythology' },
+  { lang: 'en', cat: 'Category:Dahomey_mythology', iso: 'BJ', label: 'Dahomey mythology' },
+  { lang: 'en', cat: 'Category:Berber_mythology', iso: 'MA', label: 'Berber mythology' },
+
+  // 북미 원주민 세분화
+  { lang: 'en', cat: 'Category:Inuit_mythology', iso: 'CA', label: 'Inuit mythology' },
+  { lang: 'en', cat: 'Category:Hawaiian_mythology', iso: 'US', label: 'Hawaiian mythology' },
+  { lang: 'en', cat: 'Category:Navajo_mythology', iso: 'US', label: 'Navajo mythology' },
+  { lang: 'en', cat: 'Category:Hopi_mythology', iso: 'US', label: 'Hopi mythology' },
+  { lang: 'en', cat: 'Category:Iroquois_mythology', iso: 'US', label: 'Iroquois mythology' },
+
+  // 동남아 추가
+  { lang: 'en', cat: 'Category:Hmong_mythology', iso: 'VN', label: 'Hmong mythology' },
+  { lang: 'en', cat: 'Category:Malaysian_legendary_creatures', iso: 'MY', label: 'Malaysian creatures' },
+
   // 타입별 크로스컷 카테고리
   { lang: 'en', cat: 'Category:Legendary_serpents', iso: '_MULTI', label: 'Legendary serpents' },
   { lang: 'en', cat: 'Category:Legendary_birds', iso: '_MULTI', label: 'Legendary birds' },
@@ -277,6 +324,34 @@ async function fetchCategoryMembers(lang, cat, limit = 50) {
     `&cmlimit=${limit}&cmtype=page&format=json&origin=*`;
   const data = await fetchJSON(url);
   return data?.query?.categorymembers || [];
+}
+
+// 서브카테고리까지 1단계 재귀로 탐색 (위키 페이지 풀 확장)
+async function fetchCategoryMembersDeep(lang, cat, limit = 50, maxSubcats = 3) {
+  // 1) 본 카테고리의 페이지 + 서브카테고리 동시 조회
+  const url = `https://${lang}.wikipedia.org/w/api.php?` +
+    `action=query&list=categorymembers&cmtitle=${encodeURIComponent(cat)}` +
+    `&cmlimit=${limit}&cmtype=page|subcat&format=json&origin=*`;
+  const data = await fetchJSON(url);
+  const members = data?.query?.categorymembers || [];
+
+  const pages = members.filter(m => m.ns === 0);
+  const subcats = members.filter(m => m.ns === 14).slice(0, maxSubcats);
+
+  // 2) 각 서브카테고리에서 페이지만 추가 수집
+  for (const subcat of subcats) {
+    if (apiCallCount >= MAX_API_CALLS - 5) break; // API 예산 보호
+    const subPages = await fetchCategoryMembers(lang, subcat.title, limit);
+    pages.push(...subPages);
+  }
+
+  // 3) pageid 기준 dedup
+  const seen = new Set();
+  return pages.filter(p => {
+    if (seen.has(p.pageid)) return false;
+    seen.add(p.pageid);
+    return true;
+  });
 }
 
 async function fetchArticleDetail(lang, title) {
@@ -541,13 +616,13 @@ async function main() {
     if (apiCallCount >= MAX_API_CALLS) break;
 
     console.log(`\n🔍 [${catDef.iso}] ${catDef.label} 크롤 중...`);
-    const members = await fetchCategoryMembers(catDef.lang, catDef.cat, 50);
+    const members = await fetchCategoryMembersDeep(catDef.lang, catDef.cat, 50, 3);
 
     if (members.length === 0) {
       console.log('   ⚠️ 카테고리에서 기사를 찾지 못함');
       continue;
     }
-    console.log(`   📄 ${members.length}개 기사 발견`);
+    console.log(`   📄 ${members.length}개 기사 발견 (서브카테고리 포함)`);
 
     // 아직 처리 안 한 기사만 필터
     const unprocessed = members.filter(m => !processedIds.has(m.pageid));
@@ -563,16 +638,16 @@ async function main() {
       if (added >= MAX_NEW) break;
       if (apiCallCount >= MAX_API_CALLS) break;
 
-      // 이미 처리한 pageid 기록
-      processedIds.add(member.pageid);
-      state.processedPageIds.push(member.pageid);
-
-      // 상세 정보 가져오기
+      // 상세 정보 가져오기 (성공해야만 영구 블랙리스트에 추가)
       const article = await fetchArticleDetail(catDef.lang, member.title);
       if (!article) {
-        console.log(`   ⏭️ ${member.title} — 상세 정보 없음`);
+        console.log(`   ⏭️ ${member.title} — 상세 정보 없음 (재시도 가능)`);
         continue;
       }
+
+      // 영구 블랙리스트는 fetch 성공 후에만 기록 (transient 실패 보호)
+      processedIds.add(member.pageid);
+      state.processedPageIds.push(member.pageid);
 
       // 크리처 관련 기사인지 필터
       article.lang = catDef.lang;
@@ -632,21 +707,23 @@ async function main() {
     }
   }
 
-  // ── 결과 저장 ──
+  // ── 결과 저장 (실제 추가됐을 때만) ──
   if (added > 0) {
     saveData(data);
     console.log(`\n💾 데이터 저장 완료`);
-  }
 
-  // ── LAST_UPDATED 타임스탬프 갱신 (FolkloreMap 배너용) ──
-  const fmPath = path.join(process.cwd(), 'components', 'FolkloreMap.jsx');
-  let fmContent = fs.readFileSync(fmPath, 'utf8');
-  fmContent = fmContent.replace(
-    /const LAST_UPDATED = "[^"]*";/,
-    `const LAST_UPDATED = "${new Date().toISOString()}";`
-  );
-  fs.writeFileSync(fmPath, fmContent, 'utf8');
-  console.log(`🕐 LAST_UPDATED 갱신: ${new Date().toISOString()}`);
+    // LAST_UPDATED 타임스탬프는 실제 추가된 경우에만 갱신 (빈 커밋 방지)
+    const fmPath = path.join(process.cwd(), 'components', 'FolkloreMap.jsx');
+    let fmContent = fs.readFileSync(fmPath, 'utf8');
+    fmContent = fmContent.replace(
+      /const LAST_UPDATED = "[^"]*";/,
+      `const LAST_UPDATED = "${new Date().toISOString()}";`
+    );
+    fs.writeFileSync(fmPath, fmContent, 'utf8');
+    console.log(`🕐 LAST_UPDATED 갱신: ${new Date().toISOString()}`);
+  } else {
+    console.log(`\n⏸️  변경 없음 — 커밋 스킵`);
+  }
 
   // ── 상태 업데이트 ──
   state.totalAdded += added;

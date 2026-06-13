@@ -27,7 +27,9 @@ jobs:
       - name: Check for changes
         id: changes
         run: |
-          if git diff --quiet lib/folklore-data.ts components/FolkloreMap.jsx; then
+          # folklore-data.ts 변경 여부만 체크 — crawl-state.json/FolkloreMap.jsx만 변경된
+          # 빈 실행은 커밋하지 않음 (저장소 노이즈 방지)
+          if git diff --quiet lib/folklore-data.ts; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
