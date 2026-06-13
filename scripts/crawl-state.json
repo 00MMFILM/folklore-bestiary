@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 76,
+  "lastCategoryIndex": 79,
   "processedPageIds": [
     1481896,
     1347753,
@@ -1549,7 +1549,23 @@
     95768,
     16191076,
     95752,
-    61392921
+    61392921,
+    5874664,
+    96180,
+    96450,
+    4016738,
+    24476367,
+    24784147,
+    96196,
+    24604991,
+    93749,
+    51411799,
+    1751029,
+    1521643,
+    52786319,
+    1521641,
+    83291405,
+    52219697
   ],
   "discoveredCategories": [
     {
@@ -1647,9 +1663,162 @@
       "label": "Water spirits",
       "discoveredFrom": "Moʻo",
       "discoveredAt": 414
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Maui (mythology)",
+      "iso": "WS",
+      "label": "Maui (mythology)",
+      "discoveredFrom": "Tiʻitiʻi",
+      "discoveredAt": 415
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Samoan legends",
+      "iso": "WS",
+      "label": "Samoan legends",
+      "discoveredFrom": "Tiʻitiʻi",
+      "discoveredAt": 415
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sky and weather gods",
+      "iso": "WS",
+      "label": "Sky and weather gods",
+      "discoveredFrom": "Faʻatiu",
+      "discoveredAt": 415
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Nature gods",
+      "iso": "WS",
+      "label": "Nature gods",
+      "discoveredFrom": "Mafuiʻe",
+      "discoveredAt": 415
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Polynesian people",
+      "iso": "NZ",
+      "label": "Legendary Polynesian people",
+      "discoveredFrom": "Nafanua",
+      "discoveredAt": 415
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Polynesian goddesses",
+      "iso": "NZ",
+      "label": "Polynesian goddesses",
+      "discoveredFrom": "Nafanua",
+      "discoveredAt": 415
+    },
+    {
+      "lang": "en",
+      "cat": "Category:War goddesses",
+      "iso": "WS",
+      "label": "War goddesses",
+      "discoveredFrom": "Nafanua",
+      "discoveredAt": 415
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Underworld gods",
+      "iso": "WS",
+      "label": "Underworld gods",
+      "discoveredFrom": "Saveasiʻuleo",
+      "discoveredAt": 415
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Creator gods",
+      "iso": "WS",
+      "label": "Creator gods",
+      "discoveredFrom": "Tagaloa",
+      "discoveredAt": 415
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Abenaki mythology",
+      "iso": "US",
+      "label": "Abenaki mythology",
+      "discoveredFrom": "Abenaki mythology",
+      "discoveredAt": 415
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Destroyer gods",
+      "iso": "US",
+      "label": "Destroyer gods",
+      "discoveredFrom": "Malsumis",
+      "discoveredAt": 415
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Gods of the Indigenous peoples of North America",
+      "iso": "US",
+      "label": "Gods of the Indigenous peoples of North America",
+      "discoveredFrom": "Malsumis",
+      "discoveredAt": 415
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Algonquian legendary creatures",
+      "iso": "US",
+      "label": "Algonquian legendary creatures",
+      "discoveredFrom": "Mistapew",
+      "discoveredAt": 415
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Canadian legendary creatures",
+      "iso": "US",
+      "label": "Canadian legendary creatures",
+      "discoveredFrom": "Mistapew",
+      "discoveredAt": 415
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Cree legendary creatures",
+      "iso": "US",
+      "label": "Cree legendary creatures",
+      "discoveredFrom": "Mistapew",
+      "discoveredAt": 415
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary creatures of the Indigenous peoples of North America",
+      "iso": "US",
+      "label": "Legendary creatures of the Indigenous peoples of North America",
+      "discoveredFrom": "Mistapew",
+      "discoveredAt": 415
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological human-eaters",
+      "iso": "US",
+      "label": "Mythological human-eaters",
+      "discoveredFrom": "Mistapew",
+      "discoveredAt": 415
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Native American demons",
+      "iso": "US",
+      "label": "Native American demons",
+      "discoveredFrom": "Mistapew",
+      "discoveredAt": 415
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Abenaki legendary creatures",
+      "iso": "US",
+      "label": "Abenaki legendary creatures",
+      "discoveredFrom": "Odziozo",
+      "discoveredAt": 415
     }
   ],
-  "totalAdded": 953,
-  "runs": 415,
-  "lastRun": "2026-06-13T06:47:28.938Z"
+  "totalAdded": 968,
+  "runs": 416,
+  "lastRun": "2026-06-13T08:47:52.649Z",
+  "lastDiscoveredIndex": 3
 }
