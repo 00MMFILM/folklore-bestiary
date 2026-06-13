@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 70,
+  "lastCategoryIndex": 76,
   "processedPageIds": [
     1481896,
     1347753,
@@ -1535,9 +1535,121 @@
     24710432,
     24690453,
     24702145,
-    24418804
+    24418804,
+    65755,
+    999809,
+    21228223,
+    28788497,
+    68634367,
+    43327497,
+    52468680,
+    4236996,
+    1668552,
+    488475,
+    95768,
+    16191076,
+    95752,
+    61392921
   ],
-  "totalAdded": 949,
-  "runs": 414,
-  "lastRun": "2026-06-13T06:41:42.880Z"
+  "discoveredCategories": [
+    {
+      "lang": "en",
+      "cat": "Category:Japanese mythology in anime and manga",
+      "iso": "JP",
+      "label": "Japanese mythology in anime and manga",
+      "discoveredFrom": "Karasu Tengu Kabuto",
+      "discoveredAt": 414
+    },
+    {
+      "lang": "en",
+      "cat": "Category:American ghosts",
+      "iso": "US",
+      "label": "American ghosts",
+      "discoveredFrom": "Nightmarchers",
+      "discoveredAt": 414
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Hawaiian legendary creatures",
+      "iso": "NZ",
+      "label": "Hawaiian legendary creatures",
+      "discoveredFrom": "Nightmarchers",
+      "discoveredAt": 414
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Male ghosts",
+      "iso": "NZ",
+      "label": "Male ghosts",
+      "discoveredFrom": "Nightmarchers",
+      "discoveredAt": 414
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Polynesian ghosts",
+      "iso": "NZ",
+      "label": "Polynesian ghosts",
+      "discoveredFrom": "Nightmarchers",
+      "discoveredAt": 414
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Supernatural legends",
+      "iso": "NZ",
+      "label": "Supernatural legends",
+      "discoveredFrom": "Nightmarchers",
+      "discoveredAt": 414
+    },
+    {
+      "lang": "en",
+      "cat": "Category:American legendary creatures",
+      "iso": "US",
+      "label": "American legendary creatures",
+      "discoveredFrom": "Menehune",
+      "discoveredAt": 414
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Dwarves (folklore)",
+      "iso": "NZ",
+      "label": "Dwarves (folklore)",
+      "discoveredFrom": "Menehune",
+      "discoveredAt": 414
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Forest spirits",
+      "iso": "NZ",
+      "label": "Forest spirits",
+      "discoveredFrom": "Menehune",
+      "discoveredAt": 414
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary reptiles",
+      "iso": "NZ",
+      "label": "Legendary reptiles",
+      "discoveredFrom": "Moʻo",
+      "discoveredAt": 414
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological shapeshifters",
+      "iso": "NZ",
+      "label": "Mythological shapeshifters",
+      "discoveredFrom": "Moʻo",
+      "discoveredAt": 414
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Water spirits",
+      "iso": "NZ",
+      "label": "Water spirits",
+      "discoveredFrom": "Moʻo",
+      "discoveredAt": 414
+    }
+  ],
+  "totalAdded": 953,
+  "runs": 415,
+  "lastRun": "2026-06-13T06:47:28.938Z"
 }
