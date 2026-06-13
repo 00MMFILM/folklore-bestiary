@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 79,
+  "lastCategoryIndex": 82,
   "processedPageIds": [
     1481896,
     1347753,
@@ -1565,7 +1565,28 @@
     52786319,
     1521641,
     83291405,
-    52219697
+    52219697,
+    5976324,
+    1551798,
+    54811626,
+    608513,
+    68189482,
+    57212745,
+    81790136,
+    20458057,
+    6620482,
+    60868691,
+    65575611,
+    2535867,
+    80888505,
+    20313290,
+    48753117,
+    48643650,
+    2759466,
+    48719322,
+    48652576,
+    2225457,
+    16182747
   ],
   "discoveredCategories": [
     {
@@ -1815,10 +1836,242 @@
       "label": "Abenaki legendary creatures",
       "discoveredFrom": "Odziozo",
       "discoveredAt": 415
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Cornish folklore",
+      "iso": "RU",
+      "label": "Cornish folklore",
+      "discoveredFrom": "Adder stone",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Egyptian mythology",
+      "iso": "EG",
+      "label": "Egyptian mythology",
+      "discoveredFrom": "Adder stone",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological objects",
+      "iso": "RU",
+      "label": "Mythological objects",
+      "discoveredFrom": "Adder stone",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Russian folklore",
+      "iso": "RU",
+      "label": "Russian folklore",
+      "discoveredFrom": "Adder stone",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Scottish folklore",
+      "iso": "GB",
+      "label": "Scottish folklore",
+      "discoveredFrom": "Adder stone",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Welsh folklore",
+      "iso": "GB",
+      "label": "Welsh folklore",
+      "discoveredFrom": "Adder stone",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ukrainian folklore",
+      "iso": "RU",
+      "label": "Ukrainian folklore",
+      "discoveredFrom": "Bogatyr",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Medieval legends",
+      "iso": "RU",
+      "label": "Medieval legends",
+      "discoveredFrom": "Bylina",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Russian legends",
+      "iso": "RU",
+      "label": "Russian legends",
+      "discoveredFrom": "Bylina",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Russian folklore characters",
+      "iso": "RU",
+      "label": "Russian folklore characters",
+      "discoveredFrom": "Chernava",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Slavic folklore characters",
+      "iso": "RU",
+      "label": "Slavic folklore characters",
+      "discoveredFrom": "Chernava",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales collected by Alexander Afanasyev",
+      "iso": "RU",
+      "label": "Fairy tales collected by Alexander Afanasyev",
+      "discoveredFrom": "The Gigantic Turnip",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ukrainian fairy tales",
+      "iso": "RU",
+      "label": "Ukrainian fairy tales",
+      "discoveredFrom": "The Gigantic Turnip",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Russian mythology",
+      "iso": "RU",
+      "label": "Russian mythology",
+      "discoveredFrom": "Alatyr (mythology)",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological islands",
+      "iso": "RU",
+      "label": "Mythological islands",
+      "discoveredFrom": "Buyan",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological kingdoms, empires, and countries",
+      "iso": "RU",
+      "label": "Mythological kingdoms, empires, and countries",
+      "discoveredFrom": "Buyan",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Places in Slavic mythology",
+      "iso": "RU",
+      "label": "Places in Slavic mythology",
+      "discoveredFrom": "Buyan",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary tribes in classical historiography",
+      "iso": "RU",
+      "label": "Legendary tribes in classical historiography",
+      "discoveredFrom": "Chud (folklore)",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Slavic mythology",
+      "iso": "RU",
+      "label": "Slavic mythology",
+      "discoveredFrom": "Drioma",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about fairies",
+      "iso": "RU",
+      "label": "Fairy tales about fairies",
+      "discoveredFrom": "The Fire-Fairy",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Female characters in fairy tales",
+      "iso": "RU",
+      "label": "Female characters in fairy tales",
+      "discoveredFrom": "The Fire-Fairy",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Female legendary creatures",
+      "iso": "RU",
+      "label": "Female legendary creatures",
+      "discoveredFrom": "The Fire-Fairy",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Slavic legendary creatures",
+      "iso": "RU",
+      "label": "Slavic legendary creatures",
+      "discoveredFrom": "Shishiga",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Characters in fairy tales",
+      "iso": "RU",
+      "label": "Characters in fairy tales",
+      "discoveredFrom": "Silver Hoof",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about deer",
+      "iso": "RU",
+      "label": "Fairy tales about deer",
+      "discoveredFrom": "Silver Hoof",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Witchcraft in fairy tales",
+      "iso": "RU",
+      "label": "Witchcraft in fairy tales",
+      "discoveredFrom": "Sinyushka's Well",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Human-headed mythical creatures",
+      "iso": "RU",
+      "label": "Human-headed mythical creatures",
+      "discoveredFrom": "Sirin",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary birds",
+      "iso": "RU",
+      "label": "Legendary birds",
+      "discoveredFrom": "Sirin",
+      "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ukrainian mythology",
+      "iso": "UA",
+      "label": "Ukrainian mythology",
+      "discoveredFrom": "Chervona ruta",
+      "discoveredAt": 416
     }
   ],
-  "totalAdded": 968,
-  "runs": 416,
-  "lastRun": "2026-06-13T08:47:52.649Z",
-  "lastDiscoveredIndex": 3
+  "totalAdded": 983,
+  "runs": 417,
+  "lastRun": "2026-06-13T13:28:29.200Z",
+  "lastDiscoveredIndex": 6
 }
