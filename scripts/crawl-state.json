@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 82,
+  "lastCategoryIndex": 85,
   "processedPageIds": [
     1481896,
     1347753,
@@ -1586,7 +1586,29 @@
     48719322,
     48652576,
     2225457,
-    16182747
+    16182747,
+    38185749,
+    49968651,
+    28575530,
+    176031,
+    3229333,
+    380597,
+    4917347,
+    8111715,
+    14164288,
+    33770112,
+    10373001,
+    27919178,
+    36778649,
+    26738378,
+    42080411,
+    73930145,
+    77483437,
+    1816400,
+    26641764,
+    72750596,
+    5210801,
+    55344979
   ],
   "discoveredCategories": [
     {
@@ -2068,10 +2090,226 @@
       "label": "Ukrainian mythology",
       "discoveredFrom": "Chervona ruta",
       "discoveredAt": 416
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Czech folklore",
+      "iso": "CZ",
+      "label": "Czech folklore",
+      "discoveredFrom": "Czech folklore",
+      "discoveredAt": 417
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore by country",
+      "iso": "CZ",
+      "label": "Folklore by country",
+      "discoveredFrom": "Czech folklore",
+      "discoveredAt": 417
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Austrian folklore",
+      "iso": "CZ",
+      "label": "Austrian folklore",
+      "discoveredFrom": "Molybdomancy",
+      "discoveredAt": 417
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Finnish folklore",
+      "iso": "FI",
+      "label": "Finnish folklore",
+      "discoveredFrom": "Molybdomancy",
+      "discoveredAt": 417
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Slavic folklore",
+      "iso": "RU",
+      "label": "Slavic folklore",
+      "discoveredFrom": "Molybdomancy",
+      "discoveredAt": 417
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Agricultural goddesses",
+      "iso": "CZ",
+      "label": "Agricultural goddesses",
+      "discoveredFrom": "Morana (goddess)",
+      "discoveredAt": 417
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Death goddesses",
+      "iso": "CZ",
+      "label": "Death goddesses",
+      "discoveredFrom": "Morana (goddess)",
+      "discoveredAt": 417
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Magic goddesses",
+      "iso": "CZ",
+      "label": "Magic goddesses",
+      "discoveredFrom": "Morana (goddess)",
+      "discoveredAt": 417
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Polish folklore",
+      "iso": "PL",
+      "label": "Polish folklore",
+      "discoveredFrom": "Morana (goddess)",
+      "discoveredAt": 417
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Slavic goddesses",
+      "iso": "RU",
+      "label": "Slavic goddesses",
+      "discoveredFrom": "Morana (goddess)",
+      "discoveredAt": 417
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Superheroes",
+      "iso": "CZ",
+      "label": "Superheroes",
+      "discoveredFrom": "Pérák, the Spring Man of Prague",
+      "discoveredAt": 417
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Urban legends",
+      "iso": "CZ",
+      "label": "Urban legends",
+      "discoveredFrom": "Pérák, the Spring Man of Prague",
+      "discoveredAt": 417
+    },
+    {
+      "lang": "en",
+      "cat": "Category:German folklore",
+      "iso": "DE",
+      "label": "German folklore",
+      "discoveredFrom": "Saint Nicholas (European folklore)",
+      "discoveredAt": 417
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Hungarian folklore",
+      "iso": "CZ",
+      "label": "Hungarian folklore",
+      "discoveredFrom": "Saint Nicholas (European folklore)",
+      "discoveredAt": 417
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Albanian folklore",
+      "iso": "AL",
+      "label": "Albanian folklore",
+      "discoveredFrom": "Albanian paganism",
+      "discoveredAt": 417
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Albanian mythology",
+      "iso": "AL",
+      "label": "Albanian mythology",
+      "discoveredFrom": "Albanian paganism",
+      "discoveredAt": 417
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Albanian legends",
+      "iso": "AL",
+      "label": "Albanian legends",
+      "discoveredFrom": "Kângë Kreshnikësh",
+      "discoveredAt": 417
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Albanian legendary creatures",
+      "iso": "AL",
+      "label": "Albanian legendary creatures",
+      "discoveredFrom": "Bardha",
+      "discoveredAt": 417
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Earth spirits",
+      "iso": "AL",
+      "label": "Earth spirits",
+      "discoveredFrom": "Bardha",
+      "discoveredAt": 417
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Earth goddesses",
+      "iso": "AL",
+      "label": "Earth goddesses",
+      "discoveredFrom": "Dheu",
+      "discoveredAt": 417
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mother goddesses",
+      "iso": "AL",
+      "label": "Mother goddesses",
+      "discoveredFrom": "Dheu",
+      "discoveredAt": 417
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Light gods",
+      "iso": "AL",
+      "label": "Light gods",
+      "discoveredFrom": "Dielli (Albanian paganism)",
+      "discoveredAt": 417
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Solar gods",
+      "iso": "AL",
+      "label": "Solar gods",
+      "discoveredFrom": "Dielli (Albanian paganism)",
+      "discoveredAt": 417
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Death gods",
+      "iso": "AL",
+      "label": "Death gods",
+      "discoveredFrom": "Djall",
+      "discoveredAt": 417
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of Georgia (U.S. state)",
+      "iso": "US",
+      "label": "Folklore of Georgia (U.S. state)",
+      "discoveredFrom": "Altamaha-ha",
+      "discoveredAt": 417
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological aquatic creatures",
+      "iso": "US",
+      "label": "Mythological aquatic creatures",
+      "discoveredFrom": "Altamaha-ha",
+      "discoveredAt": 417
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of Colorado",
+      "iso": "US",
+      "label": "Folklore of Colorado",
+      "discoveredFrom": "Augerino",
+      "discoveredAt": 417
     }
   ],
-  "totalAdded": 983,
-  "runs": 417,
-  "lastRun": "2026-06-13T13:28:29.200Z",
-  "lastDiscoveredIndex": 6
+  "totalAdded": 998,
+  "runs": 418,
+  "lastRun": "2026-06-13T19:10:29.501Z",
+  "lastDiscoveredIndex": 9
 }
