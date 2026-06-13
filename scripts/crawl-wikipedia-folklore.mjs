@@ -494,25 +494,80 @@ function generateKoreanName(article) {
 const STATE_PATH = path.join(process.cwd(), 'scripts', 'crawl-state.json');
 
 function loadState() {
+  let state;
   try {
-    return JSON.parse(fs.readFileSync(STATE_PATH, 'utf8'));
+    state = JSON.parse(fs.readFileSync(STATE_PATH, 'utf8'));
   } catch {
-    return {
-      lastCategoryIndex: 0,
-      processedPageIds: [],
-      totalAdded: 0,
-      runs: 0,
-      lastRun: null,
-    };
+    state = {};
   }
+  // 누락 필드 기본값 주입 (마이그레이션)
+  return {
+    lastCategoryIndex: 0,
+    processedPageIds: [],
+    discoveredCategories: [],  // [{lang, cat, iso, label, discoveredFrom, discoveredAt}]
+    totalAdded: 0,
+    runs: 0,
+    lastRun: null,
+    ...state,
+  };
 }
 
 function saveState(state) {
-  // 처리된 페이지 ID는 최근 5000개만 유지 (무한 증가 방지)
-  if (state.processedPageIds.length > 5000) {
-    state.processedPageIds = state.processedPageIds.slice(-5000);
+  // 처리된 페이지 ID는 최근 8000개만 유지 (무한 증가 방지)
+  if (state.processedPageIds.length > 8000) {
+    state.processedPageIds = state.processedPageIds.slice(-8000);
+  }
+  // 발굴된 카테고리는 최근 3000개까지 유지 (이후 가장 오래된 것부터 폐기)
+  if (state.discoveredCategories.length > 3000) {
+    state.discoveredCategories = state.discoveredCategories.slice(-3000);
   }
   fs.writeFileSync(STATE_PATH, JSON.stringify(state, null, 2), 'utf8');
+}
+
+// ═══════════════════════════════════════════════════════════════
+//  자가 발굴: 기사가 속한 카테고리에서 새 시드 추출
+// ═══════════════════════════════════════════════════════════════
+const SEED_CATEGORY_KEYS = new Set(
+  CATEGORY_COUNTRY_MAP.map(c => `${c.lang}|${c.cat}`)
+);
+
+// 카테고리 제목이 설화/신화 관련인지 (휴리스틱)
+function isFolkloreRelatedCategory(catTitle) {
+  // 메타/위키 운영 카테고리 제외
+  if (/^(Category|분류):(Articles|Wikipedia|All|Pages|Stubs?|CS1|Use\s|Webarchive|Wikidata)/i.test(catTitle)) return false;
+  if (/disambiguation|stub|cleanup|redirect|template/i.test(catTitle)) return false;
+  if (/^(Category|분류):.+lists?$/i.test(catTitle)) return false;
+
+  // 설화 관련 키워드
+  return /folklore|mytholog|legendary|legend|creature|spirit|demon|deity|god(?:dess)?|mythical|cryptid|monster|shaman|supernatural|fairy|witch|vampire|ghost|undead|hero|yokai|yōkai|요괴|신화|전설|민담|괴물|정령|신앙|민속|설화/i.test(catTitle);
+}
+
+function discoverCategoriesFromArticle(article, sourceIso, state, knownKeys) {
+  if (!article?.categories) return 0;
+  const lang = article.lang || 'en';
+  let added = 0;
+
+  for (const catTitle of article.categories) {
+    if (!isFolkloreRelatedCategory(catTitle)) continue;
+    const key = `${lang}|${catTitle}`;
+    if (knownKeys.has(key)) continue;
+
+    // ISO 추정: 카테고리 제목에서 국가 키워드 매칭 → 실패 시 source 기사 ISO 상속
+    const guessed = guessCountryFromText(catTitle);
+    const iso = guessed || (sourceIso && sourceIso !== '_MULTI' ? sourceIso : '_MULTI');
+
+    state.discoveredCategories.push({
+      lang,
+      cat: catTitle,
+      iso,
+      label: catTitle.replace(/^(Category|분류):/, '').replace(/_/g, ' '),
+      discoveredFrom: article.title,
+      discoveredAt: state.runs,
+    });
+    knownKeys.add(key);
+    added++;
+  }
+  return added;
 }
 
 // ═══════════════════════════════════════════════════════════════
@@ -593,22 +648,45 @@ async function main() {
   const state = loadState();
   const beforeCount = data.reduce((s, c) => s + c.b.length, 0);
 
-  // ── 라운드 로빈: 2~3개 카테고리 선택 ──
-  const totalCats = CATEGORY_COUNTRY_MAP.length;
+  // ── 카테고리 풀: 시드 + 자가 발굴 카테고리 ──
+  const allCats = [...CATEGORY_COUNTRY_MAP, ...state.discoveredCategories];
+  const totalCats = allCats.length;
   const batchSize = 6;
-  const startIdx = state.lastCategoryIndex % totalCats;
-  const selectedCats = [];
-  for (let i = 0; i < batchSize; i++) {
-    selectedCats.push(CATEGORY_COUNTRY_MAP[(startIdx + i) % totalCats]);
-  }
-  state.lastCategoryIndex = (startIdx + batchSize) % totalCats;
 
-  console.log(`\n📂 이번 크롤 카테고리 (${startIdx}~):`);
-  selectedCats.forEach(c => console.log(`   - [${c.iso}] ${c.label} (${c.lang})`));
+  // 시드 / 발굴 카테고리 혼합 선택 (시드 3 + 발굴 3, 발굴 풀이 비었으면 시드만)
+  const seedSize = CATEGORY_COUNTRY_MAP.length;
+  const discoveredSize = state.discoveredCategories.length;
+  const seedSlots = discoveredSize > 0 ? 3 : 6;
+  const discoveredSlots = batchSize - seedSlots;
+
+  const seedStart = state.lastCategoryIndex % seedSize;
+  const discoveredStart = (state.lastDiscoveredIndex || 0) % Math.max(discoveredSize, 1);
+  const selectedCats = [];
+  for (let i = 0; i < seedSlots; i++) {
+    selectedCats.push(CATEGORY_COUNTRY_MAP[(seedStart + i) % seedSize]);
+  }
+  for (let i = 0; i < discoveredSlots && discoveredSize > 0; i++) {
+    selectedCats.push(state.discoveredCategories[(discoveredStart + i) % discoveredSize]);
+  }
+  state.lastCategoryIndex = (seedStart + seedSlots) % seedSize;
+  if (discoveredSize > 0) {
+    state.lastDiscoveredIndex = (discoveredStart + discoveredSlots) % discoveredSize;
+  }
+
+  console.log(`\n📂 이번 크롤 카테고리 (시드:${seedStart}, 발굴:${discoveredStart}, 발굴풀:${discoveredSize}):`);
+  selectedCats.forEach((c, i) => {
+    const tag = i < seedSlots ? '시드' : '발굴';
+    console.log(`   - [${tag}][${c.iso}] ${c.label} (${c.lang})`);
+  });
+
+  // ── 자가 발굴용: 알려진 카테고리 키 집합 ──
+  const knownCatKeys = new Set(SEED_CATEGORY_KEYS);
+  for (const c of state.discoveredCategories) knownCatKeys.add(`${c.lang}|${c.cat}`);
 
   // ── 각 카테고리에서 기사 수집 ──
   const MAX_NEW = 15;
   let added = 0;
+  let newCatsFound = 0;
   const processedIds = new Set(state.processedPageIds);
 
   for (const catDef of selectedCats) {
@@ -649,8 +727,12 @@ async function main() {
       processedIds.add(member.pageid);
       state.processedPageIds.push(member.pageid);
 
-      // 크리처 관련 기사인지 필터
+      // 자가 발굴: 이 기사가 속한 카테고리에서 새 시드 추출
       article.lang = catDef.lang;
+      const discovered = discoverCategoriesFromArticle(article, catDef.iso, state, knownCatKeys);
+      newCatsFound += discovered;
+
+      // 크리처 관련 기사인지 필터
       if (!isCreatureArticle(article)) {
         console.log(`   ⏭️ ${member.title} — 크리처 관련 아님`);
         continue;
@@ -740,9 +822,10 @@ async function main() {
   console.log('╠══════════════════════════════════════════════════╣');
   console.log(`║  이번 실행: +${added}개 크리처`);
   console.log(`║  총 크리처: ${beforeCount} → ${afterCount}개`);
+  console.log(`║  새 카테고리 발굴: +${newCatsFound}개 (누적 발굴: ${state.discoveredCategories.length}개)`);
   console.log(`║  API 호출: ${apiCallCount}/${MAX_API_CALLS}`);
   console.log(`║  누적 추가: ${state.totalAdded}개 (${state.runs}회 실행)`);
-  console.log(`║  다음 카테고리: ${CATEGORY_COUNTRY_MAP[state.lastCategoryIndex]?.label || '처음부터'}`);
+  console.log(`║  다음 시드: ${CATEGORY_COUNTRY_MAP[state.lastCategoryIndex]?.label || '처음부터'}`);
   console.log('╚══════════════════════════════════════════════════╝');
 
   // GitHub Actions에서 변경 여부 판단용 종료 코드
