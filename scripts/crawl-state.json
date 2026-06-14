@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 88,
+  "lastCategoryIndex": 91,
   "processedPageIds": [
     1481896,
     1347753,
@@ -1631,7 +1631,35 @@
     3854823,
     50065167,
     68531376,
-    95211
+    95211,
+    1253138,
+    42595734,
+    27292409,
+    2913328,
+    5318217,
+    450880,
+    46919041,
+    42274428,
+    2987732,
+    26569724,
+    95292,
+    5874586,
+    5873281,
+    65873234,
+    76030955,
+    75442750,
+    75896898,
+    76030957,
+    2020688,
+    24538680,
+    63999951,
+    381830,
+    1949269,
+    1338838,
+    92873,
+    25672656,
+    95761,
+    18566480
   ],
   "discoveredCategories": [
     {
@@ -2657,10 +2685,266 @@
       "label": "Australian Aboriginal mythology",
       "discoveredFrom": "Iʼwai",
       "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Inca mythology",
+      "iso": "PE",
+      "label": "Inca mythology",
+      "discoveredFrom": "Religion in the Inca Empire",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Peruvian folklore",
+      "iso": "PE",
+      "label": "Peruvian folklore",
+      "discoveredFrom": "Amaru (mythology)",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Quechua legendary creatures",
+      "iso": "PE",
+      "label": "Quechua legendary creatures",
+      "discoveredFrom": "Amaru (mythology)",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:South American legendary creatures",
+      "iso": "US",
+      "label": "South American legendary creatures",
+      "discoveredFrom": "Amaru (mythology)",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Aztec mythology and religion",
+      "iso": "MX",
+      "label": "Aztec mythology and religion",
+      "discoveredFrom": "Human sacrifice in pre-Columbian cultures",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mesoamerican mythology and religion",
+      "iso": "US",
+      "label": "Mesoamerican mythology and religion",
+      "discoveredFrom": "Human sacrifice in pre-Columbian cultures",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Pre-Columbian mythology and religion",
+      "iso": "PE",
+      "label": "Pre-Columbian mythology and religion",
+      "discoveredFrom": "Inca mythology",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Heroes in mythology and legend",
+      "iso": "WS",
+      "label": "Heroes in mythology and legend",
+      "discoveredFrom": "Māui",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Polynesian gods",
+      "iso": "NZ",
+      "label": "Polynesian gods",
+      "discoveredFrom": "Māui",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Trickster gods",
+      "iso": "WS",
+      "label": "Trickster gods",
+      "discoveredFrom": "Māui",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Hawaiian people",
+      "iso": "WS",
+      "label": "Legendary Hawaiian people",
+      "discoveredFrom": "Māui (Hawaiian mythology)",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Māori people",
+      "iso": "WS",
+      "label": "Legendary Māori people",
+      "discoveredFrom": "Māui (Māori mythology)",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:New Zealand legends",
+      "iso": "NZ",
+      "label": "New Zealand legends",
+      "discoveredFrom": "Māui (Māori mythology)",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fictional demigods",
+      "iso": "WS",
+      "label": "Fictional demigods",
+      "discoveredFrom": "Maui (Moana)",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fictional monster hunters",
+      "iso": "WS",
+      "label": "Fictional monster hunters",
+      "discoveredFrom": "Maui (Moana)",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Children's books based on myths and legends",
+      "iso": "WS",
+      "label": "Children's books based on myths and legends",
+      "discoveredFrom": "How Māui Found His Father and the Magic Jawbone",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Māori mythology",
+      "iso": "WS",
+      "label": "Māori mythology",
+      "discoveredFrom": "How Māui Slowed the Sun",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Arabian gods",
+      "iso": "SA",
+      "label": "Arabian gods",
+      "discoveredFrom": "'Amm",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Lunar gods",
+      "iso": "WS",
+      "label": "Lunar gods",
+      "discoveredFrom": "'Amm",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Guanche gods",
+      "iso": "WS",
+      "label": "Guanche gods",
+      "discoveredFrom": "Achamán",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Names of God",
+      "iso": "WS",
+      "label": "Names of God",
+      "discoveredFrom": "Achamán",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Iroquois mythology",
+      "iso": "US",
+      "label": "Iroquois mythology",
+      "discoveredFrom": "Adekagagwaa",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:African gods",
+      "iso": "WS",
+      "label": "African gods",
+      "discoveredFrom": "Adroa",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Lugbara mythology",
+      "iso": "WS",
+      "label": "Lugbara mythology",
+      "discoveredFrom": "Adroa",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Greek gods",
+      "iso": "GR",
+      "label": "Greek gods",
+      "discoveredFrom": "Aether (mythology)",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Personifications in Greek mythology",
+      "iso": "GR",
+      "label": "Personifications in Greek mythology",
+      "discoveredFrom": "Aether (mythology)",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Earth gods",
+      "iso": "WS",
+      "label": "Earth gods",
+      "discoveredFrom": "Alignak",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Inuit gods",
+      "iso": "WS",
+      "label": "Inuit gods",
+      "discoveredFrom": "Alignak",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sea and river gods",
+      "iso": "WS",
+      "label": "Sea and river gods",
+      "discoveredFrom": "Alignak",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Igbo gods",
+      "iso": "WS",
+      "label": "Igbo gods",
+      "discoveredFrom": "Amadioha",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:War gods",
+      "iso": "WS",
+      "label": "War gods",
+      "discoveredFrom": "Amadioha",
+      "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mangaia mythology",
+      "iso": "WS",
+      "label": "Mangaia mythology",
+      "discoveredFrom": "Amai-te-rangi",
+      "discoveredAt": 419
     }
   ],
-  "totalAdded": 1013,
-  "runs": 419,
-  "lastRun": "2026-06-14T02:46:46.552Z",
-  "lastDiscoveredIndex": 12
+  "totalAdded": 1027,
+  "runs": 420,
+  "lastRun": "2026-06-14T09:20:09.824Z",
+  "lastDiscoveredIndex": 15
 }
