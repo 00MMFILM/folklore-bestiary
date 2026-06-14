@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 85,
+  "lastCategoryIndex": 88,
   "processedPageIds": [
     1481896,
     1347753,
@@ -1608,7 +1608,30 @@
     26641764,
     72750596,
     5210801,
-    55344979
+    55344979,
+    89159,
+    89028,
+    89515,
+    38599451,
+    8934704,
+    1606162,
+    14385720,
+    79628756,
+    6582952,
+    6720319,
+    31966969,
+    6583842,
+    236876,
+    1168366,
+    7364694,
+    60381048,
+    71742118,
+    20928681,
+    90281,
+    3854823,
+    50065167,
+    68531376,
+    95211
   ],
   "discoveredCategories": [
     {
@@ -2306,10 +2329,338 @@
       "label": "Folklore of Colorado",
       "discoveredFrom": "Augerino",
       "discoveredAt": 417
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Latvian mythology",
+      "iso": "LV",
+      "label": "Latvian mythology",
+      "discoveredFrom": "Latvian mythology",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Baltic legendary creatures",
+      "iso": "LV",
+      "label": "Baltic legendary creatures",
+      "discoveredFrom": "Lietuvēns",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sleep in mythology and folklore",
+      "iso": "LV",
+      "label": "Sleep in mythology and folklore",
+      "discoveredFrom": "Lietuvēns",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Undead",
+      "iso": "LV",
+      "label": "Undead",
+      "discoveredFrom": "Lietuvēns",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Latvian legends",
+      "iso": "LV",
+      "label": "Latvian legends",
+      "discoveredFrom": "Legend of Turaida Rose",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Baltic gods",
+      "iso": "EE",
+      "label": "Baltic gods",
+      "discoveredFrom": "Estonian mythology",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Estonian mythology",
+      "iso": "EE",
+      "label": "Estonian mythology",
+      "discoveredFrom": "Estonian mythology",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Uralic mythology",
+      "iso": "EE",
+      "label": "Uralic mythology",
+      "discoveredFrom": "Estonian mythology",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Finnish mythology",
+      "iso": "FI",
+      "label": "Finnish mythology",
+      "discoveredFrom": "Finnic mythologies",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sámi mythology",
+      "iso": "EE",
+      "label": "Sámi mythology",
+      "discoveredFrom": "Finnic mythologies",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Estonian fairy tales",
+      "iso": "EE",
+      "label": "Estonian fairy tales",
+      "discoveredFrom": "The Child who came from an Egg",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about brothers",
+      "iso": "EE",
+      "label": "Fairy tales about brothers",
+      "discoveredFrom": "The Child who came from an Egg",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about magic",
+      "iso": "EE",
+      "label": "Fairy tales about magic",
+      "discoveredFrom": "The Child who came from an Egg",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about princesses",
+      "iso": "EE",
+      "label": "Fairy tales about princesses",
+      "discoveredFrom": "The Child who came from an Egg",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about stepmothers",
+      "iso": "EE",
+      "label": "Fairy tales about stepmothers",
+      "discoveredFrom": "The Child who came from an Egg",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about wizards",
+      "iso": "EE",
+      "label": "Fairy tales about wizards",
+      "discoveredFrom": "The Child who came from an Egg",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Dragons in fairy tales",
+      "iso": "EE",
+      "label": "Dragons in fairy tales",
+      "discoveredFrom": "The Dragon of the North",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about language",
+      "iso": "EE",
+      "label": "Fairy tales about language",
+      "discoveredFrom": "The Dragon of the North",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about shapeshifting",
+      "iso": "EE",
+      "label": "Fairy tales about shapeshifting",
+      "discoveredFrom": "The Dragon of the North",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about talking animals",
+      "iso": "EE",
+      "label": "Fairy tales about talking animals",
+      "discoveredFrom": "The Dragon of the North",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about goblins",
+      "iso": "EE",
+      "label": "Fairy tales about goblins",
+      "discoveredFrom": "The Grateful Prince",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about princes",
+      "iso": "EE",
+      "label": "Fairy tales about princes",
+      "discoveredFrom": "The Grateful Prince",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore featuring impossible tasks",
+      "iso": "EE",
+      "label": "Folklore featuring impossible tasks",
+      "discoveredFrom": "The Grateful Prince",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:African mythology",
+      "iso": "NZ",
+      "label": "African mythology",
+      "discoveredFrom": "Agadzagadza",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological tricksters",
+      "iso": "NZ",
+      "label": "Mythological tricksters",
+      "discoveredFrom": "Agadzagadza",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Messenger gods",
+      "iso": "NZ",
+      "label": "Messenger gods",
+      "discoveredFrom": "Agẹmọ",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Yoruba gods",
+      "iso": "NZ",
+      "label": "Yoruba gods",
+      "discoveredFrom": "Agẹmọ",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sea monsters",
+      "iso": "NZ",
+      "label": "Sea monsters",
+      "discoveredFrom": "Apotamkin",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Chaos gods",
+      "iso": "NZ",
+      "label": "Chaos gods",
+      "discoveredFrom": "Cipactli",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary creatures in Aztec mythology",
+      "iso": "MX",
+      "label": "Legendary creatures in Aztec mythology",
+      "discoveredFrom": "Cipactli",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary fish",
+      "iso": "NZ",
+      "label": "Legendary fish",
+      "discoveredFrom": "Cipactli",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological hybrids",
+      "iso": "NZ",
+      "label": "Mythological hybrids",
+      "discoveredFrom": "Cipactli",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Australian Aboriginal legendary creatures",
+      "iso": "AU",
+      "label": "Australian Aboriginal legendary creatures",
+      "discoveredFrom": "Dirawong",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Colombian folklore",
+      "iso": "NZ",
+      "label": "Colombian folklore",
+      "discoveredFrom": "El Hombre Caimán",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological human–animal hybrids",
+      "iso": "NZ",
+      "label": "Mythological human–animal hybrids",
+      "discoveredFrom": "El Hombre Caimán",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Myths and legends of Colombia",
+      "iso": "NZ",
+      "label": "Myths and legends of Colombia",
+      "discoveredFrom": "El Hombre Caimán",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:South American mythology",
+      "iso": "US",
+      "label": "South American mythology",
+      "discoveredFrom": "El Hombre Caimán",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Spanish-language South American legendary creatures",
+      "iso": "ES",
+      "label": "Spanish-language South American legendary creatures",
+      "discoveredFrom": "El Hombre Caimán",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Australian Aboriginal gods",
+      "iso": "AU",
+      "label": "Australian Aboriginal gods",
+      "discoveredFrom": "Ipilja-ipilja",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Thunder gods",
+      "iso": "NZ",
+      "label": "Thunder gods",
+      "discoveredFrom": "Ipilja-ipilja",
+      "discoveredAt": 418
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Australian Aboriginal mythology",
+      "iso": "AU",
+      "label": "Australian Aboriginal mythology",
+      "discoveredFrom": "Iʼwai",
+      "discoveredAt": 418
     }
   ],
-  "totalAdded": 998,
-  "runs": 418,
-  "lastRun": "2026-06-13T19:10:29.501Z",
-  "lastDiscoveredIndex": 9
+  "totalAdded": 1013,
+  "runs": 419,
+  "lastRun": "2026-06-14T02:46:46.552Z",
+  "lastDiscoveredIndex": 12
 }
