@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 94,
+  "lastCategoryIndex": 97,
   "processedPageIds": [
     1481896,
     1347753,
@@ -1681,7 +1681,22 @@
     17784075,
     61041867,
     95777,
-    95780
+    95780,
+    2907875,
+    480118,
+    87268,
+    4545371,
+    765765,
+    86003,
+    70511058,
+    68259815,
+    676228,
+    20909548,
+    85682,
+    45703877,
+    26122127,
+    71527494,
+    98185
   ],
   "discoveredCategories": [
     {
@@ -3187,10 +3202,210 @@
       "label": "Solar goddesses",
       "discoveredFrom": "Atanua",
       "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mesopotamian goddesses",
+      "iso": "WS",
+      "label": "Mesopotamian goddesses",
+      "discoveredFrom": "Agasaya",
+      "discoveredAt": 421
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Arabian goddesses",
+      "iso": "SA",
+      "label": "Arabian goddesses",
+      "discoveredFrom": "Al-Uzza",
+      "discoveredAt": 421
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Oracular goddesses",
+      "iso": "WS",
+      "label": "Oracular goddesses",
+      "discoveredFrom": "Al-Uzza",
+      "discoveredAt": 421
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Celtic goddesses",
+      "iso": "IE",
+      "label": "Celtic goddesses",
+      "discoveredFrom": "Alaisiagae",
+      "discoveredAt": 421
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Germanic goddesses",
+      "iso": "DE",
+      "label": "Germanic goddesses",
+      "discoveredFrom": "Alaisiagae",
+      "discoveredAt": 421
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Goddesses of the ancient Britons",
+      "iso": "WS",
+      "label": "Goddesses of the ancient Britons",
+      "discoveredFrom": "Alaisiagae",
+      "discoveredAt": 421
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Armenian goddesses",
+      "iso": "WS",
+      "label": "Armenian goddesses",
+      "discoveredFrom": "Anahit",
+      "discoveredAt": 421
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Childhood goddesses",
+      "iso": "WS",
+      "label": "Childhood goddesses",
+      "discoveredFrom": "Anahit",
+      "discoveredAt": 421
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fertility goddesses",
+      "iso": "WS",
+      "label": "Fertility goddesses",
+      "discoveredFrom": "Anahit",
+      "discoveredAt": 421
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Health goddesses",
+      "iso": "WS",
+      "label": "Health goddesses",
+      "discoveredFrom": "Anahit",
+      "discoveredAt": 421
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Water goddesses",
+      "iso": "WS",
+      "label": "Water goddesses",
+      "discoveredFrom": "Anahit",
+      "discoveredAt": 421
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Children of El (deity)",
+      "iso": "WS",
+      "label": "Children of El (deity)",
+      "discoveredFrom": "Anat",
+      "discoveredAt": 421
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Egyptian goddesses",
+      "iso": "EG",
+      "label": "Egyptian goddesses",
+      "discoveredFrom": "Anat",
+      "discoveredAt": 421
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Egyptian war goddesses",
+      "iso": "EG",
+      "label": "Egyptian war goddesses",
+      "discoveredFrom": "Anat",
+      "discoveredAt": 421
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Hunting goddesses",
+      "iso": "WS",
+      "label": "Hunting goddesses",
+      "discoveredFrom": "Anat",
+      "discoveredAt": 421
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological archers",
+      "iso": "WS",
+      "label": "Mythological archers",
+      "discoveredFrom": "Anat",
+      "discoveredAt": 421
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Abundance goddesses",
+      "iso": "WS",
+      "label": "Abundance goddesses",
+      "discoveredFrom": "Artimpasa",
+      "discoveredAt": 421
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Animal goddesses",
+      "iso": "WS",
+      "label": "Animal goddesses",
+      "discoveredFrom": "Artimpasa",
+      "discoveredAt": 421
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Love and lust goddesses",
+      "iso": "WS",
+      "label": "Love and lust goddesses",
+      "discoveredFrom": "Artimpasa",
+      "discoveredAt": 421
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Pastoral goddesses",
+      "iso": "WS",
+      "label": "Pastoral goddesses",
+      "discoveredFrom": "Artimpasa",
+      "discoveredAt": 421
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Scythian mythology",
+      "iso": "WS",
+      "label": "Scythian mythology",
+      "discoveredFrom": "Artimpasa",
+      "discoveredAt": 421
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Etruscan gods",
+      "iso": "WS",
+      "label": "Etruscan gods",
+      "discoveredFrom": "Aita",
+      "discoveredAt": 421
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Etruscan mythology",
+      "iso": "WS",
+      "label": "Etruscan mythology",
+      "discoveredFrom": "Aita",
+      "discoveredAt": 421
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Egyptian death gods",
+      "iso": "EG",
+      "label": "Egyptian death gods",
+      "discoveredFrom": "Aker (deity)",
+      "discoveredAt": 421
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Dog gods",
+      "iso": "WS",
+      "label": "Dog gods",
+      "discoveredFrom": "Am-heh",
+      "discoveredAt": 421
     }
   ],
-  "totalAdded": 1042,
-  "runs": 421,
-  "lastRun": "2026-06-14T13:41:40.487Z",
-  "lastDiscoveredIndex": 18
+  "totalAdded": 1057,
+  "runs": 422,
+  "lastRun": "2026-06-14T19:11:11.291Z",
+  "lastDiscoveredIndex": 21
 }
