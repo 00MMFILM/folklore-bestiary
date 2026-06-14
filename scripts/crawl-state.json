@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 91,
+  "lastCategoryIndex": 94,
   "processedPageIds": [
     1481896,
     1347753,
@@ -1659,7 +1659,29 @@
     92873,
     25672656,
     95761,
-    18566480
+    18566480,
+    9570543,
+    77280,
+    198815,
+    313449,
+    95798,
+    70805750,
+    559041,
+    7811,
+    86245,
+    921437,
+    95755,
+    95754,
+    4741925,
+    60665737,
+    3151959,
+    4741888,
+    69087539,
+    7226514,
+    17784075,
+    61041867,
+    95777,
+    95780
   ],
   "discoveredCategories": [
     {
@@ -2941,10 +2963,234 @@
       "label": "Mangaia mythology",
       "discoveredFrom": "Amai-te-rangi",
       "discoveredAt": 419
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mesopotamian gods",
+      "iso": "WS",
+      "label": "Mesopotamian gods",
+      "discoveredFrom": "Abu (god)",
+      "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Snake gods",
+      "iso": "WS",
+      "label": "Snake gods",
+      "discoveredFrom": "Abu (god)",
+      "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Beauty gods",
+      "iso": "WS",
+      "label": "Beauty gods",
+      "discoveredFrom": "Adonis",
+      "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Cypriot mythology",
+      "iso": "WS",
+      "label": "Cypriot mythology",
+      "discoveredFrom": "Adonis",
+      "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Berber mythology",
+      "iso": "WS",
+      "label": "Berber mythology",
+      "discoveredFrom": "Ash (deity)",
+      "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Egyptian gods",
+      "iso": "EG",
+      "label": "Egyptian gods",
+      "discoveredFrom": "Ash (deity)",
+      "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Lion gods",
+      "iso": "WS",
+      "label": "Lion gods",
+      "discoveredFrom": "Ash (deity)",
+      "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Set (deity)",
+      "iso": "WS",
+      "label": "Set (deity)",
+      "discoveredFrom": "Ash (deity)",
+      "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Agricultural gods",
+      "iso": "WS",
+      "label": "Agricultural gods",
+      "discoveredFrom": "Attis",
+      "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:LGBTQ themes in mythology",
+      "iso": "WS",
+      "label": "LGBTQ themes in mythology",
+      "discoveredFrom": "Attis",
+      "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Life-death-rebirth gods",
+      "iso": "WS",
+      "label": "Life-death-rebirth gods",
+      "discoveredFrom": "Attis",
+      "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Metamorphoses into trees in Greek mythology",
+      "iso": "GR",
+      "label": "Metamorphoses into trees in Greek mythology",
+      "discoveredFrom": "Attis",
+      "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Phrygian gods",
+      "iso": "WS",
+      "label": "Phrygian gods",
+      "discoveredFrom": "Attis",
+      "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Transgender topics and mythology",
+      "iso": "WS",
+      "label": "Transgender topics and mythology",
+      "discoveredFrom": "Attis",
+      "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Knowledge gods",
+      "iso": "WS",
+      "label": "Knowledge gods",
+      "discoveredFrom": "Atua I Raropuka",
+      "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Gaulish gods",
+      "iso": "FR",
+      "label": "Gaulish gods",
+      "discoveredFrom": "Buxenus",
+      "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mars (mythology)",
+      "iso": "WS",
+      "label": "Mars (mythology)",
+      "discoveredFrom": "Buxenus",
+      "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Animal gods",
+      "iso": "WS",
+      "label": "Animal gods",
+      "discoveredFrom": "Cernunnos",
+      "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fertility gods",
+      "iso": "WS",
+      "label": "Fertility gods",
+      "discoveredFrom": "Cernunnos",
+      "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Horned gods",
+      "iso": "WS",
+      "label": "Horned gods",
+      "discoveredFrom": "Cernunnos",
+      "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Gods of the ancient Britons",
+      "iso": "WS",
+      "label": "Gods of the ancient Britons",
+      "discoveredFrom": "Cocidius",
+      "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Hunting gods",
+      "iso": "WS",
+      "label": "Hunting gods",
+      "discoveredFrom": "Cocidius",
+      "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Women in mythology",
+      "iso": "NZ",
+      "label": "Women in mythology",
+      "discoveredFrom": "'Ilaheva",
+      "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary progenitors",
+      "iso": "NZ",
+      "label": "Legendary progenitors",
+      "discoveredFrom": "Hoturoa",
+      "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological kings",
+      "iso": "NZ",
+      "label": "Mythological kings",
+      "discoveredFrom": "Hotu Matuꞌa",
+      "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Rapa Nui mythology",
+      "iso": "NZ",
+      "label": "Rapa Nui mythology",
+      "discoveredFrom": "Hotu Matuꞌa",
+      "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Marquesan mythology",
+      "iso": "NZ",
+      "label": "Marquesan mythology",
+      "discoveredFrom": "Atanua",
+      "discoveredAt": 420
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Solar goddesses",
+      "iso": "NZ",
+      "label": "Solar goddesses",
+      "discoveredFrom": "Atanua",
+      "discoveredAt": 420
     }
   ],
-  "totalAdded": 1027,
-  "runs": 420,
-  "lastRun": "2026-06-14T09:20:09.824Z",
-  "lastDiscoveredIndex": 15
+  "totalAdded": 1042,
+  "runs": 421,
+  "lastRun": "2026-06-14T13:41:40.487Z",
+  "lastDiscoveredIndex": 18
 }
