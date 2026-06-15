@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 103,
+  "lastCategoryIndex": 106,
   "processedPageIds": [
     1481896,
     1347753,
@@ -1743,7 +1743,24 @@
     67245314,
     16993240,
     36612104,
-    5977485
+    5977485,
+    6824693,
+    47274448,
+    51343553,
+    78745,
+    82466991,
+    836841,
+    82525073,
+    82509098,
+    66284163,
+    56659074,
+    87508,
+    1521663,
+    92870,
+    92776,
+    19924423,
+    93541,
+    15969629
   ],
   "discoveredCategories": [
     {
@@ -3761,10 +3778,138 @@
       "label": "Ojibwe legendary creatures",
       "discoveredFrom": "Underwater panther",
       "discoveredAt": 423
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Africa in Roman mythology",
+      "iso": "IT",
+      "label": "Africa in Roman mythology",
+      "discoveredFrom": "Africa (goddess)",
+      "discoveredAt": 424
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Lion goddesses",
+      "iso": "MA",
+      "label": "Lion goddesses",
+      "discoveredFrom": "Africa (goddess)",
+      "discoveredAt": 424
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Personifications in Roman mythology",
+      "iso": "IT",
+      "label": "Personifications in Roman mythology",
+      "discoveredFrom": "Africa (goddess)",
+      "discoveredAt": 424
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Roman goddesses",
+      "iso": "IT",
+      "label": "Roman goddesses",
+      "discoveredFrom": "Africa (goddess)",
+      "discoveredAt": 424
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Kings in Berber mythology",
+      "iso": "MA",
+      "label": "Kings in Berber mythology",
+      "discoveredFrom": "Antaeus",
+      "discoveredAt": 424
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Libyan characters in Greek mythology",
+      "iso": "GR",
+      "label": "Libyan characters in Greek mythology",
+      "discoveredFrom": "Antaeus",
+      "discoveredAt": 424
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythology of Heracles",
+      "iso": "MA",
+      "label": "Mythology of Heracles",
+      "discoveredFrom": "Antaeus",
+      "discoveredAt": 424
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Carthaginian mythology",
+      "iso": "MA",
+      "label": "Carthaginian mythology",
+      "discoveredFrom": "Baal Hammon",
+      "discoveredAt": 424
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Saturn (mythology)",
+      "iso": "MA",
+      "label": "Saturn (mythology)",
+      "discoveredFrom": "Baal Hammon",
+      "discoveredAt": 424
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological first humans",
+      "iso": "MA",
+      "label": "Mythological first humans",
+      "discoveredFrom": "Garamas",
+      "discoveredAt": 424
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Canadian mythology",
+      "iso": "CA",
+      "label": "Canadian mythology",
+      "discoveredFrom": "Inuit religion",
+      "discoveredAt": 424
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Inuit mythology",
+      "iso": "CA",
+      "label": "Inuit mythology",
+      "discoveredFrom": "Inuit religion",
+      "discoveredAt": 424
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Creator goddesses",
+      "iso": "CA",
+      "label": "Creator goddesses",
+      "discoveredFrom": "A'akuluujjusi",
+      "discoveredAt": 424
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Inuit goddesses",
+      "iso": "CA",
+      "label": "Inuit goddesses",
+      "discoveredFrom": "A'akuluujjusi",
+      "discoveredAt": 424
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Inuit legendary creatures",
+      "iso": "CA",
+      "label": "Inuit legendary creatures",
+      "discoveredFrom": "Adlet",
+      "discoveredAt": 424
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of Alaska",
+      "iso": "CA",
+      "label": "Folklore of Alaska",
+      "discoveredFrom": "Ahkiyyini",
+      "discoveredAt": 424
     }
   ],
-  "totalAdded": 1087,
-  "runs": 424,
-  "lastRun": "2026-06-15T11:47:56.809Z",
-  "lastDiscoveredIndex": 27
+  "totalAdded": 1102,
+  "runs": 425,
+  "lastRun": "2026-06-15T17:01:42.563Z",
+  "lastDiscoveredIndex": 30
 }
