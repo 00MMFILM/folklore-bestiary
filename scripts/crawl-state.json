@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 100,
+  "lastCategoryIndex": 103,
   "processedPageIds": [
     1481896,
     1347753,
@@ -1721,7 +1721,29 @@
     316972,
     8892424,
     1701111,
-    142388
+    142388,
+    99585,
+    2283861,
+    20025927,
+    22094702,
+    1424697,
+    100511,
+    4453740,
+    80726179,
+    1240857,
+    5108286,
+    26848063,
+    1609373,
+    78436648,
+    60091454,
+    5858830,
+    76410182,
+    25632245,
+    67483506,
+    67245314,
+    16993240,
+    36612104,
+    5977485
   ],
   "discoveredCategories": [
     {
@@ -3659,10 +3681,90 @@
       "label": "Iranian gods",
       "discoveredFrom": "Ahriman",
       "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Places in Buddhist mythology",
+      "iso": "IN",
+      "label": "Places in Buddhist mythology",
+      "discoveredFrom": "Abhasvaras",
+      "discoveredAt": 423
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Intersex topics in religion and mythology",
+      "iso": "IN",
+      "label": "Intersex topics in religion and mythology",
+      "discoveredFrom": "Ardhanarishvara",
+      "discoveredAt": 423
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Weapons in Hindu mythology",
+      "iso": "IN",
+      "label": "Weapons in Hindu mythology",
+      "discoveredFrom": "Ayudhapurusha",
+      "discoveredAt": 423
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Names of God in African traditional religions",
+      "iso": "GH",
+      "label": "Names of God in African traditional religions",
+      "discoveredFrom": "Nyambe",
+      "discoveredAt": 423
+    },
+    {
+      "lang": "en",
+      "cat": "Category:African goddesses",
+      "iso": "GH",
+      "label": "African goddesses",
+      "discoveredFrom": "Asase Ya/Afua",
+      "discoveredAt": 423
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Peace goddesses",
+      "iso": "GH",
+      "label": "Peace goddesses",
+      "discoveredFrom": "Asase Ya/Afua",
+      "discoveredAt": 423
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sky and weather goddesses",
+      "iso": "GH",
+      "label": "Sky and weather goddesses",
+      "discoveredFrom": "Asase Ya/Afua",
+      "discoveredAt": 423
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Anishinaabe mythology",
+      "iso": "US",
+      "label": "Anishinaabe mythology",
+      "discoveredFrom": "Underwater panther",
+      "discoveredAt": 423
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological felines",
+      "iso": "US",
+      "label": "Mythological felines",
+      "discoveredFrom": "Underwater panther",
+      "discoveredAt": 423
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ojibwe legendary creatures",
+      "iso": "US",
+      "label": "Ojibwe legendary creatures",
+      "discoveredFrom": "Underwater panther",
+      "discoveredAt": 423
     }
   ],
-  "totalAdded": 1072,
-  "runs": 423,
-  "lastRun": "2026-06-15T02:51:30.006Z",
-  "lastDiscoveredIndex": 24
+  "totalAdded": 1087,
+  "runs": 424,
+  "lastRun": "2026-06-15T11:47:56.809Z",
+  "lastDiscoveredIndex": 27
 }
