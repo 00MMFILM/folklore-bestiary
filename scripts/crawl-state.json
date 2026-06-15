@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 97,
+  "lastCategoryIndex": 100,
   "processedPageIds": [
     1481896,
     1347753,
@@ -1696,7 +1696,32 @@
     45703877,
     26122127,
     71527494,
-    98185
+    98185,
+    970992,
+    1875087,
+    60305199,
+    62497238,
+    61298618,
+    55216532,
+    3730343,
+    61311225,
+    180896,
+    113028,
+    100375,
+    44838622,
+    386868,
+    640832,
+    5297203,
+    57457289,
+    99570,
+    3530785,
+    50998676,
+    5294870,
+    51411824,
+    316972,
+    8892424,
+    1701111,
+    142388
   ],
   "discoveredCategories": [
     {
@@ -3402,10 +3427,242 @@
       "label": "Dog gods",
       "discoveredFrom": "Am-heh",
       "discoveredAt": 421
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Buddhist legendary creatures",
+      "iso": "IN",
+      "label": "Buddhist legendary creatures",
+      "discoveredFrom": "Yakshini",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Female buddhas and supernatural beings",
+      "iso": "IN",
+      "label": "Female buddhas and supernatural beings",
+      "discoveredFrom": "Yakshini",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Indian folklore",
+      "iso": "IN",
+      "label": "Indian folklore",
+      "discoveredFrom": "Yakshini",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary creatures in Hindu mythology",
+      "iso": "IN",
+      "label": "Legendary creatures in Hindu mythology",
+      "discoveredFrom": "Yakshini",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological blood-drinkers",
+      "iso": "IN",
+      "label": "Mythological blood-drinkers",
+      "discoveredFrom": "Yakshini",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sculptures of mythology",
+      "iso": "IN",
+      "label": "Sculptures of mythology",
+      "discoveredFrom": "Bhutesvara Yakshis",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Buddhist gods",
+      "iso": "IN",
+      "label": "Buddhist gods",
+      "discoveredFrom": "Eight Great Yakṣa Generals",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Buddhist goddesses",
+      "iso": "IN",
+      "label": "Buddhist goddesses",
+      "discoveredFrom": "Hariti",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Chinese goddesses",
+      "iso": "CN",
+      "label": "Chinese goddesses",
+      "discoveredFrom": "Hariti",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Japanese goddesses",
+      "iso": "JP",
+      "label": "Japanese goddesses",
+      "discoveredFrom": "Hariti",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Tutelary goddesses",
+      "iso": "IN",
+      "label": "Tutelary goddesses",
+      "discoveredFrom": "Hariti",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Demons in anime and manga",
+      "iso": "IN",
+      "label": "Demons in anime and manga",
+      "discoveredFrom": "Inuyasha",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological elephants",
+      "iso": "_MULTI",
+      "label": "Mythological elephants",
+      "discoveredFrom": "Girimekhala",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Asian ghosts",
+      "iso": "_MULTI",
+      "label": "Asian ghosts",
+      "discoveredFrom": "Hungry ghost",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Chinese ghosts",
+      "iso": "CN",
+      "label": "Chinese ghosts",
+      "discoveredFrom": "Hungry ghost",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Japanese ghosts",
+      "iso": "JP",
+      "label": "Japanese ghosts",
+      "discoveredFrom": "Jikininki",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological cannibals",
+      "iso": "_MULTI",
+      "label": "Mythological cannibals",
+      "discoveredFrom": "Jikininki",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Vampires",
+      "iso": "_MULTI",
+      "label": "Vampires",
+      "discoveredFrom": "Jikininki",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary serpents",
+      "iso": "_MULTI",
+      "label": "Legendary serpents",
+      "discoveredFrom": "Mahoraga",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Indian legendary creatures",
+      "iso": "IN",
+      "label": "Indian legendary creatures",
+      "discoveredFrom": "Mucilinda",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Demons in Buddhism",
+      "iso": "_MULTI",
+      "label": "Demons in Buddhism",
+      "discoveredFrom": "Pishacha",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Demons in Hinduism",
+      "iso": "IN",
+      "label": "Demons in Hinduism",
+      "discoveredFrom": "Pishacha",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Japanese demons",
+      "iso": "JP",
+      "label": "Japanese demons",
+      "discoveredFrom": "Akuma (folklore)",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological dogs",
+      "iso": "US",
+      "label": "Mythological dogs",
+      "discoveredFrom": "Azeban",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mountain gods",
+      "iso": "US",
+      "label": "Mountain gods",
+      "discoveredFrom": "Pamola",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ancient Iranian gods",
+      "iso": "IR",
+      "label": "Ancient Iranian gods",
+      "discoveredFrom": "Ahriman",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Demons in the ancient Near East",
+      "iso": "US",
+      "label": "Demons in the ancient Near East",
+      "discoveredFrom": "Ahriman",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Evil gods",
+      "iso": "US",
+      "label": "Evil gods",
+      "discoveredFrom": "Ahriman",
+      "discoveredAt": 422
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Iranian gods",
+      "iso": "IR",
+      "label": "Iranian gods",
+      "discoveredFrom": "Ahriman",
+      "discoveredAt": 422
     }
   ],
-  "totalAdded": 1057,
-  "runs": 422,
-  "lastRun": "2026-06-14T19:11:11.291Z",
-  "lastDiscoveredIndex": 21
+  "totalAdded": 1072,
+  "runs": 423,
+  "lastRun": "2026-06-15T02:51:30.006Z",
+  "lastDiscoveredIndex": 24
 }
