@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 106,
+  "lastCategoryIndex": 109,
   "processedPageIds": [
     1481896,
     1347753,
@@ -1760,7 +1760,30 @@
     92776,
     19924423,
     93541,
-    15969629
+    15969629,
+    95787,
+    96178,
+    60465929,
+    67815706,
+    95313,
+    96396,
+    95830,
+    488613,
+    96412,
+    95315,
+    65862041,
+    13286020,
+    37018125,
+    8483179,
+    37020322,
+    93127,
+    2823549,
+    17508739,
+    65861040,
+    7531819,
+    92858,
+    12585402,
+    12585087
   ],
   "discoveredCategories": [
     {
@@ -3906,10 +3929,178 @@
       "label": "Folklore of Alaska",
       "discoveredFrom": "Ahkiyyini",
       "discoveredAt": 424
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Hawaiian mythology",
+      "iso": "US",
+      "label": "Hawaiian mythology",
+      "discoveredFrom": "List of figures in the Hawaiian religion",
+      "discoveredAt": 425
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Dance goddesses",
+      "iso": "US",
+      "label": "Dance goddesses",
+      "discoveredFrom": "Hiʻiaka",
+      "discoveredAt": 425
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Hawaiian goddesses",
+      "iso": "US",
+      "label": "Hawaiian goddesses",
+      "discoveredFrom": "Hiʻiaka",
+      "discoveredAt": 425
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Hawaiian gods",
+      "iso": "US",
+      "label": "Hawaiian gods",
+      "discoveredFrom": "Kanaloa",
+      "discoveredAt": 425
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Magic gods",
+      "iso": "US",
+      "label": "Magic gods",
+      "discoveredFrom": "Kanaloa",
+      "discoveredAt": 425
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological cephalopods",
+      "iso": "US",
+      "label": "Mythological cephalopods",
+      "discoveredFrom": "Kanaloa",
+      "discoveredAt": 425
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Navajo mythology",
+      "iso": "US",
+      "label": "Navajo mythology",
+      "discoveredFrom": "Anaye",
+      "discoveredAt": 425
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Goddesses of the Indigenous peoples of North America",
+      "iso": "US",
+      "label": "Goddesses of the Indigenous peoples of North America",
+      "discoveredFrom": "Asdzą́ą́ Nádleehé",
+      "discoveredAt": 425
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fire gods",
+      "iso": "US",
+      "label": "Fire gods",
+      "discoveredFrom": "Black God (Navajo mythology)",
+      "discoveredAt": 425
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Stellar gods",
+      "iso": "US",
+      "label": "Stellar gods",
+      "discoveredFrom": "Black God (Navajo mythology)",
+      "discoveredAt": 425
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ghosts",
+      "iso": "US",
+      "label": "Ghosts",
+      "discoveredFrom": "Chindi",
+      "discoveredAt": 425
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Hopi mythology",
+      "iso": "US",
+      "label": "Hopi mythology",
+      "discoveredFrom": "Fifth World (mythology)",
+      "discoveredAt": 425
+    },
+    {
+      "lang": "en",
+      "cat": "Category:American witchcraft",
+      "iso": "US",
+      "label": "American witchcraft",
+      "discoveredFrom": "Ghost sickness",
+      "discoveredAt": 425
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Polynesian mythology",
+      "iso": "NZ",
+      "label": "Polynesian mythology",
+      "discoveredFrom": "Ghost sickness",
+      "discoveredAt": 425
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of Arizona",
+      "iso": "US",
+      "label": "Folklore of Arizona",
+      "discoveredFrom": "Skin-walker",
+      "discoveredAt": 425
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of New Mexico",
+      "iso": "MX",
+      "label": "Folklore of New Mexico",
+      "discoveredFrom": "Skin-walker",
+      "discoveredAt": 425
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of Utah",
+      "iso": "US",
+      "label": "Folklore of Utah",
+      "discoveredFrom": "Skin-walker",
+      "discoveredAt": 425
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Monsters",
+      "iso": "US",
+      "label": "Monsters",
+      "discoveredFrom": "Skin-walker",
+      "discoveredAt": 425
+    },
+    {
+      "lang": "en",
+      "cat": "Category:North American demons",
+      "iso": "US",
+      "label": "North American demons",
+      "discoveredFrom": "Skin-walker",
+      "discoveredAt": 425
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Witches in folklore",
+      "iso": "US",
+      "label": "Witches in folklore",
+      "discoveredFrom": "Skin-walker",
+      "discoveredAt": 425
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Spirits",
+      "iso": "US",
+      "label": "Spirits",
+      "discoveredFrom": "Ahöl Mana",
+      "discoveredAt": 425
     }
   ],
-  "totalAdded": 1102,
-  "runs": 425,
-  "lastRun": "2026-06-15T17:01:42.563Z",
-  "lastDiscoveredIndex": 30
+  "totalAdded": 1117,
+  "runs": 426,
+  "lastRun": "2026-06-15T20:47:38.204Z",
+  "lastDiscoveredIndex": 33
 }
