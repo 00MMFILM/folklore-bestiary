@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 118,
+  "lastCategoryIndex": 121,
   "processedPageIds": [
     1481896,
     1347753,
@@ -1861,7 +1861,42 @@
     75930604,
     1551858,
     1888283,
-    5436016
+    5436016,
+    71895223,
+    40322194,
+    748312,
+    4297964,
+    19614230,
+    10146998,
+    701912,
+    1008323,
+    205136,
+    1436676,
+    1319032,
+    1019574,
+    1640918,
+    10725072,
+    26104426,
+    4441704,
+    7003662,
+    11063784,
+    13027,
+    19714702,
+    17478438,
+    237685,
+    2748816,
+    889473,
+    46848047,
+    1184487,
+    1484129,
+    6968511,
+    4243000,
+    5724711,
+    11226063,
+    7017964,
+    5225767,
+    5344857,
+    7010400
   ],
   "discoveredCategories": [
     {
@@ -4607,10 +4642,162 @@
       "label": "Russian fairy tales",
       "discoveredFrom": "The Frog Princess",
       "discoveredAt": 428
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Marvel Comics male superheroes",
+      "iso": "_MULTI",
+      "label": "Marvel Comics male superheroes",
+      "discoveredFrom": "Pip the Troll",
+      "discoveredAt": 429
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Irish folklore",
+      "iso": "IE",
+      "label": "Irish folklore",
+      "discoveredFrom": "Blarney Stone",
+      "discoveredAt": 429
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Lists of legendary creatures",
+      "iso": "_MULTI",
+      "label": "Lists of legendary creatures",
+      "discoveredFrom": "List of shapeshifters",
+      "discoveredAt": 429
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Arabian legendary creatures",
+      "iso": "SA",
+      "label": "Arabian legendary creatures",
+      "discoveredFrom": "Jinn",
+      "discoveredAt": 429
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Animals in Japanese mythology",
+      "iso": "JP",
+      "label": "Animals in Japanese mythology",
+      "discoveredFrom": "Jorōgumo",
+      "discoveredAt": 429
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological insects",
+      "iso": "_MULTI",
+      "label": "Mythological insects",
+      "discoveredFrom": "ǀKaggen",
+      "discoveredAt": 429
+    },
+    {
+      "lang": "en",
+      "cat": "Category:San gods",
+      "iso": "_MULTI",
+      "label": "San gods",
+      "discoveredFrom": "ǀKaggen",
+      "discoveredAt": 429
+    },
+    {
+      "lang": "en",
+      "cat": "Category:ǀXam mythology",
+      "iso": "_MULTI",
+      "label": "ǀXam mythology",
+      "discoveredFrom": "ǀKaggen",
+      "discoveredAt": 429
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Croatian folklore",
+      "iso": "_MULTI",
+      "label": "Croatian folklore",
+      "discoveredFrom": "Krsnik (vampire hunter)",
+      "discoveredAt": 429
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fictional vampire hunters",
+      "iso": "_MULTI",
+      "label": "Fictional vampire hunters",
+      "discoveredFrom": "Krsnik (vampire hunter)",
+      "discoveredAt": 429
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Slovene mythology",
+      "iso": "_MULTI",
+      "label": "Slovene mythology",
+      "discoveredFrom": "Krsnik (vampire hunter)",
+      "discoveredAt": 429
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary mammals",
+      "iso": "_MULTI",
+      "label": "Legendary mammals",
+      "discoveredFrom": "Kushtaka",
+      "discoveredAt": 429
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Tlingit mythology",
+      "iso": "_MULTI",
+      "label": "Tlingit mythology",
+      "discoveredFrom": "Kushtaka",
+      "discoveredAt": 429
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological rabbits and hares",
+      "iso": "_MULTI",
+      "label": "Mythological rabbits and hares",
+      "discoveredFrom": "Nanabozho",
+      "discoveredAt": 429
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Belarusian folklore",
+      "iso": "RU",
+      "label": "Belarusian folklore",
+      "discoveredFrom": "Russian Fairy Tales",
+      "discoveredAt": 429
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Collections of fairy tales",
+      "iso": "RU",
+      "label": "Collections of fairy tales",
+      "discoveredFrom": "Russian Fairy Tales",
+      "discoveredAt": 429
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Child characters in fairy tales",
+      "iso": "RU",
+      "label": "Child characters in fairy tales",
+      "discoveredFrom": "The Armless Maiden",
+      "discoveredAt": 429
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about fish",
+      "iso": "RU",
+      "label": "Fairy tales about fish",
+      "discoveredFrom": "At the Pike's Behest",
+      "discoveredAt": 429
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about sisters",
+      "iso": "RU",
+      "label": "Fairy tales about sisters",
+      "discoveredFrom": "The Death of Koschei the Deathless",
+      "discoveredAt": 429
     }
   ],
-  "totalAdded": 1162,
-  "runs": 429,
-  "lastRun": "2026-06-16T16:26:00.929Z",
-  "lastDiscoveredIndex": 42
+  "totalAdded": 1177,
+  "runs": 430,
+  "lastRun": "2026-06-16T20:43:17.279Z",
+  "lastDiscoveredIndex": 45
 }
