@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 109,
+  "lastCategoryIndex": 112,
   "processedPageIds": [
     1481896,
     1347753,
@@ -1783,7 +1783,26 @@
     7531819,
     92858,
     12585402,
-    12585087
+    12585087,
+    93102,
+    64088598,
+    9820863,
+    3546630,
+    6425276,
+    18863954,
+    64020226,
+    63797663,
+    64030774,
+    4224339,
+    3579334,
+    61446019,
+    4418007,
+    1967468,
+    464479,
+    7108002,
+    41445587,
+    384028,
+    41460864
   ],
   "discoveredCategories": [
     {
@@ -4097,10 +4116,162 @@
       "label": "Spirits",
       "discoveredFrom": "Ahöl Mana",
       "discoveredAt": 425
+    },
+    {
+      "lang": "en",
+      "cat": "Category:North American folklore",
+      "iso": "US",
+      "label": "North American folklore",
+      "discoveredFrom": "Iroquois mythology",
+      "discoveredAt": 426
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Marriage goddesses",
+      "iso": "US",
+      "label": "Marriage goddesses",
+      "discoveredFrom": "Atahensic",
+      "discoveredAt": 426
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Hominid cryptids",
+      "iso": "MY",
+      "label": "Hominid cryptids",
+      "discoveredFrom": "Orang Mawas",
+      "discoveredAt": 426
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Malaysian legendary creatures",
+      "iso": "MY",
+      "label": "Malaysian legendary creatures",
+      "discoveredFrom": "Orang Mawas",
+      "discoveredAt": 426
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Asian demons",
+      "iso": "MY",
+      "label": "Asian demons",
+      "discoveredFrom": "Penanggalan",
+      "discoveredAt": 426
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Female demons",
+      "iso": "MY",
+      "label": "Female demons",
+      "discoveredFrom": "Penanggalan",
+      "discoveredAt": 426
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Female ghosts",
+      "iso": "MY",
+      "label": "Female ghosts",
+      "discoveredFrom": "Penanggalan",
+      "discoveredAt": 426
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Malaysian ghosts",
+      "iso": "MY",
+      "label": "Malaysian ghosts",
+      "discoveredFrom": "Penanggalan",
+      "discoveredAt": 426
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Malaysian legends",
+      "iso": "MY",
+      "label": "Malaysian legends",
+      "discoveredFrom": "Seri Pahang",
+      "discoveredAt": 426
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Indonesian folklore",
+      "iso": "ID",
+      "label": "Indonesian folklore",
+      "discoveredFrom": "Ghosts in Malay culture",
+      "discoveredAt": 426
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Indonesian mythology",
+      "iso": "ID",
+      "label": "Indonesian mythology",
+      "discoveredFrom": "Ghosts in Malay culture",
+      "discoveredAt": 426
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Malaysian folklore",
+      "iso": "MY",
+      "label": "Malaysian folklore",
+      "discoveredFrom": "Ghosts in Malay culture",
+      "discoveredAt": 426
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Malaysian mythology",
+      "iso": "MY",
+      "label": "Malaysian mythology",
+      "discoveredFrom": "Ghosts in Malay culture",
+      "discoveredAt": 426
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Asian shamanism",
+      "iso": "MY",
+      "label": "Asian shamanism",
+      "discoveredFrom": "Bomoh",
+      "discoveredAt": 426
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Austronesian spirituality",
+      "iso": "MY",
+      "label": "Austronesian spirituality",
+      "discoveredFrom": "Bomoh",
+      "discoveredAt": 426
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Magicians (supernatural)",
+      "iso": "MY",
+      "label": "Magicians (supernatural)",
+      "discoveredFrom": "Bomoh",
+      "discoveredAt": 426
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Trees in mythology",
+      "iso": "MY",
+      "label": "Trees in mythology",
+      "discoveredFrom": "Hantu Tinggi",
+      "discoveredAt": 426
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Corporeal undead",
+      "iso": "MY",
+      "label": "Corporeal undead",
+      "discoveredFrom": "Kuntilanak",
+      "discoveredAt": 426
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Indonesian ghosts",
+      "iso": "ID",
+      "label": "Indonesian ghosts",
+      "discoveredFrom": "Kuntilanak",
+      "discoveredAt": 426
     }
   ],
-  "totalAdded": 1117,
-  "runs": 426,
-  "lastRun": "2026-06-15T20:47:38.204Z",
-  "lastDiscoveredIndex": 33
+  "totalAdded": 1132,
+  "runs": 427,
+  "lastRun": "2026-06-16T02:52:49.895Z",
+  "lastDiscoveredIndex": 36
 }
