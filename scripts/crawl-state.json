@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 115,
+  "lastCategoryIndex": 118,
   "processedPageIds": [
     1481896,
     1347753,
@@ -1832,7 +1832,36 @@
     23250197,
     73823216,
     70590656,
-    6584824
+    6584824,
+    19667085,
+    82875,
+    54095909,
+    9428034,
+    23684527,
+    15430903,
+    6517556,
+    56756868,
+    1417746,
+    35013793,
+    381862,
+    39846415,
+    51225031,
+    2186017,
+    2485662,
+    2896017,
+    1089431,
+    3130685,
+    56500120,
+    29311617,
+    4918664,
+    550203,
+    58015117,
+    53358373,
+    25865302,
+    75930604,
+    1551858,
+    1888283,
+    5436016
   ],
   "discoveredCategories": [
     {
@@ -4450,10 +4479,138 @@
       "label": "Mythological spiders",
       "discoveredFrom": "Legend of the Christmas Spider",
       "discoveredAt": 427
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Kings in Greek mythology",
+      "iso": "GR",
+      "label": "Kings in Greek mythology",
+      "discoveredFrom": "Abas (mythology)",
+      "discoveredAt": 428
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Metamorphoses into animals in Greek mythology",
+      "iso": "GR",
+      "label": "Metamorphoses into animals in Greek mythology",
+      "discoveredFrom": "Abas (mythology)",
+      "discoveredAt": 428
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Metamorphoses into birds in Greek mythology",
+      "iso": "GR",
+      "label": "Metamorphoses into birds in Greek mythology",
+      "discoveredFrom": "Abas (mythology)",
+      "discoveredAt": 428
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Argives",
+      "iso": "_MULTI",
+      "label": "Mythological Argives",
+      "discoveredFrom": "Abas (mythology)",
+      "discoveredAt": 428
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Euboeans",
+      "iso": "_MULTI",
+      "label": "Mythological Euboeans",
+      "discoveredFrom": "Abas (mythology)",
+      "discoveredAt": 428
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Set index articles on Greek mythology",
+      "iso": "GR",
+      "label": "Set index articles on Greek mythology",
+      "discoveredFrom": "Abas (mythology)",
+      "discoveredAt": 428
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Cretans",
+      "iso": "_MULTI",
+      "label": "Mythological Cretans",
+      "discoveredFrom": "Antimachus (mythology)",
+      "discoveredAt": 428
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Thessalian mythology",
+      "iso": "_MULTI",
+      "label": "Thessalian mythology",
+      "discoveredFrom": "Antimachus (mythology)",
+      "discoveredAt": 428
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Greek seers",
+      "iso": "GR",
+      "label": "Mythological Greek seers",
+      "discoveredFrom": "Asbolus",
+      "discoveredAt": 428
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Monsters in popular culture",
+      "iso": "_MULTI",
+      "label": "Monsters in popular culture",
+      "discoveredFrom": "The Mystery of Irma Vep",
+      "discoveredAt": 428
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Vampires in plays",
+      "iso": "_MULTI",
+      "label": "Vampires in plays",
+      "discoveredFrom": "The Mystery of Irma Vep",
+      "discoveredAt": 428
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Russian people",
+      "iso": "RU",
+      "label": "Legendary Russian people",
+      "discoveredFrom": "Sadko",
+      "discoveredAt": 428
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Maritime folklore",
+      "iso": "RU",
+      "label": "Maritime folklore",
+      "discoveredFrom": "Sadko",
+      "discoveredAt": 428
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Russian urban legends",
+      "iso": "RU",
+      "label": "Russian urban legends",
+      "discoveredFrom": "Lenin was a mushroom",
+      "discoveredAt": 428
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Italian fairy tales",
+      "iso": "IT",
+      "label": "Italian fairy tales",
+      "discoveredFrom": "The Frog Princess",
+      "discoveredAt": 428
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Russian fairy tales",
+      "iso": "RU",
+      "label": "Russian fairy tales",
+      "discoveredFrom": "The Frog Princess",
+      "discoveredAt": 428
     }
   ],
-  "totalAdded": 1147,
-  "runs": 428,
-  "lastRun": "2026-06-16T10:55:55.279Z",
-  "lastDiscoveredIndex": 39
+  "totalAdded": 1162,
+  "runs": 429,
+  "lastRun": "2026-06-16T16:26:00.929Z",
+  "lastDiscoveredIndex": 42
 }
