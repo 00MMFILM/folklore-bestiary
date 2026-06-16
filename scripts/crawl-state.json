@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 112,
+  "lastCategoryIndex": 115,
   "processedPageIds": [
     1481896,
     1347753,
@@ -1802,7 +1802,37 @@
     7108002,
     41445587,
     384028,
-    41460864
+    41460864,
+    3027,
+    1526116,
+    79856803,
+    42148737,
+    64999772,
+    480204,
+    164304,
+    76210696,
+    20611803,
+    98309,
+    58456458,
+    14960072,
+    19058337,
+    118571,
+    164185,
+    2164264,
+    2268420,
+    7782933,
+    47797834,
+    79465,
+    16422760,
+    77353957,
+    78364251,
+    44612715,
+    73423994,
+    73636029,
+    23250197,
+    73823216,
+    70590656,
+    6584824
   ],
   "discoveredCategories": [
     {
@@ -4268,10 +4298,162 @@
       "label": "Indonesian ghosts",
       "discoveredFrom": "Kuntilanak",
       "discoveredAt": 426
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Egyptian death goddesses",
+      "iso": "EG",
+      "label": "Egyptian death goddesses",
+      "discoveredFrom": "Anput",
+      "discoveredAt": 427
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Egyptian mythology in popular culture",
+      "iso": "EG",
+      "label": "Egyptian mythology in popular culture",
+      "discoveredFrom": "Anubis (software)",
+      "discoveredAt": 427
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sculptures of gods",
+      "iso": "_MULTI",
+      "label": "Sculptures of gods",
+      "discoveredFrom": "Anubis Shrine",
+      "discoveredAt": 427
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Liminal gods",
+      "iso": "_MULTI",
+      "label": "Liminal gods",
+      "discoveredFrom": "Hermanubis",
+      "discoveredAt": 427
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Roman gods",
+      "iso": "IT",
+      "label": "Roman gods",
+      "discoveredFrom": "Hermanubis",
+      "discoveredAt": 427
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Welsh people",
+      "iso": "GB",
+      "label": "Legendary Welsh people",
+      "discoveredFrom": "Ann Maddocks",
+      "discoveredAt": 427
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Locations associated with Arthurian legend",
+      "iso": "GB",
+      "label": "Locations associated with Arthurian legend",
+      "discoveredFrom": "Avalon",
+      "discoveredAt": 427
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Places in Celtic mythology",
+      "iso": "IE",
+      "label": "Places in Celtic mythology",
+      "discoveredFrom": "Avalon",
+      "discoveredAt": 427
+    },
+    {
+      "lang": "en",
+      "cat": "Category:British folklore",
+      "iso": "GB",
+      "label": "British folklore",
+      "discoveredFrom": "Brutus of Troy",
+      "discoveredAt": 427
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary British kings",
+      "iso": "GB",
+      "label": "Legendary British kings",
+      "discoveredFrom": "Brutus of Troy",
+      "discoveredAt": 427
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological founders of populated places",
+      "iso": "GB",
+      "label": "Mythological founders of populated places",
+      "discoveredFrom": "Brutus of Troy",
+      "discoveredAt": 427
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary bovines",
+      "iso": "GB",
+      "label": "Legendary bovines",
+      "discoveredFrom": "Buwch Frech",
+      "discoveredAt": 427
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Welsh legendary creatures",
+      "iso": "GB",
+      "label": "Welsh legendary creatures",
+      "discoveredFrom": "Buwch Frech",
+      "discoveredAt": 427
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary gnomes",
+      "iso": "GB",
+      "label": "Legendary gnomes",
+      "discoveredFrom": "Coblyn",
+      "discoveredAt": 427
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mining spirits",
+      "iso": "GB",
+      "label": "Mining spirits",
+      "discoveredFrom": "Coblyn",
+      "discoveredAt": 427
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary dogs",
+      "iso": "GB",
+      "label": "Legendary dogs",
+      "discoveredFrom": "Gelert",
+      "discoveredAt": 427
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Slavic fairy tales",
+      "iso": "RU",
+      "label": "Slavic fairy tales",
+      "discoveredFrom": "About the astonishing husband Hora",
+      "discoveredAt": 427
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ukrainian legends",
+      "iso": "RU",
+      "label": "Ukrainian legends",
+      "discoveredFrom": "Battle of Igren",
+      "discoveredAt": 427
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological spiders",
+      "iso": "RU",
+      "label": "Mythological spiders",
+      "discoveredFrom": "Legend of the Christmas Spider",
+      "discoveredAt": 427
     }
   ],
-  "totalAdded": 1132,
-  "runs": 427,
-  "lastRun": "2026-06-16T02:52:49.895Z",
-  "lastDiscoveredIndex": 36
+  "totalAdded": 1147,
+  "runs": 428,
+  "lastRun": "2026-06-16T10:55:55.279Z",
+  "lastDiscoveredIndex": 39
 }
