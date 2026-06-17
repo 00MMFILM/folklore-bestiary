@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 1,
+  "lastCategoryIndex": 4,
   "processedPageIds": [
     1481896,
     1347753,
@@ -1934,7 +1934,40 @@
     806290,
     4001789,
     306850,
-    1068775
+    1068775,
+    4187241,
+    4186658,
+    4188808,
+    4186689,
+    4188710,
+    4186810,
+    4139452,
+    762625,
+    2604157,
+    4188756,
+    58107142,
+    24932240,
+    8681060,
+    1695,
+    377038,
+    3740489,
+    2303248,
+    100535,
+    2178,
+    24926351,
+    26503027,
+    30707253,
+    54823754,
+    14385824,
+    21820605,
+    18889362,
+    13314634,
+    78968513,
+    1116402,
+    13021571,
+    6832103,
+    10957878,
+    6830909
   ],
   "discoveredCategories": [
     {
@@ -5152,10 +5185,234 @@
       "label": "English folklore",
       "discoveredFrom": "Fairyland",
       "discoveredAt": 430
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:한국 신화",
+      "iso": "KR",
+      "label": "한국 신화",
+      "discoveredFrom": "군웅본풀이",
+      "discoveredAt": 431
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:창조 신화",
+      "iso": "KR",
+      "label": "창조 신화",
+      "discoveredFrom": "한국의 창세 신화",
+      "discoveredAt": 431
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:무속 신화",
+      "iso": "KR",
+      "label": "무속 신화",
+      "discoveredFrom": "서사무가",
+      "discoveredAt": 431
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:전설",
+      "iso": "KR",
+      "label": "전설",
+      "discoveredFrom": "소금을 내는 맷돌",
+      "discoveredAt": 431
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:한국 신화의 물건",
+      "iso": "KR",
+      "label": "한국 신화의 물건",
+      "discoveredFrom": "소금을 내는 맷돌",
+      "discoveredAt": 431
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 무기",
+      "iso": "KR",
+      "label": "신화의 무기",
+      "discoveredFrom": "수레멸망악심꽃",
+      "discoveredAt": 431
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 식물",
+      "iso": "KR",
+      "label": "신화의 식물",
+      "discoveredFrom": "수레멸망악심꽃",
+      "discoveredAt": 431
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Italian people",
+      "iso": "IT",
+      "label": "Mythological Italian people",
+      "discoveredFrom": "Aborigines (mythology)",
+      "discoveredAt": 431
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Africa in Greek mythology",
+      "iso": "GR",
+      "label": "Africa in Greek mythology",
+      "discoveredFrom": "Aethiopia",
+      "discoveredAt": 431
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Andromeda (mythology)",
+      "iso": "IT",
+      "label": "Andromeda (mythology)",
+      "discoveredFrom": "Aethiopia",
+      "discoveredAt": 431
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Greek legendary creatures",
+      "iso": "GR",
+      "label": "Greek legendary creatures",
+      "discoveredFrom": "Anthropophage",
+      "discoveredAt": 431
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythical headless creatures",
+      "iso": "RU",
+      "label": "Mythical headless creatures",
+      "discoveredFrom": "Anthropophage",
+      "discoveredAt": 431
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological peoples",
+      "iso": "RU",
+      "label": "Mythological peoples",
+      "discoveredFrom": "Antichthones",
+      "discoveredAt": 431
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary creatures with absent body parts",
+      "iso": "RU",
+      "label": "Legendary creatures with absent body parts",
+      "discoveredFrom": "Arimaspi",
+      "discoveredAt": 431
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Characters in Greek mythology",
+      "iso": "GR",
+      "label": "Characters in Greek mythology",
+      "discoveredFrom": "Astomi",
+      "discoveredAt": 431
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Autochthons of classical mythology",
+      "iso": "RU",
+      "label": "Autochthons of classical mythology",
+      "discoveredFrom": "Autochthon (ancient Greece)",
+      "discoveredAt": 431
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Black people in European folklore",
+      "iso": "RU",
+      "label": "Black people in European folklore",
+      "discoveredFrom": "Black Arab (mythology)",
+      "discoveredAt": 431
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Serbian folklore",
+      "iso": "RU",
+      "label": "Serbian folklore",
+      "discoveredFrom": "Black Arab (mythology)",
+      "discoveredAt": 431
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Polish legends",
+      "iso": "PL",
+      "label": "Polish legends",
+      "discoveredFrom": "Devil Boruta",
+      "discoveredAt": 431
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Slavic demons",
+      "iso": "RU",
+      "label": "Slavic demons",
+      "discoveredFrom": "Devil Boruta",
+      "discoveredAt": 431
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Baltic mythology",
+      "iso": "RU",
+      "label": "Baltic mythology",
+      "discoveredFrom": "Fern flower",
+      "discoveredAt": 431
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological plants",
+      "iso": "RU",
+      "label": "Mythological plants",
+      "discoveredFrom": "Fern flower",
+      "discoveredAt": 431
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological duos",
+      "iso": "RU",
+      "label": "Mythological duos",
+      "discoveredFrom": "First humans in Slavic mythology",
+      "discoveredAt": 431
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological lovers",
+      "iso": "RU",
+      "label": "Mythological lovers",
+      "discoveredFrom": "First humans in Slavic mythology",
+      "discoveredAt": 431
+    },
+    {
+      "lang": "en",
+      "cat": "Category:European folklore",
+      "iso": "RU",
+      "label": "European folklore",
+      "discoveredFrom": "Folklore of Sarajevo",
+      "discoveredAt": 431
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about ogres",
+      "iso": "RU",
+      "label": "Fairy tales about ogres",
+      "discoveredFrom": "Bearskin (French fairy tale)",
+      "discoveredAt": 431
+    },
+    {
+      "lang": "en",
+      "cat": "Category:French fairy tales",
+      "iso": "FR",
+      "label": "French fairy tales",
+      "discoveredFrom": "Bearskin (French fairy tale)",
+      "discoveredAt": 431
+    },
+    {
+      "lang": "en",
+      "cat": "Category:French literary fairy tales",
+      "iso": "FR",
+      "label": "French literary fairy tales",
+      "discoveredFrom": "The Bee and the Orange Tree",
+      "discoveredAt": 431
     }
   ],
-  "totalAdded": 1191,
-  "runs": 431,
-  "lastRun": "2026-06-17T02:50:12.625Z",
-  "lastDiscoveredIndex": 48
+  "totalAdded": 1206,
+  "runs": 432,
+  "lastRun": "2026-06-17T10:27:37.433Z",
+  "lastDiscoveredIndex": 51
 }
