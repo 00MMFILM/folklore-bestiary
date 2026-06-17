@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 7,
+  "lastCategoryIndex": 10,
   "processedPageIds": [
     1481896,
     1347753,
@@ -1985,7 +1985,38 @@
     990071,
     2044650,
     29797511,
-    31838053
+    31838053,
+    1881297,
+    283766,
+    909216,
+    3621507,
+    1788262,
+    6352,
+    4186590,
+    3593840,
+    3607880,
+    4188794,
+    2577418,
+    1117398,
+    3269684,
+    2478864,
+    3846722,
+    2923204,
+    3792913,
+    487508,
+    2833925,
+    2992763,
+    143466,
+    282566,
+    285785,
+    488166,
+    7036255,
+    50654478,
+    8468850,
+    23194446,
+    5226277,
+    291324,
+    1880839
   ],
   "discoveredCategories": [
     {
@@ -5635,10 +5666,290 @@
       "label": "Tree goddesses",
       "discoveredFrom": "Anjana (Cantabrian mythology)",
       "discoveredAt": 432
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:제주 신화",
+      "iso": "KR",
+      "label": "제주 신화",
+      "discoveredFrom": "강림도령",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:전설 속 조상",
+      "iso": "KR",
+      "label": "전설 속 조상",
+      "discoveredFrom": "고을나",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:탐라 신화",
+      "iso": "KR",
+      "label": "탐라 신화",
+      "discoveredFrom": "고을나",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:한국 신화의 왕",
+      "iso": "KR",
+      "label": "한국 신화의 왕",
+      "discoveredFrom": "고을나",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:가신신앙",
+      "iso": "KR",
+      "label": "가신신앙",
+      "discoveredFrom": "눌굽지신",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:장수 신화",
+      "iso": "KR",
+      "label": "장수 신화",
+      "discoveredFrom": "단군",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:요괴를 소재로 한 작품",
+      "iso": "JP",
+      "label": "요괴를 소재로 한 작품",
+      "discoveredFrom": "갓파 (소설)",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:요괴를 소재로 한 애니메이션",
+      "iso": "JP",
+      "label": "요괴를 소재로 한 애니메이션",
+      "discoveredFrom": "사라잔마이",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:구마모토현의 요괴",
+      "iso": "JP",
+      "label": "구마모토현의 요괴",
+      "discoveredFrom": "야마와로",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:기후현의 요괴",
+      "iso": "JP",
+      "label": "기후현의 요괴",
+      "discoveredFrom": "야마와로",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:나가사키현의 요괴",
+      "iso": "JP",
+      "label": "나가사키현의 요괴",
+      "discoveredFrom": "야마와로",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:나라현의 요괴",
+      "iso": "JP",
+      "label": "나라현의 요괴",
+      "discoveredFrom": "야마와로",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:도리야마 세키엔의 요괴",
+      "iso": "JP",
+      "label": "도리야마 세키엔의 요괴",
+      "discoveredFrom": "야마와로",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:미야자키현의 요괴",
+      "iso": "JP",
+      "label": "미야자키현의 요괴",
+      "discoveredFrom": "야마와로",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:와카야마현의 요괴",
+      "iso": "JP",
+      "label": "와카야마현의 요괴",
+      "discoveredFrom": "야마와로",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:후쿠오카현의 요괴",
+      "iso": "JP",
+      "label": "후쿠오카현의 요괴",
+      "discoveredFrom": "야마와로",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:니가타현의 요괴",
+      "iso": "JP",
+      "label": "니가타현의 요괴",
+      "discoveredFrom": "단자부로 너구리",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:이바라키현의 요괴",
+      "iso": "JP",
+      "label": "이바라키현의 요괴",
+      "discoveredFrom": "무지나",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:지바현의 요괴",
+      "iso": "JP",
+      "label": "지바현의 요괴",
+      "discoveredFrom": "무지나",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 산",
+      "iso": "CN",
+      "label": "신화의 산",
+      "discoveredFrom": "봉래산",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 섬",
+      "iso": "CN",
+      "label": "신화의 섬",
+      "discoveredFrom": "봉래산",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 이상향",
+      "iso": "CN",
+      "label": "신화의 이상향",
+      "discoveredFrom": "봉래산",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:일본 신화의 장소",
+      "iso": "CN",
+      "label": "일본 신화의 장소",
+      "discoveredFrom": "봉래산",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:중국 신화의 장소",
+      "iso": "CN",
+      "label": "중국 신화의 장소",
+      "discoveredFrom": "봉래산",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 인간형 생물",
+      "iso": "CN",
+      "label": "신화의 인간형 생물",
+      "discoveredFrom": "상류 (전설)",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:전설의 뱀",
+      "iso": "CN",
+      "label": "전설의 뱀",
+      "discoveredFrom": "상류 (전설)",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 원숭이",
+      "iso": "CN",
+      "label": "신화의 원숭이",
+      "discoveredFrom": "성성이",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Scottish fairy tales",
+      "iso": "GB",
+      "label": "Scottish fairy tales",
+      "discoveredFrom": "The Bear (fairy tale)",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "en",
+      "cat": "Category:European fairy tales",
+      "iso": "RU",
+      "label": "European fairy tales",
+      "discoveredFrom": "The Crow (fairy tale)",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about ghosts",
+      "iso": "RU",
+      "label": "Fairy tales about ghosts",
+      "discoveredFrom": "The Crow (fairy tale)",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Polish fairy tales",
+      "iso": "PL",
+      "label": "Polish fairy tales",
+      "discoveredFrom": "The Crow (fairy tale)",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Northumbrian folklore",
+      "iso": "RU",
+      "label": "Northumbrian folklore",
+      "discoveredFrom": "The Red Ettin",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Animals in folklore",
+      "iso": "RU",
+      "label": "Animals in folklore",
+      "discoveredFrom": "The Ugly Duckling",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Danish fairy tales",
+      "iso": "RU",
+      "label": "Danish fairy tales",
+      "discoveredFrom": "The Ugly Duckling",
+      "discoveredAt": 433
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Literary fairy tales",
+      "iso": "RU",
+      "label": "Literary fairy tales",
+      "discoveredFrom": "The Angel (fairy tale)",
+      "discoveredAt": 433
     }
   ],
-  "totalAdded": 1221,
-  "runs": 433,
-  "lastRun": "2026-06-17T14:53:26.750Z",
-  "lastDiscoveredIndex": 54
+  "totalAdded": 1232,
+  "runs": 434,
+  "lastRun": "2026-06-17T20:01:51.211Z",
+  "lastDiscoveredIndex": 57
 }
