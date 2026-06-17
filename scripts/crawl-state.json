@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 121,
+  "lastCategoryIndex": 1,
   "processedPageIds": [
     1481896,
     1347753,
@@ -1896,7 +1896,45 @@
     7017964,
     5225767,
     5344857,
-    7010400
+    7010400,
+    265432,
+    77750980,
+    77750856,
+    70282593,
+    70277000,
+    70277866,
+    264602,
+    47431554,
+    2281131,
+    4343913,
+    155222,
+    7952,
+    3823163,
+    119438,
+    1050434,
+    82782,
+    264902,
+    167176,
+    101987,
+    881024,
+    448462,
+    29206974,
+    71768940,
+    842741,
+    838747,
+    3365161,
+    94940,
+    12113354,
+    810622,
+    16825204,
+    1569785,
+    54629465,
+    4406826,
+    4070920,
+    806290,
+    4001789,
+    306850,
+    1068775
   ],
   "discoveredCategories": [
     {
@@ -4794,10 +4832,330 @@
       "label": "Fairy tales about sisters",
       "discoveredFrom": "The Death of Koschei the Deathless",
       "discoveredAt": 429
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Aquatic cryptids",
+      "iso": "_MULTI",
+      "label": "Aquatic cryptids",
+      "discoveredFrom": "Lake monster",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fictional monsters",
+      "iso": "_MULTI",
+      "label": "Fictional monsters",
+      "discoveredFrom": "Lake monster",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Lake monsters",
+      "iso": "_MULTI",
+      "label": "Lake monsters",
+      "discoveredFrom": "Lake monster",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Canadian folklore",
+      "iso": "_MULTI",
+      "label": "Canadian folklore",
+      "discoveredFrom": "Cadborosaurus",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Reptilian cryptids",
+      "iso": "_MULTI",
+      "label": "Reptilian cryptids",
+      "discoveredFrom": "Cadborosaurus",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "en",
+      "cat": "Category:South African legendary creatures",
+      "iso": "_MULTI",
+      "label": "South African legendary creatures",
+      "discoveredFrom": "Inkanyamba",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Zulu legendary creatures",
+      "iso": "_MULTI",
+      "label": "Zulu legendary creatures",
+      "discoveredFrom": "Inkanyamba",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:한국의 전설의 생물",
+      "iso": "KR",
+      "label": "한국의 전설의 생물",
+      "discoveredFrom": "귀신",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 사슴",
+      "iso": "KR",
+      "label": "신화의 사슴",
+      "discoveredFrom": "기린 (전설)",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 잡종",
+      "iso": "KR",
+      "label": "신화의 잡종",
+      "discoveredFrom": "기린 (전설)",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 포유류",
+      "iso": "KR",
+      "label": "신화의 포유류",
+      "discoveredFrom": "기린 (전설)",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:일본의 전설의 생물",
+      "iso": "KR",
+      "label": "일본의 전설의 생물",
+      "discoveredFrom": "기린 (전설)",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:중국의 전설의 생물",
+      "iso": "KR",
+      "label": "중국의 전설의 생물",
+      "discoveredFrom": "기린 (전설)",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:전설의 새",
+      "iso": "KR",
+      "label": "전설의 새",
+      "discoveredFrom": "난조 (새)",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:중국의 요괴",
+      "iso": "KR",
+      "label": "중국의 요괴",
+      "discoveredFrom": "난조 (새)",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:요괴",
+      "iso": "KR",
+      "label": "요괴",
+      "discoveredFrom": "도깨비",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:한국 민속",
+      "iso": "KR",
+      "label": "한국 민속",
+      "discoveredFrom": "망태 할아버지",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화에 관한 토막글",
+      "iso": "KR",
+      "label": "신화에 관한 토막글",
+      "discoveredFrom": "불가사리 (전설)",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 동물",
+      "iso": "KR",
+      "label": "신화의 동물",
+      "discoveredFrom": "사신 (신화)",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:전설의 동물",
+      "iso": "KR",
+      "label": "전설의 동물",
+      "discoveredFrom": "사신 (신화)",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:전설의 까마귀",
+      "iso": "KR",
+      "label": "전설의 까마귀",
+      "discoveredFrom": "삼족오",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:달 신화",
+      "iso": "KR",
+      "label": "달 신화",
+      "discoveredFrom": "옥토끼",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:마야 신화",
+      "iso": "KR",
+      "label": "마야 신화",
+      "discoveredFrom": "옥토끼",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:베트남 신화",
+      "iso": "KR",
+      "label": "베트남 신화",
+      "discoveredFrom": "옥토끼",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 토끼",
+      "iso": "KR",
+      "label": "신화의 토끼",
+      "discoveredFrom": "옥토끼",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:아즈텍 신화",
+      "iso": "KR",
+      "label": "아즈텍 신화",
+      "discoveredFrom": "옥토끼",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Places in Greek mythology",
+      "iso": "GR",
+      "label": "Places in Greek mythology",
+      "discoveredFrom": "Aeaea",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Christian mythology",
+      "iso": "RU",
+      "label": "Christian mythology",
+      "discoveredFrom": "Blockula",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Swedish folklore",
+      "iso": "SE",
+      "label": "Swedish folklore",
+      "discoveredFrom": "Blockula",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Witchcraft in Sweden",
+      "iso": "SE",
+      "label": "Witchcraft in Sweden",
+      "discoveredFrom": "Blockula",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Irish mythology",
+      "iso": "IE",
+      "label": "Irish mythology",
+      "discoveredFrom": "Brasil (mythical island)",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Breton mythology and folklore",
+      "iso": "RU",
+      "label": "Breton mythology and folklore",
+      "discoveredFrom": "Brittia",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Celtic mythology",
+      "iso": "IE",
+      "label": "Celtic mythology",
+      "discoveredFrom": "Brittia",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Germanic mythology",
+      "iso": "DE",
+      "label": "Germanic mythology",
+      "discoveredFrom": "Brittia",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Greek mythology",
+      "iso": "GR",
+      "label": "Greek mythology",
+      "discoveredFrom": "Arcadia (utopia)",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological utopias",
+      "iso": "RU",
+      "label": "Mythological utopias",
+      "discoveredFrom": "Arcadia (utopia)",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary treasures",
+      "iso": "RU",
+      "label": "Legendary treasures",
+      "discoveredFrom": "El Dorado",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Muisca mythology and religion",
+      "iso": "RU",
+      "label": "Muisca mythology and religion",
+      "discoveredFrom": "El Dorado",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological populated places",
+      "iso": "RU",
+      "label": "Mythological populated places",
+      "discoveredFrom": "El Dorado",
+      "discoveredAt": 430
+    },
+    {
+      "lang": "en",
+      "cat": "Category:English folklore",
+      "iso": "GB",
+      "label": "English folklore",
+      "discoveredFrom": "Fairyland",
+      "discoveredAt": 430
     }
   ],
-  "totalAdded": 1177,
-  "runs": 430,
-  "lastRun": "2026-06-16T20:43:17.279Z",
-  "lastDiscoveredIndex": 45
+  "totalAdded": 1191,
+  "runs": 431,
+  "lastRun": "2026-06-17T02:50:12.625Z",
+  "lastDiscoveredIndex": 48
 }
