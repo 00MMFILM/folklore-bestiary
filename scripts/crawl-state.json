@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 4,
+  "lastCategoryIndex": 7,
   "processedPageIds": [
     1481896,
     1347753,
@@ -1967,7 +1967,25 @@
     13021571,
     6832103,
     10957878,
-    6830909
+    6830909,
+    78587132,
+    74812206,
+    62446,
+    5187078,
+    68418779,
+    74150864,
+    11073318,
+    76731696,
+    28012042,
+    71319015,
+    56835859,
+    9195161,
+    20633574,
+    79174,
+    990071,
+    2044650,
+    29797511,
+    31838053
   ],
   "discoveredCategories": [
     {
@@ -5409,10 +5427,218 @@
       "label": "French literary fairy tales",
       "discoveredFrom": "The Bee and the Orange Tree",
       "discoveredAt": 431
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Azerbaijani folklore",
+      "iso": "RU",
+      "label": "Azerbaijani folklore",
+      "discoveredFrom": "The Tale of Aftab",
+      "discoveredAt": 432
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Male characters in fairy tales",
+      "iso": "RU",
+      "label": "Male characters in fairy tales",
+      "discoveredFrom": "The Tale of Aftab",
+      "discoveredAt": 432
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Grimms' Fairy Tales",
+      "iso": "RU",
+      "label": "Grimms' Fairy Tales",
+      "discoveredFrom": "Allerleirauh",
+      "discoveredAt": 432
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore studies",
+      "iso": "RU",
+      "label": "Folklore studies",
+      "discoveredFrom": "Animal as Bridegroom",
+      "discoveredAt": 432
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary shapeshifters",
+      "iso": "RU",
+      "label": "Legendary shapeshifters",
+      "discoveredFrom": "Aunt Tiger",
+      "discoveredAt": 432
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological tigers",
+      "iso": "RU",
+      "label": "Mythological tigers",
+      "discoveredFrom": "Aunt Tiger",
+      "discoveredAt": 432
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Taiwanese folklore",
+      "iso": "RU",
+      "label": "Taiwanese folklore",
+      "discoveredFrom": "Aunt Tiger",
+      "discoveredAt": 432
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Taiwanese legends",
+      "iso": "RU",
+      "label": "Taiwanese legends",
+      "discoveredFrom": "Aunt Tiger",
+      "discoveredAt": 432
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Spanish fairy tales",
+      "iso": "ES",
+      "label": "Spanish fairy tales",
+      "discoveredFrom": "Las barbas de plata",
+      "discoveredAt": 432
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Indonesian fairy tales",
+      "iso": "ID",
+      "label": "Indonesian fairy tales",
+      "discoveredFrom": "Bawang Merah Bawang Putih",
+      "discoveredAt": 432
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Javanese folklore",
+      "iso": "ID",
+      "label": "Javanese folklore",
+      "discoveredFrom": "Bawang Merah Bawang Putih",
+      "discoveredAt": 432
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Malay folklore",
+      "iso": "RU",
+      "label": "Malay folklore",
+      "discoveredFrom": "Bawang Merah Bawang Putih",
+      "discoveredAt": 432
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Malaysian fairy tales",
+      "iso": "RU",
+      "label": "Malaysian fairy tales",
+      "discoveredFrom": "Bawang Merah Bawang Putih",
+      "discoveredAt": 432
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Swedish fairy tales",
+      "iso": "SE",
+      "label": "Swedish fairy tales",
+      "discoveredFrom": "The Beautiful Palace East of the Sun and North of the Earth",
+      "discoveredAt": 432
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Kerala folklore",
+      "iso": "RU",
+      "label": "Kerala folklore",
+      "discoveredFrom": "Aana Marutha",
+      "discoveredAt": 432
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Melanesian legendary creatures",
+      "iso": "RU",
+      "label": "Melanesian legendary creatures",
+      "discoveredFrom": "Abere",
+      "discoveredAt": 432
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Demons in the Old Testament apocrypha",
+      "iso": "RU",
+      "label": "Demons in the Old Testament apocrypha",
+      "discoveredFrom": "Abyzou",
+      "discoveredAt": 432
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Musicians in Greek mythology",
+      "iso": "GR",
+      "label": "Musicians in Greek mythology",
+      "discoveredFrom": "Achelois",
+      "discoveredAt": 432
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Princesses in Greek mythology",
+      "iso": "GR",
+      "label": "Princesses in Greek mythology",
+      "discoveredFrom": "Achelois",
+      "discoveredAt": 432
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sirens (mythology)",
+      "iso": "RU",
+      "label": "Sirens (mythology)",
+      "discoveredFrom": "Achelois",
+      "discoveredAt": 432
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Turkic demons",
+      "iso": "TR",
+      "label": "Turkic demons",
+      "discoveredFrom": "Al Basty",
+      "discoveredAt": 432
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Turkic folklore",
+      "iso": "TR",
+      "label": "Turkic folklore",
+      "discoveredFrom": "Al Basty",
+      "discoveredAt": 432
+    },
+    {
+      "lang": "en",
+      "cat": "Category:European demons",
+      "iso": "RU",
+      "label": "European demons",
+      "discoveredFrom": "Alphito",
+      "discoveredAt": 432
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Women in Greek mythology",
+      "iso": "GR",
+      "label": "Women in Greek mythology",
+      "discoveredFrom": "Alphito",
+      "discoveredAt": 432
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Cantabrian legendary creatures",
+      "iso": "RU",
+      "label": "Cantabrian legendary creatures",
+      "discoveredFrom": "Anjana (Cantabrian mythology)",
+      "discoveredAt": 432
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Tree goddesses",
+      "iso": "RU",
+      "label": "Tree goddesses",
+      "discoveredFrom": "Anjana (Cantabrian mythology)",
+      "discoveredAt": 432
     }
   ],
-  "totalAdded": 1206,
-  "runs": 432,
-  "lastRun": "2026-06-17T10:27:37.433Z",
-  "lastDiscoveredIndex": 51
+  "totalAdded": 1221,
+  "runs": 433,
+  "lastRun": "2026-06-17T14:53:26.750Z",
+  "lastDiscoveredIndex": 54
 }
