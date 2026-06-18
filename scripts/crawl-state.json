@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 19,
+  "lastCategoryIndex": 22,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2078,7 +2078,23 @@
     5714228,
     66511402,
     5402523,
-    78228580
+    78228580,
+    2209524,
+    249328,
+    657318,
+    76063511,
+    415322,
+    79500119,
+    247174,
+    70743851,
+    245184,
+    26540487,
+    11750394,
+    11831286,
+    62772531,
+    13318328,
+    53591214,
+    5090938
   ],
   "discoveredCategories": [
     {
@@ -6408,10 +6424,58 @@
       "label": "Slavic legends",
       "discoveredFrom": "Peter Klepec bibliography",
       "discoveredAt": 436
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mesopotamian demons",
+      "iso": "IQ",
+      "label": "Mesopotamian demons",
+      "discoveredFrom": "Akhkhazu",
+      "discoveredAt": 437
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological birds of prey",
+      "iso": "IQ",
+      "label": "Mythological birds of prey",
+      "discoveredFrom": "Anzû",
+      "discoveredAt": 437
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Underworld goddesses",
+      "iso": "IQ",
+      "label": "Underworld goddesses",
+      "discoveredFrom": "Dimmeku",
+      "discoveredAt": 437
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Wind gods",
+      "iso": "IQ",
+      "label": "Wind gods",
+      "discoveredFrom": "The Four Winds (Mesopotamian)",
+      "discoveredAt": 437
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Middle Eastern mythology",
+      "iso": "IQ",
+      "label": "Middle Eastern mythology",
+      "discoveredFrom": "Ghosts in Mesopotamian religions",
+      "discoveredAt": 437
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Iranian folklore",
+      "iso": "IR",
+      "label": "Iranian folklore",
+      "discoveredFrom": "Arzhang Div",
+      "discoveredAt": 437
     }
   ],
-  "totalAdded": 1274,
-  "runs": 437,
-  "lastRun": "2026-06-18T14:49:26.172Z",
-  "lastDiscoveredIndex": 66
+  "totalAdded": 1289,
+  "runs": 438,
+  "lastRun": "2026-06-18T20:12:41.482Z",
+  "lastDiscoveredIndex": 69
 }
