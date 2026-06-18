@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 10,
+  "lastCategoryIndex": 13,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2016,7 +2016,28 @@
     23194446,
     5226277,
     291324,
-    1880839
+    1880839,
+    2651847,
+    254956,
+    63954210,
+    429548,
+    54052025,
+    22878971,
+    49179231,
+    41497341,
+    83076,
+    73386479,
+    36454656,
+    19378572,
+    78152,
+    78156,
+    78158,
+    26448165,
+    71915268,
+    28858450,
+    58581269,
+    44464881,
+    44464882
   ],
   "discoveredCategories": [
     {
@@ -5946,10 +5967,146 @@
       "label": "Literary fairy tales",
       "discoveredFrom": "The Angel (fairy tale)",
       "discoveredAt": 433
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Chinese gods",
+      "iso": "CN",
+      "label": "Chinese gods",
+      "discoveredFrom": "Dragon King",
+      "discoveredAt": 434
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological animals",
+      "iso": "KR",
+      "label": "Mythological animals",
+      "discoveredFrom": "Gangcheori",
+      "discoveredAt": 434
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Solomon Islands mythology",
+      "iso": "RU",
+      "label": "Solomon Islands mythology",
+      "discoveredFrom": "Hatuibwari",
+      "discoveredAt": 434
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Japanese urban legends",
+      "iso": "JP",
+      "label": "Japanese urban legends",
+      "discoveredFrom": "Kudan (yōkai)",
+      "discoveredAt": 434
+    },
+    {
+      "lang": "en",
+      "cat": "Category:European legendary creatures",
+      "iso": "RU",
+      "label": "European legendary creatures",
+      "discoveredFrom": "Lampago",
+      "discoveredAt": 434
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological lions",
+      "iso": "RU",
+      "label": "Mythological lions",
+      "discoveredFrom": "Lampago",
+      "discoveredAt": 434
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tale stock characters",
+      "iso": "RU",
+      "label": "Fairy tale stock characters",
+      "discoveredFrom": "Uchek Langmeitong",
+      "discoveredAt": 434
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary creatures in popular culture",
+      "iso": "RU",
+      "label": "Legendary creatures in popular culture",
+      "discoveredFrom": "Uchek Langmeitong",
+      "discoveredAt": 434
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Meitei folklore",
+      "iso": "RU",
+      "label": "Meitei folklore",
+      "discoveredFrom": "Uchek Langmeitong",
+      "discoveredAt": 434
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Meitei mythology",
+      "iso": "RU",
+      "label": "Meitei mythology",
+      "discoveredFrom": "Uchek Langmeitong",
+      "discoveredAt": 434
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythical many-headed creatures",
+      "iso": "RU",
+      "label": "Mythical many-headed creatures",
+      "discoveredFrom": "Xiangliu",
+      "discoveredAt": 434
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological and legendary Chinese snakes",
+      "iso": "CN",
+      "label": "Mythological and legendary Chinese snakes",
+      "discoveredFrom": "Xiangliu",
+      "discoveredAt": 434
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Creatures described in the Classic of Mountains and Seas",
+      "iso": "RU",
+      "label": "Creatures described in the Classic of Mountains and Seas",
+      "discoveredFrom": "Zhulong (mythology)",
+      "discoveredAt": 434
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Monsters in Greek mythology",
+      "iso": "GR",
+      "label": "Monsters in Greek mythology",
+      "discoveredFrom": "Aello",
+      "discoveredAt": 434
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Pleiades (Greek mythology)",
+      "iso": "GR",
+      "label": "Pleiades (Greek mythology)",
+      "discoveredFrom": "Celaeno",
+      "discoveredAt": 434
+    },
+    {
+      "lang": "en",
+      "cat": "Category:European witchcraft",
+      "iso": "UA",
+      "label": "European witchcraft",
+      "discoveredFrom": "Vedmak",
+      "discoveredAt": 434
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Witchcraft in Ukraine",
+      "iso": "UA",
+      "label": "Witchcraft in Ukraine",
+      "discoveredFrom": "Molfar",
+      "discoveredAt": 434
     }
   ],
-  "totalAdded": 1232,
-  "runs": 434,
-  "lastRun": "2026-06-17T20:01:51.211Z",
-  "lastDiscoveredIndex": 57
+  "totalAdded": 1244,
+  "runs": 435,
+  "lastRun": "2026-06-18T02:45:08.825Z",
+  "lastDiscoveredIndex": 60
 }
