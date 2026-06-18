@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 13,
+  "lastCategoryIndex": 16,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2037,7 +2037,23 @@
     28858450,
     58581269,
     44464881,
-    44464882
+    44464882,
+    78535,
+    46441574,
+    895970,
+    27319637,
+    30628123,
+    2925145,
+    77362492,
+    15047082,
+    46506127,
+    29215780,
+    87669,
+    2428753,
+    2429521,
+    88057,
+    342084,
+    87438
   ],
   "discoveredCategories": [
     {
@@ -6103,10 +6119,122 @@
       "label": "Witchcraft in Ukraine",
       "discoveredFrom": "Molfar",
       "discoveredAt": 434
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Thessalians",
+      "iso": "GR",
+      "label": "Mythological Thessalians",
+      "discoveredFrom": "Aloadae",
+      "discoveredAt": 435
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Naxian mythology",
+      "iso": "GR",
+      "label": "Naxian mythology",
+      "discoveredFrom": "Aloadae",
+      "discoveredAt": 435
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Patronymics from Greek mythology",
+      "iso": "GR",
+      "label": "Patronymics from Greek mythology",
+      "discoveredFrom": "Aloadae",
+      "discoveredAt": 435
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Demons in Gnosticism",
+      "iso": "GR",
+      "label": "Demons in Gnosticism",
+      "discoveredFrom": "Archon (Gnosticism)",
+      "discoveredAt": 435
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Demons",
+      "iso": "GR",
+      "label": "Demons",
+      "discoveredFrom": "Cacodemon",
+      "discoveredAt": 435
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Demonology",
+      "iso": "GR",
+      "label": "Demonology",
+      "discoveredFrom": "Daimonic",
+      "discoveredAt": 435
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Health gods",
+      "iso": "GR",
+      "label": "Health gods",
+      "discoveredFrom": "Darrhon",
+      "discoveredAt": 435
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sleep gods",
+      "iso": "GR",
+      "label": "Sleep gods",
+      "discoveredFrom": "Epiales",
+      "discoveredAt": 435
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Animals in Norse mythology",
+      "iso": "NO",
+      "label": "Animals in Norse mythology",
+      "discoveredFrom": "Auðumbla",
+      "discoveredAt": 435
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological bovines",
+      "iso": "NO",
+      "label": "Mythological bovines",
+      "discoveredFrom": "Auðumbla",
+      "discoveredAt": 435
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological deer",
+      "iso": "NO",
+      "label": "Mythological deer",
+      "discoveredFrom": "Dáinn, Dvalinn, Duneyrr and Duraþrór",
+      "discoveredAt": 435
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Wolves in Norse mythology",
+      "iso": "NO",
+      "label": "Wolves in Norse mythology",
+      "discoveredFrom": "Garmr",
+      "discoveredAt": 435
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological pigs",
+      "iso": "NO",
+      "label": "Mythological pigs",
+      "discoveredFrom": "Gullinbursti",
+      "discoveredAt": 435
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological caprids",
+      "iso": "NO",
+      "label": "Mythological caprids",
+      "discoveredFrom": "Heiðrún",
+      "discoveredAt": 435
     }
   ],
-  "totalAdded": 1244,
-  "runs": 435,
-  "lastRun": "2026-06-18T02:45:08.825Z",
-  "lastDiscoveredIndex": 60
+  "totalAdded": 1259,
+  "runs": 436,
+  "lastRun": "2026-06-18T10:07:33.435Z",
+  "lastDiscoveredIndex": 63
 }
