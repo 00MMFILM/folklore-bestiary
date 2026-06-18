@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 16,
+  "lastCategoryIndex": 19,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2053,7 +2053,32 @@
     2429521,
     88057,
     342084,
-    87438
+    87438,
+    28601,
+    4642330,
+    30676313,
+    2185587,
+    6048039,
+    2809255,
+    683317,
+    2602561,
+    13833211,
+    3887226,
+    779468,
+    48268803,
+    59017566,
+    43362910,
+    985394,
+    81854382,
+    221604,
+    74875636,
+    45712300,
+    541448,
+    6873293,
+    5714228,
+    66511402,
+    5402523,
+    78228580
   ],
   "discoveredCategories": [
     {
@@ -6231,10 +6256,162 @@
       "label": "Mythological caprids",
       "discoveredFrom": "Heiðrún",
       "discoveredAt": 435
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Irish fairy tales",
+      "iso": "IE",
+      "label": "Irish fairy tales",
+      "discoveredFrom": "Aos Sí",
+      "discoveredAt": 436
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Irish legendary creatures",
+      "iso": "IE",
+      "label": "Irish legendary creatures",
+      "discoveredFrom": "Aos Sí",
+      "discoveredAt": 436
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Scottish mythology",
+      "iso": "GB",
+      "label": "Scottish mythology",
+      "discoveredFrom": "Aos Sí",
+      "discoveredAt": 436
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Characters in Irish mythology",
+      "iso": "IE",
+      "label": "Characters in Irish mythology",
+      "discoveredFrom": "List of Irish mythological figures",
+      "discoveredAt": 436
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fantasy creatures",
+      "iso": "IE",
+      "label": "Fantasy creatures",
+      "discoveredFrom": "List of Irish mythological figures",
+      "discoveredAt": 436
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Irish gods",
+      "iso": "IE",
+      "label": "Irish gods",
+      "discoveredFrom": "Abarta",
+      "discoveredAt": 436
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Irish ghosts",
+      "iso": "IE",
+      "label": "Irish ghosts",
+      "discoveredFrom": "Bánánach",
+      "discoveredAt": 436
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Manx folklore",
+      "iso": "IE",
+      "label": "Manx folklore",
+      "discoveredFrom": "Buggane",
+      "discoveredAt": 436
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Manx legendary creatures",
+      "iso": "IE",
+      "label": "Manx legendary creatures",
+      "discoveredFrom": "Buggane",
+      "discoveredAt": 436
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Christian folklore",
+      "iso": "FI",
+      "label": "Christian folklore",
+      "discoveredFrom": "Joulupukki",
+      "discoveredAt": 436
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Karelian-Finnish folklore",
+      "iso": "FI",
+      "label": "Karelian-Finnish folklore",
+      "discoveredFrom": "Laurukainen",
+      "discoveredAt": 436
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about child abandonment",
+      "iso": "FI",
+      "label": "Fairy tales about child abandonment",
+      "discoveredFrom": "Mielikki and Her Nine Sons",
+      "discoveredAt": 436
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about twins",
+      "iso": "FI",
+      "label": "Fairy tales about twins",
+      "discoveredFrom": "Mielikki and Her Nine Sons",
+      "discoveredAt": 436
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Finnish fairy tales",
+      "iso": "FI",
+      "label": "Finnish fairy tales",
+      "discoveredFrom": "Mielikki and Her Nine Sons",
+      "discoveredAt": 436
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore featuring nakedness",
+      "iso": "FI",
+      "label": "Folklore featuring nakedness",
+      "discoveredFrom": "Mielikki and Her Nine Sons",
+      "discoveredAt": 436
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Bulgarian folklore",
+      "iso": "RU",
+      "label": "Bulgarian folklore",
+      "discoveredFrom": "Raskovnik",
+      "discoveredAt": 436
+    },
+    {
+      "lang": "en",
+      "cat": "Category:North Macedonia folklore",
+      "iso": "JP",
+      "label": "North Macedonia folklore",
+      "discoveredFrom": "Raskovnik",
+      "discoveredAt": 436
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Vampires in written fiction",
+      "iso": "RU",
+      "label": "Vampires in written fiction",
+      "discoveredFrom": "Vourdalak",
+      "discoveredAt": 436
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Slavic legends",
+      "iso": "RU",
+      "label": "Slavic legends",
+      "discoveredFrom": "Peter Klepec bibliography",
+      "discoveredAt": 436
     }
   ],
-  "totalAdded": 1259,
-  "runs": 436,
-  "lastRun": "2026-06-18T10:07:33.435Z",
-  "lastDiscoveredIndex": 63
+  "totalAdded": 1274,
+  "runs": 437,
+  "lastRun": "2026-06-18T14:49:26.172Z",
+  "lastDiscoveredIndex": 66
 }
