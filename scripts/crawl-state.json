@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 28,
+  "lastCategoryIndex": 31,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2146,7 +2146,29 @@
     25009911,
     1066204,
     29047981,
-    81102599
+    81102599,
+    79170282,
+    5910104,
+    56547958,
+    25257794,
+    34322069,
+    95208,
+    16792404,
+    13704439,
+    2273268,
+    6729000,
+    82427177,
+    535179,
+    30707889,
+    99366,
+    47324263,
+    99390,
+    44361061,
+    97079,
+    25910814,
+    60399488,
+    72662996,
+    623133
   ],
   "discoveredCategories": [
     {
@@ -6772,10 +6794,66 @@
       "label": "Greek folklore",
       "discoveredFrom": "Dodola and Perperuna",
       "discoveredAt": 439
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Australian folklore",
+      "iso": "AU",
+      "label": "Australian folklore",
+      "discoveredFrom": "The Giant Devil Dingo",
+      "discoveredAt": 440
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological marsupials",
+      "iso": "AU",
+      "label": "Mythological marsupials",
+      "discoveredFrom": "Kinie Ger",
+      "discoveredAt": 440
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Oracular gods",
+      "iso": "NG",
+      "label": "Oracular gods",
+      "discoveredFrom": "Ọrunmila",
+      "discoveredAt": 440
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Wisdom gods",
+      "iso": "NG",
+      "label": "Wisdom gods",
+      "discoveredFrom": "Ọrunmila",
+      "discoveredAt": 440
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Dance gods",
+      "iso": "NG",
+      "label": "Dance gods",
+      "discoveredFrom": "Shango",
+      "discoveredAt": 440
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Plague gods",
+      "iso": "NG",
+      "label": "Plague gods",
+      "discoveredFrom": "Sopona",
+      "discoveredAt": 440
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Illyrian goddesses",
+      "iso": "AL",
+      "label": "Illyrian goddesses",
+      "discoveredFrom": "E Bukura e Detit",
+      "discoveredAt": 440
     }
   ],
-  "totalAdded": 1319,
-  "runs": 440,
-  "lastRun": "2026-06-19T10:14:03.831Z",
-  "lastDiscoveredIndex": 75
+  "totalAdded": 1334,
+  "runs": 441,
+  "lastRun": "2026-06-19T14:45:06.426Z",
+  "lastDiscoveredIndex": 78
 }
