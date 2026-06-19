@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 31,
+  "lastCategoryIndex": 34,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2168,7 +2168,28 @@
     25910814,
     60399488,
     72662996,
-    623133
+    623133,
+    3075339,
+    51394731,
+    5589451,
+    5260108,
+    664308,
+    8566392,
+    65774055,
+    42225561,
+    4055192,
+    13859138,
+    1917222,
+    73515846,
+    40747645,
+    67759963,
+    54705522,
+    18301791,
+    68313841,
+    1791292,
+    2017492,
+    868191,
+    848053
   ],
   "discoveredCategories": [
     {
@@ -6850,10 +6871,146 @@
       "label": "Illyrian goddesses",
       "discoveredFrom": "E Bukura e Detit",
       "discoveredAt": 440
+    },
+    {
+      "lang": "en",
+      "cat": "Category:African demons",
+      "iso": "ZA",
+      "label": "African demons",
+      "discoveredFrom": "Amafufunyana",
+      "discoveredAt": 441
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Spirit possession",
+      "iso": "ZA",
+      "label": "Spirit possession",
+      "discoveredFrom": "Amafufunyana",
+      "discoveredAt": 441
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Snake goddesses",
+      "iso": "ZA",
+      "label": "Snake goddesses",
+      "discoveredFrom": "Mamlambo",
+      "discoveredAt": 441
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Zulu goddesses",
+      "iso": "ZA",
+      "label": "Zulu goddesses",
+      "discoveredFrom": "Mamlambo",
+      "discoveredAt": 441
+    },
+    {
+      "lang": "en",
+      "cat": "Category:South African ghosts",
+      "iso": "ZA",
+      "label": "South African ghosts",
+      "discoveredFrom": "Tokoloshe",
+      "discoveredAt": 441
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sprites (folklore)",
+      "iso": "ZA",
+      "label": "Sprites (folklore)",
+      "discoveredFrom": "Tokoloshe",
+      "discoveredAt": 441
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Estonian legendary creatures",
+      "iso": "AL",
+      "label": "Estonian legendary creatures",
+      "discoveredFrom": "Maa-alused",
+      "discoveredAt": 441
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Cherokee legendary creatures",
+      "iso": "US",
+      "label": "Cherokee legendary creatures",
+      "discoveredFrom": "Nûñnë'hï",
+      "discoveredAt": 441
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Dutch folklore",
+      "iso": "AL",
+      "label": "Dutch folklore",
+      "discoveredFrom": "Witte Wieven",
+      "discoveredAt": 441
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Dutch legendary creatures",
+      "iso": "AL",
+      "label": "Dutch legendary creatures",
+      "discoveredFrom": "Witte Wieven",
+      "discoveredAt": 441
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of the Benelux",
+      "iso": "AL",
+      "label": "Folklore of the Benelux",
+      "discoveredFrom": "Witte Wieven",
+      "discoveredAt": 441
+    },
+    {
+      "lang": "en",
+      "cat": "Category:German legendary creatures",
+      "iso": "DE",
+      "label": "German legendary creatures",
+      "discoveredFrom": "Witte Wiwer",
+      "discoveredAt": 441
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological archetypes",
+      "iso": "AL",
+      "label": "Mythological archetypes",
+      "discoveredFrom": "List of earth deities",
+      "discoveredAt": 441
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Personifications in Norse mythology",
+      "iso": "NO",
+      "label": "Personifications in Norse mythology",
+      "discoveredFrom": "Fjörgyn and Fjörgynn",
+      "discoveredAt": 441
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Igbo goddesses",
+      "iso": "AL",
+      "label": "Igbo goddesses",
+      "discoveredFrom": "Ala (odinani)",
+      "discoveredAt": 441
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Justice goddesses",
+      "iso": "AL",
+      "label": "Justice goddesses",
+      "discoveredFrom": "Ala (odinani)",
+      "discoveredAt": 441
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Basque goddesses",
+      "iso": "ES",
+      "label": "Basque goddesses",
+      "discoveredFrom": "Amalur",
+      "discoveredAt": 441
     }
   ],
-  "totalAdded": 1334,
-  "runs": 441,
-  "lastRun": "2026-06-19T14:45:06.426Z",
-  "lastDiscoveredIndex": 78
+  "totalAdded": 1349,
+  "runs": 442,
+  "lastRun": "2026-06-19T19:27:37.930Z",
+  "lastDiscoveredIndex": 81
 }
