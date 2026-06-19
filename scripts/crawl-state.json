@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 25,
+  "lastCategoryIndex": 28,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2112,7 +2112,41 @@
     54558454,
     82774918,
     54161237,
-    36963839
+    36963839,
+    82569450,
+    4214118,
+    6986591,
+    57751898,
+    1968363,
+    2060228,
+    35588535,
+    1246795,
+    81625705,
+    60115025,
+    28172,
+    189246,
+    52411365,
+    70140088,
+    27564393,
+    64456440,
+    44641283,
+    78346942,
+    33188286,
+    4279993,
+    53129059,
+    82125972,
+    80454925,
+    19356698,
+    25627206,
+    82225635,
+    44248667,
+    26656790,
+    77509310,
+    18325105,
+    25009911,
+    1066204,
+    29047981,
+    81102599
   ],
   "discoveredCategories": [
     {
@@ -6586,10 +6620,162 @@
       "label": "Mythological creatures",
       "discoveredFrom": "Kong koi",
       "discoveredAt": 438
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Brazilian folklore",
+      "iso": "BR",
+      "label": "Brazilian folklore",
+      "discoveredFrom": "The Hairy Leg",
+      "discoveredAt": 439
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Brazilian ghosts",
+      "iso": "BR",
+      "label": "Brazilian ghosts",
+      "discoveredFrom": "The Hairy Leg",
+      "discoveredAt": 439
+    },
+    {
+      "lang": "en",
+      "cat": "Category:South American ghosts",
+      "iso": "US",
+      "label": "South American ghosts",
+      "discoveredFrom": "The Hairy Leg",
+      "discoveredAt": 439
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ghost animals",
+      "iso": "BR",
+      "label": "Ghost animals",
+      "discoveredFrom": "Headless Mule",
+      "discoveredAt": 439
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Canadian ghosts",
+      "iso": "BR",
+      "label": "Canadian ghosts",
+      "discoveredFrom": "White Lady",
+      "discoveredAt": 439
+    },
+    {
+      "lang": "en",
+      "cat": "Category:European ghosts",
+      "iso": "BR",
+      "label": "European ghosts",
+      "discoveredFrom": "White Lady",
+      "discoveredAt": 439
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Guaraní legendary creatures",
+      "iso": "BR",
+      "label": "Guaraní legendary creatures",
+      "discoveredFrom": "Anhangá",
+      "discoveredAt": 439
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Indigenous Amazonian legendary creatures",
+      "iso": "BR",
+      "label": "Indigenous Amazonian legendary creatures",
+      "discoveredFrom": "Anhangá",
+      "discoveredAt": 439
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Tupí legendary creatures",
+      "iso": "BR",
+      "label": "Tupí legendary creatures",
+      "discoveredFrom": "Anhangá",
+      "discoveredAt": 439
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Indigenous South American legendary creatures",
+      "iso": "US",
+      "label": "Indigenous South American legendary creatures",
+      "discoveredFrom": "Mapinguari",
+      "discoveredAt": 439
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mammal cryptids",
+      "iso": "BR",
+      "label": "Mammal cryptids",
+      "discoveredFrom": "Mapinguari",
+      "discoveredAt": 439
+    },
+    {
+      "lang": "en",
+      "cat": "Category:German ghosts",
+      "iso": "DE",
+      "label": "German ghosts",
+      "discoveredFrom": "Bieresel",
+      "discoveredAt": 439
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about dwarves",
+      "iso": "DE",
+      "label": "Fairy tales about dwarves",
+      "discoveredFrom": "The Cold Heart",
+      "discoveredAt": 439
+    },
+    {
+      "lang": "en",
+      "cat": "Category:German literary fairy tales",
+      "iso": "DE",
+      "label": "German literary fairy tales",
+      "discoveredFrom": "The Cold Heart",
+      "discoveredAt": 439
+    },
+    {
+      "lang": "en",
+      "cat": "Category:German legends",
+      "iso": "DE",
+      "label": "German legends",
+      "discoveredFrom": "Cultural depictions of Frederick Barbarossa",
+      "discoveredAt": 439
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Books about folklore",
+      "iso": "DE",
+      "label": "Books about folklore",
+      "discoveredFrom": "Deutsche Sagen",
+      "discoveredAt": 439
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore",
+      "iso": "CZ",
+      "label": "Folklore",
+      "discoveredFrom": "Petőfi Sándor MME Pancsova",
+      "discoveredAt": 439
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Presidents of the American Folklore Society",
+      "iso": "US",
+      "label": "Presidents of the American Folklore Society",
+      "discoveredFrom": "Linda Dégh",
+      "discoveredAt": 439
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Greek folklore",
+      "iso": "GR",
+      "label": "Greek folklore",
+      "discoveredFrom": "Dodola and Perperuna",
+      "discoveredAt": 439
     }
   ],
-  "totalAdded": 1304,
-  "runs": 439,
-  "lastRun": "2026-06-19T03:29:18.964Z",
-  "lastDiscoveredIndex": 72
+  "totalAdded": 1319,
+  "runs": 440,
+  "lastRun": "2026-06-19T10:14:03.831Z",
+  "lastDiscoveredIndex": 75
 }
