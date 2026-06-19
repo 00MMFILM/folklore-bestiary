@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 22,
+  "lastCategoryIndex": 25,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2094,7 +2094,25 @@
     62772531,
     13318328,
     53591214,
-    5090938
+    5090938,
+    19325674,
+    12752627,
+    19258000,
+    19326054,
+    19341327,
+    19341496,
+    456145,
+    2581996,
+    19298959,
+    12759010,
+    39373727,
+    28233160,
+    28232993,
+    38397666,
+    54558454,
+    82774918,
+    54161237,
+    36963839
   ],
   "discoveredCategories": [
     {
@@ -6472,10 +6490,106 @@
       "label": "Iranian folklore",
       "discoveredFrom": "Arzhang Div",
       "discoveredAt": 437
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Philippine demons",
+      "iso": "PH",
+      "label": "Philippine demons",
+      "discoveredFrom": "Amalanhig",
+      "discoveredAt": 438
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Visayan mythology",
+      "iso": "PH",
+      "label": "Visayan mythology",
+      "discoveredFrom": "Amalanhig",
+      "discoveredAt": 438
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sleep goddesses",
+      "iso": "PH",
+      "label": "Sleep goddesses",
+      "discoveredFrom": "Batibat",
+      "discoveredAt": 438
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Tagalog goddesses",
+      "iso": "PH",
+      "label": "Tagalog goddesses",
+      "discoveredFrom": "Batibat",
+      "discoveredAt": 438
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ghost children",
+      "iso": "PH",
+      "label": "Ghost children",
+      "discoveredFrom": "Tiyanak",
+      "discoveredAt": 438
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Philippine ghosts",
+      "iso": "PH",
+      "label": "Philippine ghosts",
+      "discoveredFrom": "Tiyanak",
+      "discoveredAt": 438
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Javanese mythology",
+      "iso": "ID",
+      "label": "Javanese mythology",
+      "discoveredFrom": "Sundel bolong",
+      "discoveredAt": 438
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Thai folklore",
+      "iso": "TH",
+      "label": "Thai folklore",
+      "discoveredFrom": "Ghosts in Thai culture",
+      "discoveredAt": 438
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Thai ghosts",
+      "iso": "TH",
+      "label": "Thai ghosts",
+      "discoveredFrom": "Ghosts in Thai culture",
+      "discoveredAt": 438
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological cats",
+      "iso": "TH",
+      "label": "Mythological cats",
+      "discoveredFrom": "Cha kla",
+      "discoveredAt": 438
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Atmospheric ghost lights",
+      "iso": "TH",
+      "label": "Atmospheric ghost lights",
+      "discoveredFrom": "Khamot",
+      "discoveredAt": 438
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological creatures",
+      "iso": "TH",
+      "label": "Mythological creatures",
+      "discoveredFrom": "Kong koi",
+      "discoveredAt": 438
     }
   ],
-  "totalAdded": 1289,
-  "runs": 438,
-  "lastRun": "2026-06-18T20:12:41.482Z",
-  "lastDiscoveredIndex": 69
+  "totalAdded": 1304,
+  "runs": 439,
+  "lastRun": "2026-06-19T03:29:18.964Z",
+  "lastDiscoveredIndex": 72
 }
