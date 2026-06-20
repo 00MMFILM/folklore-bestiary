@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 34,
+  "lastCategoryIndex": 37,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2189,7 +2189,25 @@
     1791292,
     2017492,
     868191,
-    848053
+    848053,
+    2412797,
+    1031292,
+    6274017,
+    74876041,
+    74919573,
+    74875242,
+    666091,
+    6104538,
+    59998311,
+    74883578,
+    100316,
+    20737087,
+    85122,
+    83758,
+    7401,
+    1478588,
+    84920,
+    456180
   ],
   "discoveredCategories": [
     {
@@ -7007,10 +7025,114 @@
       "label": "Basque goddesses",
       "discoveredFrom": "Amalur",
       "discoveredAt": 441
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2000s monster movies",
+      "iso": "FR",
+      "label": "2000s monster movies",
+      "discoveredFrom": "Brotherhood of the Wolf",
+      "discoveredAt": 442
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Breton legendary creatures",
+      "iso": "FR",
+      "label": "Breton legendary creatures",
+      "discoveredFrom": "Bugul Noz",
+      "discoveredAt": 442
+    },
+    {
+      "lang": "en",
+      "cat": "Category:French folklore",
+      "iso": "FR",
+      "label": "French folklore",
+      "discoveredFrom": "Bugul Noz",
+      "discoveredAt": 442
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Little people (mythology)",
+      "iso": "FR",
+      "label": "Little people (mythology)",
+      "discoveredFrom": "Fions",
+      "discoveredAt": 442
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mining folklore",
+      "iso": "FR",
+      "label": "Mining folklore",
+      "discoveredFrom": "Fions",
+      "discoveredAt": 442
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Welsh mythology",
+      "iso": "GB",
+      "label": "Welsh mythology",
+      "discoveredFrom": "Morgen (mythological creature)",
+      "discoveredAt": 442
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary horses",
+      "iso": "FR",
+      "label": "Legendary horses",
+      "discoveredFrom": "Morvarc'h",
+      "discoveredAt": 442
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary creatures in Roman mythology",
+      "iso": "IT",
+      "label": "Legendary creatures in Roman mythology",
+      "discoveredFrom": "Abarimon",
+      "discoveredAt": 442
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Children of Vulcan (mythology)",
+      "iso": "IT",
+      "label": "Children of Vulcan (mythology)",
+      "discoveredFrom": "Caca (mythology)",
+      "discoveredAt": 442
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fire goddesses",
+      "iso": "IT",
+      "label": "Fire goddesses",
+      "discoveredFrom": "Caca (mythology)",
+      "discoveredAt": 442
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fire-breathing monsters",
+      "iso": "IT",
+      "label": "Fire-breathing monsters",
+      "discoveredFrom": "Cacus",
+      "discoveredAt": 442
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Horses in mythology",
+      "iso": "IT",
+      "label": "Horses in mythology",
+      "discoveredFrom": "Centaur",
+      "discoveredAt": 442
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Medieval European legendary creatures",
+      "iso": "IT",
+      "label": "Medieval European legendary creatures",
+      "discoveredFrom": "Crocotta",
+      "discoveredAt": 442
     }
   ],
-  "totalAdded": 1349,
-  "runs": 442,
-  "lastRun": "2026-06-19T19:27:37.930Z",
-  "lastDiscoveredIndex": 81
+  "totalAdded": 1364,
+  "runs": 443,
+  "lastRun": "2026-06-20T02:34:54.487Z",
+  "lastDiscoveredIndex": 84
 }
