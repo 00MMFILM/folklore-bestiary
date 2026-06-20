@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 37,
+  "lastCategoryIndex": 40,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2207,7 +2207,34 @@
     7401,
     1478588,
     84920,
-    456180
+    456180,
+    46920599,
+    31871433,
+    10436787,
+    7925988,
+    38153037,
+    7925915,
+    27933782,
+    12479581,
+    18803202,
+    6621280,
+    23792161,
+    17230238,
+    6159931,
+    37961296,
+    53869348,
+    2525251,
+    5975680,
+    52733522,
+    1399633,
+    600444,
+    867937,
+    7377747,
+    7405362,
+    79691200,
+    2401599,
+    79553,
+    8076871
   ],
   "discoveredCategories": [
     {
@@ -7129,10 +7156,138 @@
       "label": "Medieval European legendary creatures",
       "discoveredFrom": "Crocotta",
       "discoveredAt": 442
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Asturian mythology",
+      "iso": "ES",
+      "label": "Asturian mythology",
+      "discoveredFrom": "Cuélebre",
+      "discoveredAt": 443
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Witchcraft in folklore and mythology",
+      "iso": "ES",
+      "label": "Witchcraft in folklore and mythology",
+      "discoveredFrom": "Guajona",
+      "discoveredAt": 443
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Galician mythology",
+      "iso": "ES",
+      "label": "Galician mythology",
+      "discoveredFrom": "Nuberu",
+      "discoveredAt": 443
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Spanish mythology",
+      "iso": "ES",
+      "label": "Spanish mythology",
+      "discoveredFrom": "Nuberu",
+      "discoveredAt": 443
+    },
+    {
+      "lang": "en",
+      "cat": "Category:African-American folklore",
+      "iso": "US",
+      "label": "African-American folklore",
+      "discoveredFrom": "Br'er Fox and Br'er Bear",
+      "discoveredAt": 443
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore characters",
+      "iso": "US",
+      "label": "Folklore characters",
+      "discoveredFrom": "Br'er Fox and Br'er Bear",
+      "discoveredAt": 443
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of the Southern United States",
+      "iso": "US",
+      "label": "Folklore of the Southern United States",
+      "discoveredFrom": "Br'er Fox and Br'er Bear",
+      "discoveredAt": 443
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of the United States",
+      "iso": "US",
+      "label": "Folklore of the United States",
+      "discoveredFrom": "Br'er Fox and Br'er Bear",
+      "discoveredAt": 443
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Children's books based on American folklore",
+      "iso": "US",
+      "label": "Children's books based on American folklore",
+      "discoveredFrom": "Bruh Rabbit and the Tar Baby Girl",
+      "discoveredAt": 443
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Arthurian legend",
+      "iso": "US",
+      "label": "Arthurian legend",
+      "discoveredFrom": "Afanc",
+      "discoveredAt": 443
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological rodents",
+      "iso": "US",
+      "label": "Mythological rodents",
+      "discoveredFrom": "Afanc",
+      "discoveredAt": 443
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ainu legendary creatures",
+      "iso": "US",
+      "label": "Ainu legendary creatures",
+      "discoveredFrom": "Akkorokamui",
+      "discoveredAt": 443
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological arthropods",
+      "iso": "US",
+      "label": "Mythological arthropods",
+      "discoveredFrom": "Cancer (astrology)",
+      "discoveredAt": 443
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Dragons in Greek mythology",
+      "iso": "GR",
+      "label": "Dragons in Greek mythology",
+      "discoveredFrom": "Cetus (mythology)",
+      "discoveredAt": 443
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Greek sea gods",
+      "iso": "GR",
+      "label": "Greek sea gods",
+      "discoveredFrom": "Cetus (mythology)",
+      "discoveredAt": 443
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mapuche gods",
+      "iso": "US",
+      "label": "Mapuche gods",
+      "discoveredFrom": "Coi Coi-Vilu",
+      "discoveredAt": 443
     }
   ],
-  "totalAdded": 1364,
-  "runs": 443,
-  "lastRun": "2026-06-20T02:34:54.487Z",
-  "lastDiscoveredIndex": 84
+  "totalAdded": 1379,
+  "runs": 444,
+  "lastRun": "2026-06-20T08:42:22.095Z",
+  "lastDiscoveredIndex": 87
 }
