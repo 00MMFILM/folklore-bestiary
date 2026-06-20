@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 43,
+  "lastCategoryIndex": 46,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2257,7 +2257,25 @@
     1847936,
     439244,
     2017486,
-    79265263
+    79265263,
+    8076804,
+    24427497,
+    2472482,
+    8628508,
+    79241773,
+    3976822,
+    8093012,
+    24670092,
+    31938,
+    1246559,
+    35769732,
+    16176713,
+    7347710,
+    50560,
+    395802,
+    868475,
+    52098504,
+    71409538
   ],
   "discoveredCategories": [
     {
@@ -7507,10 +7525,106 @@
       "label": "Bangladeshi folklore",
       "discoveredFrom": "Kajalrekha (Bengali folk ballad)",
       "discoveredAt": 444
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Latin American folklore",
+      "iso": "US",
+      "label": "Latin American folklore",
+      "discoveredFrom": "Anchimayen",
+      "discoveredAt": 445
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mapuche legendary creatures",
+      "iso": "CL",
+      "label": "Mapuche legendary creatures",
+      "discoveredFrom": "Anchimayen",
+      "discoveredAt": 445
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Argentine folklore",
+      "iso": "CL",
+      "label": "Argentine folklore",
+      "discoveredFrom": "Colo Colo (mythology)",
+      "discoveredAt": 445
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Chilean folklore",
+      "iso": "CL",
+      "label": "Chilean folklore",
+      "discoveredFrom": "Colo Colo (mythology)",
+      "discoveredAt": 445
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Chilote legendary creatures",
+      "iso": "CL",
+      "label": "Chilote legendary creatures",
+      "discoveredFrom": "Piuchén",
+      "discoveredAt": 445
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Chilean legends",
+      "iso": "CL",
+      "label": "Chilean legends",
+      "discoveredFrom": "Abuelito Huenteao",
+      "discoveredAt": 445
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mapuche legends",
+      "iso": "CL",
+      "label": "Mapuche legends",
+      "discoveredFrom": "Abuelito Huenteao",
+      "discoveredAt": 445
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Tutelary gods",
+      "iso": "CL",
+      "label": "Tutelary gods",
+      "discoveredFrom": "Abuelito Huenteao",
+      "discoveredAt": 445
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Armenian legendary creatures",
+      "iso": "LV",
+      "label": "Armenian legendary creatures",
+      "discoveredFrom": "Dakhanavar",
+      "discoveredAt": 445
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Caribbean legendary creatures",
+      "iso": "LV",
+      "label": "Caribbean legendary creatures",
+      "discoveredFrom": "Hupia",
+      "discoveredAt": 445
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Taíno mythology",
+      "iso": "LV",
+      "label": "Taíno mythology",
+      "discoveredFrom": "Hupia",
+      "discoveredAt": 445
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Etruscan goddesses",
+      "iso": "LV",
+      "label": "Etruscan goddesses",
+      "discoveredFrom": "Mania (deity)",
+      "discoveredAt": 445
     }
   ],
-  "totalAdded": 1389,
-  "runs": 445,
-  "lastRun": "2026-06-20T13:30:30.922Z",
-  "lastDiscoveredIndex": 90
+  "totalAdded": 1404,
+  "runs": 446,
+  "lastRun": "2026-06-20T19:11:17.915Z",
+  "lastDiscoveredIndex": 93
 }
