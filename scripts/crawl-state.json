@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 40,
+  "lastCategoryIndex": 43,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2234,7 +2234,30 @@
     79691200,
     2401599,
     79553,
-    8076871
+    8076871,
+    54514846,
+    740,
+    9996449,
+    77217156,
+    5912101,
+    2020634,
+    1351255,
+    12737026,
+    593704,
+    74773965,
+    806077,
+    1794462,
+    2119282,
+    79924067,
+    32553564,
+    77447061,
+    739097,
+    28104080,
+    20646497,
+    1847936,
+    439244,
+    2017486,
+    79265263
   ],
   "discoveredCategories": [
     {
@@ -7284,10 +7307,210 @@
       "label": "Mapuche gods",
       "discoveredFrom": "Coi Coi-Vilu",
       "discoveredAt": 443
+    },
+    {
+      "lang": "en",
+      "cat": "Category:People from Godalming",
+      "iso": "CN",
+      "label": "People from Godalming",
+      "discoveredFrom": "Ginny Fiennes",
+      "discoveredAt": 444
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Lithuanian folklore characters",
+      "iso": "LV",
+      "label": "Lithuanian folklore characters",
+      "discoveredFrom": "Aitvaras",
+      "discoveredAt": 444
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological birds",
+      "iso": "LV",
+      "label": "Mythological birds",
+      "discoveredFrom": "Aitvaras",
+      "discoveredAt": 444
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fortune goddesses",
+      "iso": "LV",
+      "label": "Fortune goddesses",
+      "discoveredFrom": "Lauma",
+      "discoveredAt": 444
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Latvian goddesses",
+      "iso": "LV",
+      "label": "Latvian goddesses",
+      "discoveredFrom": "Lauma",
+      "discoveredAt": 444
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Lithuanian goddesses",
+      "iso": "LV",
+      "label": "Lithuanian goddesses",
+      "discoveredFrom": "Lauma",
+      "discoveredAt": 444
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Textiles in folklore",
+      "iso": "LV",
+      "label": "Textiles in folklore",
+      "discoveredFrom": "Lauma",
+      "discoveredAt": 444
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Time and fate goddesses",
+      "iso": "LV",
+      "label": "Time and fate goddesses",
+      "discoveredFrom": "Lauma",
+      "discoveredAt": 444
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Lithuanian gods",
+      "iso": "LV",
+      "label": "Lithuanian gods",
+      "discoveredFrom": "Žaltys",
+      "discoveredAt": 444
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Asian fairy tales",
+      "iso": "LV",
+      "label": "Asian fairy tales",
+      "discoveredFrom": "A Dead Husband",
+      "discoveredAt": 444
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about talking objects",
+      "iso": "LV",
+      "label": "Fairy tales about talking objects",
+      "discoveredFrom": "The Dead Prince and the Talking Doll",
+      "discoveredAt": 444
+    },
+    {
+      "lang": "en",
+      "cat": "Category:False hero",
+      "iso": "LV",
+      "label": "False hero",
+      "discoveredFrom": "The Dead Prince and the Talking Doll",
+      "discoveredAt": 444
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Indian fairy tales",
+      "iso": "IN",
+      "label": "Indian fairy tales",
+      "discoveredFrom": "The Dead Prince and the Talking Doll",
+      "discoveredAt": 444
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Elean mythology",
+      "iso": "LV",
+      "label": "Elean mythology",
+      "discoveredFrom": "Endymion (mythology)",
+      "discoveredAt": 444
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Family of Calyce (mythology)",
+      "iso": "LV",
+      "label": "Family of Calyce (mythology)",
+      "discoveredFrom": "Endymion (mythology)",
+      "discoveredAt": 444
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Eleans",
+      "iso": "LV",
+      "label": "Mythological Eleans",
+      "discoveredFrom": "Endymion (mythology)",
+      "discoveredAt": 444
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological hunters",
+      "iso": "LV",
+      "label": "Mythological hunters",
+      "discoveredFrom": "Endymion (mythology)",
+      "discoveredAt": 444
+    },
+    {
+      "lang": "en",
+      "cat": "Category:South Korean folklore",
+      "iso": "KR",
+      "label": "South Korean folklore",
+      "discoveredFrom": "Fan death",
+      "discoveredAt": 444
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Technology folklore",
+      "iso": "LV",
+      "label": "Technology folklore",
+      "discoveredFrom": "Fan death",
+      "discoveredAt": 444
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Demons in Christianity",
+      "iso": "LV",
+      "label": "Demons in Christianity",
+      "discoveredFrom": "Incubus",
+      "discoveredAt": 444
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Demons in Judaism",
+      "iso": "LV",
+      "label": "Demons in Judaism",
+      "discoveredFrom": "Incubus",
+      "discoveredAt": 444
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Jewish legendary creatures",
+      "iso": "LV",
+      "label": "Jewish legendary creatures",
+      "discoveredFrom": "Incubus",
+      "discoveredAt": 444
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological rapists",
+      "iso": "LV",
+      "label": "Mythological rapists",
+      "discoveredFrom": "Incubus",
+      "discoveredAt": 444
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Basque gods",
+      "iso": "ES",
+      "label": "Basque gods",
+      "discoveredFrom": "Inguma",
+      "discoveredAt": 444
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Bangladeshi folklore",
+      "iso": "LV",
+      "label": "Bangladeshi folklore",
+      "discoveredFrom": "Kajalrekha (Bengali folk ballad)",
+      "discoveredAt": 444
     }
   ],
-  "totalAdded": 1379,
-  "runs": 444,
-  "lastRun": "2026-06-20T08:42:22.095Z",
-  "lastDiscoveredIndex": 87
+  "totalAdded": 1389,
+  "runs": 445,
+  "lastRun": "2026-06-20T13:30:30.922Z",
+  "lastDiscoveredIndex": 90
 }
