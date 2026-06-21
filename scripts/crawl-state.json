@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 49,
+  "lastCategoryIndex": 52,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2300,7 +2300,28 @@
     25188803,
     52558571,
     584169,
-    321098
+    321098,
+    71547579,
+    19137615,
+    842572,
+    47371590,
+    1137789,
+    722971,
+    627269,
+    58208617,
+    15790166,
+    15634043,
+    6022471,
+    5804873,
+    8506464,
+    69305211,
+    5899498,
+    9494309,
+    1565760,
+    71111939,
+    5832958,
+    6441251,
+    6742142
   ],
   "discoveredCategories": [
     {
@@ -7734,10 +7755,74 @@
       "label": "Legendary Finnish people",
       "discoveredFrom": "Lalli",
       "discoveredAt": 446
+    },
+    {
+      "lang": "en",
+      "cat": "Category:European shamanism",
+      "iso": "EE",
+      "label": "European shamanism",
+      "discoveredFrom": "Gonagas",
+      "discoveredAt": 447
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sámi shamans",
+      "iso": "EE",
+      "label": "Sámi shamans",
+      "discoveredFrom": "Gonagas",
+      "discoveredAt": 447
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Bengali folklore",
+      "iso": "EE",
+      "label": "Bengali folklore",
+      "discoveredFrom": "The Boy with the Moon on his Forehead",
+      "discoveredAt": 447
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Greek fairy tales",
+      "iso": "GR",
+      "label": "Greek fairy tales",
+      "discoveredFrom": "Brother and Sister (Greek fairy tale)",
+      "discoveredAt": 447
+    },
+    {
+      "lang": "en",
+      "cat": "Category:English fairy tales",
+      "iso": "GB",
+      "label": "English fairy tales",
+      "discoveredFrom": "Childe Rowland",
+      "discoveredAt": 447
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about elves",
+      "iso": "EE",
+      "label": "Fairy tales about elves",
+      "discoveredFrom": "Childe Rowland",
+      "discoveredAt": 447
+    },
+    {
+      "lang": "en",
+      "cat": "Category:African fairy tales",
+      "iso": "EE",
+      "label": "African fairy tales",
+      "discoveredFrom": "Dog, and His Human Speech",
+      "discoveredAt": 447
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Serbian fairy tales",
+      "iso": "EE",
+      "label": "Serbian fairy tales",
+      "discoveredFrom": "The Dragon and the Prince",
+      "discoveredAt": 447
     }
   ],
-  "totalAdded": 1419,
-  "runs": 447,
-  "lastRun": "2026-06-21T02:50:39.972Z",
-  "lastDiscoveredIndex": 96
+  "totalAdded": 1433,
+  "runs": 448,
+  "lastRun": "2026-06-21T09:37:26.771Z",
+  "lastDiscoveredIndex": 99
 }
