@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 46,
+  "lastCategoryIndex": 49,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2275,7 +2275,32 @@
     395802,
     868475,
     52098504,
-    71409538
+    71409538,
+    67702232,
+    67720336,
+    74082395,
+    28575,
+    1464487,
+    1607929,
+    6712673,
+    1169759,
+    28318778,
+    229651,
+    7473077,
+    30769199,
+    55617273,
+    58346759,
+    14407812,
+    2212299,
+    236543,
+    28857609,
+    35965100,
+    2410814,
+    9524870,
+    25188803,
+    52558571,
+    584169,
+    321098
   ],
   "discoveredCategories": [
     {
@@ -7621,10 +7646,98 @@
       "label": "Etruscan goddesses",
       "discoveredFrom": "Mania (deity)",
       "discoveredAt": 445
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Estonian goddesses",
+      "iso": "EE",
+      "label": "Estonian goddesses",
+      "discoveredFrom": "Metsaema",
+      "discoveredAt": 446
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Estonian gods",
+      "iso": "EE",
+      "label": "Estonian gods",
+      "discoveredFrom": "Tharapita",
+      "discoveredAt": 446
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Estonian folklore",
+      "iso": "EE",
+      "label": "Estonian folklore",
+      "discoveredFrom": "Toell the Great",
+      "discoveredAt": 446
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Hungarian mythology",
+      "iso": "EE",
+      "label": "Hungarian mythology",
+      "discoveredFrom": "Hungarian mythology",
+      "discoveredAt": 446
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Asian mythology",
+      "iso": "EE",
+      "label": "Asian mythology",
+      "discoveredFrom": "Ob-Ugric creation myth",
+      "discoveredAt": 446
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ugrian mythology",
+      "iso": "EE",
+      "label": "Ugrian mythology",
+      "discoveredFrom": "Ob-Ugric creation myth",
+      "discoveredAt": 446
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Comparative mythology",
+      "iso": "EE",
+      "label": "Comparative mythology",
+      "discoveredFrom": "Proto-Uralic religion",
+      "discoveredAt": 446
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Finno-Ugric mythology in popular culture",
+      "iso": "EE",
+      "label": "Finno-Ugric mythology in popular culture",
+      "discoveredFrom": "The Quest for Kalevala",
+      "discoveredAt": 446
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Animals in mythology",
+      "iso": "FI",
+      "label": "Animals in mythology",
+      "discoveredFrom": "Metsänpeitto",
+      "discoveredAt": 446
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Forests in mythology",
+      "iso": "FI",
+      "label": "Forests in mythology",
+      "discoveredFrom": "Metsänpeitto",
+      "discoveredAt": 446
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Finnish people",
+      "iso": "FI",
+      "label": "Legendary Finnish people",
+      "discoveredFrom": "Lalli",
+      "discoveredAt": 446
     }
   ],
-  "totalAdded": 1404,
-  "runs": 446,
-  "lastRun": "2026-06-20T19:11:17.915Z",
-  "lastDiscoveredIndex": 93
+  "totalAdded": 1419,
+  "runs": 447,
+  "lastRun": "2026-06-21T02:50:39.972Z",
+  "lastDiscoveredIndex": 96
 }
