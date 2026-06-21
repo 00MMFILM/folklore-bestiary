@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 52,
+  "lastCategoryIndex": 55,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2321,7 +2321,25 @@
     71111939,
     5832958,
     6441251,
-    6742142
+    6742142,
+    48819743,
+    205500,
+    71651846,
+    143130,
+    152262,
+    6581441,
+    25980869,
+    243674,
+    70590125,
+    5318218,
+    5607358,
+    27934071,
+    64471349,
+    5790858,
+    81315460,
+    81567275,
+    73226473,
+    71523647
   ],
   "discoveredCategories": [
     {
@@ -7819,10 +7837,162 @@
       "label": "Serbian fairy tales",
       "discoveredFrom": "The Dragon and the Prince",
       "discoveredAt": 447
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Dorset folklore",
+      "iso": "GB",
+      "label": "Dorset folklore",
+      "discoveredFrom": "Colt pixie",
+      "discoveredAt": 448
+    },
+    {
+      "lang": "en",
+      "cat": "Category:English legendary creatures",
+      "iso": "GB",
+      "label": "English legendary creatures",
+      "discoveredFrom": "Colt pixie",
+      "discoveredAt": 448
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Hampshire folklore",
+      "iso": "GB",
+      "label": "Hampshire folklore",
+      "discoveredFrom": "Colt pixie",
+      "discoveredAt": 448
+    },
+    {
+      "lang": "en",
+      "cat": "Category:New Forest folklore",
+      "iso": "GB",
+      "label": "New Forest folklore",
+      "discoveredFrom": "Colt pixie",
+      "discoveredAt": 448
+    },
+    {
+      "lang": "en",
+      "cat": "Category:The Legend of Sleepy Hollow",
+      "iso": "GB",
+      "label": "The Legend of Sleepy Hollow",
+      "discoveredFrom": "Jack-o'-lantern",
+      "discoveredAt": 448
+    },
+    {
+      "lang": "en",
+      "cat": "Category:English legendary characters",
+      "iso": "GB",
+      "label": "English legendary characters",
+      "discoveredFrom": "Lazy Laurence",
+      "discoveredAt": 448
+    },
+    {
+      "lang": "en",
+      "cat": "Category:English mythology",
+      "iso": "GB",
+      "label": "English mythology",
+      "discoveredFrom": "Lazy Laurence",
+      "discoveredAt": 448
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Nature spirits",
+      "iso": "GB",
+      "label": "Nature spirits",
+      "discoveredFrom": "Lazy Laurence",
+      "discoveredAt": 448
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about resurrection",
+      "iso": "EE",
+      "label": "Fairy tales about resurrection",
+      "discoveredFrom": "Andras Baive",
+      "discoveredAt": 448
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sámi fairy tales",
+      "iso": "EE",
+      "label": "Sámi fairy tales",
+      "discoveredFrom": "Andras Baive",
+      "discoveredAt": 448
+    },
+    {
+      "lang": "en",
+      "cat": "Category:American fairy tales",
+      "iso": "US",
+      "label": "American fairy tales",
+      "discoveredFrom": "The Bird That Spoke the Truth",
+      "discoveredAt": 448
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about adoption and orphans",
+      "iso": "EE",
+      "label": "Fairy tales about adoption and orphans",
+      "discoveredFrom": "The Bird That Spoke the Truth",
+      "discoveredAt": 448
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about birds",
+      "iso": "EE",
+      "label": "Fairy tales about birds",
+      "discoveredFrom": "The Bird That Spoke the Truth",
+      "discoveredAt": 448
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about queens",
+      "iso": "EE",
+      "label": "Fairy tales about queens",
+      "discoveredFrom": "The Bird That Spoke the Truth",
+      "discoveredAt": 448
+    },
+    {
+      "lang": "en",
+      "cat": "Category:British fairy tales",
+      "iso": "GB",
+      "label": "British fairy tales",
+      "discoveredFrom": "The Blue Mountains (fairy tale)",
+      "discoveredAt": 448
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about demons",
+      "iso": "EE",
+      "label": "Fairy tales about demons",
+      "discoveredFrom": "Brother Lustig",
+      "discoveredAt": 448
+    },
+    {
+      "lang": "en",
+      "cat": "Category:German fairy tales",
+      "iso": "DE",
+      "label": "German fairy tales",
+      "discoveredFrom": "Brother Lustig",
+      "discoveredAt": 448
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Catalan folklore",
+      "iso": "EE",
+      "label": "Catalan folklore",
+      "discoveredFrom": "The Castle of Return and No Return",
+      "discoveredAt": 448
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Norwegian fairy tales",
+      "iso": "NO",
+      "label": "Norwegian fairy tales",
+      "discoveredFrom": "The Story of the Abandoned Princess",
+      "discoveredAt": 448
     }
   ],
-  "totalAdded": 1433,
-  "runs": 448,
-  "lastRun": "2026-06-21T09:37:26.771Z",
-  "lastDiscoveredIndex": 99
+  "totalAdded": 1448,
+  "runs": 449,
+  "lastRun": "2026-06-21T13:50:32.663Z",
+  "lastDiscoveredIndex": 102
 }
