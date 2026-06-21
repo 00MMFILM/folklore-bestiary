@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 55,
+  "lastCategoryIndex": 58,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2339,7 +2339,22 @@
     81315460,
     81567275,
     73226473,
-    71523647
+    71523647,
+    6511093,
+    6584188,
+    8275227,
+    6924373,
+    6134177,
+    6322605,
+    5861663,
+    8258414,
+    6561927,
+    5899220,
+    1633178,
+    34221117,
+    56972078,
+    37342513,
+    46924321
   ],
   "discoveredCategories": [
     {
@@ -7989,10 +8004,58 @@
       "label": "Norwegian fairy tales",
       "discoveredFrom": "The Story of the Abandoned Princess",
       "discoveredAt": 448
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Icelandic fairy tales",
+      "iso": "IS",
+      "label": "Icelandic fairy tales",
+      "discoveredFrom": "Asmund and Signy",
+      "discoveredAt": 449
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about giants",
+      "iso": "IS",
+      "label": "Fairy tales about giants",
+      "discoveredFrom": "Hermod and Hadvor",
+      "discoveredAt": 449
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Scandinavian folklore",
+      "iso": "NO",
+      "label": "Scandinavian folklore",
+      "discoveredFrom": "How Geirald the Coward was Punished",
+      "discoveredAt": 449
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about trolls",
+      "iso": "IS",
+      "label": "Fairy tales about trolls",
+      "discoveredFrom": "Prince Ring",
+      "discoveredAt": 449
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Lithuanian legends",
+      "iso": "LT",
+      "label": "Lithuanian legends",
+      "discoveredFrom": "Battle on the Irpin River",
+      "discoveredAt": 449
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Wolves in folklore, religion and mythology",
+      "iso": "LT",
+      "label": "Wolves in folklore, religion and mythology",
+      "discoveredFrom": "Iron Wolf (character)",
+      "discoveredAt": 449
     }
   ],
-  "totalAdded": 1448,
-  "runs": 449,
-  "lastRun": "2026-06-21T13:50:32.663Z",
-  "lastDiscoveredIndex": 102
+  "totalAdded": 1463,
+  "runs": 450,
+  "lastRun": "2026-06-21T19:17:23.986Z",
+  "lastDiscoveredIndex": 105
 }
