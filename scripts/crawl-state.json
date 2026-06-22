@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 61,
+  "lastCategoryIndex": 64,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2372,7 +2372,27 @@
     10264704,
     76348514,
     9026138,
-    5133532
+    5133532,
+    53390450,
+    6517935,
+    35506214,
+    65923457,
+    6123392,
+    610755,
+    37831856,
+    182248,
+    71082383,
+    72379103,
+    9580922,
+    72379113,
+    58553622,
+    66512297,
+    9083150,
+    5617588,
+    5227055,
+    5134358,
+    7797531,
+    73453
   ],
   "discoveredCategories": [
     {
@@ -8174,10 +8194,90 @@
       "label": "Fruit in fairy tales",
       "discoveredFrom": "The Belbati Princess",
       "discoveredAt": 450
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Jeju mythology",
+      "iso": "KR",
+      "label": "Jeju mythology",
+      "discoveredFrom": "Samseong mythology",
+      "discoveredAt": 451
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Places in Korean mythology",
+      "iso": "KR",
+      "label": "Places in Korean mythology",
+      "discoveredFrom": "Samseonghyeol",
+      "discoveredAt": 451
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Korean goddesses",
+      "iso": "KR",
+      "label": "Korean goddesses",
+      "discoveredFrom": "Seolmundae Halmang",
+      "discoveredAt": 451
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sea and river goddesses",
+      "iso": "KR",
+      "label": "Sea and river goddesses",
+      "discoveredFrom": "Yeongdeung Halmang",
+      "discoveredAt": 451
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Wind goddesses",
+      "iso": "KR",
+      "label": "Wind goddesses",
+      "discoveredFrom": "Yeongdeung Halmang",
+      "discoveredAt": 451
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Chinese folklore",
+      "iso": "CN",
+      "label": "Chinese folklore",
+      "discoveredFrom": "Corner Game",
+      "discoveredAt": 451
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Games based on myths and legends",
+      "iso": "KR",
+      "label": "Games based on myths and legends",
+      "discoveredFrom": "Corner Game",
+      "discoveredAt": 451
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Korean fairy tales",
+      "iso": "KR",
+      "label": "Korean fairy tales",
+      "discoveredFrom": "The Brother and Sister Who Became the Sun and Moon",
+      "discoveredAt": 451
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Buddhist folklore",
+      "iso": "KR",
+      "label": "Buddhist folklore",
+      "discoveredFrom": "The Fox Sister",
+      "discoveredAt": 451
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Japanese fairy tales",
+      "iso": "JP",
+      "label": "Japanese fairy tales",
+      "discoveredFrom": "The Cat's Elopement",
+      "discoveredAt": 451
     }
   ],
-  "totalAdded": 1478,
-  "runs": 451,
-  "lastRun": "2026-06-22T02:53:06.484Z",
-  "lastDiscoveredIndex": 108
+  "totalAdded": 1493,
+  "runs": 452,
+  "lastRun": "2026-06-22T11:36:41.878Z",
+  "lastDiscoveredIndex": 111
 }
