@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 67,
+  "lastCategoryIndex": 70,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2412,7 +2412,27 @@
     9896059,
     9896236,
     9896372,
-    82483607
+    82483607,
+    261293,
+    93319,
+    2509806,
+    19275977,
+    6134,
+    3273930,
+    50142611,
+    69859425,
+    58434309,
+    21005627,
+    59105330,
+    97228,
+    191353,
+    3486289,
+    30875319,
+    65179,
+    59079279,
+    59236,
+    1565984,
+    90244
   ],
   "discoveredCategories": [
     {
@@ -8438,10 +8458,98 @@
       "label": "Meitei gods",
       "discoveredFrom": "Makpa Louoipa",
       "discoveredAt": 452
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Christian legendary creatures",
+      "iso": "NZ",
+      "label": "Christian legendary creatures",
+      "discoveredFrom": "Bishop-fish",
+      "discoveredAt": 453
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Greek sea goddesses",
+      "iso": "GR",
+      "label": "Greek sea goddesses",
+      "discoveredFrom": "Ceto",
+      "discoveredAt": 453
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Metamorphoses into monsters in Greek mythology",
+      "iso": "GR",
+      "label": "Metamorphoses into monsters in Greek mythology",
+      "discoveredFrom": "Charybdis",
+      "discoveredAt": 453
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of Maryland",
+      "iso": "NZ",
+      "label": "Folklore of Maryland",
+      "discoveredFrom": "Chessie (sea monster)",
+      "discoveredAt": 453
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Haida mythology",
+      "iso": "NZ",
+      "label": "Haida mythology",
+      "discoveredFrom": "Gonakadet",
+      "discoveredAt": 453
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Tsimshian mythology",
+      "iso": "NZ",
+      "label": "Tsimshian mythology",
+      "discoveredFrom": "Gonakadet",
+      "discoveredAt": 453
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Egyptian demons",
+      "iso": "EG",
+      "label": "Egyptian demons",
+      "discoveredFrom": "Apophis",
+      "discoveredAt": 453
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Night gods",
+      "iso": "NZ",
+      "label": "Night gods",
+      "discoveredFrom": "Apophis",
+      "discoveredAt": 453
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fictional gods",
+      "iso": "NZ",
+      "label": "Fictional gods",
+      "discoveredFrom": "Azathoth",
+      "discoveredAt": 453
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Levantine mythology",
+      "iso": "NZ",
+      "label": "Levantine mythology",
+      "discoveredFrom": "Lotan",
+      "discoveredAt": 453
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Aztec pulque gods",
+      "iso": "MX",
+      "label": "Aztec pulque gods",
+      "discoveredFrom": "Centzon Tōtōchtin",
+      "discoveredAt": 453
     }
   ],
-  "totalAdded": 1508,
-  "runs": 453,
-  "lastRun": "2026-06-22T16:30:26.514Z",
-  "lastDiscoveredIndex": 114
+  "totalAdded": 1523,
+  "runs": 454,
+  "lastRun": "2026-06-22T20:35:55.225Z",
+  "lastDiscoveredIndex": 117
 }
