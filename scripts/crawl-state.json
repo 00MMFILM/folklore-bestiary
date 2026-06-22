@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 58,
+  "lastCategoryIndex": 61,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2354,7 +2354,25 @@
     34221117,
     56972078,
     37342513,
-    46924321
+    46924321,
+    3356420,
+    58003360,
+    28985687,
+    42325773,
+    2528487,
+    42272071,
+    22145787,
+    9997373,
+    1813475,
+    1813449,
+    378782,
+    1813481,
+    11249376,
+    10691456,
+    10264704,
+    76348514,
+    9026138,
+    5133532
   ],
   "discoveredCategories": [
     {
@@ -8052,10 +8070,114 @@
       "label": "Wolves in folklore, religion and mythology",
       "discoveredFrom": "Iron Wolf (character)",
       "discoveredAt": 449
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Georgian legendary creatures",
+      "iso": "GE",
+      "label": "Georgian legendary creatures",
+      "discoveredFrom": "Ochokochi",
+      "discoveredAt": 450
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Laz mythology",
+      "iso": "GE",
+      "label": "Laz mythology",
+      "discoveredFrom": "Ochokochi",
+      "discoveredAt": 450
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Azerbaijani mythology",
+      "iso": "AM",
+      "label": "Azerbaijani mythology",
+      "discoveredFrom": "Div (mythology)",
+      "discoveredAt": 450
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Demons in Islam",
+      "iso": "SA",
+      "label": "Demons in Islam",
+      "discoveredFrom": "Div (mythology)",
+      "discoveredAt": 450
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Iranian legendary creatures",
+      "iso": "IR",
+      "label": "Iranian legendary creatures",
+      "discoveredFrom": "Div (mythology)",
+      "discoveredAt": 450
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Turkic legendary creatures",
+      "iso": "TR",
+      "label": "Turkic legendary creatures",
+      "discoveredFrom": "Div (mythology)",
+      "discoveredAt": 450
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Arts goddesses",
+      "iso": "AM",
+      "label": "Arts goddesses",
+      "discoveredFrom": "Arubani",
+      "discoveredAt": 450
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Armenian gods",
+      "iso": "AM",
+      "label": "Armenian gods",
+      "discoveredFrom": "Ḫaldi",
+      "discoveredAt": 450
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Lunar goddesses",
+      "iso": "AM",
+      "label": "Lunar goddesses",
+      "discoveredFrom": "Selardi",
+      "discoveredAt": 450
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about talking plants",
+      "iso": "EE",
+      "label": "Fairy tales about talking plants",
+      "discoveredFrom": "The Bay-Tree Maiden",
+      "discoveredAt": 450
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Romanian fairy tales",
+      "iso": "RO",
+      "label": "Romanian fairy tales",
+      "discoveredFrom": "The Bay-Tree Maiden",
+      "discoveredAt": 450
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Chinese fairy tales",
+      "iso": "CN",
+      "label": "Chinese fairy tales",
+      "discoveredFrom": "Beauty and Pock Face",
+      "discoveredAt": 450
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fruit in fairy tales",
+      "iso": "EE",
+      "label": "Fruit in fairy tales",
+      "discoveredFrom": "The Belbati Princess",
+      "discoveredAt": 450
     }
   ],
-  "totalAdded": 1463,
-  "runs": 450,
-  "lastRun": "2026-06-21T19:17:23.986Z",
-  "lastDiscoveredIndex": 105
+  "totalAdded": 1478,
+  "runs": 451,
+  "lastRun": "2026-06-22T02:53:06.484Z",
+  "lastDiscoveredIndex": 108
 }
