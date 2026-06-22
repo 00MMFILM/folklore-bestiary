@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 64,
+  "lastCategoryIndex": 67,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2392,7 +2392,27 @@
     5227055,
     5134358,
     7797531,
-    73453
+    73453,
+    66711901,
+    37124632,
+    43120683,
+    64048781,
+    2004854,
+    39516859,
+    28908864,
+    380694,
+    308466,
+    42504480,
+    73131745,
+    22537,
+    47837218,
+    71488950,
+    14410,
+    88402,
+    9896059,
+    9896236,
+    9896372,
+    82483607
   ],
   "discoveredCategories": [
     {
@@ -8274,10 +8294,154 @@
       "label": "Japanese fairy tales",
       "discoveredFrom": "The Cat's Elopement",
       "discoveredAt": 451
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Korean gods",
+      "iso": "KR",
+      "label": "Korean gods",
+      "discoveredFrom": "Josang",
+      "discoveredAt": 452
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Tibetan mythology",
+      "iso": "NZ",
+      "label": "Tibetan mythology",
+      "discoveredFrom": "Akhu Tönpa",
+      "discoveredAt": 452
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological foxes",
+      "iso": "NZ",
+      "label": "Mythological foxes",
+      "discoveredFrom": "Aguara",
+      "discoveredAt": 452
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Guatemalan folklore",
+      "iso": "NZ",
+      "label": "Guatemalan folklore",
+      "discoveredFrom": "Alux",
+      "discoveredAt": 452
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Maya legendary creatures",
+      "iso": "MX",
+      "label": "Maya legendary creatures",
+      "discoveredFrom": "Alux",
+      "discoveredAt": 452
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Maya mythology and religion",
+      "iso": "MX",
+      "label": "Maya mythology and religion",
+      "discoveredFrom": "Alux",
+      "discoveredAt": 452
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mexican mythology",
+      "iso": "MX",
+      "label": "Mexican mythology",
+      "discoveredFrom": "Alux",
+      "discoveredAt": 452
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Puerto Rican folklore",
+      "iso": "NZ",
+      "label": "Puerto Rican folklore",
+      "discoveredFrom": "Juan Bobo",
+      "discoveredAt": 452
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Kappa (folklore)",
+      "iso": "NZ",
+      "label": "Kappa (folklore)",
+      "discoveredFrom": "Kijimuna",
+      "discoveredAt": 452
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Okinawan legendary creatures",
+      "iso": "NZ",
+      "label": "Okinawan legendary creatures",
+      "discoveredFrom": "Kijimuna",
+      "discoveredAt": 452
+    },
+    {
+      "lang": "en",
+      "cat": "Category:African folklore",
+      "iso": "NZ",
+      "label": "African folklore",
+      "discoveredFrom": "Mbeku",
+      "discoveredAt": 452
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary turtles",
+      "iso": "NZ",
+      "label": "Legendary turtles",
+      "discoveredFrom": "Mbeku",
+      "discoveredAt": 452
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Greek mythological heroes",
+      "iso": "GR",
+      "label": "Greek mythological heroes",
+      "discoveredFrom": "Odysseus",
+      "discoveredAt": 452
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Hindu gods",
+      "iso": "IN",
+      "label": "Hindu gods",
+      "discoveredFrom": "Agni",
+      "discoveredAt": 452
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Commerce gods",
+      "iso": "NZ",
+      "label": "Commerce gods",
+      "discoveredFrom": "Hermes",
+      "discoveredAt": 452
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Norse gods",
+      "iso": "NO",
+      "label": "Norse gods",
+      "discoveredFrom": "Hermóðr",
+      "discoveredAt": 452
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mesopotamian health goddesses",
+      "iso": "NZ",
+      "label": "Mesopotamian health goddesses",
+      "discoveredFrom": "Kakka",
+      "discoveredAt": 452
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Meitei gods",
+      "iso": "NZ",
+      "label": "Meitei gods",
+      "discoveredFrom": "Makpa Louoipa",
+      "discoveredAt": 452
     }
   ],
-  "totalAdded": 1493,
-  "runs": 452,
-  "lastRun": "2026-06-22T11:36:41.878Z",
-  "lastDiscoveredIndex": 111
+  "totalAdded": 1508,
+  "runs": 453,
+  "lastRun": "2026-06-22T16:30:26.514Z",
+  "lastDiscoveredIndex": 114
 }
