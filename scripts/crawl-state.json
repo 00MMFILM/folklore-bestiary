@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 73,
+  "lastCategoryIndex": 76,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2451,7 +2451,30 @@
     9731422,
     7751439,
     97233,
-    1566121
+    1566121,
+    13808464,
+    54465607,
+    43845924,
+    48465353,
+    56059762,
+    26158109,
+    30330299,
+    50289324,
+    31329394,
+    50631580,
+    47449480,
+    70143069,
+    189692,
+    97179,
+    245437,
+    602068,
+    3912176,
+    69304458,
+    37979414,
+    19376355,
+    78937584,
+    15210141,
+    7438468
   ],
   "discoveredCategories": [
     {
@@ -8637,10 +8660,122 @@
       "label": "Mythological mammals",
       "discoveredFrom": "Ao Ao",
       "discoveredAt": 454
+    },
+    {
+      "lang": "en",
+      "cat": "Category:South American folklore",
+      "iso": "US",
+      "label": "South American folklore",
+      "discoveredFrom": "Colombian folklore",
+      "discoveredAt": 455
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Venezuelan folklore",
+      "iso": "NZ",
+      "label": "Venezuelan folklore",
+      "discoveredFrom": "La Bolefuego",
+      "discoveredAt": 455
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Asian folklore",
+      "iso": "NZ",
+      "label": "Asian folklore",
+      "discoveredFrom": "The Adventures of Massang",
+      "discoveredAt": 455
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Cat goddesses",
+      "iso": "NZ",
+      "label": "Cat goddesses",
+      "discoveredFrom": "Bastet",
+      "discoveredAt": 455
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Egyptian fertility goddesses",
+      "iso": "EG",
+      "label": "Egyptian fertility goddesses",
+      "discoveredFrom": "Bastet",
+      "discoveredAt": 455
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Nubian goddesses",
+      "iso": "NZ",
+      "label": "Nubian goddesses",
+      "discoveredFrom": "Bastet",
+      "discoveredAt": 455
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Iroquois legendary creatures",
+      "iso": "US",
+      "label": "Iroquois legendary creatures",
+      "discoveredFrom": "Deer Woman",
+      "discoveredAt": 455
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Characters in Norse mythology",
+      "iso": "NO",
+      "label": "Characters in Norse mythology",
+      "discoveredFrom": "Elgfróði",
+      "discoveredAt": 455
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Abundance gods",
+      "iso": "NZ",
+      "label": "Abundance gods",
+      "discoveredFrom": "Ganesha",
+      "discoveredAt": 455
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Arts gods",
+      "iso": "NZ",
+      "label": "Arts gods",
+      "discoveredFrom": "Ganesha",
+      "discoveredAt": 455
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Amazon mythology",
+      "iso": "NZ",
+      "label": "Amazon mythology",
+      "discoveredFrom": "Jurupari",
+      "discoveredAt": 455
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Justice gods",
+      "iso": "NZ",
+      "label": "Justice gods",
+      "discoveredFrom": "Jurupari",
+      "discoveredAt": 455
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Music and singing gods",
+      "iso": "NZ",
+      "label": "Music and singing gods",
+      "discoveredFrom": "Jurupari",
+      "discoveredAt": 455
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ecuadorian legends",
+      "iso": "NZ",
+      "label": "Ecuadorian legends",
+      "discoveredFrom": "Tunda",
+      "discoveredAt": 455
     }
   ],
-  "totalAdded": 1538,
-  "runs": 455,
-  "lastRun": "2026-06-23T02:28:22.966Z",
-  "lastDiscoveredIndex": 120
+  "totalAdded": 1550,
+  "runs": 456,
+  "lastRun": "2026-06-23T09:00:19.621Z",
+  "lastDiscoveredIndex": 123
 }
