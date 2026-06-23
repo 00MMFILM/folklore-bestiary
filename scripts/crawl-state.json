@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 79,
+  "lastCategoryIndex": 82,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2507,7 +2507,28 @@
     1791044,
     11140240,
     63732882,
-    10213917
+    10213917,
+    31652789,
+    2223475,
+    2192043,
+    57211487,
+    33561896,
+    3978442,
+    52867250,
+    1189056,
+    41040681,
+    51430801,
+    1275680,
+    4512448,
+    6187376,
+    2553416,
+    56157486,
+    868097,
+    85967,
+    73006669,
+    90538,
+    92646,
+    46500709
   ],
   "discoveredCategories": [
     {
@@ -8941,10 +8962,50 @@
       "label": "Cats in folklore",
       "discoveredFrom": "Carbuncle (legendary creature)",
       "discoveredAt": 456
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legends",
+      "iso": "RU",
+      "label": "Legends",
+      "discoveredFrom": "The Legend of Sloven and Rus",
+      "discoveredAt": 457
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological swords",
+      "iso": "RU",
+      "label": "Mythological swords",
+      "discoveredFrom": "Sword Kladenets",
+      "discoveredAt": 457
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Japanese gods",
+      "iso": "JP",
+      "label": "Japanese gods",
+      "discoveredFrom": "Ajisukitakahikone",
+      "discoveredAt": 457
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Haitian Vodou gods",
+      "iso": "NZ",
+      "label": "Haitian Vodou gods",
+      "discoveredFrom": "Azaka-Tonnerre",
+      "discoveredAt": 457
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Muisca gods",
+      "iso": "NZ",
+      "label": "Muisca gods",
+      "discoveredFrom": "Chibchacum",
+      "discoveredAt": 457
     }
   ],
-  "totalAdded": 1565,
-  "runs": 457,
-  "lastRun": "2026-06-23T14:30:16.951Z",
-  "lastDiscoveredIndex": 126
+  "totalAdded": 1580,
+  "runs": 458,
+  "lastRun": "2026-06-23T19:51:04.937Z",
+  "lastDiscoveredIndex": 129
 }
