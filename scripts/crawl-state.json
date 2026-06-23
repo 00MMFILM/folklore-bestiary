@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 70,
+  "lastCategoryIndex": 73,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2432,7 +2432,26 @@
     59079279,
     59236,
     1565984,
-    90244
+    90244,
+    13468593,
+    28846765,
+    306746,
+    77122075,
+    660890,
+    48710282,
+    663703,
+    2411229,
+    3536565,
+    974657,
+    19072474,
+    19085925,
+    1437,
+    10500831,
+    75430602,
+    9731422,
+    7751439,
+    97233,
+    1566121
   ],
   "discoveredCategories": [
     {
@@ -8546,10 +8565,82 @@
       "label": "Aztec pulque gods",
       "discoveredFrom": "Centzon Tōtōchtin",
       "discoveredAt": 453
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary amphibians",
+      "iso": "NZ",
+      "label": "Legendary amphibians",
+      "discoveredFrom": "List of aquatic humanoids",
+      "discoveredAt": 454
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Chimeric cryptids",
+      "iso": "NZ",
+      "label": "Chimeric cryptids",
+      "discoveredFrom": "Fur-bearing trout",
+      "discoveredAt": 454
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Animals in Chinese mythology",
+      "iso": "CN",
+      "label": "Animals in Chinese mythology",
+      "discoveredFrom": "Heluo fish",
+      "discoveredAt": 454
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary creatures with supernumerary body parts",
+      "iso": "NZ",
+      "label": "Legendary creatures with supernumerary body parts",
+      "discoveredFrom": "Heluo fish",
+      "discoveredAt": 454
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Metamorphosis in folklore",
+      "iso": "NZ",
+      "label": "Metamorphosis in folklore",
+      "discoveredFrom": "Heluo fish",
+      "discoveredAt": 454
+    },
+    {
+      "lang": "en",
+      "cat": "Category:East African legendary creatures",
+      "iso": "NZ",
+      "label": "East African legendary creatures",
+      "discoveredFrom": "Mazomba",
+      "discoveredAt": 454
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Deeds of Pan (god)",
+      "iso": "NZ",
+      "label": "Deeds of Pan (god)",
+      "discoveredFrom": "Agreus and Nomios",
+      "discoveredAt": 454
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary creatures in Egyptian mythology",
+      "iso": "EG",
+      "label": "Legendary creatures in Egyptian mythology",
+      "discoveredFrom": "Akhekh",
+      "discoveredAt": 454
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological mammals",
+      "iso": "NZ",
+      "label": "Mythological mammals",
+      "discoveredFrom": "Ao Ao",
+      "discoveredAt": 454
     }
   ],
-  "totalAdded": 1523,
-  "runs": 454,
-  "lastRun": "2026-06-22T20:35:55.225Z",
-  "lastDiscoveredIndex": 117
+  "totalAdded": 1538,
+  "runs": 455,
+  "lastRun": "2026-06-23T02:28:22.966Z",
+  "lastDiscoveredIndex": 120
 }
