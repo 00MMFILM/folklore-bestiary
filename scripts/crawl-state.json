@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 76,
+  "lastCategoryIndex": 79,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2474,7 +2474,40 @@
     19376355,
     78937584,
     15210141,
-    7438468
+    7438468,
+    451642,
+    10252933,
+    92807,
+    692305,
+    5402399,
+    1841384,
+    10089535,
+    567634,
+    10607472,
+    1857368,
+    90804,
+    9810476,
+    78022909,
+    7526734,
+    81627187,
+    18869298,
+    4053139,
+    77917410,
+    5603551,
+    28010278,
+    167471,
+    46446732,
+    11158816,
+    9209950,
+    9197589,
+    15129394,
+    246703,
+    39091160,
+    9170623,
+    1791044,
+    11140240,
+    63732882,
+    10213917
   ],
   "discoveredCategories": [
     {
@@ -8772,10 +8805,146 @@
       "label": "Ecuadorian legends",
       "discoveredFrom": "Tunda",
       "discoveredAt": 455
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological characters",
+      "iso": "US",
+      "label": "Mythological characters",
+      "discoveredFrom": "Aayaase",
+      "discoveredAt": 456
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Indigenous spirituality",
+      "iso": "US",
+      "label": "Indigenous spirituality",
+      "discoveredFrom": "Manitou",
+      "discoveredAt": 456
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Haitian mythology",
+      "iso": "JM",
+      "label": "Haitian mythology",
+      "discoveredFrom": "Ti Malice and Bouki",
+      "discoveredAt": 456
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of the Dominican Republic",
+      "iso": "JM",
+      "label": "Folklore of the Dominican Republic",
+      "discoveredFrom": "Bacá (mythological creature)",
+      "discoveredAt": 456
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Trinidad and Tobago folklore",
+      "iso": "JM",
+      "label": "Trinidad and Tobago folklore",
+      "discoveredFrom": "Douen",
+      "discoveredAt": 456
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ghanaian folklore",
+      "iso": "JM",
+      "label": "Ghanaian folklore",
+      "discoveredFrom": "Duppy",
+      "discoveredAt": 456
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Jamaican folklore",
+      "iso": "JM",
+      "label": "Jamaican folklore",
+      "discoveredFrom": "Duppy",
+      "discoveredAt": 456
+    },
+    {
+      "lang": "en",
+      "cat": "Category:North American mythology",
+      "iso": "US",
+      "label": "North American mythology",
+      "discoveredFrom": "Mythologies of the Indigenous peoples of the Americas",
+      "discoveredAt": 456
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mapuche demons",
+      "iso": "US",
+      "label": "Mapuche demons",
+      "discoveredFrom": "Wekufe",
+      "discoveredAt": 456
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Inca gods",
+      "iso": "US",
+      "label": "Inca gods",
+      "discoveredFrom": "Apu (god)",
+      "discoveredAt": 456
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Bolivian folklore",
+      "iso": "US",
+      "label": "Bolivian folklore",
+      "discoveredFrom": "Ekeko",
+      "discoveredAt": 456
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fortune gods",
+      "iso": "US",
+      "label": "Fortune gods",
+      "discoveredFrom": "Ekeko",
+      "discoveredAt": 456
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Nature goddesses",
+      "iso": "US",
+      "label": "Nature goddesses",
+      "discoveredFrom": "María Lionza",
+      "discoveredAt": 456
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Shamanism of the Americas",
+      "iso": "US",
+      "label": "Shamanism of the Americas",
+      "discoveredFrom": "María Lionza",
+      "discoveredAt": 456
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Chilean mythology",
+      "iso": "ES",
+      "label": "Chilean mythology",
+      "discoveredFrom": "Alicanto",
+      "discoveredAt": 456
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Argentine legends",
+      "iso": "ES",
+      "label": "Argentine legends",
+      "discoveredFrom": "Carbuncle (legendary creature)",
+      "discoveredAt": 456
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Cats in folklore",
+      "iso": "ES",
+      "label": "Cats in folklore",
+      "discoveredFrom": "Carbuncle (legendary creature)",
+      "discoveredAt": 456
     }
   ],
-  "totalAdded": 1550,
-  "runs": 456,
-  "lastRun": "2026-06-23T09:00:19.621Z",
-  "lastDiscoveredIndex": 123
+  "totalAdded": 1565,
+  "runs": 457,
+  "lastRun": "2026-06-23T14:30:16.951Z",
+  "lastDiscoveredIndex": 126
 }
