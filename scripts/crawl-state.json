@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 91,
+  "lastCategoryIndex": 94,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2595,7 +2595,31 @@
     46572150,
     46572042,
     96189,
-    96325
+    96325,
+    96445,
+    803871,
+    36761965,
+    35961184,
+    36272432,
+    53727855,
+    17837523,
+    50344366,
+    882140,
+    36737234,
+    95765,
+    4853601,
+    4672521,
+    6394194,
+    95829,
+    95506,
+    63579644,
+    96398,
+    30992286,
+    49297753,
+    77588276,
+    739674,
+    22146885,
+    9270657
   ],
   "discoveredCategories": [
     {
@@ -9221,10 +9245,50 @@
       "label": "Nuu-chah-nulth mythology",
       "discoveredFrom": "Andaokut",
       "discoveredAt": 460
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary monarchs",
+      "iso": "WS",
+      "label": "Legendary monarchs",
+      "discoveredFrom": "Kamaiʻole",
+      "discoveredAt": 461
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Māori goddesses",
+      "iso": "WS",
+      "label": "Māori goddesses",
+      "discoveredFrom": "Hine-nui-te-pō",
+      "discoveredAt": 461
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Night goddesses",
+      "iso": "WS",
+      "label": "Night goddesses",
+      "discoveredFrom": "Hine-nui-te-pō",
+      "discoveredAt": 461
+    },
+    {
+      "lang": "en",
+      "cat": "Category:New Zealand folklore",
+      "iso": "NZ",
+      "label": "New Zealand folklore",
+      "discoveredFrom": "Canterbury Panther",
+      "discoveredAt": 461
+    },
+    {
+      "lang": "en",
+      "cat": "Category:New Zealand legendary creatures",
+      "iso": "NZ",
+      "label": "New Zealand legendary creatures",
+      "discoveredFrom": "Canterbury Panther",
+      "discoveredAt": 461
     }
   ],
-  "totalAdded": 1625,
-  "runs": 461,
-  "lastRun": "2026-06-24T14:09:34.224Z",
-  "lastDiscoveredIndex": 138
+  "totalAdded": 1640,
+  "runs": 462,
+  "lastRun": "2026-06-24T19:27:15.278Z",
+  "lastDiscoveredIndex": 141
 }
