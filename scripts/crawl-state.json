@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 85,
+  "lastCategoryIndex": 88,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2550,7 +2550,27 @@
     72767014,
     63129465,
     77074732,
-    2900048
+    2900048,
+    33799099,
+    1820576,
+    51250583,
+    4382952,
+    33941958,
+    40026834,
+    38244086,
+    90245,
+    558657,
+    90187,
+    4055462,
+    90291,
+    90283,
+    27091417,
+    53197,
+    19891220,
+    29007502,
+    90295,
+    19424606,
+    336979
   ],
   "discoveredCategories": [
     {
@@ -9072,10 +9092,50 @@
       "label": "Paleo-Balkan mythology",
       "discoveredFrom": "Nëna e Vatrës",
       "discoveredAt": 458
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Estonian legends",
+      "iso": "EE",
+      "label": "Estonian legends",
+      "discoveredFrom": "Legends of Tallinn",
+      "discoveredAt": 459
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Aztec gods",
+      "iso": "MX",
+      "label": "Aztec gods",
+      "discoveredFrom": "Ahuiateteo",
+      "discoveredAt": 459
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Drought gods",
+      "iso": "MX",
+      "label": "Drought gods",
+      "discoveredFrom": "Ahuiateteo",
+      "discoveredAt": 459
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Aztec goddesses",
+      "iso": "MX",
+      "label": "Aztec goddesses",
+      "discoveredFrom": "Chalchiuhtlicue",
+      "discoveredAt": 459
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mexican folklore",
+      "iso": "MX",
+      "label": "Mexican folklore",
+      "discoveredFrom": "Chaneque",
+      "discoveredAt": 459
     }
   ],
-  "totalAdded": 1595,
-  "runs": 459,
-  "lastRun": "2026-06-24T02:29:38.897Z",
-  "lastDiscoveredIndex": 132
+  "totalAdded": 1610,
+  "runs": 460,
+  "lastRun": "2026-06-24T08:54:37.892Z",
+  "lastDiscoveredIndex": 135
 }
