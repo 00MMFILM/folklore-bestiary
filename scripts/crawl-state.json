@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 88,
+  "lastCategoryIndex": 91,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2570,7 +2570,32 @@
     29007502,
     90295,
     19424606,
-    336979
+    336979,
+    1267853,
+    3193611,
+    42273560,
+    90844,
+    37544225,
+    3809312,
+    453977,
+    5628230,
+    70596995,
+    2442487,
+    1436,
+    29458422,
+    64046677,
+    23072674,
+    67658345,
+    4977277,
+    6948291,
+    51411876,
+    2602879,
+    95782,
+    95797,
+    46572150,
+    46572042,
+    96189,
+    96325
   ],
   "discoveredCategories": [
     {
@@ -9132,10 +9157,74 @@
       "label": "Mexican folklore",
       "discoveredFrom": "Chaneque",
       "discoveredAt": 459
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Demigods",
+      "iso": "PE",
+      "label": "Demigods",
+      "discoveredFrom": "Mama Ocllo",
+      "discoveredAt": 460
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Inca goddesses",
+      "iso": "PE",
+      "label": "Inca goddesses",
+      "discoveredFrom": "Mama Ocllo",
+      "discoveredAt": 460
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Asian people",
+      "iso": "WS",
+      "label": "Legendary Asian people",
+      "discoveredFrom": "Abrskil",
+      "discoveredAt": 460
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary European people",
+      "iso": "WS",
+      "label": "Legendary European people",
+      "discoveredFrom": "Abrskil",
+      "discoveredAt": 460
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Papua New Guinean mythology",
+      "iso": "WS",
+      "label": "Papua New Guinean mythology",
+      "discoveredFrom": "Afek (mythology)",
+      "discoveredAt": 460
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Dinka mythology",
+      "iso": "WS",
+      "label": "Dinka mythology",
+      "discoveredFrom": "Aiwel",
+      "discoveredAt": 460
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Turkic mythology",
+      "iso": "TR",
+      "label": "Turkic mythology",
+      "discoveredFrom": "Alp Er Tunga",
+      "discoveredAt": 460
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Nuu-chah-nulth mythology",
+      "iso": "WS",
+      "label": "Nuu-chah-nulth mythology",
+      "discoveredFrom": "Andaokut",
+      "discoveredAt": 460
     }
   ],
-  "totalAdded": 1610,
-  "runs": 460,
-  "lastRun": "2026-06-24T08:54:37.892Z",
-  "lastDiscoveredIndex": 135
+  "totalAdded": 1625,
+  "runs": 461,
+  "lastRun": "2026-06-24T14:09:34.224Z",
+  "lastDiscoveredIndex": 138
 }
