@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 82,
+  "lastCategoryIndex": 85,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2528,7 +2528,29 @@
     73006669,
     90538,
     92646,
-    46500709
+    46500709,
+    74460479,
+    2782881,
+    33875,
+    82405559,
+    82666023,
+    81404747,
+    82737100,
+    60803832,
+    53033093,
+    70487792,
+    36786365,
+    36908877,
+    77519485,
+    1816427,
+    2472455,
+    31417665,
+    53663771,
+    78914078,
+    72767014,
+    63129465,
+    77074732,
+    2900048
   ],
   "discoveredCategories": [
     {
@@ -9002,10 +9024,58 @@
       "label": "Muisca gods",
       "discoveredFrom": "Chibchacum",
       "discoveredAt": 457
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Illyrian gods",
+      "iso": "AL",
+      "label": "Illyrian gods",
+      "discoveredFrom": "Enji (deity)",
+      "discoveredAt": 458
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Triple fate goddesses",
+      "iso": "AL",
+      "label": "Triple fate goddesses",
+      "discoveredFrom": "Fatia",
+      "discoveredAt": 458
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Light goddesses",
+      "iso": "AL",
+      "label": "Light goddesses",
+      "discoveredFrom": "Hëna (Albanian paganism)",
+      "discoveredAt": 458
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Water gods",
+      "iso": "AL",
+      "label": "Water gods",
+      "discoveredFrom": "I Verbti",
+      "discoveredAt": 458
+    },
+    {
+      "lang": "en",
+      "cat": "Category:European goddesses",
+      "iso": "AL",
+      "label": "European goddesses",
+      "discoveredFrom": "Nëna e Diellit",
+      "discoveredAt": 458
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Paleo-Balkan mythology",
+      "iso": "AL",
+      "label": "Paleo-Balkan mythology",
+      "discoveredFrom": "Nëna e Vatrës",
+      "discoveredAt": 458
     }
   ],
-  "totalAdded": 1580,
-  "runs": 458,
-  "lastRun": "2026-06-23T19:51:04.937Z",
-  "lastDiscoveredIndex": 129
+  "totalAdded": 1595,
+  "runs": 459,
+  "lastRun": "2026-06-24T02:29:38.897Z",
+  "lastDiscoveredIndex": 132
 }
