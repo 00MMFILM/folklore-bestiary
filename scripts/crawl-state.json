@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 97,
+  "lastCategoryIndex": 100,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2646,7 +2646,36 @@
     18396746,
     5708643,
     9797419,
-    29991403
+    29991403,
+    586887,
+    81219558,
+    11855422,
+    34345432,
+    100325,
+    3605836,
+    38163375,
+    373122,
+    62459953,
+    17573048,
+    381108,
+    60574711,
+    47840883,
+    5342788,
+    3670191,
+    7123834,
+    83177175,
+    16995,
+    14062431,
+    2454376,
+    5849742,
+    4632789,
+    16822699,
+    4741608,
+    4741544,
+    16822704,
+    4021481,
+    95800,
+    12211252
   ],
   "discoveredCategories": [
     {
@@ -9464,10 +9493,82 @@
       "label": "Children's books based on Arthurian legend",
       "discoveredFrom": "Avalon: Web of Magic",
       "discoveredAt": 462
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Demon characters in comics",
+      "iso": "IN",
+      "label": "Demon characters in comics",
+      "discoveredFrom": "Inuyasha (character)",
+      "discoveredAt": 463
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fictional heroes",
+      "iso": "IN",
+      "label": "Fictional heroes",
+      "discoveredFrom": "Inuyasha (character)",
+      "discoveredAt": 463
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fictional yōkai",
+      "iso": "IN",
+      "label": "Fictional yōkai",
+      "discoveredFrom": "Inuyasha (character)",
+      "discoveredAt": 463
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Hindu health goddesses",
+      "iso": "IN",
+      "label": "Hindu health goddesses",
+      "discoveredFrom": "Isakki",
+      "discoveredAt": 463
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Regional Hindu goddesses",
+      "iso": "IN",
+      "label": "Regional Hindu goddesses",
+      "discoveredFrom": "Isakki",
+      "discoveredAt": 463
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Regional Hindu gods",
+      "iso": "IN",
+      "label": "Regional Hindu gods",
+      "discoveredFrom": "Iravan",
+      "discoveredAt": 463
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Spiritual practice",
+      "iso": "_MULTI",
+      "label": "Spiritual practice",
+      "discoveredFrom": "Kundalini",
+      "discoveredAt": 463
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Hindu goddesses",
+      "iso": "IN",
+      "label": "Hindu goddesses",
+      "discoveredFrom": "Manasa",
+      "discoveredAt": 463
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological family trees",
+      "iso": "WS",
+      "label": "Mythological family trees",
+      "discoveredFrom": "Family tree of the Māori gods",
+      "discoveredAt": 463
     }
   ],
-  "totalAdded": 1644,
-  "runs": 463,
-  "lastRun": "2026-06-25T02:31:08.454Z",
-  "lastDiscoveredIndex": 144
+  "totalAdded": 1659,
+  "runs": 464,
+  "lastRun": "2026-06-25T08:48:51.036Z",
+  "lastDiscoveredIndex": 147
 }
