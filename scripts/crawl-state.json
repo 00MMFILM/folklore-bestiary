@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 103,
+  "lastCategoryIndex": 106,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2694,7 +2694,33 @@
     561726,
     386606,
     1719918,
-    5662336
+    5662336,
+    82510995,
+    6756524,
+    82477897,
+    953576,
+    66283696,
+    66284981,
+    27656334,
+    59391152,
+    55071553,
+    1218494,
+    72690426,
+    5661394,
+    92712,
+    92751,
+    18561915,
+    92783,
+    1334715,
+    81322578,
+    1569728,
+    67037542,
+    16658844,
+    9196243,
+    66756464,
+    33958203,
+    16659442,
+    73491640
   ],
   "discoveredCategories": [
     {
@@ -9648,10 +9674,50 @@
       "label": "Singular God",
       "discoveredFrom": "Bathala",
       "discoveredAt": 464
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Characters in Berber mythology",
+      "iso": "MA",
+      "label": "Characters in Berber mythology",
+      "discoveredFrom": "Sufax",
+      "discoveredAt": 465
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Berber goddesses",
+      "iso": "MA",
+      "label": "Berber goddesses",
+      "discoveredFrom": "Tanit",
+      "discoveredAt": 465
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Shamanism",
+      "iso": "MA",
+      "label": "Shamanism",
+      "discoveredFrom": "Guañameñe",
+      "discoveredAt": 465
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Birds in mythology",
+      "iso": "CA",
+      "label": "Birds in mythology",
+      "discoveredFrom": "Blind Man and the Loon",
+      "discoveredAt": 465
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythologies of the Indigenous peoples of North America",
+      "iso": "US",
+      "label": "Mythologies of the Indigenous peoples of North America",
+      "discoveredFrom": "Blind Man and the Loon",
+      "discoveredAt": 465
     }
   ],
-  "totalAdded": 1674,
-  "runs": 465,
-  "lastRun": "2026-06-25T14:05:59.075Z",
-  "lastDiscoveredIndex": 150
+  "totalAdded": 1689,
+  "runs": 466,
+  "lastRun": "2026-06-25T19:46:41.677Z",
+  "lastDiscoveredIndex": 153
 }
