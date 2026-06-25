@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 100,
+  "lastCategoryIndex": 103,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2675,7 +2675,26 @@
     16822704,
     4021481,
     95800,
-    12211252
+    12211252,
+    83202566,
+    80403991,
+    2458983,
+    445940,
+    6179980,
+    6667911,
+    72869829,
+    19887601,
+    33173750,
+    11318764,
+    24538809,
+    24538841,
+    24538739,
+    24538879,
+    5359259,
+    561726,
+    386606,
+    1719918,
+    5662336
   ],
   "discoveredCategories": [
     {
@@ -9565,10 +9584,74 @@
       "label": "Mythological family trees",
       "discoveredFrom": "Family tree of the Māori gods",
       "discoveredAt": 463
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Hindu mythology",
+      "iso": "IN",
+      "label": "Hindu mythology",
+      "discoveredFrom": "Mrtyu",
+      "discoveredAt": 464
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Childhood gods",
+      "iso": "WS",
+      "label": "Childhood gods",
+      "discoveredFrom": "Chijoraji",
+      "discoveredAt": 464
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Guanche mythology",
+      "iso": "WS",
+      "label": "Guanche mythology",
+      "discoveredFrom": "Chijoraji",
+      "discoveredAt": 464
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Volcano gods",
+      "iso": "WS",
+      "label": "Volcano gods",
+      "discoveredFrom": "Guayota",
+      "discoveredAt": 464
+    },
+    {
+      "lang": "en",
+      "cat": "Category:God",
+      "iso": "WS",
+      "label": "God",
+      "discoveredFrom": "God (word)",
+      "discoveredAt": 464
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Conceptions of God",
+      "iso": "WS",
+      "label": "Conceptions of God",
+      "discoveredFrom": "Bathala",
+      "discoveredAt": 464
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Philippine mythology",
+      "iso": "PH",
+      "label": "Philippine mythology",
+      "discoveredFrom": "Bathala",
+      "discoveredAt": 464
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Singular God",
+      "iso": "WS",
+      "label": "Singular God",
+      "discoveredFrom": "Bathala",
+      "discoveredAt": 464
     }
   ],
-  "totalAdded": 1659,
-  "runs": 464,
-  "lastRun": "2026-06-25T08:48:51.036Z",
-  "lastDiscoveredIndex": 147
+  "totalAdded": 1674,
+  "runs": 465,
+  "lastRun": "2026-06-25T14:05:59.075Z",
+  "lastDiscoveredIndex": 150
 }
