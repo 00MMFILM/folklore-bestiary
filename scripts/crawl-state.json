@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 94,
+  "lastCategoryIndex": 97,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2619,7 +2619,34 @@
     77588276,
     739674,
     22146885,
-    9270657
+    9270657,
+    66067537,
+    304665,
+    561188,
+    714965,
+    6720468,
+    55494012,
+    70874518,
+    2629003,
+    64409030,
+    66658088,
+    43156758,
+    6075414,
+    6075340,
+    737725,
+    18456928,
+    82477201,
+    2045131,
+    75439888,
+    35523569,
+    4593857,
+    9263595,
+    65325971,
+    30230086,
+    18396746,
+    5708643,
+    9797419,
+    29991403
   ],
   "discoveredCategories": [
     {
@@ -9285,10 +9312,162 @@
       "label": "New Zealand legendary creatures",
       "discoveredFrom": "Canterbury Panther",
       "discoveredAt": 461
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Aquatic superheroes",
+      "iso": "WS",
+      "label": "Aquatic superheroes",
+      "discoveredFrom": "Aquaman",
+      "discoveredAt": 462
+    },
+    {
+      "lang": "en",
+      "cat": "Category:DC Comics American superheroes",
+      "iso": "US",
+      "label": "DC Comics American superheroes",
+      "discoveredFrom": "Aquaman",
+      "discoveredAt": 462
+    },
+    {
+      "lang": "en",
+      "cat": "Category:DC Comics male superheroes",
+      "iso": "WS",
+      "label": "DC Comics male superheroes",
+      "discoveredFrom": "Arion (character)",
+      "discoveredAt": 462
+    },
+    {
+      "lang": "en",
+      "cat": "Category:DC Comics female superheroes",
+      "iso": "WS",
+      "label": "DC Comics female superheroes",
+      "discoveredFrom": "Lilith Clay",
+      "discoveredAt": 462
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Superheroes who are adopted",
+      "iso": "WS",
+      "label": "Superheroes who are adopted",
+      "discoveredFrom": "Lilith Clay",
+      "discoveredAt": 462
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Classical mythology in DC Comics",
+      "iso": "WS",
+      "label": "Classical mythology in DC Comics",
+      "discoveredFrom": "Duke of Deception",
+      "discoveredAt": 462
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Magnus Chase and the Gods of Asgard",
+      "iso": "WS",
+      "label": "Magnus Chase and the Gods of Asgard",
+      "discoveredFrom": "Alex Fierro",
+      "discoveredAt": 462
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Brazilian superheroes",
+      "iso": "BR",
+      "label": "Brazilian superheroes",
+      "discoveredFrom": "Yara Flor",
+      "discoveredAt": 462
+    },
+    {
+      "lang": "en",
+      "cat": "Category:DC Comics teenage superheroes",
+      "iso": "WS",
+      "label": "DC Comics teenage superheroes",
+      "discoveredFrom": "Yara Flor",
+      "discoveredAt": 462
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fictional ghost hunters",
+      "iso": "WS",
+      "label": "Fictional ghost hunters",
+      "discoveredFrom": "Renji Abarai",
+      "discoveredAt": 462
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fictional demon hunters",
+      "iso": "WS",
+      "label": "Fictional demon hunters",
+      "discoveredFrom": "Alucard (Castlevania)",
+      "discoveredAt": 462
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fictional half-vampires",
+      "iso": "WS",
+      "label": "Fictional half-vampires",
+      "discoveredFrom": "Alucard (Castlevania)",
+      "discoveredAt": 462
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Norse mythology in art and literature",
+      "iso": "NO",
+      "label": "Norse mythology in art and literature",
+      "discoveredFrom": "Norse Gods and Giants",
+      "discoveredAt": 462
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Children's books about fictional creatures",
+      "iso": "WS",
+      "label": "Children's books about fictional creatures",
+      "discoveredFrom": "Spook's",
+      "discoveredAt": 462
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Children's books about ghosts",
+      "iso": "WS",
+      "label": "Children's books about ghosts",
+      "discoveredFrom": "Spook's",
+      "discoveredAt": 462
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Children's books about witches",
+      "iso": "WS",
+      "label": "Children's books about witches",
+      "discoveredFrom": "Spook's",
+      "discoveredAt": 462
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Children's books based on classical mythology",
+      "iso": "WS",
+      "label": "Children's books based on classical mythology",
+      "discoveredFrom": "Spook's",
+      "discoveredAt": 462
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Children's books based on folklore",
+      "iso": "WS",
+      "label": "Children's books based on folklore",
+      "discoveredFrom": "Spook's",
+      "discoveredAt": 462
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Children's books based on Arthurian legend",
+      "iso": "WS",
+      "label": "Children's books based on Arthurian legend",
+      "discoveredFrom": "Avalon: Web of Magic",
+      "discoveredAt": 462
     }
   ],
-  "totalAdded": 1640,
-  "runs": 462,
-  "lastRun": "2026-06-24T19:27:15.278Z",
-  "lastDiscoveredIndex": 141
+  "totalAdded": 1644,
+  "runs": 463,
+  "lastRun": "2026-06-25T02:31:08.454Z",
+  "lastDiscoveredIndex": 144
 }
