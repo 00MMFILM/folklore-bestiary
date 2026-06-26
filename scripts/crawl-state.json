@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 109,
+  "lastCategoryIndex": 112,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2743,7 +2743,28 @@
     1421868,
     42361386,
     34260720,
-    21295316
+    21295316,
+    215485,
+    6402034,
+    1365857,
+    93744,
+    526468,
+    4806740,
+    51411856,
+    58194011,
+    4838687,
+    7097450,
+    7098952,
+    33752774,
+    1802,
+    668910,
+    90514,
+    868061,
+    93138,
+    100376,
+    73368831,
+    18225574,
+    93742
   ],
   "discoveredCategories": [
     {
@@ -9737,10 +9758,66 @@
       "label": "Mythologies of the Indigenous peoples of North America",
       "discoveredFrom": "Blind Man and the Loon",
       "discoveredAt": 465
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary American people",
+      "iso": "US",
+      "label": "Legendary American people",
+      "discoveredFrom": "Hiawatha",
+      "discoveredAt": 467
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Animal spirits",
+      "iso": "MY",
+      "label": "Animal spirits",
+      "discoveredFrom": "Pelesit",
+      "discoveredAt": 467
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Alcohol gods",
+      "iso": "WS",
+      "label": "Alcohol gods",
+      "discoveredFrom": "Ægir",
+      "discoveredAt": 467
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Voodoo gods",
+      "iso": "WS",
+      "label": "Voodoo gods",
+      "discoveredFrom": "Agwé",
+      "discoveredAt": 467
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Finnish gods",
+      "iso": "FI",
+      "label": "Finnish gods",
+      "discoveredFrom": "Ahti",
+      "discoveredAt": 467
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Neptune (mythology)",
+      "iso": "WS",
+      "label": "Neptune (mythology)",
+      "discoveredFrom": "Apam Napat",
+      "discoveredAt": 467
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Persian mythology",
+      "iso": "IR",
+      "label": "Persian mythology",
+      "discoveredFrom": "Apam Napat",
+      "discoveredAt": 467
     }
   ],
-  "totalAdded": 1704,
-  "runs": 467,
-  "lastRun": "2026-06-26T02:33:33.144Z",
-  "lastDiscoveredIndex": 156
+  "totalAdded": 1719,
+  "runs": 468,
+  "lastRun": "2026-06-26T08:51:28.285Z",
+  "lastDiscoveredIndex": 159
 }
