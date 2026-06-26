@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 112,
+  "lastCategoryIndex": 115,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2764,7 +2764,30 @@
     100376,
     73368831,
     18225574,
-    93742
+    93742,
+    90521,
+    97266,
+    7719059,
+    12936708,
+    334465,
+    17769738,
+    43484864,
+    79111,
+    59483995,
+    98475,
+    454654,
+    95857,
+    95852,
+    96480,
+    96479,
+    96496,
+    1276772,
+    38680712,
+    95303,
+    38680902,
+    95853,
+    261995,
+    70604379
   ],
   "discoveredCategories": [
     {
@@ -9814,10 +9837,106 @@
       "label": "Persian mythology",
       "discoveredFrom": "Apam Napat",
       "discoveredAt": 467
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Egyptian mythology in comics",
+      "iso": "EG",
+      "label": "Egyptian mythology in comics",
+      "discoveredFrom": "Papyrus (comics)",
+      "discoveredAt": 468
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2010s monster movies",
+      "iso": "_MULTI",
+      "label": "2010s monster movies",
+      "discoveredFrom": "The Pyramid (film)",
+      "discoveredAt": 468
+    },
+    {
+      "lang": "en",
+      "cat": "Category:American monster movies",
+      "iso": "US",
+      "label": "American monster movies",
+      "discoveredFrom": "The Pyramid (film)",
+      "discoveredAt": 468
+    },
+    {
+      "lang": "en",
+      "cat": "Category:American supernatural horror films",
+      "iso": "US",
+      "label": "American supernatural horror films",
+      "discoveredFrom": "The Pyramid (film)",
+      "discoveredAt": 468
+    },
+    {
+      "lang": "en",
+      "cat": "Category:American supernatural thriller films",
+      "iso": "US",
+      "label": "American supernatural thriller films",
+      "discoveredFrom": "The Pyramid (film)",
+      "discoveredAt": 468
+    },
+    {
+      "lang": "en",
+      "cat": "Category:English-language supernatural horror films",
+      "iso": "GB",
+      "label": "English-language supernatural horror films",
+      "discoveredFrom": "The Pyramid (film)",
+      "discoveredAt": 468
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Films based on Egyptian mythology",
+      "iso": "EG",
+      "label": "Films based on Egyptian mythology",
+      "discoveredFrom": "The Pyramid (film)",
+      "discoveredAt": 468
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Dog goddesses",
+      "iso": "_MULTI",
+      "label": "Dog goddesses",
+      "discoveredFrom": "Sopdet",
+      "discoveredAt": 468
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Egyptian agricultural goddesses",
+      "iso": "EG",
+      "label": "Egyptian agricultural goddesses",
+      "discoveredFrom": "Sopdet",
+      "discoveredAt": 468
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Stellar goddesses",
+      "iso": "_MULTI",
+      "label": "Stellar goddesses",
+      "discoveredFrom": "Sopdet",
+      "discoveredAt": 468
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Cook Islands mythology",
+      "iso": "WS",
+      "label": "Cook Islands mythology",
+      "discoveredFrom": "Papa (mythology)",
+      "discoveredAt": 468
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Māori gods",
+      "iso": "WS",
+      "label": "Māori gods",
+      "discoveredFrom": "Rongo",
+      "discoveredAt": 468
     }
   ],
-  "totalAdded": 1719,
-  "runs": 468,
-  "lastRun": "2026-06-26T08:51:28.285Z",
-  "lastDiscoveredIndex": 159
+  "totalAdded": 1734,
+  "runs": 469,
+  "lastRun": "2026-06-26T14:05:24.333Z",
+  "lastDiscoveredIndex": 162
 }
