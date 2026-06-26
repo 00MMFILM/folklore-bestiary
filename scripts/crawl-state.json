@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 115,
+  "lastCategoryIndex": 118,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2787,7 +2787,29 @@
     38680902,
     95853,
     261995,
-    70604379
+    70604379,
+    77214034,
+    3711295,
+    42183,
+    31035378,
+    13880677,
+    83150,
+    77211174,
+    78991,
+    54190181,
+    59916554,
+    68550616,
+    594,
+    1607689,
+    30864638,
+    97177,
+    95461,
+    90185,
+    20220083,
+    1803243,
+    24685129,
+    3668578,
+    1174
   ],
   "discoveredCategories": [
     {
@@ -9933,10 +9955,186 @@
       "label": "Māori gods",
       "discoveredFrom": "Rongo",
       "discoveredAt": 468
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Progenitors in Greek mythology",
+      "iso": "GR",
+      "label": "Progenitors in Greek mythology",
+      "discoveredFrom": "Centaurus (Greek mythology)",
+      "discoveredAt": 469
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Asclepius in mythology",
+      "iso": "_MULTI",
+      "label": "Asclepius in mythology",
+      "discoveredFrom": "Chiron",
+      "discoveredAt": 469
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Greek tutors of gods",
+      "iso": "GR",
+      "label": "Mythological Greek tutors of gods",
+      "discoveredFrom": "Chiron",
+      "discoveredAt": 469
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Thebans",
+      "iso": "_MULTI",
+      "label": "Mythological Thebans",
+      "discoveredFrom": "Chthonius",
+      "discoveredAt": 469
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Princes in Greek mythology",
+      "iso": "GR",
+      "label": "Princes in Greek mythology",
+      "discoveredFrom": "Chthonius",
+      "discoveredAt": 469
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythology of Dionysus",
+      "iso": "_MULTI",
+      "label": "Mythology of Dionysus",
+      "discoveredFrom": "Dictys",
+      "discoveredAt": 469
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Arcadians",
+      "iso": "_MULTI",
+      "label": "Mythological Arcadians",
+      "discoveredFrom": "Elatus",
+      "discoveredAt": 469
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Laconians",
+      "iso": "_MULTI",
+      "label": "Mythological Laconians",
+      "discoveredFrom": "Elatus",
+      "discoveredAt": 469
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Pylians",
+      "iso": "_MULTI",
+      "label": "Mythological Pylians",
+      "discoveredFrom": "Eurybius",
+      "discoveredAt": 469
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Tirynthians",
+      "iso": "_MULTI",
+      "label": "Mythological Tirynthians",
+      "discoveredFrom": "Eurybius",
+      "discoveredAt": 469
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Ithacans",
+      "iso": "_MULTI",
+      "label": "Mythological Ithacans",
+      "discoveredFrom": "Eurynomus (mythology)",
+      "discoveredAt": 469
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2020s supernatural television series",
+      "iso": "_MULTI",
+      "label": "2020s supernatural television series",
+      "discoveredFrom": "Wolf Like Me (TV series)",
+      "discoveredAt": 469
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Love and lust gods",
+      "iso": "WS",
+      "label": "Love and lust gods",
+      "discoveredFrom": "Kamadeva",
+      "discoveredAt": 469
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Cat gods",
+      "iso": "WS",
+      "label": "Cat gods",
+      "discoveredFrom": "Nefertem",
+      "discoveredAt": 469
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Peace gods",
+      "iso": "WS",
+      "label": "Peace gods",
+      "discoveredFrom": "Tāne",
+      "discoveredAt": 469
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Tahiti and Society Islands gods",
+      "iso": "WS",
+      "label": "Tahiti and Society Islands gods",
+      "discoveredFrom": "Tāne",
+      "discoveredAt": 469
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Tree gods",
+      "iso": "WS",
+      "label": "Tree gods",
+      "discoveredFrom": "Tāne",
+      "discoveredAt": 469
+    },
+    {
+      "lang": "en",
+      "cat": "Category:El (deity)",
+      "iso": "WS",
+      "label": "El (deity)",
+      "discoveredFrom": "Adon",
+      "discoveredAt": 469
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Phoenician mythology",
+      "iso": "WS",
+      "label": "Phoenician mythology",
+      "discoveredFrom": "Adon",
+      "discoveredAt": 469
+    },
+    {
+      "lang": "en",
+      "cat": "Category:West Semitic gods",
+      "iso": "WS",
+      "label": "West Semitic gods",
+      "discoveredFrom": "Adon",
+      "discoveredAt": 469
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Works based on classical mythology",
+      "iso": "WS",
+      "label": "Works based on classical mythology",
+      "discoveredFrom": "Adonais",
+      "discoveredAt": 469
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Beauty goddesses",
+      "iso": "WS",
+      "label": "Beauty goddesses",
+      "discoveredFrom": "Aphrodite",
+      "discoveredAt": 469
     }
   ],
-  "totalAdded": 1734,
-  "runs": 469,
-  "lastRun": "2026-06-26T14:05:24.333Z",
-  "lastDiscoveredIndex": 162
+  "totalAdded": 1749,
+  "runs": 470,
+  "lastRun": "2026-06-26T19:29:00.071Z",
+  "lastDiscoveredIndex": 165
 }
