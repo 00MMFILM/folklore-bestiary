@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 4,
+  "lastCategoryIndex": 7,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2887,7 +2887,24 @@
     79918,
     61546069,
     78332,
-    18013
+    18013,
+    1770663,
+    868211,
+    4067,
+    99764,
+    30959,
+    4126129,
+    10481,
+    2491329,
+    9895259,
+    79259877,
+    85868,
+    16236720,
+    85936,
+    72756390,
+    85943,
+    31973765,
+    9666774
   ],
   "discoveredCategories": [
     {
@@ -10609,10 +10626,18 @@
       "label": "Romanian mythology",
       "discoveredFrom": "Ileana Simziana",
       "discoveredAt": 472
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary High Kings of Ireland",
+      "iso": "IE",
+      "label": "Legendary High Kings of Ireland",
+      "discoveredFrom": "The Dagda",
+      "discoveredAt": 473
     }
   ],
-  "totalAdded": 1794,
-  "runs": 473,
-  "lastRun": "2026-06-27T13:14:00.915Z",
-  "lastDiscoveredIndex": 174
+  "totalAdded": 1809,
+  "runs": 474,
+  "lastRun": "2026-06-27T19:05:51.951Z",
+  "lastDiscoveredIndex": 177
 }
