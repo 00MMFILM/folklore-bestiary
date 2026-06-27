@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 1,
+  "lastCategoryIndex": 4,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2869,7 +2869,25 @@
     22061053,
     23700183,
     23968576,
-    79694850
+    79694850,
+    150491,
+    4186688,
+    77945,
+    78363,
+    2796702,
+    79340,
+    31637418,
+    78974,
+    78978,
+    67238950,
+    82111,
+    54111912,
+    736358,
+    316125,
+    79918,
+    61546069,
+    78332,
+    18013
   ],
   "discoveredCategories": [
     {
@@ -10471,10 +10489,130 @@
       "label": "Sports gods",
       "discoveredFrom": "Chaquén",
       "discoveredAt": 471
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:고조선 신화",
+      "iso": "KR",
+      "label": "고조선 신화",
+      "discoveredFrom": "천부인",
+      "discoveredAt": 472
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:전설의 무기",
+      "iso": "KR",
+      "label": "전설의 무기",
+      "discoveredFrom": "천부인",
+      "discoveredAt": 472
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Greek health goddesses",
+      "iso": "GR",
+      "label": "Greek health goddesses",
+      "discoveredFrom": "Aegle (mythology)",
+      "discoveredAt": 472
+    },
+    {
+      "lang": "en",
+      "cat": "Category:LGBTQ themes in Greek mythology",
+      "iso": "GR",
+      "label": "LGBTQ themes in Greek mythology",
+      "discoveredFrom": "Agdistis",
+      "discoveredAt": 472
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Metamorphoses into flowers in Greek mythology",
+      "iso": "GR",
+      "label": "Metamorphoses into flowers in Greek mythology",
+      "discoveredFrom": "Agdistis",
+      "discoveredAt": 472
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Phrygian goddesses",
+      "iso": "GR",
+      "label": "Phrygian goddesses",
+      "discoveredFrom": "Agdistis",
+      "discoveredAt": 472
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Greek mythological priestesses",
+      "iso": "GR",
+      "label": "Greek mythological priestesses",
+      "discoveredFrom": "Baucis and Philemon",
+      "discoveredAt": 472
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological married couples",
+      "iso": "GR",
+      "label": "Mythological married couples",
+      "discoveredFrom": "Baucis and Philemon",
+      "discoveredAt": 472
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Laconian mythology",
+      "iso": "GR",
+      "label": "Laconian mythology",
+      "discoveredFrom": "Carya of Laconia",
+      "discoveredAt": 472
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological rape victims",
+      "iso": "GR",
+      "label": "Mythological rape victims",
+      "discoveredFrom": "Dryope (daughter of Dryops)",
+      "discoveredAt": 472
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Dacian gods",
+      "iso": "WS",
+      "label": "Dacian gods",
+      "discoveredFrom": "Sabazios",
+      "discoveredAt": 472
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Thracian gods",
+      "iso": "WS",
+      "label": "Thracian gods",
+      "discoveredFrom": "Sabazios",
+      "discoveredAt": 472
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological princesses",
+      "iso": "WS",
+      "label": "Mythological princesses",
+      "discoveredFrom": "Ileana Simziana",
+      "discoveredAt": 472
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Romanian folklore",
+      "iso": "RO",
+      "label": "Romanian folklore",
+      "discoveredFrom": "Ileana Simziana",
+      "discoveredAt": 472
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Romanian mythology",
+      "iso": "RO",
+      "label": "Romanian mythology",
+      "discoveredFrom": "Ileana Simziana",
+      "discoveredAt": 472
     }
   ],
-  "totalAdded": 1779,
-  "runs": 472,
-  "lastRun": "2026-06-27T08:27:20.177Z",
-  "lastDiscoveredIndex": 171
+  "totalAdded": 1794,
+  "runs": 473,
+  "lastRun": "2026-06-27T13:14:00.915Z",
+  "lastDiscoveredIndex": 174
 }
