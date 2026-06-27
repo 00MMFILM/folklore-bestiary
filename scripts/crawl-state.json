@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 121,
+  "lastCategoryIndex": 1,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2837,7 +2837,39 @@
     78936920,
     97274,
     41260938,
-    98202
+    98202,
+    19510,
+    26703642,
+    12292495,
+    3529733,
+    15630876,
+    4050729,
+    10422207,
+    301719,
+    264800,
+    1916738,
+    641475,
+    2026045,
+    4188782,
+    2521518,
+    13189,
+    4183651,
+    202918,
+    634327,
+    6827438,
+    65450750,
+    67203708,
+    78983,
+    99576,
+    85291,
+    90240,
+    50330095,
+    36761677,
+    85157,
+    22061053,
+    23700183,
+    23968576,
+    79694850
   ],
   "discoveredCategories": [
     {
@@ -10287,10 +10319,162 @@
       "label": "Mythological bulls",
       "discoveredFrom": "Apis (deity)",
       "discoveredAt": 470
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Central African legendary creatures",
+      "iso": "_MULTI",
+      "label": "Central African legendary creatures",
+      "discoveredFrom": "Mokele-mbembe",
+      "discoveredAt": 471
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Pygmy mythology",
+      "iso": "_MULTI",
+      "label": "Pygmy mythology",
+      "discoveredFrom": "Mokele-mbembe",
+      "discoveredAt": 471
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Norwegian legends",
+      "iso": "NO",
+      "label": "Norwegian legends",
+      "discoveredFrom": "Selma (lake monster)",
+      "discoveredAt": 471
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Scandinavian legendary creatures",
+      "iso": "NO",
+      "label": "Scandinavian legendary creatures",
+      "discoveredFrom": "Selma (lake monster)",
+      "discoveredAt": 471
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of Idaho",
+      "iso": "_MULTI",
+      "label": "Folklore of Idaho",
+      "discoveredFrom": "Sharlie",
+      "discoveredAt": 471
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:변신설화",
+      "iso": "KR",
+      "label": "변신설화",
+      "discoveredFrom": "웅녀",
+      "discoveredAt": 471
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 곰",
+      "iso": "KR",
+      "label": "신화의 곰",
+      "discoveredFrom": "웅녀",
+      "discoveredAt": 471
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:한국 신화의 인물",
+      "iso": "KR",
+      "label": "한국 신화의 인물",
+      "discoveredFrom": "웅녀",
+      "discoveredAt": 471
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 말",
+      "iso": "KR",
+      "label": "신화의 말",
+      "discoveredFrom": "천리마",
+      "discoveredAt": 471
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 생물",
+      "iso": "KR",
+      "label": "신화의 생물",
+      "discoveredFrom": "천마 (전설)",
+      "discoveredAt": 471
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:전설의 생물",
+      "iso": "KR",
+      "label": "전설의 생물",
+      "discoveredFrom": "천마 (전설)",
+      "discoveredAt": 471
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:여우 요괴",
+      "iso": "KR",
+      "label": "여우 요괴",
+      "discoveredFrom": "한국의 구미호",
+      "discoveredAt": 471
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 개",
+      "iso": "KR",
+      "label": "신화의 개",
+      "discoveredFrom": "해태",
+      "discoveredAt": 471
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:고려 신화",
+      "iso": "KR",
+      "label": "고려 신화",
+      "discoveredFrom": "공심",
+      "discoveredAt": 471
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 왕녀",
+      "iso": "KR",
+      "label": "신화의 왕녀",
+      "discoveredFrom": "공심",
+      "discoveredAt": 471
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:전설 속 한국인",
+      "iso": "KR",
+      "label": "전설 속 한국인",
+      "discoveredFrom": "공심",
+      "discoveredAt": 471
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화",
+      "iso": "KR",
+      "label": "신화",
+      "discoveredFrom": "성이성",
+      "discoveredAt": 471
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Food gods",
+      "iso": "WS",
+      "label": "Food gods",
+      "discoveredFrom": "Aristaeus",
+      "discoveredAt": 471
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sports gods",
+      "iso": "WS",
+      "label": "Sports gods",
+      "discoveredFrom": "Chaquén",
+      "discoveredAt": 471
     }
   ],
-  "totalAdded": 1764,
-  "runs": 471,
-  "lastRun": "2026-06-27T02:27:05.563Z",
-  "lastDiscoveredIndex": 168
+  "totalAdded": 1779,
+  "runs": 472,
+  "lastRun": "2026-06-27T08:27:20.177Z",
+  "lastDiscoveredIndex": 171
 }
