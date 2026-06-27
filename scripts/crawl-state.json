@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 118,
+  "lastCategoryIndex": 121,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2809,7 +2809,35 @@
     1803243,
     24685129,
     3668578,
-    1174
+    1174,
+    15052065,
+    3132789,
+    665811,
+    1486883,
+    33056142,
+    513088,
+    11573855,
+    1019657,
+    1244192,
+    2737562,
+    7438147,
+    76383346,
+    2585985,
+    1154872,
+    904619,
+    85590,
+    41360964,
+    394942,
+    77240291,
+    49471,
+    48702687,
+    65465774,
+    19230789,
+    2307263,
+    78936920,
+    97274,
+    41260938,
+    98202
   ],
   "discoveredCategories": [
     {
@@ -10131,10 +10159,138 @@
       "label": "Beauty goddesses",
       "discoveredFrom": "Aphrodite",
       "discoveredAt": 469
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Dungeons & Dragons creatures from folklore and mythology",
+      "iso": "_MULTI",
+      "label": "Dungeons & Dragons creatures from folklore and mythology",
+      "discoveredFrom": "Troll (Dungeons & Dragons)",
+      "discoveredAt": 470
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Dungeons & Dragons monsters",
+      "iso": "_MULTI",
+      "label": "Dungeons & Dragons monsters",
+      "discoveredFrom": "Troll (Dungeons & Dragons)",
+      "discoveredAt": 470
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Norse mythology in popular culture",
+      "iso": "NO",
+      "label": "Norse mythology in popular culture",
+      "discoveredFrom": "Troll (Marvel Comics)",
+      "discoveredAt": 470
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Works based on European myths and legends",
+      "iso": "_MULTI",
+      "label": "Works based on European myths and legends",
+      "discoveredFrom": "Troll (Marvel Comics)",
+      "discoveredAt": 470
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Middle-earth monsters",
+      "iso": "_MULTI",
+      "label": "Middle-earth monsters",
+      "discoveredFrom": "Trolls in Middle-earth",
+      "discoveredAt": 470
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Image Comics superheroes",
+      "iso": "_MULTI",
+      "label": "Image Comics superheroes",
+      "discoveredFrom": "Troll (Youngblood)",
+      "discoveredAt": 470
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Japanese folklore",
+      "iso": "JP",
+      "label": "Japanese folklore",
+      "discoveredFrom": "Obake",
+      "discoveredAt": 470
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Chinese demons",
+      "iso": "CN",
+      "label": "Chinese demons",
+      "discoveredFrom": "Scorpion Demoness",
+      "discoveredAt": 470
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Indigenous Mesoamerican legendary creatures",
+      "iso": "US",
+      "label": "Indigenous Mesoamerican legendary creatures",
+      "discoveredFrom": "Tlahuelpuchi",
+      "discoveredAt": 470
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Time and fate gods",
+      "iso": "_MULTI",
+      "label": "Time and fate gods",
+      "discoveredFrom": "Vertumnus",
+      "discoveredAt": 470
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Female legendary characters",
+      "iso": "_MULTI",
+      "label": "Female legendary characters",
+      "discoveredFrom": "Werewoman",
+      "discoveredAt": 470
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Lakota spirit beings",
+      "iso": "_MULTI",
+      "label": "Lakota spirit beings",
+      "discoveredFrom": "White Buffalo Calf Woman",
+      "discoveredAt": 470
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Supernatural beings identified with Christian saints",
+      "iso": "_MULTI",
+      "label": "Supernatural beings identified with Christian saints",
+      "discoveredFrom": "White Buffalo Calf Woman",
+      "discoveredAt": 470
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Phoenicia in Egyptian mythology",
+      "iso": "EG",
+      "label": "Phoenicia in Egyptian mythology",
+      "discoveredFrom": "Osiris myth",
+      "discoveredAt": 470
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Nubian gods",
+      "iso": "EG",
+      "label": "Nubian gods",
+      "discoveredFrom": "Apedemak",
+      "discoveredAt": 470
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological bulls",
+      "iso": "EG",
+      "label": "Mythological bulls",
+      "discoveredFrom": "Apis (deity)",
+      "discoveredAt": 470
     }
   ],
-  "totalAdded": 1749,
-  "runs": 470,
-  "lastRun": "2026-06-26T19:29:00.071Z",
-  "lastDiscoveredIndex": 165
+  "totalAdded": 1764,
+  "runs": 471,
+  "lastRun": "2026-06-27T02:27:05.563Z",
+  "lastDiscoveredIndex": 168
 }
