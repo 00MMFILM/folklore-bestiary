@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 10,
+  "lastCategoryIndex": 13,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2933,7 +2933,26 @@
     9593774,
     97334,
     99767,
-    86261
+    86261,
+    83559368,
+    83493643,
+    85848,
+    2172657,
+    86086,
+    86089,
+    86254,
+    9666253,
+    86531,
+    86537,
+    86255,
+    2177523,
+    25915156,
+    9227633,
+    64049086,
+    77414,
+    661185,
+    600698,
+    36081963
   ],
   "discoveredCategories": [
     {
@@ -10735,10 +10754,90 @@
       "label": "Human sacrifice in folklore and mythology",
       "discoveredFrom": "Crom Cruach",
       "discoveredAt": 474
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Chinese mythology",
+      "iso": "CN",
+      "label": "Chinese mythology",
+      "discoveredFrom": "Fengdu Dadi",
+      "discoveredAt": 475
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Godmanchester",
+      "iso": "WS",
+      "label": "Godmanchester",
+      "discoveredFrom": "Abandinus",
+      "discoveredAt": 475
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Celtic gods",
+      "iso": "IE",
+      "label": "Celtic gods",
+      "discoveredFrom": "Belatucadros",
+      "discoveredAt": 475
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Triple gods",
+      "iso": "WS",
+      "label": "Triple gods",
+      "discoveredFrom": "Hooded Spirits",
+      "discoveredAt": 475
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Alcohol goddesses",
+      "iso": "WS",
+      "label": "Alcohol goddesses",
+      "discoveredFrom": "Latis",
+      "discoveredAt": 475
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Dahomean gods",
+      "iso": "WS",
+      "label": "Dahomean gods",
+      "discoveredFrom": "Agé",
+      "discoveredAt": 475
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ainu mythology",
+      "iso": "WS",
+      "label": "Ainu mythology",
+      "discoveredFrom": "Ebisu (mythology)",
+      "discoveredAt": 475
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fish gods",
+      "iso": "WS",
+      "label": "Fish gods",
+      "discoveredFrom": "Ebisu (mythology)",
+      "discoveredAt": 475
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Investiture of the Gods characters",
+      "iso": "WS",
+      "label": "Investiture of the Gods characters",
+      "discoveredFrom": "Erlang Shen",
+      "discoveredAt": 475
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Characters in Chinese mythology",
+      "iso": "CN",
+      "label": "Characters in Chinese mythology",
+      "discoveredFrom": "Feng Meng",
+      "discoveredAt": 475
     }
   ],
-  "totalAdded": 1824,
-  "runs": 475,
-  "lastRun": "2026-06-28T02:39:59.351Z",
-  "lastDiscoveredIndex": 180
+  "totalAdded": 1839,
+  "runs": 476,
+  "lastRun": "2026-06-28T08:41:33.496Z",
+  "lastDiscoveredIndex": 183
 }
