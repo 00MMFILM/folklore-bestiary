@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 7,
+  "lastCategoryIndex": 10,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2904,7 +2904,36 @@
     72756390,
     85943,
     31973765,
-    9666774
+    9666774,
+    526614,
+    8466,
+    8468,
+    3607881,
+    1509993,
+    4185998,
+    144977,
+    3265726,
+    3265722,
+    1023875,
+    64498004,
+    93103,
+    1052569,
+    98213,
+    9728111,
+    12068534,
+    23547118,
+    40584939,
+    8810072,
+    3022070,
+    10790573,
+    98191,
+    4545243,
+    9996567,
+    100545,
+    9593774,
+    97334,
+    99767,
+    86261
   ],
   "discoveredCategories": [
     {
@@ -10634,10 +10663,82 @@
       "label": "Legendary High Kings of Ireland",
       "discoveredFrom": "The Dagda",
       "discoveredAt": 473
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:가야 신화",
+      "iso": "KR",
+      "label": "가야 신화",
+      "discoveredFrom": "이비가",
+      "discoveredAt": 474
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Lusitanian gods",
+      "iso": "WS",
+      "label": "Lusitanian gods",
+      "discoveredFrom": "Ares Lusitani",
+      "discoveredAt": 474
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological monkeys",
+      "iso": "WS",
+      "label": "Mythological monkeys",
+      "discoveredFrom": "Babi (mythology)",
+      "discoveredAt": 474
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Turkic gods",
+      "iso": "TR",
+      "label": "Turkic gods",
+      "discoveredFrom": "Burkut",
+      "discoveredAt": 474
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological and legendary Japanese birds",
+      "iso": "JP",
+      "label": "Mythological and legendary Japanese birds",
+      "discoveredFrom": "Cikap-kamuy",
+      "discoveredAt": 474
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Formosan mythology",
+      "iso": "WS",
+      "label": "Formosan mythology",
+      "discoveredFrom": "Ali-zu",
+      "discoveredAt": 474
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Axumite gods",
+      "iso": "WS",
+      "label": "Axumite gods",
+      "discoveredFrom": "ʿAṯtar",
+      "discoveredAt": 474
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Domestic and hearth gods",
+      "iso": "WS",
+      "label": "Domestic and hearth gods",
+      "discoveredFrom": "Bes",
+      "discoveredAt": 474
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Human sacrifice in folklore and mythology",
+      "iso": "WS",
+      "label": "Human sacrifice in folklore and mythology",
+      "discoveredFrom": "Crom Cruach",
+      "discoveredAt": 474
     }
   ],
-  "totalAdded": 1809,
-  "runs": 474,
-  "lastRun": "2026-06-27T19:05:51.951Z",
-  "lastDiscoveredIndex": 177
+  "totalAdded": 1824,
+  "runs": 475,
+  "lastRun": "2026-06-28T02:39:59.351Z",
+  "lastDiscoveredIndex": 180
 }
