@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 16,
+  "lastCategoryIndex": 19,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2968,7 +2968,24 @@
     892232,
     87312,
     87424,
-    87516
+    87516,
+    3493742,
+    3915295,
+    5142876,
+    1340052,
+    17707772,
+    3143645,
+    607295,
+    27560,
+    73171993,
+    85919,
+    85920,
+    92872,
+    105784,
+    39220,
+    419736,
+    713060,
+    9583233
   ],
   "discoveredCategories": [
     {
@@ -10898,10 +10915,66 @@
       "label": "German heroic legends",
       "discoveredFrom": "Alberich",
       "discoveredAt": 476
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological amphibians",
+      "iso": "IE",
+      "label": "Mythological amphibians",
+      "discoveredFrom": "Joint-eater",
+      "discoveredAt": 477
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Irish goddesses",
+      "iso": "IE",
+      "label": "Irish goddesses",
+      "discoveredFrom": "Aimend",
+      "discoveredAt": 477
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Artifacts in Norse mythology",
+      "iso": "NO",
+      "label": "Artifacts in Norse mythology",
+      "discoveredFrom": "Álfröðull",
+      "discoveredAt": 477
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Norse goddesses",
+      "iso": "NO",
+      "label": "Norse goddesses",
+      "discoveredFrom": "Álfröðull",
+      "discoveredAt": 477
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Dawn goddesses",
+      "iso": "NZ",
+      "label": "Dawn goddesses",
+      "discoveredFrom": "Ame-no-Uzume",
+      "discoveredAt": 477
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Trickster goddesses",
+      "iso": "NZ",
+      "label": "Trickster goddesses",
+      "discoveredFrom": "Ame-no-Uzume",
+      "discoveredAt": 477
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Aurora (mythology)",
+      "iso": "NZ",
+      "label": "Aurora (mythology)",
+      "discoveredFrom": "Aurora (mythology)",
+      "discoveredAt": 477
     }
   ],
-  "totalAdded": 1854,
-  "runs": 477,
-  "lastRun": "2026-06-28T13:19:25.795Z",
-  "lastDiscoveredIndex": 186
+  "totalAdded": 1869,
+  "runs": 478,
+  "lastRun": "2026-06-28T19:04:24.110Z",
+  "lastDiscoveredIndex": 189
 }
