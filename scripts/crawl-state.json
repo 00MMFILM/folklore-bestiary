@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 13,
+  "lastCategoryIndex": 16,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2952,7 +2952,23 @@
     77414,
     661185,
     600698,
-    36081963
+    36081963,
+    16377122,
+    36169739,
+    1534009,
+    49521880,
+    33064009,
+    29215560,
+    10812629,
+    512812,
+    5864321,
+    82654,
+    26371,
+    87433,
+    892232,
+    87312,
+    87424,
+    87516
   ],
   "discoveredCategories": [
     {
@@ -10834,10 +10850,58 @@
       "label": "Characters in Chinese mythology",
       "discoveredFrom": "Feng Meng",
       "discoveredAt": 475
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Greek goddesses",
+      "iso": "GR",
+      "label": "Greek goddesses",
+      "discoveredFrom": "Hybris (mythology)",
+      "discoveredAt": 476
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Greek war goddesses",
+      "iso": "GR",
+      "label": "Greek war goddesses",
+      "discoveredFrom": "Ioke (mythology)",
+      "discoveredAt": 476
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Greek war gods",
+      "iso": "GR",
+      "label": "Greek war gods",
+      "discoveredFrom": "Kydoimos",
+      "discoveredAt": 476
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Talking animals in mythology",
+      "iso": "NO",
+      "label": "Talking animals in mythology",
+      "discoveredFrom": "Ratatoskr",
+      "discoveredAt": 476
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological food and drink",
+      "iso": "NO",
+      "label": "Mythological food and drink",
+      "discoveredFrom": "Sæhrímnir",
+      "discoveredAt": 476
+    },
+    {
+      "lang": "en",
+      "cat": "Category:German heroic legends",
+      "iso": "DE",
+      "label": "German heroic legends",
+      "discoveredFrom": "Alberich",
+      "discoveredAt": 476
     }
   ],
-  "totalAdded": 1839,
-  "runs": 476,
-  "lastRun": "2026-06-28T08:41:33.496Z",
-  "lastDiscoveredIndex": 183
+  "totalAdded": 1854,
+  "runs": 477,
+  "lastRun": "2026-06-28T13:19:25.795Z",
+  "lastDiscoveredIndex": 186
 }
