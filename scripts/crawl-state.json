@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 28,
+  "lastCategoryIndex": 31,
   "processedPageIds": [
     1481896,
     1347753,
@@ -3045,7 +3045,25 @@
     1813585,
     86077,
     100564,
-    28958802
+    28958802,
+    95244,
+    1255866,
+    60794997,
+    5185511,
+    30879369,
+    1434470,
+    21812405,
+    23066481,
+    4889401,
+    3356741,
+    155734,
+    37498277,
+    9995057,
+    1813510,
+    309079,
+    85126,
+    85151,
+    53791866
   ],
   "discoveredCategories": [
     {
@@ -11167,10 +11185,58 @@
       "label": "Sámi goddesses",
       "discoveredFrom": "Beaivi",
       "discoveredAt": 480
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ancient Iranian goddesses",
+      "iso": "IR",
+      "label": "Ancient Iranian goddesses",
+      "discoveredFrom": "Ahurani",
+      "discoveredAt": 481
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Commerce goddesses",
+      "iso": "WS",
+      "label": "Commerce goddesses",
+      "discoveredFrom": "Benzaiten",
+      "discoveredAt": 481
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Knowledge goddesses",
+      "iso": "WS",
+      "label": "Knowledge goddesses",
+      "discoveredFrom": "Benzaiten",
+      "discoveredAt": 481
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Music and singing goddesses",
+      "iso": "WS",
+      "label": "Music and singing goddesses",
+      "discoveredFrom": "Benzaiten",
+      "discoveredAt": 481
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Roman childhood goddesses",
+      "iso": "IT",
+      "label": "Roman childhood goddesses",
+      "discoveredFrom": "Camenae",
+      "discoveredAt": 481
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Indonesian goddesses",
+      "iso": "ID",
+      "label": "Indonesian goddesses",
+      "discoveredFrom": "Dewi Lanjar",
+      "discoveredAt": 481
     }
   ],
-  "totalAdded": 1914,
-  "runs": 481,
-  "lastRun": "2026-06-29T15:32:36.925Z",
-  "lastDiscoveredIndex": 198
+  "totalAdded": 1929,
+  "runs": 482,
+  "lastRun": "2026-06-29T19:44:43.675Z",
+  "lastDiscoveredIndex": 201
 }
