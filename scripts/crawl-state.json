@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 22,
+  "lastCategoryIndex": 25,
   "processedPageIds": [
     1481896,
     1347753,
@@ -3010,7 +3010,23 @@
     251443,
     12818867,
     1906117,
-    53607542
+    53607542,
+    2824967,
+    71582902,
+    75402684,
+    36891119,
+    36994870,
+    54556259,
+    36859810,
+    80775143,
+    80793022,
+    245989,
+    11353,
+    397747,
+    34861154,
+    21058223,
+    17588492,
+    21230051
   ],
   "discoveredCategories": [
     {
@@ -11028,10 +11044,34 @@
       "label": "Iranian goddesses",
       "discoveredFrom": "Zarik",
       "discoveredAt": 478
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Supernatural urban legends",
+      "iso": "TH",
+      "label": "Supernatural urban legends",
+      "discoveredFrom": "Women in Black of Wat Samian Nari",
+      "discoveredAt": 479
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Anglo-Saxon goddesses",
+      "iso": "DE",
+      "label": "Anglo-Saxon goddesses",
+      "discoveredFrom": "Ēostre",
+      "discoveredAt": 479
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Domestic and hearth goddesses",
+      "iso": "DE",
+      "label": "Domestic and hearth goddesses",
+      "discoveredFrom": "Frigg",
+      "discoveredAt": 479
     }
   ],
-  "totalAdded": 1884,
-  "runs": 479,
-  "lastRun": "2026-06-29T02:39:31.109Z",
-  "lastDiscoveredIndex": 192
+  "totalAdded": 1899,
+  "runs": 480,
+  "lastRun": "2026-06-29T10:24:43.400Z",
+  "lastDiscoveredIndex": 195
 }
