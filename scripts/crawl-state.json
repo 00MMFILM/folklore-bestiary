@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 25,
+  "lastCategoryIndex": 28,
   "processedPageIds": [
     1481896,
     1347753,
@@ -3026,7 +3026,26 @@
     34861154,
     21058223,
     17588492,
-    21230051
+    21230051,
+    1813618,
+    93325,
+    52610059,
+    67137136,
+    90276,
+    23731470,
+    17063,
+    36993656,
+    92273,
+    99582,
+    94646,
+    9927278,
+    147280,
+    9996480,
+    1253436,
+    1813585,
+    86077,
+    100564,
+    28958802
   ],
   "discoveredCategories": [
     {
@@ -11068,10 +11087,90 @@
       "label": "Domestic and hearth goddesses",
       "discoveredFrom": "Frigg",
       "discoveredAt": 479
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Turkic goddesses",
+      "iso": "TR",
+      "label": "Turkic goddesses",
+      "discoveredFrom": "Aisyt",
+      "discoveredAt": 480
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Yakut mythology",
+      "iso": "WS",
+      "label": "Yakut mythology",
+      "discoveredFrom": "Aisyt",
+      "discoveredAt": 480
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Aztec death goddesses",
+      "iso": "MX",
+      "label": "Aztec death goddesses",
+      "discoveredFrom": "Cihuacōātl",
+      "discoveredAt": 480
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Aztec fertility goddesses",
+      "iso": "MX",
+      "label": "Aztec fertility goddesses",
+      "discoveredFrom": "Cihuacōātl",
+      "discoveredAt": 480
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Maya goddesses",
+      "iso": "MX",
+      "label": "Maya goddesses",
+      "discoveredFrom": "Goddess I",
+      "discoveredAt": 480
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Plague goddesses",
+      "iso": "WS",
+      "label": "Plague goddesses",
+      "discoveredFrom": "Goddess I",
+      "discoveredAt": 480
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Australian Aboriginal goddesses",
+      "iso": "AU",
+      "label": "Australian Aboriginal goddesses",
+      "discoveredFrom": "Anjea",
+      "discoveredAt": 480
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Virgin goddesses",
+      "iso": "WS",
+      "label": "Virgin goddesses",
+      "discoveredFrom": "Bahuchara Mata",
+      "discoveredAt": 480
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Irish war goddesses",
+      "iso": "IE",
+      "label": "Irish war goddesses",
+      "discoveredFrom": "Banba",
+      "discoveredAt": 480
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sámi goddesses",
+      "iso": "WS",
+      "label": "Sámi goddesses",
+      "discoveredFrom": "Beaivi",
+      "discoveredAt": 480
     }
   ],
-  "totalAdded": 1899,
-  "runs": 480,
-  "lastRun": "2026-06-29T10:24:43.400Z",
-  "lastDiscoveredIndex": 195
+  "totalAdded": 1914,
+  "runs": 481,
+  "lastRun": "2026-06-29T15:32:36.925Z",
+  "lastDiscoveredIndex": 198
 }
