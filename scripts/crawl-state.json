@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 19,
+  "lastCategoryIndex": 22,
   "processedPageIds": [
     1481896,
     1347753,
@@ -2985,7 +2985,32 @@
     39220,
     419736,
     713060,
-    9583233
+    9583233,
+    249349,
+    247172,
+    44200703,
+    82298639,
+    249343,
+    18630,
+    37672378,
+    245924,
+    633502,
+    249348,
+    4860675,
+    80966555,
+    11356974,
+    61619210,
+    23870048,
+    78023867,
+    3392598,
+    2359143,
+    1532867,
+    5640210,
+    1601078,
+    251443,
+    12818867,
+    1906117,
+    53607542
   ],
   "discoveredCategories": [
     {
@@ -10971,10 +10996,42 @@
       "label": "Aurora (mythology)",
       "discoveredFrom": "Aurora (mythology)",
       "discoveredAt": 477
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Hittite legendary creatures",
+      "iso": "IQ",
+      "label": "Hittite legendary creatures",
+      "discoveredFrom": "Humbaba",
+      "discoveredAt": 478
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Hurrian legendary creatures",
+      "iso": "IQ",
+      "label": "Hurrian legendary creatures",
+      "discoveredFrom": "Humbaba",
+      "discoveredAt": 478
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Evil goddesses",
+      "iso": "IQ",
+      "label": "Evil goddesses",
+      "discoveredFrom": "Lamashtu",
+      "discoveredAt": 478
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Iranian goddesses",
+      "iso": "IR",
+      "label": "Iranian goddesses",
+      "discoveredFrom": "Zarik",
+      "discoveredAt": 478
     }
   ],
-  "totalAdded": 1869,
-  "runs": 478,
-  "lastRun": "2026-06-28T19:04:24.110Z",
-  "lastDiscoveredIndex": 189
+  "totalAdded": 1884,
+  "runs": 479,
+  "lastRun": "2026-06-29T02:39:31.109Z",
+  "lastDiscoveredIndex": 192
 }
