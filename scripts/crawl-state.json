@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 34,
+  "lastCategoryIndex": 37,
   "processedPageIds": [
     1481896,
     1347753,
@@ -3087,7 +3087,26 @@
     83199,
     100254,
     2075058,
-    20924853
+    20924853,
+    2332925,
+    1130645,
+    15941367,
+    1634833,
+    71133326,
+    20859379,
+    73593236,
+    16783970,
+    71627565,
+    28681696,
+    11199965,
+    52406994,
+    1636476,
+    12877650,
+    17481556,
+    84955,
+    14312340,
+    79017,
+    8230
   ],
   "discoveredCategories": [
     {
@@ -11433,10 +11452,82 @@
       "label": "Mythological fratricides",
       "discoveredFrom": "Arjuna",
       "discoveredAt": 482
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Puck (folklore)",
+      "iso": "DE",
+      "label": "Puck (folklore)",
+      "discoveredFrom": "Hinzelmann",
+      "discoveredAt": 483
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Danish folklore",
+      "iso": "DE",
+      "label": "Danish folklore",
+      "discoveredFrom": "Nis Puk",
+      "discoveredAt": 483
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Danish legendary creatures",
+      "iso": "DE",
+      "label": "Danish legendary creatures",
+      "discoveredFrom": "Nis Puk",
+      "discoveredAt": 483
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Horses in Norse mythology",
+      "iso": "NO",
+      "label": "Horses in Norse mythology",
+      "discoveredFrom": "Legendary horses in the Jura",
+      "discoveredAt": 483
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Samian mythology",
+      "iso": "IT",
+      "label": "Samian mythology",
+      "discoveredFrom": "Neades",
+      "discoveredAt": 483
+    },
+    {
+      "lang": "en",
+      "cat": "Category:She-wolf (Roman mythology)",
+      "iso": "IT",
+      "label": "She-wolf (Roman mythology)",
+      "discoveredFrom": "She-wolf (Roman mythology)",
+      "discoveredAt": 483
+    },
+    {
+      "lang": "en",
+      "cat": "Category:European folklore characters",
+      "iso": "WS",
+      "label": "European folklore characters",
+      "discoveredFrom": "Abundantia",
+      "discoveredAt": 483
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Food goddesses",
+      "iso": "WS",
+      "label": "Food goddesses",
+      "discoveredFrom": "Demeter",
+      "discoveredAt": 483
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Greek agricultural goddesses",
+      "iso": "GR",
+      "label": "Greek agricultural goddesses",
+      "discoveredFrom": "Demeter",
+      "discoveredAt": 483
     }
   ],
-  "totalAdded": 1944,
-  "runs": 483,
-  "lastRun": "2026-06-30T02:33:59.247Z",
-  "lastDiscoveredIndex": 204
+  "totalAdded": 1959,
+  "runs": 484,
+  "lastRun": "2026-06-30T08:58:36.553Z",
+  "lastDiscoveredIndex": 207
 }
