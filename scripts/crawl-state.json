@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 40,
+  "lastCategoryIndex": 43,
   "processedPageIds": [
     1481896,
     1347753,
@@ -3122,7 +3122,38 @@
     36992842,
     71649774,
     46719866,
-    67011379
+    67011379,
+    22043970,
+    405124,
+    1714932,
+    277174,
+    19429088,
+    24471711,
+    174602,
+    1515567,
+    11213016,
+    60779218,
+    85692,
+    85681,
+    16419238,
+    73411381,
+    21484050,
+    47385829,
+    3952875,
+    56036703,
+    13420995,
+    40189,
+    97272,
+    57219545,
+    57191144,
+    79575585,
+    1963347,
+    56992169,
+    14301216,
+    97271,
+    46796961,
+    80156411,
+    2041
   ],
   "discoveredCategories": [
     {
@@ -11556,10 +11587,34 @@
       "label": "Catalan mythology",
       "discoveredFrom": "Banyoles monster",
       "discoveredAt": 484
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Roman mythology",
+      "iso": "IT",
+      "label": "Roman mythology",
+      "discoveredFrom": "Etruscan religion",
+      "discoveredAt": 485
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Children by deity",
+      "iso": "EG",
+      "label": "Children by deity",
+      "discoveredFrom": "Four sons of Horus",
+      "discoveredAt": 485
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Greek mythology of Thrace",
+      "iso": "GR",
+      "label": "Greek mythology of Thrace",
+      "discoveredFrom": "Ares",
+      "discoveredAt": 485
     }
   ],
-  "totalAdded": 1974,
-  "runs": 485,
-  "lastRun": "2026-06-30T13:58:57.674Z",
-  "lastDiscoveredIndex": 210
+  "totalAdded": 1989,
+  "runs": 486,
+  "lastRun": "2026-06-30T19:44:08.194Z",
+  "lastDiscoveredIndex": 213
 }
