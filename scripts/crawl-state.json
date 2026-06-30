@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 31,
+  "lastCategoryIndex": 34,
   "processedPageIds": [
     1481896,
     1347753,
@@ -3063,7 +3063,31 @@
     309079,
     85126,
     85151,
-    53791866
+    53791866,
+    97287,
+    1702884,
+    97387,
+    97120,
+    1387,
+    12052390,
+    5625550,
+    48982879,
+    674694,
+    44603,
+    52557565,
+    92759,
+    5517849,
+    2905,
+    85687,
+    9996193,
+    252269,
+    78926,
+    380584,
+    8391,
+    83199,
+    100254,
+    2075058,
+    20924853
   ],
   "discoveredCategories": [
     {
@@ -11233,10 +11257,186 @@
       "label": "Indonesian goddesses",
       "discoveredFrom": "Dewi Lanjar",
       "discoveredAt": 481
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Chaos goddesses",
+      "iso": "EG",
+      "label": "Chaos goddesses",
+      "discoveredFrom": "Neith",
+      "discoveredAt": 482
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Egyptian childhood goddesses",
+      "iso": "EG",
+      "label": "Egyptian childhood goddesses",
+      "discoveredFrom": "Neith",
+      "discoveredAt": 482
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Destroyer goddesses",
+      "iso": "EG",
+      "label": "Destroyer goddesses",
+      "discoveredFrom": "Sekhmet",
+      "discoveredAt": 482
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Celtic mythology in popular culture",
+      "iso": "IE",
+      "label": "Celtic mythology in popular culture",
+      "discoveredFrom": "The Alchemyst: The Secrets of the Immortal Nicholas Flamel",
+      "discoveredAt": 482
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Luwian goddesses",
+      "iso": "WS",
+      "label": "Luwian goddesses",
+      "discoveredFrom": "Ala (Luwian goddess)",
+      "discoveredAt": 482
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Inuit sea and river goddesses",
+      "iso": "WS",
+      "label": "Inuit sea and river goddesses",
+      "discoveredFrom": "Arnakuagsak",
+      "discoveredAt": 482
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Dance in Greek mythology",
+      "iso": "GR",
+      "label": "Dance in Greek mythology",
+      "discoveredFrom": "Artemis",
+      "discoveredAt": 482
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Delian mythology",
+      "iso": "WS",
+      "label": "Delian mythology",
+      "discoveredFrom": "Artemis",
+      "discoveredAt": 482
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Greek childhood goddesses",
+      "iso": "GR",
+      "label": "Greek childhood goddesses",
+      "discoveredFrom": "Artemis",
+      "discoveredAt": 482
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Greek fertility goddesses",
+      "iso": "GR",
+      "label": "Greek fertility goddesses",
+      "discoveredFrom": "Artemis",
+      "discoveredAt": 482
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Metamorphoses into inanimate objects in Greek mythology",
+      "iso": "GR",
+      "label": "Metamorphoses into inanimate objects in Greek mythology",
+      "discoveredFrom": "Aspalis",
+      "discoveredAt": 482
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Suicides in Greek mythology",
+      "iso": "GR",
+      "label": "Suicides in Greek mythology",
+      "discoveredFrom": "Aspalis",
+      "discoveredAt": 482
+    },
+    {
+      "lang": "en",
+      "cat": "Category:West Semitic goddesses",
+      "iso": "WS",
+      "label": "West Semitic goddesses",
+      "discoveredFrom": "Aspalis",
+      "discoveredAt": 482
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Dacian goddesses",
+      "iso": "WS",
+      "label": "Dacian goddesses",
+      "discoveredFrom": "Bendis",
+      "discoveredAt": 482
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Thracian goddesses",
+      "iso": "WS",
+      "label": "Thracian goddesses",
+      "discoveredFrom": "Bendis",
+      "discoveredAt": 482
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Greek virgin goddesses",
+      "iso": "GR",
+      "label": "Greek virgin goddesses",
+      "discoveredFrom": "Britomartis",
+      "discoveredAt": 482
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Characters in Roman mythology",
+      "iso": "IT",
+      "label": "Characters in Roman mythology",
+      "discoveredFrom": "Diana (mythology)",
+      "discoveredAt": 482
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Diana (mythology)",
+      "iso": "WS",
+      "label": "Diana (mythology)",
+      "discoveredFrom": "Diana (mythology)",
+      "discoveredAt": 482
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Phocians",
+      "iso": "WS",
+      "label": "Mythological Phocians",
+      "discoveredFrom": "Anticlea",
+      "discoveredAt": 482
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Queens in Greek mythology",
+      "iso": "GR",
+      "label": "Queens in Greek mythology",
+      "discoveredFrom": "Anticlea",
+      "discoveredAt": 482
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Heroes in Hindu mythology",
+      "iso": "IN",
+      "label": "Heroes in Hindu mythology",
+      "discoveredFrom": "Arjuna",
+      "discoveredAt": 482
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological fratricides",
+      "iso": "WS",
+      "label": "Mythological fratricides",
+      "discoveredFrom": "Arjuna",
+      "discoveredAt": 482
     }
   ],
-  "totalAdded": 1929,
-  "runs": 482,
-  "lastRun": "2026-06-29T19:44:43.675Z",
-  "lastDiscoveredIndex": 201
+  "totalAdded": 1944,
+  "runs": 483,
+  "lastRun": "2026-06-30T02:33:59.247Z",
+  "lastDiscoveredIndex": 204
 }
