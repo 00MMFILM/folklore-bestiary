@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 37,
+  "lastCategoryIndex": 40,
   "processedPageIds": [
     1481896,
     1347753,
@@ -3106,7 +3106,23 @@
     84955,
     14312340,
     79017,
-    8230
+    8230,
+    54804316,
+    28012082,
+    38183567,
+    14802647,
+    28787221,
+    26259140,
+    28787240,
+    435283,
+    28787268,
+    28787296,
+    12166834,
+    9939360,
+    36992842,
+    71649774,
+    46719866,
+    67011379
   ],
   "discoveredCategories": [
     {
@@ -11524,10 +11540,26 @@
       "label": "Greek agricultural goddesses",
       "discoveredFrom": "Demeter",
       "discoveredAt": 483
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Catalan legendary creatures",
+      "iso": "ES",
+      "label": "Catalan legendary creatures",
+      "discoveredFrom": "Banyoles monster",
+      "discoveredAt": 484
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Catalan mythology",
+      "iso": "ES",
+      "label": "Catalan mythology",
+      "discoveredFrom": "Banyoles monster",
+      "discoveredAt": 484
     }
   ],
-  "totalAdded": 1959,
-  "runs": 484,
-  "lastRun": "2026-06-30T08:58:36.553Z",
-  "lastDiscoveredIndex": 207
+  "totalAdded": 1974,
+  "runs": 485,
+  "lastRun": "2026-06-30T13:58:57.674Z",
+  "lastDiscoveredIndex": 210
 }
