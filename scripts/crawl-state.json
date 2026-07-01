@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 46,
+  "lastCategoryIndex": 49,
   "processedPageIds": [
     1481896,
     1347753,
@@ -3183,7 +3183,37 @@
     46356031,
     16360,
     27955691,
-    24782517
+    24782517,
+    47327121,
+    17880093,
+    99745,
+    99563,
+    31348784,
+    4455035,
+    100132,
+    8684148,
+    11216373,
+    1041753,
+    13902910,
+    24655853,
+    6299,
+    80957,
+    33470764,
+    4964302,
+    100237,
+    26869030,
+    571815,
+    2074120,
+    34050472,
+    35017000,
+    50373601,
+    59507076,
+    16750973,
+    53727512,
+    50379162,
+    78071119,
+    59646591,
+    59519952
   ],
   "discoveredCategories": [
     {
@@ -11689,10 +11719,82 @@
       "label": "Legendary Indian people",
       "discoveredFrom": "Bharthari (king)",
       "discoveredAt": 486
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Indian legendary characters",
+      "iso": "IN",
+      "label": "Indian legendary characters",
+      "discoveredFrom": "Airavata",
+      "discoveredAt": 487
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ewe mythology",
+      "iso": "IN",
+      "label": "Ewe mythology",
+      "discoveredFrom": "Adze (folklore)",
+      "discoveredAt": 487
+    },
+    {
+      "lang": "en",
+      "cat": "Category:West African legendary creatures",
+      "iso": "IN",
+      "label": "West African legendary creatures",
+      "discoveredFrom": "Adze (folklore)",
+      "discoveredAt": 487
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Aymara legendary creatures",
+      "iso": "IN",
+      "label": "Aymara legendary creatures",
+      "discoveredFrom": "Anchanchu",
+      "discoveredAt": 487
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Aymara mythology",
+      "iso": "IN",
+      "label": "Aymara mythology",
+      "discoveredFrom": "Anchanchu",
+      "discoveredAt": 487
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Indigenous Andean legendary creatures",
+      "iso": "IN",
+      "label": "Indigenous Andean legendary creatures",
+      "discoveredFrom": "Anchanchu",
+      "discoveredAt": 487
+    },
+    {
+      "lang": "en",
+      "cat": "Category:American urban legends",
+      "iso": "US",
+      "label": "American urban legends",
+      "discoveredFrom": "Chupacabra",
+      "discoveredAt": 487
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Latin American legendary creatures",
+      "iso": "US",
+      "label": "Latin American legendary creatures",
+      "discoveredFrom": "Chupacabra",
+      "discoveredAt": 487
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mercury (mythology)",
+      "iso": "IN",
+      "label": "Mercury (mythology)",
+      "discoveredFrom": "Mercury and Two Allegorical Figures",
+      "discoveredAt": 487
     }
   ],
-  "totalAdded": 2004,
-  "runs": 487,
-  "lastRun": "2026-07-01T02:39:57.737Z",
-  "lastDiscoveredIndex": 216
+  "totalAdded": 2013,
+  "runs": 488,
+  "lastRun": "2026-07-01T09:31:20.004Z",
+  "lastDiscoveredIndex": 219
 }
