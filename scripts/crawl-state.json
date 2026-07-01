@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 49,
+  "lastCategoryIndex": 52,
   "processedPageIds": [
     1481896,
     1347753,
@@ -3213,7 +3213,26 @@
     50379162,
     78071119,
     59646591,
-    59519952
+    59519952,
+    603837,
+    23377236,
+    5292742,
+    2174898,
+    857706,
+    24301861,
+    75695602,
+    66306834,
+    227057,
+    100239,
+    40467409,
+    5338483,
+    19334415,
+    857711,
+    100191,
+    32142820,
+    2245574,
+    254847,
+    23781839
   ],
   "discoveredCategories": [
     {
@@ -11791,10 +11810,66 @@
       "label": "Mercury (mythology)",
       "discoveredFrom": "Mercury and Two Allegorical Figures",
       "discoveredAt": 487
+    },
+    {
+      "lang": "en",
+      "cat": "Category:God in Buddhism",
+      "iso": "IN",
+      "label": "God in Buddhism",
+      "discoveredFrom": "Brahmā (Buddhism)",
+      "discoveredAt": 488
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Hindu war goddesses",
+      "iso": "IN",
+      "label": "Hindu war goddesses",
+      "discoveredFrom": "Kali",
+      "discoveredAt": 488
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Burmese folklore",
+      "iso": "IN",
+      "label": "Burmese folklore",
+      "discoveredFrom": "Manimekhala",
+      "discoveredAt": 488
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Cambodian folklore",
+      "iso": "IN",
+      "label": "Cambodian folklore",
+      "discoveredFrom": "Manimekhala",
+      "discoveredAt": 488
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Cambodian legends",
+      "iso": "IN",
+      "label": "Cambodian legends",
+      "discoveredFrom": "Manimekhala",
+      "discoveredAt": 488
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Laotian folklore",
+      "iso": "IN",
+      "label": "Laotian folklore",
+      "discoveredFrom": "Manimekhala",
+      "discoveredAt": 488
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Thai goddesses",
+      "iso": "TH",
+      "label": "Thai goddesses",
+      "discoveredFrom": "Nang Kwak",
+      "discoveredAt": 488
     }
   ],
-  "totalAdded": 2013,
-  "runs": 488,
-  "lastRun": "2026-07-01T09:31:20.004Z",
-  "lastDiscoveredIndex": 219
+  "totalAdded": 2028,
+  "runs": 489,
+  "lastRun": "2026-07-01T14:13:39.855Z",
+  "lastDiscoveredIndex": 222
 }
