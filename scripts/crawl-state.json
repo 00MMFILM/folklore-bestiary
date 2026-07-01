@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 52,
+  "lastCategoryIndex": 55,
   "processedPageIds": [
     1481896,
     1347753,
@@ -3232,7 +3232,24 @@
     32142820,
     2245574,
     254847,
-    23781839
+    23781839,
+    80031090,
+    73664893,
+    21441726,
+    670153,
+    65704838,
+    73374862,
+    65577917,
+    44167048,
+    73662115,
+    2497628,
+    85913,
+    59598698,
+    85026,
+    86038,
+    24625809,
+    31807466,
+    1182
   ],
   "discoveredCategories": [
     {
@@ -11866,10 +11883,66 @@
       "label": "Thai goddesses",
       "discoveredFrom": "Nang Kwak",
       "discoveredAt": 488
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Japanese mythology",
+      "iso": "JP",
+      "label": "Japanese mythology",
+      "discoveredFrom": "Ishikori-dome no Mikoto",
+      "discoveredAt": 489
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mountain goddesses",
+      "iso": "JP",
+      "label": "Mountain goddesses",
+      "discoveredFrom": "Kikurihime",
+      "discoveredAt": 489
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Volcano goddesses",
+      "iso": "JP",
+      "label": "Volcano goddesses",
+      "discoveredFrom": "Konohanasakuya-hime",
+      "discoveredAt": 489
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy royalty",
+      "iso": "IN",
+      "label": "Fairy royalty",
+      "discoveredFrom": "Aibell",
+      "discoveredAt": 489
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Gaulish goddesses",
+      "iso": "FR",
+      "label": "Gaulish goddesses",
+      "discoveredFrom": "Arduinna",
+      "discoveredAt": 489
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Basque mythology",
+      "iso": "ES",
+      "label": "Basque mythology",
+      "discoveredFrom": "Artahe",
+      "discoveredAt": 489
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Attic mythology",
+      "iso": "IN",
+      "label": "Attic mythology",
+      "discoveredFrom": "Athena",
+      "discoveredAt": 489
     }
   ],
-  "totalAdded": 2028,
-  "runs": 489,
-  "lastRun": "2026-07-01T14:13:39.855Z",
-  "lastDiscoveredIndex": 222
+  "totalAdded": 2043,
+  "runs": 490,
+  "lastRun": "2026-07-01T19:40:45.620Z",
+  "lastDiscoveredIndex": 225
 }
