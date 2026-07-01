@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 43,
+  "lastCategoryIndex": 46,
   "processedPageIds": [
     1481896,
     1347753,
@@ -3153,7 +3153,37 @@
     97271,
     46796961,
     80156411,
-    2041
+    2041,
+    14892357,
+    61479432,
+    74499496,
+    4024078,
+    75456255,
+    2931988,
+    27908142,
+    21791741,
+    61683198,
+    3513026,
+    80429647,
+    26395895,
+    61044144,
+    9803269,
+    5344253,
+    9402863,
+    80186840,
+    10820055,
+    10834925,
+    9092414,
+    593634,
+    37503233,
+    13490079,
+    30839139,
+    27655007,
+    61164480,
+    46356031,
+    16360,
+    27955691,
+    24782517
   ],
   "discoveredCategories": [
     {
@@ -11611,10 +11641,58 @@
       "label": "Greek mythology of Thrace",
       "discoveredFrom": "Ares",
       "discoveredAt": 485
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological peoples of India",
+      "iso": "IN",
+      "label": "Mythological peoples of India",
+      "discoveredFrom": "Naga people (Lanka)",
+      "discoveredAt": 486
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sri Lankan mythology",
+      "iso": "IN",
+      "label": "Sri Lankan mythology",
+      "discoveredFrom": "Naga people (Lanka)",
+      "discoveredAt": 486
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Places in Hindu mythology",
+      "iso": "IN",
+      "label": "Places in Hindu mythology",
+      "discoveredFrom": "Patala",
+      "discoveredAt": 486
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Tibetan Buddhist spiritual teachers",
+      "iso": "IN",
+      "label": "Tibetan Buddhist spiritual teachers",
+      "discoveredFrom": "Mandāravā",
+      "discoveredAt": 486
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Indian legends",
+      "iso": "IN",
+      "label": "Indian legends",
+      "discoveredFrom": "Alha-Khand",
+      "discoveredAt": 486
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Indian people",
+      "iso": "IN",
+      "label": "Legendary Indian people",
+      "discoveredFrom": "Bharthari (king)",
+      "discoveredAt": 486
     }
   ],
-  "totalAdded": 1989,
-  "runs": 486,
-  "lastRun": "2026-06-30T19:44:08.194Z",
-  "lastDiscoveredIndex": 213
+  "totalAdded": 2004,
+  "runs": 487,
+  "lastRun": "2026-07-01T02:39:57.737Z",
+  "lastDiscoveredIndex": 216
 }
