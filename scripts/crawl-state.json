@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 55,
+  "lastCategoryIndex": 58,
   "processedPageIds": [
     1481896,
     1347753,
@@ -3249,7 +3249,38 @@
     86038,
     24625809,
     31807466,
-    1182
+    1182,
+    3135601,
+    71348661,
+    69666223,
+    81907811,
+    77104948,
+    39607436,
+    21413828,
+    28788475,
+    1420291,
+    64758082,
+    1916544,
+    21954698,
+    14016104,
+    72175992,
+    50081351,
+    7668614,
+    19509834,
+    3107725,
+    59765183,
+    77047229,
+    57483148,
+    68452953,
+    34187825,
+    25223886,
+    418880,
+    28575846,
+    64166443,
+    26865706,
+    30676803,
+    14749911,
+    78254555
   ],
   "discoveredCategories": [
     {
@@ -11939,10 +11970,82 @@
       "label": "Attic mythology",
       "discoveredFrom": "Athena",
       "discoveredAt": 489
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Lists of animals in mythology and religion",
+      "iso": "_MULTI",
+      "label": "Lists of animals in mythology and religion",
+      "discoveredFrom": "List of elephants in mythology and religion",
+      "discoveredAt": 490
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Islamic legendary creatures",
+      "iso": "SA",
+      "label": "Islamic legendary creatures",
+      "discoveredFrom": "Behemoth",
+      "discoveredAt": 490
+    },
+    {
+      "lang": "en",
+      "cat": "Category:South American goddesses",
+      "iso": "US",
+      "label": "South American goddesses",
+      "discoveredFrom": "Kasogonagá",
+      "discoveredAt": 490
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Thunder goddesses",
+      "iso": "_MULTI",
+      "label": "Thunder goddesses",
+      "discoveredFrom": "Kasogonagá",
+      "discoveredAt": 490
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Bangladeshi legendary creatures",
+      "iso": "_MULTI",
+      "label": "Bangladeshi legendary creatures",
+      "discoveredFrom": "Ghosts in Bengali culture",
+      "discoveredAt": 490
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Asian witchcraft",
+      "iso": "_MULTI",
+      "label": "Asian witchcraft",
+      "discoveredFrom": "Churel",
+      "discoveredAt": 490
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Maharashtra folklore",
+      "iso": "_MULTI",
+      "label": "Maharashtra folklore",
+      "discoveredFrom": "Munjya",
+      "discoveredAt": 490
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Karnataka folklore",
+      "iso": "_MULTI",
+      "label": "Karnataka folklore",
+      "discoveredFrom": "Naale Ba",
+      "discoveredAt": 490
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ghost towns in Asia",
+      "iso": "_MULTI",
+      "label": "Ghost towns in Asia",
+      "discoveredFrom": "Sanzhi UFO houses",
+      "discoveredAt": 490
     }
   ],
-  "totalAdded": 2043,
-  "runs": 490,
-  "lastRun": "2026-07-01T19:40:45.620Z",
-  "lastDiscoveredIndex": 225
+  "totalAdded": 2053,
+  "runs": 491,
+  "lastRun": "2026-07-02T02:29:25.139Z",
+  "lastDiscoveredIndex": 228
 }
