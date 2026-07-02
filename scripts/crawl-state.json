@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 64,
+  "lastCategoryIndex": 67,
   "processedPageIds": [
     1481896,
     1347753,
@@ -3322,7 +3322,27 @@
     2658921,
     19838050,
     99743,
-    47407538
+    47407538,
+    83551652,
+    1356363,
+    5031169,
+    100234,
+    9763054,
+    55139858,
+    2632768,
+    71550153,
+    258650,
+    100130,
+    2939798,
+    32294987,
+    17862013,
+    64000988,
+    1840244,
+    709887,
+    67153865,
+    2795397,
+    34450493,
+    78986
   ],
   "discoveredCategories": [
     {
@@ -12180,10 +12200,98 @@
       "label": "Punjabi folklore",
       "discoveredFrom": "Pichal peri",
       "discoveredAt": 492
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Kali (demon)",
+      "iso": "IN",
+      "label": "Kali (demon)",
+      "discoveredFrom": "Kali (demon)",
+      "discoveredAt": 493
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Consorts of Kali (demon)",
+      "iso": "IN",
+      "label": "Consorts of Kali (demon)",
+      "discoveredFrom": "Durukti",
+      "discoveredAt": 493
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Japanese bathroom ghosts",
+      "iso": "JP",
+      "label": "Japanese bathroom ghosts",
+      "discoveredFrom": "Teke Teke",
+      "discoveredAt": 493
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Central American mythology",
+      "iso": "US",
+      "label": "Central American mythology",
+      "discoveredFrom": "Cadejo",
+      "discoveredAt": 493
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Costa Rican folklore",
+      "iso": "US",
+      "label": "Costa Rican folklore",
+      "discoveredFrom": "Cadejo",
+      "discoveredAt": 493
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Honduran folklore",
+      "iso": "US",
+      "label": "Honduran folklore",
+      "discoveredFrom": "Cadejo",
+      "discoveredAt": 493
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Salvadoran folklore",
+      "iso": "US",
+      "label": "Salvadoran folklore",
+      "discoveredFrom": "Cadejo",
+      "discoveredAt": 493
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Spanish-language Mesoamerican legendary creatures",
+      "iso": "ES",
+      "label": "Spanish-language Mesoamerican legendary creatures",
+      "discoveredFrom": "Cadejo",
+      "discoveredAt": 493
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Cycle",
+      "iso": "US",
+      "label": "Mythological Cycle",
+      "discoveredFrom": "Failinis",
+      "discoveredAt": 493
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Children of Greek river gods",
+      "iso": "GR",
+      "label": "Children of Greek river gods",
+      "discoveredFrom": "Hecuba",
+      "discoveredAt": 493
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Greek mythological slaves",
+      "iso": "GR",
+      "label": "Greek mythological slaves",
+      "discoveredFrom": "Hecuba",
+      "discoveredAt": 493
     }
   ],
-  "totalAdded": 2080,
-  "runs": 493,
-  "lastRun": "2026-07-02T13:40:52.608Z",
-  "lastDiscoveredIndex": 234
+  "totalAdded": 2095,
+  "runs": 494,
+  "lastRun": "2026-07-02T19:11:13.904Z",
+  "lastDiscoveredIndex": 237
 }
