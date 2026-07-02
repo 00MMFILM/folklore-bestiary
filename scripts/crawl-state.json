@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 58,
+  "lastCategoryIndex": 61,
   "processedPageIds": [
     1481896,
     1347753,
@@ -3280,7 +3280,30 @@
     26865706,
     30676803,
     14749911,
-    78254555
+    78254555,
+    22145427,
+    76237754,
+    65344383,
+    39770888,
+    6731546,
+    3589629,
+    3047116,
+    5592395,
+    43143095,
+    1800834,
+    69316190,
+    1573719,
+    51107515,
+    3658685,
+    81689,
+    19230687,
+    80900222,
+    9016028,
+    36349359,
+    51411886,
+    72755982,
+    19230710,
+    32362
   ],
   "discoveredCategories": [
     {
@@ -12042,10 +12065,82 @@
       "label": "Ghost towns in Asia",
       "discoveredFrom": "Sanzhi UFO houses",
       "discoveredAt": 490
+    },
+    {
+      "lang": "en",
+      "cat": "Category:English ghosts",
+      "iso": "GB",
+      "label": "English ghosts",
+      "discoveredFrom": "Black Annis",
+      "discoveredAt": 491
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Witchcraft in England",
+      "iso": "GB",
+      "label": "Witchcraft in England",
+      "discoveredFrom": "Black Annis",
+      "discoveredAt": 491
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Filicide in mythology",
+      "iso": "_MULTI",
+      "label": "Filicide in mythology",
+      "discoveredFrom": "Clymenus",
+      "discoveredAt": 491
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Aetolians",
+      "iso": "_MULTI",
+      "label": "Mythological Aetolians",
+      "discoveredFrom": "Clymenus",
+      "discoveredAt": 491
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological people involved in incest",
+      "iso": "_MULTI",
+      "label": "Mythological people involved in incest",
+      "discoveredFrom": "Clymenus",
+      "discoveredAt": 491
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological kings of Thrace",
+      "iso": "_MULTI",
+      "label": "Mythological kings of Thrace",
+      "discoveredFrom": "Demophon of Elaeus",
+      "discoveredAt": 491
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological people from Anatolia",
+      "iso": "TR",
+      "label": "Mythological people from Anatolia",
+      "discoveredFrom": "Polytechnus",
+      "discoveredAt": 491
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Kings in Roman mythology",
+      "iso": "IT",
+      "label": "Kings in Roman mythology",
+      "discoveredFrom": "Saturn (mythology)",
+      "discoveredAt": 491
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Planetary gods",
+      "iso": "_MULTI",
+      "label": "Planetary gods",
+      "discoveredFrom": "Saturn (mythology)",
+      "discoveredAt": 491
     }
   ],
-  "totalAdded": 2053,
-  "runs": 491,
-  "lastRun": "2026-07-02T02:29:25.139Z",
-  "lastDiscoveredIndex": 228
+  "totalAdded": 2068,
+  "runs": 492,
+  "lastRun": "2026-07-02T08:43:19.024Z",
+  "lastDiscoveredIndex": 231
 }
