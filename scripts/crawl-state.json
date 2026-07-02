@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 61,
+  "lastCategoryIndex": 64,
   "processedPageIds": [
     1481896,
     1347753,
@@ -3303,7 +3303,26 @@
     51411886,
     72755982,
     19230710,
-    32362
+    32362,
+    1584646,
+    37391584,
+    22514556,
+    6946866,
+    18586408,
+    37322845,
+    3196322,
+    1246918,
+    5558988,
+    4398273,
+    53177840,
+    69036551,
+    3537304,
+    45430123,
+    17823401,
+    2658921,
+    19838050,
+    99743,
+    47407538
   ],
   "discoveredCategories": [
     {
@@ -12137,10 +12156,34 @@
       "label": "Planetary gods",
       "discoveredFrom": "Saturn (mythology)",
       "discoveredAt": 491
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Indian characters in Greek mythology",
+      "iso": "IN",
+      "label": "Indian characters in Greek mythology",
+      "discoveredFrom": "Headless men",
+      "discoveredAt": 492
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Pakistani legendary creatures",
+      "iso": "IN",
+      "label": "Pakistani legendary creatures",
+      "discoveredFrom": "Pichal peri",
+      "discoveredAt": 492
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Punjabi folklore",
+      "iso": "IN",
+      "label": "Punjabi folklore",
+      "discoveredFrom": "Pichal peri",
+      "discoveredAt": 492
     }
   ],
-  "totalAdded": 2068,
-  "runs": 492,
-  "lastRun": "2026-07-02T08:43:19.024Z",
-  "lastDiscoveredIndex": 231
+  "totalAdded": 2080,
+  "runs": 493,
+  "lastRun": "2026-07-02T13:40:52.608Z",
+  "lastDiscoveredIndex": 234
 }
