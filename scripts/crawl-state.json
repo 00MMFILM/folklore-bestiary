@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 70,
+  "lastCategoryIndex": 73,
   "processedPageIds": [
     1481896,
     1347753,
@@ -3360,7 +3360,29 @@
     4704982,
     7190010,
     18304820,
-    12937768
+    12937768,
+    9938226,
+    1805270,
+    98212,
+    86069,
+    92542,
+    245185,
+    440276,
+    24330662,
+    1609784,
+    55869150,
+    6796504,
+    72437730,
+    6562523,
+    29003900,
+    9044513,
+    4021143,
+    767516,
+    950457,
+    100262,
+    14179211,
+    21732886,
+    68203043
   ],
   "discoveredCategories": [
     {
@@ -12338,10 +12360,114 @@
       "label": "Names of God in Zoroastrianism",
       "discoveredFrom": "Ahura Mazda",
       "discoveredAt": 494
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Irish kings",
+      "iso": "IE",
+      "label": "Legendary Irish kings",
+      "discoveredFrom": "Balor",
+      "discoveredAt": 495
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Maya gods",
+      "iso": "MX",
+      "label": "Maya gods",
+      "discoveredFrom": "Camazotz",
+      "discoveredAt": 495
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Slavic gods",
+      "iso": "RU",
+      "label": "Slavic gods",
+      "discoveredFrom": "Chernobog and Belobog",
+      "discoveredAt": 495
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fictional demons",
+      "iso": "US",
+      "label": "Fictional demons",
+      "discoveredFrom": "Dark lord",
+      "discoveredAt": 495
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mongol mythology",
+      "iso": "US",
+      "label": "Mongol mythology",
+      "discoveredFrom": "Erlik",
+      "discoveredAt": 495
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Asia in mythology",
+      "iso": "IN",
+      "label": "Asia in mythology",
+      "discoveredFrom": "Beyul",
+      "discoveredAt": 495
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological forests",
+      "iso": "IN",
+      "label": "Mythological forests",
+      "discoveredFrom": "Himavanta",
+      "discoveredAt": 495
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Thai mythology",
+      "iso": "TH",
+      "label": "Thai mythology",
+      "discoveredFrom": "Himavanta",
+      "discoveredAt": 495
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mount Meru (mythology)",
+      "iso": "IN",
+      "label": "Mount Meru (mythology)",
+      "discoveredFrom": "Mount Meru (Buddhism)",
+      "discoveredAt": 495
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Places in Chinese mythology",
+      "iso": "CN",
+      "label": "Places in Chinese mythology",
+      "discoveredFrom": "Mount Meru (Buddhism)",
+      "discoveredAt": 495
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological places",
+      "iso": "IN",
+      "label": "Mythological places",
+      "discoveredFrom": "Sanzu River",
+      "discoveredAt": 495
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological rivers",
+      "iso": "IN",
+      "label": "Mythological rivers",
+      "discoveredFrom": "Sanzu River",
+      "discoveredAt": 495
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Places in Japanese mythology",
+      "iso": "JP",
+      "label": "Places in Japanese mythology",
+      "discoveredFrom": "Sanzu River",
+      "discoveredAt": 495
     }
   ],
-  "totalAdded": 2110,
-  "runs": 495,
-  "lastRun": "2026-07-03T02:04:32.548Z",
-  "lastDiscoveredIndex": 240
+  "totalAdded": 2122,
+  "runs": 496,
+  "lastRun": "2026-07-03T08:50:53.644Z",
+  "lastDiscoveredIndex": 243
 }
