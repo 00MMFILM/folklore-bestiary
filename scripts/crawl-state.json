@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 76,
+  "lastCategoryIndex": 79,
   "processedPageIds": [
     1481896,
     1347753,
@@ -3409,7 +3409,30 @@
     28124101,
     66766016,
     20378330,
-    44461238
+    44461238,
+    10835339,
+    596971,
+    22782500,
+    4865709,
+    5818246,
+    537785,
+    7624113,
+    9593181,
+    2808772,
+    28090366,
+    28010522,
+    7300653,
+    1776116,
+    10935204,
+    16115850,
+    28010547,
+    2771477,
+    47683081,
+    6495074,
+    55725032,
+    73837085,
+    64675812,
+    24538712
   ],
   "discoveredCategories": [
     {
@@ -12531,10 +12554,26 @@
       "label": "Voodoo goddesses",
       "discoveredFrom": "Mawu",
       "discoveredAt": 496
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Nuer mythology",
+      "iso": "GH",
+      "label": "Nuer mythology",
+      "discoveredFrom": "Abuk (mythology)",
+      "discoveredAt": 497
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Guanche goddesses",
+      "iso": "GH",
+      "label": "Guanche goddesses",
+      "discoveredFrom": "Chaxiraxi",
+      "discoveredAt": 497
     }
   ],
-  "totalAdded": 2137,
-  "runs": 497,
-  "lastRun": "2026-07-03T13:44:57.284Z",
-  "lastDiscoveredIndex": 246
+  "totalAdded": 2152,
+  "runs": 498,
+  "lastRun": "2026-07-03T19:04:04.225Z",
+  "lastDiscoveredIndex": 249
 }
