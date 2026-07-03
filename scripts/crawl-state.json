@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 73,
+  "lastCategoryIndex": 76,
   "processedPageIds": [
     1481896,
     1347753,
@@ -3382,7 +3382,34 @@
     100262,
     14179211,
     21732886,
-    68203043
+    68203043,
+    24814142,
+    73651056,
+    17647738,
+    82161,
+    51845161,
+    1637863,
+    220760,
+    4302198,
+    77028262,
+    9936323,
+    3246727,
+    2614724,
+    12619351,
+    771697,
+    4455942,
+    2046473,
+    37738415,
+    1377363,
+    46949848,
+    62451794,
+    67169408,
+    1324675,
+    1823517,
+    28124101,
+    66766016,
+    20378330,
+    44461238
   ],
   "discoveredCategories": [
     {
@@ -12464,10 +12491,50 @@
       "label": "Places in Japanese mythology",
       "discoveredFrom": "Sanzu River",
       "discoveredAt": 495
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Zoroastrian legendary creatures",
+      "iso": "IN",
+      "label": "Zoroastrian legendary creatures",
+      "discoveredFrom": "Gavaevodata",
+      "discoveredAt": 496
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological weapons",
+      "iso": "IN",
+      "label": "Mythological weapons",
+      "discoveredFrom": "Asi (Mahabharata)",
+      "discoveredAt": 496
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Weapons in Buddhist mythology",
+      "iso": "IN",
+      "label": "Weapons in Buddhist mythology",
+      "discoveredFrom": "Elephant goad",
+      "discoveredAt": 496
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Dahomean goddesses",
+      "iso": "GH",
+      "label": "Dahomean goddesses",
+      "discoveredFrom": "Mawu",
+      "discoveredAt": 496
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Voodoo goddesses",
+      "iso": "GH",
+      "label": "Voodoo goddesses",
+      "discoveredFrom": "Mawu",
+      "discoveredAt": 496
     }
   ],
-  "totalAdded": 2122,
-  "runs": 496,
-  "lastRun": "2026-07-03T08:50:53.644Z",
-  "lastDiscoveredIndex": 243
+  "totalAdded": 2137,
+  "runs": 497,
+  "lastRun": "2026-07-03T13:44:57.284Z",
+  "lastDiscoveredIndex": 246
 }
