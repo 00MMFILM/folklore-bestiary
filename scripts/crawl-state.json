@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 67,
+  "lastCategoryIndex": 70,
   "processedPageIds": [
     1481896,
     1347753,
@@ -3342,7 +3342,25 @@
     67153865,
     2795397,
     34450493,
-    78986
+    78986,
+    70522892,
+    705144,
+    11007859,
+    72474449,
+    71478078,
+    72114389,
+    3335344,
+    26224584,
+    34850001,
+    8811550,
+    50324,
+    13674707,
+    293159,
+    74877667,
+    4704982,
+    7190010,
+    18304820,
+    12937768
   ],
   "discoveredCategories": [
     {
@@ -12288,10 +12306,42 @@
       "label": "Greek mythological slaves",
       "discoveredFrom": "Hecuba",
       "discoveredAt": 493
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Pastoral gods",
+      "iso": "US",
+      "label": "Pastoral gods",
+      "discoveredFrom": "Amurru (god)",
+      "discoveredAt": 494
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Kings of the gods",
+      "iso": "US",
+      "label": "Kings of the gods",
+      "discoveredFrom": "Ashur (god)",
+      "discoveredAt": 494
+    },
+    {
+      "lang": "en",
+      "cat": "Category:National gods",
+      "iso": "US",
+      "label": "National gods",
+      "discoveredFrom": "Ashur (god)",
+      "discoveredAt": 494
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Names of God in Zoroastrianism",
+      "iso": "IR",
+      "label": "Names of God in Zoroastrianism",
+      "discoveredFrom": "Ahura Mazda",
+      "discoveredAt": 494
     }
   ],
-  "totalAdded": 2095,
-  "runs": 494,
-  "lastRun": "2026-07-02T19:11:13.904Z",
-  "lastDiscoveredIndex": 237
+  "totalAdded": 2110,
+  "runs": 495,
+  "lastRun": "2026-07-03T02:04:32.548Z",
+  "lastDiscoveredIndex": 240
 }
