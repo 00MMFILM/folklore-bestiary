@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 79,
+  "lastCategoryIndex": 82,
   "processedPageIds": [
     1481896,
     1347753,
@@ -3432,7 +3432,34 @@
     55725032,
     73837085,
     64675812,
-    24538712
+    24538712,
+    36228761,
+    3224913,
+    1253833,
+    1822217,
+    1330342,
+    16365732,
+    9231698,
+    10517626,
+    751060,
+    727585,
+    1792063,
+    58918509,
+    24638233,
+    8762207,
+    8166984,
+    5347291,
+    1296388,
+    28678181,
+    18344483,
+    37828019,
+    22884623,
+    4432457,
+    536789,
+    17047013,
+    16024318,
+    12264908,
+    36534048
   ],
   "discoveredCategories": [
     {
@@ -12570,10 +12597,82 @@
       "label": "Guanche goddesses",
       "discoveredFrom": "Chaxiraxi",
       "discoveredAt": 497
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Dahomean mythology",
+      "iso": "US",
+      "label": "Dahomean mythology",
+      "discoveredFrom": "Aziza (mythology)",
+      "discoveredAt": 498
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Recurring elements in folklore",
+      "iso": "US",
+      "label": "Recurring elements in folklore",
+      "discoveredFrom": "Fairy cup legend",
+      "discoveredAt": 498
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Canadian urban legends",
+      "iso": "US",
+      "label": "Canadian urban legends",
+      "discoveredFrom": "Midgetville",
+      "discoveredAt": 498
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Places in Native American mythology",
+      "iso": "US",
+      "label": "Places in Native American mythology",
+      "discoveredFrom": "Spirit Mound Historic Prairie",
+      "discoveredAt": 498
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Feline gods",
+      "iso": "US",
+      "label": "Feline gods",
+      "discoveredFrom": "Aiapæc",
+      "discoveredAt": 498
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Feline cryptids",
+      "iso": "US",
+      "label": "Feline cryptids",
+      "discoveredFrom": "Ball-tailed cat",
+      "discoveredAt": 498
+    },
+    {
+      "lang": "en",
+      "cat": "Category:British legendary creatures",
+      "iso": "GB",
+      "label": "British legendary creatures",
+      "discoveredFrom": "British big cats",
+      "discoveredAt": 498
+    },
+    {
+      "lang": "en",
+      "cat": "Category:British urban legends",
+      "iso": "GB",
+      "label": "British urban legends",
+      "discoveredFrom": "British big cats",
+      "discoveredAt": 498
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of Connecticut",
+      "iso": "US",
+      "label": "Folklore of Connecticut",
+      "discoveredFrom": "Glawackus",
+      "discoveredAt": 498
     }
   ],
-  "totalAdded": 2152,
-  "runs": 498,
-  "lastRun": "2026-07-03T19:04:04.225Z",
-  "lastDiscoveredIndex": 249
+  "totalAdded": 2167,
+  "runs": 499,
+  "lastRun": "2026-07-04T02:02:41.195Z",
+  "lastDiscoveredIndex": 252
 }
