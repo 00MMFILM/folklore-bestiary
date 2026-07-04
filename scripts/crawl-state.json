@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 88,
+  "lastCategoryIndex": 91,
   "processedPageIds": [
     1481896,
     1347753,
@@ -3496,7 +3496,25 @@
     643646,
     66423978,
     1625763,
-    81920
+    81920,
+    83545015,
+    5695312,
+    21301055,
+    1362961,
+    42292596,
+    83545225,
+    35397194,
+    660873,
+    40478368,
+    83140,
+    79177,
+    77679,
+    78417,
+    693485,
+    18154690,
+    1579,
+    78475,
+    17972355
   ],
   "discoveredCategories": [
     {
@@ -12826,10 +12844,82 @@
       "label": "Egyptian characters in Greek mythology",
       "discoveredFrom": "Libya (daughter of Epaphus)",
       "discoveredAt": 500
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Aymara gods",
+      "iso": "PE",
+      "label": "Aymara gods",
+      "discoveredFrom": "Willka Raymi",
+      "discoveredAt": 501
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Locrians",
+      "iso": "MA",
+      "label": "Mythological Locrians",
+      "discoveredFrom": "Abderus",
+      "discoveredAt": 501
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Mycenaeans",
+      "iso": "MA",
+      "label": "Mythological Mycenaeans",
+      "discoveredFrom": "Admete",
+      "discoveredAt": 501
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Dorian mythology",
+      "iso": "MA",
+      "label": "Dorian mythology",
+      "discoveredFrom": "Aegimius",
+      "discoveredAt": 501
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological kings of Thessaly",
+      "iso": "MA",
+      "label": "Mythological kings of Thessaly",
+      "discoveredFrom": "Aegimius",
+      "discoveredAt": 501
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Children of Andromeda (mythology)",
+      "iso": "IT",
+      "label": "Children of Andromeda (mythology)",
+      "discoveredFrom": "Alcaeus (mythology)",
+      "discoveredAt": 501
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythology of Argolis",
+      "iso": "MA",
+      "label": "Mythology of Argolis",
+      "discoveredFrom": "Alcaeus (mythology)",
+      "discoveredAt": 501
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Helios in mythology",
+      "iso": "MA",
+      "label": "Helios in mythology",
+      "discoveredFrom": "Alcmene",
+      "discoveredAt": 501
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Perseids (mythology)",
+      "iso": "MA",
+      "label": "Perseids (mythology)",
+      "discoveredFrom": "Alcmene",
+      "discoveredAt": 501
     }
   ],
-  "totalAdded": 2197,
-  "runs": 501,
-  "lastRun": "2026-07-04T13:02:54.397Z",
-  "lastDiscoveredIndex": 258
+  "totalAdded": 2212,
+  "runs": 502,
+  "lastRun": "2026-07-04T18:58:25.477Z",
+  "lastDiscoveredIndex": 261
 }
