@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 85,
+  "lastCategoryIndex": 88,
   "processedPageIds": [
     1481896,
     1347753,
@@ -3476,7 +3476,27 @@
     36909146,
     1816335,
     30071745,
-    26712178
+    26712178,
+    9357769,
+    84981,
+    84984,
+    85028,
+    85033,
+    85035,
+    27039878,
+    85116,
+    86124,
+    47428,
+    78727,
+    14254094,
+    77965,
+    84177,
+    54213418,
+    82464,
+    643646,
+    66423978,
+    1625763,
+    81920
   ],
   "discoveredCategories": [
     {
@@ -12710,10 +12730,106 @@
       "label": "Triple goddesses",
       "discoveredFrom": "Ora (mythology)",
       "discoveredAt": 499
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Italic goddesses",
+      "iso": "IT",
+      "label": "Italic goddesses",
+      "discoveredFrom": "Angitia",
+      "discoveredAt": 500
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Witchcraft in Italy",
+      "iso": "IT",
+      "label": "Witchcraft in Italy",
+      "discoveredFrom": "Angitia",
+      "discoveredAt": 500
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Metamorphoses into bodies of water in Greek mythology",
+      "iso": "GR",
+      "label": "Metamorphoses into bodies of water in Greek mythology",
+      "discoveredFrom": "Aura (mythology)",
+      "discoveredAt": 500
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Roman fertility goddesses",
+      "iso": "IT",
+      "label": "Roman fertility goddesses",
+      "discoveredFrom": "Bona Dea",
+      "discoveredAt": 500
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Atlas (mythology)",
+      "iso": "MA",
+      "label": "Atlas (mythology)",
+      "discoveredFrom": "Atlas (mythology)",
+      "discoveredAt": 500
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Metamorphoses into terrain in Greek mythology",
+      "iso": "GR",
+      "label": "Metamorphoses into terrain in Greek mythology",
+      "discoveredFrom": "Atlas (mythology)",
+      "discoveredAt": 500
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Titans (mythology)",
+      "iso": "MA",
+      "label": "Titans (mythology)",
+      "discoveredFrom": "Atlas (mythology)",
+      "discoveredAt": 500
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mortal parents of demigods in classical mythology",
+      "iso": "GR",
+      "label": "Mortal parents of demigods in classical mythology",
+      "discoveredFrom": "Amymone",
+      "discoveredAt": 500
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythology of Argos, Peloponnese",
+      "iso": "GR",
+      "label": "Mythology of Argos, Peloponnese",
+      "discoveredFrom": "Amymone",
+      "discoveredAt": 500
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Rhodian mythology",
+      "iso": "GR",
+      "label": "Rhodian mythology",
+      "discoveredFrom": "Danaus",
+      "discoveredAt": 500
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Eleusinian mythology",
+      "iso": "GR",
+      "label": "Eleusinian mythology",
+      "discoveredFrom": "Eumolpus",
+      "discoveredAt": 500
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Egyptian characters in Greek mythology",
+      "iso": "EG",
+      "label": "Egyptian characters in Greek mythology",
+      "discoveredFrom": "Libya (daughter of Epaphus)",
+      "discoveredAt": 500
     }
   ],
-  "totalAdded": 2182,
-  "runs": 500,
-  "lastRun": "2026-07-04T08:25:48.897Z",
-  "lastDiscoveredIndex": 255
+  "totalAdded": 2197,
+  "runs": 501,
+  "lastRun": "2026-07-04T13:02:54.397Z",
+  "lastDiscoveredIndex": 258
 }
