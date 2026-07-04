@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 82,
+  "lastCategoryIndex": 85,
   "processedPageIds": [
     1481896,
     1347753,
@@ -3459,7 +3459,24 @@
     17047013,
     16024318,
     12264908,
-    36534048
+    36534048,
+    76393433,
+    78263581,
+    7245710,
+    70736339,
+    2025713,
+    6920445,
+    6828382,
+    80741675,
+    12153605,
+    10153277,
+    36909042,
+    58178716,
+    1816350,
+    36909146,
+    1816335,
+    30071745,
+    26712178
   ],
   "discoveredCategories": [
     {
@@ -12669,10 +12686,34 @@
       "label": "Folklore of Connecticut",
       "discoveredFrom": "Glawackus",
       "discoveredAt": 498
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Czech fairy tales",
+      "iso": "CZ",
+      "label": "Czech fairy tales",
+      "discoveredFrom": "Devil and Káča",
+      "discoveredAt": 499
+    },
+    {
+      "lang": "en",
+      "cat": "Category:The Devil in fairy tales",
+      "iso": "CZ",
+      "label": "The Devil in fairy tales",
+      "discoveredFrom": "Devil and Káča",
+      "discoveredAt": 499
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Triple goddesses",
+      "iso": "AL",
+      "label": "Triple goddesses",
+      "discoveredFrom": "Ora (mythology)",
+      "discoveredAt": 499
     }
   ],
-  "totalAdded": 2167,
-  "runs": 499,
-  "lastRun": "2026-07-04T02:02:41.195Z",
-  "lastDiscoveredIndex": 252
+  "totalAdded": 2182,
+  "runs": 500,
+  "lastRun": "2026-07-04T08:25:48.897Z",
+  "lastDiscoveredIndex": 255
 }
