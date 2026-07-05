@@ -8,6 +8,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { pathToFileURL } from 'url';
 
 // ─── 데이터 로드/저장 (expand-folklore.mjs와 동일) ───
 const DATA_PATH = path.join(process.cwd(), 'lib', 'folklore-data.ts');
@@ -247,47 +248,181 @@ const CATEGORY_COUNTRY_MAP = [
 // ═══════════════════════════════════════════════════════════════
 //  _MULTI 카테고리용 국가 추정
 // ═══════════════════════════════════════════════════════════════
+// 사이트가 지원하는 전체 국가(145개) 기준. 단어 경계(\b) 매칭이므로 완전한 단어로 표기.
+// 동점 시 먼저 정의된 국가가 승리 — 구체적 문화권을 앞에, 광역 키워드(US 등)를 뒤에 배치.
 const COUNTRY_KEYWORDS = {
-  GR: ['greek', 'greece', 'hellenic', 'olymp', 'athen'],
-  NO: ['norse', 'norway', 'norwegian', 'viking', 'scandinavian'],
-  JP: ['japan', 'japanese', 'shinto', 'edo', 'yokai'],
-  CN: ['china', 'chinese', 'taoist', 'tang dynasty', 'ming'],
-  KR: ['korea', 'korean', 'joseon', 'goryeo'],
-  IN: ['india', 'indian', 'hindu', 'vedic', 'sanskrit'],
-  EG: ['egypt', 'egyptian', 'pharao', 'nile'],
+  // ─ 동아시아 ─
+  KR: ['korea', 'korean', 'joseon', 'goryeo', 'silla', 'baekje'],
+  JP: ['japan', 'japanese', 'shinto', 'yokai', 'ainu', 'okinawan'],
+  CN: ['china', 'chinese', 'taoist', 'daoist', 'tibetan', 'tibet'],
+  MN: ['mongol', 'mongolia', 'mongolian'],
+  TW: ['taiwan', 'taiwanese'],
+  // ─ 동남아시아 ─
+  VN: ['vietnam', 'vietnamese'],
+  TH: ['thai', 'thailand', 'siam', 'siamese'],
+  PH: ['philippine', 'philippines', 'filipino', 'tagalog', 'visayan'],
+  ID: ['indonesia', 'indonesian', 'javanese', 'balinese', 'sundanese', 'bali'],
+  MY: ['malay', 'malaysia', 'malaysian', 'bornean'],
+  KH: ['khmer', 'cambodia', 'cambodian'],
+  MM: ['burmese', 'myanmar', 'burma'],
+  LA: ['lao', 'laotian', 'laos'],
+  SG: ['singapore', 'singaporean'],
+  BN: ['brunei'],
+  // ─ 남아시아 ─
+  IN: ['india', 'indian', 'hindu', 'vedic', 'sanskrit', 'tamil', 'puranic'],
+  NP: ['nepal', 'nepali', 'nepalese', 'newar'],
+  LK: ['sri lanka', 'sri lankan', 'sinhala', 'sinhalese'],
+  PK: ['pakistan', 'pakistani'],
+  BD: ['bangladesh', 'bangladeshi', 'bengali', 'bengal'],
+  AF: ['afghan', 'afghanistan'],
+  BT: ['bhutan', 'bhutanese'],
+  MV: ['maldives', 'maldivian'],
+  // ─ 중동·코카서스·중앙아시아 ─
+  IR: ['persia', 'persian', 'iran', 'iranian', 'zoroastrian'],
+  TR: ['turkish', 'turkey', 'turkic', 'ottoman', 'anatolia', 'anatolian'],
+  IQ: ['iraq', 'iraqi', 'mesopotamia', 'mesopotamian', 'sumerian', 'babylonian', 'akkadian', 'assyrian'],
+  IL: ['israel', 'israeli', 'jewish', 'hebrew', 'kabbalah', 'talmudic'],
+  LB: ['lebanon', 'lebanese', 'phoenician', 'canaanite'],
+  SA: ['arab', 'arabian', 'arabic', 'islam', 'islamic', 'bedouin'],
+  OM: ['oman', 'omani'],
+  EG: ['egypt', 'egyptian', 'pharaoh', 'pharaonic', 'coptic', 'nile'],
+  KZ: ['kazakh', 'kazakhstan'],
+  UZ: ['uzbek', 'uzbekistan'],
+  GE: ['georgian'],
+  AM: ['armenia', 'armenian'],
+  AZ: ['azerbaijan', 'azerbaijani', 'azeri'],
+  KG: ['kyrgyz', 'kyrgyzstan'],
+  TJ: ['tajik', 'tajikistan'],
+  TM: ['turkmen', 'turkmenistan'],
+  // ─ 유럽 ─
+  SCT: ['scotland', 'scottish', 'hebrides', 'orkney', 'shetland'],
+  WLS: ['wales', 'welsh'],
+  GB: ['british', 'english', 'england', 'cornish', 'arthurian', 'manx'],
   IE: ['irish', 'ireland', 'celtic', 'gaelic'],
-  RU: ['russia', 'russian', 'slavic', 'slav'],
-  DE: ['german', 'germany', 'germanic', 'teutonic'],
-  FR: ['france', 'french', 'gaul'],
-  IT: ['italy', 'italian', 'roman', 'rome'],
-  GB: ['british', 'english', 'england', 'scotland', 'scottish', 'welsh', 'wales'],
-  ES: ['spain', 'spanish', 'iberian', 'basque'],
-  TR: ['turk', 'ottoman', 'anatoli'],
-  IR: ['persia', 'persian', 'iran'],
-  MX: ['mexico', 'mexican', 'aztec', 'maya'],
-  BR: ['brazil', 'brazilian', 'tupi'],
-  US: ['america', 'native american', 'navajo', 'cherokee', 'iroquois', 'algonquin'],
-  PH: ['philippin', 'filipino', 'tagalog'],
-  ID: ['indonesia', 'indonesian', 'java', 'bali'],
-  TH: ['thai', 'thailand', 'siam'],
-  RO: ['romania', 'romanian', 'transylvan'],
+  FR: ['france', 'french', 'breton', 'gaulish', 'gaul', 'occitan'],
+  DE: ['german', 'germany', 'germanic', 'teutonic', 'bavarian'],
+  NL: ['dutch', 'netherlands', 'holland', 'frisian'],
+  BE: ['belgian', 'belgium', 'flemish', 'walloon'],
+  AT: ['austria', 'austrian', 'tyrolean', 'tyrol'],
+  CH: ['swiss', 'switzerland'],
+  NO: ['norse', 'norway', 'norwegian', 'viking', 'scandinavian', 'sami'],
   SE: ['sweden', 'swedish'],
-  FI: ['finland', 'finnish', 'kalevala'],
+  DK: ['danish', 'denmark'],
+  FI: ['finland', 'finnish', 'kalevala', 'karelian'],
+  IS: ['iceland', 'icelandic'],
+  FO: ['faroese', 'faroe'],
+  RO: ['romania', 'romanian', 'transylvania', 'transylvanian', 'dacian'],
+  GR: ['greek', 'greece', 'hellenic', 'olympian', 'minoan', 'cretan'],
+  RU: ['russia', 'russian', 'slavic', 'slav', 'siberian', 'tatar'],
   PL: ['poland', 'polish'],
-  SA: ['arab', 'arabian', 'islam', 'bedouin'],
-  AU: ['australia', 'australian', 'aboriginal'],
-  NZ: ['maori', 'new zealand', 'polynesia'],
+  CZ: ['czech', 'bohemian', 'moravian'],
+  SK: ['slovak', 'slovakia', 'slovakian'],
+  SI: ['slovene', 'slovenia', 'slovenian'],
+  RS: ['serbia', 'serbian', 'serb'],
+  HR: ['croatia', 'croatian', 'croat'],
+  BA: ['bosnia', 'bosnian', 'herzegovina'],
+  MK: ['macedonian', 'macedonia'],
+  BG: ['bulgaria', 'bulgarian'],
+  HU: ['hungary', 'hungarian', 'magyar'],
+  IT: ['italy', 'italian', 'roman', 'rome', 'etruscan', 'sicilian', 'sardinian'],
+  ES: ['spain', 'spanish', 'iberian', 'basque', 'catalan', 'galician', 'asturian'],
+  PT: ['portugal', 'portuguese', 'lusitanian'],
+  UA: ['ukraine', 'ukrainian'],
+  AL: ['albania', 'albanian'],
+  LT: ['lithuania', 'lithuanian', 'baltic'],
+  LV: ['latvia', 'latvian'],
+  EE: ['estonia', 'estonian'],
+  MT: ['malta', 'maltese'],
+  CY: ['cyprus', 'cypriot'],
+  GL: ['greenland', 'greenlandic'],
+  // ─ 아프리카 ─
+  MA: ['morocco', 'moroccan', 'berber', 'amazigh'],
+  TN: ['tunisia', 'tunisian'],
+  DZ: ['algeria', 'algerian', 'kabyle'],
+  NG: ['nigeria', 'nigerian', 'yoruba', 'igbo', 'hausa'],
+  GH: ['ghana', 'ghanaian', 'akan', 'ashanti'],
+  SN: ['senegal', 'senegalese', 'wolof', 'serer'],
+  ML: ['mali', 'malian', 'bambara', 'dogon', 'mandinka'],
+  CI: ['ivorian', 'ivory coast'],
+  CM: ['cameroon', 'cameroonian'],
+  BJ: ['benin', 'beninese', 'vodun', 'fon'],
+  GN: ['guinean'],
+  SL: ['sierra leone', 'sierra leonean'],
+  BF: ['burkina faso', 'burkinabe'],
+  ET: ['ethiopia', 'ethiopian', 'amharic', 'oromo'],
+  KE: ['kenya', 'kenyan', 'kikuyu', 'maasai'],
+  TZ: ['tanzania', 'tanzanian', 'swahili', 'zanzibar'],
+  UG: ['uganda', 'ugandan'],
+  RW: ['rwanda', 'rwandan'],
+  MG: ['madagascar', 'malagasy'],
+  MZ: ['mozambique', 'mozambican'],
+  ZA: ['south africa', 'south african', 'zulu', 'xhosa'],
+  ZW: ['zimbabwe', 'zimbabwean', 'shona'],
+  BW: ['botswana', 'tswana'],
+  NA: ['namibia', 'namibian'],
+  CD: ['congo', 'congolese'],
+  AO: ['angola', 'angolan'],
+  SD: ['sudan', 'sudanese', 'nubian'],
+  ZM: ['zambia', 'zambian'],
+  SO: ['somalia', 'somali'],
+  MU: ['mauritius', 'mauritian'],
+  // ─ 아메리카 (라틴 → 북미 순서: 동점 시 구체적 문화권 우선) ─
+  MX: ['mexico', 'mexican', 'aztec', 'maya', 'mayan', 'nahuatl', 'nahua', 'mesoamerican'],
+  GT: ['guatemala', 'guatemalan'],
+  HN: ['honduras', 'honduran'],
+  SV: ['el salvador', 'salvadoran'],
+  CR: ['costa rica', 'costa rican'],
+  PA: ['panama', 'panamanian'],
+  CU: ['cuba', 'cuban', 'santeria'],
+  HT: ['haiti', 'haitian', 'vodou', 'voodoo'],
+  JM: ['jamaica', 'jamaican'],
+  DO: ['dominican republic', 'dominican'],
+  TT: ['trinidad', 'tobago', 'trinidadian'],
+  PR: ['puerto rico', 'puerto rican', 'taino'],
+  NI: ['nicaragua', 'nicaraguan'],
+  BZ: ['belize', 'belizean'],
+  BR: ['brazil', 'brazilian', 'tupi', 'amazonian'],
+  AR: ['argentina', 'argentine', 'argentinian'],
+  CO: ['colombia', 'colombian', 'muisca'],
+  PE: ['peru', 'peruvian', 'inca', 'incan', 'quechua', 'andean'],
+  CL: ['chile', 'chilean', 'mapuche', 'chilote'],
+  VE: ['venezuela', 'venezuelan'],
+  EC: ['ecuador', 'ecuadorian'],
+  BO: ['bolivia', 'bolivian', 'aymara'],
+  PY: ['paraguay', 'paraguayan', 'guarani'],
+  UY: ['uruguay', 'uruguayan'],
+  GY: ['guyana', 'guyanese'],
+  SR: ['suriname', 'surinamese'],
+  CA: ['canada', 'canadian', 'inuit', 'ojibwe', 'cree', 'first nations'],
+  US: ['american', 'united states', 'native american', 'navajo', 'cherokee', 'iroquois', 'algonquin', 'algonquian', 'hopi', 'lakota', 'sioux', 'apache', 'hawaii', 'hawaiian', 'appalachian'],
+  // ─ 오세아니아 ─
+  AU: ['australia', 'australian', 'aboriginal', 'dreamtime'],
+  NZ: ['maori', 'new zealand'],
+  PG: ['papua new guinea', 'new guinea', 'papua', 'papuan', 'melanesian'],
+  FJ: ['fiji', 'fijian'],
+  WS: ['samoa', 'samoan'],
+  TO: ['tonga', 'tongan'],
+  VU: ['vanuatu'],
+  SB: ['solomon islands'],
 };
+
+// 키워드를 단어 경계 정규식으로 사전 컴파일 ('roman'이 'romanian'에 걸리는 오매칭 방지)
+const COUNTRY_PATTERNS = Object.entries(COUNTRY_KEYWORDS).map(([iso, kws]) => ({
+  iso,
+  patterns: kws.map(kw => new RegExp(`\\b${kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`)),
+}));
 
 function guessCountryFromText(text) {
   if (!text) return null;
-  const lower = text.toLowerCase();
+  // 대륙 수식어 제거 — 'South American folklore'가 US 'american'에 오매칭되는 것 방지
+  const cleaned = text.toLowerCase()
+    .replace(/\b(south|latin|central|north)\s+america(?:n|s)?\b/g, ' ');
   let best = null;
   let bestScore = 0;
-  for (const [iso, keywords] of Object.entries(COUNTRY_KEYWORDS)) {
+  for (const { iso, patterns } of COUNTRY_PATTERNS) {
     let score = 0;
-    for (const kw of keywords) {
-      if (lower.includes(kw)) score++;
+    for (const p of patterns) {
+      if (p.test(cleaned)) score++;
     }
     if (score > bestScore) { bestScore = score; best = iso; }
   }
@@ -298,11 +433,13 @@ function guessCountryFromText(text) {
 //  Wikipedia API 호출
 // ═══════════════════════════════════════════════════════════════
 let apiCallCount = 0;
-const MAX_API_CALLS = 50;
+const MAX_API_CALLS = 80;
 
 async function fetchJSON(url) {
   if (apiCallCount >= MAX_API_CALLS) return null;
   apiCallCount++;
+  // 호출량 증가에 따른 예의상 딜레이
+  await new Promise(r => setTimeout(r, 120));
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 8000);
   try {
@@ -552,9 +689,11 @@ function discoverCategoriesFromArticle(article, sourceIso, state, knownKeys) {
     const key = `${lang}|${catTitle}`;
     if (knownKeys.has(key)) continue;
 
-    // ISO 추정: 카테고리 제목에서 국가 키워드 매칭 → 실패 시 source 기사 ISO 상속
+    // ISO 추정: 카테고리 제목에서 국가 키워드 매칭 → 실패 시 _MULTI
+    // (source 기사 ISO 상속은 'Dutch folklore'→AL 같은 오배정을 낳아 폐기.
+    //  _MULTI는 크리처 추가 시점에 기사 본문으로 재추정하므로 안전)
     const guessed = guessCountryFromText(catTitle);
-    const iso = guessed || (sourceIso && sourceIso !== '_MULTI' ? sourceIso : '_MULTI');
+    const iso = guessed || '_MULTI';
 
     state.discoveredCategories.push({
       lang,
@@ -833,7 +972,13 @@ async function main() {
   process.exit(0);
 }
 
-main().catch(err => {
-  console.error('❌ 크롤링 실패:', err);
-  process.exit(1);
-});
+// 직접 실행 시에만 main() 구동 — 다른 스크립트에서 import하면 함수만 노출
+const isDirectRun = process.argv[1] && pathToFileURL(process.argv[1]).href === import.meta.url;
+if (isDirectRun) {
+  main().catch(err => {
+    console.error('❌ 크롤링 실패:', err);
+    process.exit(1);
+  });
+}
+
+export { guessCountryFromText, COUNTRY_KEYWORDS, isFolkloreRelatedCategory };
