@@ -1,0 +1,47 @@
+name: Translate Creatures
+
+on:
+  schedule:
+    # 매일 04:30 UTC (크롤러 0/6/12/18시와 어긋나게 배치)
+    - cron: '30 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run translation (ko/zh/ja incremental)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: node scripts/translate-creatures.mjs
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet public/i18n/; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/i18n/
+          COUNT=$(node -e "console.log(Object.keys(require('./public/i18n/creatures-ko.json')).length)")
+          git commit -m "Auto-translate: update creature translations (ko total: ${COUNT})"
+          git pull --rebase origin main
+          git push
