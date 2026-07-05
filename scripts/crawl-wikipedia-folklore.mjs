@@ -103,13 +103,27 @@ function autoClassify(t, d) {
 const CATEGORY_COUNTRY_MAP = [
   // Korean wiki categories
   { lang: 'ko', cat: '분류:한국의_전설', iso: 'KR', label: '한국 전설' },
-  { lang: 'ko', cat: '분류:한국의_요괴', iso: 'KR', label: '한국 요괴' },
+  { lang: 'ko', cat: '분류:한국의_전설의_생물', iso: 'KR', label: '한국 전설의 생물' },
   { lang: 'ko', cat: '분류:한국_신화', iso: 'KR', label: '한국 신화' },
-  { lang: 'ko', cat: '분류:한국의_신화적_인물', iso: 'KR', label: '한국 신화 인물' },
+  { lang: 'ko', cat: '분류:한국_신화의_인물', iso: 'KR', label: '한국 신화 인물' },
   { lang: 'ko', cat: '분류:한국의_민담', iso: 'KR', label: '한국 민담' },
   { lang: 'ko', cat: '분류:한국의_설화', iso: 'KR', label: '한국 설화' },
-  { lang: 'ko', cat: '분류:한국의_무속', iso: 'KR', label: '한국 무속' },
+  { lang: 'ko', cat: '분류:무속의_신', iso: 'KR', label: '한국 무속 신' },
   { lang: 'ko', cat: '분류:한국의_신', iso: 'KR', label: '한국 신' },
+  // ─ 한국 지역·왕조별 설화 (2026-07-05 추가: 제주/지방 커버리지 확대) ─
+  { lang: 'ko', cat: '분류:제주_신화', iso: 'KR', label: '제주 신화' },
+  { lang: 'ko', cat: '분류:탐라_신화', iso: 'KR', label: '탐라 신화' },
+  { lang: 'ko', cat: '분류:서사무가', iso: 'KR', label: '서사무가' },
+  { lang: 'ko', cat: '분류:한국의_귀신', iso: 'KR', label: '한국 귀신' },
+  { lang: 'ko', cat: '분류:한국의_용', iso: 'KR', label: '한국의 용' },
+  { lang: 'ko', cat: '분류:신라_신화', iso: 'KR', label: '신라 신화' },
+  { lang: 'ko', cat: '분류:고구려_신화', iso: 'KR', label: '고구려 신화' },
+  { lang: 'ko', cat: '분류:백제_신화', iso: 'KR', label: '백제 신화' },
+  { lang: 'ko', cat: '분류:가야_신화', iso: 'KR', label: '가야 신화' },
+  { lang: 'ko', cat: '분류:고조선_신화', iso: 'KR', label: '고조선 신화' },
+  { lang: 'ko', cat: '분류:부여_신화', iso: 'KR', label: '부여 신화' },
+  { lang: 'ko', cat: '분류:고려_신화', iso: 'KR', label: '고려 신화' },
+  { lang: 'ko', cat: '분류:조선_신화', iso: 'KR', label: '조선 신화' },
   { lang: 'ko', cat: '분류:일본의_요괴', iso: 'JP', label: '일본 요괴' },
   { lang: 'ko', cat: '분류:중국_신화', iso: 'CN', label: '중국 신화' },
 
@@ -455,7 +469,7 @@ function guessCountryFromText(text) {
 //  Wikipedia API 호출
 // ═══════════════════════════════════════════════════════════════
 let apiCallCount = 0;
-const MAX_API_CALLS = 80;
+const MAX_API_CALLS = parseInt(process.env.CRAWL_MAX_API || '80', 10);
 
 async function fetchJSON(url) {
   if (apiCallCount >= MAX_API_CALLS) return null;
@@ -820,7 +834,11 @@ async function main() {
   const seedSlots = discoveredSize > 0 ? 3 : 6;
   const discoveredSlots = batchSize - seedSlots;
 
-  const seedStart = state.lastCategoryIndex % seedSize;
+  // CRAWL_SEED_START: 특정 시드부터 강제 시작 (일회성 수확용 — 로테이션 위치는 보존)
+  const seedOverride = process.env.CRAWL_SEED_START;
+  const seedStart = seedOverride !== undefined
+    ? parseInt(seedOverride, 10) % seedSize
+    : state.lastCategoryIndex % seedSize;
   const discoveredStart = (state.lastDiscoveredIndex || 0) % Math.max(discoveredSize, 1);
   const selectedCats = [];
   for (let i = 0; i < seedSlots; i++) {
@@ -829,7 +847,9 @@ async function main() {
   for (let i = 0; i < discoveredSlots && discoveredSize > 0; i++) {
     selectedCats.push(state.discoveredCategories[(discoveredStart + i) % discoveredSize]);
   }
-  state.lastCategoryIndex = (seedStart + seedSlots) % seedSize;
+  if (seedOverride === undefined) {
+    state.lastCategoryIndex = (seedStart + seedSlots) % seedSize;
+  }
   if (discoveredSize > 0) {
     state.lastDiscoveredIndex = (discoveredStart + discoveredSlots) % discoveredSize;
   }
@@ -845,7 +865,7 @@ async function main() {
   for (const c of state.discoveredCategories) knownCatKeys.add(`${c.lang}|${c.cat}`);
 
   // ── 각 카테고리에서 기사 수집 ──
-  const MAX_NEW = 15;
+  const MAX_NEW = parseInt(process.env.CRAWL_MAX_NEW || '15', 10);
   let added = 0;
   let newCatsFound = 0;
   const addedIds = []; // IndexNow 제출용 — 이번 실행에서 추가된 크리처 id
