@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 97,
+  "lastCategoryIndex": 100,
   "processedPageIds": [
     27551093,
     40572945,
@@ -2036,7 +2036,48 @@
     92779,
     19396237,
     92790,
-    92781
+    92781,
+    2544144,
+    62483632,
+    52618246,
+    80238484,
+    81572390,
+    4610496,
+    550708,
+    756486,
+    72141925,
+    849273,
+    16985324,
+    48381584,
+    7702344,
+    37181567,
+    79408885,
+    57350445,
+    35470106,
+    16985695,
+    2652641,
+    14469541,
+    31588442,
+    45219163,
+    20268243,
+    16512509,
+    44730188,
+    43820225,
+    16551887,
+    27541578,
+    22359022,
+    32505285,
+    3800866,
+    96485,
+    96486,
+    4046395,
+    96502,
+    96512,
+    9007698,
+    4419940,
+    4563768,
+    95811,
+    71180
   ],
   "discoveredCategories": [
     {
@@ -11478,10 +11519,90 @@
       "label": "Wisdom goddesses",
       "discoveredFrom": "Chachy",
       "discoveredAt": 503
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sculptures of goddesses",
+      "iso": "_MULTI",
+      "label": "Sculptures of goddesses",
+      "discoveredFrom": "Pompeii Lakshmi",
+      "discoveredAt": 504
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Japanese legendary creatures",
+      "iso": "JP",
+      "label": "Japanese legendary creatures",
+      "discoveredFrom": "Datsue-ba",
+      "discoveredAt": 504
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Chinese legendary creatures",
+      "iso": "CN",
+      "label": "Chinese legendary creatures",
+      "discoveredFrom": "Denglong (mythology)",
+      "discoveredAt": 504
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Burmese legendary creatures",
+      "iso": "MM",
+      "label": "Burmese legendary creatures",
+      "discoveredFrom": "Hatsadiling",
+      "discoveredAt": 504
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Thai legendary creatures",
+      "iso": "TH",
+      "label": "Thai legendary creatures",
+      "discoveredFrom": "Hatsadiling",
+      "discoveredAt": 504
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Cambodian legendary creatures",
+      "iso": "KH",
+      "label": "Cambodian legendary creatures",
+      "discoveredFrom": "Kinnara",
+      "discoveredAt": 504
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Indonesian legendary creatures",
+      "iso": "ID",
+      "label": "Indonesian legendary creatures",
+      "discoveredFrom": "Manohara",
+      "discoveredAt": 504
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Laotian legendary creatures",
+      "iso": "LA",
+      "label": "Laotian legendary creatures",
+      "discoveredFrom": "Manohara",
+      "discoveredAt": 504
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ghost towns in Alaska",
+      "iso": "_MULTI",
+      "label": "Ghost towns in Alaska",
+      "discoveredFrom": "Independence Mines, Alaska",
+      "discoveredAt": 504
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Muses (mythology)",
+      "iso": "_MULTI",
+      "label": "Muses (mythology)",
+      "discoveredFrom": "Muses",
+      "discoveredAt": 504
     }
   ],
-  "totalAdded": 2242,
-  "runs": 504,
-  "lastRun": "2026-07-05T03:36:10.064Z",
-  "lastDiscoveredIndex": 267
+  "totalAdded": 2257,
+  "runs": 505,
+  "lastRun": "2026-07-05T08:41:13.772Z",
+  "lastDiscoveredIndex": 270
 }
