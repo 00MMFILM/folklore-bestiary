@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 103,
+  "lastCategoryIndex": 106,
   "processedPageIds": [
     27551093,
     40572945,
@@ -2459,7 +2459,30 @@
     77779492,
     143895,
     62965263,
-    436747
+    436747,
+    25143399,
+    11889281,
+    54952259,
+    8489618,
+    80990,
+    31171797,
+    83062683,
+    22487272,
+    41508965,
+    3688059,
+    66121185,
+    15232076,
+    4513,
+    8900998,
+    29423172,
+    1063788,
+    78838724,
+    6768365,
+    80038285,
+    25590191,
+    5642080,
+    44965540,
+    1956226
   ],
   "discoveredCategories": [
     {
@@ -12973,10 +12996,82 @@
       "label": "Nepalese legendary creatures",
       "discoveredFrom": "Gurumapa",
       "discoveredAt": 512
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological human hybrids",
+      "iso": "_MULTI",
+      "label": "Mythological human hybrids",
+      "discoveredFrom": "Gorgons",
+      "discoveredAt": 513
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological trios",
+      "iso": "_MULTI",
+      "label": "Mythological trios",
+      "discoveredFrom": "Gorgons",
+      "discoveredAt": 513
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mesoamerican legendary creatures",
+      "iso": "MX",
+      "label": "Mesoamerican legendary creatures",
+      "discoveredFrom": "Lang Bobi Suzi",
+      "discoveredAt": 513
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of South Carolina",
+      "iso": "_MULTI",
+      "label": "Folklore of South Carolina",
+      "discoveredFrom": "Agnes of Glasgow",
+      "discoveredAt": 513
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Scottish ghosts",
+      "iso": "SCT",
+      "label": "Scottish ghosts",
+      "discoveredFrom": "Agnes of Glasgow",
+      "discoveredAt": 513
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Norfolk folklore",
+      "iso": "_MULTI",
+      "label": "Norfolk folklore",
+      "discoveredFrom": "Brown Lady of Raynham Hall",
+      "discoveredAt": 513
+    },
+    {
+      "lang": "en",
+      "cat": "Category:People accused of witchcraft",
+      "iso": "_MULTI",
+      "label": "People accused of witchcraft",
+      "discoveredFrom": "Moll Dyer",
+      "discoveredAt": 513
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Middle Eastern legendary creatures",
+      "iso": "_MULTI",
+      "label": "Middle Eastern legendary creatures",
+      "discoveredFrom": "Gelin",
+      "discoveredAt": 513
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Turkish folklore",
+      "iso": "TR",
+      "label": "Turkish folklore",
+      "discoveredFrom": "Gelin",
+      "discoveredAt": 513
     }
   ],
-  "totalAdded": 2378,
-  "runs": 513,
-  "lastRun": "2026-07-05T13:10:40.995Z",
-  "lastDiscoveredIndex": 294
+  "totalAdded": 2386,
+  "runs": 514,
+  "lastRun": "2026-07-05T19:03:04.500Z",
+  "lastDiscoveredIndex": 297
 }
