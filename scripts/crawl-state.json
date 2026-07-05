@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 100,
+  "lastCategoryIndex": 103,
   "processedPageIds": [
     27551093,
     40572945,
@@ -2435,7 +2435,31 @@
     88727,
     312976,
     100169,
-    24253
+    24253,
+    5338033,
+    556231,
+    962694,
+    18035352,
+    2374452,
+    1290838,
+    13156782,
+    78174551,
+    73203385,
+    1111102,
+    2463805,
+    3203595,
+    7100269,
+    2128541,
+    55833800,
+    36383252,
+    36449078,
+    2595288,
+    73157096,
+    80194255,
+    77779492,
+    143895,
+    62965263,
+    436747
   ],
   "discoveredCategories": [
     {
@@ -12893,10 +12917,66 @@
       "label": "Juno (mythology)",
       "discoveredFrom": "Juno (mythology)",
       "discoveredAt": 511
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Scottish legendary creatures",
+      "iso": "SCT",
+      "label": "Scottish legendary creatures",
+      "discoveredFrom": "Am Fear Liath Mòr",
+      "discoveredAt": 512
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Philippine legendary creatures",
+      "iso": "PH",
+      "label": "Philippine legendary creatures",
+      "discoveredFrom": "Amomongo",
+      "discoveredAt": 512
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Pakistani folklore",
+      "iso": "PK",
+      "label": "Pakistani folklore",
+      "discoveredFrom": "Barmanou",
+      "discoveredAt": 512
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Southeast Asian legendary creatures",
+      "iso": "_MULTI",
+      "label": "Southeast Asian legendary creatures",
+      "discoveredFrom": "Bukit Timah Monkey Man",
+      "discoveredAt": 512
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of West Virginia",
+      "iso": "_MULTI",
+      "label": "Folklore of West Virginia",
+      "discoveredFrom": "Indrid Cold",
+      "discoveredAt": 512
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Nepalese fairy tales",
+      "iso": "NP",
+      "label": "Nepalese fairy tales",
+      "discoveredFrom": "Gurumapa",
+      "discoveredAt": 512
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Nepalese legendary creatures",
+      "iso": "NP",
+      "label": "Nepalese legendary creatures",
+      "discoveredFrom": "Gurumapa",
+      "discoveredAt": 512
     }
   ],
-  "totalAdded": 2373,
-  "runs": 512,
-  "lastRun": "2026-07-05T09:06:15.356Z",
-  "lastDiscoveredIndex": 291
+  "totalAdded": 2378,
+  "runs": 513,
+  "lastRun": "2026-07-05T13:10:40.995Z",
+  "lastDiscoveredIndex": 294
 }
