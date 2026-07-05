@@ -1,0 +1,920 @@
+[
+  {
+    "name": "Cat (zodiac)",
+    "id": "cn-cat-zodiac",
+    "from": "CN",
+    "to": "VN"
+  },
+  {
+    "name": "Naga people (Lanka)",
+    "id": "in-naga-people-lanka",
+    "from": "IN",
+    "to": "LK"
+  },
+  {
+    "name": "Cao Gugu",
+    "id": "in-cao-gugu",
+    "from": "IN",
+    "to": "CN"
+  },
+  {
+    "name": "Rokurokubi",
+    "id": "in-rokurokubi",
+    "from": "IN",
+    "to": "JP"
+  },
+  {
+    "name": "Nang Kwak",
+    "id": "in-nang-kwak",
+    "from": "IN",
+    "to": "TH"
+  },
+  {
+    "name": "Ghosts in Bengali culture",
+    "id": "in-ghosts-in-bengali-culture",
+    "from": "IN",
+    "to": "BD"
+  },
+  {
+    "name": "Thagyamin",
+    "id": "in-thagyamin",
+    "from": "IN",
+    "to": "MM"
+  },
+  {
+    "name": "Boobrie",
+    "id": "gb-boobrie",
+    "from": "GB",
+    "to": "SCT"
+  },
+  {
+    "name": "Church grim",
+    "id": "gb-church-grim",
+    "from": "GB",
+    "to": "SCT"
+  },
+  {
+    "name": "쿤 아눈",
+    "id": "gb-cwn-annwn",
+    "from": "GB",
+    "to": "WLS"
+  },
+  {
+    "name": "Isobel Gowdie",
+    "id": "gb-isobel-gowdie",
+    "from": "GB",
+    "to": "SCT"
+  },
+  {
+    "name": "Gwrgi Garwlwyd",
+    "id": "gb-gwrgi-garwlwyd",
+    "from": "GB",
+    "to": "WLS"
+  },
+  {
+    "name": "누켈라비",
+    "id": "gb-nuckelavee",
+    "from": "GB",
+    "to": "SCT"
+  },
+  {
+    "name": "케필 두르",
+    "id": "gb-ceffyl-dwr",
+    "from": "GB",
+    "to": "WLS"
+  },
+  {
+    "name": "울버",
+    "id": "gb-wulver",
+    "from": "GB",
+    "to": "SCT"
+  },
+  {
+    "name": "Fenodyree",
+    "id": "gb-fenodyree",
+    "from": "GB",
+    "to": "IE"
+  },
+  {
+    "name": "Britomartis",
+    "id": "gb-britomartis",
+    "from": "GB",
+    "to": "GR"
+  },
+  {
+    "name": "Cyhyraeth",
+    "id": "ie-cyhyraeth",
+    "from": "IE",
+    "to": "WLS"
+  },
+  {
+    "name": "Ēostre",
+    "id": "de-eostre",
+    "from": "DE",
+    "to": "GB"
+  },
+  {
+    "name": "Frigg",
+    "id": "de-frigg",
+    "from": "DE",
+    "to": "GB"
+  },
+  {
+    "name": "Frigg and Freyja common origin hypothesis",
+    "id": "de-frigg-and-freyja-common-origin-hypothesis",
+    "from": "DE",
+    "to": "GB"
+  },
+  {
+    "name": "*Frijjō",
+    "id": "de-frijjo",
+    "from": "DE",
+    "to": "GB"
+  },
+  {
+    "name": "Idis (Germanic)",
+    "id": "de-idis-germanic",
+    "from": "DE",
+    "to": "GB"
+  },
+  {
+    "name": "Amleth",
+    "id": "se-amleth",
+    "from": "SE",
+    "to": "SCT"
+  },
+  {
+    "name": "Hans Christian Andersen",
+    "id": "se-hans-christian-andersen",
+    "from": "SE",
+    "to": "DK"
+  },
+  {
+    "name": "Peter Christen Asbjørnsen",
+    "id": "se-peter-christen-asbj-rnsen",
+    "from": "SE",
+    "to": "NO"
+  },
+  {
+    "name": "Boots and His Brothers",
+    "id": "se-boots-and-his-brothers",
+    "from": "SE",
+    "to": "NO"
+  },
+  {
+    "name": "Boots Who Made the Princess Say, \"That's a Story\"",
+    "id": "se-boots-who-made-the-princess-say-that-s-a-story",
+    "from": "SE",
+    "to": "NO"
+  },
+  {
+    "name": "The Boy Who Had an Eating Match with a Troll",
+    "id": "se-the-boy-who-had-an-eating-match-with-a-troll",
+    "from": "SE",
+    "to": "NO"
+  },
+  {
+    "name": "Bushy Bride",
+    "id": "se-bushy-bride",
+    "from": "SE",
+    "to": "NO"
+  },
+  {
+    "name": "Buttercup (fairy tale)",
+    "id": "se-buttercup-fairy-tale",
+    "from": "SE",
+    "to": "NO"
+  },
+  {
+    "name": "The Cat on the Dovrefjell",
+    "id": "se-the-cat-on-the-dovrefjell",
+    "from": "SE",
+    "to": "NO"
+  },
+  {
+    "name": "The Companion (fairy tale)",
+    "id": "se-the-companion-fairy-tale",
+    "from": "SE",
+    "to": "NO"
+  },
+  {
+    "name": "Dapplegrim",
+    "id": "se-dapplegrim",
+    "from": "SE",
+    "to": "NO"
+  },
+  {
+    "name": "Doll i' the Grass",
+    "id": "se-doll-i-the-grass",
+    "from": "SE",
+    "to": "NO"
+  },
+  {
+    "name": "East of the Sun and West of the Moon",
+    "id": "se-east-of-the-sun-and-west-of-the-moon",
+    "from": "SE",
+    "to": "NO"
+  },
+  {
+    "name": "Farmer Weathersky",
+    "id": "se-farmer-weathersky",
+    "from": "SE",
+    "to": "NO"
+  },
+  {
+    "name": "Blockula",
+    "id": "se-blockula",
+    "from": "SE",
+    "to": "RU"
+  },
+  {
+    "name": "Tulpar",
+    "id": "gr-tulpar",
+    "from": "GR",
+    "to": "MN"
+  },
+  {
+    "name": "Alexander the Great in Arabic tradition",
+    "id": "gr-alexander-the-great-in-arabic-tradition",
+    "from": "GR",
+    "to": "IQ"
+  },
+  {
+    "name": "Devil Boruta",
+    "id": "ru-devil-boruta",
+    "from": "RU",
+    "to": "PL"
+  },
+  {
+    "name": "Dukljan",
+    "id": "ru-dukljan",
+    "from": "RU",
+    "to": "RS"
+  },
+  {
+    "name": "Babiole",
+    "id": "ru-babiole",
+    "from": "RU",
+    "to": "FR"
+  },
+  {
+    "name": "The Bee and the Orange Tree",
+    "id": "ru-the-bee-and-the-orange-tree",
+    "from": "RU",
+    "to": "FR"
+  },
+  {
+    "name": "The Tale of Aftab",
+    "id": "ru-the-tale-of-aftab",
+    "from": "RU",
+    "to": "AZ"
+  },
+  {
+    "name": "Aurore and Aimée",
+    "id": "ru-aurore-and-aimee",
+    "from": "RU",
+    "to": "FR"
+  },
+  {
+    "name": "Aana Marutha",
+    "id": "ru-aana-marutha",
+    "from": "RU",
+    "to": "IN"
+  },
+  {
+    "name": "The Bear (fairy tale)",
+    "id": "ru-the-bear-fairy-tale",
+    "from": "RU",
+    "to": "SCT"
+  },
+  {
+    "name": "The Crow (fairy tale)",
+    "id": "ru-the-crow-fairy-tale",
+    "from": "RU",
+    "to": "PL"
+  },
+  {
+    "name": "The Flea (fairy tale)",
+    "id": "ru-the-flea-fairy-tale",
+    "from": "RU",
+    "to": "IT"
+  },
+  {
+    "name": "The Red Ettin",
+    "id": "ru-the-red-ettin",
+    "from": "RU",
+    "to": "SCT"
+  },
+  {
+    "name": "The Angel (fairy tale)",
+    "id": "ru-the-angel-fairy-tale",
+    "from": "RU",
+    "to": "DK"
+  },
+  {
+    "name": "상류 (전설)",
+    "id": "ru-xiangliu",
+    "from": "RU",
+    "to": "CN"
+  },
+  {
+    "name": "Aello",
+    "id": "ru-aello",
+    "from": "RU",
+    "to": "GR"
+  },
+  {
+    "name": "Celaeno",
+    "id": "ru-celaeno",
+    "from": "RU",
+    "to": "GR"
+  },
+  {
+    "name": "Belenus",
+    "id": "it-belenus",
+    "from": "IT",
+    "to": "GB"
+  },
+  {
+    "name": "Ibong Adarna",
+    "id": "es-ibong-adarna",
+    "from": "ES",
+    "to": "PH"
+  },
+  {
+    "name": "Guhyaka",
+    "id": "al-guhyaka",
+    "from": "AL",
+    "to": "IN"
+  },
+  {
+    "name": "Arinna",
+    "id": "al-arinna",
+    "from": "AL",
+    "to": "TR"
+  },
+  {
+    "name": "Abderus",
+    "id": "ma-abderus",
+    "from": "MA",
+    "to": "GR"
+  },
+  {
+    "name": "Admete",
+    "id": "ma-admete",
+    "from": "MA",
+    "to": "GR"
+  },
+  {
+    "name": "Aegimius",
+    "id": "ma-aegimius",
+    "from": "MA",
+    "to": "GR"
+  },
+  {
+    "name": "Alastor",
+    "id": "ma-alastor",
+    "from": "MA",
+    "to": "GR"
+  },
+  {
+    "name": "알카이오스 (미노아인)",
+    "id": "ma-alcaeus-mythology",
+    "from": "MA",
+    "to": "GR"
+  },
+  {
+    "name": "Alcimedon",
+    "id": "ma-alcimedon",
+    "from": "MA",
+    "to": "GR"
+  },
+  {
+    "name": "Alcmene",
+    "id": "ma-alcmene",
+    "from": "MA",
+    "to": "GR"
+  },
+  {
+    "name": "알레비온",
+    "id": "ma-alebion",
+    "from": "MA",
+    "to": "GR"
+  },
+  {
+    "name": "Alalcomenes",
+    "id": "ma-alalcomenes",
+    "from": "MA",
+    "to": "GR"
+  },
+  {
+    "name": "동악대제",
+    "id": "us-dongyue-dadi",
+    "from": "US",
+    "to": "CN"
+  },
+  {
+    "name": "Kim-un-kamuy",
+    "id": "us-kim-un-kamuy",
+    "from": "US",
+    "to": "JP"
+  },
+  {
+    "name": "Arsan Duolai",
+    "id": "us-arsan-duolai",
+    "from": "US",
+    "to": "TR"
+  },
+  {
+    "name": "Ba-Pef",
+    "id": "us-ba-pef",
+    "from": "US",
+    "to": "EG"
+  },
+  {
+    "name": "Erlik",
+    "id": "us-erlik",
+    "from": "US",
+    "to": "MN"
+  },
+  {
+    "name": "화차 (일본 요괴)",
+    "id": "us-kasha-folklore",
+    "from": "US",
+    "to": "JP"
+  },
+  {
+    "name": "El Hombre Caimán",
+    "id": "nz-el-hombre-caiman",
+    "from": "NZ",
+    "to": "CO"
+  },
+  {
+    "name": "Kijimuna",
+    "id": "nz-kijimuna",
+    "from": "NZ",
+    "to": "JP"
+  },
+  {
+    "name": "Leshy",
+    "id": "nz-leshy",
+    "from": "NZ",
+    "to": "RU"
+  },
+  {
+    "name": "Odysseus",
+    "id": "nz-odysseus",
+    "from": "NZ",
+    "to": "GR"
+  },
+  {
+    "name": "Ceto",
+    "id": "nz-ceto",
+    "from": "NZ",
+    "to": "GR"
+  },
+  {
+    "name": "Charybdis",
+    "id": "nz-charybdis",
+    "from": "NZ",
+    "to": "GR"
+  },
+  {
+    "name": "Chessie (sea monster)",
+    "id": "nz-chessie-sea-monster",
+    "from": "NZ",
+    "to": "US"
+  },
+  {
+    "name": "Koromodako",
+    "id": "nz-koromodako",
+    "from": "NZ",
+    "to": "JP"
+  },
+  {
+    "name": "Fur-bearing trout",
+    "id": "nz-fur-bearing-trout",
+    "from": "NZ",
+    "to": "US"
+  },
+  {
+    "name": "Heluo fish",
+    "id": "nz-heluo-fish",
+    "from": "NZ",
+    "to": "CN"
+  },
+  {
+    "name": "Mazomba",
+    "id": "nz-mazomba",
+    "from": "NZ",
+    "to": "TZ"
+  },
+  {
+    "name": "브라단 파서",
+    "id": "nz-salmon-of-knowledge",
+    "from": "NZ",
+    "to": "IE"
+  },
+  {
+    "name": "Agreus and Nomios",
+    "id": "nz-agreus-and-nomios",
+    "from": "NZ",
+    "to": "GR"
+  },
+  {
+    "name": "Akhekh",
+    "id": "nz-akhekh",
+    "from": "NZ",
+    "to": "EG"
+  },
+  {
+    "name": "Ajisukitakahikone",
+    "id": "nz-ajisukitakahikone",
+    "from": "NZ",
+    "to": "JP"
+  },
+  {
+    "name": "Aimend",
+    "id": "nz-aimend",
+    "from": "NZ",
+    "to": "IE"
+  },
+  {
+    "name": "Áine",
+    "id": "nz-aine",
+    "from": "NZ",
+    "to": "IE"
+  },
+  {
+    "name": "Aether (mythology)",
+    "id": "ws-aether-mythology",
+    "from": "WS",
+    "to": "GR"
+  },
+  {
+    "name": "Ame-no-Minakanushi",
+    "id": "ws-ame-no-minakanushi",
+    "from": "WS",
+    "to": "JP"
+  },
+  {
+    "name": "Abu (god)",
+    "id": "ws-abu-god",
+    "from": "WS",
+    "to": "IQ"
+  },
+  {
+    "name": "Attis",
+    "id": "ws-attis",
+    "from": "WS",
+    "to": "TR"
+  },
+  {
+    "name": "Cocidius",
+    "id": "ws-cocidius",
+    "from": "WS",
+    "to": "GB"
+  },
+  {
+    "name": "Al-Uzza",
+    "id": "ws-al-uzza",
+    "from": "WS",
+    "to": "SA"
+  },
+  {
+    "name": "Alaisiagae",
+    "id": "ws-alaisiagae",
+    "from": "WS",
+    "to": "GB"
+  },
+  {
+    "name": "안드라스테",
+    "id": "ws-andraste",
+    "from": "WS",
+    "to": "GB"
+  },
+  {
+    "name": "Aker (deity)",
+    "id": "ws-aker-deity",
+    "from": "WS",
+    "to": "EG"
+  },
+  {
+    "name": "Alla (Mesopotamian god)",
+    "id": "ws-alla-mesopotamian-god",
+    "from": "WS",
+    "to": "IQ"
+  },
+  {
+    "name": "Am-heh",
+    "id": "ws-am-heh",
+    "from": "WS",
+    "to": "EG"
+  },
+  {
+    "name": "Abonsam",
+    "id": "ws-abonsam",
+    "from": "WS",
+    "to": "GH"
+  },
+  {
+    "name": "Nefertem",
+    "id": "ws-nefertem",
+    "from": "WS",
+    "to": "EG"
+  },
+  {
+    "name": "Ame no Wakahiko",
+    "id": "ws-ame-no-wakahiko",
+    "from": "WS",
+    "to": "JP"
+  },
+  {
+    "name": "아메노호아카리",
+    "id": "ws-amenohoakari",
+    "from": "WS",
+    "to": "JP"
+  },
+  {
+    "name": "The Abbot of Drimnagh",
+    "id": "ws-the-abbot-of-drimnagh",
+    "from": "WS",
+    "to": "IE"
+  },
+  {
+    "name": "Bragi",
+    "id": "ws-bragi",
+    "from": "WS",
+    "to": "NO"
+  },
+  {
+    "name": "The Dagda",
+    "id": "ws-the-dagda",
+    "from": "WS",
+    "to": "IE"
+  },
+  {
+    "name": "Bata (god)",
+    "id": "ws-bata-god",
+    "from": "WS",
+    "to": "EG"
+  },
+  {
+    "name": "Ali-zu",
+    "id": "ws-ali-zu",
+    "from": "WS",
+    "to": "TW"
+  },
+  {
+    "name": "안제티",
+    "id": "ws-andjety",
+    "from": "WS",
+    "to": "EG"
+  },
+  {
+    "name": "ʿAṯtar",
+    "id": "ws-attar",
+    "from": "WS",
+    "to": "IQ"
+  },
+  {
+    "name": "크롬 크루어히",
+    "id": "ws-crom-cruach",
+    "from": "WS",
+    "to": "IE"
+  },
+  {
+    "name": "Abandinus",
+    "id": "ws-abandinus",
+    "from": "WS",
+    "to": "GB"
+  },
+  {
+    "name": "Antenociticus",
+    "id": "ws-antenociticus",
+    "from": "WS",
+    "to": "GB"
+  },
+  {
+    "name": "Belatucadros",
+    "id": "ws-belatucadros",
+    "from": "WS",
+    "to": "GB"
+  },
+  {
+    "name": "Cunomaglus",
+    "id": "ws-cunomaglus",
+    "from": "WS",
+    "to": "GB"
+  },
+  {
+    "name": "그란노스",
+    "id": "ws-grannus",
+    "from": "WS",
+    "to": "GB"
+  },
+  {
+    "name": "Hooded Spirits",
+    "id": "ws-hooded-spirits",
+    "from": "WS",
+    "to": "GB"
+  },
+  {
+    "name": "Ialonus Contrebis",
+    "id": "ws-ialonus-contrebis",
+    "from": "WS",
+    "to": "GB"
+  },
+  {
+    "name": "Latis",
+    "id": "ws-latis",
+    "from": "WS",
+    "to": "GB"
+  },
+  {
+    "name": "이랑진군",
+    "id": "ws-erlang-shen",
+    "from": "WS",
+    "to": "CN"
+  },
+  {
+    "name": "Feng Meng",
+    "id": "ws-feng-meng",
+    "from": "WS",
+    "to": "CN"
+  },
+  {
+    "name": "Bai Baianai",
+    "id": "ws-bai-baianai",
+    "from": "WS",
+    "to": "MN"
+  },
+  {
+    "name": "Banka-Mundi",
+    "id": "ws-banka-mundi",
+    "from": "WS",
+    "to": "IN"
+  },
+  {
+    "name": "Camenae",
+    "id": "ws-camenae",
+    "from": "WS",
+    "to": "IT"
+  },
+  {
+    "name": "Artemis",
+    "id": "ws-artemis",
+    "from": "WS",
+    "to": "GR"
+  },
+  {
+    "name": "Aspalis",
+    "id": "ws-aspalis",
+    "from": "WS",
+    "to": "GR"
+  },
+  {
+    "name": "라우마 (신화)",
+    "id": "lv-lauma",
+    "from": "LV",
+    "to": "LT"
+  },
+  {
+    "name": "잘티스",
+    "id": "lv-zaltys",
+    "from": "LV",
+    "to": "LT"
+  },
+  {
+    "name": "바보 한스",
+    "id": "ee-blockhead-hans",
+    "from": "EE",
+    "to": "DK"
+  },
+  {
+    "name": "Childe Rowland",
+    "id": "ee-childe-rowland",
+    "from": "EE",
+    "to": "GB"
+  },
+  {
+    "name": "The Dragon and the Prince",
+    "id": "ee-the-dragon-and-the-prince",
+    "from": "EE",
+    "to": "RS"
+  },
+  {
+    "name": "Esben and the Witch",
+    "id": "ee-esben-and-the-witch",
+    "from": "EE",
+    "to": "DK"
+  },
+  {
+    "name": "The Four Skillful Brothers",
+    "id": "ee-the-four-skillful-brothers",
+    "from": "EE",
+    "to": "DE"
+  },
+  {
+    "name": "The Beam (fairy tale)",
+    "id": "ee-the-beam-fairy-tale",
+    "from": "EE",
+    "to": "DE"
+  },
+  {
+    "name": "The Blue Bird (fairy tale)",
+    "id": "ee-the-blue-bird-fairy-tale",
+    "from": "EE",
+    "to": "FR"
+  },
+  {
+    "name": "The Boots of Buffalo Leather",
+    "id": "ee-the-boots-of-buffalo-leather",
+    "from": "EE",
+    "to": "DE"
+  },
+  {
+    "name": "Brother Lustig",
+    "id": "ee-brother-lustig",
+    "from": "EE",
+    "to": "DE"
+  },
+  {
+    "name": "Cannetella",
+    "id": "ee-cannetella",
+    "from": "EE",
+    "to": "IT"
+  },
+  {
+    "name": "The Castle of Return and No Return",
+    "id": "ee-the-castle-of-return-and-no-return",
+    "from": "EE",
+    "to": "ES"
+  },
+  {
+    "name": "The Story of the Abandoned Princess",
+    "id": "ee-the-story-of-the-abandoned-princess",
+    "from": "EE",
+    "to": "DK"
+  },
+  {
+    "name": "Again, The Snake Bridegroom",
+    "id": "ee-again-the-snake-bridegroom",
+    "from": "EE",
+    "to": "RS"
+  },
+  {
+    "name": "The Enchanted Princess",
+    "id": "ee-the-enchanted-princess",
+    "from": "EE",
+    "to": "DE"
+  },
+  {
+    "name": "Fairer-than-a-Fairy (Caumont de La Force)",
+    "id": "ee-fairer-than-a-fairy-caumont-de-la-force",
+    "from": "EE",
+    "to": "FR"
+  },
+  {
+    "name": "Alphege, or the Green Monkey",
+    "id": "ee-alphege-or-the-green-monkey",
+    "from": "EE",
+    "to": "FR"
+  },
+  {
+    "name": "Beauty and Pock Face",
+    "id": "ee-beauty-and-pock-face",
+    "from": "EE",
+    "to": "CN"
+  },
+  {
+    "name": "Biancabella and the Snake",
+    "id": "ee-biancabella-and-the-snake",
+    "from": "EE",
+    "to": "IT"
+  },
+  {
+    "name": "The Battle of the Birds",
+    "id": "ee-the-battle-of-the-birds",
+    "from": "EE",
+    "to": "SCT"
+  },
+  {
+    "name": "The Brown Bear of Norway",
+    "id": "ee-the-brown-bear-of-norway",
+    "from": "EE",
+    "to": "IE"
+  },
+  {
+    "name": "The Canary Prince",
+    "id": "ee-the-canary-prince",
+    "from": "EE",
+    "to": "IT"
+  },
+  {
+    "name": "The Cat's Elopement",
+    "id": "ee-the-cat-s-elopement",
+    "from": "EE",
+    "to": "JP"
+  }
+]
