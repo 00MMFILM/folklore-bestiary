@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 91,
+  "lastCategoryIndex": 94,
   "processedPageIds": [
     1481896,
     1347753,
@@ -3514,7 +3514,24 @@
     18154690,
     1579,
     78475,
-    17972355
+    17972355,
+    82710,
+    3775581,
+    11473533,
+    390367,
+    39794410,
+    69225675,
+    17871886,
+    1482,
+    33941992,
+    7275069,
+    1313836,
+    17334869,
+    8334517,
+    77397381,
+    17347985,
+    3163969,
+    6661020
   ],
   "discoveredCategories": [
     {
@@ -12916,10 +12933,26 @@
       "label": "Perseids (mythology)",
       "discoveredFrom": "Alcmene",
       "discoveredAt": 501
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Boeotians",
+      "iso": "MA",
+      "label": "Mythological Boeotians",
+      "discoveredFrom": "Alalcomenes",
+      "discoveredAt": 502
+    },
+    {
+      "lang": "en",
+      "cat": "Category:People in Norse mythology",
+      "iso": "NO",
+      "label": "People in Norse mythology",
+      "discoveredFrom": "Ask and Embla",
+      "discoveredAt": 502
     }
   ],
-  "totalAdded": 2212,
-  "runs": 502,
-  "lastRun": "2026-07-04T18:58:25.477Z",
-  "lastDiscoveredIndex": 261
+  "totalAdded": 2227,
+  "runs": 503,
+  "lastRun": "2026-07-05T02:11:04.235Z",
+  "lastDiscoveredIndex": 264
 }
