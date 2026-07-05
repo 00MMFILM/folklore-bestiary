@@ -54,3 +54,10 @@ jobs:
           git commit -m "Auto-crawl: update folklore creatures (total: ${CREATURE_COUNT})"
           git pull --rebase origin main
           git push
+
+      - name: Notify search engines (IndexNow)
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          # Vercel 배포 대기 후 신규 크리처 URL을 Bing/네이버/Yandex에 통지
+          sleep 180
+          node scripts/submit-indexnow.mjs --from scripts/.last-added.json || true

@@ -848,6 +848,7 @@ async function main() {
   const MAX_NEW = 15;
   let added = 0;
   let newCatsFound = 0;
+  const addedIds = []; // IndexNow 제출용 — 이번 실행에서 추가된 크리처 id
   const processedIds = new Set(state.processedPageIds);
 
   for (const catDef of selectedCats) {
@@ -946,6 +947,7 @@ async function main() {
 
       country.b.push(creature);
       added++;
+      addedIds.push(creature.id);
       console.log(`   ✅ 추가: ${koName}(${enName}) [${type}, 공포:${fear}, ${ct}]`);
     }
   }
@@ -954,6 +956,12 @@ async function main() {
   if (added > 0) {
     saveData(data);
     console.log(`\n💾 데이터 저장 완료`);
+
+    // IndexNow 제출용 신규 id 목록 (워크플로우의 후속 단계에서 사용, 커밋 안 함)
+    fs.writeFileSync(
+      path.join(process.cwd(), 'scripts', '.last-added.json'),
+      JSON.stringify(addedIds), 'utf8'
+    );
 
     // LAST_UPDATED 타임스탬프는 실제 추가된 경우에만 갱신 (빈 커밋 방지)
     const fmPath = path.join(process.cwd(), 'components', 'FolkloreMap.jsx');
