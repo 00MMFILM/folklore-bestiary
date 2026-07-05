@@ -41,6 +41,18 @@ function saveData(data) {
   const { startIdx, endIdx } = findDataRange(content);
   content = content.substring(0, startIdx) + JSON.stringify(data) + content.substring(endIdx);
   fs.writeFileSync(DATA_PATH, content, 'utf8');
+  saveSiteStats(data);
+}
+
+// 메타 설명 등에 쓰는 빌드 타임 통계 — 데이터 저장 때마다 자동 갱신
+function saveSiteStats(data) {
+  const creatureCount = data.reduce((s, c) => s + c.b.length, 0);
+  const statsPath = path.join(process.cwd(), 'lib', 'site-stats.ts');
+  const content = `// 자동 생성 파일 — scripts/crawl-wikipedia-folklore.mjs가 갱신. 직접 수정 금지.
+export const CREATURE_COUNT = ${creatureCount};
+export const COUNTRY_COUNT = ${data.length};
+`;
+  fs.writeFileSync(statsPath, content, 'utf8');
 }
 
 // ─── 크리처 생성 헬퍼 (expand-folklore.mjs와 동일) ───

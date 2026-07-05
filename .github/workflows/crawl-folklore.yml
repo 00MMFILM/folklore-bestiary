@@ -40,7 +40,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add lib/folklore-data.ts components/FolkloreMap.jsx scripts/crawl-state.json
+          git add lib/folklore-data.ts lib/site-stats.ts components/FolkloreMap.jsx scripts/crawl-state.json
           CREATURE_COUNT=$(node -e "
             const fs = require('fs');
             const c = fs.readFileSync('lib/folklore-data.ts','utf8');
@@ -52,4 +52,5 @@ jobs:
             console.log(data.reduce((a,b)=>a+b.b.length,0));
           ")
           git commit -m "Auto-crawl: update folklore creatures (total: ${CREATURE_COUNT})"
+          git pull --rebase origin main
           git push

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { CREATURE_COUNT, COUNTRY_COUNT } from "@/lib/site-stats";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 
@@ -11,14 +12,14 @@ export const metadata: Metadata = {
     template: "%s | 세계 요괴 도감",
   },
   description:
-    "145개국 1,500종 전설 속 존재들의 인터랙티브 월드맵. 구미호, 드래곤, 뱀파이어 등 세계 신화·전설·민담 크리처를 탐험하세요.",
+    `${COUNTRY_COUNT}개국 ${CREATURE_COUNT.toLocaleString("en-US")}종 전설 속 존재들의 인터랙티브 월드맵. 구미호, 드래곤, 뱀파이어 등 세계 신화·전설·민담 크리처를 탐험하세요.`,
   openGraph: {
     type: "website",
     locale: "ko_KR",
     siteName: "Global Folklore Bestiary",
     title: "Global Folklore Bestiary | 세계 요괴 도감",
     description:
-      "145개국 1,500종 전설 속 존재들의 인터랙티브 월드맵. 구미호, 드래곤, 뱀파이어 등 세계 신화·전설·민담 크리처를 탐험하세요.",
+      `${COUNTRY_COUNT}개국 ${CREATURE_COUNT.toLocaleString("en-US")}종 전설 속 존재들의 인터랙티브 월드맵. 구미호, 드래곤, 뱀파이어 등 세계 신화·전설·민담 크리처를 탐험하세요.`,
     url: SITE_URL,
     images: [{ url: "/og-default.png", width: 1200, height: 630, alt: "Global Folklore Bestiary" }],
   },
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Global Folklore Bestiary | 세계 요괴 도감",
     description:
-      "145개국 1,500종 전설 속 존재들의 인터랙티브 월드맵",
+      `${COUNTRY_COUNT}개국 ${CREATURE_COUNT.toLocaleString("en-US")}종 전설 속 존재들의 인터랙티브 월드맵`,
     images: ["/og-default.png"],
   },
   robots: {
@@ -54,7 +55,7 @@ export default function RootLayout({
     alternateName: "세계 요괴 도감",
     url: SITE_URL,
     description:
-      "145개국 1,500종 전설 속 존재들의 인터랙티브 월드맵",
+      `${COUNTRY_COUNT}개국 ${CREATURE_COUNT.toLocaleString("en-US")}종 전설 속 존재들의 인터랙티브 월드맵`,
     inLanguage: ["ko", "en", "zh", "ja"],
   };
 
