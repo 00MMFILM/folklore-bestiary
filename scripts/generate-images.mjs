@@ -13,6 +13,7 @@
 import { writeFileSync, mkdirSync, existsSync, readFileSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
+import sharp from "sharp";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
@@ -83,20 +84,28 @@ async function generateImage(creature, retryCount = 0) {
 
   const prompt = prompts[Math.min(retryCount, prompts.length - 1)];
 
+  // 모델은 env로 교체 가능. response_format 파라미터는 API에서 폐지됨 —
+  // gpt-image-1 계열은 b64_json을 기본 반환, dall-e-3는 url 반환 → 둘 다 처리
+  const model = process.env.IMAGE_MODEL || "gpt-image-1";
+  const body = {
+    model,
+    prompt: prompt.slice(0, 4000),
+    n: 1,
+    size: "1024x1024",
+  };
+  if (model.startsWith("gpt-image")) {
+    body.quality = process.env.IMAGE_QUALITY || "medium";
+  } else {
+    body.quality = "standard";
+  }
+
   const response = await fetch("https://api.openai.com/v1/images/generations", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
       Authorization: `Bearer ${apiKey}`,
     },
-    body: JSON.stringify({
-      model: "dall-e-3",
-      prompt: prompt.slice(0, 4000),
-      n: 1,
-      size: "1024x1024",
-      quality: "standard",
-      response_format: "b64_json",
-    }),
+    body: JSON.stringify(body),
   });
 
   if (!response.ok) {
@@ -110,7 +119,14 @@ async function generateImage(creature, retryCount = 0) {
   }
 
   const data = await response.json();
-  return Buffer.from(data.data[0].b64_json, "base64");
+  const item = data.data[0];
+  if (item.b64_json) return Buffer.from(item.b64_json, "base64");
+  if (item.url) {
+    const imgRes = await fetch(item.url);
+    if (!imgRes.ok) throw new Error(`Image download failed: ${imgRes.status}`);
+    return Buffer.from(await imgRes.arrayBuffer());
+  }
+  throw new Error("No image data in API response");
 }
 
 async function main() {
@@ -148,7 +164,9 @@ async function main() {
     console.log(`  [${i + 1}/${creatures.length}] ${c.name} (f:${c.fear}, ${c.country})...`);
 
     try {
-      const imageBuffer = await generateImage(c);
+      const rawBuffer = await generateImage(c);
+      // PNG 원본(~2MB)을 진짜 WebP(~150KB)로 압축 저장
+      const imageBuffer = await sharp(rawBuffer).webp({ quality: 82 }).toBuffer();
       writeFileSync(outPath, imageBuffer);
       done[c.id] = relativePath;
       imageMapEntries.push({ shortId, path: relativePath });
