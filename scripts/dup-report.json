@@ -1,0 +1,55 @@
+{
+  "scannedAt": "2026-07-05T03:37:15.894Z",
+  "total": 2841,
+  "sameCountry": [
+    {
+      "iso": "JP",
+      "keep": "Jorogumo",
+      "drop": "Jorōgumo"
+    }
+  ],
+  "crossCountry": [
+    {
+      "name": "봉황",
+      "countries": [
+        "KR",
+        "CN"
+      ]
+    },
+    {
+      "name": "나가",
+      "countries": [
+        "TH",
+        "IN"
+      ]
+    },
+    {
+      "name": "soucouyant",
+      "countries": [
+        "HT",
+        "TT"
+      ]
+    },
+    {
+      "name": "douen",
+      "countries": [
+        "JM",
+        "TT"
+      ]
+    },
+    {
+      "name": "pombero",
+      "countries": [
+        "AR",
+        "PY"
+      ]
+    },
+    {
+      "name": "maui",
+      "countries": [
+        "WS",
+        "TO"
+      ]
+    }
+  ]
+}
