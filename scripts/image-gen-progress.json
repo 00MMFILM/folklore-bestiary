@@ -922,5 +922,8 @@
   "cy-kalikantzaros": "/creatures/europe/kalikantzaros.webp",
   "ba-stuha": "/creatures/europe/stuha.webp",
   "es-caballucos-del-diablu": "/creatures/europe/caballucos-del-diablu.webp",
-  "us-afanc": "/creatures/americas/afanc.webp"
+  "us-afanc": "/creatures/americas/afanc.webp",
+  "sct-morag-lake-monster": "/creatures/europe/sct-morag-lake-monster.webp",
+  "gr-aloadae": "/creatures/europe/aloadae.webp",
+  "jp-futakuchi-onna": "/creatures/east-asia/futakuchi-onna.webp"
 }
