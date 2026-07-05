@@ -39,9 +39,15 @@ export default function PostList({
     setLoading(false);
   }, [locale]);
 
+  const [initialized, setInitialized] = useState(false);
+
   useEffect(() => {
+    if (!initialized) {
+      setInitialized(true);
+      return;
+    }
     fetchPosts(1, genre);
-  }, [genre, fetchPosts]);
+  }, [genre, fetchPosts]); // eslint-disable-line react-hooks/exhaustive-deps
 
   function handlePageChange(p: number) {
     fetchPosts(p, genre);
@@ -76,7 +82,7 @@ export default function PostList({
               cursor: "pointer",
             }}
           >
-            {g.icon} {locale === "ko" ? g.ko : g.en}
+            {t[`genre.${g.id}` as keyof typeof t]}
           </button>
         ))}
       </div>

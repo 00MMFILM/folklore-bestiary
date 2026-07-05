@@ -5,7 +5,7 @@ import { getSupabase } from "@/lib/supabase";
 export async function GET() {
   const supabase = getSupabase();
   const { count, error } = await supabase
-    .from("posts")
+    .from("community_posts")
     .select("*", { count: "exact", head: true });
 
   if (error) {

@@ -22,13 +22,7 @@ export async function GET(
     return NextResponse.json({ error: "Post not found" }, { status: 404 });
   }
 
-  // Manual view count increment fallback
-  await supabase
-    .from("community_posts")
-    .update({ view_count: (data.view_count || 0) + 1 })
-    .eq("id", id);
-
-  return NextResponse.json({ ...data, view_count: (data.view_count || 0) + 1 });
+  return NextResponse.json(data);
 }
 
 export async function PUT(

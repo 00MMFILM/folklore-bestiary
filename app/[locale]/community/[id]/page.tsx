@@ -57,7 +57,7 @@ export default async function PostDetailPage({
     .eq("id", id);
 
   const genre = GENRES.find((g) => g.id === post.genre);
-  const genreLabel = genre ? `${genre.icon} ${locale === "ko" ? genre.ko : genre.en}` : post.genre;
+  const genreLabel = genre ? t[`genre.${genre.id}` as keyof typeof t] : post.genre;
 
   const createdDate = new Date(post.created_at);
   const dateStr = createdDate.toLocaleDateString(locale === "ko" ? "ko-KR" : "en-US", {

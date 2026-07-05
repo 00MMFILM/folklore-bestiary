@@ -144,7 +144,7 @@ export default function PostForm({ locale, mode, postId, initial }: PostFormProp
                 cursor: "pointer",
               }}
             >
-              {g.icon} {locale === "ko" ? g.ko : g.en}
+              {t[`genre.${g.id}` as keyof typeof t]}
             </button>
           ))}
         </div>
