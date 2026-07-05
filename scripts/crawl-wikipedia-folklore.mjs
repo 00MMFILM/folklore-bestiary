@@ -424,21 +424,31 @@ const COUNTRY_PATTERNS = Object.entries(COUNTRY_KEYWORDS).map(([iso, kws]) => ({
   patterns: kws.map(kw => new RegExp(`\\b${kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`)),
 }));
 
-function guessCountryFromText(text) {
-  if (!text) return null;
+// 국가별 매칭 점수 (0점 국가는 생략)
+function countryScores(text) {
+  if (!text) return {};
   // 대륙 수식어 제거 — 'South American folklore'가 US 'american'에 오매칭되는 것 방지
   const cleaned = text.toLowerCase()
     .replace(/\b(south|latin|central|north)\s+america(?:n|s)?\b/g, ' ');
-  let best = null;
-  let bestScore = 0;
+  const scores = {};
   for (const { iso, patterns } of COUNTRY_PATTERNS) {
     let score = 0;
     for (const p of patterns) {
       if (p.test(cleaned)) score++;
     }
+    if (score > 0) scores[iso] = score;
+  }
+  return scores;
+}
+
+function guessCountryFromText(text) {
+  const scores = countryScores(text);
+  let best = null;
+  let bestScore = 0;
+  for (const [iso, score] of Object.entries(scores)) {
     if (score > bestScore) { bestScore = score; best = iso; }
   }
-  return bestScore > 0 ? best : null;
+  return best;
 }
 
 // ═══════════════════════════════════════════════════════════════
@@ -993,4 +1003,4 @@ if (isDirectRun) {
   });
 }
 
-export { guessCountryFromText, COUNTRY_KEYWORDS, isFolkloreRelatedCategory };
+export { guessCountryFromText, countryScores, COUNTRY_KEYWORDS, isFolkloreRelatedCategory };
