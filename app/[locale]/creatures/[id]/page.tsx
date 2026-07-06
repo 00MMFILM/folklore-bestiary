@@ -28,7 +28,8 @@ export async function generateMetadata({
 }: {
   params: Promise<{ locale: string; id: string }>;
 }): Promise<Metadata> {
-  const { locale, id } = await params;
+  const { locale, id: rawId } = await params;
+  const id = decodeURIComponent(rawId); // 한글 슬러그는 인코딩된 채로 도착
   if (!isValidLocale(locale)) return { title: "Not Found" };
   const creature = getCreatureById(id);
   if (!creature) return { title: "Creature Not Found" };
@@ -77,7 +78,8 @@ export default async function CreaturePage({
 }: {
   params: Promise<{ locale: string; id: string }>;
 }) {
-  const { locale: rawLocale, id } = await params;
+  const { locale: rawLocale, id: rawId } = await params;
+  const id = decodeURIComponent(rawId); // 한글 슬러그는 인코딩된 채로 도착
   if (!isValidLocale(rawLocale)) notFound();
   const locale: Locale = rawLocale;
 
