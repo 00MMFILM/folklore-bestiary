@@ -57,9 +57,12 @@ export const COUNTRY_COUNT = ${data.length};
 
 // ─── 크리처 생성 헬퍼 (expand-folklore.mjs와 동일) ───
 function mk(iso, ln, n, t, f, d, ab, wk, vk, src, ct) {
-  const slug = ln.toLowerCase()
-    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
-    .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  // \uc720\ub2c8\ucf54\ub4dc \uc2ac\ub7ec\uadf8: \ub77c\ud2f4 \ubc1c\uc74c\ubd80\ud638\ub294 \uc81c\uac70, \ud55c\uae00\u00b7\ud55c\uc790 \ub4f1 CJK\ub294 \uc720\uc9c0
+  // (\ud55c\uae00 \uc804\uc6a9 \uc774\ub984\uc774 \ube48 \uc2ac\ub7ec\uadf8 \u2192 id \ucda9\ub3cc\uc744 \uc77c\uc73c\ud0a4\ub358 \ubc84\uadf8 \uc218\uc815)
+  let slug = ln.toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '').normalize('NFC')
+    .replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-|-$/g, '');
+  if (!slug) slug = 'unnamed';
   return {
     n, t, f, d,
     id: `${iso.toLowerCase()}-${slug}`,
@@ -124,6 +127,14 @@ const CATEGORY_COUNTRY_MAP = [
   { lang: 'ko', cat: '분류:부여_신화', iso: 'KR', label: '부여 신화' },
   { lang: 'ko', cat: '분류:고려_신화', iso: 'KR', label: '고려 신화' },
   { lang: 'ko', cat: '분류:조선_신화', iso: 'KR', label: '조선 신화' },
+  // ─ 괴담·도시전설 (2026-07-06 추가: 자유로 귀신·홍콩할매귀신류 현대 괴담 커버) ─
+  { lang: 'ko', cat: '분류:대한민국의_도시전설', iso: 'KR', label: '한국 도시전설' },
+  { lang: 'ko', cat: '분류:괴담', iso: '_MULTI', label: '괴담' },
+  { lang: 'ko', cat: '분류:학교괴담', iso: '_MULTI', label: '학교괴담' },
+  { lang: 'ko', cat: '분류:도시전설', iso: '_MULTI', label: '도시전설' },
+  { lang: 'ko', cat: '분류:일본의_도시전설', iso: 'JP', label: '일본 도시전설' },
+  { lang: 'en', cat: 'Category:Korean_ghosts', iso: 'KR', label: 'Korean ghosts' },
+  { lang: 'en', cat: 'Category:Urban_legends', iso: '_MULTI', label: 'Urban legends' },
   { lang: 'ko', cat: '분류:일본의_요괴', iso: 'JP', label: '일본 요괴' },
   { lang: 'ko', cat: '분류:중국_신화', iso: 'CN', label: '중국 신화' },
 
@@ -432,10 +443,34 @@ const COUNTRY_KEYWORDS = {
   SB: ['solomon islands'],
 };
 
+// 한국어 위키 기사 본문 판정용 CJK 키워드 (ko-wiki _MULTI 카테고리 대응)
+const COUNTRY_KEYWORDS_CJK = {
+  KR: ['한국', '대한민국', '한반도', '제주도'],
+  JP: ['일본'],
+  CN: ['중국'],
+  TW: ['대만'],
+  VN: ['베트남'],
+  TH: ['태국'],
+  IN: ['인도의', '인도에서'],
+  US: ['미국'],
+  GB: ['영국'],
+  FR: ['프랑스'],
+  DE: ['독일'],
+  RU: ['러시아'],
+  MX: ['멕시코'],
+};
+for (const [iso, kws] of Object.entries(COUNTRY_KEYWORDS_CJK)) {
+  COUNTRY_KEYWORDS[iso] = [...(COUNTRY_KEYWORDS[iso] || []), ...kws];
+}
+
 // 키워드를 단어 경계 정규식으로 사전 컴파일 ('roman'이 'romanian'에 걸리는 오매칭 방지)
+// CJK 키워드는 \b가 동작하지 않으므로 경계 없이 매칭
 const COUNTRY_PATTERNS = Object.entries(COUNTRY_KEYWORDS).map(([iso, kws]) => ({
   iso,
-  patterns: kws.map(kw => new RegExp(`\\b${kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`)),
+  patterns: kws.map(kw => {
+    const escaped = kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return /[^\x00-\x7F]/.test(kw) ? new RegExp(escaped) : new RegExp(`\\b${escaped}\\b`);
+  }),
 }));
 
 // 국가별 매칭 점수 (0점 국가는 생략)
@@ -796,6 +831,9 @@ function isCreatureArticle(article) {
   if (/\b(television|tv series|anime|manga)\b/.test(text) && !/\b(legend|myth|folk|creature)\b/.test(text)) return false;
   // 한국어 미디어 기사 (드라마/방송 에피소드 목록 등 — '전설의 고향 - 1996년' 류)
   if (/방영|드라마|시리즈|영화화|애니메이션/.test(text) && /KBS|MBC|SBS|tvN|채널/.test(text)) return false;
+  // 존재(being)가 아닌 것들: 인물·천체·조형물·서적·식물·유사과학 등
+  if (/\b(asteroid|obelisk|statue|sculpture|monument|fountain|novelist|author|writer|historian|essayist|non-?fiction|pseudoscien|proverb|execution method|ekadashi|cultivar)\b/.test(text)) return false;
+  if (/소설가|作家|평론가|저술가|천문학|소행성|기념비|조각상|출판사|단행본/.test(text)) return false;
   // 연도로 시작하는 제목 (TV 프로그램 등)
   if (/^\d{4}\s/.test(title)) return false;
   // 목록/개요/분류 류 기사 제외
