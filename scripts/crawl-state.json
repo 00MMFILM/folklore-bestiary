@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 115,
+  "lastCategoryIndex": 118,
   "processedPageIds": [
     27551093,
     40572945,
@@ -2864,7 +2864,26 @@
     336886,
     93520,
     63749014,
-    72682356
+    72682356,
+    69592688,
+    34309907,
+    13698993,
+    77273,
+    19672179,
+    2618,
+    34885949,
+    77962,
+    54083985,
+    80987,
+    1213,
+    66742944,
+    79199,
+    32966468,
+    12842284,
+    36743,
+    75161,
+    72675821,
+    7214
   ],
   "discoveredCategories": [
     {
@@ -14154,10 +14173,114 @@
       "label": "Kiribati mythology",
       "discoveredFrom": "Nareau",
       "discoveredAt": 523
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ethiopian characters in Greek mythology",
+      "iso": "GR",
+      "label": "Ethiopian characters in Greek mythology",
+      "discoveredFrom": "1922 regnal list of Ethiopia",
+      "discoveredAt": 524
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Ethiopian people",
+      "iso": "ET",
+      "label": "Legendary Ethiopian people",
+      "discoveredFrom": "1922 regnal list of Ethiopia",
+      "discoveredAt": 524
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythology of Macedonia (ancient kingdom)",
+      "iso": "MK",
+      "label": "Mythology of Macedonia (ancient kingdom)",
+      "discoveredFrom": "Acessamenus",
+      "discoveredAt": 524
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological kings of Pherae",
+      "iso": "_MULTI",
+      "label": "Mythological kings of Pherae",
+      "discoveredFrom": "Admetus of Pherae",
+      "discoveredAt": 524
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Phrygians",
+      "iso": "_MULTI",
+      "label": "Mythological Phrygians",
+      "discoveredFrom": "Adrastus (mythology)",
+      "discoveredAt": 524
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Aeginetans",
+      "iso": "_MULTI",
+      "label": "Mythological Aeginetans",
+      "discoveredFrom": "Aeacus",
+      "discoveredAt": 524
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Kings of Egypt in Greek mythology",
+      "iso": "EG",
+      "label": "Kings of Egypt in Greek mythology",
+      "discoveredFrom": "Aegyptus",
+      "discoveredAt": 524
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Greek archers",
+      "iso": "GR",
+      "label": "Mythological Greek archers",
+      "discoveredFrom": "Actaeon",
+      "discoveredAt": 524
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological kings of Arcadia",
+      "iso": "_MULTI",
+      "label": "Mythological kings of Arcadia",
+      "discoveredFrom": "Arcas",
+      "discoveredAt": 524
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Eleusinians",
+      "iso": "_MULTI",
+      "label": "Mythological Eleusinians",
+      "discoveredFrom": "Ascalabus",
+      "discoveredAt": 524
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Arcadian mythology",
+      "iso": "_MULTI",
+      "label": "Arcadian mythology",
+      "discoveredFrom": "Callisto (mythology)",
+      "discoveredAt": 524
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Callisto (mythology)",
+      "iso": "_MULTI",
+      "label": "Callisto (mythology)",
+      "discoveredFrom": "Callisto (mythology)",
+      "discoveredAt": 524
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological bears",
+      "iso": "_MULTI",
+      "label": "Mythological bears",
+      "discoveredFrom": "Callisto (mythology)",
+      "discoveredAt": 524
     }
   ],
-  "totalAdded": 2542,
-  "runs": 524,
-  "lastRun": "2026-07-06T15:13:43.701Z",
-  "lastDiscoveredIndex": 327
+  "totalAdded": 2557,
+  "runs": 525,
+  "lastRun": "2026-07-06T19:43:53.310Z",
+  "lastDiscoveredIndex": 330
 }
