@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 106,
+  "lastCategoryIndex": 109,
   "processedPageIds": [
     27551093,
     40572945,
@@ -2482,7 +2482,29 @@
     25590191,
     5642080,
     44965540,
-    1956226
+    1956226,
+    4180507,
+    14817552,
+    2134171,
+    3837616,
+    4390289,
+    5845068,
+    4936380,
+    61429082,
+    5842195,
+    61413581,
+    42628885,
+    42681671,
+    30865327,
+    8449955,
+    669886,
+    42597648,
+    72805357,
+    80593521,
+    74421076,
+    58130993,
+    19341074,
+    31542027
   ],
   "discoveredCategories": [
     {
@@ -13068,10 +13090,58 @@
       "label": "Turkish folklore",
       "discoveredFrom": "Gelin",
       "discoveredAt": 513
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sabah mythology",
+      "iso": "_MULTI",
+      "label": "Sabah mythology",
+      "discoveredFrom": "Nunuk Ragang",
+      "discoveredAt": 514
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Asian gods",
+      "iso": "_MULTI",
+      "label": "Asian gods",
+      "discoveredFrom": "Tua Pek Kong",
+      "discoveredAt": 514
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sundanese folklore",
+      "iso": "ID",
+      "label": "Sundanese folklore",
+      "discoveredFrom": "Dewi Sri",
+      "discoveredAt": 514
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sundanese mythology",
+      "iso": "ID",
+      "label": "Sundanese mythology",
+      "discoveredFrom": "Dewi Sri",
+      "discoveredAt": 514
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fruit in mythology",
+      "iso": "_MULTI",
+      "label": "Fruit in mythology",
+      "discoveredFrom": "Hainuwele",
+      "discoveredAt": 514
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Batak mythology",
+      "iso": "_MULTI",
+      "label": "Batak mythology",
+      "discoveredFrom": "Batak mythology",
+      "discoveredAt": 514
     }
   ],
-  "totalAdded": 2386,
-  "runs": 514,
-  "lastRun": "2026-07-05T19:03:04.500Z",
-  "lastDiscoveredIndex": 297
+  "totalAdded": 2401,
+  "runs": 515,
+  "lastRun": "2026-07-06T02:22:35.705Z",
+  "lastDiscoveredIndex": 300
 }
