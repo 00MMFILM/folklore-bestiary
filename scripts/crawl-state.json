@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 109,
+  "lastCategoryIndex": 112,
   "processedPageIds": [
     27551093,
     40572945,
@@ -2504,7 +2504,35 @@
     74421076,
     58130993,
     19341074,
-    31542027
+    31542027,
+    1421316,
+    64679949,
+    18490967,
+    2932044,
+    101202,
+    49404582,
+    32248615,
+    61678715,
+    23490948,
+    28357543,
+    65725185,
+    82804846,
+    25021036,
+    28871118,
+    79458494,
+    55723950,
+    34593770,
+    3826544,
+    55749938,
+    4776932,
+    44196444,
+    54237400,
+    81999448,
+    17872848,
+    57168721,
+    2410864,
+    38115472,
+    36716579
   ],
   "discoveredCategories": [
     {
@@ -13138,10 +13166,42 @@
       "label": "Batak mythology",
       "discoveredFrom": "Batak mythology",
       "discoveredAt": 514
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Animated television series about monsters",
+      "iso": "_MULTI",
+      "label": "Animated television series about monsters",
+      "discoveredFrom": "Kisah Bawah Tanah",
+      "discoveredAt": 515
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Nepalese folklore",
+      "iso": "NP",
+      "label": "Nepalese folklore",
+      "discoveredFrom": "Banjhakri and Banjhakrini",
+      "discoveredAt": 515
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Shamans",
+      "iso": "_MULTI",
+      "label": "Shamans",
+      "discoveredFrom": "Banjhakri and Banjhakrini",
+      "discoveredAt": 515
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Siberian shamanism",
+      "iso": "RU",
+      "label": "Siberian shamanism",
+      "discoveredFrom": "Black shamanism",
+      "discoveredAt": 515
     }
   ],
-  "totalAdded": 2401,
-  "runs": 515,
-  "lastRun": "2026-07-06T02:22:35.705Z",
-  "lastDiscoveredIndex": 300
+  "totalAdded": 2416,
+  "runs": 516,
+  "lastRun": "2026-07-06T09:57:22.277Z",
+  "lastDiscoveredIndex": 303
 }
