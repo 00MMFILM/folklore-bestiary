@@ -794,6 +794,8 @@ function isCreatureArticle(article) {
   // 명확히 비관련 (인물 전기, 지역, 영화, TV, 목록, 메타 기사 등) 제외
   if (/\b(born|died|population|census|municipality|film|album|novel|video game)\b/.test(text)) return false;
   if (/\b(television|tv series|anime|manga)\b/.test(text) && !/\b(legend|myth|folk|creature)\b/.test(text)) return false;
+  // 한국어 미디어 기사 (드라마/방송 에피소드 목록 등 — '전설의 고향 - 1996년' 류)
+  if (/방영|드라마|시리즈|영화화|애니메이션/.test(text) && /KBS|MBC|SBS|tvN|채널/.test(text)) return false;
   // 연도로 시작하는 제목 (TV 프로그램 등)
   if (/^\d{4}\s/.test(title)) return false;
   // 목록/개요/분류 류 기사 제외

@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Bulgasari",
+ "sourceLang": "en",
+ "sourceChars": 3887,
+ "generatedAt": "2026-07-06T11:57:53.341Z",
+ "locales": {
+  "ko": {
+   "origin": "불가사리는 고려 말기 송도(현재의 개성)에서 발생한 전설적인 한국 괴물에 기초하여 만들어졌다.",
+   "legend": "불가사리는 철을 먹는 괴물로, 주인공 남형이 배신자들에 의해 살해된 후 그의 증오로 인해 부활하여 복수를 하려는 이야기이다.",
+   "variants": "",
+   "culture": "불가사리는 1962년 한국에서 제작된 첫 번째 괴수 영화로, 특별 효과를 사용한 첫 번째 한국 영화로 알려져 있다. 이 영화는 1985년에 신상옥 감독에 의해 리메이크되었다."
+  },
+  "en": {
+   "origin": "The bulgasari is based on a legendary Korean monster that originated in the late Goryeo period in Songdo (present-day Kaesong).",
+   "legend": "The bulgasari is a monster that eats iron, and the story revolves around the protagonist Nam-hyeong, who is killed by traitors and resurrects out of his hatred to seek revenge.",
+   "variants": "",
+   "culture": "The bulgasari is known as the first monster movie produced in Korea in 1962 and is recognized as the first Korean film to use special effects. This film was remade in 1985 by director Shin Sang-ok."
+  },
+  "zh": {
+   "origin": "不可思议是基于高丽末期松都（现在的开城）发生的传说中的韩国怪物而制作的。",
+   "legend": "不可思议是一个吃铁的怪物，故事讲述了主角南亨在被背叛者杀害后，由于他的仇恨复活并试图复仇的故事。",
+   "variants": "",
+   "culture": "不可思议是1962年在韩国制作的第一部怪兽电影，也是第一部使用特效的韩国电影。这部电影在1985年由申相玉导演进行了重拍。"
+  },
+  "ja": {
+   "origin": "불가사리는 고려末期の宋都（現在の開城）で発生した伝説的な韓国の怪物に基づいて作られた。",
+   "legend": "불가사리는鉄を食べる怪物で、主人公の南亨（ナムヒョン）が裏切り者たちによって殺された後、彼の憎しみによって復活し、復讐をしようとする物語である。",
+   "variants": "",
+   "culture": "불가사리는1962年に韓国で制作された最初の怪獣映画で、特殊効果を使用した最初の韓国映画として知られている。この映画は1985年にシン・サンオク監督によってリメイクされた。"
+  }
+ }
+}

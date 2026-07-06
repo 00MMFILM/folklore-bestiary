@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Asadal",
+ "sourceLang": "en",
+ "sourceChars": 4152,
+ "generatedAt": "2026-07-06T11:59:13.147Z",
+ "locales": {
+  "ko": {
+   "origin": "Asadal(아사달)은 고조선(古朝鮮)의 수도로, 전설적인 왕인 단군(檀君)에 의해 세워진 첫 번째 한국 왕국의 중심지로 알려져 있다. 아사달은 현대 북한의 황해도 서부 또는 평양 지역에 위치했을 것으로 추정된다.",
+   "legend": "아사달은 단군의 수도로 전해지며, 고조선의 역사적 배경 속에서 중요한 역할을 한 장소로 여겨진다. 단군은 한국의 건국 신화에서 중요한 인물로, 아사달은 그의 통치 아래 번영했던 도시로 묘사된다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Asadal (아사달) is known as the capital of Gojoseon (고조선), the first Korean kingdom established by the legendary king Dangun (단군). Asadal is believed to have been located in the western part of Hwanghaedo (황해도) or the Pyongyang (평양) area of modern North Korea.",
+   "legend": "Asadal is said to be the capital of Dangun and is considered an important place in the historical background of Gojoseon. Dangun is a significant figure in Korean founding mythology, and Asadal is described as a city that prospered under his rule.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "Asadal(阿萨达尔)是古朝鲜(고조선)首都，传说中的王者檀君(단군)所建立的第一个韩国王国的中心地。阿萨达尔被认为位于现代北韩的黄海道西部或平壤地区。",
+   "legend": "阿萨达尔被传为檀君的首都，在古朝鲜的历史背景中被视为一个重要的地方。檀君是韩国建国神话中的重要人物，阿萨达尔被描绘为在他的统治下繁荣的城市。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "Asadal(アサダル)は高句麗(コグリョ)の首都で、伝説的な王である檀君(ダンクン)によって築かれた最初の韓国王国の中心地として知られている。アサダルは現代の北朝鮮の黄海道(ファンヘド)西部または平壌(ピョンヤン)地域に位置していたと推定される。",
+   "legend": "アサダルは檀君の首都として伝えられ、高句麗の歴史的背景の中で重要な役割を果たした場所と見なされている。檀君は韓国の建国神話において重要な人物であり、アサダルは彼の統治の下で繁栄していた都市として描かれている。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

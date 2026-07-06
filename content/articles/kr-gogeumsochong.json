@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Gogeumsochong",
+ "sourceLang": "en",
+ "sourceChars": 5367,
+ "generatedAt": "2026-07-06T11:59:14.364Z",
+ "locales": {
+  "ko": {
+   "origin": "고금소총(高金小銃)은 조선 초기부터 후기에 걸쳐 수집된 다양한 이야기들을 모은 열한 개의 앤솔로지로 구성된 작품이다. 1958년 민속자료출판위원회에 의해 고금소총의 복제본이 출판되었으며, 이 책에는 11종의 스크루플과 800개의 플롯이 포함되어 있다. 1970년에는 같은 제목으로 총 379개의 이야기가 수집되었으며, 이에는 한자와 한국어 번역이 포함되었다. 2008년에는 조선 시대의 원본 전체가 다섯 권으로 출판되었다.",
+   "legend": "고금소총은 조선 시대의 다양한 민속 이야기들을 담고 있으며, 이들 이야기는 주로 구술로 전해졌다. 이 작품은 한국의 구술 문학 전통을 반영하고 있으며, 민속 이야기와 노래는 구술로 전달되어 왔다. 고금소총은 이러한 구술 전통을 문서화하여 보존하려는 노력의 일환으로, 조선 시대의 문화와 가치관을 이해하는 데 중요한 자료로 여겨진다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Gogeumsochong (高金小銃) is a work composed of eleven anthologies that collect various stories gathered from the early to late Joseon period. In 1958, a reproduction of Gogeumsochong was published by the Folklore Materials Publishing Committee, and this book includes 11 types of scruples and 800 plots. In 1970, a total of 379 stories were collected under the same title, which included Chinese characters and Korean translations. In 2008, the complete original from the Joseon era was published in five volumes.",
+   "legend": "Gogeumsochong contains various folk tales from the Joseon period, which were primarily transmitted orally. This work reflects Korea's oral literature tradition, where folk tales and songs have been passed down orally. Gogeumsochong is considered an important resource for understanding the culture and values of the Joseon period as part of efforts to document and preserve this oral tradition.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "高金小枪（Gogumsochong）是由朝鲜初期到后期收集的各种故事组成的十一部选集。1958年，由民俗资料出版委员会出版了高金小枪的复本，这本书包含11种故事和800个情节。1970年，以同一标题共收集了379个故事，其中包括汉字和韩语翻译。2008年，朝鲜时代的原本全部以五卷出版。",
+   "legend": "高金小枪包含了朝鲜时代的各种民俗故事，这些故事主要通过口头传承。这部作品反映了韩国的口头文学传统，民俗故事和歌曲一直通过口头传递。高金小枪是为了文献化和保存这种口头传统的努力，被视为理解朝鲜时代文化和价值观的重要资料。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "高金小銃（こうきんしょうじゅう）は、朝鮮初期から後期にかけて収集された様々な物語を集めた11冊のアンソロジーで構成された作品である。1958年に民俗資料出版委員会によって高金小銃の複製本が出版され、この本には11種類のスクルプルと800のプロットが含まれている。1970年には同じタイトルで合計379の物語が収集され、これには漢字と韓国語の翻訳が含まれていた。2008年には朝鮮時代の原本全体が5巻として出版された。",
+   "legend": "高金小銃は朝鮮時代の様々な民俗物語を含んでおり、これらの物語は主に口承で伝えられた。この作品は韓国の口承文学の伝統を反映しており、民俗物語や歌は口承で伝達されてきた。高金小銃はこのような口承伝統を文書化して保存しようとする努力の一環として、朝鮮時代の文化や価値観を理解するための重要な資料と見なされている。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

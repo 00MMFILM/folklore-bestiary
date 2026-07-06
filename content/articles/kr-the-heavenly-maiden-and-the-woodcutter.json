@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "The Heavenly Maiden and the Woodcutter",
+ "sourceLang": "en",
+ "sourceChars": 9995,
+ "generatedAt": "2026-07-06T11:59:39.291Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "《선녀와 나무꾼》은 인간 나무꾼과 하늘의 선녀 간의 결혼에 관한 한국의 설화로, 나무꾼이 선녀의 옷을 훔쳐 그녀를 아내로 강제로 삼는 이야기이다. 이 이야기는 유라시아 전역의 전설에 등장하는 백조 처녀와 유사한 내러티브로 비교되기도 한다.",
+   "variants": "이 이야기는 한국에서 매우 일반적이며, 전국적으로 최소 25개의 변형이 기록되어 있다. 일부 학자들은 한국의 백조 처녀 이야기가 일본으로 이주했을 가능성을 제기한다. 예를 들어, 강원도에 사는 나무꾼이 사슴을 숨겨주고, 그 사슴이 그에게 선녀들이 목욕하는 곳을 안내하는 이야기가 있다. 이 버전에서도 나무꾼은 선녀의 옷을 훔쳐 결혼하고, 결국 선녀는 아이들을 데리고 하늘로 돌아간다.",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "The tale of 'Seon-nyeo wa Namugun' (선녀와 나무꾼) is a Korean folklore about the marriage between a human woodcutter and a celestial fairy, where the woodcutter steals the fairy's clothes and forces her to become his wife. This story is sometimes compared to the narrative of the swan maiden found in legends across Eurasia.",
+   "variants": "This story is very common in Korea, with at least 25 recorded variants nationwide. Some scholars suggest that the Korean swan maiden story may have migrated to Japan. For example, there is a version where a woodcutter in Gangwon-do hides a deer, and that deer guides him to the place where the fairies bathe. In this version, the woodcutter also steals the fairy's clothes to marry her, and eventually, the fairy returns to the heavens with her children.",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "《仙女与樵夫》是关于人类樵夫与天上的仙女之间婚姻的韩国传说，樵夫偷走了仙女的衣服，强迫她成为他的妻子。这个故事与出现在欧亚各地的天鹅少女的叙述相似。",
+   "variants": "这个故事在韩国非常普遍，至少记录了25个变体。一些学者提出，韩国的天鹅少女故事可能移植到了日本。例如，有一个关于住在江原道的樵夫藏匿一只鹿的故事，这只鹿引导他去仙女们洗澡的地方。在这个版本中，樵夫也偷走了仙女的衣服结婚，最终仙女带着孩子们回到了天上。",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "《仙女と木こり》（선녀와 나무꾼）は、人間の木こりと天の仙女との結婚に関する韓国の伝説で、木こりが仙女の衣服を盗んで彼女を妻に強制する物語です。この話はユーラシア全域の伝説に登場する白鳥の乙女と類似したナラティブとして比較されることもあります。",
+   "variants": "この話は韓国で非常に一般的であり、全国的に少なくとも25の変種が記録されています。一部の学者は、韓国の白鳥の乙女の話が日本に移住した可能性を提起しています。例えば、江原道（강원도）に住む木こりが鹿を隠して、その鹿が彼に仙女たちが入浴する場所を案内する話があります。このバージョンでも木こりは仙女の衣服を盗んで結婚し、最終的に仙女は子供たちを連れて天に戻ります。",
+   "culture": ""
+  }
+ }
+}

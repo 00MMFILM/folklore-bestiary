@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Cheuksin",
+ "sourceLang": "en",
+ "sourceChars": 3224,
+ "generatedAt": "2026-07-06T11:59:31.124Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "측신(측신; Hanja: 廁神)은 한국 신화에서 화장실의 여신으로 알려져 있다. 그녀는 주로 가신 신앙의 일부분으로 여겨지며, 주거 공간의 신들 중에서 상대적으로 덜 알려진 존재이다. 측신은 변소에 거주하는 것으로 믿어졌다. 측신은 150cm 길이의 긴 머리를 가진 젊은 처녀의 모습으로 나타나는 것으로 전해진다. 그녀는 최고 신인 천지왕과 주방의 여신인 조왕신에 의해 변소로 추방당한 것에 분노하여, 자신의 머리카락을 세는 시간을 보냈다고 한다. 한국인들은 그녀의 분노를 피하기 위해 6이 포함된 날, 즉 음력 6일, 16일, 26일에는 변소에 들어가지 않으려 했다.",
+   "variants": "",
+   "culture": "측신은 한국에서 가장 위험한 가신으로 여겨졌으며, 아이들을 싫어하는 것으로 믿어졌다. 아이가 변소에 빠지면 성인이 되기 전에 죽을 것이라고 여겨졌고, 이를 달래기 위해 제사를 지내야 했다. 측신은 또한 법적 처벌의 신으로 여겨졌으며, 집의 신인 성주신의 명령을 따르는 존재로 알려져 있다. 측신을 위한 굿이나 제사는 다른 가신들과는 달리 행해지지 않았는데, 이는 그녀가 악의적인 존재로 여겨졌기 때문이다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Cheoksin (측신; Hanja: 廁神) is known as the goddess of toilets in Korean mythology. She is primarily considered a part of the household deity belief and is relatively lesser-known among the gods of living spaces. Cheoksin is believed to reside in the toilet. She is said to appear as a young maiden with long hair measuring 150 cm. It is said that she was banished to the toilet by the supreme god Cheonjiwang and the kitchen goddess Jowangsin, and in her anger, she spent time counting her hair. To avoid her wrath, Koreans would refrain from entering the toilet on days that included the number 6, specifically the 6th, 16th, and 26th of the lunar calendar.",
+   "variants": "",
+   "culture": "Cheoksin is considered the most dangerous household deity in Korea and is believed to dislike children. It was thought that if a child fell into the toilet, they would die before reaching adulthood, and offerings had to be made to appease her. Cheoksin is also regarded as a deity of legal punishment and is known to follow the commands of the household deity Seongjusin. Unlike other household deities, rituals or offerings for Cheoksin were not performed, as she was considered a malevolent being."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "侧神（측신; Hanja: 廁神）是韩国神话中被称为厕所女神的存在。她通常被视为家神信仰的一部分，在居住空间的神中相对不为人知。侧神被认为居住在厕所中。传说她以一位长有150厘米长发的年轻少女的形象出现。她因被最高神天帝（천지왕）和厨房女神照王神（조왕신）驱逐到厕所而愤怒，曾花时间数自己的头发。为了避开她的愤怒，韩国人通常在包含6的日子，即农历6日、16日和26日，不愿进入厕所。",
+   "variants": "",
+   "culture": "侧神在韩国被认为是最危险的家神，传说她讨厌小孩。如果小孩掉进厕所，便会在成年之前死去，因此需要举行祭祀来安抚她。侧神还被视为法律惩罚的神，被认为是遵循家神圣主神（성주신）命令的存在。与其他家神不同，侧神的祭祀或仪式并不常见，因为她被视为恶意的存在。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "チュクシン（측신; Hanja: 廁神）は韓国神話でトイレの女神として知られている。彼女は主に家神信仰の一部と見なされ、居住空間の神々の中では比較的知られていない存在である。チュクシンは便所に住んでいると信じられていた。チュクシンは150cmの長い髪を持つ若い処女の姿で現れると伝えられている。彼女は最高神である天帝（チョンジワン）と台所の女神である調王神（チョワンシン）によって便所に追放されたことに怒り、自分の髪の毛を数える時間を過ごしたと言われている。韓国人は彼女の怒りを避けるために、6が含まれる日、すなわち旧暦の6日、16日、26日には便所に入らないようにしていた。",
+   "variants": "",
+   "culture": "チュクシンは韓国で最も危険な家神と見なされ、子供を嫌う存在と信じられていた。子供が便所に落ちると、大人になる前に死ぬと考えられ、これをなだめるために祭りを行わなければならなかった。チュクシンはまた法的処罰の神とも見なされ、家の神である聖主神（ソンジュシン）の命令に従う存在として知られている。チュクシンのためのグッ（祭り）や祭祀は他の家神とは異なり行われなかったが、これは彼女が悪意のある存在と見なされていたためである。"
+  }
+ }
+}
