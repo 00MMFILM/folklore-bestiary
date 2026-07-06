@@ -781,6 +781,25 @@ function discoverCategoriesFromArticle(article, sourceIso, state, knownKeys) {
 }
 
 // ═══════════════════════════════════════════════════════════════
+//  기사 → 크리처 빌더 (크롤러·발굴 스크립트 공용)
+// ═══════════════════════════════════════════════════════════════
+function buildCreatureFromArticle(article, iso, lang, label) {
+  const koName = generateKoreanName(article);
+  const enName = lang === 'ko'
+    ? ((article.langlinks || []).find(l => l.lang === 'en')?.['*'] || article.title)
+    : article.title;
+  const type = guessType(article.title, article.extract);
+  const fear = guessFear(type, article.extract);
+  const abilities = guessAbilities(article.extract);
+  const weaknesses = guessWeaknesses(article.extract);
+  const visualKw = guessVisualKeywords(article.title, type, article.extract);
+  const ct = autoClassify(type, article.extract);
+  const desc = generateKoreanDescription(article, type, iso);
+  const srcLabel = lang === 'ko' ? '위키백과' : `Wikipedia (${label})`;
+  return mk(iso, enName, koName, type, fear, desc, abilities, weaknesses, visualKw, srcLabel, ct);
+}
+
+// ═══════════════════════════════════════════════════════════════
 //  중복 방지 (4중 체크)
 // ═══════════════════════════════════════════════════════════════
 function isDuplicate(creature, data, state) {
@@ -960,28 +979,12 @@ async function main() {
         continue;
       }
 
-      // 한국어 이름 찾기
-      const koName = generateKoreanName(article);
-      const enName = catDef.lang === 'ko'
-        ? ((article.langlinks || []).find(l => l.lang === 'en')?.['*'] || article.title)
-        : article.title;
-
-      // 타입/공포/능력 추정
-      const type = guessType(article.title, article.extract);
-      const fear = guessFear(type, article.extract);
-      const abilities = guessAbilities(article.extract);
-      const weaknesses = guessWeaknesses(article.extract);
-      const visualKw = guessVisualKeywords(article.title, type, article.extract);
-      const ct = autoClassify(type, article.extract);
-      const desc = generateKoreanDescription(article, type, catDef.iso);
-      const srcLabel = catDef.lang === 'ko' ? '위키백과' : `Wikipedia (${catDef.label})`;
-
-      // 크리처 생성
-      const creature = mk(catDef.iso, enName, koName, type, fear, desc, abilities, weaknesses, visualKw, srcLabel, ct);
+      // 크리처 생성 (공용 빌더 — discover 스크립트에서도 재사용)
+      const creature = buildCreatureFromArticle(article, catDef.iso, catDef.lang, catDef.label);
 
       // 중복 체크
       if (isDuplicate(creature, data, state)) {
-        console.log(`   ⏭️ ${koName}(${enName}) — 중복, 스킵`);
+        console.log(`   ⏭️ ${creature.n}(${creature.ln}) — 중복, 스킵`);
         continue;
       }
 
@@ -990,7 +993,7 @@ async function main() {
       if (targetIso === '_MULTI') {
         const guessed = guessCountryFromText(article.extract);
         if (!guessed) {
-          console.log(`   ⏭️ ${koName}(${enName}) — 국가 추정 불가, 스킵`);
+          console.log(`   ⏭️ ${creature.n}(${creature.ln}) — 국가 추정 불가, 스킵`);
           continue;
         }
         targetIso = guessed;
@@ -1008,7 +1011,7 @@ async function main() {
       country.b.push(creature);
       added++;
       addedIds.push(creature.id);
-      console.log(`   ✅ 추가: ${koName}(${enName}) [${type}, 공포:${fear}, ${ct}]`);
+      console.log(`   ✅ 추가: ${creature.n}(${creature.ln}) [${creature.t}, 공포:${creature.f}, ${creature.ct}]`);
     }
   }
 
@@ -1071,4 +1074,8 @@ if (isDirectRun) {
   });
 }
 
-export { guessCountryFromText, countryScores, COUNTRY_KEYWORDS, isFolkloreRelatedCategory };
+export {
+  guessCountryFromText, countryScores, COUNTRY_KEYWORDS, isFolkloreRelatedCategory,
+  buildCreatureFromArticle, fetchArticleDetail, isCreatureArticle, isDuplicate,
+  loadData, saveData, mk,
+};
