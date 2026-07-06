@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Dokkaebi",
+ "sourceLang": "en",
+ "sourceChars": 8237,
+ "generatedAt": "2026-07-06T11:41:38.352Z",
+ "locales": {
+  "ko": {
+   "origin": "도깨비의 가장 초기 문헌 기록은 고려시대에 편찬된 '삼국사기'의 '도화부인과 비형' 이야기에서 찾아볼 수 있다. 도깨비는 조선시대에 편찬된 여러 민속 이야기 모음집에서도 등장한다.",
+   "legend": "도깨비는 한국 신화와 민속에서 전해지는 전설적인 존재로, 자연의 신이나 영혼으로 여겨진다. 이들은 인간과 상호작용하며 때로는 장난을 치고, 때로는 도움을 주는 특별한 능력을 지닌 존재로 묘사된다. 도깨비는 다양한 형태와 얼굴을 가지고 있으며, 전통적으로 한복을 입고 있는 모습으로 그려진다.",
+   "variants": "",
+   "culture": "도깨비를 소재로 한 현대 대중문화의 예로는 tvN의 드라마 '쓸쓸하고 찬란하神 – 도깨비'가 있다. 이 드라마는 고유의 한국적 요소를 담아내며, 큰 인기를 끌었다. 또한, K-pop 그룹 CLC의 '도깨비'라는 곡과 A.C.E의 '도깨비'가 도깨비의 전통적 이미지를 현대적으로 재해석한 사례로 볼 수 있다. 다양한 비디오 게임에서도 도깨비가 등장하며, 그들의 전통적 특성을 반영한 캐릭터들이 만들어지고 있다."
+  },
+  "en": {
+   "origin": "The earliest literary record of the dokkaebi can be found in the story of 'Dohwa Buin and Bihyeong' from the 'Samguk Sagi', compiled during the Goryeo Dynasty. Dokkaebi also appear in various collections of folk tales compiled during the Joseon Dynasty.",
+   "legend": "Dokkaebi are legendary beings passed down in Korean mythology and folklore, regarded as gods or spirits of nature. They are described as having special abilities to interact with humans, sometimes playing tricks and other times providing help. Dokkaebi are depicted in various forms and faces, traditionally illustrated wearing hanbok.",
+   "variants": "",
+   "culture": "An example of modern popular culture featuring dokkaebi is the tvN drama 'Goblin – The Lonely and Great God' (쓸쓸하고 찬란하神 – 도깨비). This drama incorporates unique Korean elements and gained great popularity. Additionally, the K-pop group CLC's song 'Dokkaebi' and A.C.E's 'Dokkaebi' can be seen as modern reinterpretations of the traditional image of dokkaebi. Dokkaebi also appear in various video games, where characters reflecting their traditional characteristics are being created."
+  },
+  "zh": {
+   "origin": "妖怪的最早文献记录可以在高丽时代编纂的《三国史记》的《桃花夫人与妃形》故事中找到。妖怪也出现在朝鲜时代编纂的多个民俗故事集里。",
+   "legend": "妖怪是韩国神话和民俗中传承的传奇存在，被视为自然的神或灵魂。它们与人类互动，有时捉弄人类，有时给予帮助，被描绘为具有特殊能力的存在。妖怪有各种形态和面孔，传统上被描绘为穿着韩服的样子。",
+   "variants": "",
+   "culture": "以妖怪为题材的现代大众文化的例子包括tvN的电视剧《寂寞而华丽的神 – 妖怪》。这部电视剧融入了独特的韩国元素，受到了极大的欢迎。此外，K-pop组合CLC的歌曲《妖怪》和A.C.E的《妖怪》可以视为对妖怪传统形象的现代 reinterpretation。在各种视频游戏中，妖怪也会出现，反映其传统特征的角色正在被创造。"
+  },
+  "ja": {
+   "origin": "ドッケビの最初の文献記録は、高麗時代に編纂された『三国史記』の『桃花夫人と飛形』の話に見られる。ドッケビは、朝鮮時代に編纂されたさまざまな民俗物語の集まりにも登場する。",
+   "legend": "ドッケビは韓国の神話と民俗に伝わる伝説的な存在で、自然の神や霊と見なされる。彼らは人間と相互作用し、時にはいたずらをし、時には助けを与える特別な能力を持つ存在として描かれる。ドッケビはさまざまな形と顔を持ち、伝統的にハンボクを着ている姿で描かれる。",
+   "variants": "",
+   "culture": "ドッケビを題材にした現代の大衆文化の例として、tvNのドラマ『寂しくて華やかな神 – ドッケビ』がある。このドラマは独自の韓国的要素を取り入れ、大きな人気を博した。また、K-popグループCLCの『ドッケビ』という曲やA.C.Eの『ドッケビ』は、ドッケビの伝統的なイメージを現代的に再解釈した例と見ることができる。さまざまなビデオゲームでもドッケビが登場し、彼らの伝統的な特性を反映したキャラクターが作られている。"
+  }
+ }
+}

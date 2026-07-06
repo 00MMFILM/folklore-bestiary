@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Korean dragon",
+ "sourceLang": "en",
+ "sourceChars": 8407,
+ "generatedAt": "2026-07-06T11:38:37.708Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "이무기는 한국 민속 신화에서 전해지는 전설적인 존재로, 일반적으로 거대한 뱀과 유사한 모습의 하급 드래곤으로 묘사된다. 이무기는 물이나 동굴에 살며, 그 목격은 행운과 관련이 있다고 여겨진다. 이무기는 진정한 드래곤이 되기 위해 천국에서 떨어진 여의주를 잡거나, 천 년을 생존해야 한다는 전설이 있다. 이무기는 또한 이시미, 미리, 영노, 강철이, 꽝철이, 깡철이, 바리, 훼룡, 이룡 등 여러 이름으로 불린다.",
+   "variants": "",
+   "culture": "이무기는 현대 대중문화에서도 등장한다. 2007년 한국 영화 'D-War'에서는 두 이무기가 여의주라는 힘의 원천을 두고 경쟁하는 이야기가 그려진다. 2020년 드라마 '구미호: 여우누이뎐'에서는 이무기가 인간 형태로 등장하여 인간을 소유하고, 전염병을 퍼뜨리며, 사람의 마음을 읽는 능력을 가진 악당으로 묘사된다. 2025년 드라마 '유령 궁전'에서는 이무리 강철이가 하늘로 올라가려다 실패한 후 인간에게 복수하는 이야기가 전개된다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Imu-gi is a legendary being passed down in Korean folklore, generally depicted as a lower-grade dragon resembling a giant snake. Imu-gi lives in water or caves, and its sightings are believed to be associated with good fortune. There is a legend that Imu-gi must catch a Yeouiju (여의주) that fell from heaven or survive for a thousand years to become a true dragon. Imu-gi is also known by various names such as Ishi-mi, Miri, Yeong-no, Gangcheol-i, Kkwangcheol-i, Kkangcheol-i, Bari, Hwaeryong, and Il-yong.",
+   "variants": "",
+   "culture": "Imu-gi also appears in modern popular culture. In the 2007 Korean film 'D-War', the story depicts two Imu-gi competing for the source of power known as Yeouiju. In the 2020 drama 'Gumiho: Tale of the Fox Sister', Imu-gi appears in human form as a villain who possesses humans, spreads diseases, and has the ability to read people's minds. In the 2025 drama 'Ghost Palace', the story unfolds after Imu-gi Gangcheol-i fails to ascend to the sky and seeks revenge on humans."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "이무기是韩国民俗神话中传说的存在，通常被描绘为与巨大蛇相似的低级龙。이무기生活在水中或洞穴中，其目击被认为与好运有关。传说中，이무기为了成为真正的龙，必须抓住从天国掉落的如意珠，或者生存千年。이무기还被称为이시미、미리、영노、강철이、꽝철이、깡철이、바리、훼룡、이룡等多个名字。",
+   "variants": "",
+   "culture": "이무기在现代大众文化中也有所出现。2007年韩国电影《D-War》中，两个이무기围绕着名为如意珠的力量源泉展开竞争的故事。2020年电视剧《九尾狐：狐狸姐姐传》中，이무기以人类形态出现，拥有占有人的能力，传播瘟疫，并被描绘为能够读取人心的反派。2025年电视剧《幽灵宫殿》中，이무리 강철이在试图升天失败后，展开了对人类的复仇故事。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "イムギ（Imugi）は韓国の民俗神話で伝えられる伝説的な存在で、一般的に巨大な蛇に似た姿の下級ドラゴンとして描かれています。イムギは水や洞窟に住み、その目撃は幸運と関連があると考えられています。イムギは真のドラゴンになるために天国から落ちたヨイド（Yeouiju）を捕まえるか、千年生き延びなければならないという伝説があります。イムギはまた、イシミ（Ishimi）、ミリ（Miri）、ヨンノ（Yeongno）、カンチョリ（Gangcheori）、クァンチョリ（Kwangcheori）、カンチョリ（Kgangcheori）、バリ（Bari）、フェリョン（Hwelyong）、イリョン（Iryong）などのさまざまな名前で呼ばれています。",
+   "variants": "",
+   "culture": "イムギは現代の大衆文化にも登場します。2007年の韓国映画『D-War』では、2匹のイムギがヨイドという力の源を巡って競争する物語が描かれています。2020年のドラマ『九尾狐: 妹の伝』では、イムギが人間の形で登場し、人間を所有し、伝染病を広め、人の心を読む能力を持つ悪役として描かれています。2025年のドラマ『幽霊宮殿』では、イムリ（Imuri）カンチョリが天に昇ろうとして失敗した後、人間に復讐する物語が展開されます。"
+  }
+ }
+}

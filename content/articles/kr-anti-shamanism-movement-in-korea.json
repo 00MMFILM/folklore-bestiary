@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Anti-shamanism movement in Korea",
+ "sourceLang": "en",
+ "sourceChars": 6329,
+ "generatedAt": "2026-07-06T11:42:35.755Z",
+ "locales": {
+  "ko": {
+   "origin": "한국의 현대 및 현대사에서, 특히 19세기 후반부터 1980년대까지, 토착 무속과 민속 종교를 제거하려는 일련의 운동이 있었다. 한국어로 이 운동은 미신 타파 운동(迷信打破運動)이라고 불리며, 토착 무속과 그와 관련된 모든 것을 '미신'으로 간주하였다. 이 용어는 19세기 후반 일본에서 채택되었으며, 기독교 선교사들에 의해 한국의 토착 종교를 겨냥하여 강조되었다.",
+   "legend": "이 운동은 1890년대에 시작되어 20세기 한국의 새로운 공동체 운동 동안 절정에 달했다. 이 운동은 대부분의 토착 종교의 신앙과 성소를 파괴하였고, 이는 주로 기독교로 대체되었다.",
+   "variants": "",
+   "culture": "1980년대 이후 한국의 전통 종교와 무속은 부흥을 경험하였다. 1990년대부터 무당은 '문화의 전달자'로 여겨지기 시작하였고, 오늘날 한국의 무속은 합법적인 종교로 인정받고 있다."
+  },
+  "en": {
+   "origin": "In modern and contemporary Korean history, particularly from the late 19th century to the 1980s, there was a series of movements aimed at eliminating indigenous shamanism and folk religions. In Korean, this movement is called the misin tapa undong (미신 타파 운동), which regarded indigenous shamanism and everything associated with it as 'superstition.' This term was adopted in Japan in the late 19th century and was emphasized by Christian missionaries targeting Korea's indigenous religions.",
+   "legend": "This movement began in the 1890s and reached its peak during the new community movements in 20th century Korea. The movement destroyed the beliefs and sanctuaries of most indigenous religions, which were primarily replaced by Christianity.",
+   "variants": "",
+   "culture": "Since the 1980s, traditional religions and shamanism in Korea have experienced a revival. Starting in the 1990s, shamans began to be regarded as 'cultural transmitters,' and today, Korean shamanism is recognized as a legitimate religion."
+  },
+  "zh": {
+   "origin": "在韩国的现代及现代史中，特别是从19世纪后半期到1980年代，出现了一系列旨在消除土著巫俗和民俗宗教的运动。用韩语称之为迷信打破运动（misin dapha undong），将土著巫俗及其相关的一切视为“迷信”。这个术语在19世纪后半期被日本采用，并由基督教传教士强调针对韩国的土著宗教。",
+   "legend": "该运动始于1890年代，并在20世纪韩国的新社区运动期间达到高潮。该运动摧毁了大多数土著宗教的信仰和圣所，主要被基督教所取代。",
+   "variants": "",
+   "culture": "自1980年代以来，韩国的传统宗教和巫俗经历了复兴。从1990年代开始，巫师被视为“文化的传递者”，如今韩国的巫俗被认可为合法宗教。"
+  },
+  "ja": {
+   "origin": "韓国の現代及び現代史において、特に19世紀後半から1980年代にかけて、土着の巫俗と民俗宗教を排除しようとする一連の運動があった。韓国語でこの運動はミスンタパ運動（迷信打破運動）と呼ばれ、土着の巫俗とそれに関連するすべてを「迷信」と見なした。この用語は19世紀後半に日本で採用され、キリスト教宣教師たちによって韓国の土着宗教を標的にして強調された。",
+   "legend": "この運動は1890年代に始まり、20世紀の韓国の新しい共同体運動の間に頂点に達した。この運動はほとんどの土着宗教の信仰と聖所を破壊し、これは主にキリスト教に置き換えられた。",
+   "variants": "",
+   "culture": "1980年代以降、韓国の伝統宗教と巫俗は復興を経験した。1990年代から、ムーダンは「文化の伝達者」と見なされ始め、今日の韓国の巫俗は合法的な宗教として認められている。"
+  }
+ }
+}

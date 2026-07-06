@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Seng-gut narrative",
+ "sourceLang": "en",
+ "sourceChars": 19456,
+ "generatedAt": "2026-07-06T11:40:04.098Z",
+ "locales": {
+  "ko": {
+   "origin": "Seng-gut 서사는 북한 함경도에서 전통적으로 대규모 굿 의식 중에 낭송되는 한국의 무속 서사이다. 이 서사는 세계의 창조부터 시작하여 '성인'이라고 불리는 하나 이상의 신의 행적을 이야기한다. 여러 지역에서 독립적으로 나타나는 이야기들을 하나의 확장된 서사로 결합하고 있다.",
+   "legend": "Seng-gut 서사는 여러 개의 이야기를 포함하고 있으며, 첫 번째 이야기에서는 신 세오인(서인)인 석가가 창조자로부터 세상을 빼앗고, 사슴 고기로 동물을 만들며, 불필요한 해와 달을 파괴하는 내용을 담고 있다. 두 번째 이야기에서는 목수 강방덕이 신들을 위한 궁전을 짓고, 여성과 내기를 하여 가정의 신이 되는 과정을 그린다. 세 번째와 네 번째 이야기에서는 열 살이 될 때까지 말을 하지 않던 소년이 새로운 불교 사원을 창립하고, 아기를 녹여서 사찰 종을 만드는 이야기가 포함된다. 다섯 번째 이야기에서는 같은 사제가 부유한 남자를 파괴하는 내용이 담겨 있다. 마지막으로, 사제가 세 아들을 다산의 신으로 만들어 이야기가 끝난다. 이 서사는 강한 불교적 영향을 받았다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Seng-gut is a Korean shamanic narrative traditionally recited during large-scale gut rituals in Hamgyeong-do, North Korea. This narrative begins with the creation of the world and tells the deeds of one or more deities referred to as 'saint'. It combines stories that appear independently in various regions into one extended narrative.",
+   "legend": "The Seng-gut narrative includes several stories, the first of which depicts the deity Seoin (Seongin) taking the world from the creator, creating animals from deer meat, and destroying unnecessary sun and moon. The second story portrays the carpenter Gangbangdeok building a palace for the gods and becoming the household deity through a wager with a woman. The third and fourth stories include a boy who does not speak until he turns ten founding a new Buddhist temple and melting a baby to create a temple bell. The fifth story contains the same priest destroying a wealthy man. Finally, the priest makes his three sons into the gods of fertility, concluding the narrative. This narrative is strongly influenced by Buddhism.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "Seng-gut 서사는 북한 함경도에서传统上大规模的굿仪式中朗诵的韩国的巫俗叙事。这一叙事从世界的创造开始，讲述了被称为'圣人'的一个或多个神的行迹。它将多个地区独立出现的故事结合成一个扩展的叙事。",
+   "legend": "Seng-gut 서사는多个故事的集合，第一故事中，神 세오인 (Seoin) 的 석가 (Seokga) 从创造者那里夺取世界，制造动物的肉为鹿肉，并摧毁不必要的太阳和月亮。第二个故事中，木匠 강방덕 (Gangbangdeok) 为神们建造宫殿，并与女性打赌成为家庭的神。第三和第四个故事中，讲述了一个在十岁之前不说话的男孩创立新的佛教寺庙，以及将婴儿融化制作寺庙钟的故事。第五个故事中，讲述了同一个僧侣摧毁一个富有的男人的内容。最后，僧侣将三个儿子变成丰饶之神，故事结束。这一叙事受到了强烈的佛教影响。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "Seng-gut (セングッ) 서사는 북한 함경도で伝統的に大規模なグッ儀式の中で朗読される韓国の巫俗叙事である。この叙事は世界の創造から始まり、「聖人」と呼ばれる1人以上の神の行跡を語る。様々な地域で独立して現れる物語を1つの拡張された叙事に結びつけている。",
+   "legend": "Seng-gut (セングッ) 서사는いくつかの物語を含んでおり、最初の物語では神セオイン(서인)である釈迦が創造者から世界を奪い、鹿の肉で動物を作り、不必要な太陽と月を破壊する内容が含まれている。2番目の物語では大工カンバンドクが神々のための宮殿を建て、女性と賭けをして家庭の神になる過程を描いている。3番目と4番目の物語では、10歳になるまで言葉を話さなかった少年が新しい仏教寺院を創立し、赤ちゃんを溶かして寺院の鐘を作る物語が含まれる。5番目の物語では同じ僧侶が裕福な男を破壊する内容が含まれている。最後に、僧侶が3人の息子を多産の神にすることで物語が終わる。この叙事は強い仏教的影響を受けている。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

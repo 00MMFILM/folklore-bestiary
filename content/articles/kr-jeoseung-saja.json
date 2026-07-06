@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Jeoseung Saja",
+ "sourceLang": "en",
+ "sourceChars": 1663,
+ "generatedAt": "2026-07-06T11:37:03.761Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "한국 신화에서 저승사자(저승사자; '저승의 사자' 또는 저승차사)는 죽은 자의 영혼을 저승으로 안내하는 심판자이다. 저승사자는 염라대왕의 하수인으로 묘사되며, 선악을 가리지 않고 모든 영혼을 살아있는 세상에서 저승으로 인도한다. 저승사자의 대표적인 이름 중 하나는 강림도령으로, 그는 영혼을 저승의 입구로 안내한다. 전설에 따르면, 저승사자는 항상 적패지(적패지; 빨간 천에 죽은 자의 이름이 적힌 목록)를 가지고 있으며, 그가 적패지의 이름을 세 번 부르면 영혼은 몸을 떠나 그를 따르게 된다.",
+   "variants": "",
+   "culture": "한국의 무속 전통에서 저승사자는 일반적으로 군인으로 묘사되지만, KBS 드라마 '전설의 고향'에서는 검은 두루마기와 갓을 쓰고 창백한 화장을 한 기괴한 모습으로 등장하였다. 이 이미지는 오늘날 사람들이 저승사자를 생각할 때 가장 먼저 떠오르는 모습이 되었다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "In Korean mythology, the Jeoseung Saja (저승사자; 'Messenger of the Underworld' or Jeoseung Chasa) is a judge who guides the souls of the deceased to the afterlife. The Jeoseung Saja is depicted as a servant of Yeomra (염라대왕), who leads all souls, regardless of good or evil, from the living world to the afterlife. One of the representative names of the Jeoseung Saja is Gangrim Doryeong (강림도령), who guides souls to the entrance of the underworld. According to legend, the Jeoseung Saja always carries a list called Jeokpaeji (적패지; a red cloth with the names of the deceased written on it), and when he calls out a name from the Jeokpaeji three times, the soul leaves the body and follows him.",
+   "variants": "",
+   "culture": "In Korean shamanistic traditions, the Jeoseung Saja is generally depicted as a soldier, but in the KBS drama 'Legend of the Origin' (전설의 고향), he appears in a bizarre form wearing a black robe and a gat (갓) with pale makeup. This image has become the most recognizable representation of the Jeoseung Saja in contemporary thought."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "在韩国神话中，阎罗王（jeoseungsa; '阎罗的使者'或jeoseungchasa）是引导死者灵魂进入阴间的审判者。阎罗王被描绘为阎罗大王的手下，无论善恶，都会将所有灵魂从活着的世界引导到阴间。阎罗王的一个代表性名字是降临道令（gangnimdoryeong），他引导灵魂到阴间的入口。传说中，阎罗王总是携带着赤败纸（jeokpaeji; 红布上写有死者名字的名单），当他三次呼唤赤败纸上的名字时，灵魂便会离开身体跟随他。",
+   "variants": "",
+   "culture": "在韩国的巫俗传统中，阎罗王通常被描绘为军人，但在KBS电视剧《传说的故乡》中，他以穿着黑色长袍和斗笠、脸色苍白的怪异形象出现。这个形象成为了今天人们想到阎罗王时首先浮现的样子。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "韓国の神話において、地獄の使者（チョスンサジャ; '地獄の使者'またはチョスンチャサ）は、死者の魂を地獄に導く審判者である。地獄の使者は閻魔大王（ヨンラデワン）の下僕として描かれ、善悪を問わずすべての魂を生きている世界から地獄へと導く。地獄の使者の代表的な名前の一つは降臨道令（カンリンドリョン）であり、彼は魂を地獄の入り口へと導く。伝説によれば、地獄の使者は常に赤い布に死者の名前が書かれた名簿（チョクペジ）を持っており、彼が名簿の名前を三度呼ぶと、魂は身体を離れて彼に従うことになる。",
+   "variants": "",
+   "culture": "韓国の巫俗伝統において、地獄の使者は一般的に軍人として描かれるが、KBSドラマ『伝説の故郷』では黒い道袍（ドゥルマギ）と帽子をかぶり、青白い化粧をした奇怪な姿で登場した。このイメージは今日、人々が地獄の使者を考えるときに最初に思い浮かべる姿となった。"
+  }
+ }
+}

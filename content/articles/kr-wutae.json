@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Wutae",
+ "sourceLang": "en",
+ "sourceChars": 5354,
+ "generatedAt": "2026-07-06T11:42:23.242Z",
+ "locales": {
+  "ko": {
+   "origin": "Wutae(우태)는 백제의 건국 전설에 등장하는 인물로, 동부여의 왕 해부루(解夫婁)의 사생아 또는 손자라고 전해진다.",
+   "legend": "Wutae는 졸본 추장 연타발(延陀勃)의 딸 소서노(召西奴)와 결혼하여 백제의 창시자인 비류(沸流)와 온조(溫祚왕)를 낳았다. Wutae가 사망한 후, 소서노는 Wutae의 친척인 주몽(朱蒙)과 결혼하게 된다.",
+   "variants": "김부식이 저술한 삼국사기(三國史記)에서는 두 가지 건국 전설을 제시하며, 이들 이야기의 진위는 불확실하다고 언급한다. 두 전설은 겹치는 부분이 있지만 비류와 온조의 아버지가 다르다. 중국 기록에는 '구태(仇台)'라는 인물이 백제를 창건했다고 전해진다.",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Wutae (우태) is a figure that appears in the founding legend of Baekje, said to be the illegitimate child or grandson of the Dongbuyeo king Haeburu (해부루).",
+   "legend": "Wutae married the daughter of the Jolbon chieftain Yeontabal (연타발), Sosono (소서노), and they had the founders of Baekje, Biryu (비류) and Onjo (온조왕). After Wutae's death, Sosono married Jumong (주몽), a relative of Wutae.",
+   "variants": "In the Samguk Sagi (삼국사기) written by Kim Busik, two founding legends are presented, and it is mentioned that the authenticity of these stories is uncertain. The two legends have overlapping elements, but the fathers of Biryu and Onjo are different. Chinese records state that a figure named Gu Tae (구태) founded Baekje.",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "Wutae(우태)是百济的建国传说中出现的人物，传说是东扶余的王海夫鲁(解夫婁)的私生子或孙子。",
+   "legend": "Wutae与卒本酋长延陀勃(연타발)的女儿召西奴(소서노)结婚，生下了百济的创始人沸流(비류)和温祚王(온조)。Wutae去世后，召西奴与Wutae的亲戚朱蒙(주몽)结婚。",
+   "variants": "金富轼所著的三国史记(三國史記)中提出了两种建国传说，并提到这些故事的真实性不确定。这两种传说有重叠的部分，但沸流和温祚的父亲不同。中国的记载中提到有一个名为'仇台(구태)'的人物创立了百济。",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "Wutae(ウテ)は百済の建国伝説に登場する人物で、東扶余の王ヘブル(解夫婁)の私生児または孫だと伝えられている。",
+   "legend": "Wutaeは卒本の酋長ヤンタバル(延陀勃)の娘ソソノ(召西奴)と結婚し、百済の創始者ビリュ(沸流)とオンジョ(温祚王)を生んだ。Wutaeが死亡した後、ソソノはWutaeの親戚であるジュモン(朱蒙)と結婚することになる。",
+   "variants": "キム・ブシクが著した三国史記(三國史記)では二つの建国伝説を提示し、これらの物語の真偽は不確かだと述べている。二つの伝説は重なる部分があるが、ビリュとオンジョの父親が異なる。中国の記録には「クテイ(仇台)」という人物が百済を創建したと伝えられている。",
+   "culture": ""
+  }
+ }
+}

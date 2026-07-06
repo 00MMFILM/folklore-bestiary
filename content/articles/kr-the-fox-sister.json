@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "여우 누이",
+ "sourceLang": "ko",
+ "sourceChars": 5459,
+ "generatedAt": "2026-07-06T11:38:43.477Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "여우 누이는 한국의 설화로, 한반도 전역에 퍼져 전해진다. 이 설화는 가족의 편애와 공포를 주제로 하고 있으며, 주로 아들만 있는 집에서 딸을 간절히 원하는 부모의 이야기로 시작된다. 막내딸이 여우의 정체를 가진 존재로 드러나면서 가축들이 죽어가는 사건이 발생하고, 이를 목격한 형들은 부모에게 진실을 알리지만 믿지 않게 된다. 결국 여우로 변한 막내딸은 형들을 쫓아가고, 형들은 스님에게 받은 유리병을 사용하여 여우를 물리친다. 이 과정에서 여우의 정체가 드러나고, 형들은 여동생의 죽음을 슬퍼하며 정처 없이 떠돌게 된다.",
+   "variants": "여우 누이는 남한 지역뿐만 아니라 한반도 전역에 퍼져 있으며, 총 75편의 판본이 존재한다. 변형된 요소로는 주인공 아들의 수가 다르거나, 이야기가 시작될 때 아들이 가정을 꾸린 상태로 시작하는 경우가 있다. 또한, 여우가 가축의 간을 빼먹는 과정이 다르게 표현되기도 하며, 유리병의 형태나 색깔, 던지는 순서가 변형되는 경우도 있다. 여우를 물리친 후 새로운 가정을 꾸리는 결말이 있는 판본도 존재한다.",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "The story of the Fox Sister (Yeou Nui) is a Korean folktale that has spread throughout the Korean Peninsula. This tale revolves around themes of familial favoritism and fear, beginning with parents who desperately desire a daughter in a household that only has sons. As the youngest daughter reveals her true identity as a fox, incidents occur where livestock begin to die, and the brothers who witness this inform their parents, but they do not believe them. Ultimately, the youngest daughter, transformed into a fox, chases after her brothers, who use a glass bottle given to them by a monk to defeat the fox. During this process, the fox's true identity is revealed, and the brothers mourn their sister's death, wandering aimlessly.",
+   "variants": "The story of the Fox Sister is found not only in South Korea but also throughout the Korean Peninsula, with a total of 75 versions existing. Variations include differences in the number of sons the protagonist has or instances where the story begins with the son already having a family. Additionally, the process of the fox extracting the livestock's liver is depicted differently, and there are variations in the shape, color, and throwing order of the glass bottle. Some versions also conclude with the brothers starting a new family after defeating the fox.",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "狐狸妹妹是韩国的民间传说，流传于整个朝鲜半岛。这个传说以家庭的偏爱和恐惧为主题，主要讲述的是在只有儿子的家庭中，父母迫切希望有女儿的故事。最小的女儿显露出狐狸的身份，随后发生了家畜死亡的事件，目击此事的兄弟们向父母揭示真相，但父母并不相信。最终，变成狐狸的最小女儿追赶兄弟们，兄弟们使用从僧人那里得到的玻璃瓶击退了狐狸。在这个过程中，狐狸的身份被揭示，兄弟们为妹妹的死而悲伤，变得无处可去。",
+   "variants": "狐狸妹妹不仅在南韩地区流传，还遍布整个朝鲜半岛，共有75个版本。变形的元素包括主角儿子的数量不同，或故事开始时儿子已经组建家庭的情况。此外，狐狸吃家畜肝脏的过程也有不同的表现，玻璃瓶的形状、颜色和投掷顺序也可能发生变化。还有一些版本的结尾是狐狸被击退后，兄弟们重新组建家庭。",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "キョウの妹（Kyou no imouto）は韓国の伝説で、韓半島全域に広がって伝えられています。この伝説は家族の偏愛と恐怖をテーマにしており、主に息子だけの家で娘を切望する親の物語から始まります。末っ子の娘がキョウの正体を持つ存在として現れ、家畜が死んでいく事件が発生します。これを目撃した兄たちは親に真実を知らせますが、信じてもらえません。結局、キョウに変わった末っ子の娘は兄たちを追いかけ、兄たちは僧侶からもらったガラス瓶を使ってキョウを退けます。この過程でキョウの正体が明らかになり、兄たちは妹の死を悲しみ、行き場のない状態でさまよいます。",
+   "variants": "キョウの妹は南韓地域だけでなく韓半島全域に広がっており、合計75篇の版本が存在します。変形された要素としては、主人公の息子の数が異なる場合や、物語が始まるときに息子が家庭を持っている状態で始まることがあります。また、キョウが家畜の肝を食べる過程が異なって表現されることもあり、ガラス瓶の形や色、投げる順序が変形される場合もあります。キョウを退けた後に新しい家庭を持つ結末がある版本も存在します。",
+   "culture": ""
+  }
+ }
+}

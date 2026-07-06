@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "굿",
+ "sourceLang": "ko",
+ "sourceChars": 3482,
+ "generatedAt": "2026-07-06T11:42:52.551Z",
+ "locales": {
+  "ko": {
+   "origin": "굿은 무속신앙에서 하는 행사로, 무당이 신에게 제물을 바치고 춤과 노래로 인간의 길흉화복 운명을 비는 의식이다. 굿의 뜻에 관해서는 학자 간의 의견 차이가 있으며, 어떤 학자는 굿을 궂은 일이나 궂은 것들을 '풀이'하는 것으로 해석하고, 또 다른 전문가는 굿을 퉁구스어나 돌궐어의 파생어로 보며, 형운기원의 행사를 신전에서 거행하는 행위로 본다.",
+   "legend": "굿은 대개 씨끔굿(일명 오구굿), 안택굿, 별신굿의 세 가지로 대별된다. 씨끔굿은 익사 또는 횡사한 사람의 넋을 위로하고 좋은 곳으로 모시는 굿으로, 서울의 지노귀굿이나 강원도, 경상도 지방에서 울리는 오구굿이 이에 포함된다. 안택굿은 1년 동안의 무사태평을 비는 굿이며, 별신굿은 부락민의 평강과 풍년을 비는 굿이다.",
+   "variants": "굿은 내신과 유신의 두 장면으로 구성되어 있으며, 유신에 중점을 두고 있다. 굿은 노래와 춤을 위주로 하며, 무가라고 부르는 특수한 음률의 노래가 포함된다. 굿은 양재, 기복, 새신, 점복 등의 신사로 구성된 무격의 의례로 진행된다.",
+   "culture": "굿의 종류에는 내림굿, 도당굿, 씻김굿, 재수굿, 천도제의, 다리굿, 매굿, 마당밟이굿, 하회별신굿, 배뱅이굿 등이 있다. 씻김굿은 전라남도에서 사자의례로 행해지며, 매굿은 섣달 그믐날 밤에 잡귀를 쫓고 새해 복을 불러들이는 농악의식이다. 하회별신굿은 경상북도 안동시에서 주민들이 병을 앓지 않고 편안하게 지내기를 기원하는 부락제를 마친 후 벌이는 가면극이다."
+  },
+  "en": {
+   "origin": "Gut is a ritual performed in shamanistic beliefs, where a shaman offers sacrifices to the gods and prays for the fortunes and misfortunes of humans through dance and song. There are differing opinions among scholars regarding the meaning of gut; some interpret it as 'unraveling' misfortunes or bad things, while others consider it a derivative of Tungusic or Turkic languages, viewing it as an act performed in a shrine to hold a ceremony for fortune and fate.",
+   "legend": "Gut is generally divided into three main types: ssikkum gut (also known as ogu gut), antek gut, and byeolshin gut. Ssikkum gut is a ritual that comforts the spirits of those who have drowned or died unexpectedly and guides them to a good place, which includes the Jino-gwi gut in Seoul and the Ogu gut performed in Gangwon-do and Gyeongsang-do regions. Antek gut is a ritual praying for peace throughout the year, while byeolshin gut is a ritual wishing for the prosperity and good harvest of the villagers.",
+   "variants": "Gut consists of two scenes: naesin and yusin, with a focus on yusin. Gut is centered around songs and dances, including special rhythmic songs known as muga. The ritual is conducted as a ceremony of shamans composed of deities such as Yangjae, Gibok, Saeshin, and Jeombok.",
+   "culture": "Types of gut include naerim gut, dodang gut, ssikkim gut, jaesugut, cheondojeyi, dari gut, maegut, madangbalji gut, Hahoe byeolshin gut, and baebaengi gut. Ssikkim gut is performed in Jeollanam-do as a lion's ceremony, while maegut is a farming ritual conducted on the night of the last day of the lunar year to drive away evil spirits and invite blessings for the new year. Hahoe byeolshin gut is a masked performance held after the village ritual in Andong, Gyeongsangbuk-do, wishing for the residents to live without illness and in peace."
+  },
+  "zh": {
+   "origin": "굿是无俗信仰中进行的活动，巫师向神灵献上祭品，通过舞蹈和歌曲祈求人的吉凶和命运。关于굿的含义，学者们存在意见分歧，有的学者将굿解释为对不幸事件或不幸事物的“解读”，而另一些专家则认为굿是通古斯语或突厥语的派生词，视其为在神殿中举行的祈求活动。",
+   "legend": "굿通常分为三大类：씨끔굿（又名오구굿）、안택굿和별신굿。씨끔굿是为了安慰因溺水或横死而亡者的灵魂，并将其引导到好的地方的仪式，包括首尔的지노귀굿和江原道、庆尚道地区的오구굿。안택굿是祈求一年平安无事的仪式，而별신굿是为村民的平安和丰收而祈祷的仪式。",
+   "variants": "굿由内神和游神两个场景组成，重点在于游神。굿以歌曲和舞蹈为主，包含被称为무가的特殊音律歌曲。굿以阳祭、祈福、新神、占卜等神祇组成的巫术仪式进行。",
+   "culture": "굿的种类包括内림굿、도당굿、씻김굿、재수굿、천도제의、다리굿、매굿、마당밟이굿、하회별신굿、배뱅이굿等。씻김굿在全罗南道作为祭祀仪式进行，매굿是在腊月的最后一夜驱赶邪灵并迎接新年福气的农乐仪式。하회별신굿是在庆尚北道安东市，居民们在祈求不生病、安宁度过的村祭后进行的面具剧。"
+  },
+  "ja": {
+   "origin": "グッは、ムソク信仰における行事で、ムダンが神に供物を捧げ、踊りと歌で人間の運命を祈る儀式です。グッの意味については学者間で意見の相違があり、ある学者はグッを厄災や厄を「解く」ものと解釈し、別の専門家はグッをトゥングス語やトルコ語の派生語と見なし、形運祈願の行事を神殿で行う行為と考えています。",
+   "legend": "グッは一般的にシックムグッ（別名オググッ）、アンテクグッ、ビョルシングッの三つに大別されます。シックムグッは溺死または横死した人の魂を慰め、良い場所に導くグッで、ソウルのジノグイグッやカンウォンド、キョンサンド地方で行われるオググッがこれに含まれます。アンテクグッは1年間の無事平穏を祈るグッで、ビョルシングッは村民の平安と豊作を祈るグッです。",
+   "variants": "グッは内神と有神の二つの場面で構成されており、有神に重点を置いています。グッは歌と踊りを中心に進行し、ムガと呼ばれる特別な音律の歌が含まれます。グッはヤンジェ、キボク、セシン、チョムボクなどの神社で構成された無格の儀礼で行われます。",
+   "culture": "グッの種類にはナリムグッ、ドダングッ、シッキムグッ、ジェスグッ、チョンドジェ、ダリグッ、メグッ、マダンバルジグッ、ハフェビョルシングッ、ベベンイグッなどがあります。シッキムグッは全羅南道で死者の儀礼として行われ、メグッは旧暦の12月の晦日に邪鬼を追い払い、新年の福を呼び込む農楽儀式です。ハフェビョルシングッは慶尚北道安東市で住民が病気にかからず安らかに過ごすことを願って行う村祭りの後に行われる仮面劇です。"
+  }
+ }
+}

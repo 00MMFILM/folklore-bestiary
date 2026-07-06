@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Igong Maji",
+ "sourceLang": "en",
+ "sourceChars": 3724,
+ "generatedAt": "2026-07-06T11:43:02.208Z",
+ "locales": {
+  "ko": {
+   "origin": "이공맞이는 제주도에서 행해지는 한국의 무속 의식으로, 이공이라는 꽃의 신을 맞이하는 의식이다. 이공은 일반적인 삶에서 중요한 역할을 하지 않기 때문에, 이공맞이는 대규모 굿 의식의 일환으로만 행해졌다.",
+   "legend": "이공은 마법의 꽃들이 자생하는 신화적인 영역인 서천의 수호신이다. 이공에 대한 신화는 이공 본풀이로 알려져 있으며, 서천에는 많은 마법의 꽃들이 있지만, 그 중에서 두 가지가 중요하다. 환생꽃과 사념망각꽃이 그것이다. 환생꽃은 뼈, 살, 장기, 피, 숨, 영혼을 되살리는 여러 종류의 꽃을 포함하고 있다. 이공맞이 의식은 사념망각꽃이 초래하는 파괴와 악을 막고, 환생꽃이 가져오는 번영을 모으기 위해 의도되었다. 또한, 15세 이하의 어린이가 죽으면 마법의 꽃을 기르는 데 도움을 줄 것이라고 믿어졌기 때문에, 자녀를 잃은 부모는 이공에게 자녀를 괴롭히지 말아 달라고 기도했다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Igongmaji is a Korean shamanistic ritual performed in Jeju Island, welcoming the deity of the flower Igong. Since Igong does not play a significant role in ordinary life, Igongmaji was only conducted as part of a large-scale gut ceremony.",
+   "legend": "Igong is the guardian deity of Seocheon, a mythical realm where magical flowers grow. The myth about Igong is known as Igong Bonpuri, and while there are many magical flowers in Seocheon, two of them are particularly important. They are the Hwanseang Flower and the Sanyeom Oblivion Flower. The Hwanseang Flower includes various types of flowers that can revive bones, flesh, organs, blood, breath, and souls. The Igongmaji ritual was intended to prevent the destruction and evil caused by the Sanyeom Oblivion Flower and to gather the prosperity brought by the Hwanseang Flower. Additionally, it was believed that if a child under the age of 15 died, they would help nurture the magical flowers, so parents who lost their children prayed to Igong not to torment their offspring.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "이공맞이는 제주岛上进行的韩国巫俗仪式，迎接名为이공的花神。由于이공在日常生活中并不扮演重要角色，因此이공맞이는仅作为大规模的굿仪式的一部分进行。",
+   "legend": "이공是魔法花朵自生的神话领域西川的守护神。关于이공的神话被称为이공本풀이，西川有许多魔法花朵，但其中两种是重要的。환생꽃和사념망각꽃就是其中之一。환생꽃包括多种能复活骨头、肉、器官、血液、呼吸和灵魂的花朵。이공맞이仪式旨在阻止사념망각꽃带来的破坏和邪恶，聚集환생꽃带来的繁荣。此外，因相信15岁以下的儿童去世后会帮助培育魔法花朵，失去孩子的父母向이공祈祷，希望其不要骚扰孩子。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "イゴンマジンは済州島で行われる韓国の巫俗儀式で、イゴンという花の神を迎える儀式です。イゴンは一般的な生活で重要な役割を果たさないため、イゴンマジンは大規模なグッ（굿）儀式の一環としてのみ行われました。",
+   "legend": "イゴンは魔法の花が自生する神話的な領域である西川の守護神です。イゴンに関する神話はイゴン本풀이として知られており、西川には多くの魔法の花がありますが、その中で二つが重要です。それは、ファンセンコッ（환생꽃）とサニョンマンガッコッ（사념망각꽃）です。ファンセンコッは骨、肉、臓器、血、息、魂を蘇らせるさまざまな種類の花を含んでいます。イゴンマジンの儀式は、サニョンマンガッコッが引き起こす破壊と悪を防ぎ、ファンセンコッがもたらす繁栄を集めるために意図されました。また、15歳以下の子供が亡くなると、魔法の花を育てるのを助けると信じられていたため、子供を失った親はイゴンに子供を苦しめないでほしいと祈りました。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

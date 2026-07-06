@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Samseong mythology",
+ "sourceLang": "en",
+ "sourceChars": 1584,
+ "generatedAt": "2026-07-06T11:41:48.880Z",
+ "locales": {
+  "ko": {
+   "origin": "삼성신화는 현재의 제주도에 해당하는 탐라 왕국에서 기원합니다. 이는 한반도의 단군신화와는 구별됩니다. 삼성신화는 지역 역사 문서인 영주지와 탐라지, 그리고 조선 시대의 기록인 고려사에 기술되어 있습니다.",
+   "legend": "삼성신화에 따르면, 고대 제주도에는 아무도 살지 않았습니다. 그곳에 세 명의 신, 즉 량을나(良乙那), 고을나(高乙那), 부을나(夫乙那)가 삼성혈에서 나타났습니다. 이들은 제주도 주민의 조상으로 여겨집니다. 어느 날, 이들은 탐라산을 바라보며 동해에서 온 상자를 발견했습니다. 상자 안에는 일본에서 온 세 명의 아름다운 공주와 농업에 필요한 가축 및 오곡의 씨앗이 들어 있었습니다. 이 신들은 공주들을 아내로 맞이하고 씨앗을 심어 농사를 시작하여 마을을 세웠습니다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "The Samsung Myth originates from the Tamna Kingdom, which corresponds to present-day Jeju Island. This is distinct from the Dangun Myth of the Korean Peninsula. The Samsung Myth is documented in local historical texts such as Yeongjuji and Tamnaji, as well as in the Goryeosa from the Joseon Dynasty.",
+   "legend": "According to the Samsung Myth, ancient Jeju Island was uninhabited. Three gods, namely Ryang-eul-na (량을나), Go-eul-na (고을나), and Bu-eul-na (부을나), appeared at Samsung-hyeol. They are considered the ancestors of the Jeju Island inhabitants. One day, while looking at Mount Tamna, they discovered a box from the East Sea. Inside the box were three beautiful princesses from Japan, along with livestock and seeds necessary for agriculture. These gods took the princesses as wives, planted the seeds, and began farming, establishing a village.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "三星神话起源于现在的济州岛对应的探拉王国。这与半岛的檀君神话是不同的。三星神话记载在地方历史文献《永州志》和《探拉志》，以及朝鲜时代的记录《高丽史》中。",
+   "legend": "根据三星神话，古代济州岛上没有人居住。在那里，三位神灵，即良乙那（Yang-eul-na）、高乙那（Go-eul-na）、夫乙那（Bu-eul-na）在三星血中出现。他们被视为济州岛居民的祖先。一天，他们望着探拉山，发现了来自东海的一个箱子。箱子里有三位来自日本的美丽公主，以及农业所需的家畜和五谷的种子。这些神灵迎娶了公主，并播种开始耕作，建立了村庄。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "三星神話は現在の済州島に相当する 탐라王国から始まります。これは半島の檀君神話とは区別されます。三星神話は地域の歴史文書である 영주지 と 탐라지、そして朝鮮時代の記録である 고려사 に記されています。",
+   "legend": "三星神話によれば、古代済州島には誰も住んでいませんでした。そこで三人の神、すなわち 량을나 (良乙那)、고을나 (高乙那)、부을나 (夫乙那) が 삼성혈 で現れました。彼らは済州島の住民の祖先と見なされています。ある日、彼らは 탐라山を見ながら東海からの箱を発見しました。箱の中には日本から来た三人の美しい公主と農業に必要な家畜および五穀の種が入っていました。この神々は公主たちを妻として迎え、種を植えて農業を始め、村を築きました。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

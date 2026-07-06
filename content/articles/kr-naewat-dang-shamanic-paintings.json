@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Naewat-dang shamanic paintings",
+ "sourceLang": "en",
+ "sourceChars": 21036,
+ "generatedAt": "2026-07-06T11:43:04.746Z",
+ "locales": {
+  "ko": {
+   "origin": "내왓당 무신도는 한국 제주도에 위치한 내왓당 신사에서 걸려 있었던 마을 수호신의 초상화 10점으로, 현재 한국의 중요 민속 문화재로 지정되어 제주국립대학교에 보존되고 있다. 이 신사는 19세기 중반에 파괴되었으며, 이 작품들은 현재까지 알려진 가장 오래된 한국의 무신도일 가능성이 있다.",
+   "legend": "내왓당에서 숭배되었던 12명의 신 중 10명의 초상화가 남아 있으며, 이들은 남신 6명과 여신 4명으로 구성되어 있다. 이 신들은 다양한 머리 장식과 의복을 입고 있으며, 대개 부채를 들고 있다. 신들의 복장은 그들의 이름이나 그들에 대한 무속 신화와 연결될 수 있다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "The Naewatdang Musindo is a collection of 10 portraits of village guardian deities that were hung in the Naewatdang Shrine located in Jeju Island, South Korea. It is currently designated as an important cultural heritage of Korea and is preserved at Jeju National University. This shrine was destroyed in the mid-19th century, and these works may be the oldest known Musindo in Korea to date.",
+   "legend": "Among the 12 deities worshipped at Naewatdang, 10 portraits remain, consisting of 6 male deities and 4 female deities. These deities are depicted wearing various head ornaments and clothing, and they typically hold fans. The attire of the deities can be connected to their names or the shamanic myths surrounding them.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "内瓦堂武神图是位于韩国济州岛内瓦堂神社的村庄守护神的肖像画10幅，目前被指定为韩国重要民俗文化遗产，保存在济州国立大学。该神社在19世纪中叶被毁，这些作品可能是迄今为止已知的最古老的韩国武神图。",
+   "legend": "在内瓦堂崇拜的12位神中，留下了10位的肖像画，这些神由6位男神和4位女神组成。这些神穿着各种头饰和服装，通常手持扇子。神灵的服装可以与他们的名字或与他们相关的巫俗神话相联系。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "ネワッタンムシンドは韓国の済州島に位置するネワッタン神社に掛けられていた村の守護神の肖像画10点で、現在韓国の重要民俗文化財に指定されて済州国立大学に保存されている。この神社は19世紀中頃に破壊され、これらの作品は現在まで知られている最も古い韓国のムシンドである可能性がある。",
+   "legend": "ネワッタンで崇拝されていた12人の神のうち10人の肖像画が残っており、これらは男性神6人と女性神4人で構成されている。この神々はさまざまな頭飾りと衣服を着ており、通常は扇子を持っている。神々の服装は彼らの名前や彼らに関するシャーマニズムの神話と結びつけることができる。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

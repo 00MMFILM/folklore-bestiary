@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Sinbyeong",
+ "sourceLang": "en",
+ "sourceChars": 3530,
+ "generatedAt": "2026-07-06T11:39:48.640Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "신병(Sinbyeong)은 한국 무속 전통에서 선택된 무당이 겪는 신의 강림을 의미하며, '자기 상실'이라고도 불린다. 신병은 신의 소유로 여겨지며, 신체적 고통과 정신병을 동반한다고 전해진다. 신병에 걸린 사람은 일반적으로 식욕 상실, 불면증, 시각 및 청각 환각 등의 증상을 경험한다. 이러한 증상은 일반적인 의학적 치료의 대상이 아니며, 오직 영혼과의 완전한 교감과 수용을 통해 치유될 수 있다고 믿어진다. 신병을 치료하는 의식인 내림굿(naerim-gut)은 새로운 무당-제사를 세우는 역할도 한다.",
+   "variants": "신병의 증상은 무당의 문화적 배경과 주변 환경에 따라 다르게 나타난다. 가장 기본적인 형태의 신병에서는 무당이 명백한 원인 없이 특징적인 증상에 시달리며, 식사를 하지 못하고 신체적, 심리적으로 약해진다. 또 다른 형태의 신병은 이러한 기본 증상이 신체적 질병에 의해 선행되거나, 정신병적 에피소드에 의해 유발되기도 한다. 드물게 발생하는 '꿈의 출현형' 신병은 무당이 신이나 영혼, 비정상적인 사건을 꿈에서 보고 계시를 받으면서 촉발된다.",
+   "culture": "신병은 무속의 전통에서 신과 인간 간의 수직적 연결을 보여주는 구조화된 종교적 경험으로 간주된다. 이는 무당이 신과 하나가 되어 사고의 패턴을 변화시키는 계시의 한 형태로 여겨진다. 신병은 현실과 분리되어 더 높은 의식 상태로 들어가는 것으로 설명된다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Sinbyeong refers to the descent of a deity experienced by a chosen shaman in Korean shamanistic tradition, and is also known as 'self-loss.' Sinbyeong is considered a possession by the deity and is said to accompany physical pain and mental illness. A person afflicted by Sinbyeong typically experiences symptoms such as loss of appetite, insomnia, and visual and auditory hallucinations. These symptoms are not generally subjects of conventional medical treatment and are believed to be healable only through complete communion and acceptance with the spirit. The ritual that treats Sinbyeong, known as naerim-gut, also serves the role of establishing a new shaman-ritual.",
+   "variants": "The symptoms of Sinbyeong manifest differently depending on the cultural background of the shaman and their surrounding environment. In its most basic form, Sinbyeong causes the shaman to suffer from characteristic symptoms without any apparent cause, leading to an inability to eat and physical and psychological weakness. Another form of Sinbyeong may occur when these basic symptoms are preceded by physical illness or triggered by psychotic episodes. The rarely occurring 'dream manifestation' type of Sinbyeong is triggered when the shaman receives revelations in dreams involving deities, spirits, or abnormal events.",
+   "culture": "Sinbyeong is regarded as a structured religious experience that demonstrates the vertical connection between the divine and humanity in shamanistic tradition. It is seen as a form of revelation that allows the shaman to become one with the deity and change patterns of thought. Sinbyeong is described as entering a higher state of consciousness, separate from reality."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "神病(Sinbyeong)是韩国巫俗传统中被选中的巫师所经历的神灵降临的意义，也被称为'自我失落'。神病被认为是神灵的附身，并伴随身体痛苦和精神病。患有神病的人通常会经历食欲丧失、失眠、视觉和听觉幻觉等症状。这些症状并不是一般医学治疗的对象，而是通过与灵魂的完全交流和接受来治愈。治疗神病的仪式内降祭(naerim-gut)也起到建立新的巫师-祭祀的角色。",
+   "variants": "神病的症状因巫师的文化背景和周围环境而异。在最基本的神病形式中，巫师在没有明显原因的情况下遭受特征性症状，无法进食，身体和心理上变得虚弱。另一种形式的神病是这些基本症状由身体疾病引发，或由精神病发作引起。罕见的'梦的出现型'神病是巫师在梦中看到神灵或灵魂、异常事件并获得启示时触发的。",
+   "culture": "神病被视为巫俗传统中神与人之间垂直连接的结构化宗教体验。这被认为是巫师与神合为一体，改变思维模式的一种启示形式。神病被描述为与现实分离，进入更高意识状态。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "神病（Sinbyeong）は韓国の巫俗伝統において選ばれた巫女が経験する神の降臨を意味し、「自己喪失」とも呼ばれる。神病は神の所有と見なされ、身体的苦痛や精神病を伴うと伝えられている。神病にかかった人は一般的に食欲喪失、不眠症、視覚および聴覚の幻覚などの症状を経験する。これらの症状は一般的な医学的治療の対象ではなく、ただ霊魂との完全な交感と受容を通じて癒されると信じられている。神病を治療する儀式である内臨굿（naerim-gut）は新しい巫女-祭祀を立てる役割も果たす。",
+   "variants": "神病の症状は巫女の文化的背景や周囲の環境によって異なる形で現れる。最も基本的な形の神病では、巫女が明白な原因なしに特徴的な症状に悩まされ、食事ができず身体的、心理的に弱っていく。また別の形の神病は、これらの基本症状が身体的疾患によって先行されたり、精神病的エピソードによって引き起こされることもある。稀に発生する「夢の出現型」神病は、巫女が神や霊、異常な出来事を夢で見て啓示を受けることによって引き起こされる。",
+   "culture": "神病は巫俗の伝統において神と人間の間の垂直的な接続を示す構造化された宗教的経験と見なされる。これは巫女が神と一体となり思考のパターンを変化させる啓示の一形態と考えられている。神病は現実から切り離され、より高い意識状態に入ることとして説明される。"
+  }
+ }
+}

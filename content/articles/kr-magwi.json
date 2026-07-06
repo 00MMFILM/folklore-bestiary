@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "악마",
+ "sourceLang": "ko",
+ "sourceChars": 5207,
+ "generatedAt": "2026-07-06T11:38:58.721Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "마귀는 하느님을 대적하는 사탄의 또 다른 이름으로, 유대교, 기독교, 이슬람교 등 아브라함계 종교에서 주로 언급된다. 마귀는 악한 영으로, 사람들을 유혹하고 괴롭히는 존재로 전해진다. 기독교에서는 마귀를 세상을 다스리는 악한 영, 유혹하는 자, 거짓의 아비 등으로 묘사하며, 성경을 문자적으로 해석하는 보수적인 신학자들은 마귀를 영적인 실체로 해석한다. 반면 자유주의 신학자들은 마귀의 개념을 정신질환의 주술적 해석으로 보기도 한다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "The devil is another name for Satan, who opposes God, and is primarily mentioned in Abrahamic religions such as Judaism, Christianity, and Islam. The devil is described as an evil spirit, a being that tempts and torments people. In Christianity, the devil is depicted as the evil spirit that rules the world, the tempter, and the father of lies, while conservative theologians who interpret the Bible literally see the devil as a spiritual entity. In contrast, liberal theologians sometimes view the concept of the devil as a shamanistic interpretation of mental illness.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "魔鬼是与上帝对抗的撒旦的另一个名字，主要在犹太教、基督教和伊斯兰教等亚伯拉罕宗教中提到。魔鬼被传为邪恶的灵，诱惑和折磨人类的存在。在基督教中，魔鬼被描绘为统治世界的邪恶灵、诱惑者、谎言之父等，字面解释圣经的保守神学家将魔鬼解读为灵性的实体。相反，自由主义神学家则将魔鬼的概念视为精神疾病的巫术解释。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "魔鬼（まき）は神（かみ）に対抗するサタンの別名であり、ユダヤ教（ユダヤきょう）、キリスト教（キリストきょう）、イスラム教（イスラムきょう）などのアブラハム系宗教で主に言及される。魔鬼は悪しき霊（あしきれい）であり、人々を誘惑（ゆうわく）し、苦しめる存在（そんざい）として伝えられている。キリスト教では魔鬼を世界を支配する悪しき霊、誘惑する者、偽りの父（いつわりのちち）などと描写（びょうしゃ）し、聖書（せいしょ）を文字通り解釈（かいしゃく）する保守的（ほしゅてき）な神学者（しんがくしゃ）は魔鬼を霊的（れいてき）な実体（じったい）として解釈する。一方（いっぽう）で自由主義（じゆうしゅぎ）神学者は魔鬼の概念（がいねん）を精神疾患（せいしんしっかん）の呪術的（じゅじゅつてき）解釈（かいしゃく）と見ることもある。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

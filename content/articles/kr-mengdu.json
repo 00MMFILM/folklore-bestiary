@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Mengdu",
+ "sourceLang": "en",
+ "sourceChars": 40227,
+ "generatedAt": "2026-07-06T11:43:34.062Z",
+ "locales": {
+  "ko": {
+   "origin": "멩두의 기원 신화는 제주 종교의 주요 샤머니즘 서사인 초공 본풀이에서 찾을 수 있다. 이 서사에 따르면, 원래의 멩두는 샤먼 의식을 처음으로 수행한 세 신인 멩두 삼형제가 소유하고 있었다. 멩두의 스타일적 특징은 이 신들의 기적적인 잉태와 삶의 중요한 사건들을 회상한다.",
+   "legend": "멩두는 제주도 남부의 한국 샤머니즘에서 샤먼의 상징인 세 가지 종류의 구리 의식 도구로 구성되어 있다. 이들은 한 쌍의 칼, 종, 그리고 점술 도구로 이루어져 있으며, 의식에서 신의 뜻을 알아내는 데 사용된다. 멩두는 또한 '멩두 조상'이라 불리는 영혼들을 구현하고 있으며, 이들은 의식 중 현재의 소유자가 신의 뜻을 정확히 파악하도록 돕는 것으로 여겨진다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "The origin myth of the Myeongdu can be found in the Chogong Bonpuli, a major shamanistic narrative of Jeju religion. According to this narrative, the original Myeongdu was possessed by the three gods, the Myeongdu brothers, who first performed shamanic rituals. The stylistic features of the Myeongdu recall the miraculous conception and significant life events of these gods.",
+   "legend": "The Myeongdu consists of three types of copper ritual tools that symbolize shamans in Korean shamanism in the southern part of Jeju Island. These include a pair of knives, a bell, and a divination tool, which are used in rituals to discern the will of the gods. The Myeongdu also embodies spirits known as 'Myeongdu ancestors,' who are believed to assist the current owner during rituals in accurately understanding the will of the gods.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "멩두的起源神话可以在济州宗教的主要萨满教叙事《初公本풀이》中找到。根据这个叙事，最初的멩두是三位神灵멩두三兄弟拥有的，他们首次执行了萨满仪式。멩두的风格特征回忆起这些神灵的奇迹般的怀孕和生命中的重要事件。",
+   "legend": "멩두由韩国南部济州岛的萨满教中象征萨满的三种铜质仪式工具组成。这些工具包括一对刀、铃铛和占卜工具，用于在仪式中了解神的意图。멩두还体现了被称为'멩두祖先'的灵魂，这些灵魂被认为帮助当前的拥有者准确理解神的意图。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "メンドゥの起源神話は、済州（チェジュ）宗教の主要なシャーマニズムの叙事詩であるチョゴン（チョゴン）本풀이に見られる。この叙事詩によれば、元々のメンドゥは、シャーマンの儀式を初めて行った三人の神、メンドゥ三兄弟が所有していた。メンドゥのスタイル的特徴は、これらの神々の奇跡的な妊娠と人生の重要な出来事を回想させる。",
+   "legend": "メンドゥは、済州島南部の韓国シャーマニズムにおいて、シャーマンの象徴である三種類の銅製儀式道具で構成されている。これらは一対の刀、鐘、そして占い道具であり、儀式で神の意志を知るために使用される。メンドゥはまた、『メンドゥの祖先』と呼ばれる霊を具現化しており、これらは儀式中に現在の所有者が神の意志を正確に把握するのを助けると考えられている。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

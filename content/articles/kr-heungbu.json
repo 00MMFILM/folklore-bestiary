@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "흥부전",
+ "sourceLang": "ko",
+ "sourceChars": 2702,
+ "generatedAt": "2026-07-06T11:44:51.377Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "흥부전(興夫傳)은 조선 시대의 고전소설로, 빈부 격차에 대한 비판적 내용을 담고 있으며, 한국에서 널리 알려진 이야기이다. 이 작품은 흥부와 그의 형 놀부 간의 갈등을 중심으로 전개되며, 흥부가 제비의 다리를 치료해 주고 그 보답으로 부자가 되는 이야기를 통해 권선징악의 교훈을 전달한다. 흥부는 착한 성품을 지닌 인물로, 놀부는 사악하고 탐욕스러운 성격을 가진 인물로 묘사된다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "Heungbujeon (흥부전) is a classic novel from the Joseon Dynasty that contains critical content about the gap between the rich and the poor, and it is a widely known story in Korea. This work unfolds around the conflict between Heungbu and his brother Nolbu, conveying a moral lesson of rewarding good and punishing evil through the story of Heungbu treating a swallow's injured leg and becoming wealthy in return. Heungbu is portrayed as a character with a kind nature, while Nolbu is depicted as a wicked and greedy character.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "兴夫传(Heungbu-jeon)是朝鲜时代的古典小说，包含对贫富差距的批判性内容，是在韩国广为人知的故事。该作品围绕兴夫(Heungbu)和他的兄弟诺夫(Nolbu)之间的冲突展开，兴夫治愈了燕子的腿，并因此获得了富裕的故事，通过这个故事传达了劝善惩恶的教训。兴夫被描绘为一个善良的人物，而诺夫则被描绘为一个邪恶和贪婪的角色。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "興夫伝（ヒョンブジョン）は朝鮮時代の古典小説で、貧富の格差に対する批判的な内容を含んでおり、韓国で広く知られている物語である。この作品は興夫（ヒョンブ）と彼の兄の楽夫（ノルブ）間の対立を中心に展開され、興夫がツバメの足を治療し、その報いとして裕福になる物語を通じて善悪の報いの教訓を伝える。興夫は善良な性格を持つ人物として描かれ、楽夫は邪悪で貪欲な性格を持つ人物として描かれる。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

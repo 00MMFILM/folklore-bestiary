@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Bon-puri",
+ "sourceLang": "en",
+ "sourceChars": 21771,
+ "generatedAt": "2026-07-06T11:42:50.583Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "본풀이는 제주도에서 수행되는 한국의 무속 의식에서 낭송되는 서사로, 신의 기원과 그들이 신적 지위를 얻게 된 과정을 이야기한다. 본풀이는 신을 초대하여 그들의 참여를 유도하고, 신을 기쁘게 하려는 목적을 가지고 있다. 본풀이는 일반 본풀이, 마을 신 본풀이, 조상 신 본풀이의 세 가지 주요 유형으로 나뉜다. 일반 본풀이는 제주도 전역에서 숭배되는 신들의 기원을 다루며, 마을 신 본풀이는 특정 지역 사회의 수호신에 대한 이야기이다. 조상 신 본풀이는 특정 가족 계보나 직업의 수호신을 다루지만, 반드시 조상과 연결되지는 않는다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "Bonpuri is a narrative recited during Korean shamanistic rituals performed in Jeju Island, telling the origins of gods and the process by which they attained divine status. Bonpuri aims to invite the gods to participate and to please them. There are three main types of bonpuri: general bonpuri, village god bonpuri, and ancestor god bonpuri. General bonpuri deals with the origins of gods worshipped throughout Jeju Island, while village god bonpuri tells the stories of the guardian deities of specific local communities. Ancestor god bonpuri addresses the guardian deities of specific family lineages or professions, but it is not necessarily connected to ancestors.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "本普里（Bonpuri）是韩国的巫俗仪式中在济州岛（Jeju-do）进行的叙事，讲述了神的起源以及他们获得神圣地位的过程。本普里的目的是邀请神灵参与，并使其感到高兴。本普里主要分为三种类型：一般本普里、村庄神本普里和祖先神本普里。一般本普里涉及在济州岛（Jeju-do）各地崇拜的神灵的起源，村庄神本普里则是关于特定社区守护神的故事。祖先神本普里涉及特定家族谱系或职业的守护神，但不一定与祖先相连。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ボンプリ（Bonpuri）は、済州島（チェジュド、Jeju-do）で行われる韓国の巫俗儀式で朗読される叙事詩で、神々の起源と彼らが神的地位を得る過程を語る。ボンプリは神を招待し、彼らの参加を促し、神を喜ばせることを目的としている。ボンプリは一般ボンプリ、村の神ボンプリ、祖先の神ボンプリの三つの主要なタイプに分かれる。一般ボンプリは済州島全域で崇拝される神々の起源を扱い、村の神ボンプリは特定の地域社会の守護神に関する物語である。祖先の神ボンプリは特定の家系や職業の守護神を扱うが、必ずしも祖先と結びつくわけではない。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

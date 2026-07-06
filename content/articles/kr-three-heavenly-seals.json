@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Three Heavenly Seals",
+ "sourceLang": "en",
+ "sourceChars": 3301,
+ "generatedAt": "2026-07-06T11:43:26.804Z",
+ "locales": {
+  "ko": {
+   "origin": "Three Heavenly Seals(천부인)은 13세기 삼국유사에 기록된 바와 같이, 신 환인(Hwanin)이 그의 아들 환웅(Hwanung)에게 하늘에서 내려오는 권위를 부여하기 위해 수여한 상징물이다.",
+   "legend": "Three Heavenly Seals는 세 가지의 청동 아이템으로 구성되어 있으며, 각각 청동 단검, 청동 거울, 청동 종으로 알려져 있다. 이 아이템들은 주로 의도된 목적의 도구라기보다는 종교적 상징으로 사용되었으며, 한국인과 그들의 유산에 독특한 것으로 여겨진다. 이 유물들은 무구(巫具)라는 샤머니즘 도구의 일환으로 여겨지며, 오늘날에도 한국의 무당들에 의해 사용되고 있다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "The Three Heavenly Seals (천부인, Cheonbuin) are symbols bestowed by the deity Hwanin (환인, Hwanin) to his son Hwanung (환웅, Hwanung) to grant authority descending from heaven, as recorded in the 13th-century Samguk Yusa (삼국유사).",
+   "legend": "The Three Heavenly Seals consist of three bronze items, known as a bronze dagger, a bronze mirror, and a bronze bell. These items were primarily used as religious symbols rather than tools for their intended purposes, and are considered unique to Koreans and their heritage. These relics are regarded as part of shamanistic tools known as mugus (무구) and are still used by Korean shamans today.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "三天印(Three Heavenly Seals)是记录在13世纪的《三国遗事》中，神的皇仁(Hwanin)为了赋予他的儿子皇雄(Hwanung)从天而降的权威而授予的象征物。",
+   "legend": "三天印由三件青铜物品组成，分别是青铜短刀、青铜镜和青铜钟。这些物品主要被用作宗教象征，而不是意图的工具，被认为是韩国人及其遗产的独特象征。这些文物被视为巫具(무구)的一部分，至今仍被韩国的巫师使用。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "三つの天の印(천부인)は、13世紀の三国遺事に記録されているように、神である환인(Hwanin)が彼の息子환웅(Hwanung)に天から降りてくる権威を与えるために授けた象徴物である。",
+   "legend": "三つの天の印は、三つの青銅のアイテムで構成されており、それぞれ青銅の短剣、青銅の鏡、青銅の鐘として知られている。これらのアイテムは、主に意図された目的の道具というよりは宗教的な象徴として使用されており、韓国人とその遺産にとって独特なものと見なされている。これらの遺物は、無具(巫具)というシャーマニズムの道具の一部と見なされ、今日でも韓国の無당(ムーダン)によって使用されている。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

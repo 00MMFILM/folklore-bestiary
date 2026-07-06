@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Guan Yu",
+ "sourceLang": "en",
+ "sourceChars": 48655,
+ "generatedAt": "2026-07-06T11:40:51.386Z",
+ "locales": {
+  "ko": {
+   "origin": "관우는 현재의 산시성 윈청시(運城) 해현(解縣) 출신으로, 원래 자는 장생(長生)이었다. 그는 고대 역사서인 좌전(左傳)에 관심이 많았으며, 유비의 군대에 합류하기 전에는 자발적으로 자치군에 참여하여 황건적의 반란을 진압했다.",
+   "legend": "관우는 중국 삼국 시대의 군사 장군으로, 유비의 충실한 부하로 알려져 있다. 그는 충성과 의리의 상징으로 여겨지며, 후에 신격화되어 '관제(關帝)'로 숭배받는다. 관우는 전투에서의 용맹함과 유비에 대한 충성심으로 유명하며, 그의 전투에서의 업적은 후세에 전해진다.",
+   "variants": "",
+   "culture": "관우는 현대에도 중국 문화에서 중요한 인물로 여겨지며, 많은 사람들이 그를 숭배하고 있다. 그는 중국 민간 신앙, 유교, 도교, 불교에서 신으로 숭배되며, 전통적인 중국 상점과 식당에서 그의 작은 제단을 쉽게 찾아볼 수 있다."
+  },
+  "en": {
+   "origin": "Guan Yu is from the current Shanxi Province, Yuncheng City (運城), Haixian (解縣), and his original courtesy name was Zhangsheng (長生). He had a keen interest in the ancient historical text Zuo Zhuan (左傳) and participated voluntarily in local militias to suppress the Yellow Turban Rebellion before joining Liu Bei's army.",
+   "legend": "Guan Yu is a military general from the Three Kingdoms period of China, known as a loyal subordinate of Liu Bei. He is regarded as a symbol of loyalty and righteousness, and later deified and worshipped as 'Guandi' (關帝). Guan Yu is famous for his bravery in battle and his loyalty to Liu Bei, and his achievements in combat have been passed down through generations.",
+   "variants": "",
+   "culture": "Guan Yu is still considered an important figure in modern Chinese culture, and many people worship him. He is venerated as a deity in Chinese folk beliefs, Confucianism, Taoism, and Buddhism, and small altars dedicated to him can be easily found in traditional Chinese shops and restaurants."
+  },
+  "zh": {
+   "origin": "关羽（Guān Yǔ）是现在山西省运城市（Yùnchéng）解县（Jiěxiàn）出身，原名字长生（Chángshēng）。他对古代历史书《左传》（Zuǒzhuàn）非常感兴趣，在加入刘备（Liú Bèi）的军队之前，自愿参加了自治军，镇压了黄巾贼的叛乱。",
+   "legend": "关羽是中国三国时期的军事将领，以刘备的忠实部下而闻名。他被视为忠诚和义气的象征，后来被神化为'关帝（Guān Dì）'受到崇拜。关羽以战斗中的勇猛和对刘备的忠诚而著称，他在战斗中的成就被后世传颂。",
+   "variants": "",
+   "culture": "关羽在现代仍被视为中国文化中的重要人物，许多人崇拜他。他在中国民间信仰、儒教、道教和佛教中被奉为神灵，传统的中国商店和餐馆中可以轻易找到他的神龛。"
+  },
+  "ja": {
+   "origin": "関羽（Guān Yǔ）は現在の山西省運城市（Yùnchéng）解県（Jiěxiàn）出身で、元々の字は長生（Chángshēng）であった。彼は古代歴史書である左伝（Zuǒzhuàn）に非常に関心があり、劉備（Liú Bèi）の軍隊に加わる前には自発的に自治軍に参加し、黄巾賊の反乱を鎮圧した。",
+   "legend": "関羽は中国三国時代の軍事将軍で、劉備の忠実な部下として知られている。彼は忠誠と義理の象徴と見なされ、後に神格化されて関帝（Guān Dì）として崇拝される。関羽は戦闘での勇猛さと劉備に対する忠誠心で有名であり、彼の戦闘での業績は後世に伝えられる。",
+   "variants": "",
+   "culture": "関羽は現代においても中国文化で重要な人物と見なされ、多くの人々に崇拝されている。彼は中国の民間信仰、儒教、道教、仏教で神として崇拝され、伝統的な中国の商店やレストランで彼の小さな祭壇を簡単に見つけることができる。"
+  }
+ }
+}

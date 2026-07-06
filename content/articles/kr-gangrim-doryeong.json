@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Gangnim Doryeong",
+ "sourceLang": "en",
+ "sourceChars": 15843,
+ "generatedAt": "2026-07-06T11:43:48.837Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "강림도령(降臨道令) 또는 강림차사(降臨差使)는 한국 신화에서 영혼을 인도하는 역할을 맡은 저승사자 중 하나이다. 그는 한국에서 가장 유명한 저승사자로 여겨지며, 저승사자의 대표적인 인물로 간주된다. 전설에 따르면, 그는 항상 적패지(赤牌旨)를 지니고 있으며, 이는 죽은 자의 이름이 적힌 붉은 천으로 된 목록이다. 강림도령은 먼저 마을의 신에게 죽은 자를 인도할 허락을 구한 후, 적패지의 이름을 세 번 부르면 영혼이 몸을 떠나 그를 따르게 된다.",
+   "variants": "",
+   "culture": "강림도령은 한국의 판타지 웹툰 '신과 함께'와 영화 '신과 함께: 죄와 벌', '신과 함께: 인과 연'에 등장하는 캐릭터이다. 또한, 강림도령은 한국 애니메이션 '고스트 메신저'에도 등장한다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Gangrim Doryeong (강림도령) or Gangrim Chasa (강림차사) is one of the grim reapers in Korean mythology who is responsible for guiding souls. He is considered the most famous grim reaper in Korea and is regarded as a representative figure of grim reapers. According to legend, he always carries the Jeokpaeji (적패지), which is a list made of red cloth with the names of the deceased written on it. Gangrim Doryeong first seeks permission from the village deity to guide the deceased, and after calling the names on the Jeokpaeji three times, the soul leaves the body and follows him.",
+   "variants": "",
+   "culture": "Gangrim Doryeong appears in the Korean fantasy webtoon 'Along with the Gods' (신과 함께) and the films 'Along with the Gods: The Two Worlds' (신과 함께: 죄와 벌) and 'Along with the Gods: The Last 49 Days' (신과 함께: 인과 연). Additionally, Gangrim Doryeong also appears in the Korean animation 'Ghost Messenger' (고스트 메신저)."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "降临道令 (Ganglim Doryeong) 或者 降临差使 (Ganglim Chasa) 是韩国神话中负责引导灵魂的阴间使者之一。他被认为是韩国最著名的阴间使者，并被视为阴间使者的代表性人物。传说中，他总是携带着赤牌旨 (Chihpaeji)，这是一份用红布制成的名单，上面写有死者的名字。降临道令首先向村庄的神请求引导死者的许可，然后呼唤赤牌旨上的名字三次，灵魂便会离开身体跟随他。",
+   "variants": "",
+   "culture": "降临道令出现在韩国的奇幻网络漫画《与神同行》（Sin-gwa Hamkke）和电影《与神同行：罪与罚》（Sin-gwa Hamkke: Joe-wa Beol）、《与神同行：因果缘》（Sin-gwa Hamkke: In-gwa Yeon）中。此外，降临道令还出现在韩国动画《幽灵信使》（Ghost Messenger）中。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "降臨道令（こうりんどうれい）または降臨差使（こうりんさし）は、韓国神話で魂を導く役割を担った冥界の使者の一つである。彼は韓国で最も有名な冥界の使者と見なされ、冥界の使者の代表的な人物と考えられている。伝説によれば、彼は常に赤牌旨（せきはいし）を持っており、これは死者の名前が書かれた赤い布のリストである。降臨道令はまず村の神に死者を導く許可を求め、その後、赤牌旨の名前を三度呼ぶと、魂が体を離れて彼に従うことになる。",
+   "variants": "",
+   "culture": "降臨道令は韓国のファンタジーウェブトゥーン『神と共に』や映画『神と共に：罪と罰』、『神と共に：因果と縁』に登場するキャラクターである。また、降臨道令は韓国のアニメ『ゴーストメッセンジャー』にも登場する。"
+  }
+ }
+}

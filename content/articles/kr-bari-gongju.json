@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "바리공주",
+ "sourceLang": "ko",
+ "sourceChars": 1551,
+ "generatedAt": "2026-07-06T11:40:35.155Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "바리공주 또는 바리데기는 한국 신화에서 제주특별자치도를 제외한 전국에 전해져 내려오는 설화상의 인물로, 흔히 무당의 조상인 무조신으로 알려져 있다. 바리공주는 발리공주(鉢里公主) 혹은 사희공주(捨姬公主)라고도 불리며, 이는 바리때를 지니고 베푸는 공주를 의미한다. 바리공주는 해원 굿의 원형으로 오구굿의 한마당에서 등장하며, 남자가 아닌 여신으로 확실히 알려져 있다.",
+   "variants": "",
+   "culture": "바리공주 설화는 무속의 오구굿 또는 해원굿의 일부를 구성하는 서사무가로 구전되어 왔다. 무당이 굿을 하기 전이나 중간에 등장하는 사설에 이 설화가 포함되어 있으며, 전국 모든 무당이 바리공주를 무조신으로 삼고 있는 것은 아니다. 바리공주 무가가 전해져 오지 않는 지역에서는 미륵이나 공심을 무조신으로 삼기도 한다. 또한, 바리공주 설화는 불교의 영향을 많이 받았으며, 그 중 일부는 한국 민족 고유의 서사무가인지 불교의 이야기인지 구별하기 어렵다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Princess Bari (바리공주) or Bari Dae-gin (바리데기) is a figure from Korean mythology that is passed down throughout the country, excluding Jeju Special Self-Governing Province. She is commonly known as the ancestor of shamans, Mujo God (무조신). Princess Bari is also referred to as Bali Princess (鉢里公主) or Sahee Princess (捨姬公主), which means a princess who bestows blessings with a Bari (바리) rice bowl. Princess Bari appears in the original form of the Haewon Gut (해원 굿) during the Ogugut (오구굿) ceremony and is definitively known as a goddess rather than a man.",
+   "variants": "",
+   "culture": "The Princess Bari legend has been passed down as a narrative shaman song that constitutes part of the Ogugut or Haewon Gut. This tale is included in the recitations that occur before or during the shaman's ritual. Not all shamans across the country regard Princess Bari as the Mujo God; in regions where the Bari Princess song is not transmitted, Maitreya (미륵) or Gongsim (공심) may be regarded as the Mujo God. Additionally, the Princess Bari legend has been heavily influenced by Buddhism, and it is often difficult to distinguish whether some of its elements are unique to Korean ethnic narrative songs or derived from Buddhist stories."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "巴里公主（Bali Gongzhu）或巴里德基（Bali Deji）是韩国神话中流传于全国（除济州特别自治道）的一位传说人物，通常被认为是巫师的祖先穆祖神（Mujoshin）。巴里公主也被称为发里公主（鉢里公主）或舍姬公主（捨姬公主），这意味着拥有巴里（Bari）并施予的公主。巴里公主作为海源（Haewon）祭祀的原型出现在五鬼祭（Ogu-gut）的一个场合中，明确被认定为女神而非男性。",
+   "variants": "",
+   "culture": "巴里公主的传说作为巫术的五鬼祭或海源祭的一部分，以叙事民谣的形式口头流传。巫师在进行祭祀之前或过程中出现的说辞中包含了这个传说，并不是全国所有的巫师都将巴里公主视为穆祖神。在巴里公主的民谣未流传的地区，弥勒（Mireuk）或公心（Gongshim）也被视为穆祖神。此外，巴里公主的传说受到了佛教的很大影响，其中一些故事难以区分是韩国民族独有的叙事民谣还是佛教的故事。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "バリ公主（バリゴンジュ）またはバリデギ（バリデギ）は、韓国の神話で済州特別自治道を除く全国に伝わる伝説の人物で、一般的に巫女の祖先であるムジョ神として知られています。バリ公主はバリ公主（鉢里公主）またはサヒ公主（捨姫公主）とも呼ばれ、これはバリの時を持って施す公主を意味します。バリ公主はヘウォンのグッ（祭り）の原型としてオググッの一幕に登場し、男性ではなく女神であることが確実に知られています。",
+   "variants": "",
+   "culture": "バリ公主の伝説は、巫俗のオググッまたはヘウォンの一部を構成する叙事詩として口承されてきました。巫女がグッを行う前や途中に登場する詩にこの伝説が含まれており、全国のすべての巫女がバリ公主をムジョ神としているわけではありません。バリ公主のムガ（歌）が伝わっていない地域では、ミルクやコンシムをムジョ神とすることもあります。また、バリ公主の伝説は仏教の影響を多く受けており、その中の一部は韓国民族固有の叙事詩なのか仏教の物語なのか区別が難しいです。"
+  }
+ }
+}

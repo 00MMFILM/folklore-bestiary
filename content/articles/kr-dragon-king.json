@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Dragon King",
+ "sourceLang": "en",
+ "sourceChars": 22299,
+ "generatedAt": "2026-07-06T11:39:45.549Z",
+ "locales": {
+  "ko": {
+   "origin": "아시아 문화에서 뱀과 같은 생물은 기원전 7000-5000년경(신석기 시대)부터 중요한 부분으로 여겨져 왔다. 많은 고고학 유적지에서 뱀, 나가, 드래곤과 관련된 공예품, 기호 및 디자인이 발견되었으며, 이는 이 지역의 민속, 의식 및 축제에서 뱀/나가/드래곤이 오랫동안 중요한 상징으로 자리 잡았음을 증명한다. 시간이 지남에 따라 드래곤 문화는 다양한 형태와 용어, 이야기, 문화로 적응하고 변화해왔다.",
+   "legend": "드래곤 킹은 아시아 신화에서 물과 날씨의 신으로 여겨지며, 모든 수역을 지배하고 비를 내리는 능력을 가진 존재로 알려져 있다. 그는 자신의 신성한 힘으로 날씨를 조작하고 계절을 이동시키며 비를 내릴 수 있다. 드래곤 킹은 중국 문화에서 '룽'(龙)이라는 고대 개념의 집합적 의인화로 묘사되며, 인도 문화에서는 '나가라자'(Nāgarāja)로 알려져 있다. 그는 자신의 수중 궁전과 왕실 시스템을 가지고 있다고 전해진다.",
+   "variants": "드래곤 킹은 아시아 전역에서 다양한 이름으로 알려져 있으며, 일본에서는 '류'(Ryū)로, 한국에서는 '용왕'(Yongwang)으로 불린다. 각 지역의 전통과 신앙에 따라 드래곤 킹에 대한 숭배와 의식이 다르게 나타난다. 예를 들어, 한국에서는 어촌 공동체에서 용왕을 숭배하며, 비와 농업을 기원하는 기도를 드린다.",
+   "culture": "드래곤 킹에 대한 숭배는 중국 전역에서 비를 기원하는 의식과 함께 이루어지며, 특히 그의 생일인 음력 6월 13일에 많은 의식이 진행된다. 현대의 헤베이 지역에서는 드래곤 킹을 기리는 민속 종교 운동이 있으며, 드래곤 보트 경주와 같은 전통적인 축제도 드래곤 킹을 기리는 행사로 여겨진다."
+  },
+  "en": {
+   "origin": "In Asian culture, creatures like snakes have been considered an important part since around 7000-5000 BC (Neolithic period). Many archaeological sites have discovered artifacts, symbols, and designs related to snakes, nagas, and dragons, proving that these beings have long been significant symbols in the folklore, rituals, and festivals of the region. Over time, dragon culture has adapted and transformed into various forms, terms, stories, and cultures.",
+   "legend": "The Dragon King is regarded as the god of water and weather in Asian mythology, known as a being that rules over all bodies of water and has the ability to bring rain. He can manipulate the weather and change the seasons with his divine power. The Dragon King is depicted as a collective personification of the ancient concept of 'Long' (龙) in Chinese culture, while in Indian culture, he is known as 'Nāgarāja'. It is said that he possesses an underwater palace and a royal system.",
+   "variants": "The Dragon King is known by various names across Asia; in Japan, he is called 'Ryū' (龍), and in Korea, he is referred to as 'Yongwang' (용왕). The worship and rituals associated with the Dragon King vary according to the traditions and beliefs of each region. For example, in Korea, fishing communities worship Yongwang and offer prayers for rain and agriculture.",
+   "culture": "Worship of the Dragon King is accompanied by rituals for rain across China, especially on his birthday, the 13th day of the 6th lunar month, when many ceremonies take place. In modern Hebei, there is a folk religious movement honoring the Dragon King, and traditional festivals such as dragon boat races are considered events that pay tribute to the Dragon King."
+  },
+  "zh": {
+   "origin": "在亚洲文化中，像蛇这样的生物自公元前7000-5000年（新石器时代）以来就被视为重要的一部分。在许多考古遗址中发现了与蛇、那伽（Nāga）、龙相关的工艺品、符号和设计，这证明了在该地区的民俗、仪式和节日中，蛇/那伽/龙长期以来一直是重要的象征。随着时间的推移，龙文化以各种形式、术语、故事和文化进行了适应和变化。",
+   "legend": "龙王在亚洲神话中被视为水和天气的神，被认为是统治所有水域并具有降雨能力的存在。他能够用自己的神圣力量操控天气，改变季节并降雨。龙王在中国文化中被描绘为“龙”（Lóng）这一古老概念的集合性拟人化，而在印度文化中则被称为“那伽拉贾”（Nāgarāja）。据说他拥有自己的水下宫殿和王室系统。",
+   "variants": "龙王在整个亚洲以不同的名字被称呼，在日本被称为“龙”（Ryū），在韩国被称为“龙王”（Yongwang）。根据各地区的传统和信仰，对龙王的崇拜和仪式表现各异。例如，在韩国，渔村社区崇拜龙王，并祈求降雨和农业丰收。",
+   "culture": "对龙王的崇拜在中国各地与祈求降雨的仪式一起进行，特别是在他的生日，即农历6月13日，会举行许多仪式。在现代的河北地区，有一种祭祀龙王的民间宗教运动，传统节日如龙舟赛也被视为纪念龙王的活动。"
+  },
+  "ja": {
+   "origin": "アジア文化において、蛇のような生物は紀元前7000-5000年頃（新石器時代）から重要な部分と見なされてきた。多くの考古学遺跡からは、蛇、ナガ、ドラゴンに関連する工芸品、記号、デザインが発見されており、これはこの地域の民俗、儀式、祭りにおいて蛇/ナガ/ドラゴンが長い間重要な象徴として位置づけられてきたことを証明している。時が経つにつれて、ドラゴン文化はさまざまな形態や用語、物語、文化に適応し、変化してきた。",
+   "legend": "ドラゴンキングはアジア神話において水と天候の神と見なされ、すべての水域を支配し、雨を降らせる能力を持つ存在として知られている。彼は自らの神聖な力で天候を操り、季節を移動させ、雨を降らせることができる。ドラゴンキングは中国文化において「ロン」（龙）という古代概念の集合的擬人化として描かれ、インド文化では「ナガラージャ」（Nāgarāja）として知られている。彼は自らの水中宮殿と王室システムを持っていると伝えられている。",
+   "variants": "ドラゴンキングはアジア全域でさまざまな名前で知られており、日本では「リュウ」（Ryū）と呼ばれ、韓国では「ヨンワン」（Yongwang）と呼ばれる。各地域の伝統や信仰に応じて、ドラゴンキングに対する崇拝や儀式が異なって現れる。例えば、韓国では漁村共同体でヨンワンを崇拝し、雨と農業を祈願する祈りを捧げる。",
+   "culture": "ドラゴンキングに対する崇拝は中国全域で雨を祈願する儀式とともに行われ、特に彼の誕生日である旧暦6月13日には多くの儀式が行われる。現代の河北地域ではドラゴンキングを称える民俗宗教運動があり、ドラゴンボートレースのような伝統的な祭りもドラゴンキングを称える行事と見なされている。"
+  }
+ }
+}

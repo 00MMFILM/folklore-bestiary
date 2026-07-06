@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Dongti",
+ "sourceLang": "en",
+ "sourceChars": 3354,
+ "generatedAt": "2026-07-06T11:42:50.964Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "동티(동토, 신벌)는 한국 신화에서 신의 벌을 의미하는 용어로, 주로 무속 신들에 의해 발생한다고 전해진다. 예를 들어, 한 신화에서는 한 남자가 장승을 연료로 사용했는데, 그는 장승이 자신을 복수하지 않을 것이라고 어리석게 믿었다. 그 결과, 그는 장승의 분노, 즉 동티를 받아 여러 치명적인 질병으로 빠르게 죽게 된다. 비슷한 신화에서는 마을 제단인 세나당을 무너뜨린 사람들이 마을 수호신인 세나신의 동티로 인해 갑자기 병에 걸려 죽는 이야기도 전해진다. 또한, 신목이나 당수나무와 같은 신성한 나무가 치명적인 질병을 유발하는 신화도 존재한다. 가신, 즉 가정의 신들도 동티를 일으킬 수 있으며, 가신이 구현하는 물체가 파손되거나, 여신 염신이 구현하는 동물이 죽거나, 테오주신이 구현하는 땅을 무단으로 파는 경우에 동티를 받게 된다. 특히, 화장실의 여신인 측신은 동티를 유발하는 잘 알려진 존재 중 하나로, 그녀의 긴 머리카락이 세 번 기침하지 않은 인간에게 닿으면 그 인간은 불치병에 걸려 죽게 된다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "Dongti (Dongto, Sinbeol) refers to the punishment of gods in Korean mythology, which is said to occur primarily through shaman deities. For example, in one myth, a man used a Jangseung (a traditional Korean guardian totem) as fuel, foolishly believing that the Jangseung would not take revenge on him. As a result, he faced the wrath of the Jangseung, or Dongti, and quickly died from several fatal diseases. In a similar myth, those who destroyed the village altar, Sena-dang, suddenly fell ill and died due to the Dongti of the village guardian deity, Sena-shin. Additionally, there are myths where sacred trees, such as Sinmok or Dangsu-namu, cause fatal diseases. Household deities, known as Gashin, can also invoke Dongti, particularly when objects representing them are damaged, animals represented by the goddess Yeomshin die, or land represented by the deity Teojushin is sold without permission. Notably, the goddess of toilets, Cheuksin, is one of the well-known entities that can cause Dongti; if her long hair touches a human who has not coughed three times, that human will fall ill with an incurable disease and die.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "东忏（东土，神罚）是韩国神话中指神的惩罚的术语，主要由巫俗神灵引发。据说，在一个神话中，一个男人把长胜（Jangseung）当作燃料使用，他愚蠢地相信长胜不会报复他。结果，他遭到了长胜的愤怒，即东忏，迅速因多种致命疾病而死。在类似的神话中，破坏村庄祭坛的人的故事也流传着，他们因村庄守护神世那神（Sena-shin）的东忏而突然生病死亡。此外，还有关于神木或当树等神圣树木引发致命疾病的神话。家神（Gashin），即家庭的神灵，也能引发东忏，当家神所体现的物体破损，或者女神炎神（Yeomshin）所体现的动物死亡，或是提奥主神（Teojushin）所体现的土地被擅自出售时，都会受到东忏的惩罚。特别是，厕所女神侧神（Cheoksin）是引发东忏的著名存在之一，她的长发如果碰到三次不咳嗽的人，那个人将会得上不治之症而死。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ドンティ（동티、신벌）は韓国の神話で神の罰を意味する用語で、主に無俗神によって発生すると伝えられています。例えば、ある神話では、一人の男が長勝（장승）を燃料として使用したが、彼は長勝が自分に復讐しないと愚かにも信じていました。その結果、彼は長勝の怒り、つまりドンティを受けて、いくつかの致命的な病気で急速に死んでしまいます。似たような神話では、村の祭壇であるセナダン（세나당）を壊した人々が村の守護神であるセナシン（세나신）のドンティによって突然病にかかって死ぬ話も伝えられています。また、神木や堂守の木（당수나무）などの神聖な木が致命的な病気を引き起こす神話も存在します。家の神であるガシン（가신）もドンティを引き起こすことができ、ガシンが具現化する物体が破損したり、女神のエムシン（염신）が具現化する動物が死んだり、テオジュシン（테오주신）が具現化する土地を無断で売った場合にドンティを受けることになります。特に、トイレの女神であるチュクシン（측신）はドンティを引き起こすよく知られた存在の一つで、彼女の長い髪が三回咳をしなかった人間に触れると、その人間は不治の病にかかって死んでしまいます。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Corner Game",
+ "sourceLang": "en",
+ "sourceChars": 2570,
+ "generatedAt": "2026-07-06T11:42:17.333Z",
+ "locales": {
+  "ko": {
+   "origin": "구석놀이의 기원은 불확실하다. 'The Ghost In My Machine'의 저자 루시아 피터스는 이 게임이 '한국에서 유래했을 가능성이 있다'고 언급하였다. 그러나 일본 작가 히로우지 마츠야마에 따르면, 이 게임은 눈보라가 몰아치기 전에 다섯 명의 등산객 중 한 명이 눈 덮인 산에서 사망한 일본 이야기를 바탕으로 하고 있다. 남은 네 명은 그의 시신을 난방이 없는 오두막으로 옮겼고, 그곳에서 네 명은 구조대가 도착할 때까지 죽은 자의 영혼을 소환하기 위해 게임을 하였다. 중국과 대만의 일부 매체는 이 게임이 일본에서 유래했다고 주장하기도 한다.",
+   "legend": "구석놀이는 동아시아에서 유포되는 도시 전설 게임으로, 네 명의 플레이어가 필요하며 초자연적인 존재를 소환할 수 있다고 전해진다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "The origin of Guseoknori is uncertain. Lucia Peters, author of 'The Ghost In My Machine', mentioned that this game 'may have originated in Korea'. However, according to Japanese writer Hiroji Matsuyama, this game is based on a Japanese story where one of five climbers dies on a snow-covered mountain before a blizzard hits. The remaining four moved his body to a cabin without heating, and there, the four played a game to summon the spirit of the deceased until the rescue team arrived. Some media in China and Taiwan also claim that this game originated in Japan.",
+   "legend": "Guseoknori is an urban legend game circulated in East Asia, requiring four players and said to be able to summon supernatural beings.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "구석놀이的起源不确定。《The Ghost In My Machine》的作者露西亚·彼得斯提到这个游戏“可能起源于韩国”。然而，日本作家广治·松山则认为，这个游戏是基于一个故事，讲述在暴风雪来临之前，五名登山者中的一名在雪山上死亡。剩下的四人将他的尸体搬到没有供暖的小屋，在那里，他们玩游戏以召唤死者的灵魂，直到救援队到达。一些中国和台湾的媒体也声称这个游戏起源于日本。",
+   "legend": "구석놀이是一个在东亚传播的都市传说游戏，需要四名玩家，并传说可以召唤超自然存在。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "グセクノリの起源は不確かである。『The Ghost In My Machine』の著者ルシア・ピーターズは、このゲームが「韓国に由来する可能性がある」と言及した。しかし、日本の作家ヒロウジ・マツヤマによれば、このゲームは吹雪が襲う前に五人の登山者のうちの一人が雪に覆われた山で死亡した日本の話に基づいている。残りの四人は彼の遺体を暖房のない小屋に移し、そこで四人は救助隊が到着するまで死者の魂を呼び出すためにゲームを行った。中国と台湾の一部のメディアは、このゲームが日本に由来すると主張することもある。",
+   "legend": "グセクノリは東アジアで広まる都市伝説ゲームであり、四人のプレイヤーが必要で、超自然的な存在を召喚できると言われている。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

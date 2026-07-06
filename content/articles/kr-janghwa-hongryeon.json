@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "장화홍련전",
+ "sourceLang": "ko",
+ "sourceChars": 1780,
+ "generatedAt": "2026-07-06T11:40:19.508Z",
+ "locales": {
+  "ko": {
+   "origin": "장화홍련전은 1656년(조선 효종 7년)에 전동흘이 평안도 철산에서 부사로 근무하던 시기에 실제로 일어난 살인 사건을 바탕으로 전해 오던 설화를 소재로 하여 지어졌다. 이 작품은 계모형 가정 비극 소설 중에서 가장 대표적인 작품으로 권선징악이 그 주제이다.",
+   "legend": "장화홍련전의 줄거리는 평안도 철산에서 좌수 벼슬을 지내던 배무룡과 그의 부인 장씨, 그리고 그들의 두 딸 장화와 홍련의 이야기를 중심으로 전개된다. 장씨가 병으로 세상을 떠난 후, 배무룡은 허씨라는 여인을 재취하게 되지만, 허씨는 장화와 홍련에게 갖은 학대를 가한다. 결국 장화는 억울한 누명을 쓰고 연못에 몸을 던져 죽고, 홍련도 언니의 소식을 듣고 슬픔에 빠져 연못에 빠져 죽게 된다. 두 자매의 혼령은 억울함을 풀어달라며 철산부사의 관아에 나타나지만, 부사들은 놀라서 죽게 된다. 이후 정동우라는 인물이 사건을 재조사하고, 허씨 모자에게 엄벌을 내리며 장화와 홍련의 시신을 거두어 묻어준다.",
+   "variants": "",
+   "culture": "장화홍련전은 1944년 조선창극단에 의해 창극으로 제작되었으며, 이 작품은 창극사상 전무후무한 대성황을 이룬 것으로 평가된다. 또한, 이 이야기는 여러 차례 영화로 제작되었으며, 1924년, 1936년, 1956년, 1962년, 1972년, 2003년, 2009년 등 다양한 버전이 존재한다."
+  },
+  "en": {
+   "origin": "Janghwa Hongryeonjeon is based on a real murder case that occurred in 1656 (the 7th year of King Hyojong of Joseon) when Jeon Dong-heul was serving as the governor in Cheolsan, Pyeongan-do. This work is the most representative of the stepmother-type family tragedy novels, with the theme of rewarding good and punishing evil.",
+   "legend": "The plot of Janghwa Hongryeonjeon revolves around the story of Bae Muryeong, who held the position of left magistrate in Cheolsan, his wife Mrs. Jang, and their two daughters, Janghwa and Hongryeon. After Mrs. Jang passes away from illness, Bae Muryeong remarries a woman named Heo, who subjects Janghwa and Hongryeon to various abuses. Eventually, Janghwa, wrongfully accused, throws herself into a pond and dies, and Hongryeon, upon hearing the news of her sister, falls into despair and also drowns in the pond. The spirits of the two sisters appear at the Cheolsan magistrate's office, pleading for their grievances to be resolved, but the magistrates die from shock. Later, a figure named Jeong Dong-woo re-investigates the case, punishes Heo and her daughter severely, and retrieves and buries the bodies of Janghwa and Hongryeon.",
+   "variants": "",
+   "culture": "Janghwa Hongryeonjeon was adapted into a changgeuk (Korean traditional opera) by the Joseon Changgeuk Troupe in 1944, and this work is regarded as having achieved an unprecedented grand success in the history of changgeuk. Additionally, this story has been adapted into films multiple times, with various versions existing in 1924, 1936, 1956, 1962, 1972, 2003, and 2009."
+  },
+  "zh": {
+   "origin": "《长靴红莲传》是基于1656年（朝鲜孝宗7年）在平安道铁山发生的真实谋杀事件而创作的民间传说。这部作品是继母型家庭悲剧小说中最具代表性的作品，其主题是劝善惩恶。",
+   "legend": "《长靴红莲传》的故事围绕在平安道铁山担任左守官的裴武龙及其妻子张氏，以及他们的两个女儿张花和红莲的故事展开。张氏因病去世后，裴武龙再娶了许氏，但许氏对张花和红莲施加各种虐待。最终，张花冤屈而投湖自尽，红莲得知姐姐的消息后悲痛欲绝，也投湖而死。两姐妹的灵魂向铁山府的官署显现，请求为她们洗清冤屈，但府尹们惊吓而死。之后，郑东宇重新调查此案，对许氏母女施以严惩，并将张花和红莲的尸体收回埋葬。",
+   "variants": "",
+   "culture": "《长靴红莲传》于1944年由朝鲜唱剧团制作成唱剧，该作品被评为在唱剧史上前所未有的盛况。此外，这个故事还多次被改编成电影，存在1924年、1936年、1956年、1962年、1972年、2003年、2009年等多个版本。"
+  },
+  "ja": {
+   "origin": "ジャンファホンリョン伝は1656年（朝鮮の孝宗7年）に、全東赫が平安道の鉄山で府使として勤務していた時に実際に起こった殺人事件を基に伝えられていた説話を素材にして作られた。この作品は継母型家庭悲劇小説の中で最も代表的な作品であり、善悪の報いがそのテーマである。",
+   "legend": "ジャンファホンリョン伝のストーリーは、平安道の鉄山で左守の地位にあったペムリョンと彼の妻ジャン氏、そして彼らの二人の娘ジャンファとホンリョンの物語を中心に展開される。ジャン氏が病でこの世を去った後、ペムリョンはホ氏という女性と再婚するが、ホ氏はジャンファとホンリョンに様々な虐待を加える。結局、ジャンファは無実の罪を着せられ、池に身を投げて死に、ホンリョンも姉の知らせを聞いて悲しみに沈み、池に落ちて死ぬことになる。二人の姉妹の霊は、無念を晴らしてほしいと鉄山府使の官舎に現れるが、府使たちは驚いて死んでしまう。その後、チョンドンウという人物が事件を再調査し、ホ氏母娘に厳罰を下し、ジャンファとホンリョンの遺体を引き取り埋葬する。",
+   "variants": "",
+   "culture": "ジャンファホンリョン伝は1944年に朝鮮唱劇団によって唱劇として制作され、この作品は唱劇史上前例のない大盛況を収めたと評価されている。また、この物語は何度も映画化されており、1924年、1936年、1956年、1962年、1972年、2003年、2009年など、様々なバージョンが存在する。"
+  }
+ }
+}

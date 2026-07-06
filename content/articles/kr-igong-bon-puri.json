@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Igong bon-puri",
+ "sourceLang": "en",
+ "sourceChars": 14536,
+ "generatedAt": "2026-07-06T11:43:03.025Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "이공 본풀이(이공 본풀이)는 제주도에서 전해지는 신화로, 할락궁이란 존재가 서천 꽃밭이라는 신화적 영역을 보호하는 신으로 등장한다. 이야기는 네 부분으로 나뉘어 있으며, 주로 김정국과 임정국의 두 가문에서 자란 사라 도령과 왕강 아미의 이야기를 중심으로 전개된다. 두 사람은 결혼 후, 신의 부름을 받지만, 아미의 임신으로 인해 거부하게 되고, 결국 아미는 자신과 태아를 노예로 팔기로 결심한다. 이후 아미는 아들을 낳고, 그 아들은 할락궁이라는 이름을 가지게 된다. 할락궁은 여러 시련을 겪으며 성장하고, 결국 아버지인 사라 도령과 재회하여 서천의 신으로 자리잡게 된다.",
+   "variants": "",
+   "culture": "이공 본풀이는 제주도에서 주로 구술되는 신화로, 대개 굿(Gut)이라는 무속 의식의 일환으로 공연된다. 이 신화는 제주도에서 열리는 대규모 굿에서 자주 불려지며, 굿의 일환으로 이공 마지라는 의식이 진행된다. 이공 마지는 농민 복장을 한 무당이 장구를 사용하여 신화를 노래하는 형식으로 이루어진다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Igong Bonpuri (이공 본풀이) is a myth transmitted from Jeju Island, where a being called Hallakgung (할락궁) appears as a deity protecting the mythical realm known as Seocheon Flower Field (서천 꽃밭). The story is divided into four parts and primarily revolves around the tales of Sara Doryeong (사라 도령) and Wanggang Ami (왕강 아미), who grew up in the two families of Kim Jeong-guk (김정국) and Im Jeong-guk (임정국). After their marriage, they receive a call from the deity but refuse due to Ami's pregnancy, ultimately leading Ami to decide to sell herself and the fetus into slavery. Later, Ami gives birth to a son, who is named Hallakgung. Hallakgung grows up facing various trials and eventually reunites with his father, Sara Doryeong, establishing himself as the deity of Seocheon.",
+   "variants": "",
+   "culture": "Igong Bonpuri is primarily orally transmitted in Jeju Island and is usually performed as part of a shamanistic ritual known as Gut (굿). This myth is often sung during large-scale Guts held in Jeju Island, and as part of the Gut, a ritual called Igong Maji (이공 마지) is conducted. Igong Maji involves a shaman dressed as a farmer using a janggu (장구) to sing the myth."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "이공 본풀이(Lee Gong Bonpuli)是传说于济州岛的神话，其中存在的哈拉宫(Hallakgung)作为保护神话领域西川花园(Seocheon Hwabat)的神出现。故事分为四个部分，主要围绕金正国(Kim Jeong-guk)和林正国(Im Jeong-guk)的两个家族中成长的萨拉道令(Sara Doryeong)和王刚阿美(Wanggang Ami)的故事展开。两人在婚后受到神的召唤，但因阿美怀孕而拒绝，最终阿美决定将自己和胎儿卖为奴隶。之后，阿美生下一个儿子，这个儿子被命名为哈拉宫。哈拉宫经历了多次考验后成长，最终与父亲萨拉道令重聚，成为西川的神。",
+   "variants": "",
+   "culture": "이공 본풀이는济州岛上主要以口头形式传承的神话，通常作为巫术仪式的一部分进行表演。这部神话常在济州岛举行的大规模巫术仪式中被唱诵，作为仪式的一部分进行이공 마지(Lee Gong Maji)的仪式。이공 마지는穿着农民服装的巫师使用鼓来演唱神话的形式进行。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "イゴン・ボンプリ（イゴン・ボンプリ）は、済州島（チェジュド）で伝えられる神話で、ハルラクングという存在がソチョンの花畑という神話的領域を守る神として登場する。物語は4つの部分に分かれており、主にキム・ジョングクとイム・ジョングクの2つの家系で育ったサラ・ドリョンとワンガン・アミの物語を中心に展開される。2人は結婚後、神の呼びかけを受けるが、アミの妊娠により拒否し、最終的にアミは自分と胎児を奴隷として売ることを決意する。その後、アミは息子を産み、その息子はハルラクングという名前を持つことになる。ハルラクングは様々な試練を経て成長し、最終的に父であるサラ・ドリョンと再会し、ソチョンの神としての地位を確立する。",
+   "variants": "",
+   "culture": "イゴン・ボンプリは済州島で主に口承される神話で、通常はグッ（Gut）というシャーマニズムの儀式の一環として上演される。この神話は済州島で行われる大規模なグッで頻繁に歌われ、グッの一環としてイゴン・マジという儀式が進行される。イゴン・マジは農民の服装をしたシャーマンがチャンゴを使って神話を歌う形式で行われる。"
+  }
+ }
+}

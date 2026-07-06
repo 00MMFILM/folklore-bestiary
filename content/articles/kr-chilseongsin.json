@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Chilseongsin",
+ "sourceLang": "en",
+ "sourceChars": 3514,
+ "generatedAt": "2026-07-06T11:44:35.155Z",
+ "locales": {
+  "ko": {
+   "origin": "칠성신은 한국 신화에서 비를 관장하거나 인간의 장수와 부를 책임지는 신이다. 이는 북두칠성을 의인화한 것으로, 한국 불교 사찰의 칠성각이나 삼성각에서 주로 숭배된다. 칠성신은 한국 무속, 불교, 도교의 융합으로 여겨진다.",
+   "legend": "칠성신은 비를 관장하고 인간의 장수와 부를 책임지는 신으로, 북두칠성을 의인화한 존재이다. 제주도에서는 본토의 염신이 칠성신으로 불리며, 뱀의 형태로 나타나 부를 관장한다. 뱀 신은 인간의 삶과 운명을 관장하는 역할이 북두칠성과 유사하다고 여겨져 칠성신으로 불린다.",
+   "variants": "제주도에서 전해지는 칠성 본풀이에 따르면, 자녀를 갖지 못하던 중국 부부가 딸을 낳게 된다. 그 딸은 부모를 찾기 위해 떠났다가 스님을 만나 임신하게 되고, 부모는 분노하여 그녀를 돌 상자에 넣고 바다에 띄운다. 그녀는 바다에서 일곱 마리의 뱀을 낳고, 결국 자신도 뱀으로 변한다. 이들은 제주 조천에 도착하여 지역의 해녀들에게 경시당하다가 신적 존재로 인식되면서 병이 나았다가 회복되고 부를 얻는다.",
+   "culture": "칠성신은 음력 7월 7일 칠석 밤에 여성들이 음식을 준비하고 가족의 안녕을 기원하는 의식이 있다. 충청북도에서는 칠성신이 가족의 번영을 가져다준다고 믿어, 여성들, 보통은 할머니의 주도로 뒷마당에서 제사를 지낸다. 또한, 칠성굿은 장수를 기원하는 무속 의식으로, 평안도와 황해도에서는 불교의 영향을 받아 무당이 가사 위에 장삼을 입고 수행한다."
+  },
+  "en": {
+   "origin": "Chilseongshin is a deity in Korean mythology that governs rain and is responsible for human longevity and wealth. This deity is personified by the Big Dipper, and is primarily worshipped in the Chilseonggak or Samseonggak of Korean Buddhist temples. Chilseongshin is considered a fusion of Korean shamanism, Buddhism, and Taoism.",
+   "legend": "Chilseongshin is a deity that governs rain and is responsible for human longevity and wealth, personified by the Big Dipper. In Jeju Island, the mainland's rain deity is referred to as Chilseongshin and appears in the form of a snake, governing wealth. The snake deity is believed to have a role similar to that of the Big Dipper in overseeing human life and fate, hence the name Chilseongshin.",
+   "variants": "According to the Chilseong bonpuri passed down in Jeju Island, a Chinese couple who could not have children eventually give birth to a daughter. The daughter leaves to find her parents and meets a monk, becoming pregnant. In anger, her parents place her in a stone box and set her adrift in the sea. She gives birth to seven snakes in the ocean and eventually transforms into a snake herself. They arrive at Jeju Jocheon and are initially scorned by the local haenyeo (female divers), but are later recognized as divine beings, recovering from illness and gaining wealth.",
+   "culture": "On the night of Chilseok, the 7th day of the 7th lunar month, there is a ritual where women prepare food and pray for the well-being of their families. In Chungcheongbuk-do, it is believed that Chilseongshin brings prosperity to families, and women, usually led by grandmothers, perform rituals in the backyard. Additionally, Chilseonggut is a shamanistic ritual wishing for longevity, and in Pyeongan-do and Hwanghae-do, shamans influenced by Buddhism wear a jangsam (traditional robe) over their clothes while performing."
+  },
+  "zh": {
+   "origin": "七星神是韩国神话中掌管雨水或负责人的长寿和财富的神。这是北斗七星的拟人化，主要在韩国佛教寺庙的七星阁或三星阁中受到崇拜。七星神被认为是韩国巫俗、佛教和道教的融合。",
+   "legend": "七星神是掌管雨水和负责人的长寿与财富的神，是北斗七星的拟人化存在。在济州岛，本土的盐神被称为七星神，以蛇的形态出现，掌管财富。蛇神被认为与北斗七星相似，负责人的生活和命运，因此被称为七星神。",
+   "variants": "根据在济州岛传承的七星本谱，无法生育的中国夫妇生下了女儿。这个女儿为了寻找父母而离开，遇到了一位僧人并怀孕，父母愤怒地将她放入石箱中并漂流到海上。她在海中生下了七条蛇，最终自己也变成了蛇。她们到达济州朝天，受到当地海女的轻视，但最终被视为神圣存在，经历了生病后恢复并获得财富。",
+   "culture": "七星神在农历七月七日七夕夜，女性们准备食物并祈求家庭安宁的仪式。在忠清北道，人们相信七星神带来家庭的繁荣，通常由女性，通常是祖母主导，在后院举行祭祀。此外，七星祭是祈求长寿的巫俗仪式，在平安道和黄海道受到佛教的影响，巫师穿着长袍在歌谣上进行仪式。"
+  },
+  "ja": {
+   "origin": "七星神（チルソンシン）は韓国神話で雨を司り、人間の長寿と富を責任する神である。これは北斗七星を擬人化したもので、韓国の仏教寺院の七星閣や三星閣で主に崇拝される。七星神は韓国の巫俗、仏教、道教の融合と見なされている。",
+   "legend": "七星神は雨を司り、人間の長寿と富を責任する神で、北斗七星を擬人化した存在である。済州島（チェジュド）では本土の厭神（ヨムシン）が七星神と呼ばれ、蛇の形で現れ富を司る。蛇神は人間の生活と運命を司る役割が北斗七星と類似していると考えられ、七星神と呼ばれる。",
+   "variants": "済州島で伝わる七星本풀이によれば、子供を持てなかった中国の夫婦が娘を産む。その娘は両親を探すために出発し、僧侶に出会って妊娠し、両親は怒って彼女を石の箱に入れて海に流す。彼女は海で七匹の蛇を産み、最終的に自分も蛇に変わる。彼らは済州の調川（チョチョン）に到着し、地域の海女たちに軽視されるが、神的存在として認識され病気が治り富を得る。",
+   "culture": "七星神は陰暦7月7日の七夕の夜に女性たちが食べ物を準備し、家族の安寧を祈る儀式がある。忠清北道（チュンチョンブクド）では七星神が家族の繁栄をもたらすと信じられ、女性たち、通常は祖母の主導で裏庭で祭りを行う。また、七星グッ（チルソングッ）は長寿を祈る巫俗儀式で、平安道（ピョンアン道）と黄海道（ファンヘ道）では仏教の影響を受けて巫女が歌詞の上に長衣を着て修行する。"
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "염라대왕",
+ "sourceLang": "ko",
+ "sourceChars": 5537,
+ "generatedAt": "2026-07-06T11:37:01.509Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "염마 또는 염라대왕은 불교의 명부신이자 호법신으로, 죽은 자를 심판하며 지옥과 윤회의 굴레를 관장한다고 전해진다. 그는 험상궂은 붉은 얼굴과 툭 튀어나온 눈, 긴 수염을 가진 거구의 남성으로 묘사되며, 전통 복식에 판관의 관이나 '왕'이라는 한자가 새겨진 관을 쓰고 있다. 염라대왕은 일반적으로 정의롭고 공정한 지옥의 재판장으로 여겨지며, 죽은 자의 선행과 악행을 바탕으로 심판을 내린다.",
+   "variants": "",
+   "culture": "염라대왕은 동아시아의 민간신앙에서 다양한 해석을 받는다. 어떤 이들은 그를 불교의 신으로 인식하는 반면, 다른 이들은 지장보살의 도교적 대응물로 여기거나 무속의 신으로 여기기도 한다. 그는 또한 중국의 고전 소설 '서유기'에도 등장하여, 손오공과의 일화에서 지옥의 판관으로서의 역할을 보여준다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Yama or Yeomra Daewang is a deity of the Buddhist underworld and a guardian deity, said to judge the dead and oversee hell and the cycle of reincarnation. He is depicted as a large man with a fearsome red face, bulging eyes, and a long beard, wearing traditional attire along with a judge's cap or a crown inscribed with the character for 'king'. Yeomra Daewang is generally regarded as a just and fair judge of hell, rendering judgments based on the good and evil deeds of the deceased.",
+   "variants": "",
+   "culture": "Yeomra Daewang is interpreted in various ways within East Asian folk beliefs. Some recognize him as a Buddhist deity, while others see him as a Taoist counterpart to Ksitigarbha or as a shamanistic god. He also appears in the classic Chinese novel 'Journey to the West' (서유기, Seoyugi), where he demonstrates his role as a judge of hell in anecdotes involving Sun Wukong."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "阎魔或阎罗大王是佛教的冥府神和护法神，传说中负责审判死者并管理地狱和轮回的轮回。他被描绘为一个面容严峻、红色面孔、突出的眼睛和长胡须的巨大男性，通常穿着传统服饰，戴着判官的帽子或刻有“王”字的帽子。阎罗大王通常被视为公正的地狱法官，根据死者的善行和恶行进行审判。",
+   "variants": "",
+   "culture": "阎罗大王在东亚的民间信仰中有多种解读。有些人将他视为佛教的神，而另一些人则将他视为地藏菩萨的道教对应物或巫术的神。他还出现在中国古典小说《西游记》中，展示了他作为地狱法官的角色，与孙悟空的故事中有所体现。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "閻魔（えんま）または閻羅大王（えんらだいおう）は仏教の冥府神であり、法を守る神として、死者を裁き、地獄と輪廻の輪を司ると伝えられている。彼は険しい赤い顔と突き出た目、長いひげを持つ巨漢の男性として描かれ、伝統的な服装に判官の冠や「王」という漢字が刻まれた冠をかぶっている。閻羅大王は一般的に正義で公平な地獄の裁判官と見なされ、死者の善行と悪行に基づいて裁きを下す。",
+   "variants": "",
+   "culture": "閻羅大王は東アジアの民間信仰においてさまざまな解釈を受ける。ある人々は彼を仏教の神と認識する一方で、他の人々は地蔵菩薩（じぞうぼさつ）の道教的対応物として見たり、巫俗の神として考えたりする。彼はまた、中国の古典小説『西遊記』（さいゆうき）にも登場し、孫悟空（そんごくう）との逸話において地獄の判官としての役割を示す。"
+  }
+ }
+}

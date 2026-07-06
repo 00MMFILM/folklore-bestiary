@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Teojusin",
+ "sourceLang": "en",
+ "sourceChars": 8489,
+ "generatedAt": "2026-07-06T11:44:55.569Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "터주신은 한국의 가신 신앙에서 집이 세워진 땅의 수호신으로 알려져 있다. 이 신은 지신(地神)으로도 알려져 있으며, 한국 신화에서 중요한 존재로 여겨진다. 터주신은 쌀, 완두콩 또는 팥을 담고 있는 항아리의 형태로 여겨지며, 이 항아리는 뒷마당의 모서리나 장독대에 묻히거나 놓여졌다. 항아리는 쌀 줄기로 엮은 원뿔 모양의 우산으로 덮여 있었고, 매년 항아리 안의 곡물은 교체되었다. 가족은 이 곡물로 떡을 만들어냈으며, 이 떡은 행운을 상징하기 때문에 나누어 먹지 않았다. 터주신은 탐욕스러운 신으로 여겨지기도 하였다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "The Tuhusin (터주신) is known as the guardian deity of the land where a house is built in Korean shamanistic beliefs. This deity is also known as the Jisin (지신) and is considered an important figure in Korean mythology. The Tuhusin is often represented in the form of a jar containing rice, peas, or red beans, which is buried or placed in the corner of the backyard or by the jangdokdae (장독대). The jar was covered with a conical umbrella made of rice straw, and the grains inside the jar were replaced every year. The family would make rice cakes (떡) from these grains, and since these rice cakes symbolize good fortune, they were not shared. The Tuhusin is sometimes regarded as a greedy deity.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "터주신在韩国的家神信仰中被认为是房屋所建土地的守护神。这个神也被称为地神（Dijin），在韩国神话中被视为重要存在。터주신被认为是装有大米、豌豆或红豆的罐子的形状，这个罐子通常埋在后院的角落或放在酱缸旁边。罐子上覆盖着用稻草编织的锥形伞，每年罐子里的谷物都会被更换。家人用这些谷物制作年糕，因为这个年糕象征着好运，所以不会分享。터주신有时也被视为贪婪的神。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "タルジュシン（Tareujin）は韓国の家神信仰において、家が建てられた土地の守護神として知られている。この神は地神（ジシン、Jisin）とも呼ばれ、韓国神話で重要な存在と見なされている。タルジュシンは米、エンドウ豆または小豆を入れた壺の形をしているとされ、この壺は裏庭の隅や醤油蔵に埋められたり置かれたりしていた。壺は米の茎で編まれた円錐形の傘で覆われており、毎年壺の中の穀物は交換されていた。家族はこの穀物で餅を作り、この餅は幸運を象徴するため分けて食べることはなかった。タルジュシンは貪欲な神とも見なされていた。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

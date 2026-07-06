@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Eopsin",
+ "sourceLang": "en",
+ "sourceChars": 5000,
+ "generatedAt": "2026-07-06T11:44:39.173Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "Eopsin(업신)은 한국 신화와 무속에서 저장과 부의 여신으로 알려져 있다. 그녀는 가신 중 하나로, 집을 보호하는 신들 중 하나이다. 다른 가신들이 주로 물건의 형태를 띠고 있는 것과 달리, Eopsin은 동물의 형태로 나타나는 것이 특징이다. 이는 한국인들이 쥐와 쥐를 잡아먹는 뱀과 족제비를 신성하게 여겼기 때문이다.",
+   "variants": "",
+   "culture": "Eopsin은 일반적으로 뱀, 족제비, 두꺼비의 형태를 지닌 것으로 여겨졌다. 드물게 소, 돼지, 수탉, 개의 형태로도 나타나는 것으로 믿어졌다. Eopsin이 사람의 꿈에 나타나면 그 사람은 금전적인 문제를 겪게 된다고 전해진다. 제주도에서는 Eopsin의 대안으로 칠성신이 존재하며, 칠성신은 저장의 여신으로 여겨진다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Eopsin is known as the goddess of storage and wealth in Korean mythology and shamanism. She is one of the household gods, protecting the home. Unlike other household gods that primarily take the form of objects, Eopsin is characterized by appearing in the form of animals. This is because Koreans have regarded rats and the snakes and weasels that eat them as sacred.",
+   "variants": "",
+   "culture": "Eopsin is generally considered to take the form of snakes, weasels, and toads. It is also believed that she can rarely appear in the forms of cows, pigs, roosters, and dogs. When Eopsin appears in a person's dream, it is said that the person will face financial problems. In Jeju Island, there is an alternative to Eopsin known as Chilseongshin, who is regarded as the goddess of storage."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "Eopsin（业神）在韩国神话和巫术中被认为是储藏和财富的女神。她是众神之一，是保护家庭的神灵之一。与其他神灵主要以物品的形态出现不同，Eopsin的特点是以动物的形态出现。这是因为韩国人将老鼠和捕食老鼠的蛇与鼬视为神圣的存在。",
+   "variants": "",
+   "culture": "Eopsin通常被认为具有蛇、鼬和蟾蜍的形态。也有罕见的情况下，她以牛、猪、公鸡和狗的形态出现。传说Eopsin出现在人的梦中时，那个人将会遭遇金钱上的问题。在济州岛，Eopsin的替代神是七星神，七星神被视为储藏的女神。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "Eopsin（업신）は韓国の神話と巫俗で貯蔵と富の女神として知られている。彼女は神々の一つであり、家を守る神々の中の一つである。他の神々が主に物の形を持っているのに対し、Eopsinは動物の形で現れることが特徴である。これは韓国人がネズミとネズミを捕まえるヘビとイタチを神聖視していたためである。",
+   "variants": "",
+   "culture": "Eopsinは一般的にヘビ、イタチ、ヒキガエルの形を持つと考えられていた。稀に牛、豚、雄鶏、犬の形でも現れると信じられていた。Eopsinが人の夢に現れると、その人は金銭的な問題を抱えることになると伝えられている。済州島ではEopsinの代わりに七星神が存在し、七星神は貯蔵の女神と見なされている。"
+  }
+ }
+}

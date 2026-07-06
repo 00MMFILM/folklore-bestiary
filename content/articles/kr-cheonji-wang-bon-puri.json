@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Korean creation narratives",
+ "sourceLang": "en",
+ "sourceChars": 67355,
+ "generatedAt": "2026-07-06T11:40:56.042Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "Cheonji-wang bon-puri는 제주도 남부에서 전해지는 한국의 창조 신화로, 천지왕이 지구에 내려와 한 여인과 결혼하여 쌍둥이 아들인 대별왕과 소별왕을 낳는 이야기로 시작된다. 이들은 하늘로 올라가 두 개의 태양과 두 개의 달을 파괴하고, 꽃을 키우는 경연에 참여한다. 소별왕의 통치 아래에서 살아가는 세계는 악으로 가득 차 있지만, 대별왕은 죽은 자의 세계로 가서 정의를 세운다.",
+   "variants": "Cheonji-wang bon-puri는 여러 가지 변형이 존재하며, 1930년대 이후로 20가지 다른 버전이 연구자들에게 알려져 있다. 이들 버전은 전체적인 내러티브 구조는 공유하지만, 세부 사항에서는 다양한 차이를 보인다. 이러한 차이는 제주도 북부와 남부 간의 지역적 변형을 반영할 수 있다.",
+   "culture": "Cheonji-wang bon-puri는 제주도에서 여전히 의식적 맥락에서 수행되며, 대규모 의식인 '대굿'에서 창조 신화를 낭송한다. 이 의식은 모든 신들을 초대하는 '초감제'로 시작되며, 창조 신화는 의식의 역사적 및 신화적 맥락을 제공한다. 제주도 주민들의 전통적인 종교 생활과 관련된 여러 의식에서도 이 신화가 중요한 역할을 한다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Cheonji-wang bon-puri is a Korean creation myth passed down in the southern part of Jeju Island, beginning with the story of Cheonji-wang descending to Earth, marrying a woman, and giving birth to twin sons, Daebyeol-wang and Sobyeol-wang. They ascend to the sky, destroy two suns and two moons, and participate in a contest to grow flowers. The world under Sobyeol-wang's rule is filled with evil, but Daebyeol-wang goes to the world of the dead to establish justice.",
+   "variants": "Cheonji-wang bon-puri has several variations, with 20 different versions known to researchers since the 1930s. These versions share an overall narrative structure but exhibit various differences in details. These differences may reflect regional variations between northern and southern Jeju Island.",
+   "culture": "Cheonji-wang bon-puri is still performed in a ritual context in Jeju Island, recited during the large-scale ritual known as 'Daegut'. This ritual begins with 'Chogamje', which invites all gods, and the creation myth provides the historical and mythological context of the ritual. This myth also plays an important role in various rituals related to the traditional religious life of the residents of Jeju Island."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "Cheonji-wang bon-puri是传说中的韩国创世神话，流传于济州岛南部。故事开始于天帝（Cheonji-wang）降临地球，与一位女性结婚，生下双胞胎儿子大别王（Daebyeol-wang）和小别王（Sobyul-wang）。他们升天后摧毁了两个太阳和两个月亮，并参加了种花的比赛。在小别王的统治下，生活的世界充满了邪恶，但大别王前往亡者的世界建立正义。",
+   "variants": "Cheonji-wang bon-puri有多种变体，自1930年代以来，研究者们已知有20种不同版本。这些版本在整体叙事结构上是共享的，但在细节上存在各种差异。这些差异可能反映了济州岛北部和南部之间的地域变异。",
+   "culture": "Cheonji-wang bon-puri在济州岛仍然在仪式性背景下进行，在大型仪式'大굿'中朗诵创世神话。该仪式以邀请所有神灵的'超感祭'开始，创世神话为仪式提供了历史和神话背景。在与济州岛居民的传统宗教生活相关的多个仪式中，这个神话也扮演着重要角色。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "Cheonji-wang bon-puri（천지왕 본풀이）は、済州島（チェジュド）南部で伝えられる韓国の創造神話で、天帝（チョンジワン）が地球に降りて一人の女性と結婚し、双子の息子である大別王（デビョルワン）と小別王（ソビョルワン）を生む物語から始まる。彼らは天に昇り、二つの太陽と二つの月を破壊し、花を育てる競技に参加する。小別王の統治下で生きる世界は悪に満ちているが、大別王は死者の世界に行き、正義を確立する。",
+   "variants": "Cheonji-wang bon-puri（천지왕 본풀이）は、いくつかの変種が存在し、1930年代以降、20種類の異なるバージョンが研究者に知られている。これらのバージョンは全体的なナラティブ構造を共有しているが、詳細にはさまざまな違いが見られる。これらの違いは、済州島（チェジュド）北部と南部間の地域的変種を反映している可能性がある。",
+   "culture": "Cheonji-wang bon-puri（천지왕 본풀이）は、済州島（チェジュド）で依然として儀式的な文脈で行われており、大規模な儀式である「大굿（デグッ）」で創造神話が朗読される。この儀式はすべての神々を招待する「初感祭（チョガムジェ）」から始まり、創造神話は儀式の歴史的および神話的文脈を提供する。済州島（チェジュド）住民の伝統的な宗教生活に関連するさまざまな儀式でも、この神話が重要な役割を果たしている。"
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "용비어천가",
+ "sourceLang": "ko",
+ "sourceChars": 4894,
+ "generatedAt": "2026-07-06T11:41:12.182Z",
+ "locales": {
+  "ko": {
+   "origin": "《용비어천가》는 조선 세종 때 권제와 정인지, 안지 등이 세종의 명을 받아 선조인 목조에서 태종에 이르는 여섯 대의 행적을 노래한 악장·서사시로, 1447년에 간행되었다. 1442년부터 자료 수집을 시작하여 1445년 4월에 한글로 지은 서사시와 그 뜻을 풀이한 한시를 덧붙인 본문이 완성되었고, 이후 역사적 사실과 업적을 첨부하여 설명한 부분이 추가되어 최종적으로 책으로 완성되었다.",
+   "legend": "《용비어천가》는 조선 개국의 위대함과 시련을 노래하며, 그것이 하늘의 명에 따라 이루어졌다고 강조한다. 내용은 목조, 익조, 도조, 환조, 태조, 태종 등 조선의 선대인 6대에 걸쳐 그 사적을 노래하고 있으며, 각 장은 중국 역사상의 사적과 조선 개국의 사적을 대구로 하여 구성되어 있다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "The \"Yongbieocheonga\" is a musical piece and epic poem created during the reign of King Sejong of the Joseon Dynasty by Gwon Je, Jeong In-ji, An Ji, and others, commissioned by Sejong to sing the deeds of six generations from the founding ancestor, King Taejo, to King Taejong. It was published in 1447. The collection of materials began in 1442, and by April 1445, the main text, which included an epic poem written in Hangul and an explanation in classical Chinese, was completed. Subsequently, additional sections explaining historical facts and achievements were added, ultimately completing the book.",
+   "legend": "The \"Yongbieocheonga\" sings of the greatness and trials of the founding of Joseon, emphasizing that it was accomplished according to the will of heaven. The content covers the historical deeds of six ancestors of Joseon, including King Taejo, King Jeongjo, King Dojo, King Hwanjo, King Taejo, and King Taejong, and each chapter is structured in parallel with historical events from Chinese history and the founding of Joseon.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "《龙飞御天歌》是朝鲜世宗时期权制、郑麟趾、安之等人在世宗的命令下，歌颂从先祖木祖到太宗的六代事迹的乐章·叙事诗，于1447年刊行。自1442年开始资料收集，至1445年4月完成了用韩文创作的叙事诗及其解释的汉诗的正文，随后又附加了历史事实和成就的说明部分，最终完成了这本书。",
+   "legend": "《龙飞御天歌》歌颂了朝鲜建国的伟大与磨难，并强调这一切是按照天命而成的。内容涵盖了木祖、翼祖、道祖、桓祖、太祖、太宗等朝鲜的先代六代的事迹，每一章以中国历史上的事迹与朝鲜建国的事迹相对照进行构成。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "《用毘於天歌》（Yōbihōtenka）は、朝鮮の世宗（Sejong）時代に権制（Gwonje）、鄭麟趾（Jeong In-ji）、安之（Anji）などが世宗の命を受けて、先祖である木祖（Mokjo）から太宗（Taejong）に至る六代の行跡を歌った楽章・叙事詩で、1447年に刊行された。1442年から資料収集を始め、1445年4月にハングルで書かれた叙事詩とその意味を解説した漢詩を付け加えた本文が完成し、その後、歴史的事実と業績を添付して説明した部分が追加され、最終的に書籍として完成した。",
+   "legend": "《用毘於天歌》（Yōbihōtenka）は、朝鮮建国の偉大さと試練を歌い、それが天の命に従って成し遂げられたことを強調している。内容は木祖（Mokjo）、益祖（Ikjo）、道祖（Dojo）、煥祖（Hwanjo）、太祖（Taejo）、太宗（Taejong）など朝鮮の先代である六代にわたるその史跡を歌っており、各章は中国の歴史上の史跡と朝鮮建国の史跡を対句として構成されている。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

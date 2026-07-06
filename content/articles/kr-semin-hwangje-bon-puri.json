@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Semin-hwangje bon-puri",
+ "sourceLang": "en",
+ "sourceChars": 14861,
+ "generatedAt": "2026-07-06T11:38:53.720Z",
+ "locales": {
+  "ko": {
+   "origin": "Semin-hwangje bon-puri는 제주도 남부에서 장례식 중에 암송되었던 한국의 무속 서사로, 현재는 구술 전통이 사라져 '특별한 본풀이'로 분류된다.",
+   "legend": "이 서사는 중국의 태종이 죽은 후, 그가 생전에 불법을 탄압하고 백성을 괴롭혔던 죄를 갚기 위해 고통받은 영혼들에게 보상을 해야 한다는 내용이다. 태종은 자신의 사후 세계 금고가 비어있음을 깨닫고, 부유한 커플인 매일과 장상에게서 돈을 빌려 피해자들에게 보상한 후, 다시 살아나게 된다. 그는 변장하여 매일과 장상의 선행을 직접 목격하고, 도덕적인 삶을 살기로 결심한다. 이후 그는 불경을 가져오기 위해 스님을 보내고, 매일과 장상을 멘토로 삼는다.",
+   "variants": "Bak Bong-chun의 1931년 버전과 Jo Sul-saeng의 1961년 버전이 있다. Bak의 버전은 태종이 죽은 후 그의 죄를 갚기 위해 고통받은 영혼들에게 보상하는 과정을 상세히 묘사하고, 불경을 찾는 여정을 포함한다. 반면 Jo의 버전은 짧고 일관성이 부족하며, 매일과 장상의 선행에 대한 이야기로 시작하여 태종이 중간에 등장하는 구조이다.",
+   "culture": "Semin-hwangje bon-puri는 제주 무속의 장례식에서 중요한 역할을 했으나, 1961년 이후로는 구술 전통이 사라져 현재는 암송되지 않는다. 전통적인 제주 종교가 1960년대 이후 쇠퇴하면서, Semin-hwangje bon-puri와 같은 비교적 덜 중요한 서사들이 무속인들에 의해 버려졌을 가능성이 있다."
+  },
+  "en": {
+   "origin": "Semin-hwangje bon-puri is a Korean shamanic narrative that was recited during funerals in the southern part of Jeju Island, and is now classified as a 'special bon-puri' due to the disappearance of the oral tradition.",
+   "legend": "This narrative tells the story of how after the death of Emperor Taizong (Taejong) of China, he must repay the suffering souls for the sins he committed during his life, where he oppressed Buddhism and troubled the people. Taizong realizes that his afterlife treasury is empty, borrows money from a wealthy couple, Maeil and Jang-sang, compensates the victims, and then comes back to life. He disguises himself to witness the good deeds of Maeil and Jang-sang firsthand and resolves to live a moral life. Subsequently, he sends a monk to bring back Buddhist scriptures and takes Maeil and Jang-sang as mentors.",
+   "variants": "There are versions by Bak Bong-chun from 1931 and Jo Sul-saeng from 1961. Bak's version details the process of Taizong compensating the suffering souls to atone for his sins after his death and includes the journey to find the Buddhist scriptures. In contrast, Jo's version is shorter and lacks coherence, starting with the story of Maeil and Jang-sang's good deeds and featuring Taizong's appearance in the middle.",
+   "culture": "Semin-hwangje bon-puri played an important role in Jeju shamanic funerals, but since 1961, the oral tradition has disappeared and it is no longer recited. As traditional Jeju religion has declined since the 1960s, it is possible that relatively less significant narratives like Semin-hwangje bon-puri have been abandoned by shamans."
+  },
+  "zh": {
+   "origin": "Semin-hwangje bon-puri是在济州岛南部的葬礼中吟诵的韩国巫俗叙事，现已因口头传统的消失而被归类为'特别的本谱'。",
+   "legend": "这个故事讲述了中国的太宗（Taizong）去世后，他必须为生前压迫佛教和折磨百姓的罪行向受苦的灵魂们进行补偿的内容。太宗意识到自己死后的世界金库是空的，于是向富有的情侣梅日（Maeil）和长相（Jang-sang）借钱，补偿受害者后复活。他化妆后亲眼目睹梅日和长相的善行，并决心过上道德的生活。之后，他派僧人去取佛经，并以梅日和长相为导师。",
+   "variants": "Bak Bong-chun的1931年版本和Jo Sul-saeng的1961年版本。Bak的版本详细描述了太宗去世后为受苦的灵魂补偿的过程，并包括寻找佛经的旅程。而Jo的版本则较短且缺乏一致性，以梅日和长相的善行故事开始，中间出现太宗的结构。",
+   "culture": "Semin-hwangje bon-puri在济州巫俗的葬礼中扮演了重要角色，但自1961年以来口头传统已消失，目前不再吟诵。随着1960年代以来传统济州宗教的衰退，像Semin-hwangje bon-puri这样的相对不重要的叙事可能被巫师们所遗弃。"
+  },
+  "ja": {
+   "origin": "Semin-hwangje bon-puriは済州島南部で葬儀中に暗唱されていた韓国の巫俗叙事で、現在は口承伝統が消えたため「特別な本풀이」と分類される。",
+   "legend": "この叙事は、中国の太宗（Taejong）が死んだ後、彼が生前に仏法を弾圧し、民を苦しめた罪を償うために苦しむ霊たちに報いなければならないという内容である。太宗は自らの死後の世界の金庫が空であることに気づき、裕福なカップルであるメイル（Maeil）とチャンサン（Jangsang）からお金を借りて被害者たちに報い、その後再び生き返る。彼は変装してメイルとチャンサンの善行を直接目撃し、道徳的な生活を送ることを決意する。その後、彼は経典を持ってくるために僧侶を送り、メイルとチャンサンをメンターとする。",
+   "variants": "Bak Bong-chunの1931年版とJo Sul-saengの1961年版がある。Bakの版は太宗が死んだ後、彼の罪を償うために苦しむ霊たちに報いる過程を詳細に描写し、経典を探す旅を含む。一方、Joの版は短く、一貫性に欠け、メイルとチャンサンの善行に関する物語から始まり、太宗が途中で登場する構造である。",
+   "culture": "Semin-hwangje bon-puriは済州の巫俗の葬儀で重要な役割を果たしていたが、1961年以降口承伝統が消え、現在は暗唱されていない。伝統的な済州の宗教が1960年代以降衰退する中で、Semin-hwangje bon-puriのような比較的重要でない叙事が巫女たちによって捨てられた可能性がある。"
+  }
+ }
+}

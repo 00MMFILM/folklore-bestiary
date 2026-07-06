@@ -8,6 +8,7 @@ import { getRegionColors } from "@/lib/region-colors";
 import Breadcrumb from "@/components/Breadcrumb";
 import LanguageSelector from "@/components/LanguageSelector";
 import { getCreatureTranslation } from "@/lib/creature-translations";
+import { getCreatureArticle } from "@/lib/articles";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://folklore-bestiary.vercel.app";
 
@@ -98,6 +99,18 @@ export default async function CreaturePage({
   const rawSh = trans?.sh || creature.sh;
   const storyHooks = rawSh ? (Array.isArray(rawSh) ? rawSh : [rawSh]) : null;
 
+  // 심화 아티클 (있을 때만 — content/articles/{id}.json)
+  const article = getCreatureArticle(creature.id, locale);
+  const articleSections = article
+    ? ([
+        ["article.origin", article.sections.origin],
+        ["article.legend", article.sections.legend],
+        ["article.variants", article.sections.variants],
+        ["article.culture", article.sections.culture],
+      ] as const).filter(([, text]) => text && text.length > 0)
+    : [];
+  const articleBody = articleSections.map(([, text]) => text).join("\n\n");
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -108,6 +121,9 @@ export default async function CreaturePage({
     publisher: { "@type": "Organization", name: "Global Folklore Bestiary" },
     mainEntityOfPage: `${SITE_URL}/${locale}/creatures/${creature.id}`,
     inLanguage: locale,
+    ...(articleBody
+      ? { articleBody, wordCount: articleBody.split(/\s+/).length }
+      : {}),
     keywords: [
       creature.t,
       creature.country,
@@ -272,6 +288,36 @@ export default async function CreaturePage({
             </h2>
             <p style={{ lineHeight: 1.8, fontSize: "16px", color: "#ccc" }}>{description}</p>
           </section>
+
+          {/* In-depth article sections */}
+          {articleSections.map(([key, text]) => (
+            <section key={key} style={{ marginBottom: "32px" }}>
+              <h2 style={{ fontSize: "18px", color: colors.accent, marginBottom: "12px" }}>
+                {t[key]}
+              </h2>
+              {text.split(/\n{2,}|\n/).filter(Boolean).map((para, i) => (
+                <p
+                  key={i}
+                  style={{ lineHeight: 1.8, fontSize: "16px", color: "#ccc", marginBottom: "12px" }}
+                >
+                  {para}
+                </p>
+              ))}
+            </section>
+          ))}
+          {article && (
+            <p style={{ fontSize: "12px", color: "#777", marginBottom: "32px" }}>
+              {t["article.attribution"].replace("{title}", article.sourceTitle)}{" · "}
+              <a
+                href={`https://${article.sourceLang}.wikipedia.org/wiki/${encodeURIComponent(article.sourceTitle)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "#999" }}
+              >
+                Wikipedia
+              </a>
+            </p>
+          )}
 
           {/* Abilities & Weaknesses */}
           <div

@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Founding legends of the Goryeo royal family",
+ "sourceLang": "en",
+ "sourceChars": 3707,
+ "generatedAt": "2026-07-06T11:41:54.788Z",
+ "locales": {
+  "ko": {
+   "origin": "고려 왕조의 기원 전설은 후삼국 시대에 한반도를 통일한 왕건의 조상에 대한 신화적 이야기이다.",
+   "legend": "편년통록에 따르면 고려 왕조의 기원은 고구려에서 시작된다. 호경이라는 인물은 백두산에서 태어나 여러 곳을 여행한 후, 송악(현재의 개성)에 정착하여 가정을 이루었다. 그는 평나산에서 사냥 중에 만난 과부 산신과 결혼하여 산의 왕이 되기를 원했다. 호경의 아들 강충은 그의 후손이 삼한을 통일할 것이라는 예언을 이루기 위해 송악산에 소나무를 심었다. 그는 보육이라는 아들을 두었고, 보육의 딸 진의는 당나라 왕족과 결혼하여 자첩건이라는 자식을 낳았다. 자첩건은 용녀와 결혼하여 왕륜을 낳았고, 왕륜의 아들 왕건이 고려를 세우게 된다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "The legend of the origin of the Goryeo dynasty is a mythical story about the ancestors of Wang Geon, who unified the Korean Peninsula during the Later Three Kingdoms period.",
+   "legend": "According to the 'Pyeonnyeon Tongrok', the origin of the Goryeo dynasty begins in Goguryeo. A figure named Ho-gyeong was born on Baekdu Mountain and, after traveling to various places, settled in Songak (present-day Kaesong) and started a family. He wished to become the king of the mountains by marrying a widow mountain spirit he encountered while hunting on Pyeongna Mountain. Ho-gyeong's son, Gangchung, planted a pine tree on Songaksan to fulfill the prophecy that his descendants would unify the Three Han. He had a son named Boyuk, and Boyuk's daughter, Jin-ui, married a member of the Tang dynasty royal family and gave birth to a child named Jacheopgeon. Jacheopgeon married Yongnyeo and had a son named Wanglun, and Wanglun's son, Wang Geon, would go on to establish Goryeo.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "高丽王朝的起源传说是关于统一半岛的王建的祖先的神话故事。",
+   "legend": "根据《编年通录》，高丽王朝的起源始于高句丽。名为霍京的人出生于白头山，游历多个地方后，定居在松岳（现在的开城）并组建了家庭。他在平南山狩猎时遇见了一位寡妇山神，并希望成为山的王。霍京的儿子强冲为了实现他的后代统一三韩的预言，在松岳山种下了松树。他有一个儿子名为保育，保育的女儿珍义与唐朝王族结婚，生下了子妾建。子妾建与龙女结婚，生下了王轮，而王轮的儿子王建则建立了高丽。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "高麗王朝の起源伝説は後三国時代に半島を統一した王建の祖先に関する神話的な物語である。",
+   "legend": "編年通録によれば高麗王朝の起源は高句麗から始まる。ホギョンという人物は白頭山で生まれ、いくつかの場所を旅した後、松岳（現在の開城）に定住して家庭を築いた。彼は平南山で狩りをしているときに出会った未亡人山神と結婚し、山の王になりたいと願った。ホギョンの息子カンチュンは、彼の子孫が三韓を統一するという予言を実現するために松岳山に松の木を植えた。彼はボユクという息子を持ち、ボユクの娘ジンイは唐の王族と結婚し、チャチョッコンという子供を産んだ。チャチョッコンは龍女と結婚して王輪を産み、王輪の息子王建が高麗を建国することになる。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

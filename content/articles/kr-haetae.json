@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Xiezhi",
+ "sourceLang": "en",
+ "sourceChars": 6450,
+ "generatedAt": "2026-07-06T11:44:07.582Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "해태(해태)는 한국에서 전해지는 전설적인 존재로, 근육질의 사자 같은 몸체에 날카로운 비늘이 덮여 있으며, 목에는 종이 달려 있고 이마에는 뿔이 있는 것으로 묘사된다. 해태는 만주 변방 지역에 살며, 불의 재해로부터 보호하는 존재로 여겨졌다. 조선 시대에는 해태가 불재해를 막아주는 수호신으로 믿어졌으며, 경복궁과 같은 건축물에 해태 조각이 사용되었다. 현대에는 서울의 도시 마스코트인 만화 캐릭터 해치가 해태를 모티프로 하고 있다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "Haetae (해태) is a legendary being passed down in Korea, described as having a muscular lion-like body covered with sharp scales, a bell around its neck, and a horn on its forehead. Haetae is believed to inhabit the border regions of Manchuria and is considered a protector against fire disasters. During the Joseon Dynasty, Haetae was believed to be a guardian deity that prevented fire calamities, and sculptures of Haetae were used in architectural structures such as Gyeongbokgung Palace. In modern times, the cartoon character Haechi, the city mascot of Seoul, is inspired by Haetae.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "海太（Hae-tae）是韩国传说中的一种存在，描述为肌肉发达的狮子般的身体，覆盖着锋利的鳞片，脖子上挂着铃铛，额头上有角。海太被认为生活在满洲边疆地区，是保护人们免受火灾灾害的存在。在朝鲜时代，海太被信仰为阻止火灾的守护神，像景福宫（Gyeongbokgung）这样的建筑物上使用了海太的雕刻。现代的首尔城市吉祥物漫画角色海奇（Haechi）以海太为灵感。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "해태（ヘテ、Haetae）は韓国で伝えられる伝説的な存在で、筋肉質のライオンのような体に鋭い鱗が覆われており、首には鈴が付いていて、額には角があると描写される。ヘテは満州の辺境地域に住んでおり、火の災害から守る存在と考えられていた。朝鮮時代にはヘテが火災を防ぐ守護神として信じられ、景福宮（キョンボックン）などの建築物にヘテの彫刻が使用された。現代ではソウルの都市マスコットである漫画キャラクターのヘチ（ヘチ）がヘテをモチーフにしている。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

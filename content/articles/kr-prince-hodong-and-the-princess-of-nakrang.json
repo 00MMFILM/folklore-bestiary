@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Prince Hodong and the Princess of Nakrang",
+ "sourceLang": "en",
+ "sourceChars": 6717,
+ "generatedAt": "2026-07-06T11:39:30.519Z",
+ "locales": {
+  "ko": {
+   "origin": "한국 전설인 호동왕자와 낙랑공주의 이야기는 적국의 왕자에 대한 사랑으로 자신의 나라를 배신한 공주에 관한 이야기이다. 이 이야기는 고구려의 대무신왕(서기 18-44년) 치세를 배경으로 하며, 삼국사기에 처음 언급된다. 낙랑은 외적의 침입에 대비해 스스로 소리를 내는 신성한 북과 나팔인 자명고를 보유하고 있었다. 대무신왕은 호동왕자에게 낙랑 공주를 속여 자명고를 파괴하게 하여 낙랑을 정복하라고 명령하였다.",
+   "legend": "호동왕자와 낙랑공주의 전설은 전쟁, 사랑, 배신, 죽음의 이야기를 담고 있다. 호동왕자는 고구려의 대무신왕의 아들이며, 낙랑공주는 낙랑의 왕 최리의 딸이다. 호동왕자는 낙랑의 신성한 자명고를 파괴하라는 공주의 요청을 하였고, 공주는 자신의 나라를 배신하고 이를 실행하였다. 그 결과 고구려의 군대가 낙랑을 공격하였고, 낙랑은 멸망하게 되었다.",
+   "variants": "이 이야기는 한국의 로미오와 줄리엣 이야기로 여겨지며, 다양한 예술가와 작가들에게 영감을 주었다. 1956년에는 김소동 감독의 영화 '호동왕자와 낙랑공주'가 제작되었고, 1962년에는 한형모 감독의 '왕자호동'이 개봉되었다. 1988년에는 임성남의 발레 '호동왕자'가 공연되었으며, 2009년에는 정성희가 집필하고 이명우가 감독한 드라마 '자명고'가 방영되었다.",
+   "culture": ""
+  },
+  "en": {
+   "origin": "The Korean legend of Prince Hodong (호동왕자) and Princess Nakrang (낙랑공주) is a story about a princess who betrays her own country for love of a prince from an enemy nation. This tale is set during the reign of King Daemusin (대무신왕) of Goguryeo (고구려) from 18 to 44 AD and is first mentioned in the Samguk Sagi (삼국사기). Nakrang possessed a sacred drum and trumpet called Jamyeonggo (자명고) that could make sounds to prepare for invasions by outsiders. King Daemusin ordered Prince Hodong to deceive Princess Nakrang into destroying the Jamyeonggo in order to conquer Nakrang.",
+   "legend": "The legend of Prince Hodong and Princess Nakrang contains themes of war, love, betrayal, and death. Prince Hodong is the son of King Daemusin of Goguryeo, and Princess Nakrang is the daughter of the King of Nakrang, Choe Ri (최리). Prince Hodong requested the princess to destroy Nakrang's sacred Jamyeonggo, and the princess betrayed her own country to carry this out. As a result, Goguryeo's army attacked Nakrang, leading to its downfall.",
+   "variants": "This story is considered Korea's version of Romeo and Juliet and has inspired various artists and writers. In 1956, the film 'Prince Hodong and Princess Nakrang' directed by Kim So-dong was produced, and in 1962, 'Prince Hodong' directed by Han Hyung-mo was released. In 1988, the ballet 'Prince Hodong' choreographed by Lim Seong-nam was performed, and in 2009, the drama 'Jamyeonggo' written by Jeong Seong-hee and directed by Lee Myung-woo was aired.",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "韩国传说中的霍东王子与乐浪公主的故事是关于一位因爱而背叛自己国家的公主与敌国王子的爱情故事。这个故事以高句丽的大武神王（公元18-44年）治世为背景，首次出现在《三国史记》中。乐浪为了防备外敌的侵袭，拥有能够发出声音的神圣鼓和号角——自鸣鼓。大武神王命令霍东王子欺骗乐浪公主，摧毁自鸣鼓，从而征服乐浪。",
+   "legend": "霍东王子与乐浪公主的传说包含战争、爱情、背叛和死亡的故事。霍东王子是高句丽的大武神王的儿子，而乐浪公主是乐浪王崔理的女儿。霍东王子应公主的请求，摧毁乐浪的神圣自鸣鼓，而公主背叛了自己的国家，执行了这一请求。结果，高句丽的军队攻击了乐浪，乐浪最终灭亡。",
+   "variants": "这个故事被视为韩国的罗密欧与朱丽叶，激励了许多艺术家和作家。1956年，金小东导演的电影《霍东王子与乐浪公主》制作完成，1962年，韩亨模导演的《王子霍东》上映。1988年，林成南的芭蕾舞剧《霍东王子》上演，2009年，郑成熙编剧、李明宇导演的电视剧《自鸣鼓》播出。",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "韓国の伝説であるホドン王子とナクラン公主の物語は、敵国の王子に対する愛によって自国を裏切った公主に関する物語である。この物語は高句麗の大武神王（西暦18-44年）の治世を背景にしており、三国史記に初めて言及される。ナクランは外敵の侵入に備えて自ら音を出す神聖な太鼓とトランペットであるジャミョンゴを保有していた。大武神王はホドン王子にナクラン公主を欺いてジャミョンゴを破壊させ、ナクランを征服するよう命じた。",
+   "legend": "ホドン王子とナクラン公主の伝説は、戦争、愛、裏切り、死の物語を含んでいる。ホドン王子は高句麗の大武神王の息子であり、ナクラン公主はナクランの王チェリの娘である。ホドン王子はナクランの神聖なジャミョンゴを破壊するよう公主に頼み、公主は自国を裏切ってこれを実行した。その結果、高句麗の軍隊がナクランを攻撃し、ナクランは滅亡した。",
+   "variants": "この物語は韓国のロミオとジュリエットの物語と見なされ、多くの芸術家や作家にインスピレーションを与えた。1956年にはキム・ソドン監督の映画『ホドン王子とナクラン公主』が制作され、1962年にはハン・ヒョンモ監督の『王子ホドン』が公開された。1988年にはイム・ソンナムのバレエ『ホドン王子』が上演され、2009年にはチョン・ソンヒが執筆しイ・ミョンウが監督したドラマ『ジャミョンゴ』が放送された。",
+   "culture": ""
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "콩쥐팥쥐전",
+ "sourceLang": "ko",
+ "sourceChars": 2939,
+ "generatedAt": "2026-07-06T11:40:18.478Z",
+ "locales": {
+  "ko": {
+   "origin": "콩쥐팥쥐전은 지은이와 연대 미상으로 조선의 유명한 가정소설 중 하나이며, 신데렐라계의 전래동화이다. 이 작품은 국문 고전소설 형식의 활자본으로 대창서원본(1919년판)과 태화서관본(1928년판) 등이 전해지고 있다.",
+   "legend": "이 이야기는 착한 주인공 콩쥐와 악한 계모 및 이복동생 팥쥐의 갈등을 중심으로 전개된다. 콩쥐는 계모와 팥쥐에게 학대를 받으며 고생하지만, 여러 동물과 하늘의 도움으로 마을 잔치에 참석하게 되고, 김씨 감사와 결혼하게 된다. 그러나 팥쥐는 콩쥐를 물에 빠뜨려 죽이고 대신 콩쥐 행세를 하게 된다. 결국 김 감사는 콩쥐의 시체를 발견하고, 팥쥐와 계모는 처벌을 받게 된다.",
+   "variants": "조선시대 중엽 전라도 전주 근방에서 최만춘이라는 퇴리와 부인 조씨, 딸 콩쥐가 살고 있었고, 부인이 죽은 후 과부 배씨를 후처로 맞게 되었다. 배씨는 팥쥐를 낳고 콩쥐를 학대하였으며, 결국 콩쥐는 연못에 빠져 죽게 된다. 이 이야기는 전북 완주군 이서면 은교리에 전해지고 있다.",
+   "culture": ""
+  },
+  "en": {
+   "origin": "The story of Kongji and Patji is one of the famous domestic novels of Joseon, with an unknown author and date, and is a Cinderella-type folktale. This work has been passed down in printed versions in the format of Korean classical novels, such as the Daechangseowon edition (1919) and the Taehwa Publishing edition (1928).",
+   "legend": "This story revolves around the conflict between the kind protagonist Kongji and her wicked stepmother and stepsister Patji. Kongji suffers abuse from her stepmother and Patji, but with the help of various animals and the heavens, she attends a village feast and marries Kim the magistrate. However, Patji drowns Kongji and pretends to be her. Eventually, Magistrate Kim discovers Kongji's corpse, and Patji and the stepmother are punished.",
+   "variants": "During the mid-Joseon period, in the vicinity of Jeonju, Jeollado, there lived a man named Choi Man-chun, his wife Mrs. Jo, and their daughter Kongji. After the wife died, he took a widow named Mrs. Bae as his second wife. Mrs. Bae gave birth to Patji and abused Kongji, ultimately leading to Kongji drowning in a pond. This story is passed down in Eungyo-ri, Iseo-myeon, Wanju-gun, Jeonbuk.",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "콩쥐팥쥐전是作者和年代不详的朝鲜著名家庭小说之一，是仙杜瑞拉（Cinderella）系列的民间故事。该作品以国文古典小说的形式流传，现存有大昌书院本（1919年版）和太华书馆本（1928年版）等。",
+   "legend": "这个故事围绕善良的主角콩쥐（Kongji）与恶毒的继母和异母妹妹팥쥐（Patji）之间的冲突展开。콩쥐在继母和팥쥐的虐待下受尽苦难，但在多种动物和天上的帮助下，她参加了村里的宴会，并与金氏（Kim）大人结婚。然而，팥쥐将콩쥐推入水中致其死亡，代替她的身份。最终，金大人发现了콩쥐的尸体，팥쥐和继母受到了惩罚。",
+   "variants": "在朝鲜时代中叶，전라도（Jeollado）全州附近，최만춘（Choi Man-chun）和妻子조씨（Jo）以及女儿콩쥐生活在一起。妻子去世后，他迎娶了寡妇배씨（Bae）为继妻。배씨生下了팥쥐，并虐待콩쥐，最终导致콩쥐溺水身亡。这个故事在全北完州郡李西面的 은교리（Eungyo-ri）流传。",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "コンジパッジ伝は、著者と年代不詳で朝鮮の有名な家庭小説の一つであり、シンデレラ系の伝説的な民話である。この作品は、国文古典小説形式の活字本として、大昌書院本（1919年版）や太和書館本（1928年版）などが伝えられている。",
+   "legend": "この物語は、善良な主人公コンジと悪い継母および異母妹パッジの対立を中心に展開される。コンジは継母とパッジに虐待されながら苦しむが、いくつかの動物と天の助けによって村のお祭りに参加し、キム氏のカムサと結婚する。しかし、パッジはコンジを水に沈めて殺し、代わりにコンジのふりをすることになる。結局、キムカムサはコンジの遺体を発見し、パッジと継母は罰を受けることになる。",
+   "variants": "朝鮮時代中葉、全羅道全州近郊でチェマンチュンという退里と妻チョ氏、娘コンジが住んでおり、妻が亡くなった後、未亡人ペ氏を後妻として迎えた。ペ氏はパッジを産み、コンジを虐待し、最終的にコンジは池に落ちて死ぬことになる。この物語は全北完州市イソ面ウンギョリに伝えられている。",
+   "culture": ""
+  }
+ }
+}

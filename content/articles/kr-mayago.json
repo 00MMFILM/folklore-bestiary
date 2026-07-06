@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Mayago",
+ "sourceLang": "en",
+ "sourceChars": 2190,
+ "generatedAt": "2026-07-06T11:41:51.706Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "마야고(마야고)는 한국 신화에서 지리산의 여신으로, 특정 산을 돌보는 역할을 맡고 있는 산신이다. 마야고는 무당이나 제사장이 기원하는 주요 신 중 하나로, 이들은 좋은 운과 수확을 기원하기 위해 마야고에게 기도를 드린다. 때때로 이러한 제사장들은 산에 거주하며, 산의 높이가 하늘과 신들에 가까운 정도를 나타낸다. 전설에 따르면, 마야고에게 기도를 드리면 비가 그친다는 이야기가 전해진다. 그녀는 고려 태조의 어머니인 왕륜과 동일시되기도 한다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "Mayago (Mayago) is a goddess in Korean mythology, specifically the goddess of Jirisan, who is responsible for taking care of certain mountains. Mayago is one of the main deities that shamans or priests pray to, as they seek good fortune and harvests by offering prayers to her. Sometimes these priests reside in the mountains, and the height of the mountain symbolizes closeness to the heavens and the gods. According to legend, it is said that when prayers are offered to Mayago, the rain will cease. She is also identified with Wangryun, the mother of Goryeo's founder, Taejo.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "玛雅高（Maya-go）是韩国神话中智异山的女神，负责照顾特定山脉的山神。玛雅高是巫师或祭司祈求的主要神之一，他们向玛雅高祈祷以求好运和丰收。有时这些祭司居住在山上，山的高度象征着与天空和神灵的接近程度。传说中，向玛雅高祈祷会使雨停。她有时被视为高丽太祖的母亲王轮（Wang Lun）。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "マヤゴ（Maya-go）は韓国神話において、ジリ山の女神であり、特定の山を守る役割を担っている山神である。マヤゴは、無道（ムダン）や祭司が祈願する主要な神の一つであり、彼らは良い運と収穫を願ってマヤゴに祈りを捧げる。時には、これらの祭司は山に住み、山の高さが天と神々に近いことを示す。伝説によれば、マヤゴに祈りを捧げると雨が止むという話が伝わっている。彼女は高麗（コリョ）の太祖（テジョ）の母である王輪（ワンリュン）と同一視されることもある。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Gawp",
+ "sourceLang": "en",
+ "sourceChars": 1688,
+ "generatedAt": "2026-07-06T11:40:02.401Z",
+ "locales": {
+  "ko": {
+   "origin": "Gawp(가웁)은 제주도 무속에서 하늘과 땅, 인간과 비인간, 생과 사의 경계를 나타내는 우주론적 개념이다. 제주 창조 신화에서는 하늘과 땅 사이에 가웁이 원래의 혼합 상태에서 생성된다고 전해진다.",
+   "legend": "가웁은 인간과 비인간 사이의 경계를 설정하는 신으로, 대별왕이 동물, 식물, 바위의 혀를 마비시켜 그들이 더 이상 말을 할 수 없게 하고, 생과 사를 물리적으로 분리하는 과정에서 형성된다. 또한, 불도마지 의식에서는 샤먼(심방)이 생불할망(출산의 여신)과 구삼승할망(죽은 아이의 여신) 사이에 가웁을 창조하여 아기들을 죽이고 그녀의 지배 아래로 데려가는 질병을 전파하는 역할을 한다. 두린굿에서는 정신 질환을 치료하기 위해 샤먼이 인간 환자와 그들의 몸에 들어가 미친 상태를 초래한 악성 도깨비 사이에 가웁을 만들기 위해 노력한다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Gawp (가웁) is a cosmological concept in Jeju Island shamanism that represents the boundary between heaven and earth, humans and non-humans, and life and death. In the Jeju creation myth, it is said that Gawp is generated in its original mixed state between heaven and earth.",
+   "legend": "Gawp is a deity that establishes the boundary between humans and non-humans, formed during the process where Daebyeolwang paralyzes the tongues of animals, plants, and rocks so that they can no longer speak, physically separating life and death. Additionally, in the Buldomaji ritual, the shaman (simbang) creates Gawp between Saengbulhalmang (the goddess of childbirth) and Gusaemsunghalmang (the goddess of dead children), playing a role in spreading diseases that kill babies and bring them under her control. In Durin-gut, the shaman strives to create Gawp between the human patient and the malicious dokkaebi that has caused their madness to treat mental illness.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "Gawp(가웁)是济州岛巫俗中表示天空与大地、人类与非人类、生与死的边界的宇宙论概念。在济州创世神话中，传说Gawp在天空与大地之间的原始混合状态中生成。",
+   "legend": "Gawp是设定人类与非人类之间边界的神，大别王使动物、植物、岩石的舌头麻痹，使它们无法再说话，并在生与死的物理分离过程中形成。此外，在佛道麻治仪式中，巫师（心房）在生佛哈芒（生产女神）与九三胜哈芒（死去孩子的女神）之间创造Gawp，传播使婴儿死亡并带到她的统治下的疾病。在杜林国中，为了治疗精神疾病，巫师努力在进入人类患者及其身体中引发疯狂状态的恶性独角鬼之间创造Gawp。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "Gawp(ガウプ)は、済州島(チェジュド)の無俗(ムソク)において、天と地、人間と非人間、生と死の境界を示す宇宙論的概念である。済州の創造神話では、天と地の間にガウプが元々の混合状態から生成されると伝えられている。",
+   "legend": "ガウプは人間と非人間の間の境界を設定する神であり、大別王(デビョルワン)が動物、植物、岩の舌を麻痺させ、彼らがもはや話せないようにし、生と死を物理的に分離する過程で形成される。また、不道魔地(プルドマジ)の儀式では、シャーマン(シムバン)が生不恵(サンブルハルマン)（出産の女神）と九三勝不恵(クサムスンハルマン)（亡くなった子供の女神）との間にガウプを創造し、赤ちゃんを殺し彼女の支配下に連れて行く病気を広める役割を果たす。ドゥリンゴット(ドゥリンゴット)では、精神疾患を治療するためにシャーマンが人間の患者と彼らの体に入り、狂った状態を引き起こした悪性トッケビ(トッケビ)の間にガウプを作るために努力する。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

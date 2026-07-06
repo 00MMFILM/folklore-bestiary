@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Sillyeong",
+ "sourceLang": "en",
+ "sourceChars": 1668,
+ "generatedAt": "2026-07-06T11:40:44.123Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "신령(神靈)은 한국 신화와 무속에서 신적인 힘을 지닌 초자연적 존재로, 주요 숭배 대상이다. 이들은 자연의 정령, 영웅, 신격화된 조상 등을 포함하며, 한국 무속에서 중심적인 역할을 한다. 신령은 무당(무속인)에 의해 굿(무속 의식) 중에 소환된다. 신령의 판테온은 시간이 지남에 따라 변화해 왔으며, 130개 이상의 신령이 확인되었다. 전통 한국 사상에서는 '신'과 '정령'이 별개의 개념이 아니라 결합될 수 있는 개념으로 여겨지며, 한국 민속 종교는 신령 숭배로 이루어진다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "Shinryeong (신령) are supernatural beings with divine powers in Korean mythology and shamanism, and they are major objects of worship. These include nature spirits, heroes, and deified ancestors, playing a central role in Korean shamanism. Shinryeong are summoned during gut (굿, shamanistic rituals) by mudang (무당, shamans). The pantheon of shinryeong has evolved over time, with over 130 shinryeong identified. In traditional Korean thought, 'shin' (신, god) and 'jeongnyeong' (정령, spirit) are not seen as separate concepts but as concepts that can be combined, and Korean folk religion is centered around the worship of shinryeong.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "神灵（Shénlíng）是韩国神话和巫俗中具有神圣力量的超自然存在，是主要的崇拜对象。这些存在包括自然的精灵、英雄、神格化的祖先等，在韩国巫俗中扮演着中心角色。神灵由巫师（无俗人）在祭祀（巫俗仪式）中召唤。神灵的神祇体系随着时间的推移而变化，已确认有超过130个神灵。在传统韩国思想中，'神'和'精灵'并不是独立的概念，而是可以结合的概念，韩国民俗宗教以神灵崇拜为基础。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "神霊（しんれい）は韓国の神話と巫俗において神的な力を持つ超自然的存在であり、主要な崇拝対象である。これらは自然の精霊、英雄、神格化された祖先などを含み、韓国の巫俗において中心的な役割を果たす。神霊はムーダン（무당）によってグッ（巫俗儀式）の中で召喚される。神霊のパンテオンは時間と共に変化してきており、130以上の神霊が確認されている。伝統的な韓国思想では「神」と「精霊」は別の概念ではなく結合できる概念と見なされ、韓国民俗宗教は神霊崇拝によって成り立っている。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

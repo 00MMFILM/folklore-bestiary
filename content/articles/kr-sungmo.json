@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Sungmo",
+ "sourceLang": "en",
+ "sourceChars": 2825,
+ "generatedAt": "2026-07-06T11:43:37.340Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "성모(崇母)는 한국 무속에서 모신으로 여겨지는 여신으로, 하늘의 왕의 어머니 또는 딸로 묘사된다. 일부 신화에서는 모든 무당의 어머니로 언급되기도 한다. 성모는 산과 관련이 있으며, 하늘의 왕의 '성모'와의 만남을 통해 무당의 기원이 연결된다는 신화가 전해진다. 이 신화에서는 성모가 인간의 공주로 등장하여 후에 여신으로 변모하는 이야기가 포함되어 있다. 무당의 임명은 여성 혈통을 통해 이어진다고 믿어진다. 이 신화는 신라 시대에 처음으로 구체화된 것으로 보이며, 불교와 중국의 영향을 받았던 시기이다.",
+   "variants": "성모에 대한 신화는 지역에 따라 다르게 전해진다. 예를 들어, 아시아 본토에 위치한 요나라의 아황공주가 등장하는 버전이 있다. 그녀는 신성과 강한 연관을 가지고 있으며, 백성을 위해 복지를 제공하였다. 그녀의 아버지는 공주를 백성들 사이에 보내어 치유 능력으로 숭배받게 하였고, 최초의 무당들이 그녀의 후계자로 자리 잡았다. 북부 지역에서는 칠공주라는 이름으로 알려져 있으며, 그녀는 왕의 딸 중 일곱 번째로, 아버지에게 버림받아 돌관에 갇혔다가 하늘의 왕이 보낸 용왕에 의해 구출되어 서쪽 하늘로 올라가 치유의 여신이 되었다.",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "Seongmo (성모) is a goddess revered in Korean shamanism, depicted as the mother or daughter of the heavenly king. In some myths, she is referred to as the mother of all shamans. Seongmo is associated with mountains, and there is a myth that connects the origin of shamans through her meeting with the heavenly king's 'Seongmo.' This myth includes a story where Seongmo appears as a human princess who later transforms into a goddess. It is believed that the appointment of shamans is passed down through female lineage. This myth seems to have first materialized during the Silla period, a time influenced by Buddhism and China.",
+   "variants": "Myths about Seongmo vary by region. For example, there is a version featuring Princess Ahwang (아황공주) from the Liao dynasty located on the Asian mainland. She has a strong association with divinity and provided welfare for the people. Her father sent the princess among the people to be worshipped for her healing abilities, and the first shamans established themselves as her successors. In northern regions, she is known as Chilgongju (칠공주), the seventh daughter of the king, who was abandoned by her father and trapped in a stone crown, later rescued by the dragon king sent by the heavenly king, and ascended to the western sky to become the goddess of healing.",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "圣母(Seongmo)是韩国巫俗中被尊奉的女神，通常被描绘为天空之王的母亲或女儿。在某些神话中，她被称为所有巫师的母亲。圣母与山有关，传说通过与天空之王的“圣母”的相遇，巫师的起源得以连接。这个神话中，圣母以人类公主的身份出现，后来变成女神。巫师的任命被认为是通过女性血统传承的。这个神话似乎在新罗时代首次具体化，那是一个受到佛教和中国影响的时期。",
+   "variants": "关于圣母的神话因地区而异。例如，有一个版本中出现了位于亚洲大陆的辽国的阿皇公主。她与神性有着强烈的关联，并为百姓提供福利。她的父亲将公主送到百姓中间，让她因治愈能力而受到崇拜，最初的巫师们成为了她的继承者。在北部地区，她被称为七公主，是国王的女儿中第七个，被父亲抛弃，困在石头罐中，后来被天空之王派来的龙王救出，升上西天成为治愈女神。",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "聖母（ソンモ）は韓国の巫俗で祀られる女神で、天の王の母または娘として描かれています。一部の神話ではすべての巫女の母として言及されることもあります。聖母は山と関連しており、天の王の「聖母」との出会いを通じて巫女の起源が結びつくという神話が伝えられています。この神話では聖母が人間の王女として登場し、後に女神に変貌する物語が含まれています。巫女の任命は女性の血統を通じて受け継がれると信じられています。この神話は新羅時代に初めて具体化されたと見られ、仏教や中国の影響を受けた時期です。",
+   "variants": "聖母に関する神話は地域によって異なって伝えられています。例えば、アジア本土に位置する遼（リョウ）王朝のアファン公主が登場するバージョンがあります。彼女は神聖さと強い関連を持ち、民のために福祉を提供しました。彼女の父は公主を民の中に送り、治癒能力で崇拝されるようにしました。そして最初の巫女たちが彼女の後継者として位置づけられました。北部地域では七公主（チルゴンジュ）という名前で知られており、彼女は王の娘の中で七番目で、父に見捨てられて石の冠に閉じ込められ、天の王が送った龍王によって救出され、西の空に昇って治癒の女神となりました。",
+   "culture": ""
+  }
+ }
+}

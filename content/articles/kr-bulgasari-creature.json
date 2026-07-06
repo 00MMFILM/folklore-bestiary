@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Bulgasari",
+ "sourceLang": "en",
+ "sourceChars": 3887,
+ "generatedAt": "2026-07-06T11:39:46.011Z",
+ "locales": {
+  "ko": {
+   "origin": "Bulgasari는 1961년 11월 26일에 제작이 시작되었으며, 전설적인 한국 괴물에서 영감을 받아 만들어졌다. 이 영화는 1954년 괴수 영화인 '고질라'의 영향을 많이 받았다.",
+   "legend": "Bulgasari는 고려시대 말, 배신자들에 의해 살해당한 무술가 남형이 증오로 인해 부활하여 복수를 하려는 철 먹는 괴물로 전해진다.",
+   "variants": "",
+   "culture": "Bulgasari는 1962년 12월 1일 한국에서 개봉되었으며, 한국 영화 역사에서 중요한 작품으로 여겨진다. 이 영화는 한국에서 첫 번째로 특수 효과를 사용한 영화로, 1985년에는 신상옥 감독이 북한에서 리메이크를 제작하였다."
+  },
+  "en": {
+   "origin": "Bulgasari began production on November 26, 1961, and was inspired by a legendary Korean monster. This film was heavily influenced by the 1954 monster movie 'Godzilla'.",
+   "legend": "Bulgasari is said to be a monster that is a manifestation of the martial artist Nam Hyeong, who was killed by traitors during the late Goryeo Dynasty and resurrected by hatred to seek revenge.",
+   "variants": "",
+   "culture": "Bulgasari was released in South Korea on December 1, 1962, and is considered an important work in the history of Korean cinema. This film was the first in Korea to use special effects, and in 1985, director Shin Sang-ok produced a remake in North Korea."
+  },
+  "zh": {
+   "origin": "Bulgasari（불가사리）于1961年11月26日开始制作，灵感来源于传说中的韩国怪物。这部电影受到了1954年怪兽电影《哥斯拉》（Gojira）的很大影响。",
+   "legend": "Bulgasari（불가사리）传说中是高丽时代末期，被叛徒杀害的武术家南亨（Nam-hyeong）因仇恨复活，成为一个寻求复仇的铁吃怪物。",
+   "variants": "",
+   "culture": "Bulgasari（불가사리）于1962年12月1日在韩国上映，被认为是韩国电影历史上的重要作品。这部电影是韩国第一部使用特效的电影，1985年由申相玉（Shin Sang-ok）导演在北韩制作了翻拍版。"
+  },
+  "ja": {
+   "origin": "Bulgasari（ブルガサリ）は1961年11月26日に制作が始まり、伝説的な韓国の怪物からインスパイアを受けて作られた。この映画は1954年の怪獣映画『ゴジラ』の影響を多く受けている。",
+   "legend": "Bulgasari（ブルガサリ）は高麗時代末期、裏切り者たちによって殺された武術家ナムヒョンが憎しみによって復活し、復讐をしようとする鉄を食べる怪物として伝えられている。",
+   "variants": "",
+   "culture": "Bulgasari（ブルガサリ）は1962年12月1日に韓国で公開され、韓国映画史において重要な作品と見なされている。この映画は韓国で初めて特殊効果を使用した映画で、1985年にはシン・サンオク監督が北朝鮮でリメイクを制作した。"
+  }
+ }
+}

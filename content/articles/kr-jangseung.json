@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Jangseung",
+ "sourceLang": "en",
+ "sourceChars": 2436,
+ "generatedAt": "2026-07-06T11:44:39.100Z",
+ "locales": {
+  "ko": {
+   "origin": "장승(장승, Jangseung)은 한국의 토템 기둥으로, 주로 나무로 만들어진다. 전통적으로 마을의 경계에 배치되어 마을의 경계를 표시하고 악령을 쫓아내는 역할을 했다. 또한 마을의 수호신으로 숭배되었다.",
+   "legend": "장승은 마을의 수호신으로, 마을을 보호하고 해로운 귀신을 쫓아내며 마을의 행복을 모으는 역할을 한다. 장승은 남성과 여성의 형태로 나뉘며, 남성 장승은 '천하대장군'이라는 한자 또는 한글로 된 비문을 새기고, 한국의 귀족이나 학자들이 쓰던 머리 장식을 장식한다. 반면, 여성 장승은 덜 화려한 머리 장식을 하고 '지하여장군' 또는 '지하대장군'이라는 비문을 새긴다.",
+   "variants": "전라남북도, 충청도, 경상도 지역에서는 장승을 법수 또는 벅수라고도 부르며, 이는 남성 무당을 의미하는 복사(卜師)의 변형이다. 전라 지역에서는 장승이 제주도의 돌하르방과 유사한 형태의 돌로 만들어지는 경우가 많다.",
+   "culture": "18세기 조선 왕조의 정조는 수원에 있는 아버지의 묘소로 가는 왕의 행차를 위해 상도동 근처에 장승을 세우도록 명령했다. 이후 이 지역은 장승배기로 불리게 되었으며, 서울 지하철 7호선의 장승배기역 이름의 유래가 되었다."
+  },
+  "en": {
+   "origin": "Jangseung (장승, Jangseung) is a totem pole in Korea, primarily made of wood. Traditionally, it was placed at the boundaries of villages to mark the village's borders and drive away evil spirits. It was also worshipped as the guardian deity of the village.",
+   "legend": "Jangseung serves as the guardian deity of the village, protecting the village, driving away harmful spirits, and gathering happiness for the village. Jangseung is divided into male and female forms, with male Jangseung inscribed with the characters 'Cheonhadaejanggun' (천하대장군) or in Hangul, and adorned with headgear used by Korean nobility or scholars. In contrast, female Jangseung has less ornate headgear and is inscribed with 'Jihayeojanggun' (지하여장군) or 'Jihadaejanggun' (지하대장군).",
+   "variants": "In the Jeolla (전라남북도), Chungcheong (충청도), and Gyeongsang (경상도) regions, Jangseung is also referred to as Beopsu (법수) or Beoksu (벅수), which is a variation of Boksa (복사), meaning male shaman. In the Jeolla region, Jangseung is often made of stone in a shape similar to Jeju Island's Dolhareubang (돌하르방).",
+   "culture": "In the 18th century, King Jeongjo of the Joseon Dynasty ordered the erection of Jangseung near Sangdo-dong for the royal procession to his father's tomb in Suwon. Subsequently, this area became known as Jangseungbaegi (장승배기), which is the origin of the name for Jangseungbaegi Station on Seoul Subway Line 7."
+  },
+  "zh": {
+   "origin": "长承（장승, Jangseung）是韩国的图腾柱，主要由木材制成。传统上被放置在村庄的边界上，标示村庄的界限并驱赶恶灵。同时也被崇拜为村庄的守护神。",
+   "legend": "长承作为村庄的守护神，保护村庄，驱赶有害的鬼神，聚集村庄的幸福。长承分为男性和女性的形态，男性长承刻有“天下大将军”的汉字或韩文铭文，并装饰有韩国贵族或学者所使用的头饰。相反，女性长承则佩戴较不华丽的头饰，并刻有“地将军”或“地下大将军”的铭文。",
+   "variants": "在全罗南北道、忠清道、庆尚道地区，长承也被称为法水或北水，这是一种对男性巫师的变体称呼（卜师）。在全罗地区，长承常常用与济州岛的石哈尔邦相似形状的石头制作。",
+   "culture": "18世纪朝鲜王朝的正祖命令在上道洞附近竖立长承，以便于王的行程前往位于水原的父亲墓地。此后该地区被称为长承背，成为首尔地铁7号线长承背站名称的由来。"
+  },
+  "ja": {
+   "origin": "장승(장승, Jangseung)は韓国のトーテム柱で、主に木で作られます。伝統的に村の境界に配置され、村の境界を示し、悪霊を追い払う役割を果たしていました。また、村の守護神として崇拝されていました。",
+   "legend": "장승は村の守護神で、村を守り、有害な鬼を追い払い、村の幸福を集める役割を果たします。장승は男性と女性の形に分かれ、男性の장승は「天下大将軍」という漢字またはハングルの碑文を刻み、韓国の貴族や学者が使っていた頭飾りを飾ります。一方、女性の장승はあまり華やかでない頭飾りをして「地上大将軍」または「地下大将軍」という碑文を刻みます。",
+   "variants": "全羅南北道、忠清道、慶尚道地域では장승を法水または벅수とも呼び、これは男性の巫女を意味する卜師の変形です。全羅地域では장승が済州島のトルハルバンに似た形の石で作られることが多いです。",
+   "culture": "18世紀の朝鮮王朝の正祖は、スウォンにある父の墓所に向かう王の行列のために上道洞近くに장승を立てるよう命じました。その後、この地域は장승배기로呼ばれるようになり、ソウル地下鉄7号線の장승배기駅の名前の由来となりました。"
+  }
+ }
+}

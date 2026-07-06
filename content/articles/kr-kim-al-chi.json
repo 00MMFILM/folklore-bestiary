@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "김알지",
+ "sourceLang": "ko",
+ "sourceChars": 2600,
+ "generatedAt": "2026-07-06T11:42:05.946Z",
+ "locales": {
+  "ko": {
+   "origin": "김알지는 신라 김씨 왕조의 시조로, 탈해 이사금 때 태어났다고 전해진다. 그의 출생 연도는 65년으로 기록되어 있으며, 김씨의 시조로서의 역할을 수행하였다.",
+   "legend": "김알지는 신라의 시조로서, 그의 출생 신화는 《삼국사기》와 《삼국유사》에 기록되어 있다. 65년, 탈해 이사금이 시림에서 금빛의 작은 함을 발견하고 그 안에서 아름다운 사내아이인 김알지가 태어났다고 전해진다. 이 사건은 신라의 왕위 계승과 김씨의 출현을 상징적으로 나타내며, 김알지는 후에 태자로 책봉되었다.",
+   "variants": "《삼국사기》와 《삼국유사》에서 김알지의 후손에 대한 세보는 약간의 차이가 있으나, 기본적인 계보는 동일하다. 《삼국사기》에서는 알지 → 세한 → 아도 → 수류 → 욱보 → 구도 → 미추로 이어지며, 《삼국유사》에서는 알지 → 열한 → 아도 → 수류 → 욱부 → 구도 → 미추로 기록되어 있다.",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Kim Al-ji is said to be the founder of the Silla Kim dynasty, born during the reign of King Talhae. His birth year is recorded as 65, and he played the role of the progenitor of the Kim clan.",
+   "legend": "As the founder of Silla, the birth myth of Kim Al-ji is recorded in the Samguk Sagi and Samguk Yusa. In 65, it is said that King Talhae discovered a small golden box in Silla, and from it, a beautiful baby boy named Kim Al-ji was born. This event symbolically represents the succession of the throne in Silla and the emergence of the Kim clan, and Kim Al-ji was later appointed as the crown prince.",
+   "variants": "There are slight differences in the genealogies of Kim Al-ji's descendants in the Samguk Sagi and Samguk Yusa, but the basic lineage is the same. In the Samguk Sagi, the lineage goes Al-ji → Se-han → A-do → Su-ryu → Uk-bo → Gu-do → Mi-chu, while in the Samguk Yusa, it is recorded as Al-ji → Yeol-han → A-do → Su-ryu → Uk-bu → Gu-do → Mi-chu.",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "金閼智是新罗金氏王朝的始祖，传说在脱解伊斯金时出生。他的出生年份被记录为65年，作为金氏的始祖发挥了作用。",
+   "legend": "金閼智作为新罗的始祖，他的出生神话记录在《三国史记》和《三国遗事》中。65年，脱解伊斯金在西林发现了一个金色的小箱子，传说里面诞生了美丽的男孩金閼智。这一事件象征性地代表了新罗的王位继承和金氏的出现，金閼智后来被册封为太子。",
+   "variants": "在《三国史记》和《三国遗事》中，关于金閼智的后代的世谱有些许差异，但基本的谱系是相同的。《三国史记》记录为：閼智 → 世汉 → 阿道 → 水流 → 旭甫 → 九道 → 美推，而《三国遗事》则记录为：閼智 → 十一 → 阿道 → 水流 → 旭部 → 九道 → 美推。",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "キムアルジは新羅のキム氏王朝の始祖で、タルヘイサグムの時代に生まれたと伝えられている。彼の出生年は65年と記録されており、キム氏の始祖としての役割を果たした。",
+   "legend": "キムアルジは新羅の始祖として、彼の出生神話は《三国史記》（サンゴクサギ）と《三国遺事》（サンゴクユサ）に記録されている。65年、タルヘイサグムがシリムで金色の小さな箱を発見し、その中から美しい男の子であるキムアルジが生まれたと伝えられている。この出来事は新羅の王位継承とキム氏の出現を象徴的に示しており、キムアルジは後に太子に任命された。",
+   "variants": "《三国史記》（サンゴクサギ）と《三国遺事》（サンゴクユサ）でキムアルジの子孫に関する系譜は若干の違いがあるが、基本的な系譜は同じである。《三国史記》ではアルジ → セハン → アド → スリュ → ウクボ → クド → ミチュと続き、《三国遺事》ではアルジ → ヨルハン → アド → スリュ → ウクブ → クド → ミチュと記録されている。",
+   "culture": ""
+  }
+ }
+}

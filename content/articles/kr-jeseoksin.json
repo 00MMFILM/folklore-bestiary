@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "삼신제석",
+ "sourceLang": "ko",
+ "sourceChars": 1569,
+ "generatedAt": "2026-07-06T11:44:22.366Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "제석신은 무속에서 집안의 운명을 관장하는 세 신령으로, 주로 자손의 수명과 복을 관장하는 역할을 한다. 제석신은 불교의 제석천과 한국의 가신신앙이 결합하여 형성된 신격으로 여겨진다. 호남 지방에서는 조상신과 농경신의 성격도 지니고 있다.",
+   "variants": "제석이라는 신명은 동해안 및 경상도 전승을 제외한 모든 지역에서 나타나며, 해당 지역에서는 '세존'과 같은 다른 신명이 사용된다. 제석은 불교의 신인 인드라의 한자 음역이며, 세존은 부처를 높여 부르는 칭호로, 세존 숭배는 다산과 관련이 있다.",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "The Jeoseokshin (제석신) is a deity in shamanism that governs the fate of households, primarily overseeing the lifespan and fortune of descendants. Jeoseokshin is considered a deity formed by the combination of the Buddhist deity Indra (제석천) and Korean guardian spirit beliefs. In the Honam region, it also embodies characteristics of ancestor spirits and agricultural deities.",
+   "variants": "The name Jeoseok appears in all regions except for the eastern coast and Gyeongsang-do, where other names like 'Sejon' (세존) are used. Jeoseok is the Hanja transliteration of the Buddhist deity Indra, and Sejon is a title that elevates the Buddha, with the worship of Sejon being related to fertility and abundance.",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "济石神是巫俗中掌管家运的三位神灵，主要负责子孙的寿命和福气。济石神被认为是佛教的济石天和韩国的家神信仰结合而形成的神格。在湖南地区，还具有祖先神和农耕神的特性。",
+   "variants": "济石这个神名在东海岸和庆尚道的传说中除外，在其他地区出现，相关地区使用'世尊'等其他神名。济石是佛教神祇因陀罗的汉字音译，而世尊是对佛陀的尊称，世尊崇拜与多产有关。",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ジェソクシンはムソクで家族の運命を司る三つの神霊であり、主に子孫の寿命と福を司る役割を果たします。ジェソクシンは仏教のジェソクチョンと韓国の家神信仰が結びついて形成された神格と見なされています。ホナム地方では祖先神と農耕神の性格も持っています。",
+   "variants": "ジェソクという神名は東海岸及び慶尚道の伝承を除くすべての地域で現れ、その地域では「セジョン」といった他の神名が使用されます。ジェソクは仏教の神であるインドラの漢字音訳であり、セジョンは仏を高めて呼ぶ称号で、セジョン崇拝は多産と関連があります。",
+   "culture": ""
+  }
+ }
+}

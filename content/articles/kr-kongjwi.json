@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "콩쥐팥쥐전",
+ "sourceLang": "ko",
+ "sourceChars": 2939,
+ "generatedAt": "2026-07-06T11:44:28.369Z",
+ "locales": {
+  "ko": {
+   "origin": "콩쥐팥쥐전은 조선의 유명한 가정소설 중 하나로, 신데렐라계의 전래동화이다. 이 작품의 지은이와 연대는 미상이며, 국문 고전소설 형식의 활자본으로 대창서원본(1919년판)과 태화서관본(1928년판) 등이 전해지고 있다.",
+   "legend": "콩쥐는 성인이 되면서 모친을 여의고 아버지가 계모와 재혼하게 된다. 계모는 팥쥐라는 딸을 두고 있으며, 팥쥐는 콩쥐보다 한 살 동생이지만 마음씨가 고약하다. 계모는 콩쥐에게 힘든 집안일을 시키고, 콩쥐는 여러 가지 고난을 겪는다. 그러나 콩쥐는 여러 동물과 하늘나라의 어머니의 도움을 받아 마을 잔치에 참석하게 되고, 김씨 감사와 혼인하게 된다. 이후 팥쥐와 계모는 콩쥐를 물에 빠뜨려 죽이려 하지만, 콩쥐는 다시 살아나고, 결국 팥쥐와 계모는 처벌을 받게 된다.",
+   "variants": "",
+   "culture": "이 이야기는 세계적으로 널리 퍼져 있는 신데렐라형의 설화로, 악한 인간에 대한 응징과 선한 사람에게 보상을 주는 권선징악의 주제를 담고 있다. 콩쥐팥쥐전은 설화를 소재로 하면서도 혼인 이후의 사건을 다양하게 묘사하여, 단순한 설화에서 벗어나 윤리적인 주제로 재창조된 작품으로 평가받고 있다."
+  },
+  "en": {
+   "origin": "The story of Kongji and Patji is one of the famous domestic novels of the Joseon Dynasty and is a folk tale of the Cinderella type. The author and date of this work are unknown, and it is transmitted in the form of printed editions of Korean classical novels, such as the Daechang Seowon edition (1919) and the Taehwa Seogwan edition (1928).",
+   "legend": "Kongji loses her mother as she becomes an adult, and her father remarries a stepmother. The stepmother has a daughter named Patji, who is one year younger than Kongji but has a wicked heart. The stepmother makes Kongji do difficult household chores, and Kongji endures various hardships. However, with the help of various animals and the mother from the heavenly realm, Kongji is able to attend the village feast and marries Kimssi Gamsa. Later, Patji and the stepmother try to drown Kongji to kill her, but Kongji comes back to life, and eventually, Patji and the stepmother are punished.",
+   "variants": "",
+   "culture": "This story is a widely spread Cinderella-type tale around the world, containing the theme of rewarding good people and punishing evil ones. The story of Kongji and Patji, while based on folklore, is evaluated as a work that transcends simple folklore by depicting various events after marriage and is recreated into an ethical theme."
+  },
+  "zh": {
+   "origin": "콩쥐팥쥐전是朝鲜著名的家庭小说之一，是仙女与灰姑娘类型的民间故事。该作品的作者和年代不详，以国文古典小说形式的活字本有大昌书院本（1919年版）和太华书馆本（1928年版）等流传下来。",
+   "legend": "콩쥐成年后失去了母亲，父亲与继母再婚。继母有一个名叫팥쥐的女儿，虽然팥쥐比콩쥐小一岁，但心肠恶劣。继母让콩쥐做艰苦的家务，콩쥐经历了各种苦难。然而，콩쥐在多种动物和天上的母亲的帮助下，参加了村里的宴会，并与金氏感司结婚。之后，팥쥐和继母试图把콩쥐推入水中淹死，但콩쥐又复活了，最终팥쥐和继母受到了惩罚。",
+   "variants": "",
+   "culture": "这个故事是广泛流传的灰姑娘类型的传说，包含了对恶人惩罚和对善人奖励的劝善惩恶的主题。콩쥐팥쥐전以民间故事为题材，同时多样化地描绘了婚后事件，被评价为从简单的民间故事转变为伦理主题的再创造作品。"
+  },
+  "ja": {
+   "origin": "コンジパッジ伝は朝鮮の有名な家庭小説の一つで、シンデレラ系の伝説的な童話である。この作品の作者と年代は不明であり、国語古典小説形式の活字本として大昌書院本（1919年版）と太和書館本（1928年版）などが伝えられている。",
+   "legend": "コンジは成人になると母を失い、父が継母と再婚する。継母はパッジという娘を持っており、パッジはコンジより一歳年下だが、性格が悪い。継母はコンジに厳しい家事をさせ、コンジは様々な苦難を経験する。しかし、コンジは様々な動物や天の母の助けを受けて村の祭りに参加し、キム氏の感謝と結婚する。その後、パッジと継母はコンジを水に沈めて殺そうとするが、コンジは再び生き返り、結局パッジと継母は罰を受けることになる。",
+   "variants": "",
+   "culture": "この物語は世界的に広まっているシンデレラ型の説話で、悪い人間に対する懲罰と善良な人に報酬を与える勧善懲悪のテーマを含んでいる。コンジパッジ伝は説話を素材にしながらも、結婚後の出来事を多様に描写し、単純な説話から逸脱して倫理的なテーマに再創造された作品として評価されている。"
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "토끼",
+ "sourceLang": "ko",
+ "sourceChars": 4564,
+ "generatedAt": "2026-07-06T11:44:51.547Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "토끼는 꾀가 많고 영민한 동물로 인식되며, 한국의 설화인 '토끼전'에서는 토끼 간이 용왕의 병을 고치는 데 효과가 있는 것으로 묘사된다. 또한, 달의 분화구 모양이 계수나무 밑에서 절구를 찧는 토끼에 비유되기도 한다.",
+   "variants": "",
+   "culture": "한국에서는 토끼가 십이지신 중 네 번째 동물로 여겨지며, 황해도에는 토끼와 관련된 지명인 토산군과 토산면이 있다. 중국과 일본에서도 토끼는 동양의 미와 관련된 동물로 인식되며, 일본의 오쿠노시마섬에는 수백 마리의 토끼가 방사되어 있다. 세계적으로는 '이상한 나라의 앨리스'와 같은 문학작품에서 등장하며, 독일에서는 부활절에 토끼 모양의 유정란을 먹는 풍습이 있다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "The rabbit is recognized as a clever and intelligent animal, and in the Korean folktale 'Tokkijeon' (Rabbit Tale), the rabbit's liver is described as effective in curing the Dragon King's illness. Additionally, the shape of the moon's craters is sometimes compared to a rabbit pounding rice cakes under a cassia tree.",
+   "variants": "",
+   "culture": "In Korea, the rabbit is considered the fourth animal in the twelve zodiac signs, and in Hwanghae Province, there are place names related to rabbits, such as Tosang-gun and Tosang-myeon. In China and Japan, the rabbit is also recognized as an animal associated with Eastern beauty, and on Okunoshima Island in Japan, hundreds of rabbits are released. Globally, rabbits appear in literary works such as 'Alice's Adventures in Wonderland,' and in Germany, there is a tradition of eating rabbit-shaped chocolate eggs during Easter."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "兔子被认为是聪明而机智的动物，在韩国的传说《兔子传》（Toqqijeon）中，兔子的肝脏被描述为能够治愈龙王的疾病。此外，月球的环形山形状也被比喻为在栎树下捣蒜的兔子。",
+   "variants": "",
+   "culture": "在韩国，兔子被视为十二生肖中的第四个动物，黄海道有与兔子相关的地名土山郡和土山面。在中国和日本，兔子也被视为与东方美相关的动物，日本的奥久野岛上有数百只兔子被放养。在全球范围内，兔子出现在《爱丽丝梦游仙境》等文学作品中，在德国，复活节有吃兔子形状的彩蛋的习俗。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ウサギは知恵が多く賢い動物と認識されており、韓国の伝説「トッキジョン」では、ウサギの肝が龍王の病を治すのに効果があると描かれています。また、月のクレーターの形が桂樹の下で杵をつくウサギに例えられることもあります。",
+   "variants": "",
+   "culture": "韓国ではウサギが十二支の中で四番目の動物と見なされており、黄海道にはウサギに関連する地名であるトサングンとトサンミョンがあります。中国や日本でもウサギは東洋の美に関連する動物と認識されており、日本のオクノシマ島には数百匹のウサギが放たれています。世界的には「不思議の国のアリス」のような文学作品に登場し、ドイツでは復活祭にウサギの形をしたゆで卵を食べる習慣があります。"
+  }
+ }
+}

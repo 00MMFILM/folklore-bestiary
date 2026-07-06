@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "천연두",
+ "sourceLang": "ko",
+ "sourceChars": 23621,
+ "generatedAt": "2026-07-06T11:37:18.422Z",
+ "locales": {
+  "ko": {
+   "origin": "천연두는 기원전 10,000년경부터 인간을 괴롭혀 왔다. 이집트 파라오 람세스 5세의 미라에서 농포성 발진이 발견된 것이 천연두의 가장 오래된 물적 증거로 생각되고 있다. 천연두로 유럽 지역에서만 18세기 이전까지 매년 400,000명이 사망하였으며, 시각장애자 중 3분의 1은 천연두로 인해 시력을 잃은 사람들이었다. 감염자들 중 20 ~ 60%가 사망했고, 아동은 감염될 경우 80% 꼴로 사망했다. 천연두는 20세기에도 3억 ~ 5억 명이 사망하게 하였다. 1967년, 세계보건기구(WHO)는 그해 한 해 동안 1천 5백만 명이 천연두에 감염되었고 그 중 2백만 명이 사망했다고 발표했다.",
+   "legend": "천연두는 천연두바이러스(variola major 또는 variola minor)에 의해 발생하는 전염병이다. 감염되면 증상이 몸으로 퍼지기 전에 피부와 입, 목의 작은 혈관들부터 증상이 시작된다. 특유의 반구진 발진이 피부에 발생하고, 이 발진은 시간이 지나면서 유체가 채워진 수포가 된다. 바리올라 마요르 바이러스가 바리올라 미노르 바이러스보다 병의 증세가 훨씬 심각하여 치사율이 30 ~ 35%에 달한다. 바리올라 미노르는 치사율이 1% 정도로 덜 심각하다. 천연두는 보통 천연두, 완화 천연두, 악성 천연두, 출혈성 천연두의 네 가지 유형으로 분류된다.",
+   "variants": "천연두에는 두 가지 임상적 형태가 있다. 바리올라 마요르가 더 흔하고 증상도 더 심각하여 엄청난 발진과 고열이 난다. 바리올라 미노르는 보다 덜 심각하고 유병률도 낮아서 치사율이 1퍼센트 또는 그 이하이다. 예방접종을 받은 사람들에게서 바리올라 시네 데룹티오네(variola sine eruptione)가 나타나는 경우가 있다. 이 유형은 잠복기가 지나면 발진은 없고 열만 난다.",
+   "culture": "천연두의 무시무시함으로 인해 구세계 곳곳에는 천연두와 관련된 신들이 숭배되었다. 중국에는 두진낭랑(痘疹娘娘)이라는 천연두의 여신이 있다. 한국에는 호구별성이라는 천연두의 여신이 있다. 인도에서도 천연두에 관련된 여신인 시탈라가 경외의 대상이자 공포의 대상으로 여겨졌다."
+  },
+  "en": {
+   "origin": "Smallpox has plagued humanity since around 10,000 BC. The discovery of pustular rashes on the mummy of Egyptian Pharaoh Ramses V is considered the oldest material evidence of smallpox. In Europe alone, smallpox caused the deaths of 400,000 people annually until the 18th century, and one-third of the visually impaired lost their sight due to smallpox. Among those infected, 20% to 60% died, and 80% of children who contracted the disease died. Smallpox also caused the deaths of 300 million to 500 million people in the 20th century. In 1967, the World Health Organization (WHO) announced that 15 million people were infected with smallpox that year, with 2 million deaths.",
+   "legend": "Smallpox is an infectious disease caused by the variola virus (variola major or variola minor). When infected, symptoms begin in the small blood vessels of the skin, mouth, and throat before spreading throughout the body. Characteristic vesicular rashes appear on the skin, which develop into fluid-filled blisters over time. The variola major virus causes much more severe symptoms than the variola minor virus, with a mortality rate of 30% to 35%. Variola minor has a lower mortality rate of about 1%. Smallpox is usually classified into four types: ordinary smallpox, modified smallpox, malignant smallpox, and hemorrhagic smallpox.",
+   "variants": "There are two clinical forms of smallpox. Variola major is more common and has more severe symptoms, including tremendous rashes and high fever. Variola minor is less severe and has a lower prevalence, with a mortality rate of 1% or less. In vaccinated individuals, variola sine eruptione may occur. This type has no rash after the incubation period, only fever.",
+   "culture": "Due to the terrifying nature of smallpox, gods related to smallpox were worshipped throughout the Old World. In China, there is a goddess of smallpox named Doujin Nanglang (痘疹娘娘). In Korea, there is a goddess of smallpox called Hogubyeolseong (호구별성). In India, the goddess Sitala, associated with smallpox, is regarded with both reverence and fear."
+  },
+  "zh": {
+   "origin": "天花从公元前10000年左右开始困扰人类。埃及法老拉美西斯五世的木乃伊中发现了脓疱性皮疹，这被认为是天花最古老的物质证据。在18世纪之前，仅在欧洲地区，每年就有40万人死于天花。在视障者中，三分之一是因天花失去视力的人。感染者中有20%至60%会死亡，儿童感染时死亡率高达80%。天花在20世纪也导致了3亿至5亿人死亡。1967年，世界卫生组织（WHO）宣布当年有1500万人感染天花，其中200万人死亡。",
+   "legend": "天花是一种由天花病毒（variola major或variola minor）引起的传染病。感染后，症状首先出现在皮肤、口腔和喉咙的小血管中，然后才扩散到全身。特有的半球状皮疹会出现在皮肤上，随着时间的推移，这些皮疹会变成充满液体的水泡。巴里奥拉·马约尔病毒的病症比巴里奥拉·米诺尔病毒严重得多，致死率达到30%至35%。巴里奥拉·米诺尔的致死率约为1%，相对较轻。天花通常分为四种类型：天花、减轻型天花、恶性天花和出血性天花。",
+   "variants": "天花有两种临床形式。巴里奥拉·马约尔更为常见，症状更为严重，伴有大量皮疹和高热。巴里奥拉·米诺尔则相对较轻，发病率较低，致死率为1%或更低。在接种疫苗的人群中，有时会出现巴里奥拉·西尼·德鲁普提奥内（variola sine eruptione）。这种类型在潜伏期过后没有皮疹，仅有发热。",
+   "culture": "由于天花的可怕，各地都崇拜与天花相关的神灵。在中国，有名为痘疹娘娘的天花女神。在韩国，有名为호구별성（Hogu Byeolseong）的天花女神。在印度，天花相关的女神西塔拉被视为崇敬和恐惧的对象。"
+  },
+  "ja": {
+   "origin": "天然痘は紀元前10,000年頃から人間を苦しめてきた。エジプトのファラオ、ラムセス5世のミイラから農泡性発疹が発見されたことが、天然痘の最も古い物的証拠と考えられている。天然痘によって、ヨーロッパ地域では18世紀以前まで毎年400,000人が死亡しており、視覚障害者の3分の1は天然痘によって視力を失った人々だった。感染者の中で20〜60%が死亡し、子供は感染した場合80%の割合で死亡した。天然痘は20世紀にも3億〜5億人を死亡させた。1967年、世界保健機関（WHO）はその年に1500万人が天然痘に感染し、そのうち200万人が死亡したと発表した。",
+   "legend": "天然痘は天然痘ウイルス（variola majorまたはvariola minor）によって引き起こされる感染症である。感染すると、症状は体全体に広がる前に皮膚や口、喉の小さな血管から始まる。特有の半球状の発疹が皮膚に現れ、この発疹は時間が経つにつれて液体が満たされた水疱になる。バリオラ・マヨールウイルスはバリオラ・ミノルウイルスよりも病気の症状がはるかに深刻で、致死率は30〜35%に達する。バリオラ・ミノルは致死率が1%程度で、より軽症である。天然痘は通常、天然痘、緩和天然痘、悪性天然痘、出血性天然痘の4つのタイプに分類される。",
+   "variants": "天然痘には2つの臨床的形態がある。バリオラ・マヨールがより一般的で、症状もより深刻であり、激しい発疹と高熱が出る。バリオラ・ミノルはより軽症で、罹患率も低く、致死率は1%またはそれ以下である。予防接種を受けた人々の中には、バリオラ・シネ・デュルプティオネ（variola sine eruptione）が現れる場合がある。このタイプは潜伏期間を過ぎると発疹はなく、熱だけが出る。",
+   "culture": "天然痘の恐ろしさから、旧世界の各地には天然痘に関連する神々が崇拝されていた。中国には、天然痘の女神である痘疹娘娘（ドゥジンナンニャン）がいる。韓国には、天然痘の女神であるホグビョルソンがいる。インドでも、天然痘に関連する女神であるシタラが敬意の対象であり、恐怖の対象とされていた。"
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Lady Saso",
+ "sourceLang": "en",
+ "sourceChars": 6337,
+ "generatedAt": "2026-07-06T11:40:37.791Z",
+ "locales": {
+  "ko": {
+   "origin": "사소부인(사소부인)은 삼국유사에서 처음 소개된 신라의 혁거세의 어머니로 전해진다. 그녀는 부여 왕족 출신의 공주로 알려져 있으며, 혁거세를 낳은 후 경명왕에 의해 대왕(여왕)으로 추존되었다.",
+   "legend": "사소부인은 신성한 힘을 지닌 존재로, 해동(한국)으로 와서 오랫동안 거주하였다고 전해진다. 그녀는 연을 날려 그 연이 멈춘 곳에 집을 짓겠다는 내용의 편지를 연의 발에 묶어 날려 보냈고, 연이 서돈산에 멈추자 그곳에 살기로 결정하였다. 이후 그녀는 그 산에서 신선으로 살며 나라를 보호하였고, 그 주변에는 많은 기적이 일어났다고 전해진다.",
+   "variants": "사소부인에 대한 전설은 한국 내에서 여러 가지 변형이 존재한다. 예를 들어, 현대 한국 역사학자들은 사소부인이 부여의 공주인 '파소 공주'라는 주장을 제기한 바 있다. 그러나 이러한 주장은 역사적 근거가 부족하다는 비판을 받고 있다.",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Saso Buin (사소부인) is introduced for the first time in the Samguk Yusa (삼국유사) as the mother of Hyeokgeose (혁거세) of Silla. She is known to be a princess from the royal family of Buyeo (부여) and was posthumously honored as the Great Queen (여왕) by King Gyeongmyeong (경명왕) after giving birth to Hyeokgeose.",
+   "legend": "Saso Buin is said to be a being with divine powers who came to Haedong (해동, Korea) and resided there for a long time. She sent a letter tied to the foot of a kite, stating that she would build a house where the kite landed, and when the kite stopped at Seodonsan (서돈산), she decided to live there. Afterward, she lived as an immortal on that mountain and protected the country, and many miracles are said to have occurred in the surrounding area.",
+   "variants": "There are various versions of the legend of Saso Buin within Korea. For example, modern Korean historians have suggested that Saso Buin is the princess 'Paso Gongju' (파소 공주) of Buyeo. However, this claim has been criticized for lacking historical evidence.",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "사소부인(사소부인)是《三国遗事》中首次介绍的新罗的赫居世的母亲。她被认为是扶余王族出身的公主，在生下赫居世后被景明王追尊为大王（女王）。",
+   "legend": "사소부인是一个拥有神圣力量的存在，传说她来到海东（韩国）并长期居住。她将一封信绑在风筝的脚上，信中写道她会在风筝停下的地方建造房子。当风筝停在西敦山时，她决定在那里居住。之后，她在那座山上以仙人的身份生活，保护国家，周围发生了许多奇迹。",
+   "variants": "关于사소부인的传说在韩国有多种变体。例如，现代韩国历史学家提出사소부인是扶余公主'파소公主'的说法。然而，这种说法受到缺乏历史依据的批评。",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "サソブイン（Sasobuin）は、三国遺事（Sanguk Uija）で初めて紹介された新羅のヒョッコセの母と伝えられています。彼女は扶余（Buyeo）王族出身の公主として知られており、ヒョッコセを産んだ後、キョンミョン王によって大王（女王）として追尊されました。",
+   "legend": "サソブインは神聖な力を持つ存在で、海東（韓国）に来て長い間居住していたと伝えられています。彼女は凧を飛ばし、その凧が止まった場所に家を建てるという内容の手紙を凧の足に結びつけて飛ばしました。そして、凧がソドンサン（Seodonsan）に止まると、そこに住むことを決めました。その後、彼女はその山で神仙として暮らし、国を守り、その周辺では多くの奇跡が起こったと伝えられています。",
+   "variants": "サソブインに関する伝説は韓国国内でいくつかの変形が存在します。例えば、現代の韓国歴史学者たちはサソブインが扶余の公主である「パソ公主（Paso Gongju）」であるという主張を提起したことがあります。しかし、このような主張は歴史的根拠が不足しているという批判を受けています。",
+   "culture": ""
+  }
+ }
+}

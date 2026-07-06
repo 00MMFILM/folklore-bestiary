@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "처용",
+ "sourceLang": "ko",
+ "sourceChars": 2067,
+ "generatedAt": "2026-07-06T11:44:14.147Z",
+ "locales": {
+  "ko": {
+   "origin": "처용은 신라 헌강왕(재위 875년 ~ 886년) 때의 사람이다.",
+   "legend": "처용은 한국 민간 전승과 무속 신앙에서 하나의 신으로 숭배된다. 전설에 따르면, 처용이 외부에 출타 중인 사이 역신이 처용 아내와 동침하였다. 처용은 이를 발견하였으나 분노하지 않고 향가인 〈처용가〉를 노래 부르며 춤을 추었다고 한다. 그 인품에 감격한 역신은 처용이 있는 곳에 다시 나타나지 않겠다고 약조하고 사라졌다고 전해진다.",
+   "variants": "고려시대 이후 새해 초나 질병이 돌 때 문 앞에 처용 얼굴을 한 그림을 붙이면 질병이 전파되지 않는다는 믿음이 있었다.",
+   "culture": "처용과 관련된 유적과 흔적이 여러 곳에 남아 있다. 울산 울주군 율리 영취산에는 동해 용왕을 위해 헌강왕이 지었다는 망해사가 있으며, 처용암이 있는 외황강 하구와 동해 바다가 보인다. 또한, 울산 온산읍에는 처용암이 있다고 하여 붙여진 처용리라는 지명이 있다. 처용문화제는 1967년부터 시작되어 울산에서 매해 10월쯤 열리는 축제이다."
+  },
+  "en": {
+   "origin": "Cheoyong is a person from the Silla dynasty during the reign of King Heongang (reigned 875 - 886).",
+   "legend": "Cheoyong is worshipped as a deity in Korean folklore and shamanistic beliefs. According to legend, while Cheoyong was away, a malevolent spirit slept with Cheoyong's wife. Upon discovering this, Cheoyong did not become angry but instead sang and danced to the song 'Cheoyongga.' The spirit, moved by Cheoyong's character, promised not to appear again and vanished.",
+   "variants": "Since the Goryeo dynasty, there has been a belief that if a picture of Cheoyong's face is hung at the door at the beginning of the new year or during an outbreak of illness, the disease will not spread.",
+   "culture": "There are several relics and traces related to Cheoyong. In Ulsan, Uljugun, at the summit of Yeongchisan, there is Manghaesa Temple, which was built by King Heongang for the Dragon King of the East Sea, and Cheoyongam can be seen at the mouth of the Oehwanggang River and the East Sea. Additionally, in Onsan-eup, Ulsan, there is a place called Cheoyong-ri, named after Cheoyongam. The Cheoyong Cultural Festival has been held annually in Ulsan around October since 1967."
+  },
+  "zh": {
+   "origin": "处容是新罗献康王（在位875年~886年）时期的人。",
+   "legend": "处容在韩国民间传说和巫俗信仰中被崇拜为一种神灵。传说中，处容在外出期间，邪神与处容的妻子同床。处容发现后并没有愤怒，而是唱着《处容歌》跳起舞来。因其品德感动了邪神，邪神发誓不再出现在处容身边，便消失了。",
+   "variants": "自高丽时代以来，农历新年或疾病流行时，在门前贴上处容面孔的画，就会相信疾病不会传播。",
+   "culture": "与处容相关的遗迹和痕迹在多个地方留下。蔚山蔚州郡律里英聚山上有献康王为东海龙王所建的亡海寺，处容岩位于外黄江河口和东海之间。此外，蔚山温山邑有处容岩，因此有了处容里这个地名。处容文化节自1967年开始，每年十月在蔚山举行。"
+  },
+  "ja": {
+   "origin": "チョヨンは新羅のヘンガン王（在位875年〜886年）の時代の人物である。",
+   "legend": "チョヨンは韓国の民間伝承と巫俗信仰において一つの神として崇拝されている。伝説によれば、チョヨンが外出中に逆神がチョヨンの妻と同衾した。チョヨンはこれを発見したが、怒らずに香歌である〈チョヨン歌〉を歌いながら踊ったと言われている。その人品に感激した逆神はチョヨンがいる場所に再び現れないと誓って消えたと伝えられている。",
+   "variants": "高麗時代以降、新年の初めや病気が流行する時に、門の前にチョヨンの顔を描いた絵を貼ると病気が伝播しないという信念があった。",
+   "culture": "チョヨンに関連する遺跡や痕跡がいくつか残っている。蔚山（ウルサン）蔚州郡（ウルジュグン）ユルリの永聚山には、東海の龍王のためにヘンガン王が建てたという亡海寺があり、チョヨン岩がある外黄江の河口と東海が見える。また、蔚山オン山邑（オンサンウプ）にはチョヨン岩があると言われているチョヨン里という地名がある。チョヨン文化祭は1967年から始まり、蔚山で毎年10月頃に開催される祭りである。"
+  }
+ }
+}

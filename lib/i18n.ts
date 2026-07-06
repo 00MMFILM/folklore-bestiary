@@ -26,6 +26,11 @@ interface Dictionary {
   "creature.storyHooks": string;
   "creature.relatedCountry": string;
   "creature.relatedType": string;
+  "article.origin": string;
+  "article.legend": string;
+  "article.variants": string;
+  "article.culture": string;
+  "article.attribution": string;
   "creature.fear": string;
   "creature.notFound": string;
   "creature.notFoundDesc": string;
@@ -108,6 +113,11 @@ const ko: Dictionary = {
   "creature.storyHooks": "스토리 훅",
   "creature.relatedCountry": "같은 나라의 다른 존재",
   "creature.relatedType": "비슷한 유형의 존재",
+  "article.origin": "기원과 배경",
+  "article.legend": "전승",
+  "article.variants": "변형과 이형",
+  "article.culture": "대중문화 속 모습",
+  "article.attribution": "이 문서는 위키백과 「{title}」 문서를 바탕으로 작성되었습니다 (CC BY-SA 4.0)",
   "creature.fear": "공포",
   "creature.notFound": "이 크리처를 찾을 수 없습니다",
   "creature.notFoundDesc": "찾으시는 크리처가 도감에 존재하지 않습니다.",
@@ -185,6 +195,11 @@ const en: Dictionary = {
   "creature.storyHooks": "Story Hooks",
   "creature.relatedCountry": "More creatures from this country",
   "creature.relatedType": "Similar creature types",
+  "article.origin": "Origin & Background",
+  "article.legend": "The Legend",
+  "article.variants": "Variants",
+  "article.culture": "In Popular Culture",
+  "article.attribution": "This article is based on the Wikipedia article \"{title}\" (CC BY-SA 4.0)",
   "creature.fear": "Fear",
   "creature.notFound": "Creature Not Found",
   "creature.notFoundDesc": "The creature you are looking for does not exist in our bestiary.",
@@ -262,6 +277,11 @@ const zh: Dictionary = {
   "creature.storyHooks": "故事线索",
   "creature.relatedCountry": "同一国家的其他传说",
   "creature.relatedType": "类似类型的存在",
+  "article.origin": "起源与背景",
+  "article.legend": "传说内容",
+  "article.variants": "变体与异说",
+  "article.culture": "流行文化中的形象",
+  "article.attribution": "本文基于维基百科条目「{title}」编写 (CC BY-SA 4.0)",
   "creature.fear": "恐惧",
   "creature.notFound": "未找到该生物",
   "creature.notFoundDesc": "您查找的生物不存在于我们的图鉴中。",
@@ -339,6 +359,11 @@ const ja: Dictionary = {
   "creature.storyHooks": "ストーリーフック",
   "creature.relatedCountry": "同じ国の他の存在",
   "creature.relatedType": "似たタイプの存在",
+  "article.origin": "起源と背景",
+  "article.legend": "伝承",
+  "article.variants": "異伝",
+  "article.culture": "大衆文化での姿",
+  "article.attribution": "この記事はWikipedia「{title}」記事を基に作成されました (CC BY-SA 4.0)",
   "creature.fear": "恐怖",
   "creature.notFound": "クリーチャーが見つかりません",
   "creature.notFoundDesc": "お探しのクリーチャーは図鑑に存在しません。",

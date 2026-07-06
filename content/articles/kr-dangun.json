@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Tan'gun",
+ "sourceLang": "en",
+ "sourceChars": 7852,
+ "generatedAt": "2026-07-06T11:44:47.699Z",
+ "locales": {
+  "ko": {
+   "origin": "단군은 고조선의 전설적인 창시자이자 첫 번째 왕으로, 기원전 2333년에 고조선을 세운 것으로 전해진다. 단군의 전설은 13세기 '삼국유사'에서 가장 오래된 기록으로 나타나며, 이는 한국의 잃어버린 역사 기록인 '고기'와 중국의 '위서'를 인용하고 있다.",
+   "legend": "한국 신화에서 단군의 조상 전설은 그의 할아버지 환인으로 시작된다. 환인은 '하늘의 주인'으로, 그의 아들 환웅은 인간 세상에서 살기를 원했다. 환인은 환웅과 3,000명의 추종자들이 태백산에 내려가도록 허락하였고, 환웅은 신시를 세워 법과 도덕을 제정하고 인간에게 다양한 기술과 의학, 농업을 가르쳤다. 단군은 곰과 호랑이가 인간이 되기를 기도하는 이야기를 통해 태어난 인물로, 곰은 여자로 변해 단군의 어머니가 되었다.",
+   "variants": "",
+   "culture": "단군은 한국에서 10월 3일에 고조선의 건국을 기념하는 국경일인 개천절로 기념된다. 대종교의 신앙에 따라 단군을 숭배하는 종교적 기념일로 시작되었다. 또한, 태권도에서는 단군이 2333년에 한국의 신성한 전설적인 창시자로서 두 번째 품세인 '단군'으로 등장한다."
+  },
+  "en": {
+   "origin": "Dangun is the legendary founder and first king of Gojoseon, said to have established Gojoseon in 2333 BC. The legend of Dangun appears in the 13th-century 'Samguk Yusa' as the oldest record, which cites Korea's lost historical records known as 'Gogi' and China's 'Weishi'.",
+   "legend": "In Korean mythology, the legend of Dangun's ancestry begins with his grandfather Hwanin. Hwanin is known as 'the Lord of Heaven', and his son Hwanung wished to live in the human world. Hwanin allowed Hwanung and 3,000 followers to descend to Taebaeksan, where Hwanung established a city of gods, enacted laws and morals, and taught humans various skills, medicine, and agriculture. Dangun is said to have been born through the story of a bear and a tiger praying to become human, with the bear transforming into a woman and becoming Dangun's mother.",
+   "variants": "",
+   "culture": "Dangun is commemorated in Korea on October 3rd, known as Gaecheonjeol, a national holiday celebrating the founding of Gojoseon. It began as a religious holiday honoring Dangun in accordance with the faith of the Daejonggyo. Additionally, in Taekwondo, Dangun appears as the second poomsae named 'Dangun', representing him as Korea's sacred legendary founder in 2333."
+  },
+  "zh": {
+   "origin": "檀君是高句丽的传说创始人和第一位国王，传说他在公元前2333年建立了高句丽。檀君的传说在13世纪的《三国遗事》中首次出现，这是韩国失落历史记录《古记》和中国的《魏书》的引用。",
+   "legend": "在韩国神话中，檀君的祖先传说始于他的祖父桓因。桓因被称为“天空的主人”，他的儿子桓雄希望在人间生活。桓因允许桓雄和3000名追随者下到太白山，桓雄建立了神市，制定了法律和道德，并教导人类各种技术、医学和农业。檀君是通过熊和老虎祈求变成人类的故事而诞生的，熊变成了女性，成为檀君的母亲。",
+   "variants": "",
+   "culture": "檀君在韩国的10月3日被纪念为高句丽建国的国庆日，即开天节。根据大宗教的信仰，开天节最初是一个崇拜檀君的宗教纪念日。此外，在跆拳道中，檀君作为2333年韩国神圣的传说创始人，出现在第二个品势“檀君”中。"
+  },
+  "ja": {
+   "origin": "ダンクンは高句麗の伝説的な創始者であり、最初の王として紀元前2333年に高句麗を建国したと伝えられています。ダンクンの伝説は13世紀の『三国遺事』に最も古い記録として現れ、これは韓国の失われた歴史記録である『古記』と中国の『魏書』を引用しています。",
+   "legend": "韓国の神話においてダンクンの祖先伝説は彼の祖父ファンインから始まります。ファンインは「天の主人」として知られ、彼の息子ファンウングは人間の世界で生活したいと望みました。ファンインはファンウングと3000人の従者が太白山に降りることを許可し、ファンウングは神市を設立して法と道徳を制定し、人間にさまざまな技術や医学、農業を教えました。ダンクンはクマとトラが人間になることを祈る物語を通じて生まれた人物であり、クマは女性に変わりダンクンの母親となりました。",
+   "variants": "",
+   "culture": "ダンクンは韓国で10月3日に高句麗の建国を記念する国民の祝日である開天節として祝われます。大宗教の信仰に従い、ダンクンを崇拝する宗教的な記念日として始まりました。また、テコンドーではダンクンが2333年に韓国の神聖な伝説的創始者として二番目の型「ダンクン」として登場します。"
+  }
+ }
+}

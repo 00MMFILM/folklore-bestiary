@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Kkoktu",
+ "sourceLang": "en",
+ "sourceChars": 1878,
+ "generatedAt": "2026-07-06T11:44:30.457Z",
+ "locales": {
+  "ko": {
+   "origin": "Kkoktu(꼭두)는 고대 한국에서 장례식에 사용된 장식적인 인물들로, 사후 세계에서 고인을 보호하고 돌보는 역할을 한다. 이 관습은 4세기경에 시작되어 20세기 초까지 지속되었으며, 조선 시대에는 일반 서민들 사이에서도 흔히 사용되었다.",
+   "legend": "Kkoktu는 고인의 사후 세계에서의 경험을 완화하기 위해 도움을 주는 인물들로 구성된 행렬을 이룬다. 이 행렬은 선도자 역할을 하는 수호자, 돌보는 역할을 하는 간병인, 그리고 즐거움을 주는 역할을 하는 연예인으로 이루어진다. 수호자는 고인을 인도하고 악령을 쫓아내는 역할을 하며, 간병인은 고인을 위해 의료적 돌봄을 제공한다. 연예인은 고인의 영혼과 그를 애도하는 생존자들에게 위로를 주는 역할을 한다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Kkoktu (꼭두) are decorative figures used in ancient Korea during funerals, serving to protect and care for the deceased in the afterlife. This custom began around the 4th century and continued until the early 20th century, becoming commonly used among ordinary people during the Joseon Dynasty.",
+   "legend": "Kkoktu forms a procession consisting of figures that help alleviate the deceased's experience in the afterlife. This procession includes a guardian who acts as a leader, a caregiver who provides care, and an entertainer who brings joy. The guardian guides the deceased and drives away evil spirits, while the caregiver offers medical care for the deceased. The entertainer provides comfort to the soul of the deceased and to the survivors mourning them.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "Kkoktu(꼭두)是古代韩国在葬礼上使用的装饰性人物，负责在死后世界保护和照顾逝者。这一习俗始于4世纪，持续到20世纪初，在朝鲜时代，普通百姓之间也普遍使用。",
+   "legend": "Kkoktu由一群帮助逝者减轻死后世界经历的角色组成。这一队伍包括担任引导者的守护者、负责照顾的护理人员，以及提供娱乐的艺人。守护者负责引导逝者并驱赶恶灵，护理人员为逝者提供医疗照顾，艺人则为逝者的灵魂和哀悼的生者提供安慰。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "Kkoktu(꼭두)は古代韓国で葬儀に使用された装飾的な人物で、死後の世界で故人を守り、世話をする役割を果たします。この習慣は4世紀頃に始まり、20世紀初頭まで続き、朝鮮時代には一般の庶民の間でも広く使用されました。",
+   "legend": "Kkoktuは故人の死後の世界での経験を和らげるために助けを与える人物たちで構成された行列を形成します。この行列は先導者の役割を果たす守護者、世話をする役割を果たす看護人、そして楽しみを与える役割を果たす芸人で構成されています。守護者は故人を導き、悪霊を追い払う役割を果たし、看護人は故人のために医療的なケアを提供します。芸人は故人の魂と彼を悼む生存者たちに慰めを与える役割を果たします。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

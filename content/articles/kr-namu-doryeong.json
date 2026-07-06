@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Namu doryeong",
+ "sourceLang": "en",
+ "sourceChars": 7036,
+ "generatedAt": "2026-07-06T11:40:19.557Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "나무도령(나무도령, Master Tree)은 나무와 선녀의 아들에 대한 한국의 구술 전통 설화이다. 이 이야기는 나무가 아버지인 소년이 대홍수 중에 아버지를 타고 재난에 처한 동물들을 구하고, 한 노인의 딸과 결혼하여 인류의 조상이 되는 과정을 담고 있다. 나무도령은 '지부천모'(地父天母)의 패턴을 따르며, 이전 인류가 대홍수로 멸망한 후 새로운 인류를 창조하는 신화적 특성을 지닌다.",
+   "variants": "나무도령의 다른 버전에서는 그가 아이가 없는 과부나 미혼 여성과 나무의 정령이 관계를 맺고 태어난 아들로 묘사된다. 일부 버전에서는 나무도령의 탄생 이야기가 생략되기도 하며, 이는 나무에서 태어나는 것이 인간 경험으로는 받아들이기 어려운 점을 고려한 것이다. 또한, 나무도령을 돕는 동물들에 대한 변형도 존재하며, 개미와 모기 외에도 벌, 잠자리, 뱀, 제비, 노루, 멧돼지 등이 등장하는 경우가 있다.",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "Namudoryeong (나무도령, Master Tree) is a Korean oral tradition folktale about the son of a tree and a fairy. This story depicts how the boy, who is the son of the tree, rides on his father during a great flood to rescue animals in distress, marries the daughter of an old man, and becomes an ancestor of humanity. Namudoryeong follows the pattern of 'Jibucheonmo' (地父天母) and possesses mythological characteristics of creating a new humanity after the previous one perished in a great flood.",
+   "variants": "In other versions of Namudoryeong, he is described as the son born from the relationship between the spirit of the tree and a widow or unmarried woman without children. In some versions, the story of Namudoryeong's birth is omitted, considering that being born from a tree is difficult to accept in human experience. Additionally, there are variations regarding the animals that assist Namudoryeong, with appearances of bees, dragonflies, snakes, swallows, deer, and wild boars, in addition to ants and mosquitoes.",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "나무도령(나무도령, Master Tree)是关于树和仙女之子的韩国口头传统传说。这个故事讲述了一个少年在大洪水中骑着父亲的树，拯救遭遇灾难的动物，并与一位老人的女儿结婚，成为人类祖先的过程。나무도령遵循'地父天母'的模式，具有在前人类因大洪水灭绝后创造新的人类的神话特征。",
+   "variants": "在나무도령的其他版本中，他被描绘为与没有孩子的寡妇或未婚女性与树的精灵发生关系而出生的儿子。在某些版本中，나무도령的出生故事被省略，这考虑到从树中出生对人类经验来说是难以接受的。此外，还有关于帮助나무도령的动物的变体，除了蚂蚁和蚊子外，还可能出现蜜蜂、蜻蜓、蛇、燕子、鹿、野猪等。",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ナムドリョン（ナムドリョン、Master Tree）は、木と仙女の息子に関する韓国の口承伝統の伝説です。この物語は、木が父親である少年が大洪水の中で父を乗り越え、災害に遭った動物たちを救い、ある老人の娘と結婚して人類の祖先となる過程を描いています。ナムドリョンは「ジブチョンモ」（地父天母）のパターンに従い、以前の人類が大洪水で滅亡した後に新しい人類を創造する神話的特性を持っています。",
+   "variants": "ナムドリョンの他のバージョンでは、彼が子供のいない未亡人や未婚女性と木の精霊が関係を持って生まれた息子として描かれています。一部のバージョンではナムドリョンの誕生の物語が省略されることもあり、これは木から生まれることが人間の経験として受け入れがたい点を考慮したものです。また、ナムドリョンを助ける動物たちに関する変種も存在し、アリや蚊の他にも蜂、トンボ、ヘビ、ツバメ、シカ、イノシシなどが登場する場合があります。",
+   "culture": ""
+  }
+ }
+}

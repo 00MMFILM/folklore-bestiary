@@ -1,0 +1,61 @@
+name: Generate Creature Articles
+
+on:
+  schedule:
+    # 매일 05:30 UTC — 하루 30개씩 심화 아티클 생성 (gpt-4o-mini, ~$0.3/일)
+    - cron: '30 5 * * *'
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: '이번 실행에서 생성할 아티클 수'
+        required: false
+        default: '30'
+      country:
+        description: '특정 국가 코드만 (예: KR, 비우면 전체)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate articles
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          ARGS="--batch ${{ github.event.inputs.batch || '30' }} --concurrency 4"
+          if [ -n "${{ github.event.inputs.country }}" ]; then
+            ARGS="$ARGS --country ${{ github.event.inputs.country }}"
+          fi
+          node scripts/generate-articles.mjs $ARGS
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git add -A content/articles
+          if git diff --cached --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          COUNT=$(ls content/articles | wc -l | tr -d ' ')
+          git commit -m "Auto-articles: generate in-depth creature articles (total: ${COUNT})"
+          git pull --rebase origin main
+          git push

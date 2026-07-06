@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Mountain God",
+ "sourceLang": "en",
+ "sourceChars": 6251,
+ "generatedAt": "2026-07-06T11:43:05.641Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "산신(山神)은 한국 무속신앙에서의 산의 신으로, 건강과 부, 질병의 제거를 부여하는 존재로 여겨진다. 산의 웅장함, 신비로움, 형태가 산신 숭배의 영감을 주었다고 전해진다. 한국 불교에서 수호신으로 받아들여지면서, 대부분의 한국 불교 사찰에는 산신을 모신 산신각(山神閣)이라는 건물이 있다. 산신은 또한 칠성, 독성 등과 함께 삼성각에 모셔지기도 한다.",
+   "variants": "",
+   "culture": "산신제(산신제)는 지역 산신을 모시는 제사로, 마을 뒤의 산에 위치한 산신단에서 음력 1월 3일부터 대보름 사이에 열린다. 비용은 마을 주민들이 분담하며, 의식을 주관하는 사람들은 정화의 기간을 거친다. 의식 중에 제관은 술을 바치고, 축관은 기도를 외우며, 화주는 음식을 준비한다. 다음 날, 마을 주민들은 음식을 나누고 음악과 함께 축제를 즐긴다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "San-shin (산신) is the god of mountains in Korean shamanistic beliefs, regarded as a being that grants health, wealth, and the removal of diseases. The grandeur, mystery, and form of mountains are said to have inspired the worship of San-shin. In Korean Buddhism, San-shin is accepted as a guardian deity, and most Korean Buddhist temples have a building called San-shin-gak (산신각) dedicated to San-shin. San-shin is also enshrined in Samsung-gak (삼성각) along with Chilseong (칠성) and Doksung (독성).",
+   "variants": "",
+   "culture": "San-shin-je (산신제) is a ritual to honor the local San-shin, held at the San-shin altar located on the mountain behind the village, between the 3rd day of the lunar month and Daeboreum (대보름). The costs are shared among the village residents, and those who preside over the rituals go through a period of purification. During the ceremony, the ritual officiant offers alcohol, the celebrant recites prayers, and the host prepares food. The next day, the village residents share the food and enjoy a festival with music."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "山神（San Shen）是韩国巫俗信仰中的山之神，被认为是赋予健康、财富和消除疾病的存在。山的雄伟、神秘和形态被传说为山神崇拜的灵感来源。在韩国佛教中，山神被视为守护神，因此大多数韩国佛教寺庙都有供奉山神的山神阁（San Shen Ge）建筑。山神还与七星、独星等一起被供奉在三星阁（San Xing Ge）中。",
+   "variants": "",
+   "culture": "山神祭（San Shen Jie）是供奉地方山神的祭祀，通常在村庄后面的山上的山神坛举行，从农历1月3日到大满月之间进行。费用由村民共同承担，主持仪式的人会经过净化的过程。在仪式中，祭司会奉上酒，祝祷者会念祷文，主办者会准备食物。第二天，村民们会分享食物，并伴随着音乐享受节日的欢乐。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "山神（サンシン）は韓国の無俗信仰における山の神で、健康と富、病気の除去をもたらす存在と考えられている。山の雄大さ、神秘さ、形が山神崇拝のインスピレーションを与えたと伝えられている。韓国仏教では守護神として受け入れられ、大部分の韓国仏教寺院には山神を祀る山神閣（サンシンガク）という建物がある。山神はまた、七星（チルソン）、独星（ドクソン）などと共に三星閣（サムソンガク）に祀られることもある。",
+   "variants": "",
+   "culture": "山神祭（サンシンジェ）は地域の山神を祀る祭りで、村の裏の山に位置する山神壇で旧暦1月3日から大望月の間に行われる。費用は村の住民が分担し、儀式を主宰する人々は浄化の期間を経る。儀式中、祭司は酒を捧げ、祝官は祈りを唱え、花主は食べ物を準備する。翌日、村の住民は食べ物を分け合い、音楽と共に祭りを楽しむ。"
+  }
+ }
+}
