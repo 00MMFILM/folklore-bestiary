@@ -131,11 +131,35 @@ export default async function CreaturePage({
     { label: creature.ln || creature.n },
   ];
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: breadcrumbItems.map((item, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: item.label,
+      ...(item.href ? { item: `${SITE_URL}${item.href}` } : {}),
+    })),
+  };
+
+  // 내부 링크: 같은 나라 / 같은 유형 (SEO + 탐색 동선)
+  const allCreatures = getAllCreatures();
+  const relatedCountry = allCreatures
+    .filter((c) => c.countryCode === creature.countryCode && c.id !== creature.id)
+    .slice(0, 6);
+  const relatedType = allCreatures
+    .filter((c) => c.t === creature.t && c.countryCode !== creature.countryCode)
+    .slice(0, 6);
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
 
       <main
@@ -373,6 +397,50 @@ export default async function CreaturePage({
                 ))}
               </ul>
             </section>
+          )}
+
+          {/* Related creatures (internal links) */}
+          {[
+            { title: `${t["creature.relatedCountry"]} · ${countryName}`, items: relatedCountry },
+            { title: `${t["creature.relatedType"]} · ${typeName}`, items: relatedType },
+          ].map(
+            ({ title, items }) =>
+              items.length > 0 && (
+                <section key={title} style={{ marginBottom: "32px" }}>
+                  <h2 style={{ fontSize: "16px", color: colors.accent, marginBottom: "12px" }}>
+                    {title}
+                  </h2>
+                  <div
+                    style={{
+                      display: "grid",
+                      gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))",
+                      gap: "10px",
+                    }}
+                  >
+                    {items.map((c) => (
+                      <Link
+                        key={c.id}
+                        href={`/${locale}/creatures/${c.id}`}
+                        style={{
+                          display: "block",
+                          background: "#ffffff0a",
+                          border: "1px solid #ffffff18",
+                          borderRadius: "10px",
+                          padding: "10px 14px",
+                          textDecoration: "none",
+                          color: "#eed8c0",
+                          fontSize: "14px",
+                        }}
+                      >
+                        <div style={{ fontWeight: 600, marginBottom: "2px" }}>{c.n}</div>
+                        <div style={{ fontSize: "12px", color: "#999" }}>
+                          {getCountryName(c.country, locale)} · {getTypeName(c.t, locale)}
+                        </div>
+                      </Link>
+                    ))}
+                  </div>
+                </section>
+              )
           )}
 
           {/* CTA */}

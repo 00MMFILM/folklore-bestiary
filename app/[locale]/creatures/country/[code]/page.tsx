@@ -94,7 +94,42 @@ export default async function CountryPage({
     { label: countryName },
   ];
 
+  const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: breadcrumbItems.map((item, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name: item.label,
+        ...(item.href ? { item: `${SITE_URL}${item.href}` } : {}),
+      })),
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: `${countryName}${t["list.creaturesInCountry"]}`,
+      url: `${SITE_URL}/${locale}/creatures/country/${code}`,
+      inLanguage: locale,
+      mainEntity: {
+        "@type": "ItemList",
+        numberOfItems: creatures.length,
+        itemListElement: creatures.slice(0, 50).map((c, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: c.n,
+          url: `${SITE_URL}/${locale}/creatures/${c.id}`,
+        })),
+      },
+    },
+  ];
+
   return (
+    <>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
     <main
       style={{
         minHeight: "100vh",
@@ -157,5 +192,6 @@ export default async function CountryPage({
         </div>
       </div>
     </main>
+    </>
   );
 }

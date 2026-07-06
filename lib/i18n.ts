@@ -24,6 +24,8 @@ interface Dictionary {
   "creature.sources": string;
   "creature.genres": string;
   "creature.storyHooks": string;
+  "creature.relatedCountry": string;
+  "creature.relatedType": string;
   "creature.fear": string;
   "creature.notFound": string;
   "creature.notFoundDesc": string;
@@ -104,6 +106,8 @@ const ko: Dictionary = {
   "creature.sources": "출처",
   "creature.genres": "장르",
   "creature.storyHooks": "스토리 훅",
+  "creature.relatedCountry": "같은 나라의 다른 존재",
+  "creature.relatedType": "비슷한 유형의 존재",
   "creature.fear": "공포",
   "creature.notFound": "이 크리처를 찾을 수 없습니다",
   "creature.notFoundDesc": "찾으시는 크리처가 도감에 존재하지 않습니다.",
@@ -179,6 +183,8 @@ const en: Dictionary = {
   "creature.sources": "Sources",
   "creature.genres": "Genres",
   "creature.storyHooks": "Story Hooks",
+  "creature.relatedCountry": "More creatures from this country",
+  "creature.relatedType": "Similar creature types",
   "creature.fear": "Fear",
   "creature.notFound": "Creature Not Found",
   "creature.notFoundDesc": "The creature you are looking for does not exist in our bestiary.",
@@ -254,6 +260,8 @@ const zh: Dictionary = {
   "creature.sources": "来源",
   "creature.genres": "类型",
   "creature.storyHooks": "故事线索",
+  "creature.relatedCountry": "同一国家的其他传说",
+  "creature.relatedType": "类似类型的存在",
   "creature.fear": "恐惧",
   "creature.notFound": "未找到该生物",
   "creature.notFoundDesc": "您查找的生物不存在于我们的图鉴中。",
@@ -329,6 +337,8 @@ const ja: Dictionary = {
   "creature.sources": "出典",
   "creature.genres": "ジャンル",
   "creature.storyHooks": "ストーリーフック",
+  "creature.relatedCountry": "同じ国の他の存在",
+  "creature.relatedType": "似たタイプの存在",
   "creature.fear": "恐怖",
   "creature.notFound": "クリーチャーが見つかりません",
   "creature.notFoundDesc": "お探しのクリーチャーは図鑑に存在しません。",
