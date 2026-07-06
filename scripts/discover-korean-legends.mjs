@@ -91,7 +91,7 @@ async function buildFromFacts(cand) {
  "f": 공포지수 1~10 정수,
  "ab": ["능력 2~4개 (한국어 명사구)"],
  "wk": ["약점 1~3개 — 자료에 없으면 빈 배열"],
- "vk": "영어 시각 키워드 (이미지 생성용, 쉼표 구분)"
+ "vk": ["영어 시각 키워드 배열 (이미지 생성용)"]
 }`,
     },
     { role: 'user', content: `[괴담: ${cand.koName}]\n${cand.facts}` },
@@ -101,8 +101,9 @@ async function buildFromFacts(cand) {
     { role: 'user', content: `[자료]\n${cand.facts}\n\n[설명]\n${gen.d}` },
   ]);
   if (!verify.grounded) return null;
+  const vk = Array.isArray(gen.vk) ? gen.vk : String(gen.vk || '').split(',').map(x => x.trim()).filter(Boolean);
   return mk('KR', cand.enName, cand.koName, gen.t || 'Ghost', gen.f || 6, gen.d,
-    gen.ab || [], gen.wk || [], gen.vk || '', cand.src, 'legend');
+    gen.ab || [], gen.wk || [], vk, cand.src, 'legend');
 }
 
 // ── ko 위키 검색 ──
