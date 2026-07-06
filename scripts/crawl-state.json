@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 112,
+  "lastCategoryIndex": 115,
   "processedPageIds": [
     27551093,
     40572945,
@@ -2840,7 +2840,31 @@
     987201,
     5204957,
     1248684,
-    30280
+    30280,
+    80590420,
+    77930727,
+    80939287,
+    77235329,
+    72946691,
+    5552694,
+    9433102,
+    78093760,
+    82151354,
+    1311274,
+    81709854,
+    1194702,
+    2657278,
+    3176751,
+    3164340,
+    4662851,
+    10375003,
+    6059486,
+    43446,
+    4269589,
+    336886,
+    93520,
+    63749014,
+    72682356
   ],
   "discoveredCategories": [
     {
@@ -14050,10 +14074,90 @@
       "label": "Legendary kings of Denmark",
       "discoveredFrom": "Dog king",
       "discoveredAt": 522
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about horses",
+      "iso": "_MULTI",
+      "label": "Fairy tales about horses",
+      "discoveredFrom": "About the Golden-Haired Boy",
+      "discoveredAt": 523
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Czech legends",
+      "iso": "CZ",
+      "label": "Czech legends",
+      "discoveredFrom": "Lech, Czech, and Rus",
+      "discoveredAt": 523
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Polish monarchs",
+      "iso": "PL",
+      "label": "Legendary Polish monarchs",
+      "discoveredFrom": "Lech, Czech, and Rus",
+      "discoveredAt": 523
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythical Bohemian princes",
+      "iso": "CZ",
+      "label": "Mythical Bohemian princes",
+      "discoveredFrom": "Lech, Czech, and Rus",
+      "discoveredAt": 523
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Metamorphoses into arthropods in Greek mythology",
+      "iso": "GR",
+      "label": "Metamorphoses into arthropods in Greek mythology",
+      "discoveredFrom": "Arachne",
+      "discoveredAt": 523
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological people from Attica",
+      "iso": "_MULTI",
+      "label": "Mythological people from Attica",
+      "discoveredFrom": "Arachne",
+      "discoveredAt": 523
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Textiles in Greek mythology",
+      "iso": "GR",
+      "label": "Textiles in Greek mythology",
+      "discoveredFrom": "Arachne",
+      "discoveredAt": 523
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Nauruan mythology",
+      "iso": "_MULTI",
+      "label": "Nauruan mythology",
+      "discoveredFrom": "Areop-Enap",
+      "discoveredAt": 523
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Goddesses",
+      "iso": "_MULTI",
+      "label": "Goddesses",
+      "discoveredFrom": "Great Goddess of Teotihuacan",
+      "discoveredAt": 523
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Kiribati mythology",
+      "iso": "_MULTI",
+      "label": "Kiribati mythology",
+      "discoveredFrom": "Nareau",
+      "discoveredAt": 523
     }
   ],
-  "totalAdded": 2532,
-  "runs": 523,
-  "lastRun": "2026-07-06T12:40:58.528Z",
-  "lastDiscoveredIndex": 324
+  "totalAdded": 2542,
+  "runs": 524,
+  "lastRun": "2026-07-06T15:13:43.701Z",
+  "lastDiscoveredIndex": 327
 }
