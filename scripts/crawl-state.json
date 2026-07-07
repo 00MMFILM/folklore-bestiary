@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 121,
+  "lastCategoryIndex": 124,
   "processedPageIds": [
     27551093,
     40572945,
@@ -2912,7 +2912,26 @@
     31340221,
     25598803,
     60281408,
-    1957708
+    1957708,
+    10152126,
+    78731,
+    72811410,
+    80585,
+    72647085,
+    79413,
+    53857967,
+    23984319,
+    58273484,
+    66556403,
+    11262694,
+    54092034,
+    68548156,
+    972171,
+    35008426,
+    78549,
+    83181,
+    510900,
+    77741189
   ],
   "discoveredCategories": [
     {
@@ -14338,10 +14357,58 @@
       "label": "Burmese goddesses",
       "discoveredFrom": "Shwe Nabay",
       "discoveredAt": 525
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Nursemaids in Greek mythology",
+      "iso": "GR",
+      "label": "Nursemaids in Greek mythology",
+      "discoveredFrom": "Adrasteia",
+      "discoveredAt": 526
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Vengeance goddesses",
+      "iso": "_MULTI",
+      "label": "Vengeance goddesses",
+      "discoveredFrom": "Adrasteia",
+      "discoveredAt": 526
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Plays based on classical mythology",
+      "iso": "_MULTI",
+      "label": "Plays based on classical mythology",
+      "discoveredFrom": "Alcestis (play)",
+      "discoveredAt": 526
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Locrian mythology",
+      "iso": "_MULTI",
+      "label": "Locrian mythology",
+      "discoveredFrom": "Alcimache",
+      "discoveredAt": 526
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Sicyonians",
+      "iso": "_MULTI",
+      "label": "Mythological Sicyonians",
+      "discoveredFrom": "Aloeus",
+      "discoveredAt": 526
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Phoenician characters in Greek mythology",
+      "iso": "LB",
+      "label": "Phoenician characters in Greek mythology",
+      "discoveredFrom": "Alphesiboea",
+      "discoveredAt": 526
     }
   ],
-  "totalAdded": 2572,
-  "runs": 526,
-  "lastRun": "2026-07-07T02:10:59.889Z",
-  "lastDiscoveredIndex": 333
+  "totalAdded": 2587,
+  "runs": 527,
+  "lastRun": "2026-07-07T09:25:16.705Z",
+  "lastDiscoveredIndex": 336
 }
