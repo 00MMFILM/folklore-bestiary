@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 124,
+  "lastCategoryIndex": 127,
   "processedPageIds": [
     27551093,
     40572945,
@@ -2931,7 +2931,43 @@
     78549,
     83181,
     510900,
-    77741189
+    77741189,
+    17738887,
+    53891850,
+    64778123,
+    62863710,
+    92792,
+    10150677,
+    24924301,
+    19399536,
+    11790167,
+    79535298,
+    92723,
+    1380859,
+    1801378,
+    63614450,
+    1304000,
+    30892578,
+    45462916,
+    1735052,
+    401229,
+    18182903,
+    46204715,
+    65379,
+    22715537,
+    78127694,
+    38956160,
+    10227080,
+    1004821,
+    6569746,
+    3433377,
+    11974710,
+    50969880,
+    6406344,
+    42603176,
+    17184976,
+    296596,
+    2417200
   ],
   "discoveredCategories": [
     {
@@ -14405,10 +14441,82 @@
       "label": "Phoenician characters in Greek mythology",
       "discoveredFrom": "Alphesiboea",
       "discoveredAt": 526
+    },
+    {
+      "lang": "en",
+      "cat": "Category:North African legendary creatures",
+      "iso": "_MULTI",
+      "label": "North African legendary creatures",
+      "discoveredFrom": "Tibicena",
+      "discoveredAt": 527
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Films based on legends",
+      "iso": "_MULTI",
+      "label": "Films based on legends",
+      "discoveredFrom": "The Owl Who Married a Goose: An Eskimo Legend",
+      "discoveredAt": 527
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological corvids",
+      "iso": "_MULTI",
+      "label": "Mythological corvids",
+      "discoveredFrom": "Tuluŋigraq",
+      "discoveredAt": 527
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of Hawaii",
+      "iso": "US",
+      "label": "Folklore of Hawaii",
+      "discoveredFrom": "Folklore in Hawaii",
+      "discoveredAt": 527
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Universal Monsters",
+      "iso": "_MULTI",
+      "label": "Universal Monsters",
+      "discoveredFrom": "Cultural impact of Creature from the Black Lagoon",
+      "discoveredAt": 527
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Lesbian vampire media",
+      "iso": "_MULTI",
+      "label": "Lesbian vampire media",
+      "discoveredFrom": "Illness or Modern Women",
+      "discoveredAt": 527
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Vampires in music",
+      "iso": "_MULTI",
+      "label": "Vampires in music",
+      "discoveredFrom": "Lestat (musical)",
+      "discoveredAt": 527
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Works based on The Vampire Chronicles",
+      "iso": "_MULTI",
+      "label": "Works based on The Vampire Chronicles",
+      "discoveredFrom": "Lestat (musical)",
+      "discoveredAt": 527
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Women in Russian mythology",
+      "iso": "RU",
+      "label": "Women in Russian mythology",
+      "discoveredFrom": "Snegurochka",
+      "discoveredAt": 527
     }
   ],
-  "totalAdded": 2587,
-  "runs": 527,
-  "lastRun": "2026-07-07T09:25:16.705Z",
-  "lastDiscoveredIndex": 336
+  "totalAdded": 2596,
+  "runs": 528,
+  "lastRun": "2026-07-07T14:09:11.907Z",
+  "lastDiscoveredIndex": 339
 }
