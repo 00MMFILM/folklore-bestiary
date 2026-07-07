@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 118,
+  "lastCategoryIndex": 121,
   "processedPageIds": [
     27551093,
     40572945,
@@ -2883,7 +2883,36 @@
     36743,
     75161,
     72675821,
-    7214
+    7214,
+    82043968,
+    43133618,
+    19377014,
+    39848277,
+    245920,
+    60169666,
+    34881296,
+    603791,
+    161268,
+    53497113,
+    68376095,
+    1430380,
+    79396532,
+    76897526,
+    1127314,
+    8193853,
+    99574,
+    28576053,
+    45582699,
+    83591789,
+    80667329,
+    5875450,
+    5017842,
+    64666369,
+    72870256,
+    31340221,
+    25598803,
+    60281408,
+    1957708
   ],
   "discoveredCategories": [
     {
@@ -14277,10 +14306,42 @@
       "label": "Mythological bears",
       "discoveredFrom": "Callisto (mythology)",
       "discoveredAt": 524
+    },
+    {
+      "lang": "en",
+      "cat": "Category:God in Jainism",
+      "iso": "_MULTI",
+      "label": "God in Jainism",
+      "discoveredFrom": "Manibhadra Vir",
+      "discoveredAt": 525
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ayyavazhi mythology",
+      "iso": "_MULTI",
+      "label": "Ayyavazhi mythology",
+      "discoveredFrom": "Rama",
+      "discoveredAt": 525
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Dogs in Chinese mythology",
+      "iso": "CN",
+      "label": "Dogs in Chinese mythology",
+      "discoveredFrom": "Xiaotian Quan",
+      "discoveredAt": 525
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Burmese goddesses",
+      "iso": "MM",
+      "label": "Burmese goddesses",
+      "discoveredFrom": "Shwe Nabay",
+      "discoveredAt": 525
     }
   ],
-  "totalAdded": 2557,
-  "runs": 525,
-  "lastRun": "2026-07-06T19:43:53.310Z",
-  "lastDiscoveredIndex": 330
+  "totalAdded": 2572,
+  "runs": 526,
+  "lastRun": "2026-07-07T02:10:59.889Z",
+  "lastDiscoveredIndex": 333
 }
