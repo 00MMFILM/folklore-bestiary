@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 127,
+  "lastCategoryIndex": 130,
   "processedPageIds": [
     27551093,
     40572945,
@@ -2967,7 +2967,29 @@
     42603176,
     17184976,
     296596,
-    2417200
+    2417200,
+    14640744,
+    87332,
+    14246484,
+    345378,
+    596574,
+    3336483,
+    4572,
+    934180,
+    19373860,
+    50814226,
+    319769,
+    79798308,
+    20542051,
+    9025300,
+    5527246,
+    6892657,
+    82529447,
+    5371490,
+    10687711,
+    11048005,
+    10630555,
+    5340460
   ],
   "discoveredCategories": [
     {
@@ -14513,10 +14535,74 @@
       "label": "Women in Russian mythology",
       "discoveredFrom": "Snegurochka",
       "discoveredAt": 527
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Kings in Norse mythology and legends",
+      "iso": "NO",
+      "label": "Kings in Norse mythology and legends",
+      "discoveredFrom": "Alf and Alfhild",
+      "discoveredAt": 528
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Danish people",
+      "iso": "DK",
+      "label": "Legendary Danish people",
+      "discoveredFrom": "Alf and Alfhild",
+      "discoveredAt": 528
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Arabian mythology",
+      "iso": "SA",
+      "label": "Arabian mythology",
+      "discoveredFrom": "Aspidochelone",
+      "discoveredAt": 528
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Western (genre) heroes",
+      "iso": "_MULTI",
+      "label": "Western (genre) heroes",
+      "discoveredFrom": "Bowleg Bill",
+      "discoveredAt": 528
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Irish legends",
+      "iso": "IE",
+      "label": "Irish legends",
+      "discoveredFrom": "Brendan the Navigator",
+      "discoveredAt": 528
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Irish people",
+      "iso": "IE",
+      "label": "Legendary Irish people",
+      "discoveredFrom": "Brendan the Navigator",
+      "discoveredAt": 528
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Propaganda legends",
+      "iso": "_MULTI",
+      "label": "Propaganda legends",
+      "discoveredFrom": "White Tights",
+      "discoveredAt": 528
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about werewolves",
+      "iso": "_MULTI",
+      "label": "Fairy tales about werewolves",
+      "discoveredFrom": "Corvetto (fairy tale)",
+      "discoveredAt": 528
     }
   ],
-  "totalAdded": 2596,
-  "runs": 528,
-  "lastRun": "2026-07-07T14:09:11.907Z",
-  "lastDiscoveredIndex": 339
+  "totalAdded": 2607,
+  "runs": 529,
+  "lastRun": "2026-07-07T19:42:38.136Z",
+  "lastDiscoveredIndex": 342
 }
