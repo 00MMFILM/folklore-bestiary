@@ -20,15 +20,13 @@ import {
 const APPLY = process.argv.includes('--apply');
 const apiKey = process.env.OPENAI_API_KEY;
 
-// ── A) 위키백과 표제어 후보 (전통 설화·민담·전설) ──
-const WIKI_CANDIDATES = [
-  '곤지암 정신병원', '분신사바', '우렁각시', '아기장수 설화', '해와 달이 된 오누이',
-  '콩쥐팥쥐', '여우누이', '도화녀와 비형랑', '김현감호',
-  '바리공주', '당금애기', '성덕대왕신종', '구렁덩덩신선비', '심청전',
-  '치악산 상원사 전설', '은혜 갚은 까치', '견우와 직녀', '나무꾼과 선녀',
-  '호랑이와 곶감', '단군왕검', '주몽 신화', '박혁거세', '김수로왕',
-  '석탈해', '김알지', '연오랑과 세오녀', '사복불언', '조신의 꿈',
-  '만불산', '호경', '작제건', '처용가', '헌화가',
+// ── A) 위키백과 표제어 후보 — 정확한 ko.wikipedia 문서명 (검색 없이 직접 조회) ──
+//    검색 API는 스로틀링·퍼지 오탐이 잦아 정확 제목 직접 fetch로 전환
+const WIKI_TITLES = [
+  '우렁각시', '선녀와 나무꾼', '해와 달이 된 오누이', '바리공주', '콩쥐팥쥐전',
+  '여우 누이', '아기장수 우투리', '비형랑', '연오랑과 세오녀', '처용',
+  '만파식적', '호랑이와 곶감', '분신사바', '오늘이', '조신',
+  '삼신할미', '동명성왕',
 ];
 
 // ── B) 사실 자료 기반 후보 (위키 부재 괴담) ──
@@ -106,13 +104,22 @@ async function buildFromFacts(cand) {
     gen.ab || [], gen.wk || [], vk, cand.src, 'legend');
 }
 
-// ── ko 위키 검색 ──
-async function searchKoWiki(term) {
-  const url = `https://ko.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(term)}&srlimit=1&format=json`;
+// ── ko 위키 본문 전체 조회 (인트로 요약이 짧은 설화 대응) ──
+async function fetchFullKoArticle(title) {
+  const url = `https://ko.wikipedia.org/w/api.php?action=query&prop=extracts|langlinks&explaintext` +
+    `&lllimit=10&titles=${encodeURIComponent(title)}&format=json&origin=*&redirects=1`;
   try {
-    const res = await fetch(url, { headers: { 'User-Agent': 'FolkloreBestiary/1.0 (discovery)' } });
+    const res = await fetch(url, { headers: { 'User-Agent': 'FolkloreBestiary/1.0 (leechan0415@gmail.com; discovery)' } });
     const j = await res.json();
-    return j?.query?.search?.[0]?.title || null;
+    const p = Object.values(j?.query?.pages || {})[0];
+    if (!p?.pageid || !p?.extract) return null;
+    return {
+      title: p.title,
+      pageid: p.pageid,
+      // 본문 앞부분을 문장 경계로 잘라 설명 소스로 사용 (섹션 헤더 == 제거)
+      extract: p.extract.replace(/={2,}[^=]+={2,}/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 600),
+      langlinks: p.langlinks || [],
+    };
   } catch { return null; }
 }
 
@@ -121,27 +128,19 @@ const data = loadData();
 const state = { processedPageIds: [] }; // isDuplicate 시그니처용
 const results = { added: [], dup: [], notFound: [], notCreature: [], failed: [] };
 
-// A) 위키 후보 — 큐레이션된 목록이므로 isCreatureArticle 자동 필터는 우회
-//    (분신사바/콩쥐팥쥐처럼 영화·소설 언급 때문에 오탐되는 설화가 많음)
-for (const term of WIKI_CANDIDATES) {
-  await new Promise(r => setTimeout(r, 2000));
-  let title = await searchKoWiki(term);
-  if (!title) { // 레이트리밋 가능 — 한 번 대기 후 재시도
-    await new Promise(r => setTimeout(r, 10000));
-    title = await searchKoWiki(term);
-  }
-  if (!title) { results.notFound.push(term); continue; }
-  // 검색 오탐 가드: 후보명과 결과 제목이 단어를 공유해야 함
-  // ('치악산 상원사 전설'→'원주시' 같은 퍼지 매칭 사고 방지)
-  const termWords = term.split(/\s+/).filter(w => w.length >= 2);
-  const overlap = termWords.some(w => title.includes(w)) ||
-    title.split(/\s+/).some(w => w.length >= 2 && term.includes(w));
-  if (!overlap) { results.notCreature.push(`${term}→${title} (제목 불일치)`); continue; }
-  const article = await fetchArticleDetail('ko', title);
-  if (!article || (article.extract || '').length < 200) { results.notFound.push(term); continue; }
+// A) 위키 후보 — 정확한 문서명으로 본문 전체 조회 (검색 스로틀링·오탐·짧은 인트로 회피).
+//    큐레이션 목록이므로 isCreatureArticle 자동 필터는 우회
+//    (콩쥐팥쥐전/분신사바처럼 영화·소설 언급으로 오탐되는 설화가 많음)
+// 미디어물·동음이의어 등 설화 아님을 걸러내는 가드 (제목이 영화/소설 등과 겹치는 경우)
+const NON_FOLK = /개봉(한|된|일)|영화(이다|다|제)|애니메이션이다|드라마이다|텔레비전|앨범이다|가수|배우|성우|출연|다른 뜻은|동음이의|본 문서는.*(영화|드라마|소설|만화|게임)|비디오 게임|위키(백과|미디어)/;
+for (const title of WIKI_TITLES) {
+  await new Promise(r => setTimeout(r, 1500));
+  const article = await fetchFullKoArticle(title);
+  if (!article || article.extract.length < 120) { results.notFound.push(title); continue; }
+  if (NON_FOLK.test(article.extract)) { results.notCreature.push(`${title} (미디어/동음이의)`); continue; }
   article.lang = 'ko';
   const creature = buildCreatureFromArticle(article, 'KR', 'ko', '한국 설화 발굴');
-  if (isDuplicate(creature, data, state)) { results.dup.push(term); continue; }
+  if (isDuplicate(creature, data, state)) { results.dup.push(title); continue; }
   data.find(c => c.i === 'KR').b.push(creature);
   results.added.push(`${creature.n} (위키:${title})`);
 }
