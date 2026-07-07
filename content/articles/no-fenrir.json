@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Fenrir",
+ "sourceLang": "en",
+ "sourceChars": 18978,
+ "generatedAt": "2026-07-07T08:50:31.555Z",
+ "locales": {
+  "ko": {
+   "origin": "Fenrir는 노르드 신화에서 중요한 역할을 하는 괴물 늑대이다. 그는 로키와 여성 요툰 앙그르보다의 자식으로, 헬과 요르문간드와 함께 태어났다. Fenrir는 13세기에 편찬된 시가 에다와 산문 에다, 그리고 하임스크링글라에서 언급된다.",
+   "legend": "Fenrir는 라그나로크의 사건들에서 중요한 역할을 하며, 인류와 사회의 붕괴를 초래하고 신 오딘을 죽일 것이라고 예언된다. 그는 헬과 요르문간드와 함께 로키의 자식으로, 시가 에다와 산문 에다에서 오딘을 죽일 것이라고 예언된다. Fenrir는 또한 그의 자식인 스콜과 하티의 아버지로 언급된다.",
+   "variants": "",
+   "culture": "Fenrir는 현대 문학에서도 등장하며, 아담 고틀로브 외헬렌슐레거의 시 'Om Fenrisulven og Tyr'와 K. H. 스트로블의 소설 'Der Fenriswolf' 등에서 다루어진다. 또한, 2022년 게임 'God of War Ragnarök'에서도 등장한다."
+  },
+  "en": {
+   "origin": "Fenrir is a monstrous wolf that plays an important role in Norse mythology. He is the child of Loki and the female Jötunn Angerboda, born alongside Hel and Jörmungandr. Fenrir is mentioned in the Poetic Edda and the Prose Edda, as well as in Heimskringla, which were compiled in the 13th century.",
+   "legend": "Fenrir plays a crucial role in the events of Ragnarök, prophesied to bring about the collapse of humanity and society and to kill the god Odin. He is the child of Loki, alongside Hel and Jörmungandr, and it is foretold in the Poetic Edda and the Prose Edda that he will kill Odin. Fenrir is also referred to as the father of his children Sköll and Hati.",
+   "variants": "",
+   "culture": "Fenrir also appears in modern literature, featured in Adam Gottlob Oehlenschläger's poem 'Om Fenrisulven og Tyr' and K. H. Strobl's novel 'Der Fenriswolf'. Additionally, he appears in the 2022 game 'God of War Ragnarök'."
+  },
+  "zh": {
+   "origin": "Fenrir是北欧神话中扮演重要角色的怪物狼。他是洛基（Loki）和女性巨人安格尔博达（Angerboda）的孩子，与赫尔（Hel）和约尔蒙冈德（Jörmungandr）一起出生。Fenrir在13世纪编纂的《诗体埃达》（Poetic Edda）和《散文埃达》（Prose Edda），以及《海姆斯克林格拉》（Heimskringla）中被提及。",
+   "legend": "Fenrir在诸神黄昏（Ragnarök）的事件中扮演重要角色，被预言将导致人类和社会的崩溃，并杀死神奥丁（Odin）。他与赫尔和约尔蒙冈德一起是洛基的孩子，在《诗体埃达》和《散文埃达》中被预言将杀死奥丁。Fenrir还被提及为他的孩子斯科尔（Sköll）和哈提（Hati）的父亲。",
+   "variants": "",
+   "culture": "Fenrir在现代文学中也出现，包括亚当·戈特洛布·外赫伦施勒格（Adam Gottlob Oehlenschläger）的诗《Om Fenrisulven og Tyr》和K. H. 斯特罗布尔（K. H. Strobl）的小说《Der Fenriswolf》等。此外，在2022年的游戏《战神：诸神黄昏》（God of War Ragnarök）中也出现。"
+  },
+  "ja": {
+   "origin": "フェンリル (Fenrir) は、北欧神話で重要な役割を果たす怪物の狼である。彼はロキ (Loki) と女性の巨人アンギルボダ (Angerboda) の子供で、ヘル (Hel) とヨルムンガンド (Jörmungandr) と共に生まれた。フェンリルは13世紀に編纂された詩のエッダ (Edda) と散文のエッダ、そしてハイムスクリングラ (Heimskringla) で言及されている。",
+   "legend": "フェンリルはラグナロク (Ragnarök) の出来事で重要な役割を果たし、人類と社会の崩壊を引き起こし、神オーディン (Odin) を殺すと予言されている。彼はヘルとヨルムンガンドと共にロキの子供で、詩のエッダと散文のエッダでオーディンを殺すと予言されている。フェンリルはまた、彼の子供であるスコール (Sköll) とハティ (Hati) の父として言及される。",
+   "variants": "",
+   "culture": "フェンリルは現代文学にも登場し、アダム・ゴットローブ・オイヘレンシュレーガー (Adam Gottlob Oehlenschläger) の詩『オム・フェンリスウルヴェン・オグ・ティール (Om Fenrisulven og Tyr)』やK. H. ストローブル (K. H. Strobl) の小説『デア・フェンリスヴォルフ (Der Fenriswolf)』などで扱われている。また、2022年のゲーム『ゴッド・オブ・ウォー・ラグナロク (God of War Ragnarök)』にも登場する。"
+  }
+ }
+}

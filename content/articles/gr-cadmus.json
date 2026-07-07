@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Cadmus",
+ "sourceLang": "en",
+ "sourceChars": 17572,
+ "generatedAt": "2026-07-07T08:50:41.320Z",
+ "locales": {
+  "ko": {
+   "origin": "카드무스는 고대 그리스 신화에서 보이오티아의 테베를 창립한 전설적인 인물로, 페니키아의 왕 아게노르와 여왕 텔레파사의 아들로 알려져 있다. 그는 포세이돈과 리비아를 조상으로 두고 있으며, 유로파, 피닉스, 실릭스의 형제이기도 하다.",
+   "legend": "카드무스는 제우스에 의해 유로파가 납치된 후, 그녀를 찾아 나선 인물이다. 그는 테베를 창립하거나 재건한 인물로, 그의 이름을 딴 아크로폴리스인 카드메이아가 세워졌다. 또한, 그는 일리리아의 여러 도시를 창립한 것으로도 알려져 있다. 카드무스는 그리스 문자 알파벳의 기원을 페니키아 문자에서 찾은 인물로, 헤로도토스에 따르면 그는 기원전 2000년경에 살았던 것으로 추정된다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Cadmus is a legendary figure in ancient Greek mythology, known as the founder of Thebes in Boeotia, and is said to be the son of Agenor, the king of Phoenicia, and Queen Telephassa. He is also a descendant of Poseidon and Libya, and is the brother of Europa, Phoenix, and Silix.",
+   "legend": "Cadmus is the figure who set out to find Europa after she was abducted by Zeus. He is credited with founding or rebuilding Thebes, and an acropolis named Cadmeia was established in his honor. Additionally, he is known for founding several cities in Illyria. Cadmus is recognized as the person who traced the origins of the Greek alphabet back to the Phoenician script, and according to Herodotus, he is believed to have lived around 2000 BC.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "卡德摩斯（Kadmos）是古希腊神话中创立波伊基亚的底比斯（Thebes）的传奇人物，传说是腓尼基王阿基农（Agenor）和女王泰勒法萨（Telephassa）的儿子。他的祖先是波塞冬（Poseidon）和利比亚（Libya），同时也是欧罗巴（Europa）、菲尼基（Phoenix）和西利克斯（Silix）的兄弟。",
+   "legend": "卡德摩斯在宙斯（Zeus）绑架欧罗巴后，踏上了寻找她的旅程。他被认为是创立或重建底比斯的人，以他的名字命名的卫城卡德梅亚（Cadmeia）也因此建立。此外，他还被认为创立了伊利里亚（Illyria）的多个城市。卡德摩斯被认为是将希腊字母的起源追溯到腓尼基字母的人，根据希罗多德（Herodotus）的说法，他大约生活在公元前2000年左右。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "カードモスは古代ギリシャ神話でボイオティアのテーベを創立した伝説的な人物で、フェニキアの王アゲノールと女王テレパサの息子として知られています。彼はポセイドンとリビアを祖先に持ち、ユーロパ、フェニキアス、シリクスの兄弟でもあります。",
+   "legend": "カードモスはゼウスによってユーロパが誘拐された後、彼女を探しに出た人物です。彼はテーベを創立または再建した人物で、彼の名前を冠したアクロポリスであるカードメイアが建てられました。また、彼はイリリアのいくつかの都市を創立したとも知られています。カードモスはギリシャ文字アルファベットの起源をフェニキア文字に求めた人物で、ヘロドトスによれば彼は紀元前2000年頃に生きていたと推定されています。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

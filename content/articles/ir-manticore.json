@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Manticore",
+ "sourceLang": "en",
+ "sourceChars": 13674,
+ "generatedAt": "2026-07-07T08:50:23.308Z",
+ "locales": {
+  "ko": {
+   "origin": "맨티코르는 고대 페르시아 신화에서 유래한 전설적인 생물로, 인간의 얼굴, 사자의 몸, 그리고 전갈의 꼬리를 가진 존재로 묘사된다. 이 이름은 고대 페르시아어의 합성어에서 유래하였으며, '인간'을 의미하는 'martīya'와 '먹다'를 의미하는 'xuar-'에서 파생되었다. 맨티코르에 대한 초기 기록은 기원전 5세기 그리스 의사인 크테시아스의 저서 '인디카'에서 발견된다. 그는 페르시아 궁정에서 일하며 인도에 대한 정보를 수집하였고, 이 생물의 이름을 'martichora'로 기록하였다.",
+   "legend": "맨티코르는 인간을 사냥하는 것을 선호하며, 세 줄의 이빨을 사용하여 희생자를 통째로 삼킨다고 전해진다. 이 생물은 전갈의 독침으로 무장한 꼬리를 가지고 있으며, 일부 기록에 따르면 이 가시를 화살처럼 발사할 수 있다고 한다. 맨티코르는 사냥할 때 숨어 있다가 두세 명의 인간을 동시에 잡아내는 것으로 묘사된다.",
+   "variants": "",
+   "culture": "현대 대중문화에서 맨티코르는 다양한 형태로 등장한다. 예를 들어, 테이블탑 롤플레잉 게임인 '던전 앤 드래곤'에서는 맨티코르가 날개를 가진 생물로 묘사되며, '마법: 더 개더링' 카드 게임에서도 등장한다. 애니메이션 영화 '온워드'에서는 맨티코르가 '코리'라는 캐릭터로 등장하며, tavern의 주인으로 묘사된다."
+  },
+  "en": {
+   "origin": "The manticore is a legendary creature originating from ancient Persian mythology, described as having the face of a human, the body of a lion, and the tail of a scorpion. The name derives from a compound in ancient Persian, derived from 'martīya' meaning 'human' and 'xuar-' meaning 'to eat.' Early records of the manticore can be found in the 5th century BC work 'Indica' by the Greek physician Ctesias. He worked at the Persian court and collected information about India, recording the creature's name as 'martichora.'",
+   "legend": "The manticore is said to prefer hunting humans, using three rows of teeth to swallow its victims whole. This creature has a tail armed with a scorpion's stinger, and some accounts suggest that it can shoot this stinger like an arrow. The manticore is described as lying in wait while hunting, capturing two or three humans at once.",
+   "variants": "",
+   "culture": "In modern popular culture, the manticore appears in various forms. For example, in the tabletop role-playing game 'Dungeons & Dragons,' the manticore is depicted as a winged creature, and it also appears in the card game 'Magic: The Gathering.' In the animated film 'Onward,' the manticore appears as a character named 'Corey,' depicted as the owner of a tavern."
+  },
+  "zh": {
+   "origin": "曼提库尔是源自古波斯神话的传奇生物，描述为拥有人的脸、狮子的身体和蝎子的尾巴。这个名字源于古波斯语的合成词，派生自表示“人类”的“martīya”和表示“吃”的“xuar-”。关于曼提库尔的早期记录可以在公元前5世纪希腊医生克特西亚斯的著作《印度记》中找到。他在波斯宫廷工作，收集关于印度的信息，并将这种生物的名字记录为“martichora”。",
+   "legend": "曼提库尔被传说为喜欢猎杀人类，使用三排牙齿将受害者整口吞下。这种生物拥有用蝎子毒刺武装的尾巴，一些记录表明它可以像箭一样发射这些刺。曼提库尔在狩猎时被描述为潜伏，能够同时捕捉两到三个人类。",
+   "variants": "",
+   "culture": "在现代大众文化中，曼提库尔以各种形式出现。例如，在桌面角色扮演游戏《地下城与龙》中，曼提库尔被描绘为一种有翅膀的生物，并且在《魔法：聚会》中也有出现。在动画电影《向前冲》中，曼提库尔以名为“科里”的角色出现，被描绘为酒馆的老板。"
+  },
+  "ja": {
+   "origin": "マンティコアは古代ペルシャ神話に由来する伝説的な生物で、人間の顔、ライオンの体、そしてサソリの尾を持つ存在として描かれています。この名前は古代ペルシャ語の合成語に由来し、「人間」を意味する「martīya」と「食べる」を意味する「xuar-」から派生しています。マンティコアに関する初期の記録は紀元前5世紀のギリシャの医者クテシアスの著作『インディカ』に見られます。彼はペルシャの宮廷で働き、インドに関する情報を収集し、この生物の名前を「martichora」と記録しました。",
+   "legend": "マンティコアは人間を狩ることを好み、三列の歯を使って犠牲者を丸ごと飲み込むと伝えられています。この生物はサソリの毒針で武装した尾を持ち、一部の記録によればこの棘を矢のように発射できると言われています。マンティコアは狩りをする際に隠れていて、二、三人の人間を同時に捕らえると描写されています。",
+   "variants": "",
+   "culture": "現代のポップカルチャーにおいて、マンティコアはさまざまな形で登場します。例えば、テーブルトップRPG『ダンジョンズ＆ドラゴンズ』ではマンティコアが翼を持つ生物として描かれ、『マジック：ザ・ギャザリング』カードゲームにも登場します。アニメ映画『オンワード』ではマンティコアが「コリー」というキャラクターとして登場し、タバーンの主人として描かれています。"
+  }
+ }
+}

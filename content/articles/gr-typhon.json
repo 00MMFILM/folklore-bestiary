@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Typhon",
+ "sourceLang": "en",
+ "sourceChars": 37155,
+ "generatedAt": "2026-07-07T08:49:35.491Z",
+ "locales": {
+  "ko": {
+   "origin": "타이폰은 고대 그리스 신화에서 가장 위험한 존재 중 하나로, 가이아와 타르타로스의 아들로 전해진다. 그러나 일부 출처에서는 타이폰이 헤라의 아들이라고 하거나 크로노스의 자식으로 언급되기도 한다. 타이폰과 그의 짝 에키드나는 많은 유명한 괴물의 조상으로 알려져 있다.",
+   "legend": "타이폰은 제우스에게 우주 지배권을 도전했으며, 두 존재는 대격돌을 벌였다. 제우스는 그의 천둥번개를 이용해 타이폰을 물리쳤고, 패배한 타이폰은 타르타로스에 던져지거나 에트나 산 아래에 묻히게 되었다. 타이폰의 신화는 그리스의 계승 신화의 일환으로, 제우스가 신들의 지배자가 되는 과정을 설명한다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Typhon is one of the most dangerous beings in ancient Greek mythology, said to be the son of Gaia and Tartarus. However, some sources mention that Typhon is the son of Hera or a child of Cronus. Typhon and his mate Echidna are known to be the ancestors of many famous monsters.",
+   "legend": "Typhon challenged Zeus for dominion over the universe, and the two beings engaged in a great battle. Zeus defeated Typhon using his thunderbolts, and the defeated Typhon was either thrown into Tartarus or buried beneath Mount Etna. The myth of Typhon is part of the Greek succession myth, explaining the process by which Zeus becomes the ruler of the gods.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "泰丰（Taifeng）是古希腊神话中最危险的存在之一，被传为盖亚（Gaia）和塔尔塔罗斯（Tartarus）的儿子。然而，一些来源将泰丰称为赫拉（Hera）的儿子或克罗诺斯（Cronos）的孩子。泰丰和他的伴侣艾基达娜（Echidna）被认为是许多著名怪物的祖先。",
+   "legend": "泰丰向宙斯（Zeus）挑战宇宙的统治权，两者展开了激烈的斗争。宙斯利用他的雷电击败了泰丰，失败的泰丰被扔进了塔尔塔罗斯或埋在埃特纳山（Etna）下。泰丰的神话是希腊继承神话的一部分，解释了宙斯成为众神统治者的过程。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "タイフォンは古代ギリシャ神話で最も危険な存在の一つで、ガイアとタルタロスの息子とされています。しかし、一部の資料ではタイフォンがヘラの息子であるとか、クロノスの子供として言及されることもあります。タイフォンと彼の伴侶エキドナは多くの有名な怪物の祖先として知られています。",
+   "legend": "タイフォンはゼウスに宇宙支配権を挑戦し、二つの存在は大激闘を繰り広げました。ゼウスは彼の雷を使ってタイフォンを打ち負かし、敗れたタイフォンはタルタロスに投げ込まれるか、エトナ山の下に埋められることになりました。タイフォンの神話はギリシャの継承神話の一環で、ゼウスが神々の支配者になる過程を説明しています。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

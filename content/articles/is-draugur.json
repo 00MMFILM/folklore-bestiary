@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Draugr",
+ "sourceLang": "en",
+ "sourceChars": 35497,
+ "generatedAt": "2026-07-07T08:50:14.915Z",
+ "locales": {
+  "ko": {
+   "origin": "드라우그르(draugr)라는 고대 노르드어 용어는 악의적인 망령을 의미하며, 그 기원은 기록되지 않은 고대 게르만어 *draugaz에서 유래된 것으로 추정된다. 이는 '환상', '착각', '신기루'를 의미하며, 궁극적으로는 '유령'을 뜻하는 인도유럽어 어근 *dʰrowgʰos에서 파생된 것이다. 드라우그르의 후손으로는 페로 제도어(dreygur), 아이슬란드어(draugur), 노르웨이어(draug, drøg, drog) 등이 있다.",
+   "legend": "노르딕 민속에서 드라우그르는 일반적으로 무덤이나 왕궁에 거주하며, 자신의 매장지에 묻힌 보물을 지키는 악의적인 망령으로 묘사된다. 드라우그르는 유령이 아닌 애니메이션된 시체로, 종종 초자연적인 힘을 지닌 존재로 나타난다. 이들은 일반적으로 인간의 형태를 띠고 있으며, 신체적 힘이 강하고, 부패한 냄새를 풍기는 특징이 있다. 드라우그르는 종종 마법적인 능력을 지니고 있으며, 형태를 바꾸거나 날씨를 조종하는 등의 능력을 갖고 있다.",
+   "variants": "드라우그르의 변형은 지역에 따라 다르게 나타난다. 예를 들어, 스웨덴어에서는 drög, dröger로, 노르웨이어에서는 draug, drøg, drog 등으로 불린다. 또한, 셰틀랜드 방언에서는 drow, trow로 불리며, 이는 '악의적인 영혼'이나 '트롤'을 의미한다. 드라우그르와 유사한 개념은 사미어에서도 발견되며, 이는 공통의 대출어에서 유래한 것으로 보인다.",
+   "culture": "드라우그르는 현대 대중문화에서도 자주 등장하는 주제이다. 특히, 판타지 문학과 게임에서 드라우그르는 종종 언데드 캐릭터로 묘사되며, 그들의 특성과 전투 방식은 다양한 매체에서 재해석되고 있다. J.R.R. 톨킨의 작품에서도 드라우그르와 유사한 개념이 등장하며, 이는 고대 노르드 전통에서 영감을 받은 것으로 볼 수 있다."
+  },
+  "en": {
+   "origin": "The ancient Norse term 드라우그르 (draugr) means a malicious spirit, and its origin is believed to derive from the unattested ancient Germanic *draugaz. This means 'phantom', 'illusion', 'mirage', and ultimately derives from the Indo-European root *dʰrowgʰos meaning 'ghost'. Descendants of 드라우그르 include Faroese (dreygur), Icelandic (draugur), and Norwegian (draug, drøg, drog).",
+   "legend": "In Nordic folklore, 드라우그르 is generally depicted as a malicious spirit residing in graves or royal tombs, guarding the treasures buried with them. 드라우그르 is not a ghost but an animated corpse, often appearing as a being with supernatural powers. They typically take on a human form, are physically strong, and have a characteristic decaying smell. 드라우그르 often possesses magical abilities, such as shape-shifting or controlling the weather.",
+   "variants": "The variations of 드라우그르 appear differently depending on the region. For example, in Swedish, it is referred to as drög or dröger, while in Norwegian, it is called draug, drøg, or drog. Additionally, in Shetland dialect, it is known as drow or trow, which means 'malicious spirit' or 'troll'. Similar concepts to 드라우그르 can also be found in Sámi languages, suggesting a common loanword origin.",
+   "culture": "드라우그르 frequently appears as a theme in modern popular culture. Particularly in fantasy literature and games, 드라우그르 is often depicted as an undead character, with their characteristics and combat styles reinterpreted across various media. Concepts similar to 드라우그르 also appear in the works of J.R.R. Tolkien, which can be seen as inspired by ancient Norse traditions."
+  },
+  "zh": {
+   "origin": "드라우그르(draugr)这个古代诺尔斯语词汇意为恶意的幽灵，其起源被认为源自未记录的古日耳曼语 *draugaz。这意味着“幻影”、“错觉”、“海市蜃楼”，最终源自印欧语根 *dʰrowgʰos，意为“鬼魂”。 드라우그르的后裔包括法罗群岛语(dreygur)、冰岛语(draugur)、挪威语(draug, drøg, drog)等。",
+   "legend": "在北欧民俗中，드라우그르通常居住在坟墓或王宫，被描绘为守护自己埋葬地宝藏的恶意幽灵。드라우그르不是幽灵，而是被动画化的尸体，常常表现为具有超自然力量的存在。它们通常呈现人类的形态，身体力量强大，并散发腐臭的气味。드라우그르通常拥有魔法能力，能够变形或操控天气等。",
+   "variants": "드라우그르的变体因地区而异。例如，在瑞典语中称为drög、dröger，在挪威语中称为draug、drøg、drog。此外，在设得兰方言中称为drow、trow，这意味着“恶意的灵魂”或“巨魔”。与드라우그르相似的概念在萨米语中也有发现，这似乎源于共同的借词。",
+   "culture": "드라우그르在现代大众文化中也经常出现。特别是在奇幻文学和游戏中，드라우그르常常被描绘为不死角色，其特征和战斗方式在各种媒体中被重新诠释。在J.R.R. 托尔金的作品中也出现了与드라우그르相似的概念，这可以看作是受到古代诺尔德传统的启发。"
+  },
+  "ja": {
+   "origin": "ドロウグル(draugr)という古代ノルド語の用語は、悪意のある霊を意味し、その起源は記録されていない古代ゲルマン語の*draugazに由来すると考えられている。これは「幻想」、「錯覚」、「蜃気楼」を意味し、最終的には「幽霊」を指すインド・ヨーロッパ語の語根*dʰrowgʰosから派生したものである。ドロウグルの子孫には、フェロー諸島語(dreygur)、アイスランド語(draugur)、ノルウェー語(draug, drøg, drog)などがある。",
+   "legend": "北欧民俗においてドロウグルは一般的に墓や王宮に住み、自身の埋葬地に埋められた宝物を守る悪意のある霊として描かれる。ドロウグルは幽霊ではなく、アニメーションされた死体であり、しばしば超自然的な力を持つ存在として現れる。彼らは一般的に人間の形をしており、身体的な力が強く、腐敗した匂いを放つ特徴がある。ドロウグルはしばしば魔法の能力を持ち、形を変えたり天候を操ったりする能力を持っている。",
+   "variants": "ドロウグルの変形は地域によって異なる。例えば、スウェーデン語ではdrög、drögerと呼ばれ、ノルウェー語ではdraug、drøg、drogなどと呼ばれる。また、シェトランド方言ではdrow、trowと呼ばれ、これは「悪意のある魂」や「トロール」を意味する。ドロウグルに類似した概念はサーミ語でも見られ、これは共通の借用語から派生したものと考えられる。",
+   "culture": "ドロウグルは現代の大衆文化でも頻繁に登場するテーマである。特に、ファンタジー文学やゲームにおいてドロウグルはしばしばアンデッドキャラクターとして描かれ、その特性や戦闘スタイルはさまざまなメディアで再解釈されている。J.R.R. トールキンの作品でもドロウグルに類似した概念が登場し、これは古代ノルドの伝統からインスパイアを受けたものと見ることができる。"
+  }
+ }
+}
