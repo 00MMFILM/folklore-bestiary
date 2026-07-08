@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "표준국어대사전, 한국 민담 채록",
+ "sourceLang": "ko",
+ "factBased": true,
+ "generatedAt": "2026-07-07T15:28:56.693Z",
+ "locales": {
+  "ko": {
+   "origin": "조선 시대부터 요괴로 정착한 것으로 전해진다.",
+   "legend": "어둠을 상징하며, 사람이 계속 지켜보거나 올려다볼수록 점점 커진다. 끝까지 올려다보면 한없이 커져 결국 사람을 깔아뭉갠다고 한다. 반대로 시선을 아래로 내리면 작아져 사라진다 하여, 심리적 공포를 이용하는 존재로 묘사된다.",
+   "variants": "어둑서니·아둑시니",
+   "culture": "표준국어대사전에 '어둑서니'로 등재되어 있으며 '어두운 밤에 보이는 헛것'으로 풀이된다."
+  },
+  "en": {
+   "origin": "It is said to have settled as a monster since the Joseon Dynasty.",
+   "legend": "It symbolizes darkness, and the more a person continues to watch or look up at it, the larger it becomes. If one looks up until the end, it grows infinitely large and eventually crushes the person. Conversely, if one looks down, it shrinks and disappears, thus being described as a being that utilizes psychological fear.",
+   "variants": "Eodukseoni·Eoduksini",
+   "culture": "It is registered as 'Eodukseoni' in the Standard Korean Dictionary and is interpreted as 'a phantom seen on a dark night.'"
+  },
+  "zh": {
+   "origin": "传说从朝鲜时代开始就作为妖怪定居。",
+   "legend": "象征黑暗，越是有人持续注视或仰望，它就越变越大。最终如果一直仰望，它会无限变大，最终将人压扁。相反，如果将视线向下移，它会变小并消失，因此被描绘为利用心理恐惧的存在。",
+   "variants": "어둑서니·아둑시니",
+   "culture": "在标准国语大辞典中以'어둑서니'的形式注册，并被解释为'在黑暗的夜晚出现的幻影'。"
+  },
+  "ja": {
+   "origin": "朝鮮時代から妖怪として定着したと伝えられている。",
+   "legend": "暗闇を象徴し、人がずっと見守ったり見上げたりするほど、どんどん大きくなる。最後まで見上げると無限に大きくなり、最終的には人を押しつぶすと言われている。逆に視線を下に向けると小さくなり消えると言われ、心理的恐怖を利用する存在として描かれている。",
+   "variants": "アドクソニ・アドクシニ",
+   "culture": "標準国語大辞典に『アドクソニ』として登録されており、『暗い夜に見える幻影』と解釈されている。"
+  }
+ }
+}

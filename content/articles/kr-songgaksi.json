@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "한국 무속·민간신앙 채록",
+ "sourceLang": "ko",
+ "factBased": true,
+ "generatedAt": "2026-07-07T15:29:38.262Z",
+ "locales": {
+  "ko": {
+   "origin": "혼인하지 못하고 죽은 처녀의 원귀로, '왕신·처녀귀신'이라고도 불린다.",
+   "legend": "시집가지 못한 한을 품고 죽어, 혼기의 다른 처녀를 질투해 해코지한다고 여겨졌다. 짚으로 만든 인형(제웅)에 깃들어 나타난다고 전해진다. 미혼 남성 원귀인 몽달귀신과 짝지어 사혼(영혼결혼식)으로 한을 풀어주는 민속이 있었다.",
+   "variants": "",
+   "culture": "Ghost manifesting through a straw doll used in folk divination. Young women would make straw dolls to divine their future husbands, but the dolls could become possessed by wandering spirits."
+  },
+  "en": {
+   "origin": "A vengeful spirit of a maiden who died without marrying, also known as 'Wangsin' or 'Maiden Ghost'.",
+   "legend": "Believed to have died with the regret of not getting married, she is thought to take revenge on other unmarried maidens out of jealousy. It is said that she appears through a straw doll (Jeung) made of straw. There was a folk custom of performing a soul marriage (spiritual wedding) with the male vengeful spirit, Mongdal Ghost, to alleviate her grievances.",
+   "variants": "",
+   "culture": "Ghost manifesting through a straw doll used in folk divination. Young women would make straw dolls to divine their future husbands, but the dolls could become possessed by wandering spirits."
+  },
+  "zh": {
+   "origin": "未婚而死的少女的怨灵，也被称为'王神·少女鬼神'。",
+   "legend": "因未能出嫁而怀有怨恨而死，被认为会嫉妒其他适婚的少女并进行恶作剧。传说她会寄宿在用稻草制作的人偶（制翁）中出现。曾有与未婚男性怨灵梦达鬼神成对，通过灵魂婚礼来解开怨恨的民俗。",
+   "variants": "",
+   "culture": "通过用于民间占卜的稻草人偶显现的鬼魂。年轻女性会制作稻草人偶来占卜未来的丈夫，但这些人偶可能会被游荡的灵魂附身。"
+  },
+  "ja": {
+   "origin": "結婚できずに亡くなった処女の怨霊で、「王神・処女霊」とも呼ばれる。",
+   "legend": "嫁に行けなかった恨みを抱えて亡くなり、婚期の他の処女を嫉妬して害を与えると考えられていた。藁で作った人形（ジェウン）に宿って現れると伝えられている。未婚男性の怨霊であるモンダル霊と組み合わせて、霊婚（魂の結婚式）で恨みを解消する民俗があった。",
+   "variants": "",
+   "culture": "民間占いに使われる藁人形を通じて現れる幽霊。若い女性たちは未来の夫を占うために藁人形を作ったが、その人形はさまよえる霊に取り憑かれることがあった。"
+  }
+ }
+}

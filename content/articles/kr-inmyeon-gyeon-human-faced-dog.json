@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "1990년대 도시전설 채록",
+ "sourceLang": "ko",
+ "factBased": true,
+ "generatedAt": "2026-07-08T03:04:23.835Z",
+ "locales": {
+  "ko": {
+   "origin": "인면견은 사람의 얼굴을 한 개의 모습이라는 한국 도시전설 속 존재로, 1980년대 말~1990년대에 크게 유행했다.",
+   "legend": "몸은 개이지만 얼굴이 사람이며 말을 한다고 전해진다. 고속도로에서 달리는 자동차를 시속 100km 이상으로 따라와 나란히 달리며 운전자를 쳐다본다는 목격담이 대표적이다. 마주친 사람에게 '왜 쳐다봐'라고 말을 걸었다는 이야기가 유명하다.",
+   "variants": "일본의 진멘켄(人面犬) 도시전설과 같은 시기에 유행한 동아시아 공통 괴담 유형이다.",
+   "culture": "1990년대에는 학교와 잡지, 만화를 통해 널리 퍼졌다."
+  },
+  "en": {
+   "origin": "Inmyeon-gyeon is a being from Korean urban legends that has the appearance of a dog with a human face, which became widely popular from the late 1980s to the 1990s.",
+   "legend": "It is said to have a body of a dog but a human face and can speak. A typical sighting report describes it running alongside a car on the highway at speeds over 100 km/h, staring at the driver. A famous story recounts it asking a person it encountered, 'Why are you looking at me?'",
+   "variants": "It is a common type of urban legend in East Asia that was popular around the same time as Japan's Jinmenken (人面犬) urban legend.",
+   "culture": "In the 1990s, it spread widely through schools, magazines, and comics."
+  },
+  "zh": {
+   "origin": "人面犬是一个拥有人的面孔的狗的形象，是韩国城市传说中的存在，在1980年代末到1990年代期间广为流传。",
+   "legend": "身体是狗，但面孔是人，并且会说话。据说它会以时速超过100公里的速度跟随在高速公路上行驶的汽车旁边，并注视着司机。与之相遇的人讲述了它曾问过“你为什么看我”的故事，这个故事非常著名。",
+   "variants": "与日本的真面犬（人面犬）城市传说在同一时期流行，是东亚共同的怪谈类型。",
+   "culture": "在1990年代，通过学校、杂志和漫画广泛传播。"
+  },
+  "ja": {
+   "origin": "イン面犬は人の顔をした犬の姿という韓国の都市伝説の存在で、1980年代後半から1990年代にかけて大流行した。",
+   "legend": "体は犬だが顔は人間で、話すことができると伝えられている。高速道路で走る車を時速100km以上で追いかけ、並んで走りながら運転手を見つめるという目撃談が代表的である。出会った人に「なぜ見ているの？」と声をかけたという話が有名である。",
+   "variants": "日本の人面犬（じんめんけん）都市伝説と同じ時期に流行した東アジア共通の怪談タイプである。",
+   "culture": "1990年代には学校や雑誌、漫画を通じて広く普及した。"
+  }
+ }
+}

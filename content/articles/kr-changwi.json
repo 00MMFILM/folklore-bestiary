@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "박지원 「호질」 등 문헌·구전 채록",
+ "sourceLang": "ko",
+ "factBased": true,
+ "generatedAt": "2026-07-07T15:29:15.944Z",
+ "locales": {
+  "ko": {
+   "origin": "창귀(倀鬼)는 호랑이에게 죽은 사람의 혼이 호랑이의 종이 되어 새 희생자를 유인한다는 한국·동북아의 요괴이다.",
+   "legend": "호랑이에게 잡아먹힌 원혼이 자유로워지려면 다른 사람을 대신 호랑이에게 데려다줘야 한다. 밤에 사람의 이름을 세 번까지 부르는데, 세 번 안에 대답하면 홀려서 호랑이에게 걸어간다고 한다. 박지원의 「호질」에는 호랑이가 처음 잡아먹은 사람은 굴각(屈閣), 두 번째는 이올(彛兀), 세 번째는 육혼(鬻渾)이라는 창귀가 된다고 나온다. 굴각은 집주인을 부엌으로 유인하고, 이올은 사냥꾼의 함정을 망가뜨리며, 육혼은 친했던 사람을 꾀어낸다.",
+   "variants": "위호작창(爲虎作倀)",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Changgui (倀鬼) is a spirit in Korean and Northeast Asian folklore that is said to be the soul of a person who was killed by a tiger, becoming a servant of the tiger to lure new victims.",
+   "legend": "In order for the soul of a person eaten by a tiger to be freed, it must bring another person to the tiger in their place. It is said that at night, the spirit calls out a person's name up to three times, and if the person responds within those three calls, they are enchanted and walk towards the tiger. In Park Ji-won's 'Hojil', it is mentioned that the first person eaten by the tiger becomes Gulgak (屈閣), the second becomes Iol (彛兀), and the third becomes Yukhon (鬻渾). Gulgak lures the homeowner to the kitchen, Iol sabotages the hunter's traps, and Yukhon entices someone they were close to.",
+   "variants": "Wihwajang (爲虎作倀)",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "倀鬼是指被老虎杀死的人灵魂变成老虎的仆从，引诱新的牺牲者的韩国·东北亚妖怪。",
+   "legend": "被老虎吃掉的冤魂要想获得自由，就必须带其他人去给老虎。晚上会呼唤人的名字最多三次，如果在三次内回应，就会被迷惑走向老虎。朴志源的《虎质》中提到，第一次被老虎吃掉的人是屈阁，第二个是彛兀，第三个是鬻渾，成为倀鬼。屈阁引诱房主到厨房，彛兀破坏猎人的陷阱，而鬻渾则诱骗曾经亲近的人。",
+   "variants": "为虎作倀",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "창鬼(倀鬼)は虎に殺された人の魂が虎の従者となり、新たな犠牲者を誘い込むという韓国・東北アジアの妖怪である。",
+   "legend": "虎に捕まった怨魂が自由になるためには、他の人を代わりに虎に連れて行かなければならない。夜に人の名前を三回まで呼ぶが、三回以内に返事をすると魅了されて虎の方へ歩いて行くと言われている。朴趾源の「虎疾」には、虎が最初に捕まえた人は屈閣(굴각)、二番目は彛兀(이올)、三番目は鬻渾(육혼)という創鬼になると記されている。屈閣は家主を台所に誘い込み、彛兀は狩人の罠を壊し、鬻渾は親しかった人を誘惑する。",
+   "variants": "為虎作倀(위호작창)",
+   "culture": ""
+  }
+ }
+}

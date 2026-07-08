@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "1990년대 도시전설 채록",
+ "sourceLang": "ko",
+ "factBased": true,
+ "generatedAt": "2026-07-07T15:30:20.045Z",
+ "locales": {
+  "ko": {
+   "origin": "홍콩할매귀신은 1990년대 초 한국에서 크게 유행한 도시전설 속 귀신이다.",
+   "legend": "홍콩에서 죽은 할머니가 고양이와 합쳐져 반은 사람 반은 고양이의 모습이 되었다는 이야기가 퍼졌다. 빠른 속도로 기어다니며 아이들을 잡아간다는 소문이 초등학생들 사이에 공포로 번졌다. 1990년대 학교 괴담의 대표적 사례로, 당시 등하교 공포의 상징이었다.",
+   "variants": "",
+   "culture": "홍콩할매귀신은 1980년대 후반에서 1990년대 초까지 초등학생 사이에 널리 유행했던 괴담이다. 초등학교에서 학생들에게 괴소문에 동요되지 말 것을 호소하는 등, 사회적 파장이 컸던 괴담이었다."
+  },
+  "en": {
+   "origin": "The Hong Kong Grandma Ghost is a ghost from an urban legend that became widely popular in Korea in the early 1990s.",
+   "legend": "The story spread that a grandmother who died in Hong Kong merged with a cat, becoming a creature that is half human and half cat. Rumors circulated that it crawled quickly and abducted children, instilling fear among elementary school students. It is a representative example of school ghost stories from the 1990s and symbolized the fear of going to and from school at that time.",
+   "variants": "",
+   "culture": "The Hong Kong Grandma Ghost was a widely circulated ghost story among elementary school students from the late 1980s to the early 1990s. It had significant social repercussions, such as schools appealing to students not to be swayed by ghostly rumors."
+  },
+  "zh": {
+   "origin": "香港奶奶鬼是1990年代初在韩国广泛流行的都市传说中的鬼魂。",
+   "legend": "传说中，一位在香港去世的奶奶与猫结合，变成了半人半猫的形象。她以快速爬行的方式抓走孩子的传闻在小学生中传播，成为恐惧的象征。这是1990年代学校怪谈的代表案例，当时是上下学恐惧的象征。",
+   "variants": "",
+   "culture": "香港奶奶鬼是1980年代后半期到1990年代初在小学生中广泛流行的怪谈。学校呼吁学生不要被谣言所影响，社会影响巨大。"
+  },
+  "ja": {
+   "origin": "香港のおばあさんの幽霊は1990年代初頭に韓国で大流行した都市伝説の中の幽霊である。",
+   "legend": "香港で亡くなったおばあさんが猫と合体し、半分は人間、半分は猫の姿になったという話が広まった。素早い速度で這い回り、子供たちを捕まえるという噂が小学生の間で恐怖を引き起こした。1990年代の学校の怪談の代表的な例であり、当時の登下校の恐怖の象徴であった。",
+   "variants": "",
+   "culture": "香港のおばあさんの幽霊は1980年代後半から1990年代初頭まで小学生の間で広く流行した怪談である。小学校では生徒たちに怪しい噂に動揺しないよう呼びかけるなど、社会的な波紋が大きかった怪談であった。"
+  }
+ }
+}

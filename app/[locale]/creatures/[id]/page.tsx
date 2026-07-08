@@ -309,15 +309,21 @@ export default async function CreaturePage({
           ))}
           {article && (
             <p style={{ fontSize: "12px", color: "#777", marginBottom: "32px" }}>
-              {t["article.attribution"].replace("{title}", article.sourceTitle)}{" · "}
-              <a
-                href={`https://${article.sourceLang}.wikipedia.org/wiki/${encodeURIComponent(article.sourceTitle)}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ color: "#999" }}
-              >
-                Wikipedia
-              </a>
+              {article.factBased ? (
+                t["article.attributionFact"].replace("{title}", article.sourceTitle)
+              ) : (
+                <>
+                  {t["article.attribution"].replace("{title}", article.sourceTitle)}{" · "}
+                  <a
+                    href={`https://${article.sourceLang}.wikipedia.org/wiki/${encodeURIComponent(article.sourceTitle)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: "#999" }}
+                  >
+                    Wikipedia
+                  </a>
+                </>
+              )}
             </p>
           )}
 

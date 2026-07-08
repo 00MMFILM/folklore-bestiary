@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "학교괴담 채록",
+ "sourceLang": "ko",
+ "factBased": true,
+ "generatedAt": "2026-07-08T03:04:30.563Z",
+ "locales": {
+  "ko": {
+   "origin": "콩콩귀신은 한국의 학교괴담에 등장하는 귀신으로, 두 발이 묶이거나 다리가 없어 콩콩 뛰어다닌다고 전해진다.",
+   "legend": "주로 학교 건물이나 복도, 계단에서 밤에 콩콩 뛰는 소리로 존재를 드러낸다. 소리는 들리지만 모습이 보이지 않거나, 소복을 입은 채 뛰어다니는 모습으로 묘사된다.",
+   "variants": "",
+   "culture": "1990년대~2000년대 초등학교를 중심으로 구전된 대표적 학교괴담 중 하나이다."
+  },
+  "en": {
+   "origin": "Kongkong Ghost is a ghost that appears in Korean school ghost stories, said to hop around with its legs bound or without legs.",
+   "legend": "It primarily reveals its presence at night with the sound of hopping in school buildings, hallways, or staircases. The sound can be heard, but its appearance is either unseen or described as hopping while wearing a white robe.",
+   "variants": "",
+   "culture": "One of the representative school ghost stories that were orally transmitted mainly in elementary schools from the 1990s to the early 2000s."
+  },
+  "zh": {
+   "origin": "콩콩鬼神是韩国学校怪谈中出现的鬼神，传说中它的两条腿被绑住或没有腿，跳来跳去。",
+   "legend": "它主要在学校建筑、走廊和楼梯上发出跳跃的声音来显现存在。虽然能听到声音，但看不见身影，或者被描述为穿着白色衣服跳来跳去的样子。",
+   "variants": "",
+   "culture": "1990年代到2000年代初，以小学为中心流传的代表性学校怪谈之一。"
+  },
+  "ja": {
+   "origin": "コンクン鬼は韓国の学校怪談に登場する鬼で、両足が縛られているか足がないため、コンクン跳び回ると言われている。",
+   "legend": "主に学校の建物や廊下、階段で夜にコンクン跳ぶ音で存在を現す。音は聞こえるが姿は見えないか、白い服を着て跳び回る姿で描写される。",
+   "variants": "",
+   "culture": "1990年代〜2000年代の小学校を中心に口伝えされた代表的な学校怪談の一つである。"
+  }
+ }
+}

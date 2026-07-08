@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "한국 전통 귀신 설화 채록",
+ "sourceLang": "ko",
+ "factBased": true,
+ "generatedAt": "2026-07-08T03:04:38.819Z",
+ "locales": {
+  "ko": {
+   "origin": "몽달귀신은 결혼하지 못하고 죽은 총각의 귀신으로, 한국 전통 귀신 중 하나이다.",
+   "legend": "혼인하지 못한 채 죽어 이승에 한을 품고 떠도는 원귀의 일종으로, 여성 원귀인 처녀귀신과 대응되는 남성 짝으로 여겨진다. 몽달귀신과 처녀귀신을 혼인시키는 사혼(死婚), 즉 영혼결혼식으로 한을 풀어준다는 민속이 전해진다.",
+   "variants": "총각귀신",
+   "culture": "후사 없이 죽은 이의 한을 달래려는 유교적 관념이 반영된 존재이다."
+  },
+  "en": {
+   "origin": "The Mongdal Ghost is the spirit of a young man who died without getting married, and is one of the traditional ghosts of Korea.",
+   "legend": "It is a type of vengeful spirit that died without marrying and wanders the living world with resentment. It is considered the male counterpart to the female vengeful spirit, the Virgin Ghost. There is a folklore that alleviates their resentment through a death marriage (死婚), or a spirit wedding, between the Mongdal Ghost and the Virgin Ghost.",
+   "variants": "Young Man Ghost",
+   "culture": "It reflects the Confucian idea of soothing the resentment of those who died without leaving descendants."
+  },
+  "zh": {
+   "origin": "몽달귀신是未婚而死的年轻人的鬼魂，是韩国传统鬼魂之一。",
+   "legend": "作为未婚而死、在此世怀有遗憾的怨鬼的一种，被视为女性怨鬼处女鬼的男性对应。传说中通过将몽달귀신与处女鬼结合的死婚，即灵魂婚礼，来解开他们的遗憾。",
+   "variants": "总角鬼魂",
+   "culture": "反映了安慰无后而死者遗憾的儒家观念的存在。"
+  },
+  "ja": {
+   "origin": "モンダル鬼神は結婚できずに死んだ若者の鬼神で、韓国の伝統的な鬼神の一つである。",
+   "legend": "婚姻できないまま死に、この世に未練を抱いて彷徨う怨鬼の一種で、女性の怨鬼である処女鬼神に対する男性のペアと見なされる。モンダル鬼神と処女鬼神を婚姻させる死婚、すなわち霊魂結婚式によって未練を解消するという民俗が伝えられている。",
+   "variants": "若者鬼神",
+   "culture": "子孫を残さずに死んだ者の未練を和らげようとする儒教的観念が反映された存在である。"
+  }
+ }
+}

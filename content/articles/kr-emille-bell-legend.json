@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "성덕대왕신종 관련 구전 설화",
+ "sourceLang": "ko",
+ "factBased": true,
+ "generatedAt": "2026-07-08T03:04:53.818Z",
+ "locales": {
+  "ko": {
+   "origin": "에밀레종 설화는 신라 성덕대왕신종(봉덕사종) 주조에 얽힌 구전 설화이다.",
+   "legend": "종을 만들 때 자꾸 실패하자 한 아이를 시주받아 쇳물에 넣어 완성했다는 이야기가 전한다. 완성된 종이 울릴 때 '에밀레(어미 때문에)'라고 우는 아이 소리처럼 들린다 하여 '에밀레종'이라 불린다는 것이 설화의 핵심이다.",
+   "variants": "",
+   "culture": "이 설화는 인신공양 모티프를 담고 있으며, 실제 성덕대왕신종은 771년에 완성된 통일신라의 범종이다. 그러나 학계에서는 인신공양이 실제로 있었던 근거는 없으며, 후대에 덧붙여진 설화로 간주된다."
+  },
+  "en": {
+   "origin": "The Emille Bell legend is a folktale related to the casting of the Seongdeok Great King's Bell (Bongdeoksa Bell) in Silla.",
+   "legend": "The story goes that when they kept failing to make the bell, they offered a child and placed him in the molten metal to complete it. When the completed bell rings, it sounds like the cry of a child saying 'Emille (because of the mother)', which is the core of the legend.",
+   "variants": "",
+   "culture": "This legend contains a motif of human sacrifice, and the actual Seongdeok Great King's Bell is a bronze bell completed in 771 during the Unified Silla period. However, scholars consider that there is no evidence that human sacrifice actually occurred, and it is regarded as a legend added later."
+  },
+  "zh": {
+   "origin": "艾米雷钟传说与新罗成德大王神钟（奉德寺钟）铸造有关的口头传说。",
+   "legend": "传说在制作钟的时候屡次失败，于是用一个孩子的祭品放入熔融的铁水中完成了钟。完成的钟响起时，听起来像是孩子因为母亲而哭的声音，因此被称为'艾米雷钟'，这是传说的核心。",
+   "variants": "",
+   "culture": "这个传说包含了人身献祭的主题，而实际的成德大王神钟是于771年完成的统一新罗的大钟。然而，学界认为没有实际存在人身献祭的证据，认为这是后代附加的传说。"
+  },
+  "ja": {
+   "origin": "エミレ鐘の伝説は、新羅の聖徳大王神鐘（奉徳寺鐘）の鋳造にまつわる口承伝説である。",
+   "legend": "鐘を作る際に何度も失敗したため、ある子供を寄進して鉄の中に入れたことで完成したという話が伝わっている。完成した鐘が鳴るときに「エミレ（母のために）」と泣く子供の声のように聞こえるため、「エミレ鐘」と呼ばれるというのが伝説の核心である。",
+   "variants": "",
+   "culture": "この伝説は人身供養のモチーフを含んでおり、実際の聖徳大王神鐘は771年に完成した統一新羅の梵鐘である。しかし、学界では人身供養が実際にあった証拠はなく、後世に付け加えられた伝説と見なされている。"
+  }
+ }
+}

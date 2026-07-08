@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "한국 전통 요괴 채록",
+ "sourceLang": "ko",
+ "factBased": true,
+ "generatedAt": "2026-07-07T15:29:06.253Z",
+ "locales": {
+  "ko": {
+   "origin": "그슨대는 '그늘·그믐'에서 이름을 딴 '어둠 속에 선 거대한 것'으로 추정된다.",
+   "legend": "그슨대는 본모습인 그림자를 드러내면 물리 공격으로는 퇴치할 수 없고, 공격받을수록 점점 거대해진다. 그러나 어둠이 없으면 힘을 쓰지 못하며, 여럿이 횃불을 들고 그림자의 본체를 없애면 물리칠 수 있다. 또한, 그슨대는 Former Goryeo-era guardian deity가 Joseon period 동안 악귀로 변질된 존재로, 처음에는 무고한 아이의 모습으로 나타나 희생자를 유인한 후, 급속히 거대한 크기로 성장하여 그들을 압사시키는 전승이 있다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "It is presumed to be 'something large standing in darkness' named after 'shadow·darkness'.",
+   "legend": "Ggeusndae cannot be defeated by physical attacks when it reveals its true form, the shadow, and it grows larger the more it is attacked. However, it cannot exert its power without darkness, and it can be defeated if several people hold torches and eliminate the shadow's true form. Additionally, Ggeusndae is said to be a former guardian deity from the Goryeo era that transformed into an evil spirit during the Joseon period, initially appearing in the form of an innocent child to lure victims, then rapidly growing to a gigantic size to crush them.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "据推测，'그슨대'这个名字来源于'그늘·그믐'，意为'在黑暗中站立的巨大存在'。",
+   "legend": "그슨대一旦显露出本来面目，便无法通过物理攻击驱逐，受到攻击时会逐渐变得更为巨大。然而，如果没有黑暗，它便无法施展力量，众人手持火把消灭其影子本体后，便可以将其击败。此外，그슨대是Former Goryeo-era guardian deity在朝鲜时期变质为恶鬼的存在，最初以无辜儿童的形象出现，引诱受害者，随后迅速成长为巨大的体型将他们压死的传说。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "グスンデは「グヌル・グムム」から名前を取った「暗闇の中に立つ巨大なもの」と推測される。",
+   "legend": "グスンデは本来の姿である影を現すと物理攻撃では退治できず、攻撃を受けるほどますます巨大化する。しかし、暗闇がなければ力を使えず、複数の者が松明を持って影の本体を消すことで退治できる。また、グスンデは元高麗時代の守護神が朝鮮時代に悪鬼に変質した存在で、最初は無実の子供の姿で現れ、犠牲者を誘い込んだ後、急速に巨大なサイズに成長して彼らを圧死させる伝承がある。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

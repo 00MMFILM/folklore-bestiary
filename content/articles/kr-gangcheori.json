@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "한국 속담·전설 채록",
+ "sourceLang": "ko",
+ "factBased": true,
+ "generatedAt": "2026-07-07T15:29:26.695Z",
+ "locales": {
+  "ko": {
+   "origin": "강철이는 이무기가 용이 되지 못하고 변한 불의 괴물로, '강철(强鐵)'이라고도 한다.",
+   "legend": "지나가는 곳마다 극심한 열기를 뿜어 초목을 말리고 구름을 증발시켜 가뭄을 일으킨다. '강철이 지나간 곳은 가을도 봄'이라는 속담이 전하는데, 곡식이 다 타 죽어 봄처럼 헐벗는다는 뜻이다. 용이 되려다 실패한 좌절과 재앙을 상징하는 존재다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Gangcheol is a fire monster that failed to become a dragon, also known as 'Gangcheol (强鐵)'.",
+   "legend": "Wherever it passes, it emits extreme heat, drying up vegetation and evaporating clouds, causing drought. There is a saying that 'where Gangcheol has passed, even autumn looks like spring,' meaning that all the crops have burned and are left bare like in spring. It symbolizes the frustration and disaster of failing to become a dragon.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "钢铁是未能变成龙而变成的火之怪物，也称为'强铁'。",
+   "legend": "它在经过的地方喷发出极其强烈的热量，烤焦植物，蒸发云彩，引发干旱。流传着'钢铁经过的地方是秋天也是春天'的谚语，意思是谷物都烧死了，像春天一样光秃秃的。它象征着未能成为龙的挫折和灾难。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "鋼鉄はイムギがドラゴンになれずに変わった火の怪物で、'鋼鉄(強鐵)'とも呼ばれる。",
+   "legend": "通り過ぎる場所ごとに極度の熱を放ち、草木を枯らし、雲を蒸発させて干ばつを引き起こす。'鋼鉄が通り過ぎた場所は秋も春'ということわざが伝えられており、穀物がすべて焼き尽くされて春のように裸になるという意味である。ドラゴンになろうとして失敗した挫折と災厄を象徴する存在である。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

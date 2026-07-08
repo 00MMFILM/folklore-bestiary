@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "부산일보·경인일보 보도, 목격담 채록",
+ "sourceLang": "ko",
+ "factBased": true,
+ "generatedAt": "2026-07-08T03:04:14.076Z",
+ "locales": {
+  "ko": {
+   "origin": "장산범은 부산 해운대구 장산에 출몰한다고 전해지는 괴생명체로, 1990~2000년대 부산 지역을 중심으로 목격담이 퍼진 현대 괴담이다.",
+   "legend": "온몸이 여성의 생머리처럼 부드럽고 긴 흰 털로 덮여 있어 얼핏 보면 사람으로 착각한다고 전해진다. 목격자들은 '희고 긴 털, 눈코입이 일그러진 모습'이라고 증언했다. 사람 목소리를 비롯해 시냇물·바람·개·고양이·아기 울음 등 온갖 소리를 흉내 내 사람을 홀려 유인하는 것이 핵심 특징이다.",
+   "variants": "와호, 개여시",
+   "culture": "2017년 허정 감독의 공포영화 '장산범'으로 영화화되며 전국적으로 유명해졌다."
+  },
+  "en": {
+   "origin": "Jangsanbeom is a mythical creature said to appear on Jangsan Mountain in Haeundae District, Busan, and it is a modern urban legend that spread mainly in the Busan area during the 1990s and 2000s.",
+   "legend": "It is said to be covered in soft, long white fur that resembles a woman's long hair, leading to confusion with a human at first glance. Witnesses have testified to seeing 'white long fur, with a distorted face featuring eyes, nose, and mouth.' A key characteristic is its ability to mimic various sounds, including human voices, streams, wind, dogs, cats, and baby cries, to lure and enchant people.",
+   "variants": "Waho, Gaeyeoji",
+   "culture": "In 2017, it was adapted into a horror film titled 'Jangsanbeom' directed by Heo Jeong, which made it famous nationwide."
+  },
+  "zh": {
+   "origin": "张山范是传说中出现在釜山海云台区张山的怪生物，1990至2000年代在釜山地区流传的目击故事构成了现代怪谈。",
+   "legend": "全身覆盖着像女性长发一样柔软而长的白毛，乍一看会让人误以为是人。目击者证言称“白色长毛，扭曲的眼鼻口”是其特征。模仿人类的声音以及溪水、风、狗、猫、婴儿哭声等各种声音，诱惑人类是其核心特征。",
+   "variants": "瓦虎，狗女尸",
+   "culture": "2017年由许正导演的恐怖电影《张山范》使其在全国范围内声名鹊起。"
+  },
+  "ja": {
+   "origin": "ジャンサンボムは釜山の海雲台区ジャンサンに出没すると伝えられる怪生物で、1990年代から2000年代にかけて釜山地域を中心に目撃談が広まった現代の怪談である。",
+   "legend": "全身が女性の生髪のように柔らかく長い白い毛で覆われており、一見すると人間と間違われると言われている。目撃者たちは「白くて長い毛、歪んだ目鼻口の姿」と証言した。人の声をはじめ、川の水音、風、犬、猫、赤ちゃんの泣き声などあらゆる音を真似て人を魅了し誘い込むのが特徴である。",
+   "variants": "ワホ、犬女死",
+   "culture": "2017年にホ・ジョン監督のホラー映画『ジャンサンボム』として映画化され、全国的に有名になった。"
+  }
+ }
+}

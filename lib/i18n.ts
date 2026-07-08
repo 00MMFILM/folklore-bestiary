@@ -31,6 +31,7 @@ interface Dictionary {
   "article.variants": string;
   "article.culture": string;
   "article.attribution": string;
+  "article.attributionFact": string;
   "creature.fear": string;
   "creature.notFound": string;
   "creature.notFoundDesc": string;
@@ -118,6 +119,7 @@ const ko: Dictionary = {
   "article.variants": "변형과 이형",
   "article.culture": "대중문화 속 모습",
   "article.attribution": "이 문서는 위키백과 「{title}」 문서를 바탕으로 작성되었습니다 (CC BY-SA 4.0)",
+  "article.attributionFact": "출처: {title} (공개 자료를 바탕으로 작성)",
   "creature.fear": "공포",
   "creature.notFound": "이 크리처를 찾을 수 없습니다",
   "creature.notFoundDesc": "찾으시는 크리처가 도감에 존재하지 않습니다.",
@@ -200,6 +202,7 @@ const en: Dictionary = {
   "article.variants": "Variants",
   "article.culture": "In Popular Culture",
   "article.attribution": "This article is based on the Wikipedia article \"{title}\" (CC BY-SA 4.0)",
+  "article.attributionFact": "Sources: {title} (compiled from public materials)",
   "creature.fear": "Fear",
   "creature.notFound": "Creature Not Found",
   "creature.notFoundDesc": "The creature you are looking for does not exist in our bestiary.",
@@ -282,6 +285,7 @@ const zh: Dictionary = {
   "article.variants": "变体与异说",
   "article.culture": "流行文化中的形象",
   "article.attribution": "本文基于维基百科条目「{title}」编写 (CC BY-SA 4.0)",
+  "article.attributionFact": "来源：{title}（根据公开资料编写）",
   "creature.fear": "恐惧",
   "creature.notFound": "未找到该生物",
   "creature.notFoundDesc": "您查找的生物不存在于我们的图鉴中。",
@@ -364,6 +368,7 @@ const ja: Dictionary = {
   "article.variants": "異伝",
   "article.culture": "大衆文化での姿",
   "article.attribution": "この記事はWikipedia「{title}」記事を基に作成されました (CC BY-SA 4.0)",
+  "article.attributionFact": "出典: {title}（公開資料を基に作成）",
   "creature.fear": "恐怖",
   "creature.notFound": "クリーチャーが見つかりません",
   "creature.notFoundDesc": "お探しのクリーチャーは図鑑に存在しません。",

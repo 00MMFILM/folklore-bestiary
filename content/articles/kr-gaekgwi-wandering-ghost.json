@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "한국 무속·민간신앙 채록",
+ "sourceLang": "ko",
+ "factBased": true,
+ "generatedAt": "2026-07-08T03:04:45.147Z",
+ "locales": {
+  "ko": {
+   "origin": "객귀는 객지에서 떠돌다 죽거나 제사를 받지 못해 떠도는 잡귀로, 한국 무속·민간신앙에 등장한다.",
+   "legend": "갑자기 병이 나면 '객귀가 들렸다'며 바가지에 밥과 나물을 담아 물리치는 '객귀물리기(푸닥거리)'를 행했다. 객귀물리기는 칼로 위협하고 문밖에 음식을 던지며 침을 뱉는 절차로 이루어진다.",
+   "variants": "",
+   "culture": "객귀는 제사를 받는 조상신과 대비되는, 돌봄받지 못한 떠돌이 혼령이다."
+  },
+  "en": {
+   "origin": "The guest spirit is a wandering spirit that died away from home or is wandering because it did not receive a ritual, appearing in Korean shamanism and folk beliefs.",
+   "legend": "When suddenly falling ill, it is said that 'a guest spirit has entered,' and a ritual called 'guest spirit expulsion (pudakgeori)' is performed, where rice and vegetables are placed in a bowl to drive it away. The guest spirit expulsion involves threatening with a knife, throwing food outside the door, and spitting.",
+   "variants": "",
+   "culture": "The guest spirit is a wandering soul that does not receive care, in contrast to ancestral spirits that are honored with rituals."
+  },
+  "zh": {
+   "origin": "客鬼是指在异乡漂泊而死或未能接受祭祀而漂泊的杂鬼，出现在韩国的巫俗和民间信仰中。",
+   "legend": "突然生病时，人们会说是'客鬼附身'，于是用碗盛饭和蔬菜来驱赶，进行'客鬼驱赶（扑打）'仪式。客鬼驱赶的程序包括用刀威胁、在门外扔食物和吐唾沫。",
+   "variants": "",
+   "culture": "客鬼是与接受祭祀的祖先神相对的，未得到照顾的漂泊灵魂。"
+  },
+  "ja": {
+   "origin": "客鬼は客地でさまよって死ぬか、祭りを受けられずにさまよう雑鬼であり、韓国の巫俗・民間信仰に登場する。",
+   "legend": "突然病気になると「客鬼が憑いた」と言い、バガジにご飯と野菜を盛って追い払う「客鬼追い払い（プダッコリ）」を行った。客鬼追い払いは、刀で脅かし、門の外に食べ物を投げ、唾を吐く手順で行われる。",
+   "variants": "",
+   "culture": "客鬼は祭りを受ける祖先神に対比される、世話を受けられないさまよえる霊魂である。"
+  }
+ }
+}

@@ -14,6 +14,7 @@ export interface ArticleSections {
 export interface CreatureArticle {
   sourceTitle: string;
   sourceLang: string;
+  factBased: boolean;
   sections: ArticleSections;
 }
 
@@ -27,6 +28,7 @@ export function getCreatureArticle(id: string, locale: Locale): CreatureArticle 
     return {
       sourceTitle: raw.sourceTitle,
       sourceLang: raw.sourceLang,
+      factBased: raw.factBased === true,
       sections,
     };
   } catch {

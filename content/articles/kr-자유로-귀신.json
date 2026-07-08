@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "수도권 도시전설 채록",
+ "sourceLang": "ko",
+ "factBased": true,
+ "generatedAt": "2026-07-07T15:30:12.547Z",
+ "locales": {
+  "ko": {
+   "origin": "자유로 귀신은 2004년에서 2005년 경부터 대한민국 인터넷에서 목격담이 나오기 시작하였다.",
+   "legend": "밤중에 자유로를 달리는 운전자의 앞에 소복 입은 여성이 갑자기 나타나거나 차에 올라탄다는 목격담이 전해진다. 이 여성은 태워 달라고 하거나 뒷좌석에 앉아 있다가 사라진다는 이야기가 대표적이다.",
+   "variants": "이형·별칭(없으면 \"\")",
+   "culture": "2004년 SBS 김용만 신동엽의 즐겨찾기에서 개그우먼 박희진이 자유로 귀신 괴담을 처음으로 언급하였고, 이후 탁재훈, 박신혜가 2007년 KBS 상상플러스에서 언급하였다. 이로 인해 여러 연예인들이 자유로 귀신에 대한 이야기를 전하며 도시괴담으로 자리잡았다."
+  },
+  "en": {
+   "origin": "The Jaryuro Ghost began to be reported on the internet in South Korea around 2004 to 2005.",
+   "legend": "There are reports of a woman in a traditional dress suddenly appearing in front of drivers traveling on Jaryuro at night or getting into their cars. It is commonly said that this woman either asks for a ride or disappears after sitting in the back seat.",
+   "variants": "Type/alias (if none, \"\")",
+   "culture": "In 2004, comedian Park Hee-jin first mentioned the Jaryuro Ghost story on SBS's Kim Yong-man and Shin Dong-yeob's Favorites, and later, Tak Jae-hoon and Park Shin-hye mentioned it on KBS's Imagination Plus in 2007. As a result, various celebrities shared stories about the Jaryuro Ghost, establishing it as an urban legend."
+  },
+  "zh": {
+   "origin": "自由路鬼神从2004年到2005年开始在韩国互联网出现目击传闻。",
+   "legend": "在夜间行驶自由路的司机面前，穿着白衣的女性突然出现或上车的目击传闻被传开。这位女性通常请求搭载，或者坐在后座后消失的故事是最典型的。",
+   "variants": "异名·别称（如果没有则为\"\"）",
+   "culture": "2004年，SBS的金勇万和申东烨的最爱节目中，女 comedian 朴熙珍首次提到自由路鬼神的怪谈，随后在2007年，卓在勋和朴信惠在KBS的想象PLUS中提到。由此，许多艺人开始讲述自由路鬼神的故事，使其成为城市怪谈。"
+  },
+  "ja": {
+   "origin": "自由路の幽霊は2004年から2005年頃に韓国のインターネットで目撃談が出始めた。",
+   "legend": "夜中に自由路を走る運転手の前に、白い服を着た女性が突然現れたり、車に乗り込んだりする目撃談が伝えられている。この女性は乗せてほしいと言ったり、後部座席に座っていたりして消えるという話が代表的である。",
+   "variants": "異形・別称（なければ\"\"）",
+   "culture": "2004年にSBSのキム・ヨンマンとシン・ドンヨプの好きなことの中で、コメディアンのパク・ヒジンが自由路の幽霊の怪談を初めて言及し、その後タク・ジェフンとパク・シネが2007年のKBSの想像プラスで言及した。これにより、さまざまな芸能人が自由路の幽霊についての話を伝え、都市伝説として定着した。"
+  }
+ }
+}
