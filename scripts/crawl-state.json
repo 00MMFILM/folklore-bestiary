@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 136,
+  "lastCategoryIndex": 139,
   "processedPageIds": [
     27551093,
     40572945,
@@ -3083,7 +3083,49 @@
     1585614,
     38324303,
     79063428,
-    38702949
+    38702949,
+    2445103,
+    69365641,
+    16619630,
+    62939738,
+    47608406,
+    6807979,
+    21506269,
+    99748,
+    38758305,
+    19325877,
+    33802,
+    4786977,
+    1215425,
+    11341103,
+    596663,
+    32651243,
+    13172409,
+    35781597,
+    24123247,
+    1569206,
+    3232292,
+    7975772,
+    7247047,
+    1864060,
+    535871,
+    18025154,
+    29957,
+    429040,
+    177453,
+    10152123,
+    50021967,
+    8560483,
+    79772904,
+    2622853,
+    9738171,
+    65197326,
+    7483379,
+    16854281,
+    69296791,
+    73076163,
+    30443965,
+    1096824
   ],
   "discoveredCategories": [
     {
@@ -14829,10 +14871,98 @@
       "label": "Yōkai in anime and manga",
       "discoveredFrom": "False Child",
       "discoveredAt": 530
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Oceanian ghosts",
+      "iso": "_MULTI",
+      "label": "Oceanian ghosts",
+      "discoveredFrom": "Adaro (mythology)",
+      "discoveredAt": 531
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of Wisconsin",
+      "iso": "_MULTI",
+      "label": "Folklore of Wisconsin",
+      "discoveredFrom": "Beast of Bray Road",
+      "discoveredAt": 531
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Belgian folklore",
+      "iso": "BE",
+      "label": "Belgian folklore",
+      "discoveredFrom": "Henry Gardinn",
+      "discoveredAt": 531
+    },
+    {
+      "lang": "en",
+      "cat": "Category:People from the Spanish Netherlands executed for witchcraft",
+      "iso": "NL",
+      "label": "People from the Spanish Netherlands executed for witchcraft",
+      "discoveredFrom": "Henry Gardinn",
+      "discoveredAt": 531
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Witch trials in the Spanish Netherlands",
+      "iso": "NL",
+      "label": "Witch trials in the Spanish Netherlands",
+      "discoveredFrom": "Henry Gardinn",
+      "discoveredAt": 531
+    },
+    {
+      "lang": "en",
+      "cat": "Category:French people executed for witchcraft",
+      "iso": "FR",
+      "label": "French people executed for witchcraft",
+      "discoveredFrom": "Gilles Garnier",
+      "discoveredAt": 531
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Places in Norse mythology",
+      "iso": "NO",
+      "label": "Places in Norse mythology",
+      "discoveredFrom": "Járnviðr",
+      "discoveredAt": 531
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Women in Norse mythology",
+      "iso": "NO",
+      "label": "Women in Norse mythology",
+      "discoveredFrom": "Þorgerðr Hölgabrúðr and Irpa",
+      "discoveredAt": 531
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Asian legendary creatures",
+      "iso": "_MULTI",
+      "label": "Asian legendary creatures",
+      "discoveredFrom": "Gold-digging ant",
+      "discoveredAt": 531
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Herodotus",
+      "iso": "_MULTI",
+      "label": "Herodotus",
+      "discoveredFrom": "Gold-digging ant",
+      "discoveredAt": 531
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Names of God in Christianity",
+      "iso": "_MULTI",
+      "label": "Names of God in Christianity",
+      "discoveredFrom": "ǃXu",
+      "discoveredAt": 531
     }
   ],
-  "totalAdded": 2634,
-  "runs": 531,
-  "lastRun": "2026-07-08T08:09:46.630Z",
-  "lastDiscoveredIndex": 348
+  "totalAdded": 2641,
+  "runs": 532,
+  "lastRun": "2026-07-08T13:42:41.602Z",
+  "lastDiscoveredIndex": 351
 }
