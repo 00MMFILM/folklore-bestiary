@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Taotie",
+ "sourceLang": "en",
+ "sourceChars": 9255,
+ "generatedAt": "2026-07-08T07:54:46.881Z",
+ "locales": {
+  "ko": {
+   "origin": "饕餮은 고대 중국의 신화적 생물로, 기원전 1천년경 청동기 및 기타 유물에 흔히 새겨졌다. 饕餮은 《산해경》과 같은 중국 고전에서 헌돈, 쿵치, 타오우와 함께 '사악한 존재' 중 하나로 언급된다. 이 생물은 상나라(약 기원전 1600-기원전 1050)와 주나라(약 기원전 1046-기원전 256)의 제사용 청동기인 정(鼎)에서 주로 모티프 형태로 표현된다.",
+   "legend": "饕餮는 일반적으로 정의 전면에 대칭적으로 배치된 동물 얼굴 형태로 묘사되며, 두 개의 솟은 눈과 일반적으로 하악이 없는 특징을 가진다. 《좌전》에서는 饕餮을 탐욕스럽고 대식가인 존재로 묘사하며, 황제 시대에 살았던 금운 씨족의 아들로 언급된다. 《吕氏春秋》에서는 饕餮이 사람을 먹지만 삼키지는 못하고 해를 끼친다고 설명한다. 이 생물은 외부 부족에게는 두려움과 힘의 상징으로, 자신의 부족에게는 보호의 상징으로 여겨졌다.",
+   "variants": "",
+   "culture": "饕餮은 2016년 판타지 영화 《대장벽》에서 주요 적으로 등장하며, 녹색 피부를 가진 외계 생물로 묘사된다. 또한, 《동방 프로젝트》의 스핀오프 게임에서 주요 적으로 등장하는 캐릭터가 있으며, 《디지몬 뉴 센추리》에서도 등장한다. 현대 대중문화에서 饕餮은 다양한 형태로 재해석되어 나타난다."
+  },
+  "en": {
+   "origin": "Tao Tie is a mythical creature from ancient Chinese mythology, commonly engraved on bronze and other artifacts around the 1st millennium BC. Tao Tie is mentioned as one of the 'evil beings' alongside Hen Dong, Kung Chi, and Tao Wu in Chinese classics such as the 'Shan Hai Jing' (Classic of Mountains and Seas). This creature is primarily depicted in motif form on ritual bronzes known as Ding from the Shang Dynasty (approximately 1600 BC - 1050 BC) and the Zhou Dynasty (approximately 1046 BC - 256 BC).",
+   "legend": "Tao Tie is generally depicted as an animal face symmetrically arranged on the front of a vessel, characterized by two bulging eyes and typically lacking a lower jaw. In the 'Zuo Zhuan', Tao Tie is described as a greedy and gluttonous being, mentioned as the son of the Jin Yun clan who lived during the era of the Emperor. The 'Lü Shi Chun Qiu' explains that Tao Tie eats people but cannot swallow them, causing harm instead. This creature was seen as a symbol of fear and power to external tribes, while being regarded as a symbol of protection to its own tribe.",
+   "variants": "",
+   "culture": "Tao Tie appears as a major antagonist in the 2016 fantasy film 'The Great Wall', depicted as an alien creature with green skin. Additionally, there are characters that appear as major enemies in spin-off games of the 'Touhou Project', and it also appears in 'Digimon New Century'. In modern popular culture, Tao Tie is reinterpreted in various forms."
+  },
+  "zh": {
+   "origin": "饕餮是古代中国的神话生物，常见于公元前1000年左右的青铜器及其他文物上。饕餮在《山海经》等中国古典文献中与亘顿（Héndùn）、孔赤（Kǒngchì）、陶乌（Táowū）一起被提及为“邪恶存在”之一。这种生物主要以动机形式出现在商朝（约公元前1600-公元前1050）和周朝（约公元前1046-公元前256）的祭祀青铜器鼎上。",
+   "legend": "饕餮通常被描绘为对称地布置在正面上的动物面孔，具有两个突出的眼睛和通常没有下颚的特征。《左传》中将饕餮描述为贪婪和大食的存在，并提到它是生活在皇帝时代的金运（Jīnyùn）氏族的儿子。《吕氏春秋》则解释饕餮会吃人但无法吞下，并造成伤害。这种生物被外部部落视为恐惧和力量的象征，而在自己的部落中则被视为保护的象征。",
+   "variants": "",
+   "culture": "饕餮在2016年奇幻电影《大长壁》中作为主要敌人出现，被描绘为具有绿色皮肤的外星生物。此外，在《东方项目》的衍生游戏中也有作为主要敌人的角色，并在《数码宝贝新世纪》中出现。在现代大众文化中，饕餮以各种形式重新诠释出现。"
+  },
+  "ja": {
+   "origin": "饕餮（とうてつ）は古代中国の神話的生物で、紀元前1000年頃の青銅器やその他の遺物にしばしば刻まれていました。饕餮は《山海経》（さんかいけい）などの中国古典で、獣（けもの）、孔子（こうし）、陶（とう）と共に「邪悪な存在」の一つとして言及されています。この生物は商（しょう）王朝（約紀元前1600年-紀元前1050年）と周（しゅう）王朝（約紀元前1046年-紀元前256年）の祭祀用青銅器である鼎（てい）に主にモチーフとして表現されています。",
+   "legend": "饕餮は一般的に前面に対称的に配置された動物の顔の形で描かれ、二つの突き出た目と通常は下顎がない特徴を持っています。《左伝》（さでん）では饕餮を貪欲で大食漢な存在として描写し、皇帝時代に生きていた金運（きんうん）氏族の息子として言及されています。《呂氏春秋》（りょししゅんじゅう）では饕餮が人を食べるが飲み込むことはできず、害を及ぼすと説明されています。この生物は外部の部族にとっては恐怖と力の象徴であり、自分の部族にとっては保護の象徴と見なされていました。",
+   "variants": "",
+   "culture": "饕餮は2016年のファンタジー映画《大長壁》（だいちょうへき）で主要な敵として登場し、緑色の肌を持つ異星生物として描かれています。また、《東方プロジェクト》のスピンオフゲームで主要な敵として登場するキャラクターがあり、《デジモンニューニューセンチュリー》でも登場します。現代の大衆文化において饕餮は様々な形で再解釈されて現れます。"
+  }
+ }
+}
