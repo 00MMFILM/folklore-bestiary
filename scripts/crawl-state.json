@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 130,
+  "lastCategoryIndex": 133,
   "processedPageIds": [
     27551093,
     40572945,
@@ -2989,7 +2989,46 @@
     10687711,
     11048005,
     10630555,
-    5340460
+    5340460,
+    58904,
+    11693185,
+    868020,
+    4453896,
+    30877552,
+    619035,
+    3044,
+    29173925,
+    66800706,
+    1594433,
+    26212422,
+    48949839,
+    66415590,
+    72599000,
+    7053823,
+    74110645,
+    10063152,
+    6440344,
+    77544514,
+    7010848,
+    5355467,
+    2994013,
+    5026758,
+    407707,
+    5181968,
+    5558975,
+    7972364,
+    2564713,
+    2636452,
+    864759,
+    66756474,
+    2809092,
+    4306,
+    72461737,
+    6817540,
+    2396720,
+    5687713,
+    33924495,
+    34086084
   ],
   "discoveredCategories": [
     {
@@ -14599,10 +14638,74 @@
       "label": "Fairy tales about werewolves",
       "discoveredFrom": "Corvetto (fairy tale)",
       "discoveredAt": 528
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Films based on Russian folklore",
+      "iso": "RU",
+      "label": "Films based on Russian folklore",
+      "discoveredFrom": "Barbara the Fair with the Silken Hair",
+      "discoveredAt": 529
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Films based on Slavic mythology",
+      "iso": "RU",
+      "label": "Films based on Slavic mythology",
+      "discoveredFrom": "Barbara the Fair with the Silken Hair",
+      "discoveredAt": 529
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Films based on fairy tales",
+      "iso": "_MULTI",
+      "label": "Films based on fairy tales",
+      "discoveredFrom": "Barbara the Fair with the Silken Hair",
+      "discoveredAt": 529
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Marvel Comics superheroes",
+      "iso": "_MULTI",
+      "label": "Marvel Comics superheroes",
+      "discoveredFrom": "Agent X (Marvel Comics)",
+      "discoveredAt": 529
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Golden Age superheroes",
+      "iso": "_MULTI",
+      "label": "Golden Age superheroes",
+      "discoveredFrom": "Amazing-Man (Centaur Publications)",
+      "discoveredAt": 529
+    },
+    {
+      "lang": "en",
+      "cat": "Category:United States-themed superheroes",
+      "iso": "US",
+      "label": "United States-themed superheroes",
+      "discoveredFrom": "American Eagle (Marvel Comics)",
+      "discoveredAt": 529
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Superhero detectives",
+      "iso": "_MULTI",
+      "label": "Superhero detectives",
+      "discoveredFrom": "Angel (Thomas Halloway)",
+      "discoveredAt": 529
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Askeladden (ash-lad or boots) in folklore",
+      "iso": "_MULTI",
+      "label": "Askeladden (ash-lad or boots) in folklore",
+      "discoveredFrom": "Adventures of Gilla Na Chreck An Gour",
+      "discoveredAt": 529
     }
   ],
-  "totalAdded": 2607,
-  "runs": 529,
-  "lastRun": "2026-07-07T19:42:38.136Z",
-  "lastDiscoveredIndex": 342
+  "totalAdded": 2619,
+  "runs": 530,
+  "lastRun": "2026-07-08T01:51:40.964Z",
+  "lastDiscoveredIndex": 345
 }
