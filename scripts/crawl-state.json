@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 139,
+  "lastCategoryIndex": 142,
   "processedPageIds": [
     27551093,
     40572945,
@@ -3125,7 +3125,62 @@
     69296791,
     73076163,
     30443965,
-    1096824
+    1096824,
+    32169691,
+    14102965,
+    86243,
+    2381969,
+    13863149,
+    23527223,
+    3823928,
+    73344307,
+    1457985,
+    2410776,
+    244219,
+    2901287,
+    207949,
+    37236586,
+    24964298,
+    4655264,
+    310260,
+    73069302,
+    5451657,
+    3864644,
+    78583629,
+    22345503,
+    79639356,
+    71676628,
+    567012,
+    1060280,
+    1896127,
+    24107010,
+    26114702,
+    22969907,
+    35690198,
+    19802152,
+    1834651,
+    19469934,
+    46626790,
+    3510642,
+    45285346,
+    2437200,
+    30928961,
+    1879287,
+    693254,
+    26659478,
+    64498389,
+    10467799,
+    505035,
+    2647440,
+    510972,
+    40271276,
+    3549596,
+    25591413,
+    24102595,
+    1830983,
+    1684332,
+    34738520,
+    15795742
   ],
   "discoveredCategories": [
     {
@@ -14959,10 +15014,186 @@
       "label": "Names of God in Christianity",
       "discoveredFrom": "ǃXu",
       "discoveredAt": 531
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Short stories about ghosts",
+      "iso": "_MULTI",
+      "label": "Short stories about ghosts",
+      "discoveredFrom": "Banshee (short story)",
+      "discoveredAt": 532
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Novels about ghosts",
+      "iso": "_MULTI",
+      "label": "Novels about ghosts",
+      "discoveredFrom": "The Goblin Reservation",
+      "discoveredAt": 532
+    },
+    {
+      "lang": "en",
+      "cat": "Category:DC Comics demons",
+      "iso": "_MULTI",
+      "label": "DC Comics demons",
+      "discoveredFrom": "Jeannette (comics)",
+      "discoveredAt": 532
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Recurrent elements in fairy tales",
+      "iso": "_MULTI",
+      "label": "Recurrent elements in fairy tales",
+      "discoveredFrom": "Shapeshifting",
+      "discoveredAt": 532
+    },
+    {
+      "lang": "en",
+      "cat": "Category:People convicted of witchcraft",
+      "iso": "_MULTI",
+      "label": "People convicted of witchcraft",
+      "discoveredFrom": "Isobel Gowdie",
+      "discoveredAt": 532
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Witch trials in Scotland",
+      "iso": "SCT",
+      "label": "Witch trials in Scotland",
+      "discoveredFrom": "Isobel Gowdie",
+      "discoveredAt": 532
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Chinese legends",
+      "iso": "CN",
+      "label": "Chinese legends",
+      "discoveredFrom": "Legend of the White Snake",
+      "discoveredAt": 532
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legend of the White Snake",
+      "iso": "_MULTI",
+      "label": "Legend of the White Snake",
+      "discoveredFrom": "Legend of the White Snake",
+      "discoveredAt": 532
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary lovers",
+      "iso": "_MULTI",
+      "label": "Legendary lovers",
+      "discoveredFrom": "Legend of the White Snake",
+      "discoveredAt": 532
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of California",
+      "iso": "_MULTI",
+      "label": "Folklore of California",
+      "discoveredFrom": "Fresno nightcrawler",
+      "discoveredAt": 532
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary worms",
+      "iso": "_MULTI",
+      "label": "Legendary worms",
+      "discoveredFrom": "Mongolian death worm",
+      "discoveredAt": 532
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mongolian legendary creatures",
+      "iso": "MN",
+      "label": "Mongolian legendary creatures",
+      "discoveredFrom": "Mongolian death worm",
+      "discoveredAt": 532
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Slavic people",
+      "iso": "RU",
+      "label": "Legendary Slavic people",
+      "discoveredFrom": "Mila Gojsalić",
+      "discoveredAt": 532
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Bosnia and Herzegovina folklore",
+      "iso": "BA",
+      "label": "Bosnia and Herzegovina folklore",
+      "discoveredFrom": "Hasanaginica",
+      "discoveredAt": 532
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Buffy the Vampire Slayer characters",
+      "iso": "_MULTI",
+      "label": "Buffy the Vampire Slayer characters",
+      "discoveredFrom": "Angel (Buffy the Vampire Slayer)",
+      "discoveredAt": 532
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Buffyverse vampires",
+      "iso": "_MULTI",
+      "label": "Buffyverse vampires",
+      "discoveredFrom": "Angel (Buffy the Vampire Slayer)",
+      "discoveredAt": 532
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Anita Blake: Vampire Hunter characters",
+      "iso": "_MULTI",
+      "label": "Anita Blake: Vampire Hunter characters",
+      "discoveredFrom": "List of Anita Blake: Vampire Hunter characters",
+      "discoveredAt": 532
+    },
+    {
+      "lang": "en",
+      "cat": "Category:British superheroes",
+      "iso": "GB",
+      "label": "British superheroes",
+      "discoveredFrom": "Blade (character)",
+      "discoveredAt": 532
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of Upper Carniola",
+      "iso": "_MULTI",
+      "label": "Folklore of Upper Carniola",
+      "discoveredFrom": "Goldhorn",
+      "discoveredAt": 532
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Slovenian legends",
+      "iso": "SI",
+      "label": "Slovenian legends",
+      "discoveredFrom": "Goldhorn",
+      "discoveredAt": 532
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Alpine folklore",
+      "iso": "_MULTI",
+      "label": "Alpine folklore",
+      "discoveredFrom": "Perchta",
+      "discoveredAt": 532
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Bavarian folklore",
+      "iso": "DE",
+      "label": "Bavarian folklore",
+      "discoveredFrom": "Perchta",
+      "discoveredAt": 532
     }
   ],
-  "totalAdded": 2641,
-  "runs": 532,
-  "lastRun": "2026-07-08T13:42:41.602Z",
-  "lastDiscoveredIndex": 351
+  "totalAdded": 2647,
+  "runs": 533,
+  "lastRun": "2026-07-08T19:09:15.103Z",
+  "lastDiscoveredIndex": 354
 }
