@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 133,
+  "lastCategoryIndex": 136,
   "processedPageIds": [
     27551093,
     40572945,
@@ -3028,7 +3028,62 @@
     2396720,
     5687713,
     33924495,
-    34086084
+    34086084,
+    39913349,
+    6268409,
+    17375497,
+    74894214,
+    65319908,
+    5551542,
+    495472,
+    602403,
+    13178555,
+    4101094,
+    93357,
+    2517245,
+    42326426,
+    35028523,
+    484562,
+    52356624,
+    6697,
+    30321933,
+    2610491,
+    434029,
+    29337192,
+    13243698,
+    87350,
+    79328,
+    3588181,
+    604177,
+    86626,
+    5358422,
+    5702326,
+    254257,
+    447174,
+    2342709,
+    5659053,
+    23229685,
+    26466614,
+    310637,
+    9997257,
+    617686,
+    223328,
+    56859588,
+    52458429,
+    874283,
+    40148231,
+    18309,
+    1937788,
+    37975711,
+    5580672,
+    12257160,
+    16336361,
+    34158560,
+    38726303,
+    1585614,
+    38324303,
+    79063428,
+    38702949
   ],
   "discoveredCategories": [
     {
@@ -14702,10 +14757,82 @@
       "label": "Askeladden (ash-lad or boots) in folklore",
       "discoveredFrom": "Adventures of Gilla Na Chreck An Gour",
       "discoveredAt": 529
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Judaism and witchcraft",
+      "iso": "_MULTI",
+      "label": "Judaism and witchcraft",
+      "discoveredFrom": "Broxa",
+      "discoveredAt": 530
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Portuguese legendary creatures",
+      "iso": "PT",
+      "label": "Portuguese legendary creatures",
+      "discoveredFrom": "Broxa",
+      "discoveredAt": 530
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Portuguese mythology",
+      "iso": "PT",
+      "label": "Portuguese mythology",
+      "discoveredFrom": "Broxa",
+      "discoveredAt": 530
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Cambridgeshire folklore",
+      "iso": "_MULTI",
+      "label": "Cambridgeshire folklore",
+      "discoveredFrom": "Black Shuck",
+      "discoveredAt": 530
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Essex folklore",
+      "iso": "_MULTI",
+      "label": "Essex folklore",
+      "discoveredFrom": "Black Shuck",
+      "discoveredAt": 530
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Lincolnshire folklore",
+      "iso": "_MULTI",
+      "label": "Lincolnshire folklore",
+      "discoveredFrom": "Black Shuck",
+      "discoveredAt": 530
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological horses",
+      "iso": "_MULTI",
+      "label": "Mythological horses",
+      "discoveredFrom": "Ama no Fuchigoma",
+      "discoveredAt": 530
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Persian legendary creatures",
+      "iso": "IR",
+      "label": "Persian legendary creatures",
+      "discoveredFrom": "Bahamut",
+      "discoveredAt": 530
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Yōkai in anime and manga",
+      "iso": "_MULTI",
+      "label": "Yōkai in anime and manga",
+      "discoveredFrom": "False Child",
+      "discoveredAt": 530
     }
   ],
-  "totalAdded": 2619,
-  "runs": 530,
-  "lastRun": "2026-07-08T01:51:40.964Z",
-  "lastDiscoveredIndex": 345
+  "totalAdded": 2634,
+  "runs": 531,
+  "lastRun": "2026-07-08T08:09:46.630Z",
+  "lastDiscoveredIndex": 348
 }
