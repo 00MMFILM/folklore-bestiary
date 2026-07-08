@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Apophis",
+ "sourceLang": "en",
+ "sourceChars": 5253,
+ "generatedAt": "2026-07-08T03:22:32.357Z",
+ "locales": {
+  "ko": {
+   "origin": "Apep(또는 Apophis)는 고대 이집트의 혼돈, 어둠, 불의 신으로, 일반적으로 태양신 라의 적으로 여겨졌다. 아펩의 기원에 대한 전설은 대개 라의 제무의에서 태어났다고 전해지며, 제럴딘 핀치에 따르면, 후대의 창조 신화에서는 아펩이 원시 물속에서 여신 네이트의 침에서 태어났다고 설명한다. 아펩은 또한 원시 혼돈의 물인 누의 물속에서 처음부터 존재해온 것으로 여겨졌다.",
+   "legend": "아펩은 일반적으로 거대한 뱀 또는 뱀으로 묘사되며, '혼돈의 주인'이라는 칭호를 가지고 있다. 그는 라의 가장 큰 적으로 여겨졌으며, 라는 빛의 신으로서 아펩과 대립하는 존재이다. 아펩은 매일 지평선 아래에 있어야 하며, 이는 그가 저승의 일부로 여겨지게 했다. 아펩의 포효는 저승을 흔들리게 한다고 믿어졌으며, 그의 움직임은 지진을 일으킨다고 여겨졌다.",
+   "variants": "",
+   "culture": "이집트의 제사장들은 아펩을 물리치기 위한 기도를 드렸으며, 아펩을 무찌르는 의식인 '아펩 전복 의식'을 통해 아펩의 형상을 만들어 불태우는 의식을 행했다. 아펩은 저승에서 영혼을 먹는 존재로 여겨졌기 때문에, 죽은 자들도 아펩으로부터 보호받기 위해 주문과 함께 매장되었다."
+  },
+  "en": {
+   "origin": "Apep (or Apophis) is the ancient Egyptian god of chaos, darkness, and fire, generally considered an enemy of the sun god Ra. Legends about Apep's origin typically state that he was born from the mouth of Ra, and according to Geraldine Pinch, later creation myths describe Apep as having been born from the saliva of the goddess Neith in the primordial waters. Apep was also believed to have existed from the beginning in the waters of Nu, the primordial chaos.",
+   "legend": "Apep is generally depicted as a gigantic serpent or snake and holds the title of 'Lord of Chaos.' He was regarded as Ra's greatest enemy, with Ra being the god of light who opposes Apep. Apep must be beneath the horizon every day, which has led to him being considered part of the underworld. Apep's roar was believed to shake the underworld, and his movements were thought to cause earthquakes.",
+   "variants": "",
+   "culture": "Egyptian priests prayed to defeat Apep and performed a ritual known as the 'Apep Repulsion Ritual,' which involved creating an image of Apep and burning it. Apep was seen as a being that devours souls in the underworld, so the dead were buried with spells to protect them from Apep."
+  },
+  "zh": {
+   "origin": "阿佩普（Apep或Apophis）是古埃及混沌、黑暗和火的神，通常被视为太阳神拉（Ra）的敌人。关于阿佩普的起源的传说通常认为他是从拉的嘴中出生的，杰拉尔丁·平奇（Geraldine Pinch）指出，在后来的创造神话中，阿佩普被描述为从原始水域女神奈特（Nuit）的唾液中诞生。阿佩普也被认为是从原始混沌之水努（Nu）中一开始就存在的。",
+   "legend": "阿佩普通常被描绘为一条巨大的蛇，拥有“混沌之主”的称号。他被认为是拉最大的敌人，而拉作为光明之神与阿佩普对立。阿佩普每天必须在地平线以下，这使得他被视为阴间的一部分。人们相信阿佩普的咆哮会震动阴间，他的移动被认为会引发地震。",
+   "variants": "",
+   "culture": "埃及的祭司们为击败阿佩普而祈祷，并通过名为“阿佩普推翻仪式”的仪式制作阿佩普的形象并焚烧。由于阿佩普被视为在阴间吞噬灵魂的存在，死者也会被施加咒语以保护自己免受阿佩普的侵害而被埋葬。"
+  },
+  "ja": {
+   "origin": "アペプ（ApepまたはApophis）は、古代エジプトの混沌、暗闇、火の神であり、一般的に太陽神ラー（Ra）の敵と見なされていた。アペプの起源に関する伝説は、通常ラーのジェム（ジェムウ）の中で生まれたと伝えられ、ジェラルディン・ピンチによれば、後の創造神話ではアペプが原始の水の中で女神ネイト（Neith）の唾から生まれたと説明されている。アペプはまた、原始の混沌の水であるヌ（Nu）の水の中で初めから存在していたと考えられていた。",
+   "legend": "アペプは一般的に巨大な蛇または蛇として描かれ、「混沌の主」という称号を持っている。彼はラーの最大の敵と見なされ、ラーは光の神としてアペプと対立する存在である。アペプは毎日地平線の下にいる必要があり、これは彼が死後の世界の一部と見なされる原因となった。アペプの咆哮は死後の世界を揺るがすと信じられ、彼の動きは地震を引き起こすと考えられていた。",
+   "variants": "",
+   "culture": "エジプトの神官たちはアペプを打ち負かすための祈りを捧げ、アペプを打ち倒す儀式である「アペプ転覆儀式」を通じてアペプの形を作り、燃やす儀式を行った。アペプは死後の世界で魂を食べる存在と見なされていたため、死者たちはアペプから守られるために呪文と共に埋葬された。"
+  }
+ }
+}

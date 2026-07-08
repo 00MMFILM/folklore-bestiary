@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Yinglong",
+ "sourceLang": "en",
+ "sourceChars": 12969,
+ "generatedAt": "2026-07-08T03:24:06.786Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "응룡(應龍)은 고대 중국 신화에서 날개가 있는 용이자 비의 신으로 알려져 있다. 이 전설적인 생물의 이름은 '응(應)'과 '룡(龍)'의 결합으로, '응'은 '응답하다'는 의미를 가지며, '룡'은 '중국 용'을 의미한다. 따라서 응룡은 '응답하는 용'으로 해석된다. 응룡은 특히 황제와 그의 후손인 유왕과 관련된 전설에서 자주 등장한다. 응룡은 유왕이 대홍수를 제어하는 데 도움을 주었다고 전해진다.",
+   "variants": "",
+   "culture": "응룡은 현대 대중문화에서도 등장한다. 예를 들어, 'Wolong Fallen Dynasty'라는 게임에서는 응룡이 전설적인 신수로 등장하며, 촉한의 천재 전략가 제갈량과 함께 묘사된다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Eungnyong (응룡) is known in ancient Chinese mythology as a winged dragon and the god of rain. The name of this legendary creature is a combination of 'Eung (응)' meaning 'to respond' and 'nyong (룡)' meaning 'dragon'. Therefore, Eungnyong is interpreted as 'the responding dragon'. Eungnyong frequently appears in legends associated with the emperor and his descendant, King You (유왕). It is said that Eungnyong helped King You control a great flood.",
+   "variants": "",
+   "culture": "Eungnyong also appears in modern popular culture. For example, in the game 'Wolong Fallen Dynasty', Eungnyong is depicted as a legendary divine beast alongside Zhuge Liang (제갈량), the genius strategist of the Shu Han (촉한)."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "应龙（Yìng Lóng）是古代中国神话中有翅膀的龙和雨的神。这个传奇生物的名字是“应（Yìng）”和“龙（Lóng）”的结合，其中“应”意味着“回应”，“龙”指的是“中国龙”。因此，应龙被解释为“回应的龙”。应龙特别常出现在与皇帝及其后代刘王相关的传说中。应龙被传说帮助刘王控制大洪水。",
+   "variants": "",
+   "culture": "应龙在现代大众文化中也有所出现。例如，在名为《Wolong Fallen Dynasty》的游戏中，应龙作为传奇神兽出现，并与蜀汉的天才战略家诸葛亮一起描绘。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "応龍（おうりゅう、Yōryū）は古代中国の神話で翼を持つ龍であり、雨の神として知られています。この伝説的な生物の名前は「応（おう）」と「龍（りゅう）」の結合で、「応」は「応答する」という意味を持ち、「龍」は「中国の龍」を意味します。したがって、応龍は「応答する龍」と解釈されます。応龍は特に皇帝と彼の子孫である劉王に関連する伝説で頻繁に登場します。応龍は劉王が大洪水を制御するのを助けたと伝えられています。",
+   "variants": "",
+   "culture": "応龍は現代の大衆文化にも登場します。例えば、「Wolong Fallen Dynasty」というゲームでは、応龍が伝説的な神獣として登場し、蜀漢の天才戦略家・諸葛亮（しょかつりょう）と共に描かれています。"
+  }
+ }
+}

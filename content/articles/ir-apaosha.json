@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Apaosha",
+ "sourceLang": "en",
+ "sourceChars": 3902,
+ "generatedAt": "2026-07-08T03:20:27.548Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "아파오샤(Apaosha)는 조로아스터교의 가뭄의 악마로, 아베스타어에서 유래한 이름이다. 그는 별 시리우스의 신이자 강수의 수호자인 티쉬트리야(Tishtrya)의 정반대 존재로 묘사된다. 조로아스터교 전통에서 아파오샤는 아포시(Aposh) 또는 아파우시(Apaush)로도 나타난다. 아파오샤는 '번영하지 않음'을 의미하는 아베스타어 apaoša-에서 유래한 것으로, 이는 고대 인도어 póṣa와 같은 의미를 지닌 단어와도 관련이 있다. 아파오샤는 티쉬트리야와의 전투에서 가뭄을 상징하는 존재로 등장하며, 이 전투는 계절적이고 천문학적인 사건을 신화적으로 설명하는 것으로 해석된다.",
+   "variants": "아파오샤와 티쉬트리야 간의 전투에 대한 묘사는 9세기에서 12세기 사이의 조로아스터교 전통 문헌에 재현된다. 이 시기에 아파오샤는 중세 페르시아어로 아포시(apōš)로 나타나며, 티쉬트리야는 티쉬타르(Tishtar) 또는 티쉬터(Tishter)로 불린다. 또한, 12세기에 완성된 우주론적 우화인 분다히쉬(Bundahishn)에서는 창조의 두 번째 단계에서 아파오샤가 물과 비를 통제하기 위한 전쟁의 일환으로 등장한다.",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "Apaosha is the demon of drought in Zoroastrianism, derived from the Avestan language. He is described as the opposite of Tishtrya, the god of the star Sirius and the guardian of precipitation. In Zoroastrian tradition, Apaosha also appears as Aposh or Apaush. The name Apaosha is derived from the Avestan word apaoša-, meaning 'not flourishing,' which is related to the ancient Indo word póṣa with a similar meaning. Apaosha appears as a symbol of drought in the battle against Tishtrya, which is interpreted as a mythological explanation of seasonal and astronomical events.",
+   "variants": "Descriptions of the battle between Apaosha and Tishtrya are reproduced in Zoroastrian texts from the 9th to the 12th centuries. During this period, Apaosha appears in Middle Persian as apōš, while Tishtrya is referred to as Tishtar or Tishter. Additionally, in the cosmological allegory Bundahishn, completed in the 12th century, Apaosha appears as part of a war to control water and rain during the second stage of creation.",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "阿帕奥沙（Apaosha）是琐罗亚斯德教的干旱恶魔，名字源于阿维斯陀语。他被描绘为星星天狼星的神以及降水的守护者提什特里亚（Tishtrya）的对立存在。在琐罗亚斯德教传统中，阿帕奥沙也被称为阿波希（Aposh）或阿帕乌希（Apaush）。阿帕奥沙的名字源于阿维斯陀语apaoša-，意为“没有繁荣”，这与古印度语póṣa有相同的含义。阿帕奥沙在与提什特里亚的战斗中作为象征干旱的存在出现，这场战斗被解释为神话化的季节性和天文学事件。",
+   "variants": "阿帕奥沙与提什特里亚之间的战斗描述出现在9世纪到12世纪的琐罗亚斯德教传统文献中。在这个时期，阿帕奥沙在中世纪波斯语中被称为阿波希（apōš），而提什特里亚则被称为提什塔尔（Tishtar）或提什特（Tishter）。此外，在12世纪完成的宇宙论寓言《分达希什》（Bundahishn）中，阿帕奥沙作为控制水和雨的战争的一部分出现在创造的第二阶段。",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "アパオシャ(Apaosha)はゾロアスター教の干ばつの悪魔で、アヴェスター語に由来する名前です。彼は星シリウスの神であり、降水の守護者であるティシュトリヤ(Tishtrya)の正反対の存在として描かれます。ゾロアスター教の伝統では、アパオシャはアポシ(Aposh)またはアパウシ(Apaush)としても現れます。アパオシャは「繁栄しない」を意味するアヴェスター語apaoša-に由来し、これは古代インド語póṣaと同じ意味を持つ単語とも関連しています。アパオシャはティシュトリヤとの戦いで干ばつを象徴する存在として登場し、この戦いは季節的および天文学的な出来事を神話的に説明するものとして解釈されます。",
+   "variants": "アパオシャとティシュトリヤ間の戦いに関する描写は、9世紀から12世紀の間のゾロアスター教の伝統文献に再現されます。この時期、アパオシャは中世ペルシャ語でアポシ(apōš)として現れ、ティシュトリヤはティシュタール(Tishtar)またはティシュター(Tishter)と呼ばれます。また、12世紀に完成した宇宙論的寓話であるブンダヒシュ(Bundahishn)では、創造の第二段階でアパオシャが水と雨を制御するための戦争の一環として登場します。",
+   "culture": ""
+  }
+ }
+}

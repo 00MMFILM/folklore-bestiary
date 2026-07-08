@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Vampire",
+ "sourceLang": "en",
+ "sourceChars": 56100,
+ "generatedAt": "2026-07-08T03:23:30.831Z",
+ "locales": {
+  "ko": {
+   "origin": "뱀파이어라는 용어는 18세기 초 서유럽에서 대중화되었으며, 이는 동남유럽과 동유럽의 기존 민속 신앙에 기반한 대규모 히스테리 사건의 보고에 기인한다. 이로 인해 특정 개인들이 뱀파이어로 고발되었고, 의심받는 시체들이 말뚝으로 찔리는 사건이 발생하기도 했다.",
+   "legend": "뱀파이어는 인간과 유사한 외모를 가진 신화적 존재로, 일반적으로 인간의 생명력, 주로 피를 빨아먹으며 생존한다. 유럽 민속에서 뱀파이어는 언데드 인간으로, 살아있을 때 사랑하는 이들을 방문하고, 그들이 거주하던 지역에서 장난을 치거나 죽음을 초래하는 존재로 묘사된다. 이들은 수의로 덮여 있으며, 종종 부풀어 오르고 붉거나 어두운 안색을 가진 것으로 묘사된다.",
+   "variants": "동남유럽의 지역적 변형은 알바니아의 shtriga, 그리스의 vrykolakas, 루마니아의 strigoi와 같은 다양한 이름으로 알려져 있다.",
+   "culture": "현대에는 뱀파이어가 일반적으로 허구의 존재로 여겨지지만, chupacabra와 같은 유사한 뱀파이어적 존재에 대한 믿음은 여전히 일부 문화에서 존재한다. 뱀파이어는 19세기 초 존 폴리도리의 'The Vampyre'와 브램 스토커의 '드라큘라'와 같은 문학 작품을 통해 현대 공포 장르에서 지배적인 인물로 자리 잡았다."
+  },
+  "en": {
+   "origin": "The term vampire was popularized in Western Europe in the early 18th century, attributed to reports of mass hysteria based on existing folk beliefs in Southeastern and Eastern Europe. As a result, certain individuals were accused of being vampires, and incidents occurred where suspected corpses were staked.",
+   "legend": "Vampires are mythological beings resembling humans, typically surviving by sucking the life force of humans, primarily blood. In European folklore, vampires are depicted as undead humans who visit their loved ones while alive, causing mischief or death in the areas they inhabited. They are often covered with a shroud and described as having a bloated appearance and a red or dark complexion.",
+   "variants": "Regional variations in Southeastern Europe are known by various names such as shtriga in Albania, vrykolakas in Greece, and strigoi in Romania.",
+   "culture": "In modern times, vampires are generally considered fictional beings, but beliefs in similar vampiric entities, such as chupacabra, still exist in some cultures. Vampires became dominant figures in the modern horror genre through literary works such as John Polidori's 'The Vampyre' and Bram Stoker's 'Dracula' in the early 19th century."
+  },
+  "zh": {
+   "origin": "吸血鬼一词在18世纪初在西欧流行开来，这源于对东南欧和东欧现有民俗信仰的大规模歇斯底里事件的报告。因此，某些个人被指控为吸血鬼，怀疑的尸体也发生了被木桩刺穿的事件。",
+   "legend": "吸血鬼是一种与人类相似外貌的神话生物，通常通过吸取人类的生命力，主要是血液来生存。在欧洲民俗中，吸血鬼被描绘为不死的人类，活着时会拜访所爱之人，并在他们居住的地方捣乱或导致死亡。这些生物通常被裹在寿衣中，常常被描述为面色苍白或暗淡。",
+   "variants": "东南欧的地方变体以不同的名称被称为阿尔巴尼亚的shtriga、希腊的vrykolakas和罗马尼亚的strigoi。",
+   "culture": "在现代，吸血鬼通常被视为虚构的存在，但对类似吸血鬼的生物（如chupacabra）的信仰在某些文化中仍然存在。吸血鬼通过19世纪初约翰·波利多里的《吸血鬼》和布拉姆·斯托克的《德古拉》等文学作品，成为现代恐怖文学中的主导角色。"
+  },
+  "ja": {
+   "origin": "ヴァンパイアという用語は18世紀初頭に西ヨーロッパで普及し、これは東南ヨーロッパと東ヨーロッパの既存の民俗信仰に基づく大規模なヒステリー事件の報告に起因する。その結果、特定の個人がヴァンパイアとして告発され、疑わしい遺体が杭で突かれる事件が発生した。",
+   "legend": "ヴァンパイアは人間に似た外見を持つ神話的存在で、一般的に人間の生命力、主に血を吸って生き延びる。ヨーロッパの民俗においてヴァンパイアはアンデッドの人間として描かれ、生前に愛する者を訪れ、彼らが住んでいた地域でいたずらをしたり、死を引き起こす存在とされる。彼らは死装束をまとい、しばしば膨れ上がり、赤または暗い肌色を持つと描写される。",
+   "variants": "東南ヨーロッパの地域的変種はアルバニアのshtriga、ギリシャのvrykolakas、ルーマニアのstrigoiなどのさまざまな名前で知られている。",
+   "culture": "現代ではヴァンパイアは一般的に架空の存在と見なされているが、チュパカブラのような類似のヴァンパイア的存在に対する信念は依然として一部の文化に存在する。ヴァンパイアは19世紀初頭のジョン・ポリドリの『ザ・ヴァンパイア』やブラム・ストーカーの『ドラキュラ』などの文学作品を通じて、現代ホラージャンルで支配的なキャラクターとしての地位を確立した。"
+  }
+ }
+}

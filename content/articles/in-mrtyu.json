@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Mrtyu",
+ "sourceLang": "en",
+ "sourceChars": 2332,
+ "generatedAt": "2026-07-08T03:20:04.458Z",
+ "locales": {
+  "ko": {
+   "origin": "Mṛtyu는 산스크리트어로 '죽음'을 의미하는 단어로, 베다 시대의 mṛtyú와 아베스타어 mərəθiiu, 고대 페르시아어 məršiyu에서 유래되었으며, 이는 궁극적으로 인도유럽어 어근 *mer-('죽다')에서 파생된 것이다. 이 어근은 고대 그리스어 μόρος와 라틴어 mors와도 관련이 있다.",
+   "legend": "Mṛtyu는 종종 힌두교와 불교와 같은 다르믹 종교에서 마라(Mara)와 야마(Yama)라는 신으로 의인화된다. 마라는 힌두 신화에서 죽음의 여신으로 알려져 있으며, 불교에서는 죽음을 의미하는 Mṛtyu-māra 또는 유혹의 의인화인 마라라는 '악마'로 나타난다. 야마는 힌두교와 불교에서 죽음과 저승의 신으로 알려져 있다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Mṛtyu is a Sanskrit word meaning 'death', derived from the Vedic mṛtyú and Avestan mərəθiiu, as well as Old Persian məršiyu, ultimately stemming from the Proto-Indo-European root *mer- ('to die'). This root is also related to the Ancient Greek μόρος and Latin mors.",
+   "legend": "Mṛtyu is often personified as the deities Mara and Yama in Dharmic religions such as Hinduism and Buddhism. Mara is known as the goddess of death in Hindu mythology, while in Buddhism, Mṛtyu-māra, meaning death, or Mara, personification of temptation, appears as a 'demon'. Yama is recognized as the god of death and the afterlife in both Hinduism and Buddhism.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "Mṛtyu是梵语中“死亡”的意思，源自于吠陀时代的mṛtyú和阿维斯塔语mərəθiiu，以及古波斯语məršiyu，最终源自于印欧语根*mer-（“死”）。这个词根与古希腊语μόρος和拉丁语mors也有关联。",
+   "legend": "Mṛtyu常常在印度教和佛教等达摩宗教中被人格化为玛拉（Mara）和耶马（Yama）这两位神。玛拉在印度神话中被称为死亡女神，而在佛教中则表现为象征死亡的Mṛtyu-māra或诱惑的化身玛拉，称为“恶魔”。耶马在印度教和佛教中被认为是死亡和冥界的神。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "Mṛtyuはサンスクリット語で「死」を意味する言葉で、ヴェーダ時代のmṛtyúやアヴェスター語のmərəθiiu、古代ペルシャ語のməršiyuに由来し、最終的にはインド・ヨーロッパ語の語根*mer-（「死ぬ」）から派生しています。この語根は古代ギリシャ語のμόροςやラテン語のmorsとも関連しています。",
+   "legend": "Mṛtyuはしばしばヒンドゥー教や仏教などのダルマ的宗教でマラ（Mara）やヤマ（Yama）という神として擬人化されます。マラはヒンドゥー神話で死の女神として知られ、仏教では死を意味するMṛtyu-māraまたは誘惑の擬人化であるマラという「悪魔」として現れます。ヤマはヒンドゥー教と仏教で死とあの世の神として知られています。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

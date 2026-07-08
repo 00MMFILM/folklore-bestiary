@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Scylla",
+ "sourceLang": "en",
+ "sourceChars": 13377,
+ "generatedAt": "2026-07-08T03:15:35.448Z",
+ "locales": {
+  "ko": {
+   "origin": "Scylla는 그리스 신화에서 처음으로 호메로스의 '오디세이'에 등장하며, 아름다운 님프에서 괴물로 변모한 이야기가 전해진다. 여러 저자에 따라 Scylla의 부모에 대한 이야기가 다르지만, 호메로스와 오비디우스는 그녀의 어머니를 크라타에이스로 언급하고, 아버지는 트리엔스 또는 포르쿠스라는 이름이 거론된다.",
+   "legend": "Scylla는 좁은 수로의 한쪽에 살며, 그녀의 상대인 바다를 삼키는 괴물 카리브디스와 마주하고 있는 인간을 잡아먹는 괴물로 전해진다. 그녀는 아름다운 여성의 모습에서 시작하여, 질투에 의해 괴물로 변하게 된다. 호메로스의 '오디세이'에서 오디세우스는 그녀와 카리브디스를 만나고, 그녀는 그의 선원 여섯 명을 잡아먹는다.",
+   "variants": "Scylla의 전설은 여러 문헌에서 다르게 변형되어 전해진다. 예를 들어, 오비디우스의 '변신 이야기'에서는 그녀가 글라우쿠스에게 사랑받지만, 질투심에 사로잡힌 마녀 키르케에 의해 괴물로 변하게 된다. 또한, 히기누스의 이야기에서도 비슷한 내용이 전해진다.",
+   "culture": "Scylla의 이야기는 르네상스 이후 유럽의 화가들에게 영감을 주었으며, 여러 작품에서 그녀와 글라우쿠스의 이야기가 다루어졌다. 특히, 장 마리 르클레르의 오페라 'Scylla et Glaucus'와 같은 현대적 해석도 존재한다."
+  },
+  "en": {
+   "origin": "Scylla first appears in Greek mythology in Homer's 'Odyssey', where the story of her transformation from a beautiful nymph into a monster is told. The accounts of Scylla's parents vary among different authors, but both Homer and Ovid mention her mother as Crataeis, while her father is referred to as Triton or Phorcys.",
+   "legend": "Scylla is said to live on one side of a narrow strait, facing the monster Charybdis, who swallows the sea, and is known for devouring humans. She begins as a beautiful woman but transforms into a monster due to jealousy. In Homer's 'Odyssey', Odysseus encounters her and Charybdis, and she devours six of his sailors.",
+   "variants": "The legend of Scylla has been adapted differently in various texts. For example, in Ovid's 'Metamorphoses', she is loved by Glaucus but is transformed into a monster by the jealous witch Circe. Similar accounts are also found in Hyginus's stories.",
+   "culture": "The story of Scylla has inspired European painters since the Renaissance, and her tale with Glaucus has been depicted in various works. Notably, modern interpretations exist, such as Jean-Marie Leclair's opera 'Scylla et Glaucus'."
+  },
+  "zh": {
+   "origin": "Scylla在希腊神话中首次出现在荷马的《奥德赛》中，传说她从美丽的女神变成了怪物。根据不同的作者，关于Scylla的父母的故事各不相同，但荷马和奥维德提到她的母亲是克拉泰伊斯（Crataeis），父亲则被称为特里恩斯（Triton）或波尔库斯（Phorcys）。",
+   "legend": "Scylla被传说为生活在狭窄水道一侧的怪物，她与吞噬海洋的怪物卡里布迪斯（Charybdis）对峙，捕食经过的人类。她的形象从美丽的女性开始，因嫉妒而变成怪物。在荷马的《奥德赛》中，奥德修斯（Odysseus）与她和卡里布迪斯相遇，她吞噬了他的六名船员。",
+   "variants": "Scylla的传说在不同文献中有所不同。例如，在奥维德的《变形记》中，她被格劳库斯（Glaucus）所爱，但被嫉妒的女巫基尔克（Circe）变成了怪物。此外，希金斯（Hyginus）的故事中也传达了类似的内容。",
+   "culture": "Scylla的故事在文艺复兴后激发了欧洲画家的灵感，许多作品中都涉及她与格劳库斯的故事。特别是现代解读中，如让·玛丽·勒克莱尔（Jean-Marie Leclair）的歌剧《Scylla et Glaucus》。"
+  },
+  "ja": {
+   "origin": "Scylla（スキュラ）は、ギリシャ神話で最初にホメロスの『オデュッセイア』に登場し、美しいニンフから怪物に変わる物語が伝えられています。いくつかの著者によってScyllaの親に関する話は異なりますが、ホメロスとオウィディウスは彼女の母親をクレタエイス（Krataeis）と述べ、父親はトリーレンス（Triton）またはポルクス（Phorcus）という名前が挙げられています。",
+   "legend": "Scyllaは狭い水路の一方に住み、彼女の相手である海を飲み込む怪物カリブディス（Charybdis）と向かい合っている人間を捕まえて食べる怪物として伝えられています。彼女は美しい女性の姿から始まり、嫉妬によって怪物に変わることになります。ホメロスの『オデュッセイア』でオデュッセウスは彼女とカリブディスに出会い、彼女は彼の船員6人を捕まえて食べます。",
+   "variants": "Scyllaの伝説はさまざまな文献で異なって変形されて伝えられています。例えば、オウィディウスの『変身物語』では彼女がグラウクス（Glaucus）に愛されますが、嫉妬心に囚われた魔女キルケ（Circe）によって怪物に変わることになります。また、ヒギヌスの物語でも似た内容が伝えられています。",
+   "culture": "Scyllaの物語はルネサンス以降、ヨーロッパの画家たちにインスピレーションを与え、さまざまな作品で彼女とグラウクスの物語が扱われました。特に、ジャン＝マリ・ルクレールのオペラ『Scylla et Glaucus』のような現代的な解釈も存在します。"
+  }
+ }
+}

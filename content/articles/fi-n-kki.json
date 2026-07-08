@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Nixie (folklore)",
+ "sourceLang": "en",
+ "sourceChars": 23130,
+ "generatedAt": "2026-07-08T03:24:17.641Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "Näkki는 독일 신화와 민속에서 물의 정령으로, 종종 인간 형태를 취하며 변신 능력을 가진 존재로 알려져 있다. 이들은 일반적으로 남성으로 묘사되며, 매혹적인 음악을 연주하여 여성과 아이들을 호수나 개울로 유인하여 익사시키는 것으로 전해진다. 그러나 모든 전설에서 이들이 악의적이지는 않으며, 많은 이야기에서는 이들이 해를 끼치지 않고, 오히려 사랑에 빠진 인간과 함께 살기로 합의하는 경우도 있다. 이들은 물의 근원과 정기적으로 접촉하지 않으면 우울해진다고 전해진다.",
+   "variants": "",
+   "culture": "Näkki는 현대 대중문화에서도 여러 형태로 등장한다. 예를 들어, 2019년 영화 'Frozen II'에서는 물의 정령인 Nøkk가 등장하며, 이는 전통적인 북유럽 신화의 영향을 받았다. 또한, 2023년 비디오 게임 'Bramble: The Mountain King'에서는 Näcken이라는 이름의 물속에 사는 악당이 등장하여 주인공을 추적하는 역할을 한다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Näkki is a water spirit in German mythology and folklore, often known to take on human form and possess shapeshifting abilities. They are generally depicted as male and are said to lure women and children to lakes or streams with enchanting music, leading to drowning. However, not all legends portray them as malevolent; in many stories, they do not cause harm and sometimes agree to live with humans who have fallen in love with them. It is said that they become melancholic if they do not regularly come into contact with the source of water.",
+   "variants": "",
+   "culture": "Näkki appears in various forms in modern popular culture. For example, in the 2019 film 'Frozen II', a water spirit named Nøkk appears, influenced by traditional Norse mythology. Additionally, in the 2023 video game 'Bramble: The Mountain King', there is a villain named Näcken who lives underwater and pursues the protagonist."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "Näkki是德国神话和民俗中的水精灵，通常被描述为能够变身的存在，常常采取人类形态。这些生物通常被描绘为男性，通过演奏迷人的音乐来引诱女性和儿童到湖泊或小溪中淹死。然而，并非所有传说中的Näkki都是恶意的，许多故事中它们并不会造成伤害，反而会与爱上人类达成共识，共同生活。传说中，如果它们与水源失去定期接触，就会感到沮丧。",
+   "variants": "",
+   "culture": "Näkki在现代大众文化中也以多种形式出现。例如，在2019年电影《冰雪奇缘2》（Frozen II）中，出现了水精灵Nøkk，这受到了传统北欧神话的影响。此外，在2023年视频游戏《Bramble: The Mountain King》中，出现了名为Näcken的水中反派，负责追踪主角。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "Näkki（ナッキ）はドイツの神話と民俗における水の精霊で、しばしば人間の形を取り、変身能力を持つ存在として知られている。彼らは一般的に男性として描かれ、魅惑的な音楽を演奏して女性や子供たちを湖や小川に誘い込み、溺れさせると伝えられている。しかし、すべての伝説において彼らが悪意を持っているわけではなく、多くの物語では彼らが害を及ぼさず、むしろ恋に落ちた人間と共に暮らすことに合意する場合もある。彼らは水の源と定期的に接触しないと憂鬱になると伝えられている。",
+   "variants": "",
+   "culture": "Näkki（ナッキ）は現代の大衆文化でもさまざまな形で登場する。例えば、2019年の映画『Frozen II（アナと雪の女王2）』では水の精霊であるNøkk（ノック）が登場し、これは伝統的な北欧神話の影響を受けている。また、2023年のビデオゲーム『Bramble: The Mountain King（ブランブル：ザ・マウンテン・キング）』ではNäcken（ネッケン）という名前の水中に住む悪役が登場し、主人公を追跡する役割を果たす。"
+  }
+ }
+}

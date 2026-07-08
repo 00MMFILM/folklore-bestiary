@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "I Verbti",
+ "sourceLang": "en",
+ "sourceChars": 6578,
+ "generatedAt": "2026-07-08T03:21:05.504Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "I Verbti는 알바니아 북부의 민속 신앙에서 불과 바람의 신으로 여겨지며, Zadrima 지역에서는 불과 바람의 신으로, Dukagjin과 Malësia e Vogël에서는 천둥 신으로 알려져 있다. Shala에서는 천둥 신이 Rmoria로 불린다. 이러한 신앙은 최근까지도 북부 알바니아에서 살아남았다. Zadrima에서는 I Verbti가 바람을 조절함으로써 불의 불꽃을 부채질하고 물을 움직일 수 있다고 믿어졌다. I Verbti는 불의 신으로서 불결함의 적이며, 더러운 말을 하는 사람에게는 벌을 내린다고 전해진다.",
+   "variants": "I Verbti는 Zadrima 지역에서 불과 바람의 신을 지칭하는 데 사용되었으며, Shën Verbti는 Dukagjin과 Malësia e Vogël에서 천둥 신을 지칭하는 데 사용되었다. Shala에서는 Rmoria라는 이름으로 불리며, 천둥 신 Shurdh와 유사한 특징을 지닌다.",
+   "culture": "I Verbti는 기독교화 이후 악마화되어 잘못된 신으로 여겨졌으나, 민속 신앙에서는 기독교 신보다 더 강력한 존재로 여겨졌다. I Verbti에 기도한 사람은 불에 의해 눈이 멀 것이라는 전설이 퍼졌지만, 민속 이야기에서는 I Verbti에게 기도한 사람이 살아남는 경우가 많았다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "I Verbti is considered the god of fire and wind in the folk beliefs of northern Albania, known as the god of fire and wind in the Zadrima region, and as the god of thunder in Dukagjin and Malësia e Vogël. In Shala, the thunder god is called Rmoria. These beliefs have survived in northern Albania until recently. In Zadrima, it was believed that I Verbti could fan the flames of fire and move water by controlling the wind. As the god of fire, I Verbti is an enemy of impurity and is said to punish those who speak dirty words.",
+   "variants": "I Verbti was used to refer to the god of fire and wind in the Zadrima region, while Shën Verbti was used to refer to the god of thunder in Dukagjin and Malësia e Vogël. In Shala, he is called Rmoria and shares similar characteristics with the thunder god Shurdh.",
+   "culture": "I Verbti was demonized after the Christianization and considered a false god, but in folk beliefs, he was regarded as a more powerful being than the Christian god. There was a legend that those who prayed to I Verbti would be blinded by fire, but in folk tales, those who prayed to I Verbti often survived."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "I Verbti被认为是阿尔巴尼亚北部的火与风之神，在Zadrima地区被视为火与风之神，而在Dukagjin和Malësia e Vogël则被称为雷神。在Shala，雷神被称为Rmoria。这种信仰直到最近仍在阿尔巴尼亚北部存活。在Zadrima，人们相信I Verbti通过调节风来扇动火焰并移动水。作为火之神，I Verbti被视为污秽的敌人，并传说会惩罚说脏话的人。",
+   "variants": "I Verbti在Zadrima地区用于指代火与风之神，而Shën Verbti在Dukagjin和Malësia e Vogël用于指代雷神。在Shala，它被称为Rmoria，具有与雷神Shurdh相似的特征。",
+   "culture": "I Verbti在基督教化后被妖魔化，被视为错误的神，但在民间信仰中被认为比基督教神更强大。关于祈祷I Verbti的人会被火焚瞎眼的传说流传，但在民间故事中，祈祷I Verbti的人往往能够幸存。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "I Verbti（イ・ヴェルブティ）はアルバニア北部の民俗信仰において火と風の神と見なされ、Zadrima（ザドリマ）地域では火と風の神として、Dukagjin（ドゥカギン）とMalësia e Vogël（マルシア・エ・ヴォゲル）では雷の神として知られている。Shala（シャラ）では雷の神がRmoria（ルモリア）と呼ばれる。このような信仰は最近まで北部アルバニアで生き残っていた。ZadrimaではI Verbtiが風を操ることで火の炎を扇ぎ、水を動かすことができると信じられていた。I Verbtiは火の神として不浄の敵であり、汚い言葉を使う者には罰を与えると伝えられている。",
+   "variants": "I VerbtiはZadrima地域で火と風の神を指すために使用され、Shën Verbti（シェン・ヴェルブティ）はDukagjinとMalësia e Vogëlで雷の神を指すために使用された。ShalaではRmoriaという名前で呼ばれ、雷の神Shurdh（シュルド）と類似の特徴を持つ。",
+   "culture": "I Verbtiはキリスト教化以降悪魔化され誤った神と見なされたが、民俗信仰ではキリスト教の神よりも強力な存在と見なされていた。I Verbtiに祈った者は火によって盲目になるという伝説が広まったが、民俗物語ではI Verbtiに祈った人が生き残る場合が多かった。"
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Charybdis",
+ "sourceLang": "en",
+ "sourceChars": 5196,
+ "generatedAt": "2026-07-08T03:26:10.480Z",
+ "locales": {
+  "ko": {
+   "origin": "Charybdis는 포세이돈과 가이아의 딸로, 아버지와의 갈등에서 아버지를 도와 땅과 섬을 물속에 잠기게 했다. 제우스는 그녀가 훔친 땅에 화가 나 그녀를 천둥번개로 바다 밑으로 보내었다. 그 후 그녀는 하루에 세 번 바다의 물을 마시고 소용돌이를 만들어냈다.",
+   "legend": "Charybdis는 그리스 신화에서 바다 괴물로, 메신나 해협의 한쪽 작은 바위 아래에 살고 있다고 전해진다. 그녀는 하루에 세 번 많은 양의 물을 삼키고 다시 토해내어 큰 소용돌이를 만들어 배를 수면 아래로 끌어당길 수 있다. Charybdis는 때때로 단순한 큰 소용돌이로 묘사되기도 한다.",
+   "variants": "",
+   "culture": "Charybdis는 'Scylla와 Charybdis 사이에 있다'는 관용구로 알려져 있으며, 이는 두 개의 비슷하게 위험한 상황 중에서 선택해야 하는 상황을 의미한다."
+  },
+  "en": {
+   "origin": "Charybdis is the daughter of Poseidon and Gaia, who helped her father in a conflict by submerging land and islands underwater. Zeus, angered by the land she stole, sent her to the depths of the sea with a thunderbolt. After that, she drinks the sea water three times a day and creates whirlpools.",
+   "legend": "Charybdis is a sea monster in Greek mythology, said to live under a small rock on one side of the Strait of Messina. She swallows a large amount of water three times a day and then vomits it back out, creating a great whirlpool that can pull ships beneath the surface. Charybdis is sometimes described simply as a large whirlpool.",
+   "variants": "",
+   "culture": "Charybdis is known in the idiom 'to be between Scylla and Charybdis', which means being in a situation where one must choose between two similarly dangerous situations."
+  },
+  "zh": {
+   "origin": "Charybdis是波塞冬（Poseidon）和盖亚（Gaia）的女儿，在与父亲的冲突中帮助父亲将土地和岛屿淹没在水中。宙斯（Zeus）因她偷走的土地而生气，将她用雷电送到了海底。从那以后，她每天三次饮海水，制造漩涡。",
+   "legend": "Charybdis在希腊神话中是海怪，传说她生活在梅西纳海峡（Messina Strait）一侧的小岩石下。她每天三次吞下大量的水，然后再吐出来，形成巨大的漩涡，可以将船只拉入水面以下。Charybdis有时也被描述为一个简单的大漩涡。",
+   "variants": "",
+   "culture": "Charybdis以“在Scylla和Charybdis之间”这一习语而闻名，这意味着在两个同样危险的情况下进行选择。"
+  },
+  "ja": {
+   "origin": "Charybdis（カリュブディス）はポセイドンとガイアの娘で、父との対立の中で父を助けて土地と島を水中に沈めた。ゼウスは彼女が盗んだ土地に怒り、彼女を雷で海の底に送った。その後、彼女は1日に3回海の水を飲み込み、渦を巻き起こした。",
+   "legend": "Charybdis（カリュブディス）はギリシャ神話における海の怪物で、メッシーナ海峡の一方の小さな岩の下に住んでいると伝えられている。彼女は1日に3回大量の水を飲み込み、再び吐き出して大きな渦を作り、船を水面下に引きずり込むことができる。Charybdisは時には単なる大きな渦として描かれることもある。",
+   "variants": "",
+   "culture": "Charybdis（カリュブディス）は「スキュラとカリュブディスの間にいる」という慣用句で知られており、これは2つの似たように危険な状況の中から選ばなければならない状況を意味する。"
+  }
+ }
+}

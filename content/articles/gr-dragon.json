@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Dragon",
+ "sourceLang": "en",
+ "sourceChars": 55757,
+ "generatedAt": "2026-07-08T03:19:23.347Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "드래곤은 전 세계의 민속에서 발견되는 신화적 존재로, 대개 뱀과 유사한 형태를 가지고 있으며, 종종 날개와 발톱과 같은 다양한 동물의 특징을 지니고 있다. 거의 모든 문화에서 드래곤은 강력하고 경외감을 불러일으키는 존재로 인식된다. 동아시아에서는 드래곤이 일반적으로 긍정적인 존재로 여겨지며, 중국 드래곤은 비와 바다 및 기타 형태의 물을 다스리는 존재로 여겨졌다. 고대 그리스의 드라콘은 초자연적인 특성을 지닌 대형 뱀으로, 신화에서는 영웅이나 신에 의해 물리쳐지지만, 제사에서는 치유와 부와 관련된 온화한 존재로 묘사된다. 서양 전통에서는 드래곤이 죽음과 관련된 악의 화신으로 묘사되며, 불을 내뿜는 존재로 그려진다.",
+   "variants": "",
+   "culture": "현대 세계에서 드래곤은 J. R. R. 톨킨, 어슐러 K. 르 귄, 조지 R. R. 마틴과 같은 작가들의 작품에 등장하며, 대중문화에서 중요한 역할을 하고 있다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Dragons are mythical beings found in folklore around the world, typically resembling snakes and often possessing features of various animals, such as wings and claws. In almost every culture, dragons are recognized as powerful and awe-inspiring entities. In East Asia, dragons are generally considered positive beings, with Chinese dragons viewed as rulers of rain, seas, and other forms of water. The drakon of ancient Greece is depicted as a large serpent with supernatural qualities, often defeated by heroes or gods in mythology, but described as a gentle being associated with healing and wealth in rituals. In Western traditions, dragons are portrayed as embodiments of evil associated with death, often depicted as fire-breathing creatures.",
+   "variants": "",
+   "culture": "In the modern world, dragons appear in the works of authors such as J. R. R. Tolkien, Ursula K. Le Guin, and George R. R. Martin, playing significant roles in popular culture."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "龙是世界各地民俗中发现的神话生物，通常具有类似蛇的形态，并且常常拥有翅膀和爪子等各种动物的特征。在几乎所有文化中，龙都被视为强大且令人敬畏的存在。在东亚，龙通常被认为是积极的存在，中国龙被视为掌管雨水、海洋及其他形式水的存在。古希腊的德拉孔（Drakon）是具有超自然特性的巨型蛇，在神话中被英雄或神打败，但在祭祀中被描绘为与治愈和财富相关的温和存在。在西方传统中，龙被描绘为与死亡相关的邪恶化身，并被描绘为喷火的存在。",
+   "variants": "",
+   "culture": "在现代世界中，龙出现在J. R. R. 托尔金（J. R. R. Tolkien）、厄休拉·K·勒古恩（Ursula K. Le Guin）、乔治·R·R·马丁（George R. R. Martin）等作家的作品中，并在大众文化中扮演着重要角色。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ドラゴンは世界中の民俗に見られる神話的存在で、一般的に蛇に似た形を持ち、しばしば翼や爪などのさまざまな動物の特徴を持っています。ほぼすべての文化において、ドラゴンは強力で畏敬の念を抱かせる存在として認識されています。東アジアでは、ドラゴンは一般的に肯定的な存在と見なされ、中国のドラゴンは雨や海、その他の形の水を支配する存在と考えられていました。古代ギリシャのドラコーンは超自然的な特性を持つ大型の蛇であり、神話では英雄や神によって打ち倒されますが、祭りでは癒しや富に関連する穏やかな存在として描かれます。西洋の伝統では、ドラゴンは死と関連する悪の化身として描かれ、火を吹く存在として描かれています。",
+   "variants": "",
+   "culture": "現代の世界では、ドラゴンはJ. R. R. トールキン、アーシュラ・K・ル＝グウィン、ジョージ・R・R・マーティンなどの作家の作品に登場し、大衆文化で重要な役割を果たしています。"
+  }
+ }
+}

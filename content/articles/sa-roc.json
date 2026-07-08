@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Roc",
+ "sourceLang": "en",
+ "sourceChars": 4481,
+ "generatedAt": "2026-07-08T03:21:47.378Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "Roc은 신화 속의 거대한 새로, 주로 중동과 아시아의 전설에서 등장한다. 이 새는 매우 거대하여, 한 번의 날갯짓으로 배를 뒤집을 수 있을 정도로 힘이 세다고 전해진다. Roc은 종종 바다의 괴물이나 다른 신화적 생물과 함께 묘사되며, 항해자들이 이 새의 공격을 받는 이야기가 전해진다. 이 새는 또한 신화 속의 영웅들이 모험 중에 마주치는 장애물로 등장하기도 한다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "The Roc is a giant bird from mythology, primarily appearing in legends from the Middle East and Asia. This bird is said to be so enormous that it can overturn a ship with a single flap of its wings. The Roc is often depicted alongside sea monsters or other mythical creatures, and stories are told of sailors being attacked by this bird. It also appears as an obstacle that heroes in mythology encounter during their adventures.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "Roc（罗克）是神话中的巨大鸟，主要出现在中东和亚洲的传说中。这只鸟非常巨大，传说中它能通过一次翅膀的挥动翻转船只。Roc常常与海洋怪物或其他神话生物一起被描绘，航海者们遭遇这只鸟攻击的故事流传甚广。这只鸟在神话中的英雄们冒险时也常常作为障碍出现。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ロック（Roc）は神話に登場する巨大な鳥で、主に中東やアジアの伝説に現れる。この鳥は非常に巨大で、一度の羽ばたきで船をひっくり返すことができるほどの力を持っていると言われている。ロックはしばしば海の怪物や他の神話的生物と共に描かれ、航海者たちがこの鳥の攻撃を受ける話が伝えられている。この鳥はまた、神話の英雄たちが冒険中に直面する障害物としても登場する。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

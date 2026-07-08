@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Gjenganger",
+ "sourceLang": "en",
+ "sourceChars": 5922,
+ "generatedAt": "2026-07-08T03:24:28.960Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "Gjenganger는 북유럽 민속에서 유령이나 망령을 의미하는 용어로, '다시 걷는 자'라는 뜻을 가지고 있다. 이는 죽은 자가 무덤을 넘어 걸어 다니며, 사후에 유령으로 나타나는 것을 의미한다. Gjenganger는 노르웨이어에서 'gå igjen'이라는 동사와 관련이 있으며, 이는 '다시 가다'라는 의미를 지닌다. Gjenganger는 일반적으로 죽음을 초월하여 지구를 다시 걷는 존재로 묘사된다. 이들은 종종 미완의 일을 남긴 채 죽은 사람들로, 그들이 평화를 찾기 위해 누군가의 도움을 필요로 한다고 전해진다.",
+   "variants": "",
+   "culture": "현대에 들어서도 gjenganger는 여전히 폭력적인 존재로 여겨지지만, 그 형태가 변화하여 질병을 퍼뜨리는 존재로 묘사되기도 한다. 스웨덴 민속에서는 전통적인 gjenganger와 gast라는 다른 유형의 유령을 구분하는데, gjenganger는 살아있는 인간과 거의 동일한 외모를 가지지만, gast는 투명하거나 해골 같은 모습으로 나타난다. 오늘날 gjenganger라는 용어는 점점 덜 사용되며, 현대적인 유령(spøkelse)이라는 용어가 주로 사용된다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Gjenganger is a term in Nordic folklore that means ghost or specter, translating to 'the one who walks again.' This refers to the dead walking beyond their graves and appearing as ghosts after death. Gjenganger is related to the Norwegian verb 'gå igjen,' which means 'to go again.' Gjenganger is generally depicted as a being that transcends death to walk the earth again. They are often the souls of those who died leaving unfinished business, and it is said that they need someone's help to find peace.",
+   "variants": "",
+   "culture": "Even in modern times, gjenganger is still considered a violent entity, but its form has changed to be described as a being that spreads disease. In Swedish folklore, a distinction is made between the traditional gjenganger and another type of ghost called gast, where the gjenganger resembles living humans almost identically, while the gast appears transparent or skeletal. Today, the term gjenganger is used less frequently, with the modern term for ghost (spøkelse) being used primarily."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "Gjenganger是北欧民俗中指代幽灵或亡灵的术语，意为“再次行走者”。这意味着死者越过坟墓行走，并在死后以幽灵的形式出现。Gjenganger与挪威语中的动词“gå igjen”相关，意为“再次去”。Gjenganger通常被描绘为超越死亡再次行走于地球的存在。这些人通常是留下未完成事务的死者，传说他们需要某人的帮助才能找到平静。",
+   "variants": "",
+   "culture": "即使在现代，gjenganger仍然被视为一种暴力存在，但其形态发生了变化，有时被描述为传播疾病的存在。在瑞典民俗中，传统的gjenganger与gast这两种类型的幽灵有所区分，gjenganger的外貌与活人几乎相同，而gast则以透明或骷髅般的形象出现。如今，gjenganger这个术语的使用逐渐减少，现代的幽灵(spøkelse)一词被广泛使用。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "Gjenganger（ゲンガンガー）は北欧民俗において幽霊や亡霊を意味する用語で、「再び歩く者」という意味を持つ。これは死者が墓を越えて歩き回り、死後に幽霊として現れることを意味する。Gjengangerはノルウェー語で「gå igjen」という動詞に関連しており、これは「再び行く」という意味を持つ。Gjengangerは一般的に死を超えて地球を再び歩く存在として描かれる。彼らはしばしば未完の仕事を残したまま死んだ人々であり、彼らが平和を見つけるために誰かの助けを必要としていると伝えられている。",
+   "variants": "",
+   "culture": "現代に入ってもgjengangerは依然として暴力的な存在と見なされているが、その形が変化して病気を広める存在として描かれることもある。スウェーデン民俗では、伝統的なgjengangerとgast（ガスト）という別のタイプの幽霊を区別しており、gjengangerは生きている人間とほぼ同じ外見を持つが、gastは透明または骸骨のような姿で現れる。今日ではgjengangerという用語は徐々に使われなくなり、現代的な幽霊（spøkelse）という用語が主に使用される。"
+  }
+ }
+}

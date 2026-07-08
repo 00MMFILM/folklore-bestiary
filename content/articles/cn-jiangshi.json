@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Jiangshi",
+ "sourceLang": "en",
+ "sourceChars": 13798,
+ "generatedAt": "2026-07-08T03:22:36.398Z",
+ "locales": {
+  "ko": {
+   "origin": "Jiangshi의 기원은 청나라 학자 지샤오란이 그의 저서 '월미초당비기'(閱微草堂筆記)에서 언급한 바와 같이, 시체가 재생되는 원인을 두 가지로 분류할 수 있습니다. 첫 번째는 최근에 사망한 사람이 다시 살아나는 경우이고, 두 번째는 오랜 시간 동안 묻혀 있었지만 부패하지 않은 시체입니다. 이러한 원인으로는 초자연적인 예술을 사용하여 죽은 자를 되살리거나, 죽은 몸에 영혼이 깃드는 경우, 시체가 충분한 양기(양의 에너지)를 흡수하여 생명으로 돌아오는 경우 등이 있습니다. 또한, 시체가 장례를 치른 후에도 묻히지 않거나, 번개에 맞거나, 임신한 고양이가 관 위로 뛰어넘는 경우에도 재생될 수 있다고 전해집니다.",
+   "legend": "Jiangshi는 중국 전설과 민속에서 언데드 생물 또는 재생된 시체로 묘사됩니다. 현대 대중문화에서는 일반적으로 청나라의 공식 의복을 입은 뻣뻣한 시체로 묘사됩니다. 전설에 따르면, jiangshi는 사람들을 추격할 수 있는 능력을 가지고 있으며, 충분히 오래되었거나 충분한 양 에너지를 흡수한 경우 비행할 수 있는 능력도 있습니다. 'jiangshi는 언덕에서 날아와 사람들의 아기를 잡아먹는다'는 전설이 있습니다.",
+   "variants": "Jiangshi 전설은 홍콩과 동아시아의 영화 및 문학 장르에 영감을 주었습니다. 'Mr. Vampire'와 그 속편들은 코미디-호러 장르에서 컬트 클래식으로 자리 잡았으며, 대만과 일본을 포함한 동아시아에서 뱀파이어 열풍을 일으켰습니다.",
+   "culture": "현대 대중문화에서 jiangshi는 장난감과 비디오 게임에 등장합니다. 'Darkstalkers'의 Hsien-Ko, 'Genshin Impact'의 Qiqi, 'Dragon Ball'의 Chiaotzu, 'Touhou Project'의 Yoshika Miyako와 같은 캐릭터들이 그 예입니다. 또한, jiangshi 의상은 할로윈 때 사용되기도 합니다."
+  },
+  "en": {
+   "origin": "The origin of Jiangshi can be classified into two causes, as mentioned by Qing Dynasty scholar Zhi Xiaolan in his work 'Yuewei Caotang Biji' (閱微草堂筆記). The first is the case of a recently deceased person coming back to life, and the second is a corpse that has been buried for a long time but has not decayed. These causes include using supernatural arts to resurrect the dead, the soul inhabiting the dead body, or the corpse absorbing enough Yangqi (positive energy) to return to life. It is also said that a corpse can be revived if it is not buried after the funeral, struck by lightning, or if a pregnant cat jumps over the coffin.",
+   "legend": "Jiangshi is depicted as an undead creature or a reanimated corpse in Chinese legends and folklore. In modern popular culture, it is generally portrayed as a stiff corpse dressed in official Qing Dynasty clothing. According to legend, the jiangshi has the ability to chase people and can also fly if it has been around long enough or absorbed enough Yang energy. There is a legend that 'the jiangshi flies down from the hill and eats people's babies.'",
+   "variants": "The Jiangshi legend has inspired films and literary genres in Hong Kong and East Asia. 'Mr. Vampire' and its sequels have become cult classics in the comedy-horror genre, sparking a vampire craze in East Asia, including Taiwan and Japan.",
+   "culture": "In modern popular culture, jiangshi appears in toys and video games. Characters such as Hsien-Ko from 'Darkstalkers', Qiqi from 'Genshin Impact', Chiaotzu from 'Dragon Ball', and Yoshika Miyako from 'Touhou Project' are examples. Additionally, jiangshi costumes are also used during Halloween."
+  },
+  "zh": {
+   "origin": "Jiangshi的起源可以追溯到清朝学者纪晓岚在他的著作《阅微草堂笔记》中提到的内容，尸体复生的原因可以分为两种。第一种是最近去世的人复活，第二种是埋藏已久但未腐烂的尸体。这些原因包括使用超自然的艺术复活死者，灵魂附着在死尸上，尸体吸收足够的阳气（阳能）而复生等。此外，传说中尸体在葬礼后未被埋葬，遭雷击，或怀孕的猫跳过棺材时也可能复生。",
+   "legend": "Jiangshi在中国传说和民俗中被描述为不死生物或复生的尸体。在现代大众文化中，通常被描绘为穿着清朝官方服装的僵硬尸体。传说中，jiangshi具有追赶人类的能力，并且在足够长时间或吸收足够阳气的情况下也能飞行。传说中有“jiangshi从山上飞来，抓走人们的婴儿”的说法。",
+   "variants": "Jiangshi的传说激发了香港和东亚的电影和文学类型。《Mr. Vampire》和其续集在喜剧-恐怖类型中成为了邪典经典，并在包括台湾和日本在内的东亚引发了吸血鬼热潮。",
+   "culture": "在现代大众文化中，jiangshi出现在玩具和视频游戏中。例如，《Darkstalkers》的Hsien-Ko，《Genshin Impact》的Qiqi，《Dragon Ball》的Chiaotzu，以及《Touhou Project》的Yoshika Miyako等角色都是其例。此外，jiangshi的服装在万圣节时也会被使用。"
+  },
+  "ja": {
+   "origin": "Jiangshiの起源は清朝の学者ジシャオランが彼の著書『月微草堂筆記』（Yuèwēi cǎotáng bǐjì）で言及したように、死体が再生する原因を二つに分類できます。第一は最近亡くなった人が再び生き返る場合であり、第二は長い間埋まっていたが腐敗していない死体です。これらの原因としては超自然的な技術を使って死者を蘇らせたり、死んだ体に魂が宿る場合、死体が十分な陽気（陽のエネルギー）を吸収して生命に戻る場合などがあります。また、死体が葬儀を終えた後も埋まらなかったり、雷に打たれたり、妊娠した猫が棺の上を跳び越える場合にも再生されると伝えられています。",
+   "legend": "Jiangshiは中国の伝説と民俗でアンデッド生物または再生された死体として描かれています。現代のポップカルチャーでは一般的に清朝の公式の服を着た硬直した死体として描かれています。伝説によれば、jiangshiは人々を追いかける能力を持っており、十分に古くなったり十分な陽エネルギーを吸収した場合には飛ぶ能力もあります。『jiangshiは丘から飛んできて人々の赤ちゃんを食べる』という伝説があります。",
+   "variants": "Jiangshiの伝説は香港と東アジアの映画や文学ジャンルにインスピレーションを与えました。『Mr. Vampire』とその続編はコメディ・ホラージャンルでカルトクラシックとして定着し、台湾や日本を含む東アジアでバンパイアブームを引き起こしました。",
+   "culture": "現代のポップカルチャーではjiangshiはおもちゃやビデオゲームに登場します。『Darkstalkers』のシェンコ（Hsien-Ko）、『Genshin Impact』のチチ（Qiqi）、『Dragon Ball』のチャオズ（Chiaotzu）、『Touhou Project』の宮古芳香（Yoshika Miyako）などのキャラクターがその例です。また、jiangshiの衣装はハロウィンの時に使用されることもあります。"
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Marraco",
+ "sourceLang": "en",
+ "sourceChars": 6140,
+ "generatedAt": "2026-07-08T03:27:17.522Z",
+ "locales": {
+  "ko": {
+   "origin": "Marraco는 기원전 5세기부터 Lleida 지역에서 토템 생물로 사용되었으며, 고대 이레르게테스족은 그들의 추장들이 Marraco라는 드래곤 신으로부터 유래했다고 믿었다.",
+   "legend": "Marraco는 카탈루냐 신화에서 등장하는 드래곤 또는 무서운 생물로, Lleida 시에서 전해진다. 전설에 따르면, Marraco는 사람을 통째로 삼킬 수 있는 넓은 입을 가지고 있다고 한다.",
+   "variants": "",
+   "culture": "Marraco는 1907년에 처음으로 제작된 행사용 조형물로, 이후 여러 주요 축제에서 등장해왔다. 20세기에는 여러 차례 재구성되었으며, 현재는 1993년에 재건된 형태로, 길이 8.5미터, 높이 3.75미터의 크기를 자랑한다."
+  },
+  "en": {
+   "origin": "Marraco has been used as a totem creature in the Lleida region since the 5th century BC, and the ancient Ilergetes believed that their chieftains descended from the dragon god Marraco.",
+   "legend": "Marraco is a dragon or fearsome creature that appears in Catalan mythology, passed down from the city of Lleida. According to legend, Marraco is said to have a wide mouth capable of swallowing a person whole.",
+   "variants": "",
+   "culture": "Marraco was first created as a ceremonial figure in 1907 and has since appeared in several major festivals. In the 20th century, it was reconstructed multiple times, and the current form, rebuilt in 1993, boasts a length of 8.5 meters and a height of 3.75 meters."
+  },
+  "zh": {
+   "origin": "Marraco从公元前5世纪开始在Lleida地区作为图腾生物使用，古代的Ilergete族相信他们的首领源自名为Marraco的龙神。",
+   "legend": "Marraco是加泰罗尼亚神话中出现的龙或可怕生物，流传于Lleida市。传说中，Marraco拥有能够整个人吞下的宽大嘴巴。",
+   "variants": "",
+   "culture": "Marraco是于1907年首次制作的游行用造型，自此在多个主要节日中出现。在20世纪，它经历了多次重构，目前的形态是1993年重建的，长8.5米，高3.75米。"
+  },
+  "ja": {
+   "origin": "Marracoは紀元前5世紀からLleida地域でトーテム生物として使用されており、古代イレルゲテス族は彼らの首長たちがMarracoというドラゴン神から由来していると信じていました。",
+   "legend": "Marracoはカタルーニャ神話に登場するドラゴンまたは恐ろしい生物で、Lleida市で伝えられています。伝説によれば、Marracoは人を丸ごと飲み込むことができる広い口を持っていると言われています。",
+   "variants": "",
+   "culture": "Marracoは1907年に初めて制作された行事用の造形物で、その後いくつかの主要な祭りに登場してきました。20世紀には何度も再構成され、現在は1993年に再建された形で、長さ8.5メートル、高さ3.75メートルの大きさを誇ります。"
+  }
+ }
+}

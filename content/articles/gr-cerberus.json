@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Cerberus",
+ "sourceLang": "en",
+ "sourceChars": 30673,
+ "generatedAt": "2026-07-08T03:21:39.312Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "그리스 신화에서 케르베로스(Cerberus)는 하데스의 개로 자주 언급되는 다수의 머리를 가진 개로, 저승의 문을 지키며 죽은 자들이 떠나는 것을 막는다. 그는 괴물 에키드나와 타이폰의 자식으로, 보통 세 개의 머리와 뱀 같은 꼬리, 그리고 몸에서 나오는 뱀들을 가진 모습으로 묘사된다. 케르베로스는 주로 헤라클레스에 의해 포획된 이야기로 알려져 있으며, 이는 헤라클레스의 열두 가지 노동 중 마지막 노동으로 여겨진다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "In Greek mythology, Cerberus is often referred to as the multi-headed dog of Hades, guarding the gates of the underworld and preventing the dead from leaving. He is the offspring of the monster Echidna and Typhon, typically depicted with three heads, a serpent-like tail, and snakes protruding from his body. Cerberus is primarily known for the story of being captured by Heracles, which is considered the last of Heracles' twelve labors.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "在希腊神话中，凯尔贝洛斯（Cerberus）是哈迪斯（Hades）的狗，常被提及为一只多头犬，守护着冥界的大门，阻止死者离开。他是怪物埃基德娜（Echidna）和泰丰（Typhon）的孩子，通常被描绘为有三个头、蛇一样的尾巴，以及从身体上长出的蛇。凯尔贝洛斯主要以被赫拉克勒斯（Heracles）捕获的故事而闻名，这被视为赫拉克勒斯的十二项劳动中的最后一项劳动。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ギリシャ神話においてケルベロス（Cerberus）は、ハデスの犬としてしばしば言及される多頭の犬で、冥界の門を守り、死者が去るのを防ぐ役割を果たす。彼は怪物エキドナとタイフォンの子供で、通常は三つの頭と蛇のような尾、そして体から出る蛇を持つ姿で描かれる。ケルベロスは主にヘラクレスによって捕らえられた物語で知られており、これはヘラクレスの十二の労働の中で最後の労働と見なされている。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

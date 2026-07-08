@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Nuckelavee",
+ "sourceLang": "en",
+ "sourceChars": 7384,
+ "generatedAt": "2026-07-08T03:15:25.044Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "너켈라비(Nuckelavee)는 오르카디안 전설에 등장하는 말과 같은 악마로, 말과 인간의 요소를 결합한 존재이다. 겉보기에는 일반적인 기수의 실루엣처럼 보이지만, 자세히 살펴보면 살이 없는 말과 살이 없는 인간의 머리, 몸통, 팔이 말의 등에서 자라나는 형태를 하고 있다. 브리티시 민속학자 캐서린 브릭스는 너켈라비를 스코틀랜드 북부 제도의 모든 악마 중에서 '가장 끔찍한 존재'라고 묘사했다. 너켈라비의 숨결은 농작물을 시들게 하고 가축을 병들게 하며, 주로 바다에 살지만 육지에서 가뭄과 전염병의 원인으로 여겨졌다. 이 생물은 담수에서 견디지 못하며, 따라서 추적당하는 사람은 강이나 개울을 건너면 이 생물로부터 벗어날 수 있다. 여름철에는 오르카디안 신화의 고대 영혼인 '바다의 어머니(Mither o' the Sea)'에 의해 감금된다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "Nuckelavee is a demon from Orcadian legend that resembles a horse, combining elements of both horse and human. At first glance, it appears to be a typical silhouette of a rider, but upon closer inspection, it has a form where the head, torso, and arms of a fleshless human grow from the back of a fleshless horse. British folklorist Catherine Briggs described the Nuckelavee as 'the most terrible creature' among all demons of the Northern Isles of Scotland. The breath of the Nuckelavee withers crops and sickens livestock, and while it primarily lives in the sea, it was considered a cause of drought and plague on land. This creature cannot endure fresh water, and therefore, those being pursued can escape it by crossing a river or stream. In the summer, it is said to be confined by the ancient spirit of Orcadian mythology known as 'Mither o' the Sea.'",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "努克拉维(Nuckelavee)是奥克尼(Orkney)传说中的一种马形恶魔，结合了马和人类的元素。它的外表看起来像普通骑手的轮廓，但仔细观察会发现，它的身体是没有肉的马和没有肉的人头、躯干、手臂从马的背上生长出来的形态。英国民俗学家凯瑟琳·布里克斯(Katherine Briggs)将努克拉维描述为苏格兰北部群岛上所有恶魔中“最可怕的存在”。努克拉维的呼吸使农作物枯萎，使家畜生病，主要生活在海洋中，但被认为是陆地上干旱和瘟疫的原因。这种生物无法在淡水中生存，因此被追踪的人只需渡过河流或小溪即可逃脱这种生物。在夏季，它被奥克尼神话中的古老灵魂“海之母(Mither o' the Sea)”所囚禁。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ヌッケラビー(Nuckelavee)はオルカディアンの伝説に登場する馬のような悪魔で、馬と人間の要素を組み合わせた存在です。見た目は一般的な騎手のシルエットのように見えますが、よく見ると肉のない馬と肉のない人間の頭、胴体、腕が馬の背中から生えている形をしています。イギリスの民俗学者キャサリン・ブリックスはヌッケラビーをスコットランド北部諸島のすべての悪魔の中で「最も恐ろしい存在」と表現しました。ヌッケラビーの息は作物を枯らし、家畜を病気にし、主に海に住んでいますが、陸地では干ばつや伝染病の原因と見なされていました。この生物は淡水では耐えられず、したがって追跡されている人は川や小川を渡ることでこの生物から逃れることができます。夏の間、オルカディアン神話の古代の魂である「海の母(Mither o' the Sea)」によって閉じ込められます。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

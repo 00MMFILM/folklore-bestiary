@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Kalku",
+ "sourceLang": "en",
+ "sourceChars": 1701,
+ "generatedAt": "2026-07-08T03:27:43.250Z",
+ "locales": {
+  "ko": {
+   "origin": "Kalku 또는 Calcu는 마푸체 신화에서 유래한 존재로, 흑마법과 부정적인 힘을 다루는 마법사 또는 마녀입니다. 마푸체 전통에서 기원하며, 마푸체와 중앙 안데스 우주론(잉카 종교) 간의 유사성을 반영하는 패턴에 따라 Puquina 언어에서 차용된 단어입니다. Puquina는 티와나쿠 제국 시대에 중요한 언어로 여겨졌습니다.",
+   "legend": "Kalku는 반신화적인 존재로, '악령이나 사악한 생물'인 wekufe와 함께 작업할 수 있는 힘을 가지고 있습니다. 예를 들어, Nguruvilu가 wekufe의 한 예입니다. Kalku는 Anchimayen이나 더 강력한 kalku의 마법적 화신인 Chonchon과 같은 다른 존재들을 하인으로 두고 있습니다. 마푸체의 kalku는 일반적으로 세습되는 역할이지만, 수익을 추구하는 machi나 admapu(마푸체의 규칙)를 무시하는 '덜 강력한' 좌절한 machi일 수도 있습니다.",
+   "variants": "",
+   "culture": "Kalku는 2020년 앤시 영화제에 노미네이트된 칠레-브라질 애니메이션 영화 'Nahuel and the Magic Book'의 주요 적대자로 등장합니다."
+  },
+  "en": {
+   "origin": "Kalku or Calcu is a being derived from Mapuche mythology, a sorcerer or witch who deals with black magic and negative powers. It originates from Mapuche tradition and is a word borrowed from the Puquina language, reflecting patterns that show similarities between Mapuche and Central Andes cosmology (Inca religion). Puquina was considered an important language during the Tiwanaku Empire period.",
+   "legend": "Kalku is a semi-mythical being with the power to work alongside wekufe, which are 'evil spirits or malevolent creatures.' For example, Nguruvilu is one example of a wekufe. Kalku has other beings as servants, such as Anchimayen or the more powerful magical embodiment of kalku, Chonchon. The Mapuche's kalku generally holds a hereditary role, but it can also be a 'less powerful' frustrated machi that disregards the profit-seeking machi or admapu (Mapuche rules).",
+   "variants": "",
+   "culture": "Kalku appears as the main antagonist in the Chilean-Brazilian animated film 'Nahuel and the Magic Book,' which was nominated at the 2020 Annecy International Animation Film Festival."
+  },
+  "zh": {
+   "origin": "Kalku 或者 Calcu 是马普切神话中的存在，指的是处理黑魔法和负面力量的魔法师或女巫。它源于马普切传统，反映了马普切与中央安第斯宇宙论（印加宗教）之间的相似性，按照模式从 Puquina 语言中借用的词汇。Puquina 在提瓦纳库帝国时期被视为重要语言。",
+   "legend": "Kalku 是半神话的存在，拥有与被称为 '恶灵或邪恶生物' 的 wekufe 一起工作的能力。例如，Nguruvilu 是 wekufe 的一个例子。Kalku 还拥有其他存在作为仆人，例如 Anchimayen 或更强大的 kalku 的魔法化身 Chonchon。马普切的 kalku 通常是世袭的角色，但也可能是追求利益的 machi 或忽视马普切规则的 admapu（马普切的规则）的 '不太强大' 的受挫 machi。",
+   "variants": "",
+   "culture": "Kalku 在2020年提名的安西电影节上出现在智利-巴西动画电影 'Nahuel and the Magic Book' 的主要对手中。"
+  },
+  "ja": {
+   "origin": "KalkuまたはCalcuは、マプチェ神話に由来する存在で、黒魔法と否定的な力を扱う魔法使いまたは魔女です。マプチェの伝統に起源を持ち、マプチェと中央アンデス宇宙論（インカ宗教）間の類似性を反映するパターンに従ってPuquina語から借用された言葉です。Puquinaはティワナク帝国時代に重要な言語と見なされていました。",
+   "legend": "Kalkuは半神話的な存在で、'悪霊や邪悪な生物'であるwekufeと共に働く力を持っています。例えば、Nguruviluはwekufeの一例です。KalkuはAnchimayenや、より強力なkalkuの魔法的化身であるChonchonなど、他の存在を従者として持っています。マプチェのkalkuは一般的に世襲される役割ですが、利益を追求するmachiやadmapu（マプチェの規則）を無視する'より弱い'挫折したmachiである可能性もあります。",
+   "variants": "",
+   "culture": "Kalkuは2020年アンシ映画祭にノミネートされたチリ-ブラジルのアニメーション映画『Nahuel and the Magic Book』の主要な敵対者として登場します。"
+  }
+ }
+}

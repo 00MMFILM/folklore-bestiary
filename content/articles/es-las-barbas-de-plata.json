@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Las barbas de plata",
+ "sourceLang": "en",
+ "sourceChars": 24786,
+ "generatedAt": "2026-07-08T03:19:51.078Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "Las barbas de plata(은) 스페인 카디스에서 유래된 동화로, 스페인 학자 훌리오 카마레나와 막시므 셰발리에에 의해 출판되었다. 이 이야기는 인간 소녀와 구혼자로 변장한 악마의 결혼에 관한 내용이다. 그러나 말하는 노새가 소녀를 구해 다른 왕국으로 데려가고, 그곳에서 소녀는 인간 왕자와 결혼하게 된다.",
+   "variants": "스페인과 포르투갈 학자들은 이 이야기에 유사한 전설을 이베리아 반도에서 찾아볼 수 있다. 스페인에서는 이 이야기가 533A 유형으로 분류되며, '악마의 신부를 구하는 마법의 말'이라는 주제를 가진다. 갈리시아 지역에서는 '이리아와 말 볼리간'이라는 이야기가 있으며, 카탈루냐 지역에서는 '금 이빨의 소녀'라는 이야기가 전해진다. 포르투갈에서는 '악마로부터 신부를 구하는 마법의 말'이라는 유사한 이야기 유형이 발견된다.",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "The Silver Beard (은) is a fairy tale that originated in Cádiz, Spain, published by Spanish scholars Julio Camerena and Maxime Chevalier. This story is about the marriage of a human girl and a devil disguised as a suitor. However, a talking mule saves the girl and takes her to another kingdom, where she marries a human prince.",
+   "variants": "Spanish and Portuguese scholars can find similar legends in the Iberian Peninsula. In Spain, this story is classified as type 533A, with the theme of 'the magical horse that saves the devil's bride.' In the Galicia region, there is a story called 'Iria and the Horse Boligan,' and in the Catalonia region, a tale known as 'The Girl with Golden Teeth' is passed down. In Portugal, a similar story type called 'the magical horse that saves the bride from the devil' is found.",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "银胡子（Las barbas de plata）是源自西班牙卡迪斯的童话，由西班牙学者胡里奥·卡马雷纳（Julio Camerena）和马克西姆·谢瓦利耶（Maxime Chevalier）出版。这个故事讲述了一个人类女孩与伪装成求婚者的恶魔的婚姻。然而，一头会说话的驴子救了女孩并带她到另一个王国，在那里女孩与人类王子结婚。",
+   "variants": "西班牙和葡萄牙的学者们在伊比利亚半岛发现了与这个故事相似的传说。在西班牙，这个故事被归类为533A类型，主题是“用魔法马救恶魔的新娘”。在加利西亚地区，有一个名为“伊里亚与马博利甘”（Iria e o Póvoa）的故事，而在加泰罗尼亚地区则流传着“金牙女孩”（La noia dels dents d'or）的故事。在葡萄牙，发现了一个类似的故事类型，名为“用魔法马救恶魔的新娘”。",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "銀のひげ（Las barbas de plata）は、スペインのカディスに由来する物語で、スペインの学者フリオ・カマレナ（Julio Camerena）とマキシム・シェヴァリエ（Maxime Chevalier）によって出版されました。この物語は、人間の少女と求婚者に変装した悪魔の結婚に関する内容です。しかし、話すロバが少女を救い、別の王国に連れて行き、そこで少女は人間の王子と結婚することになります。",
+   "variants": "スペインとポルトガルの学者たちは、この物語に類似した伝説をイベリア半島で見つけることができます。スペインでは、この物語は533Aタイプに分類され、「悪魔の花嫁を救う魔法の馬」というテーマを持っています。ガリシア地方では「イリアと馬ボリガン」という物語があり、カタルーニャ地方では「金の歯の少女」という物語が伝えられています。ポルトガルでは「悪魔から花嫁を救う魔法の馬」という類似の物語のタイプが見つかります。",
+   "culture": ""
+  }
+ }
+}

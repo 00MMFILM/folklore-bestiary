@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Vampire",
+ "sourceLang": "en",
+ "sourceChars": 56100,
+ "generatedAt": "2026-07-08T03:27:37.515Z",
+ "locales": {
+  "ko": {
+   "origin": "뱀파이어라는 용어는 18세기 영어에서 처음 등장하였으며, 그 이전에는 프랑스어와 독일어에서 유래된 것으로 보인다. 뱀파이어라는 개념은 세르비아어의 вампир(vampir)에서 유래되었으며, 이는 불가리아어와 같은 남슬라브어에서 기원한 것으로 여겨진다. 뱀파이어에 대한 믿음은 동유럽과 남동유럽의 민속에서 뿌리를 두고 있으며, 18세기 초에 이러한 믿음이 대중화되었다.",
+   "legend": "뱀파이어는 인간과 유사한 외모를 가진 신화적인 존재로, 일반적으로 인간의 생명력, 주로 피를 빨아먹으며 생존한다고 전해진다. 유럽의 민속에서 뱀파이어는 언데드 존재로, 살아있을 때 사랑하는 사람들을 방문하고 이웃에게 장난을 치거나 죽음을 초래하는 경우가 많았다. 이들은 일반적으로 부풀어 오른 모습과 어두운 색조를 지닌 것으로 묘사되며, 현대의 마른 뱀파이어 이미지와는 다르다.",
+   "variants": "남동유럽의 지역적 변형으로는 알바니아의 shtriga, 그리스의 vrykolakas, 루마니아의 strigoi가 있다. 이들은 이탈리아어의 strega(마녀)와 관련이 있다.",
+   "culture": "현대에는 뱀파이어가 일반적으로 허구의 존재로 여겨지지만, 유사한 뱀파이어 생물에 대한 믿음은 여전히 일부 문화에서 존재한다. 뱀파이어는 19세기 초 존 폴리도리의 'The Vampyre'와 브램 스토커의 '드라큘라'와 같은 문학 작품을 통해 현대 대중문화에서 중요한 존재로 자리 잡았다. 이들 작품은 뱀파이어 장르의 기초를 마련하였으며, 현재까지도 책, 영화, TV 프로그램 및 비디오 게임에서 인기를 끌고 있다."
+  },
+  "en": {
+   "origin": "The term vampire first appeared in 18th century English, and it is believed to have originated from French and German before that. The concept of a vampire is derived from the Serbian вампир (vampir), which is thought to have its roots in South Slavic languages like Bulgarian. Beliefs about vampires are rooted in the folklore of Eastern and Southeastern Europe, and these beliefs became popularized in the early 18th century.",
+   "legend": "Vampires are mythical beings that resemble humans and are generally said to survive by sucking the life force of humans, primarily blood. In European folklore, vampires are considered undead beings that often visit their loved ones while alive and may play tricks on neighbors or cause death. They are typically described as having a bloated appearance and dark hues, which differs from the modern image of a gaunt vampire.",
+   "variants": "Regional variations in Southeastern Europe include Albania's shtriga, Greece's vrykolakas, and Romania's strigoi. These are related to the Italian word strega (witch).",
+   "culture": "In modern times, vampires are generally regarded as fictional beings, but beliefs in similar vampire-like creatures still exist in some cultures. Vampires became significant figures in modern popular culture through literary works such as John Polidori's 'The Vampyre' and Bram Stoker's 'Dracula' in the early 19th century. These works laid the foundation for the vampire genre, which continues to be popular in books, movies, TV shows, and video games to this day."
+  },
+  "zh": {
+   "origin": "吸血鬼这个词最早出现在18世纪的英语中，之前似乎源于法语和德语。吸血鬼的概念源于塞尔维亚语的 вампир (vampir)，被认为起源于保加利亚语等南斯拉夫语。对吸血鬼的信仰扎根于东欧和东南欧的民俗中，并在18世纪初普及开来。",
+   "legend": "吸血鬼是一种与人类相似外貌的神话生物，通常被传说为通过吸食人类的生命力，主要是血液来生存。在欧洲的民俗中，吸血鬼被视为不死生物，常常在生前拜访所爱之人，给邻居捣乱或导致死亡。它们通常被描绘为膨胀的外形和暗色调，与现代瘦弱的吸血鬼形象不同。",
+   "variants": "东南欧的地方变种包括阿尔巴尼亚的 shtriga，希腊的 vrykolakas，和罗马尼亚的 strigoi。这些与意大利语的 strega（女巫）有关。",
+   "culture": "在现代，吸血鬼通常被视为虚构的存在，但对类似吸血鬼生物的信仰在一些文化中仍然存在。吸血鬼通过19世纪初约翰·波利多里的《吸血鬼》和布莱姆·斯托克的《德古拉》等文学作品，成为现代大众文化中的重要存在。这些作品奠定了吸血鬼类型的基础，并至今在书籍、电影、电视节目和视频游戏中保持着人气。"
+  },
+  "ja": {
+   "origin": "ヴァンパイアという用語は18世紀の英語で初めて登場し、それ以前はフランス語やドイツ語に由来していると考えられています。ヴァンパイアという概念はセルビア語のвампир(vampir)に由来し、これはブルガリア語などの南スラブ語に起源を持つとされています。ヴァンパイアに対する信仰は東ヨーロッパと南東ヨーロッパの民俗に根ざしており、18世紀初頭にこれらの信仰が普及しました。",
+   "legend": "ヴァンパイアは人間に似た外見を持つ神話的存在で、一般的に人間の生命力、主に血を吸うことで生存すると伝えられています。ヨーロッパの民俗においてヴァンパイアはアンデッドの存在であり、生きている時には愛する人々を訪れたり、隣人にいたずらをしたり、死を引き起こすことが多かったとされています。彼らは一般的に膨れ上がった姿と暗い色調を持つと描写され、現代の痩せたヴァンパイアのイメージとは異なります。",
+   "variants": "南東ヨーロッパの地域的変種にはアルバニアのshtriga、ギリシャのvrykolakas、ルーマニアのstrigoiがあります。これらはイタリア語のstrega（魔女）に関連しています。",
+   "culture": "現代ではヴァンパイアは一般的に架空の存在と見なされていますが、類似のヴァンパイア生物に対する信仰は依然として一部の文化に存在します。ヴァンパイアは19世紀初頭のジョン・ポリドリの『The Vampyre』やブラム・ストーカーの『ドラキュラ』といった文学作品を通じて現代ポップカルチャーで重要な存在となりました。これらの作品はヴァンパイアジャンルの基礎を築き、現在でも書籍、映画、テレビ番組、ビデオゲームで人気を博しています。"
+  }
+ }
+}

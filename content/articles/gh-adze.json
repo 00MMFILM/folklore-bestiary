@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Adze",
+ "sourceLang": "en",
+ "sourceChars": 9702,
+ "generatedAt": "2026-07-08T03:22:51.629Z",
+ "locales": {
+  "ko": {
+   "origin": "Adze는 고대의 다재다능한 절단 도구로, 손잡이에 수직으로 절단 날이 위치한 도끼와 유사하다. 석기 시대부터 사용되어 왔으며, 목재를 매끄럽게 하거나 조각하는 데 사용되며, 농업과 원예에서는 괭이로 사용된다.",
+   "legend": "Adze는 고대 이집트 예술에서 묘사되었으며, 초기에는 돌로 만들어졌으나, Predynastic Period에는 구리로 제작된 adze가 석기로 만들어진 것들을 거의 대체하였다. 이집트의 adze는 박물관에서 찾아볼 수 있다.",
+   "variants": "아프리카, 남태평양, 북서부 해안 아메리카, 뉴기니 및 멜라네시아 등 다양한 지역에서 adze의 변형이 존재한다. 예를 들어, 뉴질랜드의 마오리 adze는 주로 남섬에서 얻은 pounamu로 만들어졌으며, 북서부 해안 아메리카의 원주민들은 기능적 건축과 예술을 위해 adze를 사용하였다.",
+   "culture": "현대의 adze는 강철로 제작되며, 제한된 용도로 사용된다. 특히, 미국 버지니아의 Colonial Williamsburg 문화 센터와 같은 장소에서 전통적인 adze를 사용하는 복원가들에 의해 사용된다."
+  },
+  "en": {
+   "origin": "The adze is an ancient versatile cutting tool, similar to an axe with a cutting edge positioned perpendicular to the handle. It has been used since the Stone Age for smoothing or carving wood, and in agriculture and horticulture, it is used as a hoe.",
+   "legend": "The adze is depicted in ancient Egyptian art, and while it was initially made of stone, during the Predynastic Period, copper adzes largely replaced those made of stone. Egyptian adzes can be found in museums.",
+   "variants": "Various regional variants of the adze exist in Africa, the South Pacific, the Northwest Coast of America, New Guinea, and Melanesia. For example, the Māori adze from New Zealand is primarily made from pounamu sourced from the South Island, and Indigenous peoples of the Northwest Coast of America used adzes for functional construction and art.",
+   "culture": "Modern adzes are made of steel and are used for limited purposes. They are particularly used by restorers who employ traditional adzes in places like the Colonial Williamsburg cultural center in Virginia, USA."
+  },
+  "zh": {
+   "origin": "Adze是一种古代多功能切割工具，类似于手柄上垂直安装切割刃的斧头。自石器时代以来就被使用，用于使木材光滑或雕刻，在农业和园艺中用作锄头。",
+   "legend": "Adze在古埃及艺术中被描绘，最初是用石头制作的，但在前王朝时期，铜制的adze几乎取代了石制的。埃及的adze可以在博物馆中找到。",
+   "variants": "在非洲、南太平洋、北西海岸美洲、新几内亚和美拉尼西亚等不同地区存在adze的变种。例如，新西兰的毛利adze主要由南岛获得的pounamu制成，北西海岸美洲的原住民则使用adze进行功能性建筑和艺术创作。",
+   "culture": "现代的adze由钢制成，使用范围有限。特别是在美国弗吉尼亚的殖民威廉斯堡文化中心等地方，由使用传统adze的修复工匠使用。"
+  },
+  "ja": {
+   "origin": "アッズ（Adze）は古代の多用途な切断工具で、ハンドルに垂直に切断刃が位置する斧に似ています。石器時代から使用されており、木材を滑らかにしたり彫刻するために使用され、農業や園芸では鍬として使われます。",
+   "legend": "アッズ（Adze）は古代エジプトの芸術に描かれており、初期には石で作られていましたが、先王朝時代には銅製のアッズが石製のものをほぼ置き換えました。エジプトのアッズは博物館で見ることができます。",
+   "variants": "アフリカ、南太平洋、北西海岸アメリカ、ニュージーランド及びメラネシアなど、さまざまな地域でアッズの変種が存在します。例えば、ニュージーランドのマオリアッズは主に南島で得られたポウナム（pounamu）で作られ、北西海岸アメリカの先住民は機能的な建築や芸術のためにアッズを使用しました。",
+   "culture": "現代のアッズは鋼で作られ、限られた用途で使用されます。特に、アメリカのバージニア州にあるコロニアル・ウィリアムズバーグ文化センターのような場所で、伝統的なアッズを使用する復元家によって使用されています。"
+  }
+ }
+}

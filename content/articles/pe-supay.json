@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Supay",
+ "sourceLang": "en",
+ "sourceChars": 44464,
+ "generatedAt": "2026-07-08T03:16:55.703Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "수파이는 케추아, 아이마라, 잉카 신화에서 등장하는 존재로, 원래는 유익함과 해로움을 동시에 지닌 양면적인 영혼으로 묘사된다. 그는 잉카의 저승인 후린 파차의 주권자로, 어둠, 혼돈, 죽음의 불가피한 전환을 상징하는 원초적이고 다면적인 힘이다. 수파이는 단순한 악마가 아니라 우주의 긍정적이고 부정적인 힘을 구현하는 신으로 여겨진다. 그는 죽은 자의 길을 인도하고 보호하는 역할을 하기도 하지만, 동시에 인류를 속이거나 그들의 가장 왜곡된 면을 드러내도록 유도할 수 있는 능력을 지닌 존재로, 경외심을 갖지 않는 자에게는 매우 위험한 존재로 여겨진다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "Supay is a being that appears in Quechua, Aymara, and Inca mythology, originally described as a dual-natured spirit possessing both beneficial and harmful qualities. He is the ruler of Huari Pacha, the Inca underworld, symbolizing primal and multifaceted power associated with darkness, chaos, and the inevitable transition of death. Supay is not merely a demon but is regarded as a deity embodying both the positive and negative forces of the universe. He plays a role in guiding and protecting the souls of the deceased, but at the same time, he possesses the ability to deceive humanity or to reveal their most distorted aspects, making him a very dangerous entity for those who do not hold him in reverence.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "苏帕伊（Supay）是凯楚亚（Quechua）、艾马拉（Aymara）和印加（Inca）神话中的存在，最初被描绘为同时具有有益和有害特性的双面灵魂。他是印加的冥界——后林帕查（Hungry Pacha）的主宰，象征着黑暗、混沌和死亡不可避免的转变，是一种原始而多面的力量。苏帕伊不仅仅是一个恶魔，而被视为宇宙中积极和消极力量的化身。他在引导和保护死者的道路上发挥作用，但同时也具备诱使人类受骗或揭示他们最扭曲一面的能力，因此被认为是对那些缺乏敬畏之心的人非常危险的存在。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "スパイ（Supay）は、ケチュア（Quechua）、アイマラ（Aymara）、インカ（Inca）神話に登場する存在で、元々は有益さと有害さを同時に持つ両面性のある魂として描かれています。彼はインカの死後の世界であるフリンプチャ（Hungry Pacha）の主権者であり、暗闇、混沌、死の避けられない転換を象徴する原初的で多面的な力です。スパイは単なる悪魔ではなく、宇宙の肯定的および否定的な力を具現化する神と見なされています。彼は死者の道を導き、保護する役割を果たすこともありますが、同時に人類を欺いたり、彼らの最も歪んだ面を引き出す能力を持つ存在であり、畏敬の念を抱かない者にとっては非常に危険な存在と見なされています。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

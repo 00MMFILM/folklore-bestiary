@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Abyzou",
+ "sourceLang": "en",
+ "sourceChars": 9300,
+ "generatedAt": "2026-07-08T03:26:56.845Z",
+ "locales": {
+  "ko": {
+   "origin": "A.A. Barb는 Abyzou와 유사한 여성 악마들을 고대 메소포타미아 종교의 원초적 바다인 Abzu의 이야기와 연결지었다. 그는 'Abyzou'라는 이름이 그리스어 ἄβυσσος ábyssos '심연'의 변형으로 보인다고 주장했다. 원초적 바다는 원래 양성적이거나 무성적이었으며, 이후 남성 Abzu(담수)와 여성 Tiamat(바닷물)으로 나뉘었다. 여성 악마들은 종종 원초적 바다에서 유래한 것으로 여겨진다.",
+   "legend": "Abyzou는 근동과 유럽의 신화 및 민속에서 여성 악마로 알려져 있으며, 유산 유산과 유아 사망의 원인으로 비난받았다. 그녀는 질투로 동기부여된 존재로 묘사되며, 자신이 불임이기 때문에 다른 여성의 아이를 빼앗으려 한다. 고대 그리스의 문헌에서는 그녀가 'Obizuth'라는 이름으로 등장하며, '솔로몬의 유언'에서 가장 완전한 문학적 묘사가 이루어진다.",
+   "variants": "Abyzou는 다양한 이름으로 불리며, 그리스어, 히브리어, 루마니아어 등 여러 언어의 마법적 주문에서 자주 등장한다. 그녀의 바빌로니아 이름인 Gyllou 또는 Gylou는 마법적 텍스트에서 자주 나타나며, 고대 그리스의 이야기에서는 그녀가 '열두 개 반의 이름'을 밝히는 장면이 있다.",
+   "culture": "2012년 공포 영화 'The Possession'에서 Abyzou는 주요 등장인물 중 하나인 에밀리 '엠' 브레넥을 괴롭히는 dybbuk의 이름으로 등장한다. Fox 판타지 시리즈 'Sleepy Hollow'의 'The Sisters Mills' 에피소드에서는 Abyzou가 주요 적으로 등장하며, 이곳에서 그녀는 이빨 요정의 신화의 기원으로 묘사된다. 2023년 공포 영화 'The Offering'에서도 Abyzou가 주요 적으로 등장한다."
+  },
+  "en": {
+   "origin": "A.A. Barb connected female demons similar to Abyzou with the story of Abzu, the primordial sea in ancient Mesopotamian religion. He argued that the name 'Abyzou' appears to be a variation of the Greek word ἄβυσσος ábyssos meaning 'abyss'. The primordial sea was originally androgynous or asexual, later divided into the male Abzu (freshwater) and the female Tiamat (saltwater). Female demons are often considered to have originated from the primordial sea.",
+   "legend": "Abyzou is known as a female demon in Near Eastern and European mythology and folklore, blamed for infant mortality and stillbirths. She is depicted as a jealous being, attempting to steal the children of other women because she is infertile. In ancient Greek literature, she appears under the name 'Obizuth', with the most complete literary description found in 'The Testament of Solomon'.",
+   "variants": "Abyzou is referred to by various names and frequently appears in magical incantations in languages such as Greek, Hebrew, and Romanian. Her Babylonian name, Gyllou or Gylou, often appears in magical texts, and in ancient Greek stories, there is a scene where she reveals 'the name of the twelve and a half'.",
+   "culture": "In the 2012 horror film 'The Possession', Abyzou appears as the name of the dybbuk that torments one of the main characters, Emily 'Em' Brenek. In the Fox fantasy series 'Sleepy Hollow', in the episode 'The Sisters Mills', Abyzou appears as a main antagonist, where she is depicted as the origin of the tooth fairy myth. Abyzou also appears as a main antagonist in the 2023 horror film 'The Offering'."
+  },
+  "zh": {
+   "origin": "A.A. Barb将与Abyzou相似的女性恶魔与古代美索不达米亚宗教的原初海洋Abzu的故事联系在一起。他声称'Abyzou'这个名字似乎是希腊语ἄβυσσος ábyssos '深渊'的变体。原初海洋最初是双性或无性，后来分为男性Abzu（淡水）和女性Tiamat（海水）。女性恶魔通常被认为源于原初海洋。",
+   "legend": "Abyzou在近东和欧洲的神话及民俗中被称为女性恶魔，并被指责为遗产遗失和婴儿死亡的原因。她被描绘为一个因嫉妒而动机的存在，试图夺走其他女性的孩子，因为她自己是无子女的。在古希腊文献中，她以'Obizuth'的名字出现，并在'所罗门的遗言'中得到了最完整的文学描写。",
+   "variants": "Abyzou有多种名称，在希腊语、希伯来语、罗马尼亚语等多种语言的魔法咒语中经常出现。她的巴比伦名字Gyllou或Gylou在魔法文本中经常出现，在古希腊的故事中，她有一个揭示'十二个半的名字'的场景。",
+   "culture": "在2012年的恐怖电影'The Possession'中，Abyzou作为主要角色之一，出现在困扰艾米莉'埃姆'布雷内克的dybbuk的名字中。在Fox的奇幻系列'Sleepy Hollow'的'姐妹米尔斯'一集中，Abyzou作为主要反派出现，在这里她被描绘为牙仙神话的起源。在2023年的恐怖电影'The Offering'中，Abyzou也作为主要反派出现。"
+  },
+  "ja": {
+   "origin": "A.A. BarbはAbyzouと類似した女性悪魔を古代メソポタミア宗教の原初的な海であるAbzuの物語と結びつけました。彼は「Abyzou」という名前がギリシャ語のἄβυσσος ábyssos「深淵」の変形であると主張しました。原初的な海は元々両性具有または無性であり、その後男性のAbzu（淡水）と女性のTiamat（海水）に分かれました。女性悪魔はしばしば原初的な海に由来すると考えられています。",
+   "legend": "Abyzouは近東とヨーロッパの神話および民俗で女性悪魔として知られ、遺産の喪失と幼児死亡の原因として非難されました。彼女は嫉妬に動機づけられた存在として描かれ、自身が不妊であるため他の女性の子供を奪おうとします。古代ギリシャの文献では彼女が「Obizuth」という名前で登場し、「ソロモンの遺言」で最も完全な文学的描写がなされています。",
+   "variants": "Abyzouはさまざまな名前で呼ばれ、ギリシャ語、ヘブライ語、ルーマニア語などの多くの言語の魔法の呪文にしばしば登場します。彼女のバビロニアの名前であるGyllouまたはGylouは魔法のテキストにしばしば現れ、古代ギリシャの物語では彼女が「十二の半の名前」を明かす場面があります。",
+   "culture": "2012年のホラー映画『The Possession』ではAbyzouは主要な登場人物であるエミリー「エム」ブレネックを苦しめるdybbukの名前として登場します。Foxのファンタジーシリーズ『Sleepy Hollow』の「The Sisters Mills」エピソードではAbyzouが主要な敵として登場し、ここで彼女は歯の妖精の神話の起源として描かれます。2023年のホラー映画『The Offering』でもAbyzouが主要な敵として登場します。"
+  }
+ }
+}

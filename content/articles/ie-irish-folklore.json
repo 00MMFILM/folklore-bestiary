@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Irish folklore",
+ "sourceLang": "en",
+ "sourceChars": 15668,
+ "generatedAt": "2026-07-08T03:26:16.829Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "아일랜드 민속은 banshees, 요정, leprechauns 및 기타 신화적 존재를 포함하며, 일반적으로 사람들 사이의 구술 전통을 통해 전해졌다. 많은 이야기와 전설은 세대를 거쳐 전해졌으며, 결혼식, 장례식, 휴일 등과 같은 중요한 행사에서의 춤과 노래도 마찬가지로 전해졌다.",
+   "variants": "",
+   "culture": "아일랜드 민속은 현재 마케팅, 영화 및 TV 프로그램에서 활용되고 있으며, 예를 들어 'The Secret of Kells'와 같은 영화나 'Supernatural', 'Teen Wolf', 'Charmed', 'So Weird'와 같은 TV 프로그램에서 banshee에 대한 언급이 있다. 또한, 'The Secrets of the Immortal Nicholas Flamel' 시리즈와 'American Gods'와 같은 책에서도 아일랜드 민속이 등장한다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Irish folklore includes banshees, fairies, leprechauns, and other mythical beings, and is generally passed down through oral traditions among people. Many stories and legends have been transmitted over generations, and dances and songs associated with significant events such as weddings, funerals, and holidays have also been passed down.",
+   "variants": "",
+   "culture": "Irish folklore is currently utilized in marketing, films, and TV shows, with mentions of banshees in movies like 'The Secret of Kells' and TV shows such as 'Supernatural', 'Teen Wolf', 'Charmed', and 'So Weird'. Additionally, Irish folklore appears in books like 'The Secrets of the Immortal Nicholas Flamel' series and 'American Gods'."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "爱尔兰民俗包括banshees、妖精、leprechauns及其他神话生物，通常通过人们之间的口头传统传承下来。许多故事和传说代代相传，婚礼、葬礼、节日等重要活动中的舞蹈和歌曲也同样被传承。",
+   "variants": "",
+   "culture": "爱尔兰民俗目前在市场营销、电影和电视节目中得到了应用，例如在《凯尔斯的秘密》（The Secret of Kells）等电影或《超自然》（Supernatural）、《青狼》（Teen Wolf）、《魔法奇缘》（Charmed）、《如此奇怪》（So Weird）等电视节目中提到banshee。此外，《不朽的尼古拉斯·弗拉梅尔的秘密》（The Secrets of the Immortal Nicholas Flamel）系列和《美国众神》（American Gods）等书籍中也出现了爱尔兰民俗。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "アイルランドの民俗はバンシー（banshee）、妖精（ヨセイ）、レプラコーン（leprechaun）およびその他の神話的存在を含み、一般的に人々の間の口承伝統を通じて伝えられてきました。多くの物語や伝説は世代を超えて伝えられ、結婚式、葬式、祝日などの重要な行事での踊りや歌も同様に伝えられました。",
+   "variants": "",
+   "culture": "アイルランドの民俗は現在、マーケティング、映画、テレビ番組で活用されており、例えば『ケルズの秘密（The Secret of Kells）』のような映画や『スーパーナチュラル（Supernatural）』、『ティーンウルフ（Teen Wolf）』、『チャームド（Charmed）』、『ソー・ウィアード（So Weird）』のようなテレビ番組でバンシーに関する言及があります。また、『不死のニコラス・フラメルの秘密（The Secrets of the Immortal Nicholas Flamel）』シリーズや『アメリカの神々（American Gods）』のような本でもアイルランドの民俗が登場します。"
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Ghoul",
+ "sourceLang": "en",
+ "sourceChars": 6259,
+ "generatedAt": "2026-07-08T03:22:46.403Z",
+ "locales": {
+  "ko": {
+   "origin": "고울(Ghoul)의 개념은 이슬람 이전 아라비아 종교에서 유래하였다. 현대의 픽션에서는 고울이라는 용어를 특정 종류의 괴물로 지칭하는 데 사용한다.",
+   "legend": "전설에 따르면, 고울은 묘지와 사람이 살지 않는 장소에 거주하는 악마 같은 존재로, 인간의 살을 먹는 것으로 알려져 있다. 남성 고울은 '굴(ghul)'로, 여성 고울은 '굴라(ghulah)'로 불린다. 고울은 종종 남성에게 잃어버린 여성 친척이나 무해한 노인으로 변장하여 접근하며, 이를 통해 남성을 유인하여 자신의 집으로 끌고 가 먹어치운다. 이러한 이야기는 주로 여성에게 전해지며, 여성 친척들은 남성에게 위험을 경고하는 역할을 한다. 예를 들어, 시리아의 민속 이야기인 '나무꾼의 부유한 자매'에서는 고울이 남편과 그의 가족을 잡아먹으려는 계획을 세운다.",
+   "variants": "",
+   "culture": "고울은 현대 대중문화에서도 자주 등장하는 존재로, 특히 서양 문학에서 무덤을 파헤치는 괴물로 묘사된다. H. P. 러브크래프트의 단편 소설 '픽맨의 모델'에서는 고울이 지하에 사는 종족으로 묘사되며, 죽은 인간의 살을 먹는 식습관으로 인해 짐승 같은 인간형으로 변형되었다고 한다."
+  },
+  "en": {
+   "origin": "The concept of Ghoul originates from pre-Islamic Arabian religion. In modern fiction, the term ghoul is used to refer to a specific type of monster.",
+   "legend": "According to legend, ghouls are demonic beings that inhabit graveyards and desolate places, known for consuming human flesh. Male ghouls are called 'ghul', while female ghouls are referred to as 'ghulah'. Ghouls often disguise themselves as lost female relatives or harmless old men to approach men, luring them to their lairs to devour them. These stories are primarily passed down to women, with female relatives warning men of the dangers. For example, in the Syrian folktale 'The Rich Sister of the Woodcutter', a ghoul plots to eat the husband and his family.",
+   "variants": "",
+   "culture": "Ghouls frequently appear in modern popular culture, particularly depicted as grave-digging monsters in Western literature. In H. P. Lovecraft's short story 'Pickman's Model', ghouls are described as a race living underground, transformed into beast-like humanoids due to their diet of human flesh."
+  },
+  "zh": {
+   "origin": "古尔(Ghoul)这一概念源于伊斯兰教之前的阿拉伯宗教。在现代的虚构作品中，古尔这一术语被用来指代特定类型的怪物。",
+   "legend": "传说中，古尔是一种居住在墓地和无人居住的地方的恶魔般的存在，以吃人的肉而闻名。男性古尔被称为'古尔(ghul)'，女性古尔被称为'古拉(ghulah)'。古尔常常伪装成失踪的女性亲属或无害的老人接近男性，通过这种方式引诱男性到自己的家中并将其吞噬。这些故事主要通过女性传递，女性亲属在其中扮演警告男性危险的角色。例如，叙利亚的民间故事《樵夫的富有姐妹》中，古尔策划捕食丈夫及其家人。",
+   "variants": "",
+   "culture": "古尔在现代大众文化中也经常出现，尤其在西方文学中被描绘为挖掘坟墓的怪物。H. P. 洛夫克拉夫特的短篇小说《皮克曼的模型》中，古尔被描绘为生活在地下的种族，由于以死去的人肉为食而变成了兽性的人形。"
+  },
+  "ja": {
+   "origin": "ゴール(Ghoul)の概念は、イスラム以前のアラビア宗教に由来している。現代のフィクションでは、ゴールという用語を特定の種類の怪物を指すのに使う。",
+   "legend": "伝説によれば、ゴールは墓地や人が住まない場所に住む悪魔のような存在で、人間の肉を食べることで知られている。男性ゴールは「グール(ghul)」と呼ばれ、女性ゴールは「グーラ(ghulah)」と呼ばれる。ゴールはしばしば男性に失った女性の親戚や無害な老人に変装して近づき、これを通じて男性を誘い込み、自分の家に引きずって行って食べてしまう。このような話は主に女性に伝えられ、女性の親戚は男性に危険を警告する役割を果たす。例えば、シリアの民話「木こりの裕福な姉妹」では、ゴールが夫とその家族を捕まえて食べようとする計画を立てる。",
+   "variants": "",
+   "culture": "ゴールは現代の大衆文化でも頻繁に登場する存在で、特に西洋文学では墓を掘り返す怪物として描かれる。H. P. ラブクラフトの短編小説「ピグマンのモデル」では、ゴールが地下に住む種族として描かれ、死んだ人間の肉を食べる食習慣のために獣のような人型に変形したと言われている。"
+  }
+ }
+}

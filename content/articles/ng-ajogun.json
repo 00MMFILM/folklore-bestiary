@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Ajogun",
+ "sourceLang": "en",
+ "sourceChars": 1817,
+ "generatedAt": "2026-07-08T03:26:39.019Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "요루바 종교에서 아조군(Ajogun)은 인간의 삶에 정기적으로 간섭하는 악의적인 영적 힘이나 신들로 여겨진다. 아조군은 자비로운 오리샤(Oriṣa)의 정반대 존재로 간주되며, 이들과 끊임없이 전투를 벌이고 인류와 전쟁을 통해 우주적 균형을 유지한다고 믿어진다. 아조군은 총 200명으로 구성되어 있지만, 그 중 8명의 영혼이 이끌고 있으며, 그 중 죽음의 영혼인 이쿠(Iku)가 수장이다. 이쿠는 요루바 민속 이야기에서 때때로 젊은 전사나 지친 노인으로 묘사되며, 희생자를 단지 만지는 것만으로도 죽일 수 있는 무거운 곤봉을 들고 있다. 또한, 인간이나 심지어 신들이 그에게서 도망치거나 숨거나 그가 자신을 용서해 주기를 바라는 이야기들도 전해진다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "In Yoruba religion, Ajogun are considered malevolent spiritual forces or deities that regularly interfere in human life. Ajogun are seen as the exact opposite of the benevolent Orisha, and it is believed that they constantly battle against them and maintain cosmic balance through warfare with humanity. There are a total of 200 Ajogun, but 8 of their spirits lead them, with Iku, the spirit of death, being the chief. Iku is sometimes depicted in Yoruba folklore as a young warrior or a weary elder, wielding a heavy club that can kill a victim merely by touching them. Additionally, there are stories of humans or even gods fleeing from him or hiding, hoping that he will forgive them.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "在约鲁巴宗教中，阿乔君(Ajogun)被视为定期干涉人类生活的恶性精神力量或神灵。阿乔君被认为是仁慈的神灵(Oriṣa)的对立存在，信仰他们与这些神灵不断作斗争，通过与人类的战争来维持宇宙的平衡。阿乔君总共有200个成员，但其中8个灵魂在领导他们，其中死亡的灵魂伊库(Iku)是首领。伊库在约鲁巴民间故事中有时被描绘为年轻的战士或疲惫的老人，手持一根重锤，仅仅触碰牺牲者就能致其死亡。此外，还有关于人类甚至神灵试图逃避他或躲藏，或希望他能原谅他们的故事流传下来。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ヨルバ宗教においてアジョグン（Ajogun）は、人間の生活に定期的に干渉する悪意のある霊的力や神々と見なされている。アジョグンは慈悲深いオリシャ（Oriṣa）の正反対の存在と考えられ、彼らと絶えず戦い、人類との戦争を通じて宇宙的なバランスを維持すると信じられている。アジョグンは合計200人で構成されているが、その中で8人の霊が指導しており、その中で死の霊であるイク（Iku）が首領である。イクはヨルバの民話の中で時折若い戦士や疲れた老人として描かれ、犠牲者をただ触れるだけで殺すことができる重いこん棒を持っている。また、人間やさらには神々が彼から逃げたり隠れたり、彼が自分を許してくれることを願う物語も伝えられている。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

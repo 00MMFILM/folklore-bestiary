@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Penanggalan",
+ "sourceLang": "en",
+ "sourceChars": 7196,
+ "generatedAt": "2026-07-08T03:23:00.094Z",
+ "locales": {
+  "ko": {
+   "origin": "Penanggal은 말레이 전설에서 유래된 야행성 뱀파이어 존재로, 여성의 머리만 떠다니는 형태를 가지고 있으며, 목에서 장기와 내장이 늘어져 있는 모습으로 묘사된다. 이 이름은 '떼어내다'라는 의미의 말레이어 단어 'tanggal'에서 유래되었다.",
+   "legend": "Penanggal은 여성의 머리와 장기가 분리된 형태로 떠다니는 존재로, 주로 밤에 활동하며 생리혈이나 출산 중인 여성의 피를 사냥한다. Penanggal은 본래 인간 여성으로, 식초에 잠수하며 명상하는 의식을 통해 이러한 형태를 취할 수 있는 마녀로 여겨진다. 낮에는 평범한 여성으로 돌아가지만, 식초 냄새로 인해 일반 여성과 구별될 수 있다.",
+   "variants": "Penanggal은 동남아시아 여러 지역에서 다양한 이름으로 불린다. 캄보디아에서는 Ahp, 라오스에서는 Kasu, 태국에서는 Krasue, 인도네시아에서는 Leyak, 필리핀에서는 Manananggal 등으로 알려져 있다.",
+   "culture": "Penanggal은 1981년 Dungeons & Dragons 규칙서 'Fiend Folio'에 등장하는 괴물로, 인도네시아 공포 영화 'Mystics in Bali'와 미국의 앤솔러지 TV 시리즈 'Creepshow'의 세 번째 시즌 에피소드 'Drug Traffic'에서도 다뤄진다. 또한, 'Hellboy: The Troll Witch and Others' 만화와 2016년 비디오 게임 'Dead by Daylight'에서도 등장한다."
+  },
+  "en": {
+   "origin": "Penanggal is a nocturnal vampire entity originating from Malay legend, depicted as a floating female head with organs and intestines hanging from the neck. The name is derived from the Malay word 'tanggal,' which means 'to detach.'",
+   "legend": "Penanggal is a being that floats with a separated female head and organs, primarily active at night, hunting the blood of menstruating or birthing women. Penanggal is originally considered a human woman who can take on this form through a ritual of submerging in vinegar and meditating. During the day, she returns to being an ordinary woman, but she can be distinguished from regular women by the smell of vinegar.",
+   "variants": "Penanggal is known by various names in different regions of Southeast Asia. In Cambodia, it is called Ahp; in Laos, Kasu; in Thailand, Krasue; in Indonesia, Leyak; and in the Philippines, Manananggal.",
+   "culture": "Penanggal appears as a monster in the 1981 Dungeons & Dragons rulebook 'Fiend Folio,' and is also featured in the Indonesian horror film 'Mystics in Bali' and the third season episode 'Drug Traffic' of the American anthology TV series 'Creepshow.' Additionally, it appears in the comic 'Hellboy: The Troll Witch and Others' and the 2016 video game 'Dead by Daylight.'"
+  },
+  "zh": {
+   "origin": "Penanggal是源自马来传说的夜行性吸血鬼存在，形态为女性的头颅漂浮，描绘为脖子上悬挂着内脏和器官。这一名称源自马来语单词'tanggal'，意为'分离'。",
+   "legend": "Penanggal是一种女性的头颅与内脏分离的漂浮存在，主要在夜间活动，猎杀生理血或正在分娩的女性的血。Penanggal原本是人类女性，被认为是通过浸泡在醋中进行冥想仪式而获得这种形态的女巫。白天会变回普通女性，但因醋的气味而能与普通女性区分开来。",
+   "variants": "Penanggal在东南亚多个地区有不同的名称。在柬埔寨被称为Ahp，在老挝称为Kasu，在泰国称为Krasue，在印度尼西亚称为Leyak，在菲律宾称为Manananggal等。",
+   "culture": "Penanggal在1981年Dungeons & Dragons规则书'Fiend Folio'中出现，此外还出现在印度尼西亚恐怖电影'Mystics in Bali'和美国的选集电视剧'Creepshow'的第三季剧集'Drug Traffic'中。同时，它也出现在漫画'Hellboy: The Troll Witch and Others'以及2016年视频游戏'Dead by Daylight'中。"
+  },
+  "ja": {
+   "origin": "Penanggal（ペナンガル）はマレーの伝説に由来する夜行性の吸血鬼の存在で、女性の頭だけが浮かんでいる形をしており、首から内臓や臓器が垂れ下がっている姿で描かれています。この名前は「切り離す」という意味のマレー語の単語「tanggal」に由来しています。",
+   "legend": "Penanggalは女性の頭と臓器が分離した形で浮かんでいる存在で、主に夜に活動し、生理血や出産中の女性の血を狩ります。Penanggalは元々人間の女性で、酢に浸り瞑想する儀式を通じてこのような形を取ることができる魔女と見なされています。昼間は普通の女性に戻りますが、酢の匂いによって一般の女性と区別されることがあります。",
+   "variants": "Penanggalは東南アジアのいくつかの地域でさまざまな名前で呼ばれています。カンボジアではAhp、ラオスではKasu、タイではKrasue、インドネシアではLeyak、フィリピンではManananggalなどとして知られています。",
+   "culture": "Penanggalは1981年のDungeons & Dragonsのルールブック「Fiend Folio」に登場するモンスターで、インドネシアのホラー映画「Mystics in Bali」やアメリカのアンソロジーTVシリーズ「Creepshow」の第3シーズンエピソード「Drug Traffic」でも取り上げられています。また、「Hellboy: The Troll Witch and Others」漫画や2016年のビデオゲーム「Dead by Daylight」でも登場します。"
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Rangda",
+ "sourceLang": "en",
+ "sourceChars": 4599,
+ "generatedAt": "2026-07-08T03:16:11.217Z",
+ "locales": {
+  "ko": {
+   "origin": "Rangda는 발리의 전통 신화에서 레이악의 악마 여왕으로 알려져 있다. 'Rangda'라는 용어는 고대 자바어로 '과부'를 의미한다.",
+   "legend": "Rangda는 발리 문화에서 중요한 존재로, 그녀의 바롱과의 갈등을 묘사한 공연은 인기 있는 관광 명소이자 전통으로 자리잡고 있다. 그녀는 대부분 나체의 노인 여성으로 묘사되며, 긴 헝클어진 머리, 늘어진 가슴, 발톱을 가진 모습이다. 전통적으로 그녀의 얼굴은 무서운 송곳니와 고글 같은 눈을 가진 가면으로, 길고 튀어나온 혀를 특징으로 한다.",
+   "variants": "Rangda는 전설적인 마녀 칼론 아랑의 화신으로 알려져 있으며, 10세기 후반 에어랑가 통치 시기에 고대 자바에서 혼란을 일으켰던 인물이다. 또한, 11세기 역사적 여왕 마헨드라다타와도 연관이 있다. 마헨드라다타는 발리 왕 우다야나에 의해 마녀로 몰려 유배당한 후, 복수를 위해 악령과 레이악을 소환하여 왕국에 재앙을 가져왔다.",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Rangda is known as the demon queen of Leyak in Balinese traditional mythology. The term 'Rangda' means 'widow' in Old Javanese.",
+   "legend": "Rangda is an important figure in Balinese culture, and performances depicting her conflict with Barong have become popular tourist attractions and traditions. She is typically depicted as a naked old woman with long tangled hair, sagging breasts, and claws. Traditionally, her face is represented by a mask with terrifying fangs and goggle-like eyes, characterized by a long protruding tongue.",
+   "variants": "Rangda is known as the embodiment of the legendary witch Calon Arang, a figure who caused chaos in ancient Java during the reign of Airlangga in the late 10th century. She is also associated with the historical queen Mahendradatta from the 11th century. Mahendradatta was exiled after being accused of witchcraft by the Balinese king Udayana and summoned evil spirits and Leyak for revenge, bringing disaster to the kingdom.",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "Rangda在巴厘岛的传统神话中被称为雷亚克的恶魔女王。'Rangda'这个词在古爪哇语中意为'寡妇'。",
+   "legend": "Rangda在巴厘文化中是一个重要的存在，她与巴龙的冲突所描绘的表演已成为受欢迎的旅游景点和传统。她通常被描绘为一位赤裸的老年女性，长着凌乱的头发、下垂的胸部和爪子。传统上，她的脸上戴着可怕的獠牙和像护目镜一样的眼睛的面具，特点是长而突出的舌头。",
+   "variants": "Rangda被认为是传奇女巫卡隆阿朗的化身，她在10世纪后半期艾尔朗卡统治时期在古爪哇引发了混乱。此外，她还与11世纪的历史女王玛亨德拉达塔有关。玛亨德拉达塔被巴厘王乌达亚纳指控为女巫而被流放，之后为了复仇召唤恶灵和雷亚克，给王国带来了灾难。",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "Rangdaはバリの伝統神話でレイアックの悪魔女王として知られている。 'Rangda'という用語は古代ジャワ語で '未亡人'を意味する。",
+   "legend": "Rangdaはバリ文化で重要な存在であり、彼女のバロンとの対立を描いた公演は人気の観光名所であり伝統として定着している。彼女はほとんど裸の老女として描かれ、長い絡まった髪、垂れた胸、爪を持つ姿である。伝統的に彼女の顔は恐ろしい牙とゴーグルのような目を持つ仮面で、長く突き出た舌が特徴である。",
+   "variants": "Rangdaは伝説的な魔女カロンアランの化身として知られており、10世紀後半エアランガの統治時代に古代ジャワで混乱を引き起こした人物である。また、11世紀の歴史的女王マヘンドラダタとも関連がある。マヘンドラダタはバリ王ウダヤナによって魔女として追放された後、復讐のために悪霊とレイアックを召喚し王国に災厄をもたらした。",
+   "culture": ""
+  }
+ }
+}

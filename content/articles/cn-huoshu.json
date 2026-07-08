@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Huoshu",
+ "sourceLang": "en",
+ "sourceChars": 12476,
+ "generatedAt": "2026-07-08T03:17:20.834Z",
+ "locales": {
+  "ko": {
+   "origin": "Huoshu(火鼠)는 중국 전통에서 환상적인 존재로, 남중국의 산속에서 불에 타지 않는 나무 안에 살고 있다고 전해진다. 이 생물체는 한나라 시대의 문헌인 신이경(神異經)에 등장하며, 그곳에서 '불산'이라고 불리는 장소에서 발견된다고 기록되어 있다. 이 불산은 40리 길이로, 불이 꺼지지 않고 계속 타오르는 나무들이 자생하고 있다.",
+   "legend": "Huoshu는 불에 사는 쥐 또는 쥐와 유사한 생물로 묘사된다. 이 생물체의 털로 짠 천은 불에 태우면 더러움이 제거되고 깨끗해진다고 전해진다. 이러한 특성 때문에 huoshu의 털로 만든 천은 '화완포'(火浣布)라고 불리며, 이는 실제로 석면 천으로 여겨진다.",
+   "variants": "Huoshu는 여러 문헌에서 다양한 변형으로 나타난다. 예를 들어, '십주기'(十洲記)에서는 '화광수'(火光獸)라는 이름으로 등장하며, 이는 쥐와 유사한 크기와 형태를 가진 생물로 묘사된다. 또한, '抱朴子'에서는 남해의 '소구'(蕭丘)에서 발견된다고 하며, 이곳에서 자생하는 식물과 함께 불에 타지 않는 하얀 쥐가 등장한다.",
+   "culture": "Huoshu는 일본 문학에서도 중요한 역할을 한다. 일본의 고전 문학인 '竹取物語'에서는 공주 카구야가 huoshu의 털로 만든 외투를 요구하는 장면이 등장하며, '겐지 이야기'에서도 이 생물체가 언급된다. 이러한 문헌들은 huoshu가 일본 문화에 어떻게 수용되었는지를 보여준다."
+  },
+  "en": {
+   "origin": "Huoshu (火鼠) is a fantastic being in Chinese tradition, said to live inside a fireproof tree in the mountains of South China. This creature appears in the Han dynasty text, Shen Yi Jing (神異經), where it is recorded to be found in a place called 'Fire Mountain' (火山). This Fire Mountain is 40 li long, with trees that burn continuously without extinguishing.",
+   "legend": "Huoshu is described as a rat or a creature similar to a rat that lives in fire. It is said that cloth woven from this creature's fur becomes clean and free of dirt when burned. Because of this property, cloth made from huoshu's fur is called 'Hwa Wanju' (火浣布), which is actually considered to be asbestos cloth.",
+   "variants": "Huoshu appears in various forms in different texts. For example, in 'Shijiuji' (十洲記), it is referred to as 'Hwa Gwangsu' (火光獸), described as a creature similar in size and shape to a rat. Additionally, in 'Bao Pu Zi' (抱朴子), it is said to be found in 'Sogou' (蕭丘) in the South Sea, where a white rat that does not burn appears alongside native plants.",
+   "culture": "Huoshu also plays an important role in Japanese literature. In the classic Japanese work 'Taketori Monogatari' (竹取物語), there is a scene where Princess Kaguya requests a coat made from huoshu's fur, and this creature is also mentioned in 'Genji Monogatari' (겐지 이야기). These texts illustrate how huoshu has been incorporated into Japanese culture."
+  },
+  "zh": {
+   "origin": "火鼠(Huoshu)是中国传统中一种幻想生物，传说它生活在南中国的山中，栖息在不会被火烧毁的树木里。这个生物出现在汉代的文献《神异经》中，记载它在被称为‘不山’的地方被发现。这个不山长达40里，生长着不断燃烧的树木。",
+   "legend": "火鼠(Huoshu)被描述为一种生活在火中的老鼠或类似老鼠的生物。传说这种生物的毛织成的布在火中烧时能去除污垢，变得干净。由于这个特性，火鼠的毛制成的布被称为‘火浣布’，实际上被认为是石棉布。",
+   "variants": "火鼠(Huoshu)在多部文献中以不同的变体出现。例如，在《十洲记》中，它被称为‘火光兽’，被描述为一种与老鼠相似大小和形态的生物。此外，在《抱朴子》中提到它在南海的‘萧丘’被发现，那里出现了一种与自生植物一起生活的不会被火烧毁的白色老鼠。",
+   "culture": "火鼠(Huoshu)在日本文学中也扮演着重要角色。在日本的古典文学《竹取物语》中，公主辉夜要求一件用火鼠毛制成的外套的场景出现，而在《源氏物语》中也提到这种生物。这些文献展示了火鼠是如何被日本文化所接受的。"
+  },
+  "ja": {
+   "origin": "Huoshu(火鼠)は中国の伝統において幻想的な存在で、南中国の山の中で火に焼かれない木の中に住んでいると伝えられています。この生物は漢代の文献である神異経に登場し、そこで「不山」と呼ばれる場所で発見されると記録されています。この不山は40里の長さで、火が消えずに燃え続ける木々が自生しています。",
+   "legend": "Huoshuは火に住むネズミまたはネズミに似た生物として描かれています。この生物の毛で織られた布は火で焼くと汚れが取り除かれ、きれいになると伝えられています。この特性のためにhuoshuの毛で作られた布は「火浣布」（かがんぷ）と呼ばれ、実際にはアスベストの布と見なされています。",
+   "variants": "Huoshuはさまざまな文献で異なる変形として現れます。例えば、「十洲記」では「火光獣」（かこうじゅう）という名前で登場し、これはネズミに似た大きさと形を持つ生物として描かれています。また、「抱朴子」では南海の「蕭丘」（しょうきゅう）で発見されるとされ、ここで自生する植物と共に火に焼かれない白いネズミが登場します。",
+   "culture": "Huoshuは日本文学でも重要な役割を果たします。日本の古典文学である「竹取物語」では、姫カグヤがhuoshuの毛で作られた外套を要求する場面が登場し、「源氏物語」でもこの生物が言及されています。これらの文献はhuoshuが日本文化にどのように受け入れられたかを示しています。"
+  }
+ }
+}

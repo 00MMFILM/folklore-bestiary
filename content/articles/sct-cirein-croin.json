@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Cirein-cròin",
+ "sourceLang": "en",
+ "sourceChars": 1670,
+ "generatedAt": "2026-07-08T03:18:34.577Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "Cirein-cròin은 스코틀랜드 게일 전설에 등장하는 거대한 바다 괴물이다. 전해지는 오래된 속담에 따르면, 이 괴물은 너무 커서 일곱 마리의 고래를 먹고 살았다고 한다. 지역 전설에 따르면, 이 거대한 동물은 어부와 접촉할 때 작은 은빛 물고기로 변장할 수 있다고 한다. 다른 이야기에서는 변장의 이유가 다음 먹이를 유인하기 위함이라고 전해진다. 어부가 작은 은빛 물고기를 잡으면, 배에 올라온 후 괴물로 다시 변해 그를 잡아먹는다고 한다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "Cirein-cròin is a giant sea monster that appears in Scottish Gaelic legend. According to an old proverb, this monster was so large that it lived by eating seven whales. Local legends say that this gigantic creature can disguise itself as a small silver fish when it comes into contact with fishermen. Other stories suggest that the reason for the disguise is to lure its next prey. It is said that when a fisherman catches the small silver fish, after coming aboard, the monster transforms back and devours him.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "Cirein-cròin是苏格兰盖尔传说中的巨大海怪。根据流传下来的古老谚语，这个怪物大到可以吃下七条鲸鱼。当地传说称，这个巨大的动物在与渔夫接触时可以变身为小银色鱼。其他故事则传说变身的原因是为了引诱下一个猎物。渔夫抓住小银色鱼后，回到船上后怪物会再次变回原形将他吃掉。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "Cirein-cròin（キレイン・クローイン）はスコットランド・ゲールの伝説に登場する巨大な海の怪物である。伝えられる古いことわざによれば、この怪物はあまりにも大きいため、七頭のクジラを食べて生きていたと言われている。地域の伝説によれば、この巨大な動物は漁師と接触する際に小さな銀色の魚に変装することができると言われている。他の話では、変装の理由は次の餌を誘い込むためだと伝えられている。漁師が小さな銀色の魚を捕まえると、船に上がった後に怪物に再び変身し、彼を捕まえて食べると言われている。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

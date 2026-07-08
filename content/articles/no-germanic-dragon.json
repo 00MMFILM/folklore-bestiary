@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Germanic dragon",
+ "sourceLang": "en",
+ "sourceChars": 21125,
+ "generatedAt": "2026-07-08T03:18:52.119Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "독일계 전설에서 드래곤은 종종 대형 독사로 묘사되며, 금을 모으는 존재로 전해진다. 특히 후대의 이야기에서는 유럽 신화의 다른 드래곤들과 많은 공통점을 공유하며, 날개를 가진 드래곤으로 묘사되기도 한다. 중세 독일 문헌에서 유명한 드래곤으로는 '베오울프'에서 등장하는 드래곤, '볼숭가' 서사시의 중심 드래곤인 파프니르, 그리고 세계의 큰 뱀인 요르문간드가 있다. 이들은 모두 보물과 관련된 이야기와 함께 전해진다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "In Germanic legends, dragons are often depicted as large serpents and are said to be creatures that hoard gold. Particularly in later stories, they share many commonalities with other dragons from European mythology and are sometimes described as winged dragons. Famous dragons in medieval German literature include the dragon that appears in 'Beowulf', the central dragon of the 'Völsunga' saga, Fafnir, and Jörmungandr, the great serpent of the world. All of these are associated with tales of treasure.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "在德国传说中，龙常常被描绘为大型毒蛇，被传说为收集黄金的存在。特别是在后来的故事中，它与欧洲神话中的其他龙有许多共同点，有时被描绘为有翅膀的龙。在中世纪的德国文献中，著名的龙包括出现在《贝奥武夫》（Beowulf）中的龙、《沃尔松格》（Volsunga）史诗中的中心龙法夫尼尔（Fafnir），以及世界的大蛇约尔穆甘德（Jörmungandr）。它们都与宝藏相关的故事一起流传。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ドイツ系の伝説では、ドラゴンはしばしば大型の毒蛇として描かれ、金を集める存在として伝えられています。特に後代の物語では、ヨーロッパ神話の他のドラゴンと多くの共通点を共有し、翼を持つドラゴンとして描かれることもあります。中世ドイツの文献で有名なドラゴンには、『ベオウルフ』に登場するドラゴン、『ボルンガ』叙事詩の中心ドラゴンであるファフニール、そして世界の大蛇であるヨルムンガンドがいます。これらはすべて宝物に関連する物語と共に伝えられています。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

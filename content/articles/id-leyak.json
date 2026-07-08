@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Leyak",
+ "sourceLang": "en",
+ "sourceChars": 2095,
+ "generatedAt": "2026-07-08T03:18:34.143Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "레야크(Leyak)는 발리 민속에서 등장하는 신화적 존재로, 내장이 붙어 있는 날아다니는 머리 형태로 묘사된다. 레야크는 임신한 여성을 찾아 아기의 피를 빨아들이거나 신생아를 잡아먹으려 한다고 전해진다. 전설 속 레야크는 세 명으로, 두 명의 여성과 한 명의 남성으로 구성되어 있다.",
+   "variants": "",
+   "culture": "발리 사람들은 때때로 특정 질병이나 죽음을 레야크와 연관짓기도 한다. 발리 전통 치유사인 발리안(balian)은 세션을 통해 마법으로 인해 발생한 죽음의 원인을 찾는다. 세션 중에 죽은 자의 영혼은 직접적으로 또는 간접적으로 공격자를 지목하게 되며, 피해자의 친척이나 가족의 복수를 권장하지 않고, 모든 행동을 영혼에게 맡기도록 조언한다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Leyak is a mythical being that appears in Balinese folklore, described as a flying head with internal organs attached. It is said that Leyak seeks out pregnant women to suck the blood of their babies or to eat newborns. In legend, Leyak is composed of three beings: two females and one male.",
+   "variants": "",
+   "culture": "The Balinese sometimes associate certain diseases or deaths with Leyak. A traditional Balinese healer, called balian, seeks to find the cause of death caused by magic through sessions. During the session, the spirit of the deceased may directly or indirectly point out the attacker, and it is advised not to encourage revenge from the victim's relatives or family, but to leave all actions to the spirit."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "雷亚克(Leyak)是巴厘岛民俗中出现的神话存在，通常被描述为一个带着内脏的飞行头部。雷亚克据说会寻找怀孕的女性，吸取婴儿的血液或捕食新生儿。传说中的雷亚克由三个人组成，两个女性和一个男性。",
+   "variants": "",
+   "culture": "巴厘岛人有时将特定的疾病或死亡与雷亚克联系在一起。巴厘传统治疗师巴利安(balian)通过会话寻找因魔法引起的死亡原因。在会话中，死者的灵魂会直接或间接地指认攻击者，并不鼓励受害者的亲属或家人复仇，而是建议将所有行动交给灵魂。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "レヤク（Leyak）はバリの民俗に登場する神話的存在で、内臓が付いた飛ぶ頭の形で描かれています。レヤクは妊娠した女性を探し、赤ちゃんの血を吸ったり、新生児を捕食しようとすると伝えられています。伝説の中のレヤクは3人で、2人の女性と1人の男性で構成されています。",
+   "variants": "",
+   "culture": "バリの人々は時折、特定の病気や死をレヤクと関連付けることがあります。バリの伝統的治療師であるバリアン（balian）は、セッションを通じて魔法によって引き起こされた死の原因を探ります。セッション中に死者の魂は直接的または間接的に攻撃者を指名し、被害者の親族や家族の復讐を勧めず、すべての行動を魂に任せるように助言します。"
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Tarasque",
+ "sourceLang": "en",
+ "sourceChars": 15381,
+ "generatedAt": "2026-07-08T03:22:15.677Z",
+ "locales": {
+  "ko": {
+   "origin": "타라스크의 전설은 프랑스 프로방스 지역에서 12세기 초부터 후반까지 발생한 것으로 보인다. 이 전설은 여러 출처에 기록되어 있지만, 특히 '황금 전설'(Legenda aurea)에서 성 마르타의 이야기로 유명하다.",
+   "legend": "타라스크는 프랑스 신화의 생물로, 사자 같은 머리, 거북이 껍질로 보호된 몸, 곰과 같은 발톱을 가진 여섯 개의 발, 뱀의 꼬리, 독성 호흡을 내뿜는 능력을 가지고 있다고 전해진다. 전설에 따르면, 타라스크는 아를과 아비뇽 사이의 론 강가의 숲에 살았으며, 강을 건너려는 남자들을 공격하여 배를 가라앉혔다. 성 마르타는 타라스크가 사람을 삼키고 있는 모습을 발견하고, 성수를 뿌리고 십자가를 들고 나타나 타라스크를 복종하게 만들었다. 이후 마르타는 타라스크의 목에 띠를 묶고 마을 사람들에게 이끌어 갔고, 그들은 돌과 창으로 타라스크를 죽였다.",
+   "variants": "",
+   "culture": "타라스크 축제는 1474년 4월 14일, 성 마르타의 기적을 재현하기 위해 레네 드 앙주에 의해 시작되었다. 현대에는 6월 마지막 주 일요일에 매년 열리며, 타라스크의 이야기를 전하고 알폰스 도데의 소설 '타라스콘의 타르탱'의 주인공인 타르탱을 소개하는 행사로 발전하였다."
+  },
+  "en": {
+   "origin": "The legend of Tarasque seems to have originated in the Provence region of France from the early to late 12th century. This legend is recorded in various sources, but it is particularly famous in the 'Golden Legend' (Legenda aurea) for the story of Saint Martha.",
+   "legend": "Tarasque is a creature from French mythology, said to have a lion-like head, a body protected by a turtle shell, six legs with claws like a bear, a snake's tail, and the ability to exhale toxic breath. According to the legend, Tarasque lived in the forest along the Rhône River between Arles and Avignon, attacking men who tried to cross the river and sinking their boats. Saint Martha discovered Tarasque swallowing a person, and she appeared with holy water and a cross, making Tarasque submit. Afterwards, Martha tied a belt around Tarasque's neck and led it to the villagers, who killed Tarasque with stones and spears.",
+   "variants": "",
+   "culture": "The Tarasque Festival was initiated by René d'Anjou on April 14, 1474, to reenact the miracle of Saint Martha. In modern times, it is held annually on the last Sunday of June and has evolved into an event that conveys the story of Tarasque and introduces Tartarin, the protagonist of Alphonse Daudet's novel 'Tartarin of Tarascon.'"
+  },
+  "zh": {
+   "origin": "塔拉斯克的传说似乎发生在法国普罗旺斯地区的12世纪初至后期。这个传说在多个来源中都有记载，但特别是在《黄金传说》（Legenda aurea）中以圣玛尔塔的故事而闻名。",
+   "legend": "塔拉斯克是法国神话中的生物，传说它有着狮子般的头，受到龟壳保护的身体，六条像熊一样的爪子，蛇的尾巴，以及喷吐毒气的能力。传说中，塔拉斯克生活在阿尔和阿维尼翁之间的罗纳河岸的森林中，攻击试图渡河的男人，使他们的船沉没。圣玛尔塔发现塔拉斯克正在吞噬人类，便洒下圣水，举起十字架出现，使塔拉斯克服服帖帖。之后，玛尔塔将一条带子绑在塔拉斯克的脖子上，带领村民们前往，他们用石头和矛杀死了塔拉斯克。",
+   "variants": "",
+   "culture": "塔拉斯克节是由安茹的雷内于1474年4月14日开始的，目的是重现圣玛尔塔的奇迹。现代每年在6月最后一个星期日举行，发展成为传递塔拉斯克的故事并介绍阿方斯·多德的小说《塔拉斯孔的塔尔坦》的主角塔尔坦的活动。"
+  },
+  "ja": {
+   "origin": "タラスクの伝説はフランスのプロヴァンス地域で12世紀初頭から後半にかけて発生したと考えられています。この伝説はさまざまな出典に記録されていますが、特に『黄金伝説』（Legenda aurea）で聖マルタの物語として有名です。",
+   "legend": "タラスクはフランス神話の生物で、ライオンのような頭、亀の甲羅で守られた体、クマのような爪を持つ6本の足、蛇の尾、毒を吐く能力を持っていると伝えられています。伝説によれば、タラスクはアルルとアヴィニョンの間のローヌ川の森に住んでおり、川を渡ろうとする男たちを攻撃して船を沈めていました。聖マルタはタラスクが人を飲み込んでいる姿を発見し、聖水を振りかけて十字架を持って現れ、タラスクを従わせました。その後、マルタはタラスクの首に帯を結び、村人たちに導いて行き、彼らは石と槍でタラスクを殺しました。",
+   "variants": "",
+   "culture": "タラスク祭りは1474年4月14日、聖マルタの奇跡を再現するためにレネ・ド・アンジューによって始められました。現代では6月の最後の日曜日に毎年行われ、タラスクの物語を伝え、アルフォンス・ドーデの小説『タラスコンのタルタン』の主人公であるタルタンを紹介するイベントに発展しました。"
+  }
+ }
+}

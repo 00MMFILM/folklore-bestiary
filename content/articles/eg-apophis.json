@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Apophis",
+ "sourceLang": "en",
+ "sourceChars": 5253,
+ "generatedAt": "2026-07-08T03:18:52.765Z",
+ "locales": {
+  "ko": {
+   "origin": "아포피스는 고대 이집트의 혼돈, 어둠 및 불의 신으로, 일반적으로 태양신 라의 적으로 여겨졌다. 아포피스의 기원에 대한 전설은 대개 라의 제무로부터 태어났다고 전해지며, 제럴딘 핀치는 후에 창조 신화에서 아포피스가 원시 물속에 있는 여신 네이트의 침에서 태어났다고 설명한다. 그녀의 침은 120야드 길이의 뱀으로 변했다고 한다. 그러나 아포피스는 원시 혼돈의 물속에서 처음부터 존재해온 것으로도 여겨졌다.",
+   "legend": "아포피스는 태양신 라의 가장 큰 적으로 여겨졌으며, '혼돈의 주인'이라는 칭호를 가지고 있다. 그는 일반적으로 거대한 뱀 또는 뱀으로 묘사되며, 나일강의 뱀, 악의 용 등의 별칭을 가지고 있다. 아포피스는 매일 지평선 아래에 있어야 하며, 때때로 서쪽의 마누 산에서 라를 기다리거나, 새벽 직전에 제10의 밤 지역에 숨어 있는 것으로 전해진다. 그의 포효는 지하 세계를 흔들리게 할 것이라고 믿어졌다.",
+   "variants": "",
+   "culture": "이집트인들은 아포피스를 물리치기 위해 여러 의식과 미신을 실천했다. 매년 '아포피스 전복 의식'에서 제사장들은 아포피스의 형상을 만들어 이를 태워 악의 힘으로부터 보호하고자 했다. 또한, 아포피스를 물리치는 방법에 대한 지침이 담긴 '아페프 전복의 책'이 존재했으며, 이 책에는 아포피스를 모욕하고 해체하는 과정이 상세히 설명되어 있다."
+  },
+  "en": {
+   "origin": "Apophis is the god of chaos, darkness, and fire in ancient Egypt, generally considered the enemy of the sun god Ra. Legends about the origin of Apophis often tell that he was born from the tears of Ra, and Geraldine Pinch later explains in the creation myth that Apophis was born from the spit of the primordial goddess Neith, who is said to have transformed her spit into a serpent 120 yards long. However, Apophis is also believed to have existed from the beginning in the waters of primordial chaos.",
+   "legend": "Apophis was regarded as the greatest enemy of the sun god Ra and held the title of 'Lord of Chaos.' He is typically depicted as a gigantic serpent or snake and has nicknames such as the serpent of the Nile and the evil dragon. Apophis is said to have to remain below the horizon every day, sometimes waiting for Ra at Mount Manu in the west or hiding in the region of the tenth night just before dawn. His roar was believed to shake the underworld.",
+   "variants": "",
+   "culture": "The Egyptians practiced various rituals and superstitions to defeat Apophis. In the annual 'Ritual of the Overthrow of Apophis,' priests would create an image of Apophis and burn it to protect against evil forces. Additionally, there existed a 'Book of the Overthrow of Apep' containing instructions on how to defeat Apophis, detailing the process of insulting and dismantling him."
+  },
+  "zh": {
+   "origin": "阿波菲斯（Apophis）是古埃及的混沌、黑暗和火焰之神，通常被视为太阳神拉（Ra）的敌人。关于阿波菲斯的起源的传说通常认为他是从拉的神秘（Zemur）中诞生的，杰拉尔丁·芬奇（Geraldine Finch）后来在创世神话中解释阿波菲斯是从原始水中的女神奈特（Nuit）的唾液中诞生的。她的唾液变成了一条120码长的蛇。然而，阿波菲斯也被认为是从原始混沌的水中一直存在的。",
+   "legend": "阿波菲斯被认为是太阳神拉最大的敌人，拥有“混沌之主”的称号。他通常被描绘为一条巨大的蛇或蛇，拥有尼罗河的蛇、邪恶之龙等别名。阿波菲斯每天都必须在地平线以下，有时被传说在西方的马努山（Manu）等待拉，或者在黎明前藏身于第十个夜晚的区域。他的咆哮被认为会震动地下世界。",
+   "variants": "",
+   "culture": "埃及人为了击败阿波菲斯，进行了多种仪式和迷信。每年在“阿波菲斯翻转仪式”中，祭司们会制作阿波菲斯的形象并将其焚烧，以保护自己免受邪恶力量的侵害。此外，还存在一本名为“阿佩夫翻转之书”（Book of the Reversal of Apophis）的书，其中详细说明了击败阿波菲斯的方法，包括侮辱和解构阿波菲斯的过程。"
+  },
+  "ja": {
+   "origin": "アポピスは古代エジプトの混沌、暗闇、そして火の神であり、一般的に太陽神ラーの敵と見なされていた。アポピスの起源に関する伝説は、主にラーのジェムから生まれたと伝えられ、ジェラルディン・フィンチは後に創造神話の中でアポピスが原始の水の中にいる女神ネイトの唾から生まれたと説明している。彼女の唾は120ヤードの長さの蛇に変わったと言われている。しかし、アポピスは原始の混沌の水の中で最初から存在していたとも考えられていた。",
+   "legend": "アポピスは太陽神ラーの最大の敵と見なされており、「混沌の主」という称号を持っている。彼は一般的に巨大な蛇または蛇として描かれ、ナイル川の蛇、悪のドラゴンなどの異名を持っている。アポピスは毎日地平線の下にいる必要があり、時には西のマヌ山でラーを待っていたり、夜明けの直前に第10の夜の地域に隠れていると伝えられている。彼の咆哮は地下世界を揺るがすと信じられていた。",
+   "variants": "",
+   "culture": "エジプト人はアポピスを打ち負かすために様々な儀式と迷信を実践していた。毎年「アポピス打倒儀式」で祭司たちはアポピスの形を作り、それを焼いて悪の力から守ろうとした。また、アポピスを打ち負かす方法に関する指針が記された「アペプ打倒の書」が存在し、この書にはアポピスを侮辱し解体する過程が詳細に説明されている。"
+  }
+ }
+}

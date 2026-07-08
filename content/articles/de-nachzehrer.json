@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Nachzehrer",
+ "sourceLang": "en",
+ "sourceChars": 2283,
+ "generatedAt": "2026-07-08T03:19:09.637Z",
+ "locales": {
+  "ko": {
+   "origin": "나흐체러(Nachzehrer)라는 용어는 19세기부터 사용되기 시작했지만, 이 생물에 대한 믿음은 수세기 전부터 존재했다. 나흐체러는 독일 북부 지역의 민속에서 두드러지게 나타났으며, 실레지아와 바이에른에서도 전해졌다. 또한, 이 용어는 북부 폴란드의 카슈브족의 유사한 생물을 설명하는 데에도 사용되었다.",
+   "legend": "독일 민속에서 나흐체러는 '사후 소비자'라는 의미를 지닌 존재로, 최근에 사망한 사람이 가족이나 마을 사람들을 공격하기 위해 무덤에서 돌아온 것으로 여겨졌다. 나흐체러는 자신의 장례 의복이나 천을 먹어치우는 능력이 있다고 믿어졌으며, 이는 나흐체러의 일반적인 징후로 여겨졌다. 살아있는 사람들이 고인의 소지품을 무덤에 두었을 경우, 나흐체러가 될 가능성이 높아진다고 믿어졌다. 나흐체러의 징후로는 열린 눈이나 입, 붉은 입술, 부드러운 시체 등이 있었다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "The term Nachzehrer began to be used in the 19th century, but beliefs about this creature existed centuries earlier. Nachzehrer prominently appeared in the folklore of northern Germany and was also transmitted in Silesia and Bavaria. Additionally, this term was used to describe a similar creature among the Kashubians of northern Poland.",
+   "legend": "In German folklore, the Nachzehrer is considered a being that means 'after-consumer,' believed to have returned from the grave to attack family members or villagers after recently dying. It was thought that the Nachzehrer had the ability to consume its burial clothes or shrouds, which was seen as a common sign of a Nachzehrer. It was believed that if living people left the deceased's belongings in the grave, the likelihood of becoming a Nachzehrer increased. Signs of a Nachzehrer included open eyes or mouth, red lips, and a soft corpse.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "纳赫切勒(Nachzehrer)这个术语从19世纪开始使用，但对这种生物的信仰早在几个世纪之前就存在。纳赫切勒在德国北部地区的民俗中显著出现，并在西里西亚和巴伐利亚也有传说。此外，这个术语也用于描述北部波兰卡舒比族的类似生物。",
+   "legend": "在德国民俗中，纳赫切勒被视为“死后消费者”，被认为是最近去世的人为了攻击家人或村民而从坟墓中复活。人们相信纳赫切勒有吞噬自己葬礼服装或布料的能力，这被视为纳赫切勒的典型迹象。如果活着的人将死者的物品放在坟墓中，就会被认为更有可能变成纳赫切勒。纳赫切勒的迹象包括睁开的眼睛或嘴巴、红色的嘴唇、柔软的尸体等。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "ナハツェーラー(Nachzehrer)という用語は19世紀から使用され始めましたが、この生物に対する信仰は数世紀前から存在していました。ナハツェーラーはドイツ北部地域の民俗において顕著に現れ、シレジアやバイエルンでも伝えられました。また、この用語は北部ポーランドのカシューブ族の類似の生物を説明するためにも使用されました。",
+   "legend": "ドイツ民俗においてナハツェーラーは「死後消費者」という意味を持つ存在で、最近亡くなった人が家族や村の人々を攻撃するために墓から戻ってきたと考えられていました。ナハツェーラーは自分の葬儀の衣服や布を食べ尽くす能力があると信じられており、これはナハツェーラーの一般的な兆候と見なされていました。生きている人々が故人の所持品を墓に置いた場合、ナハツェーラーになる可能性が高まると信じられていました。ナハツェーラーの兆候には、開いた目や口、赤い唇、柔らかい死体などがありました。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

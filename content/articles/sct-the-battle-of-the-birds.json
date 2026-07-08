@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "The Battle of the Birds",
+ "sourceLang": "en",
+ "sourceChars": 10660,
+ "generatedAt": "2026-07-08T03:20:56.052Z",
+ "locales": {
+  "ko": {
+   "origin": "The Battle of the Birds (스코틀랜드어: Cath Nan Eun)은 스코틀랜드의 동화로, 존 프랜시스 캠벨이 그의 저서 'Popular Tales of the West Highlands'에서 수집하였다. 이 이야기는 1859년 인버아리 근처의 어부인 존 맥켄지로부터 기록되었으며, 당시 그는 아드킹글라스 농장에서 제방을 쌓고 있었다.",
+   "legend": "이 이야기는 한 왕자의 아들이 모든 동물이 싸우는 전투를 보러 나서는 것으로 시작된다. 그는 그 해 동물의 왕이 누가 될지를 아버지에게 전해주겠다고 약속한다. 전투가 거의 끝나갈 무렵, 그는 뱀과 까마귀가 싸우는 것을 목격하고, 뱀의 머리를 베어낸다. 까마귀는 감사의 표시로 그를 자신의 여동생이 사는 성으로 데려다준다. 이후 왕자는 여러 가지 모험을 겪으며, 결국 거인의 딸과 결혼하게 된다. 그러나 왕자는 거인에게서 도망치고, 여러 가지 마법적인 도움을 받아 거인을 물리친다. 마지막에는 왕자가 잊어버린 아내를 다시 찾게 되는 이야기로 마무리된다.",
+   "variants": "영국의 학자 윌리엄 랄스턴 셰든-랄스턴은 이 스코틀랜드 이야기가 러시아 동화 '바다의 차르와 지혜로운 바실리사'와 매우 유사하다고 언급하였다. 또한, 러시아 민속학자 레프 바라그는 ATU 313B 유형이 동물 간의 다툼과 영웅의 아버지가 새를 구하는 에피소드를 포함하는 경우가 동슬라브, 세르보-크로아티아, 체코, 리투아니아, 에스토니아, 핀란드, 플랑드르, 프랑스, 스코틀랜드 및 아일랜드 변형에서만 나타난다고 하였다.",
+   "culture": "아일랜드 민속학자 세이무스 오 두일레아르가는 ATU 313 유형이 아일랜드 민속 이야기 중 가장 인기 있는 이야기 중 하나라고 언급하였다. 그는 아일랜드 민속위원회가 1943년까지 66개의 원고를 분류하였으며, 완전한 아카이브는 '수백 개의 변형'을 포함할 것이라고 추측하였다."
+  },
+  "en": {
+   "origin": "The Battle of the Birds (Scottish Gaelic: Cath Nan Eun) is a Scottish folktale collected by John Francis Campbell in his book 'Popular Tales of the West Highlands'. This story was recorded in 1859 from a fisherman named John Mackenzie near Inverary, who was then building a dyke at the Ardglen Farm.",
+   "legend": "The story begins with the son of a prince setting out to witness a battle among all the animals. He promises his father that he will report who will be the king of the animals that year. As the battle is nearing its end, he witnesses a snake and a crow fighting, and he beheads the snake. In gratitude, the crow takes him to the castle where his sister lives. The prince then goes through various adventures and eventually marries the daughter of a giant. However, the prince escapes from the giant and, with various magical aids, defeats the giant. The story concludes with the prince finding his forgotten wife again.",
+   "variants": "British scholar William Ralston Shedden-Ralston noted that this Scottish tale is very similar to the Russian folktale 'Tsar of the Sea and Wise Vasilisa'. Additionally, Russian folklorist Lev Barag stated that the ATU 313B type, which includes episodes of disputes among animals and the hero's father saving a bird, appears only in variants from the East Slavic, Serbo-Croatian, Czech, Lithuanian, Estonian, Finnish, Flemish, French, Scottish, and Irish traditions.",
+   "culture": "Irish folklorist Seamus O Duilearga mentioned that the ATU 313 type is one of the most popular stories in Irish folklore. He noted that the Irish Folklore Commission had classified 66 manuscripts by 1943, and he speculated that a complete archive would include 'hundreds of variants'."
+  },
+  "zh": {
+   "origin": "鸟之战 (苏格兰语: Cath Nan Eun) 是苏格兰的一个民间故事，由约翰·弗朗西斯·坎贝尔在他的著作《西高地的流行故事》中收集。这个故事是1859年从靠近因弗阿里的一位渔夫约翰·麦肯齐那里记录下来的，当时他正在阿德金格拉斯农场修建堤坝。",
+   "legend": "这个故事开始于一个王子的儿子出去观看所有动物的战斗。他承诺会将那年动物之王是谁告诉他的父亲。在战斗快要结束的时候，他目睹了蛇和乌鸦的战斗，并砍下了蛇的头。乌鸦为了表示感谢，带他去见她的妹妹住的城堡。之后，王子经历了各种冒险，最终与巨人的女儿结婚。然而，王子逃离了巨人，并在各种魔法帮助下打败了巨人。最后，故事以王子重新找到被遗忘的妻子结束。",
+   "variants": "英国学者威廉·拉尔斯顿·谢登-拉尔斯顿提到这个苏格兰故事与俄罗斯民间故事《海之沙皇与智慧的瓦西里莎》非常相似。此外，俄罗斯民俗学家列夫·巴拉格指出，ATU 313B 类型包含动物之间的争斗和英雄的父亲救鸟的插曲，仅在东斯拉夫、塞尔维亚-克罗地亚、捷克、立陶宛、爱沙尼亚、芬兰、弗拉芒、法国、苏格兰和爱尔兰的变体中出现。",
+   "culture": "爱尔兰民俗学家塞穆斯·奥·杜伊利亚尔提到，ATU 313 类型是爱尔兰民间故事中最受欢迎的故事之一。他表示，爱尔兰民俗委员会在1943年之前分类了66个手稿，完整的档案预计将包含“数百个变体”。"
+  },
+  "ja": {
+   "origin": "鳥の戦い（スコットランド語: Cath Nan Eun）はスコットランドの民話で、ジョン・フランシス・キャンベルが彼の著書『Popular Tales of the West Highlands』で収集した。この話は1859年にインヴァーアリー近くの漁師ジョン・マッケンジーから記録され、当時彼はアドキングラス農場で堤防を築いていた。",
+   "legend": "この話は、一人の王子の息子がすべての動物が戦う戦闘を見に行くことから始まる。彼はその年の動物の王が誰になるかを父に伝えると約束する。戦闘がほぼ終わりかけた頃、彼は蛇とカラスが戦っているのを目撃し、蛇の頭を切り落とす。カラスは感謝の印として彼を自分の妹が住む城に連れて行く。その後、王子はいくつかの冒険を経て、最終的に巨人の娘と結婚する。しかし、王子は巨人から逃げ出し、さまざまな魔法の助けを受けて巨人を打ち負かす。最後には、王子が忘れていた妻を再び見つける物語で締めくくられる。",
+   "variants": "イギリスの学者ウィリアム・ラルストン・シェーデン＝ラルストンは、このスコットランドの話がロシアの民話『海のツァーリと賢いバシリサ』と非常に類似していると述べた。また、ロシアの民俗学者レフ・バラグは、ATU 313B型が動物間の争いと英雄の父が鳥を救うエピソードを含む場合が、スラブ、セルボ・クロアチア、チェコ、リトアニア、エストニア、フィンランド、フランドル、フランス、スコットランドおよびアイルランドの変種にのみ現れると述べた。",
+   "culture": "アイルランドの民俗学者セイムス・オ・ドゥイレアールは、ATU 313型がアイルランドの民話の中で最も人気のある話の一つであると述べた。彼はアイルランド民俗委員会が1943年までに66の原稿を分類し、完全なアーカイブは『数百の変種』を含むと推測した。"
+  }
+ }
+}

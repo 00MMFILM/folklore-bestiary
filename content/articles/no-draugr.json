@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Draugr",
+ "sourceLang": "en",
+ "sourceChars": 35497,
+ "generatedAt": "2026-07-08T03:17:47.925Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "드라우그르(Draugr)는 북유럽 민속에서 악의적인 망령으로 묘사되며, 주로 고대 아이슬란드 사가에서 언급된다. 드라우그르는 무덤이나 왕궁에 살며, 종종 자신의 매장된 보물을 지키고 있는 존재로 그려진다. 이들은 유령이 아닌 애니메이션된 시체로, 물리적인 몸을 가지고 있다. 드라우그르는 일반적으로 초인적인 힘을 지니고 있으며, 부패한 검은색 또는 푸른색의 외모를 가지고 있다. 이들은 종종 악취를 풍기며, 마법적 능력을 지니고 있어 형태를 바꾸거나 날씨를 조절하는 등의 능력을 발휘할 수 있다.",
+   "variants": "",
+   "culture": "드라우그르는 현대 대중문화에서도 자주 등장하며, 특히 비디오 게임과 영화에서 노르웨이 신화의 좀비로 묘사된다. 이들은 종종 고대 북유럽의 전설을 바탕으로 한 캐릭터로 등장하며, 그들의 특성과 능력은 다양한 매체에서 변형되어 표현된다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Draugr is depicted as a malevolent spirit in Norse folklore, primarily mentioned in ancient Icelandic sagas. Draugr reside in graves or royal palaces and are often portrayed as beings guarding their buried treasures. They are animated corpses rather than ghosts, possessing a physical body. Draugr generally have superhuman strength and a decayed black or blue appearance. They often emit a foul odor and possess magical abilities, allowing them to shapeshift or control the weather.",
+   "variants": "",
+   "culture": "Draugr frequently appear in modern popular culture, particularly depicted as zombies from Norse mythology in video games and movies. They often appear as characters based on ancient Norse legends, and their characteristics and abilities are expressed in various media in different forms."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "德劳格尔(Draugr)在北欧民俗中被描绘为恶意的幽灵，主要在古代冰岛传奇中提到。德劳格尔居住在坟墓或王宫中，通常被描绘为守护自己埋藏宝藏的存在。它们不是幽灵，而是被动画化的尸体，拥有物理身体。德劳格尔通常具有超人的力量，外表呈腐烂的黑色或蓝色。它们常常散发出恶臭，拥有魔法能力，可以变形或控制天气等能力。",
+   "variants": "",
+   "culture": "德劳格尔在现代大众文化中也经常出现，特别是在视频游戏和电影中被描绘为挪威神话中的僵尸。它们通常作为基于古代北欧传说的角色出现，其特性和能力在各种媒体中被改编和表现。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ドラウグル(Draugr)は北欧の民俗で悪意のある霊として描かれ、主に古代アイスランドのサガに言及される。ドラウグルは墓や王宮に住み、しばしば自分の埋葬された宝物を守っている存在として描かれる。彼らは幽霊ではなく、アニメーションされた死体で、物理的な体を持っている。ドラウグルは一般的に超人的な力を持ち、腐敗した黒色または青色の外見をしている。彼らはしばしば悪臭を放ち、魔法的な能力を持っており、形を変えたり天候を調整したりする能力を発揮することができる。",
+   "variants": "",
+   "culture": "ドラウグルは現代の大衆文化でも頻繁に登場し、特にビデオゲームや映画でノルウェー神話のゾンビとして描かれる。彼らはしばしば古代北欧の伝説に基づいたキャラクターとして登場し、彼らの特性や能力はさまざまなメディアで変形されて表現される。"
+  }
+ }
+}

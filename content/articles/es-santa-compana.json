@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Santa Compaña",
+ "sourceLang": "en",
+ "sourceChars": 5132,
+ "generatedAt": "2026-07-08T03:18:07.750Z",
+ "locales": {
+  "ko": {
+   "origin": "산타 콤파냐는 이베리아 북서부의 전통적인 신화적 믿음으로, 갈리시아, 아스투리아스, 카스티야와 레온의 경계 지역(엘 비에르조) 및 북부 포르투갈에서 유래하였다. 이는 유럽 전역에서 전해지는 신화적 모티프인 '야생 사냥'의 이베리아 버전으로 여겨진다.",
+   "legend": "산타 콤파냐는 일반적으로 죽은 자들의 행렬 또는 고통받는 영혼들의 행렬로 묘사되며, 자정에 마을의 길을 떠돌아다닌다고 전해진다. 이 행렬은 흰색 후드가 달린 망토를 입은 살아있는 사람이 십자가나 성수의 가마솥을 들고 선두에 서고, 그 뒤를 여러 죽은 영혼들이 촛불을 들고 따른다. 이 영혼들은 항상 보이지는 않지만, 그들이 지나갈 때 녹은 왁스의 향기가 바람에 실려 오는 것으로 그들의 존재를 알린다고 전해진다. 행렬의 살아있는 리더는 초자연적인 힘에 의해 강제로 매일 밤 마을과 숲을 돌아다녀야 하며, 다음 날에는 그 일을 기억하지 못한다. 이 저주를 다른 사람에게 전이시키지 않으면 결국 병들고 쇠약해져 죽게 된다고 믿어진다.",
+   "variants": "산타 콤파냐는 'Estadea', 'Estantiga', 'Rolda', 'As da noite', 'Pantalla', 'Avisóns', 'Pantaruxada' 등 여러 이름으로도 알려져 있으며, 이는 모두 죽은 자의 존재를 나타내는 용어들이다. 아스투리아스에서는 'Güestia'라는 이름으로 잘 알려져 있다.",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Santa Compaña is a traditional mythological belief from the northwestern Iberian Peninsula, originating in the border regions of Galicia, Asturias, and Castile and León (El Bierzo), as well as northern Portugal. It is considered the Iberian version of the mythological motif of 'wild hunt' that is found throughout Europe.",
+   "legend": "Santa Compaña is generally described as a procession of the dead or a procession of suffering souls, said to wander the village streets at midnight. This procession is led by a living person wearing a cloak with a white hood, holding a cross or a holy water font, followed by several dead souls carrying candles. These souls are not always visible, but their presence is said to be announced by the scent of melted wax carried by the wind as they pass. The living leader of the procession is believed to be forced by supernatural powers to wander the village and forest every night, and the next day they do not remember the event. It is believed that if this curse is not passed on to someone else, the person will eventually become ill, weak, and die.",
+   "variants": "Santa Compaña is also known by several names such as 'Estadea', 'Estantiga', 'Rolda', 'As da noite', 'Pantalla', 'Avisóns', and 'Pantaruxada', all of which are terms that indicate the presence of the dead. In Asturias, it is well known by the name 'Güestia'.",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "圣塔孔帕尼亚（Santa Compaña）是伊比利亚西北部的传统神话信仰，起源于加利西亚（Galicia）、阿斯图里亚斯（Asturias）、卡斯蒂利亚和莱昂（Castilla y León）的交界地区（埃尔比耶尔佐，El Bierzo）以及北部葡萄牙。这被认为是欧洲各地流传的神话主题“野生狩猎”的伊比利亚版本。",
+   "legend": "圣塔孔帕尼亚通常被描绘为死者的队列或受苦灵魂的队列，传说在午夜时分游荡于村庄的街道上。这个队列由一个穿着带白色兜帽斗篷的活人领头，他手持十字架或圣水的锅，后面跟随着多个死去的灵魂，手中举着蜡烛。这些灵魂并不总是可见，但当他们经过时，融化的蜡烛香气会随风飘来，预示着他们的存在。队列的活人领袖被认为是被超自然力量强迫每晚在村庄和森林中游荡，第二天则不记得这件事。如果不将这个诅咒传递给他人，最终会生病、虚弱并死去。",
+   "variants": "圣塔孔帕尼亚还被称为“Estadea”、“Estantiga”、“Rolda”、“As da noite”、“Pantalla”、“Avisóns”、“Pantaruxada”等多个名字，这些都是表示死者存在的术语。在阿斯图里亚斯，它被称为“Güestia”。",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "サンタ・コンパーニャは、イベリア北西部の伝統的な神話的信念で、ガリシア、アストゥリアス、カスティーリャ・イ・レオンの境界地域（エル・ビエルソ）および北ポルトガルに由来しています。これは、ヨーロッパ全域で伝えられる神話的モチーフである「野生の狩り」のイベリア版と見なされています。",
+   "legend": "サンタ・コンパーニャは一般的に死者の行列または苦しむ魂の行列として描かれ、真夜中に村の道をさまよっていると伝えられています。この行列は、白いフード付きのマントを着た生きている人が十字架や聖水の釜を持って先頭に立ち、その後ろに多くの死んだ魂がろうそくを持って従います。これらの魂は常に見えるわけではありませんが、彼らが通り過ぎるときに溶けたワックスの香りが風に乗ってくることで彼らの存在が知らされると伝えられています。行列の生きているリーダーは超自然的な力によって強制的に毎晩村と森をさまよわなければならず、翌日にはそのことを覚えていないとされています。この呪いを他の人に伝えなければ、最終的には病気になり衰弱して死ぬと信じられています。",
+   "variants": "サンタ・コンパーニャは「Estadea」、「Estantiga」、「Rolda」、「As da noite」、「Pantalla」、「Avisóns」、「Pantaruxada」などのさまざまな名前でも知られており、これらはすべて死者の存在を示す用語です。アストゥリアスでは「Güestia」という名前でよく知られています。",
+   "culture": ""
+  }
+ }
+}

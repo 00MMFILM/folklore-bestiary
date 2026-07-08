@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Lernaean Hydra",
+ "sourceLang": "en",
+ "sourceChars": 8113,
+ "generatedAt": "2026-07-08T03:19:31.617Z",
+ "locales": {
+  "ko": {
+   "origin": "Lernaean Hydra는 고대 그리스 신화와 로마 신화에서 등장하는 뱀 모양의 호수 괴물로, 그 서식지는 아르고리스의 레르나 호수이다. 레르나는 저승으로 가는 입구로 알려져 있으며, 고고학적 연구에 따르면 미케네 아르고스보다 오래된 신성한 장소로 확인되었다. 이 괴물은 헤라클레스의 열두 과업 중 두 번째 과업에서 죽임을 당한다.",
+   "legend": "Lernaean Hydra는 타이폰과 에키드나의 자손으로, 독이 있는 숨과 피를 지니고 있어 그 냄새조차 치명적이었다. 이 괴물은 여러 개의 머리를 가지고 있으며, 머리의 정확한 수는 출처에 따라 다르다. 후속 버전에서는 괴물이 머리를 잘리면 두 개의 머리가 다시 자라는 재생 능력을 추가한다. 헤라클레스는 조카 이올라오스의 도움을 받아 괴물의 모든 머리를 잘라내고 목을 불태워야 했다.",
+   "variants": "가장 오래된 레르나의 하이드라 이야기는 헤시오도스의 '신통기'에서 나타나며, 괴물의 가장 오래된 이미지는 기원전 700년경의 청동 핀에서 발견된다. 이 핀에서는 여섯 개의 머리를 가진 하이드라가 묘사되었으며, 알카이오스는 처음으로 아홉 개의 머리로 고정하였다. 이후 시모니데스는 머리 수를 오십 개로 늘렸고, 유리피데스와 베르길리우스는 정확한 수치를 제시하지 않았다.",
+   "culture": "고대 그리스에서 '하이드를 자르다'라는 표현은 희망이 없는 일이나 끝없이 헛된 작업을 설명하는 데 사용되었다. 하이드라의 재생 능력은 여러 문헌에서 다루어졌으며, 플라톤의 '에우티데무스'에서는 하이드를 소피스틱한 성격의 존재로 비유하기도 했다."
+  },
+  "en": {
+   "origin": "The Lernaean Hydra is a serpent-like lake monster that appears in ancient Greek and Roman mythology, with its habitat being Lake Lerna in Argolis. Lerna is known as an entrance to the underworld, and archaeological studies have confirmed it as a sacred site older than Mycenaean Argos. This monster was killed during the second labor of Heracles.",
+   "legend": "The Lernaean Hydra is a descendant of Typhon and Echidna, possessing poisonous breath and blood, making even its scent deadly. This monster has multiple heads, and the exact number of heads varies by source. In later versions, the monster is given a regenerative ability where two heads grow back for every one that is cut off. Heracles, with the help of his nephew Iolaus, had to cut off all the monster's heads and burn the necks.",
+   "variants": "The oldest story of the Lernaean Hydra appears in Hesiod's 'Theogony', and the oldest image of the monster is found on a bronze pin dating back to around 700 BC. This pin depicts a Hydra with six heads, while Alcaeus was the first to fix the number at nine heads. Later, Simonides increased the number of heads to fifty, and neither Euripides nor Virgil provided an exact figure.",
+   "culture": "In ancient Greece, the expression 'to cut the Hydra' was used to describe a hopeless task or an endlessly futile endeavor. The Hydra's regenerative ability has been discussed in various texts, and in Plato's 'Euthydemus', the Hydra is metaphorically compared to a sophistic entity."
+  },
+  "zh": {
+   "origin": "Lernaean Hydra（勒尔纳水蛇）是古希腊神话和罗马神话中出现的蛇形湖怪，其栖息地是阿尔戈利斯的勒尔纳湖。勒尔纳被认为是通往冥界的入口，考古研究表明它被确认是比迈锡尼阿尔戈斯更古老的神圣地点。这个怪物在赫拉克勒斯的十二项任务中的第二项任务中被杀死。",
+   "legend": "Lernaean Hydra是泰丰（Typhon）和艾基德娜（Echidna）的后代，拥有有毒的呼吸和血液，其气味甚至致命。这个怪物有多个头，头的确切数量因来源而异。在后续版本中，怪物被砍掉的头会再生出两个头的再生能力。赫拉克勒斯在侄子伊奥拉俄斯（Iolaus）的帮助下，必须砍掉怪物的所有头并烧毁脖子。",
+   "variants": "最古老的勒尔纳水蛇故事出现在赫西俄德（Hesiod）的《神谱》中，怪物最古老的形象出现在公元前700年的青铜别针上。这个别针上描绘了一个有六个头的水蛇，而阿尔凯俄斯（Alcaeus）首次将头的数量固定为九个。随后，西摩尼德斯（Simonides）将头的数量增加到五十个，而欧里庇得斯（Euripides）和维吉尔（Virgil）没有给出确切的数字。",
+   "culture": "在古希腊，'砍掉水蛇'这个表达用来描述无望的事情或无尽的徒劳工作。水蛇的再生能力在多部文献中被讨论，柏拉图（Plato）的《欧提德穆斯》中将水蛇比喻为一种诡辩的存在。"
+  },
+  "ja": {
+   "origin": "レルナのヒュドラ (Lernaean Hydra) は、古代ギリシャ神話とローマ神話に登場する蛇の形をした湖の怪物で、その生息地はアルゴリスのレルナ湖です。レルナは冥界への入口として知られており、考古学的研究によればミケーネ・アルゴスよりも古い聖なる場所として確認されています。この怪物はヘラクレスの12の課題の中で2番目の課題で殺されます。",
+   "legend": "レルナのヒュドラはタイフォン (Typhon) とエキドナ (Echidna) の子孫で、毒のある息と血を持っており、その匂いさえ致命的でした。この怪物は複数の頭を持っており、頭の正確な数は出典によって異なります。後のバージョンでは、怪物の頭が切られると2つの頭が再生する能力が追加されます。ヘラクレスは甥のイオラオス (Iolaus) の助けを借りて、怪物のすべての頭を切り落とし、首を焼かなければなりませんでした。",
+   "variants": "最も古いレルナのヒュドラの物語はヘシオドス (Hesiod) の『神統記』に現れ、怪物の最も古いイメージは紀元前700年頃の青銅のピンで発見されます。このピンでは6つの頭を持つヒュドラが描かれており、アルカイオス (Alcaeus) は初めて9つの頭に固定しました。その後、シモニデス (Simonides) は頭の数を50に増やし、ユリピデス (Euripides) とウェルギリウス (Virgil) は正確な数値を示しませんでした。",
+   "culture": "古代ギリシャでは「ヒュドラを切る」という表現は、希望のないことや終わりのない無駄な作業を説明するために使われました。ヒュドラの再生能力は多くの文献で扱われており、プラトン (Plato) の『エウティデムス』ではヒュドラをソフィスティックな性格の存在に例えています。"
+  }
+ }
+}

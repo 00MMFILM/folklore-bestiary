@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Strigoi",
+ "sourceLang": "en",
+ "sourceChars": 10505,
+ "generatedAt": "2026-07-08T03:16:37.684Z",
+ "locales": {
+  "ko": {
+   "origin": "Strigoi라는 단어는 루마니아어에서 유래되었으며, 라틴어의 strix 또는 striga와 관련된 어근에 증강 접미사 -oi가 추가된 형태이다. Otila Hedeşan은 이와 유사한 접미사가 moroi와 bosorcoi와 같은 관련 용어에서도 나타난다고 언급하며, 이러한 병렬적 유래가 동일한 '신화적 미시 시스템'의 일원임을 나타낸다고 본다. 이 어근은 특히 올빼미와 관련이 있으며, 이탈리아어의 strega(마녀)나 프랑스어의 stryge(어린이의 피를 빨아먹는 새-여성)와 같은 로망스 언어에서 유사어를 찾아볼 수 있다.",
+   "legend": "루마니아 신화에서 Strigoi는 무덤에서 일어난 것으로 전해지는 괴로운 영혼들이다. 이들은 짐승으로 변신하고, 투명해지며, 희생자의 피로부터 생명력을 얻는 능력을 가지고 있다고 여겨진다. Strigoi는 현대의 뱀파이어와 역사적으로 연결되어 있으며, 브램 스토커의 드라큘라가 Strigoi의 현대적 해석으로 여겨질 수 있다.",
+   "variants": "루마니아에서는 Strigoi에 대한 다양한 명칭이 존재하며, 서부 트란실바니아, 월라키아 및 올테니아에서는 Moroi, 부코비나에서는 vidmă, vârcolacul, Cel-rau 또는 뱀파이어와 같은 이름으로 불린다. Strigoi는 생존하는 마법사인 Strigoi viu와 죽은 Strigoi인 Strigoi mort로 구분되며, 후자는 가장 위험한 존재로 여겨진다.",
+   "culture": "현대에 들어서도 Strigoi는 여전히 루마니아 문화에서 중요한 위치를 차지하고 있으며, 2004년에는 한 여성이 고인의 방문을 받았다고 주장하여 가족이 뱀파이어 사냥을 조직하는 사건이 발생했다. 이러한 사건은 Strigoi에 대한 전통적인 믿음이 여전히 존재함을 보여준다."
+  },
+  "en": {
+   "origin": "The word Strigoi is derived from Romanian and is a form that adds the augmentative suffix -oi to the root related to the Latin strix or striga. Otila Hedeşan mentions that a similar suffix appears in related terms such as moroi and bosorcoi, suggesting that this parallel origin indicates membership in the same 'mythical micro-system.' This root is particularly associated with owls, and similar terms can be found in Romance languages such as the Italian strega (witch) or the French stryge (a bird-woman that sucks the blood of children).",
+   "legend": "In Romanian mythology, Strigoi are tortured souls said to rise from their graves. They are believed to have the ability to transform into beasts, become transparent, and gain vitality from the blood of their victims. Strigoi are historically linked to modern vampires, and Bram Stoker's Dracula can be seen as a modern interpretation of Strigoi.",
+   "variants": "In Romania, there are various names for Strigoi, including Moroi in western Transylvania, Wallachia, and Oltenia, and vidmă, vârcolacul, Cel-rau, or vampire in Bukovina. Strigoi are classified into living sorcerers known as Strigoi viu and dead Strigoi known as Strigoi mort, with the latter being considered the most dangerous.",
+   "culture": "Even in modern times, Strigoi still hold an important place in Romanian culture, and in 2004, an incident occurred where a woman claimed to have been visited by a deceased relative, leading her family to organize a vampire hunt. This incident demonstrates that traditional beliefs about Strigoi still exist."
+  },
+  "zh": {
+   "origin": "Strigoi这个词源于罗马尼亚语，添加了拉丁语的strix或striga相关词根的增强后缀-oi。Otila Hedeşan提到，这种类似的后缀也出现在moroi和bosorcoi等相关术语中，并认为这种平行的起源表明它们是同一“神话微观系统”的一部分。这个词根特别与猫头鹰有关，在意大利语的strega（女巫）或法语的stryge（吸食儿童血液的鸟-女性）等罗曼语中可以找到类似词。",
+   "legend": "在罗马尼亚神话中，Strigoi被传说为从坟墓中复苏的痛苦灵魂。人们认为它们能够变身为野兽，变得透明，并从受害者的血液中获取生命力。Strigoi与现代吸血鬼有历史联系，布拉姆·斯托克的《德古拉》可以被视为Strigoi的现代解读。",
+   "variants": "在罗马尼亚，Strigoi有多种称谓，在西特兰西瓦尼亚、沃拉基亚和奥尔特尼亚被称为Moroi，在布科维纳被称为vidmă、vârcolacul、Cel-rau或吸血鬼。Strigoi分为生存的魔法师Strigoi viu和死去的Strigoi，即Strigoi mort，后者被认为是最危险的存在。",
+   "culture": "即使在现代，Strigoi在罗马尼亚文化中仍占据重要地位，2004年，一名女性声称受到已故者的拜访，导致其家族组织吸血鬼猎捕事件。这一事件显示了对Strigoi的传统信仰仍然存在。"
+  },
+  "ja": {
+   "origin": "Strigoiという言葉はルーマニア語に由来し、ラテン語のstrixまたはstrigaに関連する語根に増強接尾辞-oiが追加された形である。Otila Hedeşanは、このような類似の接尾辞がmoroiやbosorcoiなどの関連用語にも現れると述べており、これらの並行した起源が同じ「神話的ミクロシステム」の一部であることを示していると考えている。この語根は特にフクロウに関連しており、イタリア語のstrega（魔女）やフランス語のstryge（子供の血を吸う鳥-女性）などのロマンス語で類似語を見つけることができる。",
+   "legend": "ルーマニアの神話においてStrigoiは墓から現れるとされる苦しむ魂である。彼らは獣に変身し、透明になり、犠牲者の血から生命力を得る能力を持っていると考えられている。Strigoiは現代の吸血鬼と歴史的に結びついており、ブラム・ストーカーのドラキュラはStrigoiの現代的解釈と見なされることができる。",
+   "variants": "ルーマニアではStrigoiに対するさまざまな名称が存在し、西トランシルバニア、ワラキア、オルテニアではMoroi、ブコビナではvidmă、vârcolacul、Cel-rauまたは吸血鬼などの名前で呼ばれる。Strigoiは生存する魔法使いであるStrigoi viuと死んだStrigoiであるStrigoi mortに区別され、後者は最も危険な存在と見なされる。",
+   "culture": "現代においてもStrigoiはルーマニア文化で重要な位置を占めており、2004年にはある女性が故人の訪問を受けたと主張し、家族が吸血鬼狩りを組織する事件が発生した。このような事件はStrigoiに対する伝統的な信念が依然として存在することを示している。"
+  }
+ }
+}

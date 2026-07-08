@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Syöjätär",
+ "sourceLang": "en",
+ "sourceChars": 9548,
+ "generatedAt": "2026-07-08T03:20:51.418Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "Syöjätär는 핀란드 민속에서 등장하는 캐릭터로, '먹는 자'라는 의미를 지닌 이름을 가지고 있다. 그녀는 일부 질병의 기원과 뱀, 도마뱀, 늑대와 같은 불쾌한 생물과 연관되어 있다. 전설 속에서 Syöjätär는 종종 악한 어머니의 역할을 맡고 있으며, 그녀의 죽음 이후에는 뱀과 같은 불쾌한 동물들이 그녀의 시체에서 태어난다고 전해진다. Syöjätär는 신의 완벽한 창조를 망치는 존재로 묘사되며, 그녀의 불만으로 인해 소의 젖이 줄어드는 등의 이야기가 전해진다.",
+   "variants": "",
+   "culture": "Syöjätär는 핀란드 민속에서 여러 가지 형태로 나타나며, 특히 '마법 노래'와 같은 구술 전통에서 그녀의 이름이 다양한 맥락에서 사용된다. 그녀는 일반적으로 부정적인 의미를 지니며, 예를 들어 매독에 대한 주문에서는 이 질병이 Syöjätär의 자손으로 언급된다. 또한, Syöjätär는 '카레발라'와 같은 핀란드 서사시에서도 언급되며, 여러 민속 이야기에서 악한 어머니로 등장하여 아기들을 동물로 바꾸는 등의 악행을 저지른다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Syöjätär is a character from Finnish folklore, with a name that means 'the eater.' She is associated with the origins of certain diseases and unpleasant creatures such as snakes, lizards, and wolves. In legends, Syöjätär often takes on the role of an evil mother, and it is said that after her death, unpleasant animals like snakes are born from her corpse. Syöjätär is depicted as a being that corrupts the perfect creation of the gods, and stories tell of her grievances causing a decrease in cow's milk.",
+   "variants": "",
+   "culture": "Syöjätär appears in various forms in Finnish folklore, particularly in oral traditions such as 'magic songs' where her name is used in different contexts. She generally carries a negative connotation; for example, in spells against syphilis, this disease is referred to as a descendant of Syöjätär. Additionally, Syöjätär is mentioned in Finnish epics like 'Kalevala,' where she appears as an evil mother committing misdeeds such as transforming babies into animals."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "Syöjätär是芬兰民俗中出现的角色，名字的意思是“吃的人”。她与某些疾病的起源以及蛇、蜥蜴、狼等令人不快的生物有关。在传说中，Syöjätär常常扮演邪恶母亲的角色，传说她死后，像蛇一样令人不快的动物会从她的尸体中诞生。Syöjätär被描绘为破坏神的完美创造的存在，因她的不满，牛奶减少等故事流传下来。",
+   "variants": "",
+   "culture": "Syöjätär在芬兰民俗中以多种形式出现，特别是在像“魔法歌曲”这样的口头传统中，她的名字在不同的语境中被使用。她通常具有负面含义，例如在关于梅毒的咒语中，这种疾病被提及为Syöjätär的后代。此外，Syöjätär还在像《卡累利阿》（Kalevala）这样的芬兰史诗中被提及，在多个民间故事中作为邪恶母亲出现，实施将婴儿变成动物等恶行。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "Syöjätär（ショヤタール）はフィンランドの民俗に登場するキャラクターで、「食べる者」という意味の名前を持っています。彼女は一部の病気の起源や、蛇、トカゲ、オオカミなどの不快な生物と関連しています。伝説の中でSyöjätärはしばしば悪い母親の役割を担い、彼女の死後には蛇のような不快な動物たちが彼女の遺体から生まれると伝えられています。Syöjätärは神の完璧な創造を壊す存在として描かれ、彼女の不満によって牛の乳が減るといった話が伝えられています。",
+   "variants": "",
+   "culture": "Syöjätärはフィンランドの民俗でさまざまな形で現れ、特に「魔法の歌」のような口承伝統で彼女の名前がさまざまな文脈で使用されます。彼女は一般的に否定的な意味を持ち、例えば梅毒に関する呪文ではこの病気がSyöjätärの子孫として言及されます。また、Syöjätärは「カレワラ」のようなフィンランドの叙事詩にも言及され、さまざまな民話で悪い母親として登場し、赤ちゃんを動物に変えるなどの悪行を働きます。"
+  }
+ }
+}

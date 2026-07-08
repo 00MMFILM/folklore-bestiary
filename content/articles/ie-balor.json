@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Balor",
+ "sourceLang": "en",
+ "sourceChars": 13086,
+ "generatedAt": "2026-07-08T03:21:31.589Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "발로르(Balor)는 아일랜드 신화에서 포모리안(Fomorians)의 지도자로, 악의적인 초자연적 존재들로 구성된 집단의 가장 강력한 인물로 여겨진다. 그는 일반적으로 거대한 눈을 가진 거인으로 묘사되며, 그의 눈이 열릴 때 파괴를 일으킨다. 발로르는 마그 투이레드 전투(Battle of Mag Tuired)에 참여하며, 주로 그의 손자 루(Lugh)에 의해 죽임을 당하는 이야기로 알려져 있다. 발로르는 태양의 상징으로 해석되기도 하며, 웨일스 신화의 이스바다덴(Ysbaddaden)이나 그리스 신화의 사이클롭스(Cyclops)와 유사한 인물로 비유되기도 한다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "Balor is considered the leader of the Fomorians in Irish mythology, regarded as the most powerful figure among a group of malevolent supernatural beings. He is typically depicted as a giant with a huge eye, and when his eye opens, it brings destruction. Balor participates in the Battle of Mag Tuired and is primarily known for being killed by his grandson Lugh. Balor is sometimes interpreted as a symbol of the sun and is likened to figures such as Ysbaddaden from Welsh mythology or the Cyclops from Greek mythology.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "巴洛尔(Balor)是爱尔兰神话中波摩里安(Fomorians)的首领，被认为是由恶意超自然存在组成的团体中最强大的人物。他通常被描绘为一个拥有巨大眼睛的巨人，当他的眼睛睁开时会引发毁灭。巴洛尔参与了马格图伊雷德战役(Battle of Mag Tuired)，并以被他的孙子卢(Lugh)杀死的故事而闻名。巴洛尔有时被解读为太阳的象征，并被比喻为威尔士神话中的伊斯巴达登(Ysbaddaden)或希腊神话中的独眼巨人(Cyclops)。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "バロール（Balor）はアイルランド神話においてフォモリアン（Fomorians）の指導者であり、悪意のある超自然的存在たちで構成された集団の中で最も強力な人物と見なされている。彼は一般的に巨大な目を持つ巨人として描かれ、彼の目が開くと破壊を引き起こす。バロールはマグ・トゥイレッドの戦い（Battle of Mag Tuired）に参加し、主に彼の孫ル（Lugh）によって殺される物語で知られている。バロールは太陽の象徴として解釈されることもあり、ウェールズ神話のイスバダデン（Ysbaddaden）やギリシャ神話のサイクロプス（Cyclops）に類似した人物として比喩されることもある。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

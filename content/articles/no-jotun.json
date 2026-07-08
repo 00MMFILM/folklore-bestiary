@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "요툰",
+ "sourceLang": "ko",
+ "sourceChars": 2410,
+ "generatedAt": "2026-07-08T03:22:02.480Z",
+ "locales": {
+  "ko": {
+   "origin": "요툰은 고대 노르드어에서 '거인'을 의미하는 단어로, 노르드 신화에서 널리 발견되는 존재들이다. 이들은 신적 존재로서 에시르나 바나르와는 구분되지만, 그 힘과 능력은 그들과 필적한다. 요툰의 기원에 대한 이야기는 태고의 혼돈 긴눙가가프에서 시작되며, 최초의 거인 위미르가 탄생하는 과정이 전해진다.",
+   "legend": "요툰은 노르드 신화에서 거인으로 묘사되며, 에시르와 바나르의 적대자로 등장하는 경우가 많다. 그러나 이들 중 일부는 신들과 결혼하거나 비적대적으로 접촉하기도 한다. 요툰은 자연 세계에 영향력을 미치며, 때로는 자연 요소의 신으로 여겨지기도 한다. 예를 들어, 흐레스벨그는 바람을 만들어내고, 요르드는 동식물의 어미로서 비옥한 생식력을 지닌 존재로 묘사된다.",
+   "variants": "",
+   "culture": "라그나로크 때 요툰헤임의 요트나르와 헬헤임의 망자들이 신들을 공격하며, 수르트가 이끄는 불의 거인들이 라그나로크의 마지막 단계에서 불을 지르는 역할을 한다. 이로 인해 신들과 요툰 모두가 대규모 전투에서 죽게 되는 이야기가 전해진다."
+  },
+  "en": {
+   "origin": "Jötunn is a word meaning 'giant' in Old Norse, and they are beings widely found in Norse mythology. They are distinguished from divine beings such as the Aesir and Vanir, but their power and abilities are comparable to theirs. The story of the origin of the Jötunn begins in the primordial chaos Ginnungagap, where the process of the birth of the first giant, Ymir, is recounted.",
+   "legend": "In Norse mythology, Jötunn are depicted as giants and often appear as adversaries of the Aesir and Vanir. However, some of them marry gods or interact non-hostilely. Jötunn have an influence on the natural world and are sometimes considered gods of natural elements. For example, Hraesvelgr creates the wind, and Jörð is described as a fertile being with the ability to give birth to plants and animals.",
+   "variants": "",
+   "culture": "During Ragnarök, the Jötunn from Jötunheim and the dead from Helheim attack the gods, and the fire giants led by Surtr play a role in igniting fire in the final stages of Ragnarök. This leads to the story of both the gods and the Jötunn dying in a large-scale battle."
+  },
+  "zh": {
+   "origin": "尤顿（Yǒudùn）在古诺尔斯语中意为“巨人”，是诺尔斯神话中广泛存在的存在。这些存在被视为神圣的存在，与艾希尔（Aishier）或巴纳尔（Banar）有所区别，但它们的力量和能力与他们相匹敌。关于尤顿的起源故事始于太古的混沌基宁加帕夫（Kǐnìngāgāf），传说中讲述了第一个巨人维米尔（Wìmǐěr）的诞生过程。",
+   "legend": "尤顿在诺尔斯神话中被描绘为巨人，常常作为艾希尔和巴纳尔的对手出现。然而，其中一些与神灵结婚或以非敌对的方式接触。尤顿对自然世界产生影响，有时被视为自然元素的神。例如，赫雷斯贝尔格（Hèlèisībèi'ěrgé）创造风，而约尔德（Yuē'ěrde）被描绘为动植物的母亲，具有肥沃的生殖力。",
+   "variants": "",
+   "culture": "在诸神黄昏（Ragnarök）时，尤顿海姆（Yǒudùn Hǎim）中的尤特纳尔（Yǒutènàěr）和赫尔海姆（Hè'ěr Hǎim）中的亡者攻击神灵，苏尔特（Sū'ěrtè）领导的火巨人在诸神黄昏的最后阶段扮演着点燃火焰的角色。因此，神灵和尤顿都在大规模战斗中死去的故事被传颂。"
+  },
+  "ja": {
+   "origin": "ヨートゥンは古代ノルド語で「巨人」を意味する言葉で、ノルド神話で広く見られる存在です。彼らは神的存在としてエイシルやバナールとは区別されますが、その力と能力は彼らに匹敵します。ヨートゥンの起源に関する物語は、太古の混沌ギンヌンガガプから始まり、最初の巨人ウミルが誕生する過程が伝えられています。",
+   "legend": "ヨートゥンはノルド神話で巨人として描かれ、エイシルやバナールの敵対者として登場することが多いです。しかし、彼らの中には神々と結婚したり、非敵対的に接触する者もいます。ヨートゥンは自然界に影響力を持ち、時には自然要素の神と見なされることもあります。例えば、フレースベルグは風を生み出し、ヨルドは動植物の母として肥沃な生殖力を持つ存在として描かれています。",
+   "variants": "",
+   "culture": "ラグナロクの際、ヨートゥンヘイムのヨートナールとヘルヘイムの亡者たちが神々を攻撃し、スルトが率いる火の巨人たちがラグナロクの最後の段階で火を放つ役割を果たします。このため、神々とヨートゥンの両方が大規模な戦闘で死ぬという物語が伝えられています。"
+  }
+ }
+}

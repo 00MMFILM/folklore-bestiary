@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Adrastus",
+ "sourceLang": "en",
+ "sourceChars": 39254,
+ "generatedAt": "2026-07-08T03:26:52.474Z",
+ "locales": {
+  "ko": {
+   "origin": "그리스 신화에서 아드라스투스(Ἄδραστος 또는 Ἄδρηστος)는 아르고스의 왕이자 테베에 대한 일곱 전사들의 리더로 알려져 있다. 그는 아르고스의 왕 탈라우스의 아들이지만, 그의 왕조의 경쟁자인 암피아라오스에 의해 아르고스를 떠나야 했다. 그는 시키온으로 도망쳐 그곳에서 왕이 되었다. 이후 그는 암피아라오스와 화해하고 아르고스로 돌아가 왕이 되었다.",
+   "legend": "아드라스투스는 오라클의 예언에 따라 그의 딸들을 유배자 폴리네이케스와 타이데우스에게 시집보냈고, 그들을 고향으로 돌려보내겠다고 약속했다. 그는 폴리네이케스를 테베의 왕좌에 앉히기 위해 일곱 명의 챔피언을 이끌고 대군을 조직했으나, 이 원정은 실패로 돌아갔고 아드라스투스를 제외한 모든 챔피언이 죽었다. 아드라스투스는 신의 말, 아리온의 도움으로 목숨을 구했다. 그는 일곱 전사들의 아들들인 에피고니와 함께 테베에 대한 두 번째 전쟁에서 성공을 거두었고, 귀향 도중에 죽었다고 전해진다.",
+   "variants": "이전의 문헌에서는 아드라스투스의 이야기가 다양하게 전해지며, 특히 아에스킬로스의 '테베에 대한 일곱 전사들'에서 처음으로 '일곱'이라는 숫자와 그 이름들이 명시되었다. 아드라스투스는 전투에 참여했지만 아에스킬로스에 의해 '일곱' 중 한 명으로 간주되지 않았다. 유리피데스의 '구원자들'와 소포클레스의 '콜로노스의 오이디푸스'에서도 같은 이름 목록이 등장하지만, 유리피데스의 '페니키아 여인들'에서는 아드라스투스가 '일곱' 중 한 명으로 포함된다.",
+   "culture": "아드라스투스는 유리피데스의 비극 '구원자들'의 주요 인물로 등장하며, 이 연극은 테베에 대한 일곱 전사들의 재난 이후의 사건을 다룬다. 아드라스투스는 아테네의 왕 테세우스에게 도움을 요청하여 전사들의 시신을 회수하려고 한다."
+  },
+  "en": {
+   "origin": "In Greek mythology, Adrastus (Ἄδραστος or Ἄδρηστος) is known as the king of Argos and the leader of the Seven Warriors against Thebes. He is the son of Thalassus, the king of Argos, but had to leave Argos due to his rival Amphiaraus. He fled to Sicyon, where he became king. Later, he reconciled with Amphiaraus and returned to Argos to become king.",
+   "legend": "According to the oracle's prophecy, Adrastus married his daughters to the exiles Polynices and Tydeus, promising to return them to their homeland. He organized a great army leading seven champions to place Polynices on the throne of Thebes, but this expedition ended in failure, and all the champions except Adrastus were killed. Adrastus was saved by the divine horse, Arion. He achieved success in the second war against Thebes with the sons of the seven warriors, the Epigoni, and it is said that he died on the way home.",
+   "variants": "Earlier texts convey various stories of Adrastus, particularly in Aeschylus's 'Seven Against Thebes,' where the number 'seven' and their names are first specified. Adrastus participated in the battle but was not considered one of the 'seven' by Aeschylus. The same list of names appears in Euripides's 'The Suppliants' and Sophocles's 'Oedipus at Colonus,' but in Euripides's 'Phoenician Women,' Adrastus is included as one of the 'seven.'",
+   "culture": "Adrastus appears as a major character in Euripides's tragedy 'The Suppliants,' which deals with the events following the disaster of the Seven Warriors against Thebes. Adrastus seeks help from Theseus, the king of Athens, to recover the bodies of the warriors."
+  },
+  "zh": {
+   "origin": "在希腊神话中，阿德拉斯图斯（Ἄδραστος 或者 Ἄδρηστος）是阿尔戈斯的国王，也是对抗底比斯的七位战士的领袖。他是阿尔戈斯国王塔拉乌斯的儿子，但由于与他的王朝竞争者安菲阿拉俄斯的冲突，他不得不离开阿尔戈斯。他逃往锡基翁，并在那里成为国王。后来，他与安菲阿拉俄斯和解，返回阿尔戈斯成为国王。",
+   "legend": "阿德拉斯图斯根据神谕将他的女儿嫁给流亡者波利尼凯斯和泰伊德斯，并承诺将他们送回故乡。他组织了一支大军，带领七位冠军，试图让波利尼凯斯登上底比斯的王座，但这次远征以失败告终，除了阿德拉斯图斯外，所有冠军都死去。阿德拉斯图斯在神的指引和阿里翁的帮助下保住了性命。他与七位战士的儿子们（埃皮戈尼）一起在对底比斯的第二次战争中取得了成功，并在归途中去世。",
+   "variants": "早期文献中，阿德拉斯图斯的故事有多种不同的版本，尤其是在埃斯库罗斯的《对底比斯的七位战士》中，首次明确提到了“七”这个数字及其名字。阿德拉斯图斯参与了战斗，但在埃斯库罗斯的作品中并未被视为“七”之一。在欧里庇得斯的《救援者》和索福克勒斯的《科洛诺斯的俄狄浦斯》中也出现了相同的名字列表，但在欧里庇得斯的《腓尼基妇女》中，阿德拉斯图斯被列为“七”之一。",
+   "culture": "阿德拉斯图斯是欧里庇得斯悲剧《救援者》的主要人物，该剧讲述了对底比斯的七位战士灾难后的事件。阿德拉斯图斯请求雅典国王忒修斯的帮助，以便回收战士们的尸体。"
+  },
+  "ja": {
+   "origin": "ギリシャ神話においてアドラストス（ἌδραστοςまたはἌδρηστος）は、アルゴスの王でありテーベに対する七人の戦士たちのリーダーとして知られている。彼はアルゴスの王タラウスの息子であるが、彼の王朝の競争相手であるアンフィアラオスによってアルゴスを離れなければならなかった。彼はシキオンに逃げ、そこで王となった。その後、彼はアンフィアラオスと和解し、アルゴスに戻って王となった。",
+   "legend": "アドラストスはオラクルの予言に従い、彼の娘たちを亡命者ポリネイケスとタイデウスに嫁がせ、彼らを故郷に戻すと約束した。彼はポリネイケスをテーベの王座に座らせるために七人のチャンピオンを率いて大軍を編成したが、この遠征は失敗に終わり、アドラストスを除くすべてのチャンピオンが死んだ。アドラストスは神の言葉、アリオンの助けによって命を救われた。彼は七人の戦士たちの息子たちであるエピゴニと共にテーベに対する第二次戦争で成功を収め、帰郷の途中で死んだと伝えられている。",
+   "variants": "以前の文献ではアドラストスの物語がさまざまに伝えられ、特にアイスキュロスの『テーベに対する七人の戦士たち』で初めて「七」という数字とその名前が明記された。アドラストスは戦闘に参加したが、アイスキュロスによって「七」の中の一人とは見なされなかった。エウリピデスの『救助者たち』やソポクレスの『コロノスのオイディプス』でも同じ名前のリストが登場するが、エウリピデスの『フェニキアの女たち』ではアドラストスが「七」の一人として含まれている。",
+   "culture": "アドラストスはエウリピデスの悲劇『救助者たち』の主要な人物として登場し、この演劇はテーベに対する七人の戦士たちの災難後の出来事を扱っている。アドラストスはアテネの王テセウスに助けを求め、戦士たちの遺体を回収しようとする。"
+  }
+ }
+}

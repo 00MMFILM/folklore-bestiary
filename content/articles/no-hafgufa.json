@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Hafgufa",
+ "sourceLang": "en",
+ "sourceChars": 6111,
+ "generatedAt": "2026-07-08T03:26:05.965Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "하프구파(Hafgufa)는 고대 노르드어로 '바다'를 의미하는 'haf'와 '증기'를 의미하는 'gufa'의 결합으로, '바다의 증기' 또는 '바다의 스팀'이라는 뜻을 가진 해양 생물이다. 이 생물은 아이슬란드의 수역과 헬룬란드(Helluland) 방향으로 서식한다고 전해진다. 하프구파는 바다 괴물로 여겨졌으나, 연구에 따르면 이 이야기는 고래의 특수한 먹이 잡기 기술인 '트랩 피딩'에서 유래한 것으로 보인다. 하프구파는 13세기 중반 노르웨이의 문헌인 '왕의 거울'(Konungs skuggsjá)에서 언급되며, 이후 '오르바르 오드의 전설'(Örvar-Odds saga)에서는 하프구파와 린그바크르(lyngbakr)가 유사하지만 구별되는 생물로 등장한다. 하프구파는 자신의 구토와 같은 미끼를 사용하여 먹이를 모은다고 전해지며, '고대 전설'(Fornaldarsaga)에서는 고래, 배, 사람까지도 잡아먹는 것으로 알려져 있다.",
+   "variants": "",
+   "culture": "2022년 비디오 게임 '신의 전쟁: 라그나로크'(God of War Ragnarök)에서는 하프구파가 거대한 비행 해파리로 묘사되며, 알프하임(Alfheim)의 사막 하늘을 떠다니며 고래와 같은 노래로 모래 폭풍을 조종할 수 있는 능력을 지닌 존재로 등장한다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Hafgufa is a marine creature whose name is a combination of the Old Norse word 'haf', meaning 'sea', and 'gufa', meaning 'steam', thus translating to 'steam of the sea' or 'sea's steam'. This creature is said to inhabit the waters of Iceland and the direction of Helluland. Hafgufa was considered a sea monster, but research suggests that this tale may have originated from the special feeding technique of whales known as 'trap feeding'. Hafgufa is mentioned in the 13th-century Norwegian text 'Konungs skuggsjá' (The King's Mirror), and later appears in 'Örvar-Odds saga' (The Saga of Örvar-Oddr) as a similar yet distinct creature from lyngbakr. Hafgufa is said to use bait similar to its own vomit to gather food, and in 'Fornaldarsaga' (The Saga of Ancient Times), it is known to consume whales, ships, and even people.",
+   "variants": "",
+   "culture": "In the 2022 video game 'God of War Ragnarök', Hafgufa is depicted as a gigantic flying jellyfish, floating in the desert skies of Alfheim and possessing the ability to control sandstorms with whale-like songs."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "哈夫古法(Hafgufa)是古代诺尔斯语中“海洋”的“haf”和“蒸汽”的“gufa”的结合，意为“海洋的蒸汽”或“海洋的蒸汽”的海洋生物。传说这种生物栖息在冰岛的水域和赫伦兰(Helluland)方向。哈夫古法被认为是海怪，但研究表明这个故事可能源于鲸鱼的特殊捕食技术“陷阱捕食”。哈夫古法在13世纪中期挪威的文献《国王的镜子》(Konungs skuggsjá)中被提及，之后在《奥尔瓦尔·奥德的传说》(Örvar-Odds saga)中，哈夫古法与林格巴克尔(lyngbakr)被描述为相似但可区分的生物。哈夫古法据说使用自己的呕吐物作为诱饵来聚集食物，在《古代传说》(Fornaldarsaga)中，它被认为可以捕食鲸鱼、船只甚至人类。",
+   "variants": "",
+   "culture": "在2022年视频游戏《神之战争：诸神黄昏》(God of War Ragnarök)中，哈夫古法被描绘为巨大的飞行水母，漂浮在阿尔夫海姆(Alfheim)的沙漠天空中，具有用鲸鱼般的歌声操控沙尘暴的能力。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ハフグファ(Hafgufa)は古代ノルド語で「海」を意味する「haf」と「蒸気」を意味する「gufa」の結合で、「海の蒸気」または「海のスチーム」という意味を持つ海洋生物である。この生物はアイスランドの水域とヘルルランド(Helluland)方向に生息すると伝えられている。ハフグファは海の怪物と見なされていたが、研究によればこの話はクジラの特殊な餌捕り技術である「トラップフィーディング」に由来するようである。ハフグファは13世紀中頃のノルウェーの文献「王の鏡」（Konungs skuggsjá）で言及され、その後「オルバル・オッドの伝説」（Örvar-Odds saga）ではハフグファとリンギバクル(lyngbakr)が類似しているが区別される生物として登場する。ハフグファは自らの嘔吐物のような餌を使って獲物を集めると伝えられ、「古代伝説」（Fornaldarsaga）ではクジラ、船、人間までも捕食することが知られている。",
+   "variants": "",
+   "culture": "2022年のビデオゲーム「神の戦争：ラグナロク」（God of War Ragnarök）ではハフグファが巨大な飛行クラゲとして描かれ、アルフハイム(Alfheim)の砂漠の空を漂い、クジラのような歌で砂嵐を操る能力を持つ存在として登場する。"
+  }
+ }
+}

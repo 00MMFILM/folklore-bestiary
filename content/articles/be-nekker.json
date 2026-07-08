@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Nixie (folklore)",
+ "sourceLang": "en",
+ "sourceChars": 23130,
+ "generatedAt": "2026-07-08T03:25:30.839Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "넥커(Nekker)는 독일 신화와 민속에서 등장하는 인간형의 물의 정령으로, 종종 형태를 바꾸는 능력을 가진 존재로 묘사된다. 이들은 독일 민속에서 'Nix' 또는 'Nixe'라는 이름으로도 알려져 있으며, 스칸디나비아 민속에서 가장 잘 알려져 있다. 넥커는 일반적으로 남성으로 묘사되며, 매혹적인 음악을 연주하여 여성과 아이들을 호수나 개울로 유인하거나, 직접 물속으로 끌어들이기도 한다. 그러나 모든 넥커가 악의적인 존재는 아니며, 일부 이야기에서는 그들이 무해하다고 묘사되기도 한다. 넥커는 종종 물의 근원과의 자유롭고 정기적인 접촉이 없으면 우울해진다고 전해진다.",
+   "variants": "",
+   "culture": "대중문화에서 넥커는 여러 형태로 등장한다. 예를 들어, 2019년 영화 'Frozen II'에서는 엘사가 물의 정령인 넥커를 만나고 길들인다. 또한, 2023년 비디오 게임 'Bramble: The Mountain King'에서는 넥커가 등장하는 적으로 묘사되며, 그의 과거와 복수 이야기가 전개된다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Nekker is a humanoid water spirit that appears in German mythology and folklore, often described as a being with the ability to shapeshift. They are also known in German folklore as 'Nix' or 'Nixe' and are best known in Scandinavian folklore. Nekkers are generally depicted as male and lure women and children to lakes or streams by playing enchanting music, or even pulling them directly into the water. However, not all nekker are malevolent beings, and in some stories, they are described as harmless. It is often said that nekker become melancholic without free and regular contact with the source of water.",
+   "variants": "",
+   "culture": "In popular culture, nekker appears in various forms. For example, in the 2019 film 'Frozen II', Elsa meets and tames a water spirit known as a nekker. Additionally, in the 2023 video game 'Bramble: The Mountain King', nekker is depicted as an enemy, with a storyline involving his past and quest for revenge."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "넥커(Nekker)是德国神话和民俗中出现的人形水精灵，常被描绘为具有变形能力的存在。它们在德国民俗中也被称为'Nix'或'Nixe'，在斯堪的纳维亚民俗中最为人知。넥커通常被描绘为男性，通过演奏迷人的音乐来引诱女性和儿童到湖泊或小溪中，或者直接将他们拉入水中。然而，并不是所有的넥커都是恶意的存在，在一些故事中，它们被描绘为无害的。넥커常常被传说如果没有与水源的自由和定期接触就会感到沮丧。",
+   "variants": "",
+   "culture": "在大众文化中，넥커以多种形式出现。例如，在2019年的电影《冰雪奇缘2》中，艾莎遇到了水精灵넥커并驯服了它。此外，在2023年的视频游戏《Bramble: The Mountain King》中，넥커被描绘为敌人，其过去和复仇的故事展开。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ネッカー (Nekker) は、ドイツの神話と民俗に登場する人型の水の精霊で、しばしば形を変える能力を持つ存在として描かれます。彼らはドイツの民俗で 'ニクス' (Nix) または 'ニクセ' (Nixe) という名前でも知られており、スカンジナビアの民俗で最もよく知られています。ネッカーは一般的に男性として描かれ、魅惑的な音楽を演奏して女性や子供たちを湖や小川に誘ったり、直接水中に引き込んだりします。しかし、すべてのネッカーが悪意のある存在ではなく、一部の物語では彼らが無害であると描かれることもあります。ネッカーはしばしば水の源との自由で定期的な接触がなければ憂鬱になると伝えられています。",
+   "variants": "",
+   "culture": "大衆文化においてネッカーはさまざまな形で登場します。例えば、2019年の映画 'アナと雪の女王 II' では、エルサが水の精霊であるネッカーに出会い、彼を手なずけます。また、2023年のビデオゲーム 'ブランブル: ザ・マウンテン・キング' では、ネッカーが登場する敵として描かれ、彼の過去と復讐の物語が展開されます。"
+  }
+ }
+}

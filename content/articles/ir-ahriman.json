@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Ahriman",
+ "sourceLang": "en",
+ "sourceChars": 23565,
+ "generatedAt": "2026-07-08T03:15:12.081Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "아흐리만(Ahriman)은 조로아스터교에서 '파괴적/악의 정신'의 화신으로 기능하는 존재이다. 그는 스펜타 마인유(Spenta Mainyu) 또는 아후라 마즈다(Ahura Mazda)와 대립하는 주된 적으로 여겨진다. 아흐리만은 본질적으로 신이 아닌 우주적이고 악의적인 정신으로 정의되며, 도덕적 오류와 우주적 부정의 화신으로 존재한다. 그는 아후라 마즈다와의 절대적인 대립 속에서 파괴적 사고와 혼돈을 상징한다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "Ahriman is a being that functions as the embodiment of 'destructive/evil spirit' in Zoroastrianism. He is considered the main adversary opposing Spenta Mainyu or Ahura Mazda. Ahriman is essentially defined as a cosmic and malevolent spirit rather than a god, existing as the embodiment of moral error and cosmic injustice. He symbolizes destructive thought and chaos in absolute opposition to Ahura Mazda.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "阿赫里曼（Ahriman）是琐罗亚斯德教中作为“破坏性/邪恶精神”的化身存在。他被视为与斯宾塔·迈纽（Spenta Mainyu）或阿胡拉·马兹达（Ahura Mazda）对立的主要敌人。阿赫里曼本质上被定义为非神的宇宙性和恶意的精神，作为道德错误和宇宙不公的化身存在。他象征着与阿胡拉·马兹达的绝对对立中的破坏性思维和混乱。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "アフリマン（Ahriman）はゾロアスター教において「破壊的/悪の精神」の化身として機能する存在である。彼はスペンタ・マインユ（Spenta Mainyu）またはアフラ・マズダ（Ahura Mazda）と対立する主要な敵と見なされている。アフリマンは本質的に神ではなく、宇宙的で悪意のある精神として定義され、道徳的誤りと宇宙的な不正の化身として存在する。彼はアフラ・マズダとの絶対的な対立の中で、破壊的な思考と混沌を象徴している。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

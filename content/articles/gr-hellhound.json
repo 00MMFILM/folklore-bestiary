@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Hellhound",
+ "sourceLang": "en",
+ "sourceChars": 8351,
+ "generatedAt": "2026-07-08T03:15:21.670Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "헬하운드는 지옥, 악마 또는 저승의 수호자 또는 하인을 나타내는 신화적인 개이다. 헬하운드는 전 세계의 신화에서 발견되며, 그리스 신화의 케르베로스, 노르드 신화의 가르므르, 영국 민속의 검은 개들, 그리고 켈트 신화의 요정 개들이 가장 잘 알려진 예시이다. 헬하운드는 일반적으로 검은색이며, 비정상적으로 과장된 크기와 초자연적인 힘을 지니고 있으며, 종종 붉은 눈을 가지고 있거나 불꽃과 함께 나타난다. 헬하운드의 행동은 매우 계산적이고 목적이 있으며, 높은 지능을 가진 것으로 전해진다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "The Hellhound is a mythical dog that represents a guardian or servant of hell, demons, or the afterlife. Hellhounds are found in mythologies around the world, with the most well-known examples being Cerberus from Greek mythology, Garmr from Norse mythology, black dogs from English folklore, and fairy dogs from Celtic mythology. Hellhounds are typically black, possess an abnormally exaggerated size and supernatural powers, and often have red eyes or appear with flames. The behavior of hellhounds is described as highly calculated and purposeful, and they are said to possess high intelligence.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "地狱犬（Helhound）是代表地狱、恶魔或冥界的守护者或仆人的神话犬类。地狱犬在全球的神话中都有发现，希腊神话中的凯尔贝洛斯（Kerberos）、北欧神话中的伽尔穆尔（Garmr）、英国民俗中的黑狗，以及凯尔特神话中的妖精犬是最著名的例子。地狱犬通常是黑色的，具有异常夸张的体型和超自然的力量，常常带有红色的眼睛或与火焰一起出现。地狱犬的行为非常计算和有目的，被传说具有很高的智力。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ヘルハウンドは地獄、悪魔、または死後の世界の守護者または従者を示す神話的な犬である。ヘルハウンドは世界中の神話に見られ、ギリシャ神話のケルベロス、北欧神話のガルムル、イギリス民俗の黒い犬、そしてケルト神話の妖精犬が最もよく知られた例である。ヘルハウンドは一般的に黒色であり、異常に誇張されたサイズと超自然的な力を持ち、しばしば赤い目を持っていたり、炎と共に現れることがある。ヘルハウンドの行動は非常に計算的で目的があり、高い知能を持っていると伝えられている。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

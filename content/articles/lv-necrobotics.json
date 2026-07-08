@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Necrobotics",
+ "sourceLang": "en",
+ "sourceChars": 6130,
+ "generatedAt": "2026-07-08T03:21:09.032Z",
+ "locales": {
+  "ko": {
+   "origin": "Necrobotics는 생물학적 재료(또는 죽은 유기체)를 로봇 구성 요소로 사용하는 관행이다. 이는 진화 과정을 통해 생물체에 구현된 고도로 발달된 선택적 설계를 활용하기 위해 자연 선택에 의해 설계된 생물학적 구성 요소를 사용함으로써 제조가 어려운 기계적 구성 요소에 대한 대안이 될 수 있다.",
+   "legend": "Necrobotics는 죽은 거미를 로봇 그리퍼로 재활용하고 압축 공기를 적용하여 그리핑 팔을 활성화하는 방식으로 그 능력을 입증하였다. 이 방법은 거미의 유기적 유압 시스템과 컴팩트한 다리를 활용하여 효율적이고 간단한 그리퍼 시스템을 생성한다. Necrobotic 거미 그리퍼는 작은 물체를 들어올릴 수 있는 능력을 가지고 있어 복잡하고 비용이 많이 드는 소형 기계적 그리퍼의 대안으로 사용될 수 있다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Necrobotics is the practice of using biological materials (or dead organisms) as robotic components. This can serve as an alternative to mechanical components that are difficult to manufacture by utilizing biologically designed components that have been shaped by natural selection to leverage the highly advanced selective designs implemented in organisms through the evolutionary process.",
+   "legend": "Necrobotics has demonstrated its capabilities by recycling dead spiders into robotic grippers and applying compressed air to activate the gripping limbs. This method creates an efficient and simple gripper system by utilizing the spider's organic hydraulic system and compact legs. Necrobotic spider grippers have the ability to lift small objects, making them a viable alternative to complex and costly small mechanical grippers.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "Necrobotics是使用生物材料（或死有机体）作为机器人组件的实践。这可以通过使用自然选择设计的生物组件，利用在进化过程中实现的高度发达的选择性设计，成为制造难度大的机械组件的替代品。",
+   "legend": "Necrobotics通过回收死蜘蛛作为机器人抓手，并施加压缩空气来激活抓手臂，证明了其能力。这种方法利用了蜘蛛的有机液压系统和紧凑的腿部，生成了高效且简单的抓手系统。Necrobotic蜘蛛抓手具有提升小物体的能力，可以作为复杂且昂贵的小型机械抓手的替代品。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "ネクロボティクス（Necrobotics）は、生物学的材料（または死んだ有機体）をロボットの構成要素として使用する慣行です。これは、進化の過程で生物に実装された高度に発達した選択的設計を活用するために、自然選択によって設計された生物学的構成要素を使用することによって、製造が難しい機械的構成要素の代替となることができます。",
+   "legend": "ネクロボティクスは、死んだクモをロボットグリッパーとして再利用し、圧縮空気を適用してグリッピングアームを活性化する方法でその能力を証明しました。この方法は、クモの有機的な油圧システムとコンパクトな脚を活用して、効率的でシンプルなグリッパーシステムを生成します。ネクロボティッククモグリッパーは、小さな物体を持ち上げる能力を持っており、複雑でコストのかかる小型機械的グリッパーの代替として使用されることができます。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

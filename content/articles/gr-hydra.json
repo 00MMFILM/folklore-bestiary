@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Hydra",
+ "sourceLang": "en",
+ "sourceChars": 4472,
+ "generatedAt": "2026-07-08T03:15:33.068Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "레르나의 히드라는 그리스 신화에 등장하는 다수의 머리를 가진 뱀이다. 이 생물은 불사의 존재로, 머리가 잘리면 두 개의 머리가 다시 자라나는 특성을 지니고 있다. 히드라는 레르나의 늪에 살았으며, 이곳에서 많은 영웅들과 전사들에게 위협이 되었다. 히드라는 헤라클레스의 12과업 중 하나로, 그가 이 괴물을 처치해야 하는 임무를 맡게 된다. 헤라클레스는 불사의 히드라를 물리치기 위해 불을 이용해 머리를 잘라내고, 그 자리에 불을 지펴 두 개의 머리가 자라나는 것을 막았다. 결국 그는 히드라를 처치하고, 그 피로 만든 화살은 나중에 그의 전투에서 중요한 역할을 하게 된다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "The Lernaean Hydra is a serpent with multiple heads that appears in Greek mythology. This creature is immortal, possessing the characteristic that when one head is cut off, two more heads grow back in its place. The Hydra lived in the swamps of Lerna, where it posed a threat to many heroes and warriors. The Hydra was one of the 12 labors of Heracles (Hercules), who was tasked with defeating this monster. To overcome the immortal Hydra, Heracles used fire to cut off its heads and burned the stumps to prevent two new heads from growing back. Ultimately, he defeated the Hydra, and the arrows made from its blood would later play an important role in his battles.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "勒尔那的九头蛇（Lernaean Hydra）是希腊神话中出现的一种多头蛇。这种生物是不死的存在，具有被砍掉一个头后会再生两个头的特性。九头蛇生活在勒尔那的沼泽（Lerna），在这里对许多英雄和战士构成了威胁。九头蛇是赫拉克勒斯（Heracles）十二项任务中的一个，他被赋予了消灭这个怪物的任务。赫拉克勒斯为了战胜不死的九头蛇，利用火焰砍掉了它的头，并在头颅被砍掉的地方点燃火焰，以阻止两个头的再生。最终，他成功地消灭了九头蛇，而用其血液制作的箭在他后来的战斗中发挥了重要作用。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "レルナのヒドラは、ギリシャ神話に登場する多数の頭を持つ蛇である。この生物は不死の存在で、頭が切られると二つの頭が再び生えてくる特性を持っている。ヒドラはレルナの沼に住んでおり、ここで多くの英雄や戦士たちにとって脅威となっていた。ヒドラはヘラクレスの12の課題の一つであり、彼がこの怪物を退治しなければならない任務を負うことになる。ヘラクレスは不死のヒドラを打ち負かすために火を使って頭を切り落とし、その場所に火を点けて二つの頭が生えるのを防いだ。結局、彼はヒドラを退治し、その血で作った矢は後に彼の戦闘で重要な役割を果たすことになる。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

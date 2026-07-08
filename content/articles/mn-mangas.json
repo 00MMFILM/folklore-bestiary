@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Mangas",
+ "sourceLang": "en",
+ "sourceChars": 2600,
+ "generatedAt": "2026-07-08T03:21:16.877Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "Mangas는 그리스의 벨 에포크 시대의 반문화에서 나타난 사회 집단으로, 주로 아테네와 피레우스와 같은 대도시에서 활동하였다. 이들은 그리스 노동계급에 속하는 남성들로, 특히 오만하고 자존심 강한 행동을 보이며, 전형적인 복장을 특징으로 한다. 이 복장은 양모 모자(카부라키), 재킷(보통 한쪽 소매만 착용), 칼집으로 사용되는 조임 벨트, 줄무늬 바지, 뾰족한 신발로 구성된다. 그들의 외모에는 긴 콧수염, 콤볼로이 구슬 목걸이, 그리고 독특한 절름발이 걸음걸이가 포함된다. 이와 관련된 사회 집단으로는 쿠차바키데스가 있으며, 두 용어는 때때로 서로 교환하여 사용된다. Mangas는 또한 레베티코 음악의 역사와 밀접하게 관련되어 있다.",
+   "variants": "",
+   "culture": "대부분의 레베티코 노래는 Mangas를 언급하고 있으며, 이는 명시적이지 않더라도 이 하위문화의 일환으로 여겨진다. 예를 들어, 코스티스의 'Στην Υπόγα' (1930)와 카시마티스의 'Ο Μάγκας του Βοτανικού' (1934)가 있다. Mangas에 대한 존경은 이후 그리스 음악 장르인 라이코에서도 이어졌다. 예를 들어, 지오르고스 무플레지스의 'Πού 'σουν μάγκα το Χειμώνα' (70년대) 등이 있다. 현대 그리스어에서 'mangas'는 '멋진 남자, 자랑하는 남자'의 동의어가 되었으며, 문맥에 따라 부정적인 의미(폭력배, 깡패, 불량배) 또는 긍정적인 의미(용감한 남자, 교활한 남자, 소년)를 가질 수 있다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Mangas is a social group that emerged from the counterculture of Greece's Belle Époque era, primarily active in large cities such as Athens and Piraeus. These individuals belong to the Greek working class, exhibiting particularly arrogant and proud behavior, characterized by their typical attire. This attire consists of a wool hat (kavouraki), a jacket (usually worn with only one sleeve), a belt used as a sheath, striped pants, and pointed shoes. Their appearance includes long mustaches, komboloi bead necklaces, and a distinctive limping gait. A related social group is the Kouchavakides, and the two terms are sometimes used interchangeably. Mangas is also closely associated with the history of rebetiko music.",
+   "variants": "",
+   "culture": "Most rebetiko songs mention Mangas, which is considered part of this subculture, even if not explicitly. For example, there are Kostis's 'Στην Υπόγα' (1930) and Kasimatis's 'Ο Μάγκας του Βοτανικού' (1934). The respect for Mangas continued into the later Greek music genre of laiko. For instance, Giorgos Moulfedis's 'Πού 'σουν μάγκα το Χειμώνα' (1970s) is an example. In modern Greek, 'mangas' has become synonymous with 'a cool man, a proud man,' and depending on the context, it can have negative connotations (thug, gangster, delinquent) or positive meanings (brave man, cunning man, lad)."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "Mangas是出现在希腊的美好时代（Belle Époque）反文化中的一个社会群体，主要活动于雅典和比雷埃夫斯等大城市。这些人属于希腊工人阶级的男性，尤其表现出傲慢和强烈的自尊心，具有典型的服装特征。这种服装由羊毛帽（kavouraki）、夹克（通常只穿一只袖子）、用作刀鞘的束带、条纹裤子和尖头鞋组成。他们的外貌包括长胡须、komboloi珠子项链，以及独特的跛行步态。与之相关的社会群体有Koutsavakides，这两个术语有时可以互换使用。Mangas还与Rebetiko音乐的历史密切相关。",
+   "variants": "",
+   "culture": "大多数Rebetiko歌曲提到Mangas，即使没有明确提及，也被视为这一亚文化的一部分。例如，科斯提斯的《Στην Υπόγα》（1930年）和卡西马提斯的《Ο Μάγκας του Βοτανικού》（1934年）。对Mangas的尊敬在后来的希腊音乐流派Rebetiko中得以延续。例如，乔治斯·穆弗雷吉斯的《Πού 'σουν μάγκα το Χειμώνα》（70年代）等。在现代希腊语中，'mangas'成为了'酷男、骄傲男'的同义词，根据语境可以具有负面意义（暴徒、流氓、坏蛋）或正面意义（勇敢的男人、狡猾的男人、少年）。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "マンガス（Mangas）は、ギリシャのベル・エポック時代の反文化に現れた社会集団で、主にアテネ（Athens）やピレウス（Piraeus）などの大都市で活動していました。彼らはギリシャの労働階級に属する男性たちで、特に傲慢で自尊心の強い行動を示し、典型的な服装が特徴です。この服装は、羊毛の帽子（カブラキ、Kavrakia）、ジャケット（通常は片方の袖だけを着用）、刀の鞘として使われる締めベルト、ストライプのズボン、尖った靴で構成されています。彼らの外見には、長い口ひげ、コンボロイのビーズのネックレス、そして独特の足を引きずる歩き方が含まれます。これに関連する社会集団にはクチャバキデス（Koutsavakides）があり、これらの用語は時折互換的に使用されます。マンガスはまた、レベティコ音楽の歴史とも密接に関連しています。",
+   "variants": "",
+   "culture": "ほとんどのレベティコの歌はマンガスを言及しており、これは明示的でなくてもこのサブカルチャーの一部と見なされています。例えば、コスティスの「Στην Υπόγα」（1930年）やカシマティスの「Ο Μάγκας του Βοτανικού」（1934年）があります。マンガスに対する敬意は、その後ギリシャの音楽ジャンルであるライコ（Laiko）にも引き継がれました。例えば、ジョルゴス・ムフレジスの「Πού 'σουν μάγκα το Χειμώνα」（1970年代）などがあります。現代ギリシャ語で「mangas」は「素敵な男、誇り高い男」の同義語となり、文脈によっては否定的な意味（暴力団、ギャング、不良）または肯定的な意味（勇敢な男、ずる賢い男、少年）を持つことがあります。"
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Tupilaq",
+ "sourceLang": "en",
+ "sourceChars": 5697,
+ "generatedAt": "2026-07-08T03:23:20.197Z",
+ "locales": {
+  "ko": {
+   "origin": "Tupilaq은 이누이트 종교, 특히 그린란드에서 유래된 개념으로, 앙가쿠크(주술사 또는 샤먼)에 의해 만들어진 복수의 괴물이다. 이 괴물은 동물의 부위(뼈, 피부, 털, 힘줄 등)와 심지어 어린이의 시체에서 가져온 부품을 사용하여 제작되었다. 의식적인 노래를 통해 생명을 부여받은 후, 특정 적을 찾아 파괴하기 위해 바다에 놓여졌다.",
+   "legend": "Tupilaq은 복수의 괴물로, 앙가쿠크가 비밀리에 제작하여 적을 공격하도록 보내는 존재로 전해진다. 그러나 tupilaq을 보내는 것은 위험한 일이었으며, 만약 공격 대상이 더 강력한 마법적 힘을 가지고 있다면, tupilaq은 제작자를 되돌아가 죽일 수 있었다. 제작자는 자신의 행위를 공개적으로 고백함으로써 위험에서 벗어날 수 있었다.",
+   "variants": "여러 이누이트 문화에서 tupilaq과 유사한 개념이 존재한다. 예를 들어, 이글룰릭에서는 tupilaq이 보이지 않는 유령으로, 오직 앙가쿠크만이 이를 인식할 수 있었다. 키발리르미우트에서는 인간의 머리와 다양한 동물의 부위로 이루어진 키메라 같은 존재로 묘사되었다. 그린란드에서는 tupilaq이 물리적인 인간 제작물로 나타나 적에게 해를 끼치기 위해 만들어진 것으로 여겨졌다.",
+   "culture": "오늘날 tupilaq은 다양한 형태와 크기로 조각되어 그린란드 이누이트 예술의 중요한 부분을 차지하고 있으며, 수집품으로서 높은 가치를 지닌다."
+  },
+  "en": {
+   "origin": "Tupilaq is a concept originating from Inuit religion, particularly in Greenland, referring to a vengeful monster created by an angakok (shaman). This monster is made using parts taken from animal body parts (bones, skin, fur, tendons, etc.) and even the corpses of children. After being given life through a ceremonial song, it is placed in the sea to seek out and destroy specific enemies.",
+   "legend": "Tupilaq is a vengeful monster, said to be secretly created by an angakok and sent to attack enemies. However, sending a tupilaq was a dangerous act, as if the target possessed stronger magical powers, the tupilaq could return to kill its creator. The creator could escape danger by publicly confessing their actions.",
+   "variants": "Various Inuit cultures have similar concepts to tupilaq. For example, in Igloolik, tupilaq is described as an invisible ghost, which only the angakok could perceive. In Kivalirmiut, it was depicted as a chimera-like being made of a human head and various animal parts. In Greenland, tupilaq is considered a physical human-made entity created to harm enemies.",
+   "culture": "Today, tupilaq is carved in various forms and sizes, occupying an important part of Greenland Inuit art and holding high value as a collectible."
+  },
+  "zh": {
+   "origin": "Tupilaq是源于因纽特宗教，特别是在格林兰的概念，由安卡库克（shaman）制作的复仇怪物。这个怪物是用动物的部位（骨头、皮肤、毛发、肌腱等）甚至儿童的尸体部件制作而成。在通过仪式性的歌曲赋予生命后，被放置在海中以寻找特定的敌人进行破坏。",
+   "legend": "Tupilaq是复仇的怪物，被安卡库克秘密制作并送去攻击敌人的存在。然而，发送tupilaq是危险的事情，如果攻击目标拥有更强大的魔法力量，tupilaq可能会返回并杀死其制造者。制造者可以通过公开忏悔自己的行为来摆脱危险。",
+   "variants": "在多个因纽特文化中存在与tupilaq类似的概念。例如，在伊格鲁利克（Igloolik）中，tupilaq被视为看不见的幽灵，只有安卡库克能够识别它。在基瓦利尔米乌特（Kivalirmiut）中，它被描述为由人类头部和各种动物部位组成的奇美拉（chimera）般的存在。在格林兰，tupilaq被认为是物理的人类制造物，旨在对敌人造成伤害。",
+   "culture": "如今，tupilaq以各种形式和大小被雕刻，成为格林兰因纽特艺术的重要部分，并作为收藏品具有很高的价值。"
+  },
+  "ja": {
+   "origin": "Tupilaq（トゥピラック）は、イヌイットの宗教、特にグリーンランドに由来する概念で、アンガクク（シャーマンまたは呪術師）によって作られた復讐の怪物である。この怪物は、動物の部位（骨、皮、毛、腱など）や、さらには子供の死体から持ってきた部品を使用して制作された。儀式的な歌を通じて命を与えられた後、特定の敵を見つけて破壊するために海に置かれた。",
+   "legend": "Tupilaqは復讐の怪物であり、アンガククが秘密裏に制作し、敵を攻撃するために送る存在として伝えられている。しかし、tupilaqを送ることは危険なことであり、もし攻撃対象がより強力な魔法的力を持っている場合、tupilaqは制作者の元に戻って殺すことができた。制作者は自らの行為を公然と告白することで危険から逃れることができた。",
+   "variants": "いくつかのイヌイット文化にはtupilaqに類似した概念が存在する。例えば、イグルリクではtupilaqが見えない幽霊であり、アンガククだけがそれを認識できた。キバリルミウトでは、人間の頭とさまざまな動物の部位から成るキメラのような存在として描かれた。グリーンランドではtupilaqが物理的な人間の創造物として現れ、敵に害を与えるために作られたと考えられている。",
+   "culture": "今日、tupilaqはさまざまな形とサイズで彫刻され、グリーンランドのイヌイット芸術の重要な部分を占めており、コレクションとして高い価値を持っている。"
+  }
+ }
+}

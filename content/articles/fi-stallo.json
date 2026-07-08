@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Stallo",
+ "sourceLang": "en",
+ "sourceChars": 2502,
+ "generatedAt": "2026-07-08T03:24:43.036Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "사미 민속에서 Stállo(또는 Staaloe, Stalo, 북부 사미어 Stállu)는 사람을 잡아먹는 것을 좋아하는 크고 인간 같은 생물로 전해진다. Stállo는 서투르고 지능이 낮아 인간이 종종 그들보다 우위를 점할 수 있다. 전설에 따르면, Stállo는 힘을 증명하기 위해 Giengeljaure 호수 근처의 작은 자갈 위에 놓인 거대한 돌인 'stalostenen'을 놓았다고 한다.",
+   "variants": "사미 지역의 고대 건물 유적이 'Stallo'와 관련이 있다고 여겨지면서, 고고학자들은 이러한 유적을 'Stallo 사이트'라고 부르게 되었다. 이러한 건물은 실제로 직경이 4~6미터인 둥글거나 타원형으로, 두 개에서 여덟 개(드물게는 열다섯 개까지)까지 선형으로 배열되어 있다. 현재까지 약 60개의 Stallo 사이트가 알려져 있으며, 노르웨이-스웨덴 국경을 따라 분포하고 있다. 이들은 대부분 800~1050년경, 즉 바이킹 시대에 가장 광범위하게 사용된 것으로 보인다.",
+   "culture": "Stallo는 'Stalos가 어떻게 속았는가', 'Stalo och Kauras', 'Njunje Paggas의 이야기'와 같은 사미 민속 이야기에서 등장한다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "In Sámi folklore, Stállo (or Staaloe, Stalo, Northern Sámi Stállu) is described as a large, human-like creature that enjoys eating people. Stállo is clumsy and has low intelligence, allowing humans to often gain the upper hand over them. According to legend, Stállo placed a massive stone called 'stalostenen' on a small pebble near Lake Giengeljaure to prove its strength.",
+   "variants": "As ancient building ruins in the Sámi region are believed to be related to 'Stallo', archaeologists have come to refer to these ruins as 'Stallo sites'. These structures are actually round or oval in shape, with diameters ranging from 4 to 6 meters, and are arranged linearly from two to eight (rarely up to fifteen). To date, about 60 Stallo sites are known, distributed along the Norway-Sweden border. They appear to have been most widely used around 800 to 1050 AD, during the Viking Age.",
+   "culture": "Stállo appears in Sámi folktales such as 'How Stalos was Deceived', 'Stalo och Kauras', and 'The Story of Njunje Paggas'."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "在萨米民俗中，Stállo（或Staaloe、Stalo，北萨米语Stállu）被传说为一种喜欢吃人的大型类人生物。Stállo笨拙且智力低下，人类常常能够占据优势。传说中，Stállo为了证明自己的力量，将一块巨石放置在Giengeljaure湖附近的小卵石上，这块巨石被称为'stalostenen'。",
+   "variants": "随着萨米地区古代建筑遗址被认为与'Stallo'有关，考古学家将这些遗址称为'Stallo遗址'。这些建筑实际上呈圆形或椭圆形，直径为4~6米，线性排列的数量从两个到八个（偶尔可达十五个）。截至目前，已知约有60个Stallo遗址，分布在挪威-瑞典边界沿线。这些遗址大多在公元800年至1050年间，即维京时代被广泛使用。",
+   "culture": "Stallo出现在萨米民俗故事中，如'Stalos是如何被欺骗的'、'Stalo och Kauras'、'Njunje Paggas的故事'。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "サミの民俗において、Stállo（またはStaaloe、Stalo、北部サミ語でStállu）は、人を捕まえて食べることを好む大きな人間のような生物として伝えられている。Stálloは不器用で知能が低いため、人間はしばしば彼らよりも優位に立つことができる。伝説によれば、Stálloは力を証明するために、Giengeljaure湖近くの小さな砂利の上に置かれた巨大な石「stalostenen」を置いたと言われている。",
+   "variants": "サミ地域の古代建物の遺跡が「Stallo」と関連していると考えられ、考古学者たちはこれらの遺跡を「Stalloサイト」と呼ぶようになった。これらの建物は実際に直径4〜6メートルの円形または楕円形で、2個から8個（まれに15個まで）線形に配置されている。現在までに約60のStalloサイトが知られており、ノルウェー-スウェーデン国境に沿って分布している。これらはほとんどが800〜1050年頃、つまりバイキング時代に最も広範囲に使用されていたと考えられている。",
+   "culture": "Stalloは「Stalosがどのように騙されたか」、「Stalo och Kauras」、「Njunje Paggasの物語」といったサミの民俗物語に登場する。"
+  }
+ }
+}

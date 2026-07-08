@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Blue men of the Minch",
+ "sourceLang": "en",
+ "sourceChars": 7538,
+ "generatedAt": "2026-07-08T03:25:49.305Z",
+ "locales": {
+  "ko": {
+   "origin": "블루 맨의 전설은 스코틀랜드의 역사적 배경과 관련이 있다. 맥켄지의 설명에 따르면, 이 전설은 아일랜드 연대기와 관련이 있으며, 하랄드 페어헤어 시대, 즉 최초의 노르웨이 왕과 그의 바이킹들과의 전투 시기로 거슬러 올라간다. 스코틀랜드 게일어에서 'fir ghorma'는 '푸른 남자'를 의미하며, 이는 흑인을 지칭하는 표현으로도 사용되었다. 9세기경, 바이킹들은 포로로 잡은 무어인을 아일랜드로 데려갔고, 그들은 시안트 제도 근처에서 겨울을 보냈다. 맥켄지는 블루 맨의 이야기를 '고립된 외국인 노예'에 기인한다고 주장한다.",
+   "legend": "블루 맨은 스코틀랜드의 북부 외헤브리디 제도와 본토 스코틀랜드 사이의 해역에 사는 신화적 존재로, 선원들을 익사시키고 배를 침몰시키는 것으로 알려져 있다. 이들은 인간과 비슷한 외모를 지니고 있으며, 파란색 피부를 가지고 있다. 블루 맨은 폭풍을 일으킬 수 있는 능력을 지니고 있으며, 날씨가 좋을 때는 물 표면에서 잠을 자거나 떠 있다. 이들은 몸통을 물 위로 드러내고 돌고래처럼 수영하며, 배에 접근할 때는 선장에게 시를 외치고 그가 구절을 완성하지 못하면 배를 뒤집으려 한다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "The legend of the Blue Man is related to the historical background of Scotland. According to Mackenzie, this legend is connected to the Irish chronicles and dates back to the time of Harald Fairhair, the first king of Norway, and his battles with the Vikings. In Scottish Gaelic, 'fir ghorma' means 'blue man,' which was also used as a term to refer to black people. Around the 9th century, the Vikings brought captured Moors to Ireland, and they spent the winter near the Shiant Islands. Mackenzie claims that the story of the Blue Man is attributed to 'isolated foreign slaves.'",
+   "legend": "The Blue Man is a mythical being that lives in the waters between the northern Outer Hebrides of Scotland and mainland Scotland, known for drowning sailors and sinking ships. They have a human-like appearance and possess blue skin. The Blue Man has the ability to create storms, and when the weather is good, they can be seen sleeping or floating on the water's surface. They expose their torso above the water and swim like dolphins, and when approaching a ship, they recite poetry to the captain, attempting to flip the boat if he fails to complete the verse.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "蓝人传说与苏格兰的历史背景有关。根据麦肯齐的解释，这个传说与爱尔兰编年史有关，追溯到哈拉尔德·费尔海尔时代，即第一位挪威国王及其维京人与之战斗的时期。在苏格兰盖尔语中，'fir ghorma'意为'蓝色男人'，这也是用来指代黑人的表达。大约在9世纪，维京人将被俘的摩尔人带到爱尔兰，他们在西安特群岛附近度过了冬天。麦肯齐主张蓝人的故事源于'孤立的外国奴隶'。",
+   "legend": "蓝人是生活在苏格兰北部外赫布里底群岛与苏格兰本土之间海域的神话生物，以淹死水手和沉没船只而闻名。他们拥有与人类相似的外貌，皮肤呈蓝色。蓝人具有引发风暴的能力，天气晴朗时，他们会在水面上睡觉或漂浮。他们将身体露出水面，像海豚一样游泳，当接近船只时，会对船长吟诵诗句，如果他没有完成句子，就会试图翻船。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "ブルー・マンの伝説はスコットランドの歴史的背景に関連している。マッケンジーの説明によれば、この伝説はアイルランド年代記に関連しており、ハラルド・フェアヘアの時代、つまり最初のノルウェー王と彼のバイキングたちとの戦闘時期に遡る。スコットランド・ゲール語で「fir ghorma」は「青い男」を意味し、これは黒人を指す表現としても使われていた。9世紀頃、バイキングたちは捕虜にしたムーア人をアイルランドに連れて行き、彼らはシアン島近くで冬を過ごした。マッケンジーはブルー・マンの物語を「孤立した外国人奴隷」に起因すると主張している。",
+   "legend": "ブルー・マンはスコットランドの北部オーバーヘブリディーズ諸島と本土スコットランドの間の海域に住む神話的存在で、船員を溺死させたり船を沈めたりすることで知られている。彼らは人間に似た外見を持ち、青い肌をしている。ブルー・マンは嵐を引き起こす能力を持ち、天気が良い時には水面で眠ったり浮かんだりしている。彼らは胴体を水面に出し、イルカのように泳ぎ、船に近づくと船長に詩を詠みかけ、彼が詩の句を完成できない場合は船をひっくり返そうとする。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

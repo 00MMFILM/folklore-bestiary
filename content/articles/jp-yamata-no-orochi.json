@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Yamata no Orochi",
+ "sourceLang": "en",
+ "sourceChars": 31809,
+ "generatedAt": "2026-07-08T03:21:23.743Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "야마타노 오로치는 일본 신화에 등장하는 전설적인 여덟 개의 머리와 여덟 개의 꼬리를 가진 뱀이다. '코지키'와 '니혼 쇼키'에 따르면, 신 수사노오가 쿠시나다히메를 구하기 위해 이 뱀을 처치하였고, 그 과정에서 일본의 제국의 보물 중 하나인 쿠사나기노츠루기를 뱀의 꼬리에서 발견하였다.",
+   "variants": "",
+   "culture": "현지 전통에 따르면, 야마타노 오로치는 수사노오와의 전투에서 살아남아 이부키 산으로 도망쳤으며, 그곳에서 이부키 다이묘진으로 숭배되었다. 또한, 천황 안토쿠와 롱누가 야마타노 오로치의 화신으로 여겨지기도 하였다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Yamata no Orochi is a legendary serpent with eight heads and eight tails that appears in Japanese mythology. According to the 'Kojiki' and 'Nihon Shoki', the god Susanoo defeated this serpent to save Kushinadahime, and during the process, he discovered the Kusanagi no Tsurugi, one of Japan's imperial treasures, in the serpent's tail.",
+   "variants": "",
+   "culture": "According to local tradition, Yamata no Orochi survived the battle with Susanoo and fled to Mount Ibuki, where it was worshipped as Ibuki Daimyōjin. Additionally, Emperor Antoku and Longnu were also considered incarnations of Yamata no Orochi."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "八岐大蛇（Yamata no Orochi）是日本神话中出现的传说中的八头八尾的蛇。根据《古事记》（Kojiki）和《日本书纪》（Nihon Shoki），神祇须佐之男（Susanoo）为了拯救櫛名田比卖（Kushinadahime）而击败了这条蛇，并在过程中从蛇的尾巴上发现了日本帝国的宝物之一草薙剑（Kusanagi no Tsurugi）。",
+   "variants": "",
+   "culture": "根据当地传统，八岐大蛇在与须佐之男的战斗中幸存，逃到了伊吹山（Ibuki-san），在那里被崇拜为伊吹大神（Ibuki Daimyōjin）。此外，天皇安德（Antoku）和龙女（Rōnū）也被认为是八岐大蛇的化身。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ヤマタノオロチは日本神話に登場する伝説的な八つの頭と八つの尾を持つ蛇である。『古事記』と『日本書紀』によれば、神スサノオがクシナダヒメを救うためにこの蛇を退治し、その過程で日本の帝国の宝の一つであるクサナギノツルギを蛇の尾から発見した。",
+   "variants": "",
+   "culture": "現地の伝統によれば、ヤマタノオロチはスサノオとの戦いで生き残り、イブキ山に逃げ込み、そこでイブキ大明神として崇拝された。また、天皇安徳とロンヌがヤマタノオロチの化身と見なされることもあった。"
+  }
+ }
+}

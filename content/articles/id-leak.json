@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Leak",
+ "sourceLang": "en",
+ "sourceChars": 11668,
+ "generatedAt": "2026-07-08T03:22:40.089Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "누수는 일반적으로 용기나 유체가 포함된 시스템에서 유체가 빠져나가는 방법(대개는 개구부)으로, 용기의 내용물이 빠져나가거나 외부 물질이 용기로 들어갈 수 있는 경로를 의미한다. 누수는 일반적으로 의도하지 않은 것이며 따라서 바람직하지 않다. 누수라는 용어는 일반적으로 점진적인 손실을 의미하며, 갑작스러운 손실은 일반적으로 유출(spill)이라고 불린다. 누수되는 물질은 기체, 액체, 점성이 높은 페이스트 또는 분말이나 과립 형태의 고체와 같은 유동화된 고체일 수 있다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "Leakage generally refers to the way in which a fluid escapes from a system containing a container or fluid (usually through an opening), meaning a path through which the contents of the container can escape or external substances can enter the container. Leakage is typically unintended and therefore undesirable. The term leakage generally implies a gradual loss, while a sudden loss is usually referred to as a spill. The leaking substance can be a fluidized solid such as a gas, liquid, highly viscous paste, or solid in the form of powder or granules.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "漏水通常是指在包含容器或液体的系统中，液体通过某种方式（通常是开口）流出，意味着容器的内容物流出或外部物质进入容器的路径。漏水通常是非故意的，因此是不受欢迎的。漏水一词通常意味着逐渐的损失，而突然的损失通常被称为溢出（spill）。漏水的物质可以是气体、液体、高粘度的膏状物或粉末或颗粒形式的固体等流动固体。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "漏れ（もれ、mori）は一般的に容器や流体が含まれたシステムにおいて、流体が外に出る方法（通常は開口部）を指し、容器の内容物が外に出たり、外部の物質が容器に入ることができる経路を意味します。漏れは一般的に意図しないものであり、したがって望ましくありません。漏れという用語は一般的に徐々に失われることを意味し、突然の損失は通常、流出（りゅうしゅつ、ryūshutsu）と呼ばれます。漏れ出す物質は気体、液体、高粘度のペースト、または粉末や顆粒状の固体などの流動化された固体である可能性があります。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

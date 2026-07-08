@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Lempo",
+ "sourceLang": "en",
+ "sourceChars": 5746,
+ "generatedAt": "2026-07-08T03:17:27.323Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "Lempo는 핀란드 민속과 신화에서 등장하는 악마로, 사랑과 불의 주제와 연결되어 있다. Lempo는 때때로 남성 악마로 이해되기도 하지만, Lemmes, Lemmas, Lemmätär와 같은 이름은 여성적인 의미를 지닌다. Christfried Ganander는 Lempo를 악한 비행 영혼으로 묘사하며, 악한 비행 화살을 만드는 존재로 언급하였다. 또한, Lempo는 불과 연결되어 있으며, 이는 Lempo가 불의 하르티자(haltiya)로서의 역할을 가질 수 있다는 이론을 낳았다. Lempo는 사랑의 신으로 개인화되기도 하였으며, 사랑의 마법에서 'Lempi'라는 이름으로 등장한다.",
+   "variants": "",
+   "culture": "기독교가 핀란드에 전파된 이후, Lempo의 평판은 악화되었으며, 민속에서 Lempo는 변덕스럽고 위험한 사랑의 영혼으로 묘사된다. Lempo는 영웅 Väinämöinen을 그의 두 악마 동료인 Hiisi와 Paha의 도움으로 무너뜨렸다. 핀란드어에서 'lempo'와 'hiisi'는 경미한 욕설로 사용되기도 한다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Lempo is a demon that appears in Finnish folklore and mythology, associated with themes of love and fire. Lempo is sometimes understood as a male demon, but names like Lemmes, Lemmas, and Lemmätär carry feminine connotations. Christfried Ganander describes Lempo as an evil flying spirit and mentions it as a being that creates evil flying arrows. Additionally, Lempo is connected to fire, which has led to the theory that Lempo could have a role as the fire haltiya. Lempo has also been personified as a god of love, appearing in love magic under the name 'Lempi.'",
+   "variants": "",
+   "culture": "After Christianity spread to Finland, Lempo's reputation deteriorated, and in folklore, Lempo is depicted as a capricious and dangerous spirit of love. Lempo helped the hero Väinämöinen to defeat his two demon companions, Hiisi and Paha. In Finnish, 'lempo' and 'hiisi' are also used as mild curses."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "Lempo是芬兰民俗和神话中的恶魔，与爱情和火的主题相关。Lempo有时被理解为男性恶魔，但像Lemmes、Lemmas、Lemmätär这样的名字则具有女性的含义。Christfried Ganander将Lempo描述为邪恶的飞行灵魂，并提到它是制造邪恶飞行箭矢的存在。此外，Lempo与火相关，这引发了Lempo可能作为火的哈尔提亚（haltiya）角色的理论。Lempo也被个性化为爱情之神，在爱情魔法中以'Lempi'的名字出现。",
+   "variants": "",
+   "culture": "基督教传入芬兰后，Lempo的声誉恶化，在民俗中，Lempo被描绘为善变和危险的爱情灵魂。Lempo通过他的两个恶魔同伴Hiisi和Paha的帮助，击败了英雄Väinämöinen。在芬兰语中，'lempo'和'hiisi'有时被用作轻微的骂人话。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "Lempo（レンポ）はフィンランドの民俗と神話に登場する悪魔で、愛と火のテーマと結びついている。Lempoは時に男性の悪魔として理解されることもあるが、Lemmes、Lemmas、Lemmätärといった名前は女性的な意味を持つ。Christfried GananderはLempoを悪しき飛行する魂として描写し、悪しき飛行の矢を作る存在として言及した。また、Lempoは火と結びついており、これはLempoが火のハルティジャ（haltiya）としての役割を持つ可能性があるという理論を生んだ。Lempoは愛の神として個性化されることもあり、愛の魔法では'Lempi'という名前で登場する。",
+   "variants": "",
+   "culture": "キリスト教がフィンランドに伝わった後、Lempoの評判は悪化し、民俗の中でLempoは気まぐれで危険な愛の魂として描かれる。Lempoは英雄Väinämöinenを彼の二人の悪魔の仲間であるHiisiとPahaの助けを借りて打ち倒した。フィンランド語では'lempo'と'hiisi'は軽い罵倒として使われることもある。"
+  }
+ }
+}

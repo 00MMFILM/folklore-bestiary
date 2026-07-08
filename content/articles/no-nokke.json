@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Nixie (folklore)",
+ "sourceLang": "en",
+ "sourceChars": 23130,
+ "generatedAt": "2026-07-08T03:17:43.523Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "Nokke는 독일 신화와 민속에서 등장하는 인간형의 물의 정령으로, 종종 형태를 바꿀 수 있는 능력을 지닌 존재로 알려져 있다. 이들은 스칸디나비아 민속에서 가장 잘 알려져 있으며, 여성 형태의 물의 정령인 독일의 Nixe와 남성 형태의 Nix가 대표적이다. Nokke는 매혹적인 음악을 연주하여 여성과 아이들을 호수나 개울로 유인하여 익사시키는 것으로 전해진다. 그러나 모든 이야기가 악의적인 것은 아니며, 일부 이야기에서는 Nokke가 사랑에 빠진 인간과 함께 살기로 동의하기도 한다. 이들은 보통 근처의 폭포나 개울에 거주하는 것으로 묘사된다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "Nokke is a humanoid water spirit that appears in German mythology and folklore, often known for its ability to shapeshift. They are best known in Scandinavian folklore, with the female water spirit known as the Nixe and the male form called Nix being representative. Nokke is said to play enchanting music to lure women and children to lakes or streams to drown them. However, not all stories are malevolent, as in some tales, Nokke agrees to live with a human they have fallen in love with. They are typically described as residing near waterfalls or streams.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "Nokke是德国神话和民俗中出现的人形水精灵，通常被认为具有变形的能力。它们在斯堪的纳维亚民俗中最为人知，女性形态的水精灵是德国的Nixe，男性形态的则是Nix。Nokke被传说以迷人的音乐引诱女性和儿童到湖泊或小溪中淹死。然而，并不是所有的故事都是恶意的，在一些故事中，Nokke同意与一个爱上了的人类一起生活。它们通常被描绘为居住在附近的瀑布或小溪中。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ノッケ（Nokke）は、ドイツの神話や民俗に登場する人型の水の精霊で、しばしば形を変える能力を持つ存在として知られています。彼らはスカンジナビアの民俗で最もよく知られており、女性の形をした水の精霊であるドイツのニクス（Nixe）と男性の形をしたニクス（Nix）が代表的です。ノッケは魅惑的な音楽を演奏して女性や子供たちを湖や小川に誘い込み、溺れさせると伝えられています。しかし、すべての物語が悪意のあるものではなく、一部の物語ではノッケが恋に落ちた人間と一緒に暮らすことに同意することもあります。彼らは通常、近くの滝や小川に住んでいると描写されています。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

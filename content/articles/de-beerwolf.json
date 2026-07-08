@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Beerwolf",
+ "sourceLang": "en",
+ "sourceChars": 1952,
+ "generatedAt": "2026-07-08T03:20:43.073Z",
+ "locales": {
+  "ko": {
+   "origin": "Beerwolf는 독일 민속 이야기의 괴물로, 일반적으로 늑대인간으로 알려져 있다. 1539년, 필립 헤세와 작센 선제후가 주최한 토론에서, 마르틴 루터는 교황과 황제를 설명하기 위해 Beerwolf 개념을 도입했다. 이 시기는 신성 로마 제국의 카를 5세가 루터파를 공격할 준비를 하고 있었던 때였다.",
+   "legend": "Beerwolf는 단순한 폭군과는 달리 법을 어지럽히고 도덕적 질서를 전복하는 존재로 전해진다. 루터는 이러한 폭군에 대해 모든 피지배자는 저항할 권리가 있으며, 심지어 그와 그의 지지자들을 죽일 권리도 있다고 주장했다. 루터는 황제와 교황이 바로 그러한 종말론적 폭군이라고 생각했으며, 현재의 상황이 그들에 대한 저항을 정당화한다고 보았다.",
+   "variants": "",
+   "culture": "Beerwolf라는 용어는 저항 이론에서 중요한 의미를 지닌다. 루터는 평생 동안 세속적인 통치자에 대한 적극적인 저항이 불가능하다고 여겼으나, Beerwolf 개념은 그의 저항 이론에서 가장 극단적인 입장을 나타낸다. 이 개념은 자연법에 의존하며, 이후 독일 헌법법에서 인정된 제한된 저항 권리와는 다른 접근 방식을 보여준다."
+  },
+  "en": {
+   "origin": "Beerwolf is a creature from German folklore, commonly known as a werewolf. In 1539, during a debate hosted by Philip of Hesse and the Elector of Saxony, Martin Luther introduced the concept of Beerwolf to describe the Pope and the Emperor. This was a time when Charles V of the Holy Roman Empire was preparing to attack the Lutherans.",
+   "legend": "Beerwolf is conveyed as a being that disrupts law and subverts moral order, unlike a mere tyrant. Luther argued that all subjects have the right to resist such tyrants, even the right to kill him and his supporters. Luther believed that the Emperor and the Pope were precisely such apocalyptic tyrants and saw the current situation as justifying resistance against them.",
+   "variants": "",
+   "culture": "The term Beerwolf holds significant meaning in the theory of resistance. Luther considered active resistance against secular rulers impossible throughout his life, but the concept of Beerwolf represents the most extreme position in his theory of resistance. This concept relies on natural law and presents a different approach from the limited right of resistance recognized in later German constitutional law."
+  },
+  "zh": {
+   "origin": "Beerwolf是德国民间故事中的怪物，通常被称为狼人。1539年，菲利普·黑塞（Philip of Hesse）和萨克森选侯（Elector of Saxony）主持的讨论中，马丁·路德（Martin Luther）引入了Beerwolf的概念，以解释教皇和皇帝。这一时期正值神圣罗马帝国的查理五世（Charles V）准备攻击路德派之时。",
+   "legend": "Beerwolf被传达为一种颠覆法律和道德秩序的存在，而不仅仅是简单的暴君。路德主张所有被统治者都有权抵抗，甚至有权杀死他和他的支持者。路德认为皇帝和教皇正是这样的末世暴君，并认为当前的情况为对他们的抵抗提供了正当理由。",
+   "variants": "",
+   "culture": "Beerwolf这个术语在抵抗理论中具有重要意义。路德一生中认为对世俗统治者的积极抵抗是不可能的，但Beerwolf的概念代表了他抵抗理论中最极端的立场。这个概念依赖于自然法，并展示了一种与后来的德国宪法法中承认的有限抵抗权不同的方法。"
+  },
+  "ja": {
+   "origin": "Beerwolf（ビアウルフ）はドイツの民俗物語に登場する怪物で、一般的には人狼（じんろう）として知られている。1539年、フィリップ・ヘッセ（Philip Hesse）とザクセン選帝侯（Sachsen）によって開催された討論の中で、マルティン・ルター（Martin Luther）は教皇と皇帝を説明するためにBeerwolfの概念を導入した。この時期は神聖ローマ帝国のカール5世（Karl V）がルター派を攻撃する準備をしていた時であった。",
+   "legend": "Beerwolfは単なる暴君とは異なり、法を乱し道徳的秩序を覆す存在として伝えられている。ルターはこのような暴君に対して、すべての被支配者は抵抗する権利があり、さらには彼と彼の支持者を殺す権利さえもあると主張した。ルターは皇帝と教皇がまさにそのような終末論的暴君であると考え、現在の状況が彼らに対する抵抗を正当化すると見なしていた。",
+   "variants": "",
+   "culture": "Beerwolfという用語は抵抗理論において重要な意味を持つ。ルターは生涯にわたり世俗的な統治者に対する積極的な抵抗は不可能だと考えていたが、Beerwolfの概念は彼の抵抗理論における最も極端な立場を示している。この概念は自然法に依存しており、その後ドイツ憲法法で認められた制限された抵抗権とは異なるアプローチを示している。"
+  }
+ }
+}
