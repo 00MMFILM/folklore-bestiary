@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 142,
+  "lastCategoryIndex": 2,
   "processedPageIds": [
     27551093,
     40572945,
@@ -3180,7 +3180,51 @@
     1830983,
     1684332,
     34738520,
-    15795742
+    15795742,
+    2089814,
+    2336853,
+    230827,
+    23070820,
+    3606098,
+    541067,
+    10836835,
+    8531,
+    19911298,
+    9896,
+    831241,
+    2932071,
+    200198,
+    251892,
+    233794,
+    398604,
+    1851209,
+    1851210,
+    1851211,
+    593987,
+    2790519,
+    1332990,
+    3776891,
+    61341,
+    10855835,
+    21503914,
+    8471,
+    77399833,
+    707545,
+    3505929,
+    8400877,
+    32086778,
+    16784009,
+    56900149,
+    12524350,
+    92768,
+    2513168,
+    233478,
+    11154889,
+    41693107,
+    4253154,
+    277026,
+    33064179,
+    275209
   ],
   "discoveredCategories": [
     {
@@ -15190,10 +15234,50 @@
       "label": "Bavarian folklore",
       "discoveredFrom": "Perchta",
       "discoveredAt": 532
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:화신설화",
+      "iso": "_MULTI",
+      "label": "화신설화",
+      "discoveredFrom": "장자못 설화",
+      "discoveredAt": 533
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:중국 민속",
+      "iso": "CN",
+      "label": "중국 민속",
+      "discoveredFrom": "염매",
+      "discoveredAt": 533
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:전설의 포유류",
+      "iso": "_MULTI",
+      "label": "전설의 포유류",
+      "discoveredFrom": "장산범",
+      "discoveredAt": 533
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:호수 괴물",
+      "iso": "_MULTI",
+      "label": "호수 괴물",
+      "discoveredFrom": "천지의 괴물",
+      "discoveredAt": 533
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Algonquian mythology",
+      "iso": "US",
+      "label": "Algonquian mythology",
+      "discoveredFrom": "Jiibayaabooz",
+      "discoveredAt": 533
     }
   ],
-  "totalAdded": 2647,
-  "runs": 533,
-  "lastRun": "2026-07-08T19:09:15.103Z",
-  "lastDiscoveredIndex": 354
+  "totalAdded": 2662,
+  "runs": 534,
+  "lastRun": "2026-07-09T02:04:33.380Z",
+  "lastDiscoveredIndex": 357
 }
