@@ -1006,6 +1006,12 @@ async function main() {
       // _MULTI일 경우 creature의 ISO도 교정
       if (catDef.iso === '_MULTI') {
         creature.id = `${targetIso.toLowerCase()}-${creature.id.split('-').slice(1).join('-')}`;
+        // id 재작성 후 재검사 — 최초 isDuplicate는 옛 id로 실행됐으므로
+        // 재배정된 id가 대상 국가의 기존 크리처와 충돌할 수 있음 (예: Black Shuck 중복)
+        if (isDuplicate(creature, data, state)) {
+          console.log(`   ⏭️ ${creature.n}(${creature.ln}) — 국가 재배정 후 중복, 스킵`);
+          continue;
+        }
       }
 
       country.b.push(creature);
