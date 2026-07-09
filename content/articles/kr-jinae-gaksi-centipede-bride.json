@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "이물교구 설화 채록",
+ "sourceLang": "ko",
+ "factBased": true,
+ "generatedAt": "2026-07-09T10:14:56.707Z",
+ "locales": {
+  "ko": {
+   "origin": "지네각시는 지네가 여인으로 둔갑해 사람과 부부의 연을 맺는다는 한국의 이물교구(異物交媾) 설화 속 존재다.",
+   "legend": "가난한 남자가 아름다운 여인을 만나 함께 살며 부유해지는데, 그 여인이 실은 지네의 화신이다. 여인의 본모습(지네)을 보아서는 안 된다는 금기가 핵심이며, 남자가 금기를 어기면 인연이 깨진다. 이 설화는 은혜와 배신, 금기 위반이라는 설화적 모티프가 담겨 있다.",
+   "variants": "'팔백이 설화'로도 알려져 있으며 인간이 되려는 요물로 지네가 등장하는 대표 유형이다.",
+   "culture": ""
+  },
+  "en": {
+   "origin": "The Jinegakssi is a being from Korean folklore that transforms from a centipede into a woman and forms a marital bond with a human.",
+   "legend": "A poor man meets a beautiful woman and lives with her, becoming wealthy, but the woman is actually the embodiment of a centipede. The taboo of not being able to see the woman's true form (the centipede) is crucial, and if the man breaks this taboo, their bond is severed. This tale contains motifs of grace, betrayal, and taboo violation.",
+   "variants": "'Palbaegi Tale' is also known as a representative type where a creature appears trying to become human.",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "地蜈蚣是蜈蚣化身为女性与人类结为夫妻的韩国异物交配传说中的存在。",
+   "legend": "一个贫穷的男人遇到一个美丽的女人，与她共同生活并变得富裕，但这个女人实际上是蜈蚣的化身。女人的本来面目（蜈蚣）是不能被看到的，这个禁忌是关键，如果男人违反了禁忌，缘分就会破裂。这个传说包含了恩惠、背叛和禁忌违反的传说性主题。",
+   "variants": "'八百二传说'也被称为蜈蚣作为想要成为人类的妖物出现的代表类型。",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "ジネガクシは、ジネが女性に変身して人間と夫婦の縁を結ぶという韓国の異物交媾の伝説に登場する存在です。",
+   "legend": "貧しい男が美しい女性と出会い、一緒に暮らして裕福になるが、その女性は実はジネの化身である。女性の本来の姿（ジネ）を見ることは禁忌であり、男がその禁忌を破ると縁が切れてしまう。この伝説は恩恵と裏切り、禁忌の違反という伝説的モチーフが含まれています。",
+   "variants": "'パルペクイ伝説'としても知られ、人間になりたい妖物としてジネが登場する代表的なタイプです。",
+   "culture": ""
+  }
+ }
+}

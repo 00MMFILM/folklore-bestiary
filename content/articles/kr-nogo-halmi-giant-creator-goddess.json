@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "한국 창세신화 채록",
+ "sourceLang": "ko",
+ "factBased": true,
+ "generatedAt": "2026-07-09T10:15:02.703Z",
+ "locales": {
+  "ko": {
+   "origin": "노고할미(노구할미)는 제주도를 비롯한 여러 지역에 전해지는 창세신화 속 거인 여신으로, 대지모신적 성격을 지닌 존재입니다.",
+   "legend": "그녀는 몸집이 산과 강을 만들 만큼 거대한 창조신으로 묘사되며, 자연 지형을 창조한 설화가 각지에 전해집니다.",
+   "variants": "제주의 설문대할망, 지리산 마고할미 등과 같은 계열의 거인 여신 신화로 여겨집니다.",
+   "culture": "태초의 창조와 풍요를 관장하는 대모신 관념이 반영된 존재입니다."
+  },
+  "en": {
+   "origin": "Nogo Halmi (Nogu Halmi) is a giant goddess from creation myths passed down in various regions, including Jeju Island, and is an entity with a mother goddess-like nature.",
+   "legend": "She is described as a colossal creator deity, large enough to create mountains and rivers, with tales of her creating natural landscapes passed down in various places.",
+   "variants": "Considered to be a myth of giant goddesses in the same lineage as Jeju's Seolmundae Halmi and Jirisan's Mago Halmi.",
+   "culture": "She reflects the concept of a great mother goddess overseeing primordial creation and abundance."
+  },
+  "zh": {
+   "origin": "노고할미(노구할미)是传说中在济州岛及多个地区流传的创世神话中的巨人女神，具有大地母神的特性。",
+   "legend": "她被描绘为身躯巨大到足以创造山川的创世神，关于创造自然地形的传说在各地流传。",
+   "variants": "被视为与济州的设问大妺、智异山的玛姑大妺等同类的巨人女神神话。",
+   "culture": "反映了掌管最初创造和丰饶的大母神观念的存在。"
+  },
+  "ja": {
+   "origin": "ノゴハルミ（ノグハルミ）は、済州島をはじめとするいくつかの地域に伝わる創世神話の中の巨人女神で、大地母神的性格を持つ存在です。",
+   "legend": "彼女は体が山や川を作るほど巨大な創造神として描かれ、自然地形を創造した伝説が各地に伝わっています。",
+   "variants": "済州の設問大ハルマン、智異山のマゴハルミなどと同系統の巨人女神神話と見なされています。",
+   "culture": "太初の創造と豊穣を司る大母神観念が反映された存在です。"
+  }
+ }
+}

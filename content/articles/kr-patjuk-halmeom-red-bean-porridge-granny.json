@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "한국 누적형 전래 설화 채록",
+ "sourceLang": "ko",
+ "factBased": true,
+ "generatedAt": "2026-07-09T10:15:22.624Z",
+ "locales": {
+  "ko": {
+   "origin": "〈팥죽 할멈과 호랑이〉는 할머니를 잡아먹으려는 호랑이를 여러 사물이 협력해 물리치는 한국의 누적형 전래 설화이다.",
+   "legend": "호랑이가 팥죽을 쑤는 할머니를 잡아먹으려 하자 할머니는 팥죽을 다 쑤어 먹을 때까지 기다려 달라고 한다. 알밤·자라·물찌똥·송곳·지게·멍석 등이 할머니의 사연을 듣고 도와주기로 한다. 밤은 호랑이 눈에 튀고, 자라는 손을 물고, 물찌똥에 미끄러지며, 멍석에 말려 지게에 실려 물에 버려진다.",
+   "variants": "이형·별칭(없으면 \"\")",
+   "culture": "작고 하찮은 것들이 힘을 합쳐 강자를 이긴다는 주제를 담은 대표적 누적담이다."
+  },
+  "en": {
+   "origin": "The tale of 'The Old Woman and the Tiger' is a cumulative Korean folktale in which various objects work together to defeat a tiger that tries to eat an old woman.",
+   "legend": "When the tiger tries to eat the old woman who is cooking red bean porridge, she asks the tiger to wait until she finishes cooking. Chestnuts, a turtle, a water droplet, a nail, a carrying frame, and a mat hear the old woman's plea and decide to help. The chestnut hits the tiger's eye, the turtle bites its hand, the water droplet makes it slip, and it gets rolled up in the mat and carried away in the frame to be thrown into the water.",
+   "variants": "This version has no alternative titles.",
+   "culture": "This is a representative cumulative tale that embodies the theme of small and insignificant things uniting to overcome a stronger opponent."
+  },
+  "zh": {
+   "origin": "《红豆粥奶奶与老虎》是一个韩国的累积型民间传说，讲述了多个物体合作击败想要吃掉奶奶的老虎的故事。",
+   "legend": "老虎想要吃掉正在煮红豆粥的奶奶，奶奶请求老虎等她把红豆粥煮好。栗子、乌龟、水滑子、锥子、担架、草席等听到奶奶的故事后决定帮助她。栗子让老虎的眼睛受伤，乌龟咬住老虎的手，水滑子让老虎滑倒，草席把老虎卷起来，担架把老虎扔进水里。",
+   "variants": "异型·别称(如果没有则为\"\")",
+   "culture": "这是一个典型的累积故事，传达了小而微不足道的事物团结起来战胜强者的主题。"
+  },
+  "ja": {
+   "origin": "〈小豆粥のおばあさんと虎〉は、おばあさんを食べようとする虎を様々な物が協力して打ち負かす韓国の累積型伝説である。",
+   "legend": "虎がおばあさんが小豆粥を作るのを食べようとしたので、おばあさんは小豆粥を全部作り終えるまで待ってほしいと頼む。栗・亀・水溜り・釘・担ぎ棒・敷物などが、おばあさんの話を聞いて助けることにする。栗は虎の目に飛び込み、亀は虎の手を噛み、水溜りに滑り、敷物に巻かれて担ぎ棒に乗せられ、水に捨てられる。",
+   "variants": "異形・別称（なければ \"\"）",
+   "culture": "小さくて無価値なものが力を合わせて強者を打ち負かすというテーマを持った代表的な累積物語である。"
+  }
+ }
+}

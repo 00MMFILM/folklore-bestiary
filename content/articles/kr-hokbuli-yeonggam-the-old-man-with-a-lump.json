@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "한국 전래 설화 채록",
+ "sourceLang": "ko",
+ "factBased": true,
+ "generatedAt": "2026-07-09T10:15:11.510Z",
+ "locales": {
+  "ko": {
+   "origin": "혹부리 영감은 도깨비를 속여 부자가 된 노인의 이야기로, 한국 전역에 전승되는 대표적 도깨비 설화이다.",
+   "legend": "착한 혹부리 영감이 산에서 길을 잃고 도깨비 소굴에서 노래를 부르는데, 도깨비들이 '그 좋은 소리가 혹에서 나온다'고 믿는다. 도깨비들은 혹을 떼어 가고 그 대가로 보물을 잔뜩 준다. 이를 들은 심술궂은 혹부리 영감이 흉내 내지만, 혹을 하나 더 붙이고 매를 맞고 돌아온다. 착한 이는 복을 받고 욕심부린 이는 벌을 받는 권선징악의 구조를 지닌다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "The story of the hunchbacked old man who became rich by deceiving a goblin is a representative goblin folklore passed down throughout Korea.",
+   "legend": "The kind hunchbacked old man gets lost in the mountains and sings in a goblin's lair, where the goblins believe that the beautiful sound comes from his hump. The goblins take the hump away and give him a lot of treasures in return. Hearing this, the malicious hunchbacked old man tries to imitate him but ends up adding another hump and returns after being beaten. This story has a moral structure of rewarding the good and punishing the greedy.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "或部里老人是一个欺骗鬼怪而致富的老人的故事，是在韩国各地流传的代表性鬼怪传说。",
+   "legend": "善良的或部里老人迷路在山中，在鬼怪的洞穴里唱歌，鬼怪们相信‘那美妙的声音是从肿块里发出来的’。鬼怪们把肿块割掉，作为回报给了他大量的宝物。听到这个的恶毒的或部里老人模仿他，但又多加了一个肿块，结果被打回来。善良的人得到福报，贪婪的人受到惩罚，体现了劝善惩恶的结构。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "ほくぶりおじいさんは、鬼を騙して裕福になった老人の話で、韓国全土に伝わる代表的な鬼の伝説である。",
+   "legend": "優しいほくぶりおじいさんが山で道に迷い、鬼の巣で歌を歌っていると、鬼たちは「その良い声はほくから出ている」と信じる。鬼たちはほくを取り去り、その代わりに宝物をたくさん与える。これを聞いた意地悪なほくぶりおじいさんは真似をするが、ほくを一つ増やして鞭で叩かれて帰ってくる。善良な者は報いを受け、欲深い者は罰を受けるという勧善懲悪の構造を持っている。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}
