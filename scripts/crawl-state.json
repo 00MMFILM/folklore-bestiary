@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 2,
+  "lastCategoryIndex": 5,
   "processedPageIds": [
     27551093,
     40572945,
@@ -3224,7 +3224,46 @@
     4253154,
     277026,
     33064179,
-    275209
+    275209,
+    1088999,
+    3713877,
+    359941,
+    726783,
+    1463166,
+    287967,
+    103266,
+    5293,
+    144709,
+    319392,
+    51972271,
+    82678638,
+    3626502,
+    51982393,
+    42606867,
+    9232193,
+    51971880,
+    51970555,
+    35101687,
+    38170871,
+    70977395,
+    8092560,
+    8334638,
+    36718437,
+    23727187,
+    6759357,
+    50611712,
+    17008589,
+    34416873,
+    9494646,
+    25658252,
+    74145200,
+    36427227,
+    6818443,
+    5696957,
+    23941311,
+    9158588,
+    2495391,
+    264917
   ],
   "discoveredCategories": [
     {
@@ -15274,10 +15313,50 @@
       "label": "Algonquian mythology",
       "discoveredFrom": "Jiibayaabooz",
       "discoveredAt": 533
+    },
+    {
+      "lang": "en",
+      "cat": "Category:The Seven Heroes and Five Gallants",
+      "iso": "_MULTI",
+      "label": "The Seven Heroes and Five Gallants",
+      "discoveredFrom": "The Crown Prince Replaced by a Cat",
+      "discoveredAt": 534
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Works about baby switching",
+      "iso": "_MULTI",
+      "label": "Works about baby switching",
+      "discoveredFrom": "The Crown Prince Replaced by a Cat",
+      "discoveredAt": 534
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales by Ion Creangă",
+      "iso": "_MULTI",
+      "label": "Fairy tales by Ion Creangă",
+      "discoveredFrom": "The Goat and Her Three Kids",
+      "discoveredAt": 534
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Child abduction in folklore",
+      "iso": "_MULTI",
+      "label": "Child abduction in folklore",
+      "discoveredFrom": "Hansel and Gretel",
+      "discoveredAt": 534
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about cannibalism",
+      "iso": "_MULTI",
+      "label": "Fairy tales about cannibalism",
+      "discoveredFrom": "Hansel and Gretel",
+      "discoveredAt": 534
     }
   ],
-  "totalAdded": 2662,
-  "runs": 534,
-  "lastRun": "2026-07-09T02:04:33.380Z",
-  "lastDiscoveredIndex": 357
+  "totalAdded": 2677,
+  "runs": 535,
+  "lastRun": "2026-07-09T09:22:28.237Z",
+  "lastDiscoveredIndex": 360
 }
