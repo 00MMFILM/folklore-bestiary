@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 5,
+  "lastCategoryIndex": 8,
   "processedPageIds": [
     27551093,
     40572945,
@@ -3263,7 +3263,39 @@
     23941311,
     9158588,
     2495391,
-    264917
+    264917,
+    8846,
+    2479716,
+    478601,
+    131121,
+    2863634,
+    9609,
+    8491,
+    4185706,
+    3595070,
+    3583759,
+    16010,
+    3595059,
+    725113,
+    3594689,
+    1631260,
+    16112,
+    3606364,
+    4188801,
+    228358,
+    404851,
+    3583756,
+    4185602,
+    5264,
+    6602907,
+    3516702,
+    1399679,
+    5970902,
+    6906579,
+    5592910,
+    74329140,
+    5316295,
+    6819304
   ],
   "discoveredCategories": [
     {
@@ -15353,10 +15385,58 @@
       "label": "Fairy tales about cannibalism",
       "discoveredFrom": "Hansel and Gretel",
       "discoveredAt": 534
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:계모설화",
+      "iso": "_MULTI",
+      "label": "계모설화",
+      "discoveredFrom": "콩쥐팥쥐전",
+      "discoveredAt": 535
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Russian literary fairy tales",
+      "iso": "RU",
+      "label": "Russian literary fairy tales",
+      "discoveredFrom": "The Tale of the Fisherman and the Fish",
+      "discoveredAt": 535
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Armenian fairy tales",
+      "iso": "AM",
+      "label": "Armenian fairy tales",
+      "discoveredFrom": "The Golden-Headed Fish",
+      "discoveredAt": 535
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Grateful dead (folklore)",
+      "iso": "_MULTI",
+      "label": "Grateful dead (folklore)",
+      "discoveredFrom": "The Golden-Headed Fish",
+      "discoveredAt": 535
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Haitian folklore",
+      "iso": "HT",
+      "label": "Haitian folklore",
+      "discoveredFrom": "Tezin Nan Dlo",
+      "discoveredAt": 535
+    },
+    {
+      "lang": "en",
+      "cat": "Category:North American fairy tales",
+      "iso": "_MULTI",
+      "label": "North American fairy tales",
+      "discoveredFrom": "Tezin Nan Dlo",
+      "discoveredAt": 535
     }
   ],
-  "totalAdded": 2677,
-  "runs": 535,
-  "lastRun": "2026-07-09T09:22:28.237Z",
-  "lastDiscoveredIndex": 360
+  "totalAdded": 2692,
+  "runs": 536,
+  "lastRun": "2026-07-09T14:33:14.925Z",
+  "lastDiscoveredIndex": 363
 }
