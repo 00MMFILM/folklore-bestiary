@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 8,
+  "lastCategoryIndex": 11,
   "processedPageIds": [
     27551093,
     40572945,
@@ -3295,7 +3295,34 @@
     5592910,
     74329140,
     5316295,
-    6819304
+    6819304,
+    41862945,
+    75791909,
+    61364740,
+    48886351,
+    2207451,
+    14949242,
+    6027555,
+    382314,
+    3834655,
+    1949854,
+    3501385,
+    24956053,
+    22800282,
+    84256,
+    11133587,
+    18682409,
+    18344788,
+    42524064,
+    2994032,
+    9103547,
+    1615233,
+    13912871,
+    4009,
+    45587510,
+    37369523,
+    70010519,
+    24277
   ],
   "discoveredCategories": [
     {
@@ -15433,10 +15460,82 @@
       "label": "North American fairy tales",
       "discoveredFrom": "Tezin Nan Dlo",
       "discoveredAt": 535
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Godzilla (franchise) kaiju",
+      "iso": "_MULTI",
+      "label": "Godzilla (franchise) kaiju",
+      "discoveredFrom": "Baragon",
+      "discoveredAt": 536
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Big Hero 6 characters",
+      "iso": "_MULTI",
+      "label": "Big Hero 6 characters",
+      "discoveredFrom": "Baymax",
+      "discoveredAt": 536
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of Indiana",
+      "iso": "_MULTI",
+      "label": "Folklore of Indiana",
+      "discoveredFrom": "Beast of Busco",
+      "discoveredAt": 536
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of Michigan",
+      "iso": "_MULTI",
+      "label": "Folklore of Michigan",
+      "discoveredFrom": "Bessie (lake monster)",
+      "discoveredAt": 536
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of Vermont",
+      "iso": "_MULTI",
+      "label": "Folklore of Vermont",
+      "discoveredFrom": "Champ (folklore)",
+      "discoveredAt": 536
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Monster mascots",
+      "iso": "_MULTI",
+      "label": "Monster mascots",
+      "discoveredFrom": "Champ (folklore)",
+      "discoveredAt": 536
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of Montana",
+      "iso": "_MULTI",
+      "label": "Folklore of Montana",
+      "discoveredFrom": "Flathead Lake Monster",
+      "discoveredAt": 536
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of New York (state)",
+      "iso": "_MULTI",
+      "label": "Folklore of New York (state)",
+      "discoveredFrom": "Hudson River Monster",
+      "discoveredAt": 536
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological molluscs",
+      "iso": "_MULTI",
+      "label": "Mythological molluscs",
+      "discoveredFrom": "Lagarfljót Worm",
+      "discoveredAt": 536
     }
   ],
-  "totalAdded": 2692,
-  "runs": 536,
-  "lastRun": "2026-07-09T14:33:14.925Z",
-  "lastDiscoveredIndex": 363
+  "totalAdded": 2699,
+  "runs": 537,
+  "lastRun": "2026-07-09T19:23:29.904Z",
+  "lastDiscoveredIndex": 366
 }
