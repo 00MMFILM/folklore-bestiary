@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 11,
+  "lastCategoryIndex": 14,
   "processedPageIds": [
     27551093,
     40572945,
@@ -3322,7 +3322,20 @@
     45587510,
     37369523,
     70010519,
-    24277
+    24277,
+    507313,
+    70249069,
+    1657929,
+    81305397,
+    269135,
+    8886417,
+    1632989,
+    82542036,
+    57393000,
+    269152,
+    19467622,
+    66710498,
+    51412656
   ],
   "discoveredCategories": [
     {
@@ -15532,10 +15545,50 @@
       "label": "Mythological molluscs",
       "discoveredFrom": "Lagarfljót Worm",
       "discoveredAt": 536
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Australian legendary creatures",
+      "iso": "AU",
+      "label": "Australian legendary creatures",
+      "discoveredFrom": "Hoop snake",
+      "discoveredAt": 537
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Italian legendary creatures",
+      "iso": "IT",
+      "label": "Italian legendary creatures",
+      "discoveredFrom": "Lariosauro",
+      "discoveredAt": 537
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fiction about cryptids",
+      "iso": "_MULTI",
+      "label": "Fiction about cryptids",
+      "discoveredFrom": "The Monster of \"Partridge Creek\"",
+      "discoveredAt": 537
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of the Pacific Northwest",
+      "iso": "_MULTI",
+      "label": "Folklore of the Pacific Northwest",
+      "discoveredFrom": "Ogopogo",
+      "discoveredAt": 537
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Zulu mythology",
+      "iso": "ZA",
+      "label": "Zulu mythology",
+      "discoveredFrom": "Amadlozi",
+      "discoveredAt": 537
     }
   ],
-  "totalAdded": 2699,
-  "runs": 537,
-  "lastRun": "2026-07-09T19:23:29.904Z",
-  "lastDiscoveredIndex": 366
+  "totalAdded": 2701,
+  "runs": 538,
+  "lastRun": "2026-07-10T02:03:01.417Z",
+  "lastDiscoveredIndex": 369
 }
