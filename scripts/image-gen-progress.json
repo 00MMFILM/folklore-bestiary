@@ -967,5 +967,15 @@
   "fr-beast-of-gevaudan": "/creatures/europe/beast-of-gevaudan.webp",
   "es-las-barbas-de-plata": "/creatures/europe/las-barbas-de-plata.webp",
   "us-malsumis": "/creatures/americas/malsumis.webp",
-  "jp-shuten-doji": "/creatures/east-asia/shuten-doji.webp"
+  "jp-shuten-doji": "/creatures/east-asia/shuten-doji.webp",
+  "za-kamappa": "/creatures/africa/kamappa.webp",
+  "in-mrtyu": "/creatures/south-asia/mrtyu.webp",
+  "lk-reeri-yakseya": "/creatures/south-asia/reeri-yakseya.webp",
+  "lk-sanni-yakuma": "/creatures/south-asia/sanni-yakuma.webp",
+  "ir-aeshma": "/creatures/south-asia/aeshma.webp",
+  "ir-apaosha": "/creatures/south-asia/apaosha.webp",
+  "ir-div-e-sepid": "/creatures/south-asia/div-e-sepid.webp",
+  "ir-vayu-vata": "/creatures/south-asia/vayu-vata.webp",
+  "sct-the-battle-of-the-birds": "/creatures/europe/sct-the-battle-of-the-birds.webp",
+  "it-thiess-of-kaltenbrun": "/creatures/europe/thiess-of-kaltenbrun.webp"
 }
