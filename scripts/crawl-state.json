@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 17,
+  "lastCategoryIndex": 20,
   "processedPageIds": [
     27551093,
     40572945,
@@ -3349,7 +3349,43 @@
     2487263,
     3038754,
     2538561,
-    278610
+    278610,
+    1186033,
+    906409,
+    1436705,
+    44647,
+    48020,
+    759671,
+    901239,
+    901216,
+    3925312,
+    2586453,
+    198971,
+    271717,
+    1311092,
+    1307180,
+    1342574,
+    1311089,
+    3589466,
+    3777526,
+    124704,
+    3842220,
+    3627991,
+    729834,
+    921287,
+    2721838,
+    450646,
+    1151660,
+    178871,
+    2281121,
+    2790513,
+    3819463,
+    4185933,
+    2558374,
+    3923970,
+    3244789,
+    611163,
+    3870548
   ],
   "discoveredCategories": [
     {
@@ -15767,10 +15803,202 @@
       "label": "해상 전설",
       "discoveredFrom": "멀라이언",
       "discoveredAt": 538
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:슬로베니아 신화",
+      "iso": "_MULTI",
+      "label": "슬로베니아 신화",
+      "discoveredFrom": "즐라토로크",
+      "discoveredAt": 539
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:미국 민속",
+      "iso": "US",
+      "label": "미국 민속",
+      "discoveredFrom": "쿠시타카",
+      "discoveredAt": 539
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:북아메리카의 신화",
+      "iso": "_MULTI",
+      "label": "북아메리카의 신화",
+      "discoveredFrom": "쿠시타카",
+      "discoveredAt": 539
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:그리스 신화의 괴물",
+      "iso": "_MULTI",
+      "label": "그리스 신화의 괴물",
+      "discoveredFrom": "키마이라",
+      "discoveredAt": 539
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:코린토스 신화",
+      "iso": "_MULTI",
+      "label": "코린토스 신화",
+      "discoveredFrom": "키마이라",
+      "discoveredAt": 539
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:노르드 신화에 관한 토막글",
+      "iso": "_MULTI",
+      "label": "노르드 신화에 관한 토막글",
+      "discoveredFrom": "가름 (노르드 신화)",
+      "discoveredAt": 539
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:잉글랜드 민속",
+      "iso": "_MULTI",
+      "label": "잉글랜드 민속",
+      "discoveredFrom": "가이트래시",
+      "discoveredAt": 539
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:게르만 신화",
+      "iso": "_MULTI",
+      "label": "게르만 신화",
+      "discoveredFrom": "검둥개",
+      "discoveredAt": 539
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:웨일스 신화",
+      "iso": "_MULTI",
+      "label": "웨일스 신화",
+      "discoveredFrom": "검둥개",
+      "discoveredAt": 539
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:아일랜드 민속",
+      "iso": "_MULTI",
+      "label": "아일랜드 민속",
+      "discoveredFrom": "다르쿠",
+      "discoveredAt": 539
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:스페인의 전설",
+      "iso": "_MULTI",
+      "label": "스페인의 전설",
+      "discoveredFrom": "딥 (카탈루냐 신화)",
+      "discoveredAt": 539
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:불교 전설의 생물",
+      "iso": "_MULTI",
+      "label": "불교 전설의 생물",
+      "discoveredFrom": "가루라",
+      "discoveredAt": 539
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 맹금류",
+      "iso": "_MULTI",
+      "label": "신화의 맹금류",
+      "discoveredFrom": "가루라",
+      "discoveredAt": 539
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:도야마현의 요괴",
+      "iso": "_MULTI",
+      "label": "도야마현의 요괴",
+      "discoveredFrom": "비비",
+      "discoveredAt": 539
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:시즈오카현의 요괴",
+      "iso": "_MULTI",
+      "label": "시즈오카현의 요괴",
+      "discoveredFrom": "비비",
+      "discoveredAt": 539
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 호랑이",
+      "iso": "_MULTI",
+      "label": "신화의 호랑이",
+      "discoveredFrom": "샤치호코",
+      "discoveredAt": 539
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:전설의 물고기",
+      "iso": "_MULTI",
+      "label": "전설의 물고기",
+      "discoveredFrom": "샤치호코",
+      "discoveredAt": 539
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:일본의 민속 예술",
+      "iso": "JP",
+      "label": "일본의 민속 예술",
+      "discoveredFrom": "시사 (오키나와)",
+      "discoveredAt": 539
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:전설의 거북",
+      "iso": "_MULTI",
+      "label": "전설의 거북",
+      "discoveredFrom": "영귀",
+      "discoveredAt": 539
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:이즈모 신화",
+      "iso": "_MULTI",
+      "label": "이즈모 신화",
+      "discoveredFrom": "이나바의 흰 토끼",
+      "discoveredAt": 539
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 여자",
+      "iso": "_MULTI",
+      "label": "신화의 여자",
+      "discoveredFrom": "바케네코",
+      "discoveredAt": 539
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:전설의 양서류",
+      "iso": "_MULTI",
+      "label": "전설의 양서류",
+      "discoveredFrom": "금두꺼비",
+      "discoveredAt": 539
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:평안남도의 괴물",
+      "iso": "_MULTI",
+      "label": "평안남도의 괴물",
+      "discoveredFrom": "금두꺼비",
+      "discoveredAt": 539
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 2인조",
+      "iso": "_MULTI",
+      "label": "신화의 2인조",
+      "discoveredFrom": "우두귀와 마두귀",
+      "discoveredAt": 539
     }
   ],
-  "totalAdded": 2703,
-  "runs": 539,
-  "lastRun": "2026-07-10T09:19:38.432Z",
-  "lastDiscoveredIndex": 372
+  "totalAdded": 2709,
+  "runs": 540,
+  "lastRun": "2026-07-10T14:02:01.918Z",
+  "lastDiscoveredIndex": 375
 }
