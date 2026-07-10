@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 14,
+  "lastCategoryIndex": 17,
   "processedPageIds": [
     27551093,
     40572945,
@@ -3335,7 +3335,21 @@
     269152,
     19467622,
     66710498,
-    51412656
+    51412656,
+    1193233,
+    1377529,
+    393509,
+    167454,
+    3935163,
+    181193,
+    73149,
+    426146,
+    61254,
+    13520,
+    2487263,
+    3038754,
+    2538561,
+    278610
   ],
   "discoveredCategories": [
     {
@@ -15585,10 +15599,178 @@
       "label": "Zulu mythology",
       "discoveredFrom": "Amadlozi",
       "discoveredAt": 537
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:노르드 신화의 생물",
+      "iso": "_MULTI",
+      "label": "노르드 신화의 생물",
+      "discoveredFrom": "다인, 드발린, 두네위르, 두라스로르",
+      "discoveredAt": 538
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:켈트 신화",
+      "iso": "_MULTI",
+      "label": "켈트 신화",
+      "discoveredFrom": "케르눈노스",
+      "discoveredAt": 538
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:그리스 신화에 관한 토막글",
+      "iso": "_MULTI",
+      "label": "그리스 신화에 관한 토막글",
+      "discoveredFrom": "케리네이아의 암사슴",
+      "discoveredAt": 538
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:그리스 신화의 생물",
+      "iso": "_MULTI",
+      "label": "그리스 신화의 생물",
+      "discoveredFrom": "케리네이아의 암사슴",
+      "discoveredAt": 538
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:러시아 신화",
+      "iso": "RU",
+      "label": "러시아 신화",
+      "discoveredFrom": "가마윤",
+      "discoveredAt": 538
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 새",
+      "iso": "_MULTI",
+      "label": "신화의 새",
+      "discoveredFrom": "가마윤",
+      "discoveredAt": 538
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:그리스 신화의 거인",
+      "iso": "_MULTI",
+      "label": "그리스 신화의 거인",
+      "discoveredFrom": "게리온",
+      "discoveredAt": 538
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:그리스 신화의 인물",
+      "iso": "_MULTI",
+      "label": "그리스 신화의 인물",
+      "discoveredFrom": "게리온",
+      "discoveredAt": 538
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:스페인 신화",
+      "iso": "_MULTI",
+      "label": "스페인 신화",
+      "discoveredFrom": "게리온",
+      "discoveredAt": 538
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:그리스 신화 속 의인",
+      "iso": "_MULTI",
+      "label": "그리스 신화 속 의인",
+      "discoveredFrom": "네메시스",
+      "discoveredAt": 538
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:닉스 (그리스 신화)의 자식",
+      "iso": "_MULTI",
+      "label": "닉스 (그리스 신화)의 자식",
+      "discoveredFrom": "네메시스",
+      "discoveredAt": 538
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:이집트 신화에 관한 토막글",
+      "iso": "_MULTI",
+      "label": "이집트 신화에 관한 토막글",
+      "discoveredFrom": "네프티스",
+      "discoveredAt": 538
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:메소포타미아의 전설의 생물",
+      "iso": "_MULTI",
+      "label": "메소포타미아의 전설의 생물",
+      "discoveredFrom": "라마수",
+      "discoveredAt": 538
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 소",
+      "iso": "_MULTI",
+      "label": "신화의 소",
+      "discoveredFrom": "라마수",
+      "discoveredAt": 538
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:전설의 파충류",
+      "iso": "_MULTI",
+      "label": "전설의 파충류",
+      "discoveredFrom": "마카라",
+      "discoveredAt": 538
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:힌두 신화의 생물",
+      "iso": "_MULTI",
+      "label": "힌두 신화의 생물",
+      "discoveredFrom": "마카라",
+      "discoveredAt": 538
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 사자",
+      "iso": "_MULTI",
+      "label": "신화의 사자",
+      "discoveredFrom": "만티코어",
+      "discoveredAt": 538
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:유럽의 전설의 생물",
+      "iso": "_MULTI",
+      "label": "유럽의 전설의 생물",
+      "discoveredFrom": "만티코어",
+      "discoveredAt": 538
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:페르시아의 전설의 생물",
+      "iso": "_MULTI",
+      "label": "페르시아의 전설의 생물",
+      "discoveredFrom": "만티코어",
+      "discoveredAt": 538
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:동남아시아의 전설의 생물",
+      "iso": "_MULTI",
+      "label": "동남아시아의 전설의 생물",
+      "discoveredFrom": "멀라이언",
+      "discoveredAt": 538
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:해상 전설",
+      "iso": "_MULTI",
+      "label": "해상 전설",
+      "discoveredFrom": "멀라이언",
+      "discoveredAt": 538
     }
   ],
-  "totalAdded": 2701,
-  "runs": 538,
-  "lastRun": "2026-07-10T02:03:01.417Z",
-  "lastDiscoveredIndex": 369
+  "totalAdded": 2703,
+  "runs": 539,
+  "lastRun": "2026-07-10T09:19:38.432Z",
+  "lastDiscoveredIndex": 372
 }
