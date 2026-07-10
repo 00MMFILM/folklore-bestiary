@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Kamappa",
+ "sourceLang": "en",
+ "sourceChars": 3002,
+ "generatedAt": "2026-07-10T08:48:27.965Z",
+ "locales": {
+  "ko": {
+   "origin": "Khanyapa는 Kgodumodumo의 동의어이자 후손일 가능성이 있다. Kgodumodumo는 고대 소토어로 '큰 소음'을 의미하는 것으로 보인다. 고고학자들은 Khanyapa가 산족의 파이썬 신의 영향을 받았다고 믿고 있다. 이 신화와 아프리카 사하라 이남의 다른 이야기들 사이에는 공통된 주제와 모티프가 존재한다.",
+   "legend": "Khanyapa는 바소토 민족의 전설 속에서 형체가 없는 탐욕스러운 괴물로 묘사된다. 이 괴물은 만나는 모든 생명을 삼켜버리며, 삼킬수록 점점 더 커진다. 여러 개의 날카로운 혀를 무기로 사용한다. Khanyapa는 'Ditaolane' 이야기에서 주요 적대자로 등장하며, 이 괴물은 인류를 억압하는 모든 것을 상징하고, 영웅에 의해 처치된다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Khanyapa may be a synonym and descendant of Kgodumodumo. Kgodumodumo seems to mean 'great noise' in ancient Sotho. Archaeologists believe that Khanyapa was influenced by the python god of the Sotho people. There are common themes and motifs between this myth and other stories from sub-Saharan Africa.",
+   "legend": "Khanyapa is described as a formless, greedy monster in the legends of the Basotho people. This monster swallows all life it encounters, growing larger the more it consumes. It uses multiple sharp tongues as weapons. Khanyapa appears as the main antagonist in the story 'Ditaolane', symbolizing everything that oppresses humanity, and is defeated by a hero.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "Khanyapa可能是Kgodumodumo的同义词和后裔。Kgodumodumo似乎在古代索托语中意为“巨大的噪音”。考古学家相信Khanyapa受到了山族的蟒蛇神的影响。在这个神话与撒哈拉以南非洲的其他故事之间存在共同的主题和动机。",
+   "legend": "Khanyapa在巴索托民族的传说中被描绘为一种无形的贪婪怪物。这个怪物吞噬遇到的所有生命，吞得越多，越变得庞大。它使用多条锋利的舌头作为武器。Khanyapa在'Ditaolane'故事中作为主要对手出现，这个怪物象征着压迫人类的一切，并被英雄所消灭。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "KhanyapaはKgodumodumoの同義語であり、子孫である可能性がある。Kgodumodumoは古代ソト語で「大きな騒音」を意味するようだ。考古学者たちはKhanyapaが山族のパイソンの神の影響を受けていると信じている。この神話とアフリカのサハラ以南の他の物語の間には共通のテーマとモチーフが存在する。",
+   "legend": "Khanyapaはバソト民族の伝説の中で形のない貪欲な怪物として描かれている。この怪物は出会うすべての生命を飲み込み、飲み込むほどにますます大きくなる。いくつかの鋭い舌を武器として使用する。Khanyapaは「Ditaolane」の物語で主要な敵対者として登場し、この怪物は人類を抑圧するすべてを象徴し、英雄によって退治される。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}
