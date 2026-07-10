@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 20,
+  "lastCategoryIndex": 23,
   "processedPageIds": [
     27551093,
     40572945,
@@ -3385,7 +3385,35 @@
     3923970,
     3244789,
     611163,
-    3870548
+    3870548,
+    70476,
+    3935158,
+    70734,
+    2487372,
+    3882351,
+    3892802,
+    117775,
+    3892807,
+    4171222,
+    3802415,
+    3892799,
+    2684030,
+    537816,
+    319819,
+    1807445,
+    35103,
+    2650121,
+    976975,
+    1094892,
+    319802,
+    831740,
+    1435156,
+    3633088,
+    2280385,
+    2324893,
+    1047863,
+    38836,
+    2545272
   ],
   "discoveredCategories": [
     {
@@ -15995,10 +16023,82 @@
       "label": "신화의 2인조",
       "discoveredFrom": "우두귀와 마두귀",
       "discoveredAt": 539
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:러시아 민속",
+      "iso": "RU",
+      "label": "러시아 민속",
+      "discoveredFrom": "가가나",
+      "discoveredAt": 540
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:동아시아의 전설의 생물",
+      "iso": "_MULTI",
+      "label": "동아시아의 전설의 생물",
+      "discoveredFrom": "가릉빈가",
+      "discoveredAt": 540
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:동아시아의 신화",
+      "iso": "_MULTI",
+      "label": "동아시아의 신화",
+      "discoveredFrom": "날개옷 설화",
+      "discoveredAt": 540
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:비교신화학",
+      "iso": "_MULTI",
+      "label": "비교신화학",
+      "discoveredFrom": "날개옷 설화",
+      "discoveredAt": 540
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:아랍의 전설의 생물",
+      "iso": "_MULTI",
+      "label": "아랍의 전설의 생물",
+      "discoveredFrom": "로크 (신화)",
+      "discoveredAt": 540
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:이집트의 전설의 생물",
+      "iso": "_MULTI",
+      "label": "이집트의 전설의 생물",
+      "discoveredFrom": "벤누",
+      "discoveredAt": 540
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:도쿄도의 요괴",
+      "iso": "_MULTI",
+      "label": "도쿄도의 요괴",
+      "discoveredFrom": "액귀",
+      "discoveredAt": 540
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:초자연적 전설",
+      "iso": "_MULTI",
+      "label": "초자연적 전설",
+      "discoveredFrom": "인호",
+      "discoveredAt": 540
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:가공의 요괴",
+      "iso": "_MULTI",
+      "label": "가공의 요괴",
+      "discoveredFrom": "Q타로",
+      "discoveredAt": 540
     }
   ],
-  "totalAdded": 2709,
-  "runs": 540,
-  "lastRun": "2026-07-10T14:02:01.918Z",
-  "lastDiscoveredIndex": 375
+  "totalAdded": 2714,
+  "runs": 541,
+  "lastRun": "2026-07-10T19:16:52.446Z",
+  "lastDiscoveredIndex": 378
 }
