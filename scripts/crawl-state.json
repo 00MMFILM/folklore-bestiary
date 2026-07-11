@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 23,
+  "lastCategoryIndex": 26,
   "processedPageIds": [
     27551093,
     40572945,
@@ -3413,7 +3413,56 @@
     2324893,
     1047863,
     38836,
-    2545272
+    2545272,
+    3761932,
+    267118,
+    3761292,
+    1059757,
+    2532998,
+    4172554,
+    4083331,
+    554568,
+    494724,
+    350351,
+    2987265,
+    70113,
+    85438,
+    133126,
+    613953,
+    587356,
+    3906409,
+    4081948,
+    70117,
+    871610,
+    2524711,
+    446587,
+    237529,
+    263485,
+    1946835,
+    506911,
+    506649,
+    1051244,
+    999724,
+    264211,
+    3093452,
+    345329,
+    2677759,
+    369254,
+    3639856,
+    529117,
+    175668,
+    886473,
+    3305100,
+    1622985,
+    729593,
+    729612,
+    62821,
+    112124,
+    112865,
+    4188993,
+    1784744,
+    2989947,
+    282636
   ],
   "discoveredCategories": [
     {
@@ -16095,10 +16144,98 @@
       "label": "가공의 요괴",
       "discoveredFrom": "Q타로",
       "discoveredAt": 540
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:벨기에의 전설",
+      "iso": "_MULTI",
+      "label": "벨기에의 전설",
+      "discoveredFrom": "몽스의 천사",
+      "discoveredAt": 541
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:영국의 전설",
+      "iso": "GB",
+      "label": "영국의 전설",
+      "discoveredFrom": "몽스의 천사",
+      "discoveredAt": 541
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:그리스 신화 이름이 붙은 소행성",
+      "iso": "_MULTI",
+      "label": "그리스 신화 이름이 붙은 소행성",
+      "discoveredFrom": "3708 소쿠스",
+      "discoveredAt": 541
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:그리스 신화의 성소수자",
+      "iso": "_MULTI",
+      "label": "그리스 신화의 성소수자",
+      "discoveredFrom": "가니메데스",
+      "discoveredAt": 541
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:노르드 신화의 물건",
+      "iso": "_MULTI",
+      "label": "노르드 신화의 물건",
+      "discoveredFrom": "걀라르호른",
+      "discoveredAt": 541
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:그리스 신화",
+      "iso": "_MULTI",
+      "label": "그리스 신화",
+      "discoveredFrom": "게라나",
+      "discoveredAt": 541
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:메소포타미아 신화의 영웅",
+      "iso": "_MULTI",
+      "label": "메소포타미아 신화의 영웅",
+      "discoveredFrom": "게쉬티난나",
+      "discoveredAt": 541
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:아일랜드 신화",
+      "iso": "_MULTI",
+      "label": "아일랜드 신화",
+      "discoveredFrom": "게슈",
+      "discoveredAt": 541
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:브리튼인의 신화적 왕",
+      "iso": "_MULTI",
+      "label": "브리튼인의 신화적 왕",
+      "discoveredFrom": "고르보두크",
+      "discoveredAt": 541
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:원시 인도유럽 신화",
+      "iso": "_MULTI",
+      "label": "원시 인도유럽 신화",
+      "discoveredFrom": "*H₂n̥gʷʰis",
+      "discoveredAt": 541
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:중세의 전설",
+      "iso": "_MULTI",
+      "label": "중세의 전설",
+      "discoveredFrom": "샐러맨더 (전설)",
+      "discoveredAt": 541
     }
   ],
-  "totalAdded": 2714,
-  "runs": 541,
-  "lastRun": "2026-07-10T19:16:52.446Z",
-  "lastDiscoveredIndex": 378
+  "totalAdded": 2724,
+  "runs": 542,
+  "lastRun": "2026-07-11T01:50:16.492Z",
+  "lastDiscoveredIndex": 381
 }
