@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 26,
+  "lastCategoryIndex": 29,
   "processedPageIds": [
     27551093,
     40572945,
@@ -3462,7 +3462,49 @@
     4188993,
     1784744,
     2989947,
-    282636
+    282636,
+    16228493,
+    27319586,
+    49668,
+    42015223,
+    40066239,
+    12399910,
+    4807288,
+    1664641,
+    36856032,
+    2476993,
+    536020,
+    1135153,
+    90879,
+    2863922,
+    103891,
+    2590166,
+    3079173,
+    1965785,
+    350345,
+    2988278,
+    117069,
+    1086768,
+    1203099,
+    4187384,
+    4176080,
+    112859,
+    234431,
+    113628,
+    282540,
+    1179923,
+    2721654,
+    529057,
+    3247386,
+    1373818,
+    398638,
+    3884203,
+    449252,
+    2695767,
+    2481865,
+    8464,
+    426203,
+    150197
   ],
   "discoveredCategories": [
     {
@@ -16232,10 +16274,130 @@
       "label": "중세의 전설",
       "discoveredFrom": "샐러맨더 (전설)",
       "discoveredAt": 541
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:요괴회권",
+      "iso": "_MULTI",
+      "label": "요괴회권",
+      "discoveredFrom": "백귀야행 회권",
+      "discoveredAt": 542
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:북마케도니아 민속",
+      "iso": "_MULTI",
+      "label": "북마케도니아 민속",
+      "discoveredFrom": "슬라브 드래곤",
+      "discoveredAt": 542
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:불가리아 민속",
+      "iso": "_MULTI",
+      "label": "불가리아 민속",
+      "discoveredFrom": "슬라브 드래곤",
+      "discoveredAt": 542
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:그리스 신화의 드래곤",
+      "iso": "_MULTI",
+      "label": "그리스 신화의 드래곤",
+      "discoveredFrom": "우로보로스",
+      "discoveredAt": 542
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화 원형",
+      "iso": "_MULTI",
+      "label": "신화 원형",
+      "discoveredFrom": "우로보로스",
+      "discoveredAt": 542
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:기독교 민속",
+      "iso": "_MULTI",
+      "label": "기독교 민속",
+      "discoveredFrom": "타라스크",
+      "discoveredAt": 542
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:기독교 전설의 생물",
+      "iso": "_MULTI",
+      "label": "기독교 전설의 생물",
+      "discoveredFrom": "타라스크",
+      "discoveredAt": 542
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:프랑스의 전설의 생물",
+      "iso": "FR",
+      "label": "프랑스의 전설의 생물",
+      "discoveredFrom": "타라스크",
+      "discoveredAt": 542
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:독일의 전설의 생물",
+      "iso": "DE",
+      "label": "독일의 전설의 생물",
+      "discoveredFrom": "나흐트크라프",
+      "discoveredAt": 542
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:러시아의 전설",
+      "iso": "RU",
+      "label": "러시아의 전설",
+      "discoveredFrom": "나흐트크라프",
+      "discoveredAt": 542
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:체코의 전설",
+      "iso": "_MULTI",
+      "label": "체코의 전설",
+      "discoveredFrom": "나흐트크라프",
+      "discoveredAt": 542
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:헝가리의 전설의 생물",
+      "iso": "_MULTI",
+      "label": "헝가리의 전설의 생물",
+      "discoveredFrom": "나흐트크라프",
+      "discoveredAt": 542
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 여왕",
+      "iso": "_MULTI",
+      "label": "신화의 여왕",
+      "discoveredFrom": "모리안",
+      "discoveredAt": 542
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:스칸디나비아 민속",
+      "iso": "_MULTI",
+      "label": "스칸디나비아 민속",
+      "discoveredFrom": "발라븐",
+      "discoveredAt": 542
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:그리스 신화의 변신담",
+      "iso": "_MULTI",
+      "label": "그리스 신화의 변신담",
+      "discoveredFrom": "헤르마프로디토스",
+      "discoveredAt": 542
     }
   ],
-  "totalAdded": 2724,
-  "runs": 542,
-  "lastRun": "2026-07-11T01:50:16.492Z",
-  "lastDiscoveredIndex": 381
+  "totalAdded": 2728,
+  "runs": 543,
+  "lastRun": "2026-07-11T07:41:20.509Z",
+  "lastDiscoveredIndex": 384
 }
