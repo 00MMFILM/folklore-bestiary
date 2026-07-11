@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 29,
+  "lastCategoryIndex": 32,
   "processedPageIds": [
     27551093,
     40572945,
@@ -3504,7 +3504,48 @@
     2481865,
     8464,
     426203,
-    150197
+    150197,
+    2536282,
+    976873,
+    658061,
+    1216390,
+    5483,
+    200227,
+    956701,
+    487049,
+    391033,
+    5490,
+    71818454,
+    2594880,
+    80468505,
+    2983300,
+    266654,
+    56563487,
+    60398690,
+    4094200,
+    4194798,
+    62951207,
+    7389078,
+    7404668,
+    8029393,
+    7418072,
+    8933086,
+    8933180,
+    62886184,
+    3776553,
+    4183915,
+    4180932,
+    1404299,
+    4183854,
+    1590216,
+    1165362,
+    1227083,
+    218022,
+    3583813,
+    642107,
+    1064647,
+    1091663,
+    4174798
   ],
   "discoveredCategories": [
     {
@@ -16394,10 +16435,74 @@
       "label": "그리스 신화의 변신담",
       "discoveredFrom": "헤르마프로디토스",
       "discoveredAt": 542
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화책",
+      "iso": "_MULTI",
+      "label": "신화책",
+      "discoveredFrom": "산해경",
+      "discoveredAt": 543
+    },
+    {
+      "lang": "en",
+      "cat": "Category:East Asian legendary creatures",
+      "iso": "_MULTI",
+      "label": "East Asian legendary creatures",
+      "discoveredFrom": "Fenghuang",
+      "discoveredAt": 543
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Chinese birds",
+      "iso": "CN",
+      "label": "Mythological Chinese birds",
+      "discoveredFrom": "Luanniao",
+      "discoveredAt": 543
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:메소아메리카 신화",
+      "iso": "_MULTI",
+      "label": "메소아메리카 신화",
+      "discoveredFrom": "마야 신화",
+      "discoveredAt": 543
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:선콜럼버스 시대의 신화와 종교",
+      "iso": "_MULTI",
+      "label": "선콜럼버스 시대의 신화와 종교",
+      "discoveredFrom": "마야 신화",
+      "discoveredAt": 543
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:북아메리카 민속",
+      "iso": "_MULTI",
+      "label": "북아메리카 민속",
+      "discoveredFrom": "포폴 부",
+      "discoveredAt": 543
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:아시아의 신화",
+      "iso": "_MULTI",
+      "label": "아시아의 신화",
+      "discoveredFrom": "베트남 신화",
+      "discoveredAt": 543
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 성소수자",
+      "iso": "_MULTI",
+      "label": "신화의 성소수자",
+      "discoveredFrom": "토아신",
+      "discoveredAt": 543
     }
   ],
-  "totalAdded": 2728,
-  "runs": 543,
-  "lastRun": "2026-07-11T07:41:20.509Z",
-  "lastDiscoveredIndex": 384
+  "totalAdded": 2732,
+  "runs": 544,
+  "lastRun": "2026-07-11T12:57:53.848Z",
+  "lastDiscoveredIndex": 387
 }
