@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 32,
+  "lastCategoryIndex": 35,
   "processedPageIds": [
     27551093,
     40572945,
@@ -3545,7 +3545,50 @@
     642107,
     1064647,
     1091663,
-    4174798
+    4174798,
+    145957,
+    58841878,
+    36473935,
+    83383813,
+    49085059,
+    51364732,
+    6462779,
+    29394594,
+    2571905,
+    23729419,
+    238611,
+    5849337,
+    4148941,
+    32295128,
+    5570130,
+    7377435,
+    3169671,
+    7391096,
+    5846621,
+    4201688,
+    458981,
+    42834674,
+    3167869,
+    83587,
+    29215899,
+    4865762,
+    8357903,
+    29215910,
+    249352,
+    270044,
+    3595946,
+    1427459,
+    429492,
+    3598378,
+    3661849,
+    3242382,
+    3583208,
+    3340034,
+    272579,
+    3491469,
+    83146,
+    61293853,
+    54132651
   ],
   "discoveredCategories": [
     {
@@ -16499,10 +16542,50 @@
       "label": "신화의 성소수자",
       "discoveredFrom": "토아신",
       "discoveredAt": 543
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sino-Tibetan mythology",
+      "iso": "CN",
+      "label": "Sino-Tibetan mythology",
+      "discoveredFrom": "Chinese mythology",
+      "discoveredAt": 544
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Creatures in Greek mythology",
+      "iso": "GR",
+      "label": "Creatures in Greek mythology",
+      "discoveredFrom": "Daimon",
+      "discoveredAt": 544
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Greek love and lust goddesses",
+      "iso": "GR",
+      "label": "Greek love and lust goddesses",
+      "discoveredFrom": "Philotes",
+      "discoveredAt": 544
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:메소아메리카 신화의 장소",
+      "iso": "_MULTI",
+      "label": "메소아메리카 신화의 장소",
+      "discoveredFrom": "믹틀란",
+      "discoveredAt": 544
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:아즈텍 신화의 장소",
+      "iso": "_MULTI",
+      "label": "아즈텍 신화의 장소",
+      "discoveredFrom": "믹틀란",
+      "discoveredAt": 544
     }
   ],
-  "totalAdded": 2732,
-  "runs": 544,
-  "lastRun": "2026-07-11T12:57:53.848Z",
-  "lastDiscoveredIndex": 387
+  "totalAdded": 2747,
+  "runs": 545,
+  "lastRun": "2026-07-11T18:46:39.725Z",
+  "lastDiscoveredIndex": 390
 }
