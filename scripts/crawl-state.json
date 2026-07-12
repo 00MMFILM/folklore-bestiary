@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 35,
+  "lastCategoryIndex": 38,
   "processedPageIds": [
     27551093,
     40572945,
@@ -3588,7 +3588,45 @@
     3491469,
     83146,
     61293853,
-    54132651
+    54132651,
+    31746266,
+    35862131,
+    87298,
+    2431375,
+    31750718,
+    448166,
+    935871,
+    88651,
+    3264618,
+    384253,
+    42654681,
+    8804538,
+    46625115,
+    709756,
+    706590,
+    40613369,
+    80454109,
+    6654692,
+    39928800,
+    40526221,
+    70639475,
+    3280932,
+    11356303,
+    23910198,
+    896218,
+    16639308,
+    21266839,
+    78494186,
+    71765137,
+    15175,
+    7140672,
+    8440668,
+    1593773,
+    4683415,
+    24062392,
+    1494814,
+    1085240,
+    8435040
   ],
   "discoveredCategories": [
     {
@@ -16582,10 +16620,74 @@
       "label": "아즈텍 신화의 장소",
       "discoveredFrom": "믹틀란",
       "discoveredAt": 544
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Female spirits",
+      "iso": "_MULTI",
+      "label": "Female spirits",
+      "discoveredFrom": "Hamingja",
+      "discoveredAt": 545
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Nordic folklore",
+      "iso": "_MULTI",
+      "label": "Nordic folklore",
+      "discoveredFrom": "Flogdrake",
+      "discoveredAt": 545
+    },
+    {
+      "lang": "en",
+      "cat": "Category:European mythology",
+      "iso": "_MULTI",
+      "label": "European mythology",
+      "discoveredFrom": "Hug (folklore)",
+      "discoveredAt": 545
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Witch trials in Sweden",
+      "iso": "SE",
+      "label": "Witch trials in Sweden",
+      "discoveredFrom": "Kerstin Gabrielsdotter",
+      "discoveredAt": 545
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Witchcraft in Denmark",
+      "iso": "DK",
+      "label": "Witchcraft in Denmark",
+      "discoveredFrom": "Seiðr",
+      "discoveredAt": 545
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Semi-legendary kings of Sweden",
+      "iso": "SE",
+      "label": "Semi-legendary kings of Sweden",
+      "discoveredFrom": "Vanlandi",
+      "discoveredAt": 545
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Critics of witch hunting",
+      "iso": "_MULTI",
+      "label": "Critics of witch hunting",
+      "discoveredFrom": "Catherine Charlotte De la Gardie",
+      "discoveredAt": 545
+    },
+    {
+      "lang": "en",
+      "cat": "Category:War in mythology",
+      "iso": "_MULTI",
+      "label": "War in mythology",
+      "discoveredFrom": "Battle of Mag Itha",
+      "discoveredAt": 545
     }
   ],
-  "totalAdded": 2747,
-  "runs": 545,
-  "lastRun": "2026-07-11T18:46:39.725Z",
-  "lastDiscoveredIndex": 390
+  "totalAdded": 2757,
+  "runs": 546,
+  "lastRun": "2026-07-12T01:52:38.364Z",
+  "lastDiscoveredIndex": 393
 }
