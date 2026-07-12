@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 44,
+  "lastCategoryIndex": 47,
   "processedPageIds": [
     27551093,
     40572945,
@@ -3741,7 +3741,59 @@
     53295768,
     5709401,
     729644,
-    5803120
+    5803120,
+    58346102,
+    41840395,
+    43589448,
+    72994698,
+    12325952,
+    77114313,
+    37080040,
+    7192743,
+    22577339,
+    69524632,
+    992106,
+    71420207,
+    8525002,
+    40778990,
+    79785374,
+    15210268,
+    72198212,
+    1977258,
+    8954219,
+    79855436,
+    700375,
+    24800445,
+    45431946,
+    50428265,
+    50609508,
+    50948670,
+    50363932,
+    50964727,
+    3252617,
+    50241389,
+    50632041,
+    50290056,
+    1673820,
+    32315386,
+    57895232,
+    52458911,
+    7546,
+    57614601,
+    37713193,
+    44847780,
+    1210116,
+    54645341,
+    419835,
+    16808,
+    33811048,
+    2654634,
+    5146695,
+    31090907,
+    2359626,
+    3597936,
+    8314357,
+    56027320
   ],
   "discoveredCategories": [
     {
@@ -16911,10 +16963,50 @@
       "label": "Objects in Celtic mythology",
       "discoveredFrom": "Thirteen Treasures of the Island of Britain",
       "discoveredAt": 547
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Vietnamese legendary creatures",
+      "iso": "VN",
+      "label": "Vietnamese legendary creatures",
+      "discoveredFrom": "Vietnamese dragon",
+      "discoveredAt": 548
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Brazilian legendary creatures",
+      "iso": "BR",
+      "label": "Brazilian legendary creatures",
+      "discoveredFrom": "Boiuna",
+      "discoveredAt": 548
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Philippine urban legends",
+      "iso": "PH",
+      "label": "Philippine urban legends",
+      "discoveredFrom": "Biringan",
+      "discoveredAt": 548
+    },
+    {
+      "lang": "en",
+      "cat": "Category:William Blake's mythology",
+      "iso": "_MULTI",
+      "label": "William Blake's mythology",
+      "discoveredFrom": "Golgonooza",
+      "discoveredAt": 548
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Kent folklore",
+      "iso": "_MULTI",
+      "label": "Kent folklore",
+      "discoveredFrom": "Bastian Pagez",
+      "discoveredAt": 548
     }
   ],
-  "totalAdded": 2786,
-  "runs": 548,
-  "lastRun": "2026-07-12T12:58:54.642Z",
-  "lastDiscoveredIndex": 399
+  "totalAdded": 2800,
+  "runs": 549,
+  "lastRun": "2026-07-12T18:52:41.253Z",
+  "lastDiscoveredIndex": 402
 }
