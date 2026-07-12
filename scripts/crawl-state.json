@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 41,
+  "lastCategoryIndex": 44,
   "processedPageIds": [
     27551093,
     40572945,
@@ -3682,7 +3682,66 @@
     87127,
     3852261,
     596845,
-    9472426
+    9472426,
+    2274223,
+    51042588,
+    318193,
+    1927935,
+    2292968,
+    61660435,
+    6793254,
+    5123641,
+    326919,
+    665610,
+    19285175,
+    5249866,
+    19298720,
+    714845,
+    19325843,
+    18871508,
+    10017322,
+    18020168,
+    799719,
+    19257787,
+    61350210,
+    6388203,
+    27927995,
+    3155104,
+    222161,
+    1121515,
+    4122064,
+    39374220,
+    16547234,
+    23416994,
+    97771,
+    49542703,
+    10164819,
+    14670730,
+    73638576,
+    2646107,
+    82076044,
+    22586674,
+    80193550,
+    7256150,
+    2163496,
+    73077644,
+    32087292,
+    31497818,
+    331673,
+    73164051,
+    63938646,
+    403882,
+    39206015,
+    8447884,
+    63803639,
+    469213,
+    52404285,
+    2416673,
+    47664408,
+    53295768,
+    5709401,
+    729644,
+    5803120
   ],
   "discoveredCategories": [
     {
@@ -16780,10 +16839,82 @@
       "label": "Liminal goddesses",
       "discoveredFrom": "Brunhild",
       "discoveredAt": 546
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Kurdish mythology",
+      "iso": "_MULTI",
+      "label": "Kurdish mythology",
+      "discoveredFrom": "Daeva",
+      "discoveredAt": 547
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Armenian mythology",
+      "iso": "AM",
+      "label": "Armenian mythology",
+      "discoveredFrom": "Parī",
+      "discoveredAt": 547
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Islamic mythology",
+      "iso": "SA",
+      "label": "Islamic mythology",
+      "discoveredFrom": "Parī",
+      "discoveredAt": 547
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Portuguese folklore",
+      "iso": "PT",
+      "label": "Portuguese folklore",
+      "discoveredFrom": "Duende",
+      "discoveredAt": 547
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Words and phrases derived from Greek mythology",
+      "iso": "GR",
+      "label": "Words and phrases derived from Greek mythology",
+      "discoveredFrom": "Apollo archetype",
+      "discoveredAt": 547
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological mountains",
+      "iso": "_MULTI",
+      "label": "Mythological mountains",
+      "discoveredFrom": "Fanghu",
+      "discoveredAt": 547
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Places in Mesopotamian mythology",
+      "iso": "IQ",
+      "label": "Places in Mesopotamian mythology",
+      "discoveredFrom": "Garden of the gods (Sumerian paradise)",
+      "discoveredAt": 547
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary vehicles",
+      "iso": "_MULTI",
+      "label": "Legendary vehicles",
+      "discoveredFrom": "Nazi gold train",
+      "discoveredAt": 547
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Objects in Celtic mythology",
+      "iso": "IE",
+      "label": "Objects in Celtic mythology",
+      "discoveredFrom": "Thirteen Treasures of the Island of Britain",
+      "discoveredAt": 547
     }
   ],
-  "totalAdded": 2772,
-  "runs": 547,
-  "lastRun": "2026-07-12T08:01:53.511Z",
-  "lastDiscoveredIndex": 396
+  "totalAdded": 2786,
+  "runs": 548,
+  "lastRun": "2026-07-12T12:58:54.642Z",
+  "lastDiscoveredIndex": 399
 }
