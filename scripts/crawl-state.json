@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 50,
+  "lastCategoryIndex": 53,
   "processedPageIds": [
     27551093,
     40572945,
@@ -3827,7 +3827,44 @@
     70989,
     169425,
     12657,
-    156275
+    156275,
+    9194705,
+    63617181,
+    9457241,
+    653873,
+    175452,
+    7806224,
+    31370251,
+    18497496,
+    25813604,
+    99495,
+    67325438,
+    3015019,
+    3259695,
+    66845918,
+    664400,
+    68624105,
+    65479409,
+    1050428,
+    2617070,
+    733623,
+    847747,
+    2382807,
+    447042,
+    110611,
+    3229506,
+    875531,
+    163919,
+    2679304,
+    1458812,
+    525050,
+    186418,
+    2688894,
+    2693392,
+    2677789,
+    288734,
+    295395,
+    355924
   ],
   "discoveredCategories": [
     {
@@ -17109,10 +17146,114 @@
       "label": "핀란드 신화의 영웅",
       "discoveredFrom": "배이내뫼이넨",
       "discoveredAt": 549
+    },
+    {
+      "lang": "en",
+      "cat": "Category:South African mythology",
+      "iso": "ZA",
+      "label": "South African mythology",
+      "discoveredFrom": "Mnguni",
+      "discoveredAt": 550
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Africa in mythology",
+      "iso": "_MULTI",
+      "label": "Africa in mythology",
+      "discoveredFrom": "Uhlanga",
+      "discoveredAt": 550
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Wetlands in folklore",
+      "iso": "_MULTI",
+      "label": "Wetlands in folklore",
+      "discoveredFrom": "Uhlanga",
+      "discoveredAt": 550
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 왕",
+      "iso": "_MULTI",
+      "label": "신화의 왕",
+      "discoveredFrom": "락롱꾸언",
+      "discoveredAt": 550
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:아서왕 전설의 물건",
+      "iso": "_MULTI",
+      "label": "아서왕 전설의 물건",
+      "discoveredFrom": "롱고미니아드",
+      "discoveredAt": 550
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:아일랜드 신화 (얼스터 대계)",
+      "iso": "_MULTI",
+      "label": "아일랜드 신화 (얼스터 대계)",
+      "discoveredFrom": "룬 켈트하르",
+      "discoveredAt": 550
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:켈트 신화에 관한 토막글",
+      "iso": "_MULTI",
+      "label": "켈트 신화에 관한 토막글",
+      "discoveredFrom": "룬 켈트하르",
+      "discoveredAt": 550
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:켈트 신화의 물건",
+      "iso": "_MULTI",
+      "label": "켈트 신화의 물건",
+      "discoveredFrom": "룬 켈트하르",
+      "discoveredAt": 550
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:로마 신화",
+      "iso": "_MULTI",
+      "label": "로마 신화",
+      "discoveredFrom": "삼지창",
+      "discoveredAt": 550
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:핀란드 신화",
+      "iso": "_MULTI",
+      "label": "핀란드 신화",
+      "discoveredFrom": "우콘바사라",
+      "discoveredAt": 550
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:핀란드 신화의 물건",
+      "iso": "_MULTI",
+      "label": "핀란드 신화의 물건",
+      "discoveredFrom": "우콘바사라",
+      "discoveredAt": 550
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:노르드 신화의 무구",
+      "iso": "_MULTI",
+      "label": "노르드 신화의 무구",
+      "discoveredFrom": "궁니르",
+      "discoveredAt": 550
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 도검",
+      "iso": "_MULTI",
+      "label": "신화의 도검",
+      "discoveredFrom": "그람 (신화)",
+      "discoveredAt": 550
     }
   ],
-  "totalAdded": 2803,
-  "runs": 550,
-  "lastRun": "2026-07-13T01:55:10.864Z",
-  "lastDiscoveredIndex": 405
+  "totalAdded": 2807,
+  "runs": 551,
+  "lastRun": "2026-07-13T08:50:59.682Z",
+  "lastDiscoveredIndex": 408
 }
