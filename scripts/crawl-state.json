@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 53,
+  "lastCategoryIndex": 56,
   "processedPageIds": [
     27551093,
     40572945,
@@ -3864,7 +3864,63 @@
     2677789,
     288734,
     295395,
-    355924
+    355924,
+    421794,
+    421811,
+    4107996,
+    29070983,
+    2383226,
+    1502940,
+    36949779,
+    5498841,
+    3661959,
+    53144003,
+    32907226,
+    25873137,
+    1467633,
+    10843968,
+    63947100,
+    24318239,
+    56888579,
+    21643847,
+    8813520,
+    143806,
+    4473231,
+    36764751,
+    22498674,
+    8107187,
+    29384647,
+    51188738,
+    2953851,
+    511360,
+    1729341,
+    550410,
+    23056,
+    706901,
+    4172592,
+    4172583,
+    1131764,
+    550369,
+    550390,
+    84959,
+    26221276,
+    85382,
+    81919,
+    85016,
+    9403710,
+    60786,
+    37813655,
+    85713,
+    78247758,
+    6202082,
+    34389887,
+    6413491,
+    31830292,
+    82084,
+    970009,
+    47229,
+    21654139,
+    58495728
   ],
   "discoveredCategories": [
     {
@@ -17250,10 +17306,202 @@
       "label": "신화의 도검",
       "discoveredFrom": "그람 (신화)",
       "discoveredAt": 550
+    },
+    {
+      "lang": "en",
+      "cat": "Category:French legendary creatures",
+      "iso": "FR",
+      "label": "French legendary creatures",
+      "discoveredFrom": "Cheval Gauvin",
+      "discoveredAt": 551
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Swiss folklore",
+      "iso": "CH",
+      "label": "Swiss folklore",
+      "discoveredFrom": "Cheval Gauvin",
+      "discoveredAt": 551
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Italian folklore",
+      "iso": "IT",
+      "label": "Italian folklore",
+      "discoveredFrom": "Dahu",
+      "discoveredAt": 551
+    },
+    {
+      "lang": "en",
+      "cat": "Category:French mythology",
+      "iso": "FR",
+      "label": "French mythology",
+      "discoveredFrom": "Dames blanches",
+      "discoveredAt": 551
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Norman folklore",
+      "iso": "_MULTI",
+      "label": "Norman folklore",
+      "discoveredFrom": "Dames blanches",
+      "discoveredAt": 551
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Diana (mythology) in fiction",
+      "iso": "_MULTI",
+      "label": "Diana (mythology) in fiction",
+      "discoveredFrom": "The Imp Prince",
+      "discoveredAt": 551
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about invisibility",
+      "iso": "_MULTI",
+      "label": "Fairy tales about invisibility",
+      "discoveredFrom": "The Imp Prince",
+      "discoveredAt": 551
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fictional female demons",
+      "iso": "_MULTI",
+      "label": "Fictional female demons",
+      "discoveredFrom": "Devil's grandmother",
+      "discoveredAt": 551
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:그리스 신화의 물건",
+      "iso": "_MULTI",
+      "label": "그리스 신화의 물건",
+      "discoveredFrom": "불화의 사과",
+      "discoveredAt": 551
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 음식",
+      "iso": "_MULTI",
+      "label": "신화의 음식",
+      "discoveredFrom": "불화의 사과",
+      "discoveredAt": 551
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:에리스 (신화)",
+      "iso": "_MULTI",
+      "label": "에리스 (신화)",
+      "discoveredFrom": "불화의 사과",
+      "discoveredAt": 551
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:유대 신화",
+      "iso": "_MULTI",
+      "label": "유대 신화",
+      "discoveredFrom": "선악과",
+      "discoveredAt": 551
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:불교 신화",
+      "iso": "_MULTI",
+      "label": "불교 신화",
+      "discoveredFrom": "우담바라",
+      "discoveredAt": 551
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:민간신앙",
+      "iso": "_MULTI",
+      "label": "민간신앙",
+      "discoveredFrom": "낭 따니",
+      "discoveredAt": 551
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 나무",
+      "iso": "_MULTI",
+      "label": "신화의 나무",
+      "discoveredFrom": "낭 따니",
+      "discoveredAt": 551
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:기독교 신화",
+      "iso": "_MULTI",
+      "label": "기독교 신화",
+      "discoveredFrom": "선악을 알게 하는 나무",
+      "discoveredAt": 551
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Roman agricultural goddesses",
+      "iso": "IT",
+      "label": "Roman agricultural goddesses",
+      "discoveredFrom": "Acca Larentia",
+      "discoveredAt": 551
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Etruscan heroes",
+      "iso": "IT",
+      "label": "Etruscan heroes",
+      "discoveredFrom": "Latinus",
+      "discoveredAt": 551
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Rhea (mythology)",
+      "iso": "_MULTI",
+      "label": "Rhea (mythology)",
+      "discoveredFrom": "Rhea Silvia",
+      "discoveredAt": 551
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Jupiter (god)",
+      "iso": "_MULTI",
+      "label": "Jupiter (god)",
+      "discoveredFrom": "Tages",
+      "discoveredAt": 551
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Aegean Sea in mythology",
+      "iso": "_MULTI",
+      "label": "Aegean Sea in mythology",
+      "discoveredFrom": "Theano (wife of Metapontus)",
+      "discoveredAt": 551
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Asia in Greek mythology",
+      "iso": "GR",
+      "label": "Asia in Greek mythology",
+      "discoveredFrom": "Pygmy (Greek mythology)",
+      "discoveredAt": 551
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Egypt in Greek mythology",
+      "iso": "EG",
+      "label": "Egypt in Greek mythology",
+      "discoveredFrom": "Actis (mythology)",
+      "discoveredAt": 551
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Rhodians",
+      "iso": "_MULTI",
+      "label": "Mythological Rhodians",
+      "discoveredFrom": "Actis (mythology)",
+      "discoveredAt": 551
     }
   ],
-  "totalAdded": 2807,
-  "runs": 551,
-  "lastRun": "2026-07-13T08:50:59.682Z",
-  "lastDiscoveredIndex": 408
+  "totalAdded": 2822,
+  "runs": 552,
+  "lastRun": "2026-07-13T14:08:38.808Z",
+  "lastDiscoveredIndex": 411
 }
