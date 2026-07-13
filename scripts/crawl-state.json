@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 56,
+  "lastCategoryIndex": 59,
   "processedPageIds": [
     27551093,
     40572945,
@@ -3920,7 +3920,62 @@
     970009,
     47229,
     21654139,
-    58495728
+    58495728,
+    74808189,
+    30291831,
+    10827830,
+    57862836,
+    51414257,
+    18061488,
+    21028374,
+    76227341,
+    30247131,
+    239835,
+    6160026,
+    71195624,
+    7934700,
+    42500254,
+    28644180,
+    1821094,
+    1521667,
+    45554600,
+    1834711,
+    1834684,
+    595911,
+    13550,
+    1412157,
+    5803739,
+    39334125,
+    981885,
+    5989200,
+    27978956,
+    5805320,
+    1925,
+    18863585,
+    57163120,
+    56785240,
+    888290,
+    2860760,
+    76142992,
+    28130775,
+    6583979,
+    54010676,
+    39913426,
+    83086,
+    79382,
+    16803460,
+    1930413,
+    79545,
+    83763,
+    40545832,
+    2797493,
+    5100963,
+    801892,
+    32980480,
+    77399166,
+    73261679,
+    13781007,
+    22113148
   ],
   "discoveredCategories": [
     {
@@ -17498,10 +17553,130 @@
       "label": "Mythological Rhodians",
       "discoveredFrom": "Actis (mythology)",
       "discoveredAt": 551
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sicilian folklore",
+      "iso": "IT",
+      "label": "Sicilian folklore",
+      "discoveredFrom": "Cola Pesce",
+      "discoveredAt": 552
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Witch trials in Italy",
+      "iso": "IT",
+      "label": "Witch trials in Italy",
+      "discoveredFrom": "Doñas de fuera",
+      "discoveredAt": 552
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Spanish folklore",
+      "iso": "ES",
+      "label": "Spanish folklore",
+      "discoveredFrom": "Legend of la Encantada",
+      "discoveredAt": 552
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Spanish legendary creatures",
+      "iso": "ES",
+      "label": "Spanish legendary creatures",
+      "discoveredFrom": "Legend of la Encantada",
+      "discoveredAt": 552
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Portuguese legends",
+      "iso": "PT",
+      "label": "Portuguese legends",
+      "discoveredFrom": "Mouros",
+      "discoveredAt": 552
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Basque legendary creatures",
+      "iso": "ES",
+      "label": "Basque legendary creatures",
+      "discoveredFrom": "Aatxe",
+      "discoveredAt": 552
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Collectors of fairy tales",
+      "iso": "_MULTI",
+      "label": "Collectors of fairy tales",
+      "discoveredFrom": "Peter Christen Asbjørnsen",
+      "discoveredAt": 552
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sculptures of Greek mythology",
+      "iso": "GR",
+      "label": "Sculptures of Greek mythology",
+      "discoveredFrom": "Andromeda (Rodin)",
+      "discoveredAt": 552
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Operas based on classical mythology",
+      "iso": "_MULTI",
+      "label": "Operas based on classical mythology",
+      "discoveredFrom": "Andromeda Liberata",
+      "discoveredAt": 552
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Venus (mythology)",
+      "iso": "_MULTI",
+      "label": "Venus (mythology)",
+      "discoveredFrom": "Andromède",
+      "discoveredAt": 552
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Aetolian mythology",
+      "iso": "_MULTI",
+      "label": "Aetolian mythology",
+      "discoveredFrom": "Calydonian boar hunt",
+      "discoveredAt": 552
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Irish demons",
+      "iso": "IE",
+      "label": "Irish demons",
+      "discoveredFrom": "Dullahan",
+      "discoveredAt": 552
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fictional ghosts",
+      "iso": "_MULTI",
+      "label": "Fictional ghosts",
+      "discoveredFrom": "Headless Horseman",
+      "discoveredAt": 552
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Undead supervillains",
+      "iso": "_MULTI",
+      "label": "Undead supervillains",
+      "discoveredFrom": "Headless Horseman",
+      "discoveredAt": 552
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Salvadoran mythology",
+      "iso": "SV",
+      "label": "Salvadoran mythology",
+      "discoveredFrom": "Headless priest",
+      "discoveredAt": 552
     }
   ],
-  "totalAdded": 2822,
-  "runs": 552,
-  "lastRun": "2026-07-13T14:08:38.808Z",
-  "lastDiscoveredIndex": 411
+  "totalAdded": 2837,
+  "runs": 553,
+  "lastRun": "2026-07-13T19:13:24.927Z",
+  "lastDiscoveredIndex": 414
 }
