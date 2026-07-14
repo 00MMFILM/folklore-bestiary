@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 65,
+  "lastCategoryIndex": 68,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4060,7 +4060,31 @@
     33864826,
     2461531,
     19261652,
-    35925862
+    35925862,
+    12656870,
+    74654249,
+    69130348,
+    585610,
+    7820565,
+    29631895,
+    79226266,
+    44008386,
+    62559567,
+    1846870,
+    55059800,
+    204915,
+    56667161,
+    57182773,
+    3178470,
+    65977440,
+    23210653,
+    83131871,
+    30856711,
+    55026392,
+    2369290,
+    66505136,
+    62067025,
+    45315737
   ],
   "discoveredCategories": [
     {
@@ -17862,10 +17886,18 @@
       "label": "Romani folklore",
       "discoveredFrom": "George's Day in Spring",
       "discoveredAt": 554
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Polish people",
+      "iso": "PL",
+      "label": "Legendary Polish people",
+      "discoveredFrom": "Stach Konwa",
+      "discoveredAt": 555
     }
   ],
-  "totalAdded": 2856,
-  "runs": 555,
-  "lastRun": "2026-07-14T07:48:08.383Z",
-  "lastDiscoveredIndex": 420
+  "totalAdded": 2865,
+  "runs": 556,
+  "lastRun": "2026-07-14T13:11:19.492Z",
+  "lastDiscoveredIndex": 423
 }
