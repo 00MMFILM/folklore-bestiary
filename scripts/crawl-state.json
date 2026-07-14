@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 68,
+  "lastCategoryIndex": 71,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4084,7 +4084,35 @@
     2369290,
     66505136,
     62067025,
-    45315737
+    45315737,
+    46449480,
+    2274000,
+    31401996,
+    4203609,
+    50416463,
+    312281,
+    5082360,
+    1587548,
+    1958314,
+    27250805,
+    4568552,
+    2295773,
+    19999915,
+    3915619,
+    69852735,
+    6135358,
+    77133679,
+    32226326,
+    4218880,
+    10100830,
+    36653824,
+    896082,
+    60785,
+    73331076,
+    4236415,
+    71521050,
+    79352,
+    1485235
   ],
   "discoveredCategories": [
     {
@@ -17894,10 +17922,114 @@
       "label": "Legendary Polish people",
       "discoveredFrom": "Stach Konwa",
       "discoveredAt": 555
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Khmer folklore",
+      "iso": "KH",
+      "label": "Khmer folklore",
+      "discoveredFrom": "Mrenh kongveal",
+      "discoveredAt": 556
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Chuvash folklore",
+      "iso": "_MULTI",
+      "label": "Chuvash folklore",
+      "discoveredFrom": "Lidérc",
+      "discoveredAt": 556
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Hungarian legendary creatures",
+      "iso": "HU",
+      "label": "Hungarian legendary creatures",
+      "discoveredFrom": "Lidérc",
+      "discoveredAt": 556
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Eris (mythology)",
+      "iso": "_MULTI",
+      "label": "Eris (mythology)",
+      "discoveredFrom": "Apple of Discord",
+      "discoveredAt": 556
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Objects in Greek mythology",
+      "iso": "GR",
+      "label": "Objects in Greek mythology",
+      "discoveredFrom": "Apple of Discord",
+      "discoveredAt": 556
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Seychellois folklore",
+      "iso": "_MULTI",
+      "label": "Seychellois folklore",
+      "discoveredFrom": "Legends of the coco de mer",
+      "discoveredAt": 556
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Objects in folklore",
+      "iso": "_MULTI",
+      "label": "Objects in folklore",
+      "discoveredFrom": "Golden apple",
+      "discoveredAt": 556
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Vietnamese fairy tales",
+      "iso": "VN",
+      "label": "Vietnamese fairy tales",
+      "discoveredFrom": "The Hundred-knot Bamboo Tree",
+      "discoveredAt": 556
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Georgian mythology",
+      "iso": "GE",
+      "label": "Georgian mythology",
+      "discoveredFrom": "Ainina and Danina",
+      "discoveredAt": 556
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Savior gods",
+      "iso": "_MULTI",
+      "label": "Savior gods",
+      "discoveredFrom": "Ashvins",
+      "discoveredAt": 556
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Elamite goddesses",
+      "iso": "_MULTI",
+      "label": "Elamite goddesses",
+      "discoveredFrom": "Belet-Šuḫnir and Belet-Terraban",
+      "discoveredAt": 556
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Children of Boreas (god)",
+      "iso": "_MULTI",
+      "label": "Children of Boreas (god)",
+      "discoveredFrom": "Boreads",
+      "discoveredAt": 556
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Thracians",
+      "iso": "_MULTI",
+      "label": "Mythological Thracians",
+      "discoveredFrom": "Boreads",
+      "discoveredAt": 556
     }
   ],
-  "totalAdded": 2865,
-  "runs": 556,
-  "lastRun": "2026-07-14T13:11:19.492Z",
-  "lastDiscoveredIndex": 423
+  "totalAdded": 2880,
+  "runs": 557,
+  "lastRun": "2026-07-14T19:03:57.381Z",
+  "lastDiscoveredIndex": 426
 }
