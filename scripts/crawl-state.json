@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 62,
+  "lastCategoryIndex": 65,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4024,7 +4024,43 @@
     9598008,
     4854673,
     72384492,
-    13779476
+    13779476,
+    7917449,
+    3976959,
+    8076706,
+    4451083,
+    7531121,
+    11158086,
+    71248232,
+    9077514,
+    1768194,
+    8077206,
+    3053697,
+    24914472,
+    1761517,
+    549305,
+    79416,
+    31034274,
+    83775,
+    34473833,
+    13406087,
+    332748,
+    48968751,
+    17112496,
+    21438839,
+    44339746,
+    1982600,
+    25446781,
+    15820858,
+    18889535,
+    6873876,
+    54670987,
+    825633,
+    55189405,
+    33864826,
+    2461531,
+    19261652,
+    35925862
   ],
   "discoveredCategories": [
     {
@@ -17786,10 +17822,50 @@
       "label": "People in Greek mythology",
       "discoveredFrom": "List of mortals in Greek mythology",
       "discoveredAt": 553
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mapuche mythology",
+      "iso": "CL",
+      "label": "Mapuche mythology",
+      "discoveredFrom": "Imbunche",
+      "discoveredAt": 554
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Boeotian mythology",
+      "iso": "_MULTI",
+      "label": "Boeotian mythology",
+      "discoveredFrom": "Ectenes",
+      "discoveredAt": 554
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Spanish legends",
+      "iso": "ES",
+      "label": "Spanish legends",
+      "discoveredFrom": "Sacromonte",
+      "discoveredAt": 554
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Serbian people",
+      "iso": "RS",
+      "label": "Legendary Serbian people",
+      "discoveredFrom": "Čuma",
+      "discoveredAt": 554
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Romani folklore",
+      "iso": "_MULTI",
+      "label": "Romani folklore",
+      "discoveredFrom": "George's Day in Spring",
+      "discoveredAt": 554
     }
   ],
-  "totalAdded": 2847,
-  "runs": 554,
-  "lastRun": "2026-07-14T01:42:06.802Z",
-  "lastDiscoveredIndex": 417
+  "totalAdded": 2856,
+  "runs": 555,
+  "lastRun": "2026-07-14T07:48:08.383Z",
+  "lastDiscoveredIndex": 420
 }
