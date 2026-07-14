@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 59,
+  "lastCategoryIndex": 62,
   "processedPageIds": [
     27551093,
     40572945,
@@ -3975,7 +3975,56 @@
     77399166,
     73261679,
     13781007,
-    22113148
+    22113148,
+    2620457,
+    27323126,
+    44635535,
+    55961470,
+    42943433,
+    2780329,
+    21234688,
+    26826810,
+    21465929,
+    32693911,
+    1848522,
+    76503909,
+    15388,
+    62138,
+    24540517,
+    5165154,
+    3718808,
+    20583069,
+    364210,
+    55199936,
+    2632086,
+    28304178,
+    11914247,
+    86236,
+    2149245,
+    11181147,
+    245156,
+    4817934,
+    39195497,
+    77727,
+    59048151,
+    77134182,
+    36254924,
+    64663,
+    20829242,
+    19896453,
+    20194995,
+    1982046,
+    36408314,
+    78950037,
+    68756558,
+    61963,
+    934009,
+    38312185,
+    78941281,
+    9598008,
+    4854673,
+    72384492,
+    13779476
   ],
   "discoveredCategories": [
     {
@@ -17673,10 +17722,74 @@
       "label": "Salvadoran mythology",
       "discoveredFrom": "Headless priest",
       "discoveredAt": 552
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Alexander the Great in legend",
+      "iso": "_MULTI",
+      "label": "Alexander the Great in legend",
+      "discoveredFrom": "Alexander the Great in Arabic tradition",
+      "discoveredAt": 553
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Metamorphoses into humanoids in Greek mythology",
+      "iso": "GR",
+      "label": "Metamorphoses into humanoids in Greek mythology",
+      "discoveredFrom": "Myrmidons",
+      "discoveredAt": 553
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Greek mythological witches",
+      "iso": "GR",
+      "label": "Greek mythological witches",
+      "discoveredFrom": "Graeae",
+      "discoveredAt": 553
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological blind people",
+      "iso": "_MULTI",
+      "label": "Mythological blind people",
+      "discoveredFrom": "Graeae",
+      "discoveredAt": 553
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Cattle in Chinese mythology",
+      "iso": "CN",
+      "label": "Cattle in Chinese mythology",
+      "discoveredFrom": "Kui (Chinese mythology)",
+      "discoveredAt": 553
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Greek hero cult",
+      "iso": "GR",
+      "label": "Greek hero cult",
+      "discoveredFrom": "List of deified people in Greek mythology",
+      "discoveredAt": 553
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Metamorphoses in Greek mythology",
+      "iso": "GR",
+      "label": "Metamorphoses in Greek mythology",
+      "discoveredFrom": "List of deified people in Greek mythology",
+      "discoveredAt": 553
+    },
+    {
+      "lang": "en",
+      "cat": "Category:People in Greek mythology",
+      "iso": "GR",
+      "label": "People in Greek mythology",
+      "discoveredFrom": "List of mortals in Greek mythology",
+      "discoveredAt": 553
     }
   ],
-  "totalAdded": 2837,
-  "runs": 553,
-  "lastRun": "2026-07-13T19:13:24.927Z",
-  "lastDiscoveredIndex": 414
+  "totalAdded": 2847,
+  "runs": 554,
+  "lastRun": "2026-07-14T01:42:06.802Z",
+  "lastDiscoveredIndex": 417
 }
