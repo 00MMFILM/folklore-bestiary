@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 74,
+  "lastCategoryIndex": 77,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4150,7 +4150,59 @@
     6723569,
     254519,
     5136015,
-    5969981
+    5969981,
+    9005514,
+    13803499,
+    944390,
+    7678822,
+    706321,
+    314131,
+    1725914,
+    27444616,
+    22803563,
+    38742842,
+    41566830,
+    70651073,
+    21168174,
+    42969961,
+    4233675,
+    47879770,
+    29378466,
+    940054,
+    86044,
+    30154502,
+    664969,
+    85945,
+    52058550,
+    86028,
+    85958,
+    17428410,
+    1799016,
+    6832753,
+    5832633,
+    5618271,
+    23215090,
+    6711743,
+    68183315,
+    5318558,
+    5605462,
+    5605896,
+    23510272,
+    27172367,
+    70514370,
+    73489465,
+    37900061,
+    46706099,
+    76758003,
+    9021164,
+    72265008,
+    57488679,
+    21269,
+    166604,
+    927344,
+    76224841,
+    5660497,
+    70747746
   ],
   "discoveredCategories": [
     {
@@ -18120,10 +18172,58 @@
       "label": "Fairy tales about lions",
       "discoveredFrom": "The Benevolent Frog",
       "discoveredAt": 557
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy Queens",
+      "iso": "_MULTI",
+      "label": "Fairy Queens",
+      "discoveredFrom": "Joan the Wad",
+      "discoveredAt": 558
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ghosts in popular culture",
+      "iso": "_MULTI",
+      "label": "Ghosts in popular culture",
+      "discoveredFrom": "Djákninn á Myrká",
+      "discoveredAt": 558
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Witchcraft in Iceland",
+      "iso": "IS",
+      "label": "Witchcraft in Iceland",
+      "discoveredFrom": "Eiríkur í Vogsósum",
+      "discoveredAt": 558
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary royal families",
+      "iso": "_MULTI",
+      "label": "Legendary royal families",
+      "discoveredFrom": "King Arthur's family",
+      "discoveredAt": 558
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Kyrgyz folklore",
+      "iso": "KG",
+      "label": "Kyrgyz folklore",
+      "discoveredFrom": "Dastan",
+      "discoveredAt": 558
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Iraqi folklore",
+      "iso": "IQ",
+      "label": "Iraqi folklore",
+      "discoveredFrom": "Ali Baba and the Forty Thieves",
+      "discoveredAt": 558
     }
   ],
-  "totalAdded": 2895,
-  "runs": 558,
-  "lastRun": "2026-07-15T01:28:11.778Z",
-  "lastDiscoveredIndex": 429
+  "totalAdded": 2910,
+  "runs": 559,
+  "lastRun": "2026-07-15T07:52:05.805Z",
+  "lastDiscoveredIndex": 432
 }
