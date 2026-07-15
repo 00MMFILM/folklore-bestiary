@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 71,
+  "lastCategoryIndex": 74,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4112,7 +4112,45 @@
     4236415,
     71521050,
     79352,
-    1485235
+    1485235,
+    877873,
+    80901691,
+    1110725,
+    254470,
+    66834109,
+    279621,
+    65440750,
+    451846,
+    79667408,
+    252774,
+    6047824,
+    80335951,
+    7912280,
+    306707,
+    14387468,
+    1596177,
+    43258210,
+    57533523,
+    165670,
+    12800936,
+    29104979,
+    5814371,
+    55525272,
+    8930443,
+    10687051,
+    8469429,
+    6829265,
+    68828779,
+    3516942,
+    68902466,
+    6425615,
+    7130737,
+    8474963,
+    10690540,
+    6723569,
+    254519,
+    5136015,
+    5969981
   ],
   "discoveredCategories": [
     {
@@ -18026,10 +18064,66 @@
       "label": "Mythological Thracians",
       "discoveredFrom": "Boreads",
       "discoveredAt": 556
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Spanish ghosts",
+      "iso": "ES",
+      "label": "Spanish ghosts",
+      "discoveredFrom": "Santa Compaña",
+      "discoveredAt": 557
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological medicines and drugs",
+      "iso": "_MULTI",
+      "label": "Mythological medicines and drugs",
+      "discoveredFrom": "Aetites",
+      "discoveredAt": 557
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological substances",
+      "iso": "_MULTI",
+      "label": "Mythological substances",
+      "discoveredFrom": "Aetites",
+      "discoveredAt": 557
+    },
+    {
+      "lang": "en",
+      "cat": "Category:The Devil in legend",
+      "iso": "_MULTI",
+      "label": "The Devil in legend",
+      "discoveredFrom": "Devil's Bridge",
+      "discoveredAt": 557
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Turkish fairy tales",
+      "iso": "TR",
+      "label": "Turkish fairy tales",
+      "discoveredFrom": "The Horse-Devil and the Witch",
+      "discoveredAt": 557
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about jackals",
+      "iso": "_MULTI",
+      "label": "Fairy tales about jackals",
+      "discoveredFrom": "Jackal or Tiger?",
+      "discoveredAt": 557
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about lions",
+      "iso": "_MULTI",
+      "label": "Fairy tales about lions",
+      "discoveredFrom": "The Benevolent Frog",
+      "discoveredAt": 557
     }
   ],
-  "totalAdded": 2880,
-  "runs": 557,
-  "lastRun": "2026-07-14T19:03:57.381Z",
-  "lastDiscoveredIndex": 426
+  "totalAdded": 2895,
+  "runs": 558,
+  "lastRun": "2026-07-15T01:28:11.778Z",
+  "lastDiscoveredIndex": 429
 }
