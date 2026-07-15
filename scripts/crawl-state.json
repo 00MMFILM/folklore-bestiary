@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 80,
+  "lastCategoryIndex": 83,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4253,7 +4253,49 @@
     473304,
     6857474,
     3864722,
-    57758554
+    57758554,
+    2533249,
+    69560510,
+    78510586,
+    36638816,
+    49326927,
+    670110,
+    78152563,
+    8494373,
+    4571,
+    25772915,
+    2063924,
+    19781494,
+    45252715,
+    38704528,
+    13593722,
+    2148941,
+    62965205,
+    328868,
+    7299271,
+    64289792,
+    37190889,
+    57159808,
+    72380909,
+    37180818,
+    5304423,
+    37377866,
+    8003390,
+    4555488,
+    57732270,
+    1912123,
+    77023393,
+    39803426,
+    70923627,
+    41114250,
+    74159804,
+    54251713,
+    60908563,
+    52785478,
+    55527598,
+    71375981,
+    22420845,
+    6475992
   ],
   "discoveredCategories": [
     {
@@ -18335,10 +18377,18 @@
       "label": "Mythological powers",
       "discoveredFrom": "Fenshen",
       "discoveredAt": 559
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological and legendary Chinese turtles",
+      "iso": "CN",
+      "label": "Mythological and legendary Chinese turtles",
+      "discoveredFrom": "Bixi",
+      "discoveredAt": 560
     }
   ],
-  "totalAdded": 2925,
-  "runs": 560,
-  "lastRun": "2026-07-15T13:15:21.833Z",
-  "lastDiscoveredIndex": 435
+  "totalAdded": 2934,
+  "runs": 561,
+  "lastRun": "2026-07-15T18:56:38.895Z",
+  "lastDiscoveredIndex": 438
 }
