@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 77,
+  "lastCategoryIndex": 80,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4202,7 +4202,58 @@
     927344,
     76224841,
     5660497,
-    70747746
+    70747746,
+    760506,
+    73847246,
+    9213154,
+    6438368,
+    73999715,
+    364489,
+    6592989,
+    70627077,
+    3089150,
+    3088805,
+    1467607,
+    28778260,
+    1834673,
+    3088856,
+    423819,
+    1791761,
+    3088851,
+    1205180,
+    22663164,
+    9938942,
+    3524986,
+    3546918,
+    34801239,
+    19700824,
+    55945206,
+    21546405,
+    15731950,
+    2833980,
+    28061992,
+    2878940,
+    8251964,
+    44006311,
+    64444381,
+    6711921,
+    27934171,
+    5553360,
+    36922675,
+    661507,
+    70372991,
+    1800558,
+    2103687,
+    57043484,
+    37647322,
+    5158920,
+    59859434,
+    67085030,
+    71464425,
+    473304,
+    6857474,
+    3864722,
+    57758554
   ],
   "discoveredCategories": [
     {
@@ -18220,10 +18271,74 @@
       "label": "Iraqi folklore",
       "discoveredFrom": "Ali Baba and the Forty Thieves",
       "discoveredAt": 558
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Lithuanian mythology",
+      "iso": "LT",
+      "label": "Lithuanian mythology",
+      "discoveredFrom": "Lithuanian mythology",
+      "discoveredAt": 559
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Pseudo-mythology",
+      "iso": "_MULTI",
+      "label": "Pseudo-mythology",
+      "discoveredFrom": "Anapilis",
+      "discoveredAt": 559
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Prussian mythology",
+      "iso": "_MULTI",
+      "label": "Prussian mythology",
+      "discoveredFrom": "Romuva (temple)",
+      "discoveredAt": 559
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ossetian mythology",
+      "iso": "_MULTI",
+      "label": "Ossetian mythology",
+      "discoveredFrom": "Apsat (mythology)",
+      "discoveredAt": 559
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of Georgia (country)",
+      "iso": "_MULTI",
+      "label": "Folklore of Georgia (country)",
+      "discoveredFrom": "Eteriani",
+      "discoveredAt": 559
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about personifications of death",
+      "iso": "_MULTI",
+      "label": "Fairy tales about personifications of death",
+      "discoveredFrom": "Death's Messengers",
+      "discoveredAt": 559
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary bears",
+      "iso": "_MULTI",
+      "label": "Legendary bears",
+      "discoveredFrom": "Bödvar Bjarki",
+      "discoveredAt": 559
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological powers",
+      "iso": "_MULTI",
+      "label": "Mythological powers",
+      "discoveredFrom": "Fenshen",
+      "discoveredAt": 559
     }
   ],
-  "totalAdded": 2910,
-  "runs": 559,
-  "lastRun": "2026-07-15T07:52:05.805Z",
-  "lastDiscoveredIndex": 432
+  "totalAdded": 2925,
+  "runs": 560,
+  "lastRun": "2026-07-15T13:15:21.833Z",
+  "lastDiscoveredIndex": 435
 }
