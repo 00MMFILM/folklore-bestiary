@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 83,
+  "lastCategoryIndex": 86,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4295,7 +4295,54 @@
     55527598,
     71375981,
     22420845,
-    6475992
+    6475992,
+    1642474,
+    62397932,
+    36538906,
+    3475306,
+    26941852,
+    62422218,
+    23683720,
+    62397551,
+    7334974,
+    80468664,
+    324122,
+    80832955,
+    37492775,
+    64667941,
+    64643529,
+    64614629,
+    42457043,
+    42467866,
+    37319759,
+    52434354,
+    1652870,
+    37241994,
+    8758795,
+    62134104,
+    72379101,
+    1526658,
+    229052,
+    5791601,
+    81032862,
+    79375037,
+    76928179,
+    6491230,
+    5682864,
+    6424614,
+    5778808,
+    12445030,
+    14117623,
+    35272353,
+    174443,
+    5778250,
+    13307802,
+    82377453,
+    22804046,
+    30251615,
+    32742775,
+    48511443,
+    35774162
   ],
   "discoveredCategories": [
     {
@@ -18385,10 +18432,82 @@
       "label": "Mythological and legendary Chinese turtles",
       "discoveredFrom": "Bixi",
       "discoveredAt": 560
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Korean shamanism",
+      "iso": "KR",
+      "label": "Korean shamanism",
+      "discoveredFrom": "Korean shamanism",
+      "discoveredAt": 561
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Characters in Korean mythology",
+      "iso": "KR",
+      "label": "Characters in Korean mythology",
+      "discoveredFrom": "Gongsim",
+      "discoveredAt": 561
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Korean people",
+      "iso": "KR",
+      "label": "Legendary Korean people",
+      "discoveredFrom": "Gongsim",
+      "discoveredAt": 561
+    },
+    {
+      "lang": "en",
+      "cat": "Category:National Folklore Cultural Heritage of South Korea",
+      "iso": "KR",
+      "label": "National Folklore Cultural Heritage of South Korea",
+      "discoveredFrom": "Naewat-dang shamanic paintings",
+      "discoveredAt": 561
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Korean legends",
+      "iso": "KR",
+      "label": "Korean legends",
+      "discoveredFrom": "Kim Sŏng-han",
+      "discoveredAt": 561
+    },
+    {
+      "lang": "en",
+      "cat": "Category:East Asian mythology",
+      "iso": "_MULTI",
+      "label": "East Asian mythology",
+      "discoveredFrom": "Qianlima",
+      "discoveredAt": 561
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Horses in Chinese mythology",
+      "iso": "CN",
+      "label": "Horses in Chinese mythology",
+      "discoveredFrom": "Qianlima",
+      "discoveredAt": 561
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about magic rings",
+      "iso": "_MULTI",
+      "label": "Fairy tales about magic rings",
+      "discoveredFrom": "María, manos blancas",
+      "discoveredAt": 561
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological princes",
+      "iso": "_MULTI",
+      "label": "Mythological princes",
+      "discoveredFrom": "Panji tales",
+      "discoveredAt": 561
     }
   ],
-  "totalAdded": 2934,
-  "runs": 561,
-  "lastRun": "2026-07-15T18:56:38.895Z",
-  "lastDiscoveredIndex": 438
+  "totalAdded": 2943,
+  "runs": 562,
+  "lastRun": "2026-07-16T01:48:41.627Z",
+  "lastDiscoveredIndex": 441
 }
