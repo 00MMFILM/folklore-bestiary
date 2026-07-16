@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 89,
+  "lastCategoryIndex": 92,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4365,7 +4365,44 @@
     6548030,
     6361595,
     80942673,
-    7647467
+    7647467,
+    7558519,
+    27449761,
+    28670628,
+    52019259,
+    5800759,
+    67518966,
+    1127330,
+    1127302,
+    28232807,
+    49657969,
+    27166524,
+    43018053,
+    19023955,
+    1127300,
+    11943323,
+    30244516,
+    73148410,
+    73144654,
+    73277972,
+    73527773,
+    73488228,
+    73536328,
+    82682662,
+    61218135,
+    24686935,
+    5973122,
+    4499997,
+    24629015,
+    10109709,
+    250055,
+    19010124,
+    268910,
+    191680,
+    15832610,
+    52809061,
+    53089532,
+    47146769
   ],
   "discoveredCategories": [
     {
@@ -18535,10 +18572,66 @@
       "label": "Burmese mythology",
       "discoveredFrom": "Mythical creatures in Burmese folklore",
       "discoveredAt": 562
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sri Lankan legendary creatures",
+      "iso": "LK",
+      "label": "Sri Lankan legendary creatures",
+      "discoveredFrom": "Devil Bird",
+      "discoveredAt": 563
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Indonesian gods",
+      "iso": "ID",
+      "label": "Indonesian gods",
+      "discoveredFrom": "Batara Kala",
+      "discoveredAt": 563
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fijian mythology",
+      "iso": "FJ",
+      "label": "Fijian mythology",
+      "discoveredFrom": "Flaming Teeth",
+      "discoveredAt": 563
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Goetic demons",
+      "iso": "_MULTI",
+      "label": "Goetic demons",
+      "discoveredFrom": "Asmodeus",
+      "discoveredAt": 563
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Comics about magic (supernatural)",
+      "iso": "_MULTI",
+      "label": "Comics about magic (supernatural)",
+      "discoveredFrom": "Chilling Adventures of Sabrina",
+      "discoveredAt": 563
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Comics about spirit possession",
+      "iso": "_MULTI",
+      "label": "Comics about spirit possession",
+      "discoveredFrom": "Chilling Adventures of Sabrina",
+      "discoveredAt": 563
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sabrina the Teenage Witch",
+      "iso": "_MULTI",
+      "label": "Sabrina the Teenage Witch",
+      "discoveredFrom": "Chilling Adventures of Sabrina",
+      "discoveredAt": 563
     }
   ],
-  "totalAdded": 2947,
-  "runs": 563,
-  "lastRun": "2026-07-16T07:57:07.056Z",
-  "lastDiscoveredIndex": 444
+  "totalAdded": 2957,
+  "runs": 564,
+  "lastRun": "2026-07-16T13:22:35.649Z",
+  "lastDiscoveredIndex": 447
 }
