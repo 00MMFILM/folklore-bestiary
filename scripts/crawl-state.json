@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 92,
+  "lastCategoryIndex": 95,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4402,7 +4402,39 @@
     15832610,
     52809061,
     53089532,
-    47146769
+    47146769,
+    7521591,
+    26530002,
+    18644055,
+    33960277,
+    6299379,
+    1473396,
+    36716065,
+    47870680,
+    6558203,
+    6909822,
+    37240857,
+    495353,
+    61646908,
+    256124,
+    64304658,
+    571823,
+    79024087,
+    77810411,
+    63507459,
+    80079,
+    361189,
+    54133335,
+    78972,
+    22877693,
+    78881,
+    84664,
+    51017,
+    83099,
+    13163100,
+    67762005,
+    34737418,
+    67755190
   ],
   "discoveredCategories": [
     {
@@ -18628,10 +18660,82 @@
       "label": "Sabrina the Teenage Witch",
       "discoveredFrom": "Chilling Adventures of Sabrina",
       "discoveredAt": 563
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Bhutanese legendary creatures",
+      "iso": "BT",
+      "label": "Bhutanese legendary creatures",
+      "discoveredFrom": "Druk",
+      "discoveredAt": 564
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Tibetan legendary creatures",
+      "iso": "CN",
+      "label": "Tibetan legendary creatures",
+      "discoveredFrom": "Druk",
+      "discoveredAt": 564
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Tibetan Buddhist mythology",
+      "iso": "CN",
+      "label": "Tibetan Buddhist mythology",
+      "discoveredFrom": "Pha Trelgen Changchup Sempa",
+      "discoveredAt": 564
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about miniature people",
+      "iso": "_MULTI",
+      "label": "Fairy tales about miniature people",
+      "discoveredFrom": "Issun-bōshi",
+      "discoveredAt": 564
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Consorts of Pan (god)",
+      "iso": "_MULTI",
+      "label": "Consorts of Pan (god)",
+      "discoveredFrom": "Daphnis",
+      "discoveredAt": 564
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Greek poets",
+      "iso": "GR",
+      "label": "Legendary Greek poets",
+      "discoveredFrom": "Linus of Thrace",
+      "discoveredAt": 564
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ancient Greek shamans",
+      "iso": "GR",
+      "label": "Ancient Greek shamans",
+      "discoveredFrom": "Orpheus",
+      "discoveredAt": 564
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Greek love and lust gods",
+      "iso": "GR",
+      "label": "Greek love and lust gods",
+      "discoveredFrom": "Pan (god)",
+      "discoveredAt": 564
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Megarians",
+      "iso": "_MULTI",
+      "label": "Mythological Megarians",
+      "discoveredFrom": "Abrota",
+      "discoveredAt": 564
     }
   ],
-  "totalAdded": 2957,
-  "runs": 564,
-  "lastRun": "2026-07-16T13:22:35.649Z",
-  "lastDiscoveredIndex": 447
+  "totalAdded": 2972,
+  "runs": 565,
+  "lastRun": "2026-07-16T18:57:09.809Z",
+  "lastDiscoveredIndex": 450
 }
