@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 86,
+  "lastCategoryIndex": 89,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4342,7 +4342,30 @@
     30251615,
     32742775,
     48511443,
-    35774162
+    35774162,
+    35668706,
+    168101,
+    313664,
+    465563,
+    22716357,
+    38754350,
+    59236128,
+    5662631,
+    950519,
+    71095921,
+    29805611,
+    2424838,
+    57363008,
+    57350666,
+    5511196,
+    82138555,
+    1144146,
+    55537472,
+    55637947,
+    6548030,
+    6361595,
+    80942673,
+    7647467
   ],
   "discoveredCategories": [
     {
@@ -18504,10 +18527,18 @@
       "label": "Mythological princes",
       "discoveredFrom": "Panji tales",
       "discoveredAt": 561
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Burmese mythology",
+      "iso": "MM",
+      "label": "Burmese mythology",
+      "discoveredFrom": "Mythical creatures in Burmese folklore",
+      "discoveredAt": 562
     }
   ],
-  "totalAdded": 2943,
-  "runs": 562,
-  "lastRun": "2026-07-16T01:48:41.627Z",
-  "lastDiscoveredIndex": 441
+  "totalAdded": 2947,
+  "runs": 563,
+  "lastRun": "2026-07-16T07:57:07.056Z",
+  "lastDiscoveredIndex": 444
 }
