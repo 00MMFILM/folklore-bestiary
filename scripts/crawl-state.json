@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 98,
+  "lastCategoryIndex": 101,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4473,7 +4473,47 @@
     40757098,
     40737485,
     40583403,
-    15116198
+    15116198,
+    66238646,
+    11052326,
+    28010601,
+    929490,
+    3869712,
+    80919944,
+    18175,
+    73789396,
+    2458523,
+    7071407,
+    7955844,
+    4521905,
+    57733330,
+    5516670,
+    42463564,
+    708222,
+    11004269,
+    1551855,
+    769128,
+    1204214,
+    5693068,
+    2512008,
+    54066699,
+    53831087,
+    53830820,
+    12846543,
+    13019212,
+    10256922,
+    54226827,
+    67761177,
+    67358115,
+    53757696,
+    5260194,
+    87661,
+    20240760,
+    80387,
+    97317,
+    306672,
+    95916,
+    65949071
   ],
   "discoveredCategories": [
     {
@@ -18811,10 +18851,42 @@
       "label": "Legendary footprints",
       "discoveredFrom": "Moso's Footprint",
       "discoveredAt": 565
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Messenian mythology",
+      "iso": "_MULTI",
+      "label": "Messenian mythology",
+      "discoveredFrom": "Abia (mythology)",
+      "discoveredAt": 566
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Messenians",
+      "iso": "_MULTI",
+      "label": "Mythological Messenians",
+      "discoveredFrom": "Abia (mythology)",
+      "discoveredAt": 566
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Germanic legendary creatures",
+      "iso": "DE",
+      "label": "Germanic legendary creatures",
+      "discoveredFrom": "Askafroa",
+      "discoveredAt": 566
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Finnish goddesses",
+      "iso": "FI",
+      "label": "Finnish goddesses",
+      "discoveredFrom": "Mielikki",
+      "discoveredAt": 566
     }
   ],
-  "totalAdded": 2987,
-  "runs": 566,
-  "lastRun": "2026-07-17T01:52:02.223Z",
-  "lastDiscoveredIndex": 453
+  "totalAdded": 3002,
+  "runs": 567,
+  "lastRun": "2026-07-17T07:53:48.032Z",
+  "lastDiscoveredIndex": 456
 }
