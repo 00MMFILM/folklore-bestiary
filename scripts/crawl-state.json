@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 101,
+  "lastCategoryIndex": 104,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4513,7 +4513,29 @@
     97317,
     306672,
     95916,
-    65949071
+    65949071,
+    380699,
+    71906763,
+    8456069,
+    11888,
+    36029730,
+    1917302,
+    52699863,
+    19176047,
+    60328029,
+    1661428,
+    7590149,
+    47933648,
+    3994551,
+    208837,
+    120914,
+    459868,
+    1258926,
+    2675869,
+    937194,
+    2695428,
+    2641203,
+    3608361
   ],
   "discoveredCategories": [
     {
@@ -18883,10 +18905,82 @@
       "label": "Finnish goddesses",
       "discoveredFrom": "Mielikki",
       "discoveredAt": 566
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Nudity in mythology",
+      "iso": "_MULTI",
+      "label": "Nudity in mythology",
+      "discoveredFrom": "Mavka",
+      "discoveredAt": 567
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Demons in popular culture",
+      "iso": "_MULTI",
+      "label": "Demons in popular culture",
+      "discoveredFrom": "Daimajin",
+      "discoveredAt": 567
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Films based on Japanese myths and legends",
+      "iso": "JP",
+      "label": "Films based on Japanese myths and legends",
+      "discoveredFrom": "Daimajin",
+      "discoveredAt": 567
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 강간범",
+      "iso": "_MULTI",
+      "label": "신화의 강간범",
+      "discoveredFrom": "가나안 (성경 인물)",
+      "discoveredAt": 567
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:전설 속 지배자",
+      "iso": "_MULTI",
+      "label": "전설 속 지배자",
+      "discoveredFrom": "레흐와 체흐와 루스",
+      "discoveredAt": 567
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:노르드 신화의 인물",
+      "iso": "_MULTI",
+      "label": "노르드 신화의 인물",
+      "discoveredFrom": "리프와 리프트라시르",
+      "discoveredAt": 567
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 첫번째 인간",
+      "iso": "_MULTI",
+      "label": "신화의 첫번째 인간",
+      "discoveredFrom": "마누",
+      "discoveredAt": 567
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:힌두 신화의 왕",
+      "iso": "_MULTI",
+      "label": "힌두 신화의 왕",
+      "discoveredFrom": "바이바스바타 마누",
+      "discoveredAt": 567
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:힌두 신화의 인물",
+      "iso": "_MULTI",
+      "label": "힌두 신화의 인물",
+      "discoveredFrom": "바이바스바타 마누",
+      "discoveredAt": 567
     }
   ],
-  "totalAdded": 3002,
-  "runs": 567,
-  "lastRun": "2026-07-17T07:53:48.032Z",
-  "lastDiscoveredIndex": 456
+  "totalAdded": 3004,
+  "runs": 568,
+  "lastRun": "2026-07-17T13:07:07.078Z",
+  "lastDiscoveredIndex": 459
 }
