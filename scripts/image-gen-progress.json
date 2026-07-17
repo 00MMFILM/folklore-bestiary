@@ -1034,5 +1034,15 @@
   "se-harpans-kraft": "/creatures/europe/harpans-kraft.webp",
   "se-vanlandi": "/creatures/europe/vanlandi.webp",
   "gr-actisanes": "/creatures/europe/actisanes.webp",
-  "gr-adrastus-mythology": "/creatures/europe/adrastus-mythology.webp"
+  "gr-adrastus-mythology": "/creatures/europe/adrastus-mythology.webp",
+  "jp-hyakki-yagyo": "/creatures/east-asia/hyakki-yagyo.webp",
+  "jp-hannya": "/creatures/east-asia/hannya.webp",
+  "jp-ibaraki-doji": "/creatures/east-asia/ibaraki-doji.webp",
+  "il-asmodeus": "/creatures/south-asia/asmodeus.webp",
+  "pg-gazeka": "/creatures/oceania/gazeka.webp",
+  "gr-aeson": "/creatures/europe/aeson.webp",
+  "gr-palioxis": "/creatures/europe/palioxis.webp",
+  "gr-actis-mythology": "/creatures/europe/actis-mythology.webp",
+  "gr-aconteus": "/creatures/europe/aconteus.webp",
+  "gr-aeternae": "/creatures/europe/aeternae.webp"
 }
