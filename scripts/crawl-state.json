@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 95,
+  "lastCategoryIndex": 98,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4434,7 +4434,46 @@
     13163100,
     67762005,
     34737418,
-    67755190
+    67755190,
+    26521686,
+    96508,
+    96522,
+    4583770,
+    36613017,
+    95854,
+    96547,
+    95519,
+    96521,
+    60003,
+    95788,
+    95792,
+    95794,
+    22004911,
+    3057398,
+    45538755,
+    96446,
+    1052718,
+    95922,
+    587850,
+    64500329,
+    23839455,
+    13819459,
+    2660677,
+    93355,
+    92764,
+    14455397,
+    73801234,
+    92808,
+    6199620,
+    40868321,
+    75344105,
+    40484384,
+    40757828,
+    71566227,
+    40757098,
+    40737485,
+    40583403,
+    15116198
   ],
   "discoveredCategories": [
     {
@@ -18732,10 +18771,50 @@
       "label": "Mythological Megarians",
       "discoveredFrom": "Abrota",
       "discoveredAt": 564
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Tahiti and Society Islands mythology",
+      "iso": "_MULTI",
+      "label": "Tahiti and Society Islands mythology",
+      "discoveredFrom": "Pahuanui",
+      "discoveredAt": 565
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Tuamotu mythology",
+      "iso": "_MULTI",
+      "label": "Tuamotu mythology",
+      "discoveredFrom": "Tahiti-tokerau",
+      "discoveredAt": 565
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Samoan mythology",
+      "iso": "WS",
+      "label": "Samoan mythology",
+      "discoveredFrom": "Samoan mythology",
+      "discoveredAt": 565
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Samoan folklore",
+      "iso": "WS",
+      "label": "Samoan folklore",
+      "discoveredFrom": "Fāgogo",
+      "discoveredAt": 565
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary footprints",
+      "iso": "_MULTI",
+      "label": "Legendary footprints",
+      "discoveredFrom": "Moso's Footprint",
+      "discoveredAt": 565
     }
   ],
-  "totalAdded": 2972,
-  "runs": 565,
-  "lastRun": "2026-07-16T18:57:09.809Z",
-  "lastDiscoveredIndex": 450
+  "totalAdded": 2987,
+  "runs": 566,
+  "lastRun": "2026-07-17T01:52:02.223Z",
+  "lastDiscoveredIndex": 453
 }
