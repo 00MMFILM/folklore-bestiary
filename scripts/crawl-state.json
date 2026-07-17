@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 104,
+  "lastCategoryIndex": 107,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4535,7 +4535,34 @@
     937194,
     2695428,
     2641203,
-    3608361
+    3608361,
+    1816352,
+    72682079,
+    332685,
+    749716,
+    63531074,
+    63379869,
+    63166053,
+    23214734,
+    63096424,
+    683632,
+    2777635,
+    6627,
+    66531,
+    741980,
+    234432,
+    288290,
+    3577545,
+    188751,
+    295954,
+    96711,
+    188451,
+    3301854,
+    226376,
+    259079,
+    658523,
+    306458,
+    226093
   ],
   "discoveredCategories": [
     {
@@ -18977,10 +19004,50 @@
       "label": "힌두 신화의 인물",
       "discoveredFrom": "바이바스바타 마누",
       "discoveredAt": 567
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Albanian fairy tales",
+      "iso": "AL",
+      "label": "Albanian fairy tales",
+      "discoveredFrom": "The Twins (folktale)",
+      "discoveredAt": 568
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:그리스 신화의 왕",
+      "iso": "_MULTI",
+      "label": "그리스 신화의 왕",
+      "discoveredFrom": "네스토르 (신화)",
+      "discoveredAt": 568
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:그리스 신화의 왕자",
+      "iso": "_MULTI",
+      "label": "그리스 신화의 왕자",
+      "discoveredFrom": "네스토르 (신화)",
+      "discoveredAt": 568
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:이란 신화의 샤",
+      "iso": "_MULTI",
+      "label": "이란 신화의 샤",
+      "discoveredFrom": "마누체흐르",
+      "discoveredAt": 568
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:고대 이란의 전설의 생물",
+      "iso": "_MULTI",
+      "label": "고대 이란의 전설의 생물",
+      "discoveredFrom": "아지 다하카",
+      "discoveredAt": 568
     }
   ],
-  "totalAdded": 3004,
-  "runs": 568,
-  "lastRun": "2026-07-17T13:07:07.078Z",
-  "lastDiscoveredIndex": 459
+  "totalAdded": 3013,
+  "runs": 569,
+  "lastRun": "2026-07-17T18:54:03.855Z",
+  "lastDiscoveredIndex": 462
 }
