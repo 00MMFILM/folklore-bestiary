@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 116,
+  "lastCategoryIndex": 119,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4606,7 +4606,12 @@
     3253821,
     1061745,
     535988,
-    3807900
+    3807900,
+    55037488,
+    36604877,
+    352118,
+    2966770,
+    8061
   ],
   "discoveredCategories": [
     {
@@ -19296,10 +19301,26 @@
       "label": "효고현의 요괴",
       "discoveredFrom": "화차 (일본 요괴)",
       "discoveredAt": 571
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Vietnamese gods",
+      "iso": "VN",
+      "label": "Vietnamese gods",
+      "discoveredFrom": "Thánh Gióng",
+      "discoveredAt": 572
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Vietnamese mythology",
+      "iso": "VN",
+      "label": "Vietnamese mythology",
+      "discoveredFrom": "Thánh Gióng",
+      "discoveredAt": 572
     }
   ],
-  "totalAdded": 3027,
-  "runs": 572,
-  "lastRun": "2026-07-18T12:54:06.225Z",
-  "lastDiscoveredIndex": 471
+  "totalAdded": 3029,
+  "runs": 573,
+  "lastRun": "2026-07-18T18:49:07.861Z",
+  "lastDiscoveredIndex": 474
 }
