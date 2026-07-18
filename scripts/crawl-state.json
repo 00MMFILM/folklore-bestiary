@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 107,
+  "lastCategoryIndex": 110,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4562,7 +4562,32 @@
     259079,
     658523,
     306458,
-    226093
+    226093,
+    618101,
+    2889119,
+    536785,
+    190979,
+    9663,
+    203320,
+    2568978,
+    1375001,
+    203937,
+    3994518,
+    2962852,
+    116688,
+    2599803,
+    2823093,
+    3684913,
+    863736,
+    3835285,
+    2006612,
+    1255566,
+    3843675,
+    1134070,
+    2844917,
+    1982321,
+    1134064,
+    2691971
   ],
   "discoveredCategories": [
     {
@@ -19044,10 +19069,122 @@
       "label": "고대 이란의 전설의 생물",
       "discoveredFrom": "아지 다하카",
       "discoveredAt": 568
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:중국 신화를 바탕으로 한 작품",
+      "iso": "CN",
+      "label": "중국 신화를 바탕으로 한 작품",
+      "discoveredFrom": "백사전",
+      "discoveredAt": 569
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:요괴를 소재로 한 만화",
+      "iso": "_MULTI",
+      "label": "요괴를 소재로 한 만화",
+      "discoveredFrom": "나를 먹고 싶은, 괴물",
+      "discoveredAt": 569
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:요괴워치",
+      "iso": "_MULTI",
+      "label": "요괴워치",
+      "discoveredFrom": "요괴워치 (애니메이션)",
+      "discoveredAt": 569
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:아키타현의 요괴",
+      "iso": "_MULTI",
+      "label": "아키타현의 요괴",
+      "discoveredFrom": "늙은 동백의 영",
+      "discoveredAt": 569
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:야마가타현의 요괴",
+      "iso": "_MULTI",
+      "label": "야마가타현의 요괴",
+      "discoveredFrom": "늙은 동백의 영",
+      "discoveredAt": 569
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:가가와현의 요괴",
+      "iso": "_MULTI",
+      "label": "가가와현의 요괴",
+      "discoveredFrom": "로쿠로쿠비",
+      "discoveredAt": 569
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:나가노현의 요괴",
+      "iso": "_MULTI",
+      "label": "나가노현의 요괴",
+      "discoveredFrom": "로쿠로쿠비",
+      "discoveredAt": 569
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:후쿠이현의 요괴",
+      "iso": "_MULTI",
+      "label": "후쿠이현의 요괴",
+      "discoveredFrom": "로쿠로쿠비",
+      "discoveredAt": 569
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:사가현의 요괴",
+      "iso": "_MULTI",
+      "label": "사가현의 요괴",
+      "discoveredFrom": "시라누이",
+      "discoveredAt": 569
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:에히메현의 요괴",
+      "iso": "_MULTI",
+      "label": "에히메현의 요괴",
+      "discoveredFrom": "우부메",
+      "discoveredAt": 569
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:오카야마현의 요괴",
+      "iso": "_MULTI",
+      "label": "오카야마현의 요괴",
+      "discoveredFrom": "우부메",
+      "discoveredAt": 569
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:후쿠시마현의 요괴",
+      "iso": "_MULTI",
+      "label": "후쿠시마현의 요괴",
+      "discoveredFrom": "우부메",
+      "discoveredAt": 569
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:미에현의 요괴",
+      "iso": "_MULTI",
+      "label": "미에현의 요괴",
+      "discoveredFrom": "큰메기",
+      "discoveredAt": 569
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:시가현의 요괴",
+      "iso": "_MULTI",
+      "label": "시가현의 요괴",
+      "discoveredFrom": "큰메기",
+      "discoveredAt": 569
     }
   ],
-  "totalAdded": 3013,
-  "runs": 569,
-  "lastRun": "2026-07-17T18:54:03.855Z",
-  "lastDiscoveredIndex": 462
+  "totalAdded": 3020,
+  "runs": 570,
+  "lastRun": "2026-07-18T01:42:19.208Z",
+  "lastDiscoveredIndex": 465
 }
