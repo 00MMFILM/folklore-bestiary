@@ -1044,5 +1044,14 @@
   "gr-palioxis": "/creatures/europe/palioxis.webp",
   "gr-actis-mythology": "/creatures/europe/actis-mythology.webp",
   "gr-aconteus": "/creatures/europe/aconteus.webp",
-  "gr-aeternae": "/creatures/europe/aeternae.webp"
+  "gr-aeternae": "/creatures/europe/aeternae.webp",
+  "ru-barstuk": "/creatures/europe/barstuk.webp",
+  "ru-dobrynya": "/creatures/europe/dobrynya.webp",
+  "ng-ajogun": "/creatures/africa/ajogun.webp",
+  "br-headless-mule": "/creatures/americas/headless-mule.webp",
+  "jp-awa-tanuki-gassen": "/creatures/east-asia/awa-tanuki-gassen.webp",
+  "jp-inugami-gyobu": "/creatures/east-asia/inugami-gyobu.webp",
+  "cn-fenshen": "/creatures/east-asia/fenshen.webp",
+  "ph-mandurugo": "/creatures/east-asia/mandurugo.webp",
+  "ph-ekek": "/creatures/east-asia/ekek.webp"
 }
