@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 110,
+  "lastCategoryIndex": 113,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4587,7 +4587,12 @@
     2844917,
     1982321,
     1134064,
-    2691971
+    2691971,
+    1065340,
+    1073861,
+    2887064,
+    3326700,
+    3011833
   ],
   "discoveredCategories": [
     {
@@ -19181,10 +19186,58 @@
       "label": "시가현의 요괴",
       "discoveredFrom": "큰메기",
       "discoveredAt": 569
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:아이치현의 요괴",
+      "iso": "_MULTI",
+      "label": "아이치현의 요괴",
+      "discoveredFrom": "쓰루베오토시",
+      "discoveredAt": 570
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:가고시마현의 요괴",
+      "iso": "_MULTI",
+      "label": "가고시마현의 요괴",
+      "discoveredFrom": "야호 (요괴)",
+      "discoveredAt": 570
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:오사카부의 요괴",
+      "iso": "_MULTI",
+      "label": "오사카부의 요괴",
+      "discoveredFrom": "야호 (요괴)",
+      "discoveredAt": 570
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:고치현의 요괴",
+      "iso": "_MULTI",
+      "label": "고치현의 요괴",
+      "discoveredFrom": "낫족제비",
+      "discoveredAt": 570
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:도쿠시마현의 요괴",
+      "iso": "_MULTI",
+      "label": "도쿠시마현의 요괴",
+      "discoveredFrom": "낫족제비",
+      "discoveredAt": 570
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 거미",
+      "iso": "_MULTI",
+      "label": "신화의 거미",
+      "discoveredFrom": "츠치구모",
+      "discoveredAt": 570
     }
   ],
-  "totalAdded": 3020,
-  "runs": 570,
-  "lastRun": "2026-07-18T01:42:19.208Z",
-  "lastDiscoveredIndex": 465
+  "totalAdded": 3023,
+  "runs": 571,
+  "lastRun": "2026-07-18T07:28:34.752Z",
+  "lastDiscoveredIndex": 468
 }
