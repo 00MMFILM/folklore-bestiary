@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 113,
+  "lastCategoryIndex": 116,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4592,7 +4592,21 @@
     1073861,
     2887064,
     3326700,
-    3011833
+    3011833,
+    1134060,
+    3845490,
+    1152686,
+    1134068,
+    1073891,
+    2795352,
+    1134073,
+    3843702,
+    3843762,
+    1134050,
+    3253821,
+    1061745,
+    535988,
+    3807900
   ],
   "discoveredCategories": [
     {
@@ -19234,10 +19248,58 @@
       "label": "신화의 거미",
       "discoveredFrom": "츠치구모",
       "discoveredAt": 570
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:미야기현의 요괴",
+      "iso": "_MULTI",
+      "label": "미야기현의 요괴",
+      "discoveredFrom": "낙신부",
+      "discoveredAt": 571
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:요괴회권의 요괴",
+      "iso": "_MULTI",
+      "label": "요괴회권의 요괴",
+      "discoveredFrom": "눗페후호후",
+      "discoveredAt": 571
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:아오모리현의 요괴",
+      "iso": "_MULTI",
+      "label": "아오모리현의 요괴",
+      "discoveredFrom": "모쿠모쿠렌",
+      "discoveredAt": 571
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:일본의 민속 문화",
+      "iso": "JP",
+      "label": "일본의 민속 문화",
+      "discoveredFrom": "사령 (귀신)",
+      "discoveredAt": 571
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:야마나시현의 요괴",
+      "iso": "_MULTI",
+      "label": "야마나시현의 요괴",
+      "discoveredFrom": "화차 (일본 요괴)",
+      "discoveredAt": 571
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:효고현의 요괴",
+      "iso": "_MULTI",
+      "label": "효고현의 요괴",
+      "discoveredFrom": "화차 (일본 요괴)",
+      "discoveredAt": 571
     }
   ],
-  "totalAdded": 3023,
-  "runs": 571,
-  "lastRun": "2026-07-18T07:28:34.752Z",
-  "lastDiscoveredIndex": 468
+  "totalAdded": 3027,
+  "runs": 572,
+  "lastRun": "2026-07-18T12:54:06.225Z",
+  "lastDiscoveredIndex": 471
 }
