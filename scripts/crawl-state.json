@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 125,
+  "lastCategoryIndex": 128,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4670,7 +4670,36 @@
     195372,
     109649,
     109639,
-    205116
+    205116,
+    70761118,
+    895311,
+    65627661,
+    92795,
+    39388419,
+    9757899,
+    1104314,
+    1212710,
+    417121,
+    1704619,
+    2593678,
+    1592239,
+    93184,
+    1295864,
+    1094881,
+    317314,
+    112727,
+    150177,
+    532256,
+    296699,
+    266368,
+    1090597,
+    3722620,
+    2790524,
+    3882673,
+    2683914,
+    3318000,
+    35124,
+    658201
   ],
   "discoveredCategories": [
     {
@@ -19456,10 +19485,146 @@
       "label": "신화의 장소",
       "discoveredFrom": "에덴 동산",
       "discoveredAt": 574
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:스코틀랜드 신화",
+      "iso": "_MULTI",
+      "label": "스코틀랜드 신화",
+      "discoveredFrom": "너 피르 코롱머",
+      "discoveredAt": 575
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:영국의 전설의 생물",
+      "iso": "GB",
+      "label": "영국의 전설의 생물",
+      "discoveredFrom": "너 피르 코롱머",
+      "discoveredAt": 575
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 늑대",
+      "iso": "_MULTI",
+      "label": "신화의 늑대",
+      "discoveredFrom": "늑대인간",
+      "discoveredAt": 575
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:네덜란드의 전설의 생물",
+      "iso": "_MULTI",
+      "label": "네덜란드의 전설의 생물",
+      "discoveredFrom": "돼지 얼굴 여인",
+      "discoveredAt": 575
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 돼지",
+      "iso": "_MULTI",
+      "label": "신화의 돼지",
+      "discoveredFrom": "돼지 얼굴 여인",
+      "discoveredAt": 575
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:아일랜드의 전설의 생물",
+      "iso": "_MULTI",
+      "label": "아일랜드의 전설의 생물",
+      "discoveredFrom": "돼지 얼굴 여인",
+      "discoveredAt": 575
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:잉글랜드의 전설의 생물",
+      "iso": "_MULTI",
+      "label": "잉글랜드의 전설의 생물",
+      "discoveredFrom": "돼지 얼굴 여인",
+      "discoveredAt": 575
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:슬라브 신화",
+      "iso": "_MULTI",
+      "label": "슬라브 신화",
+      "discoveredFrom": "보댜노이",
+      "discoveredAt": 575
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:슬라브 신화에 관한 토막글",
+      "iso": "_MULTI",
+      "label": "슬라브 신화에 관한 토막글",
+      "discoveredFrom": "보댜노이",
+      "discoveredAt": 575
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:슬라브 전설의 생물",
+      "iso": "_MULTI",
+      "label": "슬라브 전설의 생물",
+      "discoveredFrom": "보댜노이",
+      "discoveredAt": 575
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:아이톨리아 신화",
+      "iso": "_MULTI",
+      "label": "아이톨리아 신화",
+      "discoveredFrom": "세이렌",
+      "discoveredAt": 575
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:그리스 신화의 여왕",
+      "iso": "_MULTI",
+      "label": "그리스 신화의 여왕",
+      "discoveredFrom": "라미아 (신화)",
+      "discoveredAt": 575
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:노르웨이의 전설",
+      "iso": "_MULTI",
+      "label": "노르웨이의 전설",
+      "discoveredFrom": "린트부름",
+      "discoveredAt": 575
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:덴마크의 전설의 생물",
+      "iso": "_MULTI",
+      "label": "덴마크의 전설의 생물",
+      "discoveredFrom": "린트부름",
+      "discoveredAt": 575
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:스웨덴의 전설",
+      "iso": "_MULTI",
+      "label": "스웨덴의 전설",
+      "discoveredFrom": "린트부름",
+      "discoveredAt": 575
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:힌두 신화의 종족",
+      "iso": "_MULTI",
+      "label": "힌두 신화의 종족",
+      "discoveredFrom": "마호라가",
+      "discoveredAt": 575
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:함경북도의 괴물",
+      "iso": "_MULTI",
+      "label": "함경북도의 괴물",
+      "discoveredFrom": "만인사",
+      "discoveredAt": 575
     }
   ],
-  "totalAdded": 3047,
-  "runs": 575,
-  "lastRun": "2026-07-19T08:00:56.811Z",
-  "lastDiscoveredIndex": 480
+  "totalAdded": 3057,
+  "runs": 576,
+  "lastRun": "2026-07-19T12:56:55.748Z",
+  "lastDiscoveredIndex": 483
 }
