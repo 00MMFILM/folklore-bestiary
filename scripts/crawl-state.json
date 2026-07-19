@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 128,
+  "lastCategoryIndex": 131,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4699,7 +4699,29 @@
     2683914,
     3318000,
     35124,
-    658201
+    658201,
+    43514317,
+    6841754,
+    6817880,
+    11031659,
+    5687479,
+    5315279,
+    71122212,
+    6422930,
+    5325942,
+    5148259,
+    50423654,
+    70871242,
+    61164647,
+    40873340,
+    7038141,
+    2834272,
+    10958641,
+    6931946,
+    299250,
+    8979819,
+    10685975,
+    11249682
   ],
   "discoveredCategories": [
     {
@@ -19621,10 +19643,42 @@
       "label": "함경북도의 괴물",
       "discoveredFrom": "만인사",
       "discoveredAt": 575
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about foxes",
+      "iso": "_MULTI",
+      "label": "Fairy tales about foxes",
+      "discoveredFrom": "How Ian Dìreach got the Blue Falcon",
+      "discoveredAt": 576
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Hungarian fairy tales",
+      "iso": "HU",
+      "label": "Hungarian fairy tales",
+      "discoveredFrom": "The Creation of the Violin",
+      "discoveredAt": 576
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Romani fairy tales",
+      "iso": "_MULTI",
+      "label": "Romani fairy tales",
+      "discoveredFrom": "The Creation of the Violin",
+      "discoveredAt": 576
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Slovak folklore",
+      "iso": "SK",
+      "label": "Slovak folklore",
+      "discoveredFrom": "The Fox and the Golden Egg",
+      "discoveredAt": 576
     }
   ],
-  "totalAdded": 3057,
-  "runs": 576,
-  "lastRun": "2026-07-19T12:56:55.748Z",
-  "lastDiscoveredIndex": 483
+  "totalAdded": 3072,
+  "runs": 577,
+  "lastRun": "2026-07-19T18:52:36.694Z",
+  "lastDiscoveredIndex": 486
 }
