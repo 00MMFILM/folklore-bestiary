@@ -1053,5 +1053,14 @@
   "jp-inugami-gyobu": "/creatures/east-asia/inugami-gyobu.webp",
   "cn-fenshen": "/creatures/east-asia/fenshen.webp",
   "ph-mandurugo": "/creatures/east-asia/mandurugo.webp",
-  "ph-ekek": "/creatures/east-asia/ekek.webp"
+  "ph-ekek": "/creatures/east-asia/ekek.webp",
+  "jp-ubume": "/creatures/east-asia/ubume.webp",
+  "jp-kamaitachi": "/creatures/east-asia/kamaitachi.webp",
+  "in-thanh-giong": "/creatures/south-asia/thanh-giong.webp",
+  "in-brhatkathaslokasamgraha": "/creatures/south-asia/brhatkathaslokasamgraha.webp",
+  "gb-black-annis": "/creatures/europe/black-annis.webp",
+  "gb-camelot": "/creatures/europe/camelot.webp",
+  "gb-english-folklore": "/creatures/europe/english-folklore.webp",
+  "de-brunhild": "/creatures/europe/brunhild.webp",
+  "de-deutsche-mythologie": "/creatures/europe/deutsche-mythologie.webp"
 }
