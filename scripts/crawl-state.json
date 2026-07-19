@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 119,
+  "lastCategoryIndex": 122,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4611,7 +4611,41 @@
     36604877,
     352118,
     2966770,
-    8061
+    8061,
+    9383847,
+    5081029,
+    1326542,
+    32045998,
+    81695525,
+    100332,
+    10203939,
+    1517973,
+    26025291,
+    17535050,
+    57617762,
+    44560388,
+    2747188,
+    1440981,
+    63914,
+    4036837,
+    2699275,
+    155699,
+    2629958,
+    292491,
+    251532,
+    3732528,
+    2384611,
+    3660817,
+    101371,
+    3857696,
+    3309842,
+    1951796,
+    4036912,
+    1940550,
+    118312,
+    3713228,
+    3267884,
+    712905
   ],
   "discoveredCategories": [
     {
@@ -19317,10 +19351,82 @@
       "label": "Vietnamese mythology",
       "discoveredFrom": "Thánh Gióng",
       "discoveredAt": 572
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Princesses in Hindu mythology",
+      "iso": "IN",
+      "label": "Princesses in Hindu mythology",
+      "discoveredFrom": "Ulupi",
+      "discoveredAt": 573
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:힌두 신화의 장소",
+      "iso": "_MULTI",
+      "label": "힌두 신화의 장소",
+      "discoveredFrom": "만다라산",
+      "discoveredAt": 573
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:불교 신화의 장소",
+      "iso": "_MULTI",
+      "label": "불교 신화의 장소",
+      "discoveredFrom": "수미산",
+      "discoveredAt": 573
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:그리스 신화의 장소",
+      "iso": "_MULTI",
+      "label": "그리스 신화의 장소",
+      "discoveredFrom": "올림포스산",
+      "discoveredAt": 573
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:고대 이란 신화의 장소",
+      "iso": "_MULTI",
+      "label": "고대 이란 신화의 장소",
+      "discoveredFrom": "하라 베레자이티",
+      "discoveredAt": 573
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:페르시아 신화의 장소",
+      "iso": "_MULTI",
+      "label": "페르시아 신화의 장소",
+      "discoveredFrom": "하라 베레자이티",
+      "discoveredAt": 573
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:힌두 신화",
+      "iso": "_MULTI",
+      "label": "힌두 신화",
+      "discoveredFrom": "드비파",
+      "discoveredAt": 573
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:켈트 신화의 장소",
+      "iso": "_MULTI",
+      "label": "켈트 신화의 장소",
+      "discoveredFrom": "마그 멜",
+      "discoveredAt": 573
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:아서왕 전설의 장소",
+      "iso": "_MULTI",
+      "label": "아서왕 전설의 장소",
+      "discoveredFrom": "아발론",
+      "discoveredAt": 573
     }
   ],
-  "totalAdded": 3029,
-  "runs": 573,
-  "lastRun": "2026-07-18T18:49:07.861Z",
-  "lastDiscoveredIndex": 474
+  "totalAdded": 3042,
+  "runs": 574,
+  "lastRun": "2026-07-19T01:50:23.955Z",
+  "lastDiscoveredIndex": 477
 }
