@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 131,
+  "lastCategoryIndex": 134,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4721,7 +4721,51 @@
     299250,
     8979819,
     10685975,
-    11249682
+    11249682,
+    8093078,
+    25229840,
+    49892648,
+    88454,
+    385806,
+    96488,
+    16782973,
+    28588436,
+    25000535,
+    76406859,
+    14752472,
+    7720877,
+    22421009,
+    6421,
+    94969,
+    75874384,
+    13345146,
+    31385994,
+    77877774,
+    5898949,
+    6694447,
+    27340801,
+    82352153,
+    77854869,
+    69170671,
+    35861384,
+    34695183,
+    36335021,
+    2375533,
+    2646422,
+    35717559,
+    35698301,
+    5165553,
+    1745361,
+    81637246,
+    66145675,
+    73464440,
+    73548756,
+    934206,
+    1022092,
+    5905120,
+    30405256,
+    1131155,
+    936967
   ],
   "discoveredCategories": [
     {
@@ -19675,10 +19719,58 @@
       "label": "Slovak folklore",
       "discoveredFrom": "The Fox and the Golden Egg",
       "discoveredAt": 576
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Guaraní mythology",
+      "iso": "_MULTI",
+      "label": "Guaraní mythology",
+      "discoveredFrom": "Boitatá",
+      "discoveredAt": 577
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Corinthian mythology",
+      "iso": "_MULTI",
+      "label": "Corinthian mythology",
+      "discoveredFrom": "Chimera (mythology)",
+      "discoveredAt": 577
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological galliforms",
+      "iso": "_MULTI",
+      "label": "Mythological galliforms",
+      "discoveredFrom": "Cockatrice",
+      "discoveredAt": 577
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Cumbrian folklore",
+      "iso": "_MULTI",
+      "label": "Cumbrian folklore",
+      "discoveredFrom": "Adam Bell",
+      "discoveredAt": 577
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary English people",
+      "iso": "GB",
+      "label": "Legendary English people",
+      "discoveredFrom": "Adam Bell",
+      "discoveredAt": 577
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Plants in mythology",
+      "iso": "_MULTI",
+      "label": "Plants in mythology",
+      "discoveredFrom": "Hanuba Hanubi Paan Thaaba",
+      "discoveredAt": 577
     }
   ],
-  "totalAdded": 3072,
-  "runs": 577,
-  "lastRun": "2026-07-19T18:52:36.694Z",
-  "lastDiscoveredIndex": 486
+  "totalAdded": 3080,
+  "runs": 578,
+  "lastRun": "2026-07-20T02:07:44.375Z",
+  "lastDiscoveredIndex": 489
 }
