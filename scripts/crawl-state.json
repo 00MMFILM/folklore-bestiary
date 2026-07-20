@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 140,
+  "lastCategoryIndex": 0,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4836,7 +4836,62 @@
     71809215,
     20623531,
     80384137,
-    42276835
+    42276835,
+    53645372,
+    199921,
+    453182,
+    845028,
+    420401,
+    14647482,
+    48047729,
+    1626816,
+    3500562,
+    1291594,
+    80333259,
+    75638179,
+    6918,
+    83682657,
+    63769611,
+    54317,
+    983186,
+    5415030,
+    71132685,
+    53903,
+    20941535,
+    22555763,
+    12827691,
+    7713110,
+    21305887,
+    28734047,
+    555585,
+    35387320,
+    263153,
+    964994,
+    357674,
+    491152,
+    235876,
+    53344,
+    33700606,
+    6774800,
+    83565,
+    2387987,
+    5090899,
+    8702401,
+    47143599,
+    34422854,
+    63825071,
+    323508,
+    31622159,
+    7703024,
+    3242073,
+    21484524,
+    73076150,
+    249321,
+    29378571,
+    7689495,
+    6892647,
+    497162,
+    76592
   ],
   "discoveredCategories": [
     {
@@ -19886,10 +19941,58 @@
       "label": "Talamancan mythology",
       "discoveredFrom": "Káchabuké",
       "discoveredAt": 579
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Songs about witches",
+      "iso": "_MULTI",
+      "label": "Songs about witches",
+      "discoveredFrom": "Allison Gross",
+      "discoveredAt": 580
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Heroes",
+      "iso": "_MULTI",
+      "label": "Heroes",
+      "discoveredFrom": "False hero",
+      "discoveredAt": 580
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fictional tentacled monsters",
+      "iso": "_MULTI",
+      "label": "Fictional tentacled monsters",
+      "discoveredFrom": "Demogorgon",
+      "discoveredAt": 580
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Greek mythology studies",
+      "iso": "GR",
+      "label": "Greek mythology studies",
+      "discoveredFrom": "Demogorgon",
+      "discoveredAt": 580
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of Luxembourg",
+      "iso": "_MULTI",
+      "label": "Folklore of Luxembourg",
+      "discoveredFrom": "Melusine",
+      "discoveredAt": 580
+    },
+    {
+      "lang": "en",
+      "cat": "Category:People from American folklore",
+      "iso": "US",
+      "label": "People from American folklore",
+      "discoveredFrom": "Jack (hero)",
+      "discoveredAt": 580
     }
   ],
-  "totalAdded": 3107,
-  "runs": 580,
-  "lastRun": "2026-07-20T13:49:39.095Z",
-  "lastDiscoveredIndex": 495
+  "totalAdded": 3115,
+  "runs": 581,
+  "lastRun": "2026-07-20T19:26:28.520Z",
+  "lastDiscoveredIndex": 498
 }
