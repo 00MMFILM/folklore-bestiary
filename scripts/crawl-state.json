@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 137,
+  "lastCategoryIndex": 140,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4799,7 +4799,44 @@
     191871,
     6724064,
     6723828,
-    25108295
+    25108295,
+    10832456,
+    29198967,
+    33061041,
+    1779914,
+    87302,
+    80395405,
+    2152561,
+    34653095,
+    16830663,
+    940850,
+    2696278,
+    665455,
+    4067584,
+    380714,
+    9800843,
+    41840868,
+    11876825,
+    1964094,
+    72605452,
+    661054,
+    25086157,
+    37078203,
+    61447800,
+    97100,
+    105200,
+    70568271,
+    64969095,
+    28990838,
+    73582280,
+    7293638,
+    32295693,
+    917891,
+    71293984,
+    71809215,
+    20623531,
+    80384137,
+    42276835
   ],
   "discoveredCategories": [
     {
@@ -19817,10 +19854,42 @@
       "label": "Manx ghosts",
       "discoveredFrom": "Moddey Dhoo",
       "discoveredAt": 578
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological swordfighters",
+      "iso": "_MULTI",
+      "label": "Mythological swordfighters",
+      "discoveredFrom": "Sigmund",
+      "discoveredAt": 579
+    },
+    {
+      "lang": "en",
+      "cat": "Category:German people executed for witchcraft",
+      "iso": "DE",
+      "label": "German people executed for witchcraft",
+      "discoveredFrom": "Peter Stumpp",
+      "discoveredAt": 579
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Witch trials in Switzerland",
+      "iso": "CH",
+      "label": "Witch trials in Switzerland",
+      "discoveredFrom": "Valais witch trials",
+      "discoveredAt": 579
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Talamancan mythology",
+      "iso": "_MULTI",
+      "label": "Talamancan mythology",
+      "discoveredFrom": "Káchabuké",
+      "discoveredAt": 579
     }
   ],
-  "totalAdded": 3095,
-  "runs": 579,
-  "lastRun": "2026-07-20T08:41:55.637Z",
-  "lastDiscoveredIndex": 492
+  "totalAdded": 3107,
+  "runs": 580,
+  "lastRun": "2026-07-20T13:49:39.095Z",
+  "lastDiscoveredIndex": 495
 }
