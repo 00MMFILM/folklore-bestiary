@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 134,
+  "lastCategoryIndex": 137,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4765,7 +4765,41 @@
     5905120,
     30405256,
     1131155,
-    936967
+    936967,
+    1988272,
+    263662,
+    3653113,
+    73190037,
+    14352251,
+    13273489,
+    6594221,
+    640844,
+    34499210,
+    88321,
+    30279125,
+    5703378,
+    627794,
+    82137136,
+    8869309,
+    1207513,
+    5730769,
+    3191398,
+    5746701,
+    429620,
+    69366035,
+    1712696,
+    57093604,
+    8092973,
+    40703149,
+    51458538,
+    5318835,
+    58546052,
+    5864615,
+    44838945,
+    191871,
+    6724064,
+    6723828,
+    25108295
   ],
   "discoveredCategories": [
     {
@@ -19767,10 +19801,26 @@
       "label": "Plants in mythology",
       "discoveredFrom": "Hanuba Hanubi Paan Thaaba",
       "discoveredAt": 577
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Proto-Indo-European mythology",
+      "iso": "_MULTI",
+      "label": "Proto-Indo-European mythology",
+      "discoveredFrom": "*Ḱérberos",
+      "discoveredAt": 578
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Manx ghosts",
+      "iso": "GB",
+      "label": "Manx ghosts",
+      "discoveredFrom": "Moddey Dhoo",
+      "discoveredAt": 578
     }
   ],
-  "totalAdded": 3080,
-  "runs": 578,
-  "lastRun": "2026-07-20T02:07:44.375Z",
-  "lastDiscoveredIndex": 489
+  "totalAdded": 3095,
+  "runs": 579,
+  "lastRun": "2026-07-20T08:41:55.637Z",
+  "lastDiscoveredIndex": 492
 }
