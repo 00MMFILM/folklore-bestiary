@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 3,
+  "lastCategoryIndex": 6,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4921,7 +4921,31 @@
     82309035,
     82309076,
     61912031,
-    82295749
+    82295749,
+    11708150,
+    261334,
+    159239,
+    1850412,
+    71672866,
+    76377741,
+    9995685,
+    9141383,
+    29033435,
+    9834537,
+    38286694,
+    65552786,
+    17528421,
+    58151390,
+    277030,
+    20300524,
+    65570813,
+    66203,
+    3330994,
+    2463001,
+    77126723,
+    82547788,
+    36456158,
+    32935843
   ],
   "discoveredCategories": [
     {
@@ -20059,10 +20083,18 @@
       "label": "Mythological Indian royalty",
       "discoveredFrom": "Bidhi Nongdamba",
       "discoveredAt": 581
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legend of the White Snake characters",
+      "iso": "_MULTI",
+      "label": "Legend of the White Snake characters",
+      "discoveredFrom": "Bai Suzhen",
+      "discoveredAt": 582
     }
   ],
-  "totalAdded": 3122,
-  "runs": 582,
-  "lastRun": "2026-07-21T01:50:19.923Z",
-  "lastDiscoveredIndex": 501
+  "totalAdded": 3137,
+  "runs": 583,
+  "lastRun": "2026-07-21T08:09:09.929Z",
+  "lastDiscoveredIndex": 504
 }
