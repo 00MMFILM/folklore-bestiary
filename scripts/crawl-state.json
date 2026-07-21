@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 9,
+  "lastCategoryIndex": 12,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4974,7 +4974,25 @@
     251033,
     37485840,
     11435156,
-    38813
+    38813,
+    1877780,
+    8021778,
+    54083700,
+    83167,
+    9854465,
+    78454,
+    77370375,
+    54217324,
+    18503561,
+    83204,
+    60779,
+    82482,
+    74718064,
+    79418,
+    79900,
+    936964,
+    54096041,
+    83395599
   ],
   "discoveredCategories": [
     {
@@ -20144,10 +20162,50 @@
       "label": "Witches' Sabbath",
       "discoveredFrom": "Black Mass",
       "discoveredAt": 583
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Achaeans",
+      "iso": "_MULTI",
+      "label": "Mythological Achaeans",
+      "discoveredFrom": "Actor (mythology)",
+      "discoveredAt": 584
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythology of Achaea",
+      "iso": "_MULTI",
+      "label": "Mythology of Achaea",
+      "discoveredFrom": "Antigone (mythology)",
+      "discoveredAt": 584
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Lemnians",
+      "iso": "_MULTI",
+      "label": "Mythological Lemnians",
+      "discoveredFrom": "Cedalion",
+      "discoveredAt": 584
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Athenians",
+      "iso": "_MULTI",
+      "label": "Mythological Athenians",
+      "discoveredFrom": "Cydippe",
+      "discoveredAt": 584
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythology of Lesbos",
+      "iso": "_MULTI",
+      "label": "Mythology of Lesbos",
+      "discoveredFrom": "Leucippus (mythology)",
+      "discoveredAt": 584
     }
   ],
-  "totalAdded": 3151,
-  "runs": 584,
-  "lastRun": "2026-07-21T13:18:41.659Z",
-  "lastDiscoveredIndex": 507
+  "totalAdded": 3162,
+  "runs": 585,
+  "lastRun": "2026-07-21T19:04:44.467Z",
+  "lastDiscoveredIndex": 510
 }
