@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 6,
+  "lastCategoryIndex": 9,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4945,7 +4945,36 @@
     77126723,
     82547788,
     36456158,
-    32935843
+    32935843,
+    83776,
+    2954785,
+    80397,
+    84119,
+    72698667,
+    84522,
+    20634,
+    80959,
+    78159,
+    81621,
+    852638,
+    9644350,
+    59931593,
+    852593,
+    820560,
+    22504398,
+    290238,
+    4431077,
+    83089,
+    7209498,
+    8193030,
+    76399563,
+    207035,
+    515078,
+    248567,
+    251033,
+    37485840,
+    11435156,
+    38813
   ],
   "discoveredCategories": [
     {
@@ -20091,10 +20120,34 @@
       "label": "Legend of the White Snake characters",
       "discoveredFrom": "Bai Suzhen",
       "discoveredAt": 582
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Libya in Greek mythology",
+      "iso": "GR",
+      "label": "Libya in Greek mythology",
+      "discoveredFrom": "A Libyan Myth",
+      "discoveredAt": 583
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Corinthians",
+      "iso": "_MULTI",
+      "label": "Mythological Corinthians",
+      "discoveredFrom": "Merope (Pleiad)",
+      "discoveredAt": 583
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Witches' Sabbath",
+      "iso": "_MULTI",
+      "label": "Witches' Sabbath",
+      "discoveredFrom": "Black Mass",
+      "discoveredAt": 583
     }
   ],
-  "totalAdded": 3137,
-  "runs": 583,
-  "lastRun": "2026-07-21T08:09:09.929Z",
-  "lastDiscoveredIndex": 504
+  "totalAdded": 3151,
+  "runs": 584,
+  "lastRun": "2026-07-21T13:18:41.659Z",
+  "lastDiscoveredIndex": 507
 }
