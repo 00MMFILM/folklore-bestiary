@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 12,
+  "lastCategoryIndex": 15,
   "processedPageIds": [
     27551093,
     40572945,
@@ -4992,7 +4992,32 @@
     79900,
     936964,
     54096041,
-    83395599
+    83395599,
+    84980,
+    17480790,
+    13730258,
+    36636849,
+    49046572,
+    14169,
+    60619791,
+    73192377,
+    8796,
+    143359,
+    174639,
+    823854,
+    69663720,
+    65523273,
+    69666423,
+    8280,
+    275601,
+    175883,
+    41032312,
+    3149702,
+    1025093,
+    817561,
+    481745,
+    5402411,
+    2514185
   ],
   "discoveredCategories": [
     {
@@ -20202,10 +20227,26 @@
       "label": "Mythology of Lesbos",
       "discoveredFrom": "Leucippus (mythology)",
       "discoveredAt": 584
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Names of God in Gnosticism",
+      "iso": "_MULTI",
+      "label": "Names of God in Gnosticism",
+      "discoveredFrom": "Demiurge",
+      "discoveredAt": 585
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Demons in Mandaeism",
+      "iso": "_MULTI",
+      "label": "Demons in Mandaeism",
+      "discoveredFrom": "Leviathan",
+      "discoveredAt": 585
     }
   ],
-  "totalAdded": 3162,
-  "runs": 585,
-  "lastRun": "2026-07-21T19:04:44.467Z",
-  "lastDiscoveredIndex": 510
+  "totalAdded": 3167,
+  "runs": 586,
+  "lastRun": "2026-07-22T01:49:01.502Z",
+  "lastDiscoveredIndex": 513
 }
