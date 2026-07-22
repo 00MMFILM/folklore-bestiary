@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 21,
+  "lastCategoryIndex": 24,
   "processedPageIds": [
     27551093,
     40572945,
@@ -5068,7 +5068,30 @@
     52322437,
     518008,
     263719,
-    85954
+    85954,
+    1230655,
+    12457,
+    88323,
+    17252167,
+    17788854,
+    85951,
+    34585903,
+    5402283,
+    9750153,
+    7028623,
+    277025,
+    28549124,
+    2542963,
+    13777170,
+    47249,
+    2367203,
+    44982613,
+    4415799,
+    277031,
+    77335,
+    97381,
+    992165,
+    29067
   ],
   "discoveredCategories": [
     {
@@ -20374,10 +20397,42 @@
       "label": "Mythological Norse birds",
       "discoveredFrom": "Fjalar (rooster)",
       "discoveredAt": 587
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Gloucestershire folklore",
+      "iso": "_MULTI",
+      "label": "Gloucestershire folklore",
+      "discoveredFrom": "Beast of Dean",
+      "discoveredAt": 588
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Unguled cryptids",
+      "iso": "_MULTI",
+      "label": "Unguled cryptids",
+      "discoveredFrom": "Beast of Dean",
+      "discoveredAt": 588
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Witchcraft",
+      "iso": "_MULTI",
+      "label": "Witchcraft",
+      "discoveredFrom": "Pig-faced women",
+      "discoveredAt": 588
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Colchis in mythology",
+      "iso": "_MULTI",
+      "label": "Colchis in mythology",
+      "discoveredFrom": "Golden Fleece",
+      "discoveredAt": 588
     }
   ],
-  "totalAdded": 3197,
-  "runs": 588,
-  "lastRun": "2026-07-22T13:23:11.343Z",
-  "lastDiscoveredIndex": 519
+  "totalAdded": 3208,
+  "runs": 589,
+  "lastRun": "2026-07-22T18:58:30.479Z",
+  "lastDiscoveredIndex": 522
 }
