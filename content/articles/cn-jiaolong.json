@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Jiaolong",
+ "sourceLang": "en",
+ "sourceChars": 18480,
+ "generatedAt": "2026-07-22T07:54:52.309Z",
+ "locales": {
+  "ko": {
+   "origin": "Jiaolong (蛟龍)은 중국 신화에서 유래한 생물로, 종종 '비늘이 있는 용'으로 정의된다. 일부 학자들은 이 생물이 남부의 비신화적 기원에서 유래했을 가능성을 제기하고 있으며, 고대 문헌에서는 월족 사람들이 이 괴물로부터 자신을 보호하기 위해 몸에 문신을 새겼다는 기록이 있다.",
+   "legend": "Jiaolong은 뱀과 같은 생물로, 물속이나 강에 살며, 종종 인간을 잡아먹는 존재로 전해진다. 전설에 따르면, Jiaolong은 수생 생물의 신으로 여겨지며, 물고기들이 3600마리에 도달하면 Jiaolong이 그들의 우두머리로 나타난다고 한다. 또한, Jiaolong은 '홍수 용'으로 번역되기도 하며, 이 생물의 출현이 홍수를 일으킨다고 믿어졌다.",
+   "variants": "Jiaolong은 여러 문헌에서 다양한 이름으로 언급된다. 예를 들어, 11세기 Piya 사전에서는 Jiaolong의 일반 이름으로 'maban (馬絆)'이 기록되어 있다. 또한, Jiaolong은 산스크리트어 'kumbhīra'와 동등하다고 주장되기도 하며, 이는 '악어'를 의미한다.",
+   "culture": "현대 대중문화에서 Jiaolong은 여러 형태로 등장한다. 예를 들어, 2010년에 제작된 심해 잠수정의 이름이 Jiaolong이며, 2025년 영화 'Operation Hadal'의 중국어 제목도 Jiaolong에서 유래하였다."
+  },
+  "en": {
+   "origin": "Jiaolong (蛟龍) is a creature derived from Chinese mythology, often defined as a 'scaled dragon.' Some scholars suggest that this creature may have originated from a non-mythological source in the south, and ancient texts record that the people of the Yue (月族) tattooed their bodies to protect themselves from this monster.",
+   "legend": "Jiaolong is described as a serpent-like creature that lives in water or rivers and is often said to prey on humans. According to legend, Jiaolong is considered the god of aquatic creatures, and when fish reach a number of 3,600, Jiaolong is said to appear as their leader. Additionally, Jiaolong is sometimes translated as 'flood dragon,' and its appearance was believed to cause floods.",
+   "variants": "Jiaolong is referred to by various names in different texts. For example, in the 11th-century Piya dictionary, 'maban (馬絆)' is recorded as the common name for Jiaolong. Furthermore, Jiaolong is claimed to be equivalent to the Sanskrit 'kumbhīra,' which means 'crocodile.'",
+   "culture": "In modern popular culture, Jiaolong appears in various forms. For instance, the name of the deep-sea submersible created in 2010 is Jiaolong, and the Chinese title of the 2025 film 'Operation Hadal' is also derived from Jiaolong."
+  },
+  "zh": {
+   "origin": "Jiaolong (蛟龙)是中国神话中来源的生物，常常被定义为‘有鳞的龙’。一些学者提出这种生物可能起源于南方的非神话性来源，古代文献中记载了越族人为了保护自己免受这种怪物的侵害而在身上纹身的记录。",
+   "legend": "Jiaolong是一种像蛇的生物，生活在水中或河流中，常被传说为捕食人类的存在。传说中，Jiaolong被视为水生生物的神，当鱼群达到3600条时，Jiaolong会作为它们的首领出现。此外，Jiaolong也被翻译为‘洪水龙’，人们相信这种生物的出现会引发洪水。",
+   "variants": "Jiaolong在多部文献中以不同的名称提及。例如，在11世纪的Piya词典中，Jiaolong的通用名称被记录为‘maban (马绊)’。此外，Jiaolong还被认为与梵语‘kumbhīra’相等，意为‘鳄鱼’。",
+   "culture": "在现代大众文化中，Jiaolong以多种形式出现。例如，2010年制作的深海潜水器名为Jiaolong，2025年电影《Operation Hadal》的中文标题也源自Jiaolong。"
+  },
+  "ja": {
+   "origin": "Jiaolong (蛟龍)は中国の神話に由来する生物で、しばしば「鱗のある龍」と定義される。一部の学者は、この生物が南部の非神話的起源から派生した可能性を提起しており、古代文献には月族（Yuezu）人々がこの怪物から自分を守るために体にタトゥーを入れたという記録がある。",
+   "legend": "Jiaolongは蛇のような生物で、水中や川に住み、しばしば人間を捕食する存在として伝えられている。伝説によれば、Jiaolongは水生生物の神と見なされており、魚が3600匹に達するとJiaolongが彼らの頭領として現れると言われている。また、Jiaolongは「洪水の龍」とも翻訳され、この生物の出現が洪水を引き起こすと信じられていた。",
+   "variants": "Jiaolongはさまざまな文献で異なる名前で言及される。例えば、11世紀のPiya辞典ではJiaolongの一般名として「maban (馬絆)」が記録されている。また、Jiaolongはサンスクリット語の「kumbhīra」と同等であると主張されており、これは「ワニ」を意味する。",
+   "culture": "現代の大衆文化においてJiaolongはさまざまな形で登場する。例えば、2010年に制作された深海潜水艇の名前がJiaolongであり、2025年の映画「Operation Hadal」の中国語タイトルもJiaolongに由来している。"
+  }
+ }
+}
