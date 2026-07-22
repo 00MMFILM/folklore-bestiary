@@ -1080,5 +1080,14 @@
   "gr-lion-of-cithaeron": "/creatures/europe/lion-of-cithaeron.webp",
   "pl-coat-of-arms-of-the-duchy-of-czersk": "/creatures/europe/coat-of-arms-of-the-duchy-of-czersk.webp",
   "it-vampire": "/creatures/europe/vampire.webp",
-  "es-marraco": "/creatures/europe/marraco.webp"
+  "es-marraco": "/creatures/europe/marraco.webp",
+  "gr-orthrus": "/creatures/europe/orthrus.webp",
+  "cn-jiaolong": "/creatures/east-asia/jiaolong.webp",
+  "cn-xuanniao": "/creatures/east-asia/xuanniao.webp",
+  "gr-a-libyan-myth": "/creatures/europe/a-libyan-myth.webp",
+  "cn-zouyu": "/creatures/east-asia/zouyu.webp",
+  "gr-alcyoneus-mythology": "/creatures/europe/alcyoneus-mythology.webp",
+  "ng-sopona": "/creatures/africa/sopona.webp",
+  "za-usiququmadevu": "/creatures/africa/usiququmadevu.webp",
+  "us-boo-hag": "/creatures/americas/boo-hag.webp"
 }
