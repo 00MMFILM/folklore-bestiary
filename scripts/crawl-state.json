@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 15,
+  "lastCategoryIndex": 18,
   "processedPageIds": [
     27551093,
     40572945,
@@ -5017,7 +5017,36 @@
     817561,
     481745,
     5402411,
-    2514185
+    2514185,
+    82752,
+    905119,
+    43934,
+    100339,
+    63038,
+    274932,
+    73911112,
+    2145547,
+    81290133,
+    188576,
+    174601,
+    28037440,
+    67939183,
+    3581706,
+    79650169,
+    18505907,
+    72900366,
+    73389020,
+    78995,
+    9665813,
+    5482349,
+    2020523,
+    86134,
+    220752,
+    50292159,
+    13629,
+    70512434,
+    343427,
+    82525
   ],
   "discoveredCategories": [
     {
@@ -20243,10 +20272,82 @@
       "label": "Demons in Mandaeism",
       "discoveredFrom": "Leviathan",
       "discoveredAt": 585
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Witch hunting",
+      "iso": "_MULTI",
+      "label": "Witch hunting",
+      "discoveredFrom": "Diabolical rebaptism",
+      "discoveredAt": 586
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Books about magic (supernatural)",
+      "iso": "_MULTI",
+      "label": "Books about magic (supernatural)",
+      "discoveredFrom": "Munich Manual of Demonic Magic",
+      "discoveredAt": 586
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Witch hunter manuals",
+      "iso": "_MULTI",
+      "label": "Witch hunter manuals",
+      "discoveredFrom": "On the Demonomania of the Sorcerers",
+      "discoveredAt": 586
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Witchcraft in France",
+      "iso": "FR",
+      "label": "Witchcraft in France",
+      "discoveredFrom": "On the Demonomania of the Sorcerers",
+      "discoveredAt": 586
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Witchcraft treatises",
+      "iso": "_MULTI",
+      "label": "Witchcraft treatises",
+      "discoveredFrom": "On the Demonomania of the Sorcerers",
+      "discoveredAt": 586
+    },
+    {
+      "lang": "en",
+      "cat": "Category:European gods",
+      "iso": "_MULTI",
+      "label": "European gods",
+      "discoveredFrom": "Alardy",
+      "discoveredAt": 586
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Greek medical doctors",
+      "iso": "GR",
+      "label": "Mythological Greek medical doctors",
+      "discoveredFrom": "Aratus (mythology)",
+      "discoveredAt": 586
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Gallaecian gods",
+      "iso": "_MULTI",
+      "label": "Gallaecian gods",
+      "discoveredFrom": "Borvo",
+      "discoveredAt": 586
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary dreams",
+      "iso": "_MULTI",
+      "label": "Legendary dreams",
+      "discoveredFrom": "Oneiros",
+      "discoveredAt": 586
     }
   ],
-  "totalAdded": 3167,
-  "runs": 586,
-  "lastRun": "2026-07-22T01:49:01.502Z",
-  "lastDiscoveredIndex": 513
+  "totalAdded": 3182,
+  "runs": 587,
+  "lastRun": "2026-07-22T08:09:38.155Z",
+  "lastDiscoveredIndex": 516
 }
