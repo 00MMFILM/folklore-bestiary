@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 18,
+  "lastCategoryIndex": 21,
   "processedPageIds": [
     27551093,
     40572945,
@@ -5046,7 +5046,29 @@
     13629,
     70512434,
     343427,
-    82525
+    82525,
+    50722209,
+    87922,
+    5773033,
+    1989199,
+    13653,
+    1989027,
+    3158673,
+    74702840,
+    9432591,
+    28578710,
+    6229381,
+    71766873,
+    12479922,
+    11980817,
+    277035,
+    7531483,
+    72670014,
+    2418141,
+    52322437,
+    518008,
+    263719,
+    85954
   ],
   "discoveredCategories": [
     {
@@ -20344,10 +20366,18 @@
       "label": "Legendary dreams",
       "discoveredFrom": "Oneiros",
       "discoveredAt": 586
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Norse birds",
+      "iso": "NO",
+      "label": "Mythological Norse birds",
+      "discoveredFrom": "Fjalar (rooster)",
+      "discoveredAt": 587
     }
   ],
-  "totalAdded": 3182,
-  "runs": 587,
-  "lastRun": "2026-07-22T08:09:38.155Z",
-  "lastDiscoveredIndex": 516
+  "totalAdded": 3197,
+  "runs": 588,
+  "lastRun": "2026-07-22T13:23:11.343Z",
+  "lastDiscoveredIndex": 519
 }
