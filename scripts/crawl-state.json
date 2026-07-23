@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 24,
+  "lastCategoryIndex": 27,
   "processedPageIds": [
     27551093,
     40572945,
@@ -5091,7 +5091,46 @@
     77335,
     97381,
     992165,
-    29067
+    29067,
+    1003683,
+    3761299,
+    423528,
+    149684,
+    226374,
+    1060620,
+    1225737,
+    3889804,
+    3761275,
+    1058187,
+    981215,
+    834679,
+    832825,
+    4013080,
+    2670976,
+    2986225,
+    658744,
+    810081,
+    3246818,
+    4081748,
+    79697199,
+    2360890,
+    5674743,
+    77741530,
+    81042125,
+    8377282,
+    382525,
+    765803,
+    8471395,
+    10972280,
+    12156365,
+    1439011,
+    28936828,
+    86229,
+    11465860,
+    2809176,
+    71808979,
+    1929842,
+    19191663
   ],
   "discoveredCategories": [
     {
@@ -20429,10 +20468,26 @@
       "label": "Colchis in mythology",
       "discoveredFrom": "Golden Fleece",
       "discoveredAt": 588
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:미국의 민속학자",
+      "iso": "US",
+      "label": "미국의 민속학자",
+      "discoveredFrom": "얀 해럴드 브룬번드",
+      "discoveredAt": 589
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Works based on Celtic mythology",
+      "iso": "IE",
+      "label": "Works based on Celtic mythology",
+      "discoveredFrom": "The Crock of Gold (novel)",
+      "discoveredAt": 589
     }
   ],
-  "totalAdded": 3208,
-  "runs": 589,
-  "lastRun": "2026-07-22T18:58:30.479Z",
-  "lastDiscoveredIndex": 522
+  "totalAdded": 3223,
+  "runs": 590,
+  "lastRun": "2026-07-23T01:56:49.544Z",
+  "lastDiscoveredIndex": 525
 }
