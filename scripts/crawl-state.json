@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 30,
+  "lastCategoryIndex": 33,
   "processedPageIds": [
     27551093,
     40572945,
@@ -5186,7 +5186,50 @@
     85912,
     42968285,
     86130,
-    3173270
+    3173270,
+    1102455,
+    8930682,
+    62884090,
+    21261092,
+    2995472,
+    23574857,
+    1486123,
+    14054067,
+    58994560,
+    83217293,
+    571818,
+    48695146,
+    9811877,
+    73645744,
+    83674062,
+    39935201,
+    3634072,
+    71533802,
+    3218790,
+    32762368,
+    15499159,
+    31725374,
+    63635734,
+    24339257,
+    13963446,
+    168798,
+    6411926,
+    2404068,
+    25325866,
+    70835366,
+    195763,
+    1911590,
+    86378,
+    34162094,
+    47369,
+    3196911,
+    6794132,
+    3967652,
+    55788767,
+    2531822,
+    65826378,
+    5529706,
+    23693640
   ],
   "discoveredCategories": [
     {
@@ -20564,10 +20607,26 @@
       "label": "Women in Irish mythology",
       "discoveredFrom": "Canola (mythology)",
       "discoveredAt": 590
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Songs about ghosts",
+      "iso": "_MULTI",
+      "label": "Songs about ghosts",
+      "discoveredFrom": "Molly Malone",
+      "discoveredAt": 591
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Heroes in Irish mythology",
+      "iso": "IE",
+      "label": "Heroes in Irish mythology",
+      "discoveredFrom": "Cú Chulainn",
+      "discoveredAt": 591
     }
   ],
-  "totalAdded": 3238,
-  "runs": 591,
-  "lastRun": "2026-07-23T08:13:23.642Z",
-  "lastDiscoveredIndex": 528
+  "totalAdded": 3248,
+  "runs": 592,
+  "lastRun": "2026-07-23T13:26:27.185Z",
+  "lastDiscoveredIndex": 531
 }
