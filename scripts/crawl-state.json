@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 33,
+  "lastCategoryIndex": 36,
   "processedPageIds": [
     27551093,
     40572945,
@@ -5229,7 +5229,46 @@
     2531822,
     65826378,
     5529706,
-    23693640
+    23693640,
+    5569965,
+    8932826,
+    8932821,
+    7418671,
+    5697997,
+    81774627,
+    76508919,
+    9615790,
+    62951712,
+    170737,
+    33065894,
+    42308009,
+    31037157,
+    83172,
+    85719,
+    79936,
+    54189993,
+    26456478,
+    81768,
+    2033704,
+    9216707,
+    75631,
+    60335116,
+    2337806,
+    87899,
+    2096134,
+    1815260,
+    70057,
+    9582851,
+    63895368,
+    9753514,
+    1268840,
+    8687434,
+    55799370,
+    11330186,
+    4433874,
+    4038961,
+    18322020,
+    1826365
   ],
   "discoveredCategories": [
     {
@@ -20623,10 +20662,42 @@
       "label": "Heroes in Irish mythology",
       "discoveredFrom": "Cú Chulainn",
       "discoveredAt": 591
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Savior goddesses",
+      "iso": "_MULTI",
+      "label": "Savior goddesses",
+      "discoveredFrom": "Soteria (mythology)",
+      "discoveredAt": 592
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Voyagers in Celtic mythology",
+      "iso": "IE",
+      "label": "Voyagers in Celtic mythology",
+      "discoveredFrom": "Saint Amaro",
+      "discoveredAt": 592
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Supernatural healing",
+      "iso": "_MULTI",
+      "label": "Supernatural healing",
+      "discoveredFrom": "Botánica",
+      "discoveredAt": 592
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Witchcraft in Scotland",
+      "iso": "SCT",
+      "label": "Witchcraft in Scotland",
+      "discoveredFrom": "Cain bairns",
+      "discoveredAt": 592
     }
   ],
-  "totalAdded": 3248,
-  "runs": 592,
-  "lastRun": "2026-07-23T13:26:27.185Z",
-  "lastDiscoveredIndex": 531
+  "totalAdded": 3263,
+  "runs": 593,
+  "lastRun": "2026-07-23T19:00:41.074Z",
+  "lastDiscoveredIndex": 534
 }
