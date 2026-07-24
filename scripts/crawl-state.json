@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 39,
+  "lastCategoryIndex": 42,
   "processedPageIds": [
     27551093,
     40572945,
@@ -5293,7 +5293,63 @@
     70773200,
     6528050,
     10530089,
-    83653928
+    83653928,
+    1450267,
+    51972907,
+    11676633,
+    380691,
+    380693,
+    25915317,
+    1738734,
+    68815103,
+    53724093,
+    36061763,
+    1631358,
+    4322625,
+    7471898,
+    27188790,
+    27188862,
+    36061775,
+    36061808,
+    36061787,
+    62123597,
+    77232,
+    34927513,
+    4293307,
+    21672383,
+    1054589,
+    348145,
+    6519346,
+    2773854,
+    12731608,
+    12124441,
+    1570426,
+    42023248,
+    37186499,
+    62716445,
+    42956613,
+    63561460,
+    42788403,
+    62545672,
+    13049218,
+    27568511,
+    35853540,
+    41006255,
+    2044611,
+    44587303,
+    231555,
+    884220,
+    11716814,
+    78203,
+    36469692,
+    30991369,
+    51585610,
+    289842,
+    14715138,
+    10876585,
+    69683432,
+    15633955,
+    35347364
   ],
   "discoveredCategories": [
     {
@@ -20735,10 +20791,66 @@
       "label": "Persian fairy tales",
       "discoveredFrom": "Molla Badji",
       "discoveredAt": 593
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Kurdish folklore",
+      "iso": "_MULTI",
+      "label": "Kurdish folklore",
+      "discoveredFrom": "Shahmaran",
+      "discoveredAt": 594
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ancient Iranian legendary creatures",
+      "iso": "IR",
+      "label": "Ancient Iranian legendary creatures",
+      "discoveredFrom": "Zahhak",
+      "discoveredAt": 594
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore magazines",
+      "iso": "_MULTI",
+      "label": "Folklore magazines",
+      "discoveredFrom": "Folklore and Ethnography Collection",
+      "discoveredAt": 594
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Vampire: The Masquerade",
+      "iso": "_MULTI",
+      "label": "Vampire: The Masquerade",
+      "discoveredFrom": "Vampire: The Dark Ages",
+      "discoveredAt": 594
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Children's books about vampires",
+      "iso": "_MULTI",
+      "label": "Children's books about vampires",
+      "discoveredFrom": "Darkside (novel)",
+      "discoveredAt": 594
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Novels about vampires",
+      "iso": "_MULTI",
+      "label": "Novels about vampires",
+      "discoveredFrom": "Darkside (novel)",
+      "discoveredAt": 594
+    },
+    {
+      "lang": "en",
+      "cat": "Category:The Little Vampire (book series)",
+      "iso": "_MULTI",
+      "label": "The Little Vampire (book series)",
+      "discoveredFrom": "The Little Vampire (book series)",
+      "discoveredAt": 594
     }
   ],
-  "totalAdded": 3278,
-  "runs": 594,
-  "lastRun": "2026-07-24T01:52:19.975Z",
-  "lastDiscoveredIndex": 537
+  "totalAdded": 3291,
+  "runs": 595,
+  "lastRun": "2026-07-24T08:09:22.162Z",
+  "lastDiscoveredIndex": 540
 }
