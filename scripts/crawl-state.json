@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 42,
+  "lastCategoryIndex": 45,
   "processedPageIds": [
     27551093,
     40572945,
@@ -5349,7 +5349,44 @@
     10876585,
     69683432,
     15633955,
-    35347364
+    35347364,
+    12701916,
+    18034488,
+    35770964,
+    19298604,
+    802472,
+    1465028,
+    3060273,
+    2231805,
+    19227170,
+    19298355,
+    73447596,
+    12315815,
+    80789130,
+    76344026,
+    35781136,
+    37645309,
+    754223,
+    22414479,
+    272091,
+    36061752,
+    34521728,
+    901075,
+    85039,
+    29684021,
+    706863,
+    2617805,
+    12756689,
+    85960,
+    60386400,
+    10754637,
+    1047037,
+    45806,
+    66496,
+    50356266,
+    2882919,
+    72757519,
+    98288
   ],
   "discoveredCategories": [
     {
@@ -20847,10 +20884,42 @@
       "label": "The Little Vampire (book series)",
       "discoveredFrom": "The Little Vampire (book series)",
       "discoveredAt": 594
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Czech mythology",
+      "iso": "CZ",
+      "label": "Czech mythology",
+      "discoveredFrom": "Lučan War",
+      "discoveredAt": 595
+    },
+    {
+      "lang": "en",
+      "cat": "Category:1990s vampire films",
+      "iso": "_MULTI",
+      "label": "1990s vampire films",
+      "discoveredFrom": "Bordello of Blood",
+      "discoveredAt": 595
+    },
+    {
+      "lang": "en",
+      "cat": "Category:American vampire films",
+      "iso": "US",
+      "label": "American vampire films",
+      "discoveredFrom": "Bordello of Blood",
+      "discoveredAt": 595
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Muisca goddesses",
+      "iso": "CO",
+      "label": "Muisca goddesses",
+      "discoveredFrom": "Huitaca (goddess)",
+      "discoveredAt": 595
     }
   ],
-  "totalAdded": 3291,
-  "runs": 595,
-  "lastRun": "2026-07-24T08:09:22.162Z",
-  "lastDiscoveredIndex": 540
+  "totalAdded": 3303,
+  "runs": 596,
+  "lastRun": "2026-07-24T13:18:57.794Z",
+  "lastDiscoveredIndex": 543
 }
