@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 36,
+  "lastCategoryIndex": 39,
   "processedPageIds": [
     27551093,
     40572945,
@@ -5268,7 +5268,32 @@
     4433874,
     4038961,
     18322020,
-    1826365
+    1826365,
+    274806,
+    969315,
+    77835724,
+    70528726,
+    77839499,
+    69734808,
+    69367117,
+    66631387,
+    79722338,
+    71598249,
+    73475081,
+    70195325,
+    11248524,
+    21991793,
+    78867555,
+    48160947,
+    69151777,
+    62732041,
+    5134838,
+    28077729,
+    73492173,
+    70773200,
+    6528050,
+    10530089,
+    83653928
   ],
   "discoveredCategories": [
     {
@@ -20694,10 +20719,26 @@
       "label": "Witchcraft in Scotland",
       "discoveredFrom": "Cain bairns",
       "discoveredAt": 592
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Iranian fairy tales",
+      "iso": "IR",
+      "label": "Iranian fairy tales",
+      "discoveredFrom": "Molla Badji",
+      "discoveredAt": 593
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Persian fairy tales",
+      "iso": "IR",
+      "label": "Persian fairy tales",
+      "discoveredFrom": "Molla Badji",
+      "discoveredAt": 593
     }
   ],
-  "totalAdded": 3263,
-  "runs": 593,
-  "lastRun": "2026-07-23T19:00:41.074Z",
-  "lastDiscoveredIndex": 534
+  "totalAdded": 3278,
+  "runs": 594,
+  "lastRun": "2026-07-24T01:52:19.975Z",
+  "lastDiscoveredIndex": 537
 }
