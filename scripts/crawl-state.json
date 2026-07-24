@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 45,
+  "lastCategoryIndex": 48,
   "processedPageIds": [
     27551093,
     40572945,
@@ -5386,7 +5386,33 @@
     50356266,
     2882919,
     72757519,
-    98288
+    98288,
+    9995182,
+    16659764,
+    72910236,
+    35154785,
+    29218101,
+    9996006,
+    9593933,
+    15469176,
+    85908,
+    245163,
+    28959747,
+    66901,
+    9628,
+    1307264,
+    13667494,
+    2382475,
+    71027199,
+    70488068,
+    12479427,
+    3918686,
+    574203,
+    1377699,
+    21069417,
+    249909,
+    12558498,
+    143379
   ],
   "discoveredCategories": [
     {
@@ -20916,10 +20942,34 @@
       "label": "Muisca goddesses",
       "discoveredFrom": "Huitaca (goddess)",
       "discoveredAt": 595
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Greek death goddesses",
+      "iso": "GR",
+      "label": "Greek death goddesses",
+      "discoveredFrom": "Angelos (mythology)",
+      "discoveredAt": 596
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sámi gods",
+      "iso": "_MULTI",
+      "label": "Sámi gods",
+      "discoveredFrom": "Bieggolmai",
+      "discoveredAt": 596
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Jewish mythology",
+      "iso": "IL",
+      "label": "Jewish mythology",
+      "discoveredFrom": "Jewish mythology",
+      "discoveredAt": 596
     }
   ],
-  "totalAdded": 3303,
-  "runs": 596,
-  "lastRun": "2026-07-24T13:18:57.794Z",
-  "lastDiscoveredIndex": 543
+  "totalAdded": 3318,
+  "runs": 597,
+  "lastRun": "2026-07-24T19:13:41.685Z",
+  "lastDiscoveredIndex": 546
 }
