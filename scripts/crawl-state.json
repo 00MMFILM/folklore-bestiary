@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 48,
+  "lastCategoryIndex": 51,
   "processedPageIds": [
     27551093,
     40572945,
@@ -5412,7 +5412,43 @@
     21069417,
     249909,
     12558498,
-    143379
+    143379,
+    6218227,
+    31182960,
+    3392901,
+    6753069,
+    39996125,
+    17415591,
+    3289401,
+    885062,
+    96553,
+    4958108,
+    9421156,
+    4556521,
+    19935351,
+    99362,
+    11868678,
+    4363239,
+    5493484,
+    74962800,
+    99402,
+    14481946,
+    16443764,
+    3176597,
+    26412470,
+    840275,
+    47102451,
+    556904,
+    3532278,
+    22290553,
+    193580,
+    19018123,
+    7998474,
+    1893774,
+    18457659,
+    10235225,
+    1491955,
+    2292941
   ],
   "discoveredCategories": [
     {
@@ -20966,10 +21002,42 @@
       "label": "Jewish mythology",
       "discoveredFrom": "Jewish mythology",
       "discoveredAt": 596
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Oceanian demons",
+      "iso": "_MULTI",
+      "label": "Oceanian demons",
+      "discoveredFrom": "Yara-ma-yha-who",
+      "discoveredAt": 597
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Australian ghosts",
+      "iso": "AU",
+      "label": "Australian ghosts",
+      "discoveredFrom": "Fisher's ghost",
+      "discoveredAt": 597
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Iranian people",
+      "iso": "IR",
+      "label": "Legendary Iranian people",
+      "discoveredFrom": "Arash",
+      "discoveredAt": 597
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Filipino goddesses",
+      "iso": "PH",
+      "label": "Filipino goddesses",
+      "discoveredFrom": "Laon (deity)",
+      "discoveredAt": 597
     }
   ],
-  "totalAdded": 3318,
-  "runs": 597,
-  "lastRun": "2026-07-24T19:13:41.685Z",
-  "lastDiscoveredIndex": 546
+  "totalAdded": 3332,
+  "runs": 598,
+  "lastRun": "2026-07-25T01:52:03.999Z",
+  "lastDiscoveredIndex": 549
 }
