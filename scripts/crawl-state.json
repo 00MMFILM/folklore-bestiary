@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 57,
+  "lastCategoryIndex": 60,
   "processedPageIds": [
     27551093,
     40572945,
@@ -5523,7 +5523,52 @@
     81526718,
     54316281,
     81455705,
-    53439705
+    53439705,
+    5510678,
+    5697216,
+    5339457,
+    26379976,
+    32251958,
+    5225384,
+    38876054,
+    12034813,
+    5832052,
+    23227198,
+    14906645,
+    17877,
+    14252501,
+    4119610,
+    3199151,
+    25389269,
+    2268516,
+    14429731,
+    1970701,
+    55842330,
+    19208495,
+    1339086,
+    3644740,
+    36947673,
+    7415044,
+    58196313,
+    14010005,
+    69259427,
+    60603001,
+    19982002,
+    84221,
+    76065927,
+    62266817,
+    5326883,
+    75436817,
+    80128537,
+    194422,
+    1631459,
+    25529610,
+    38760937,
+    70617211,
+    51160977,
+    5618154,
+    2077404,
+    54459391
   ],
   "discoveredCategories": [
     {
@@ -21125,10 +21170,42 @@
       "label": "Legendary Thai people",
       "discoveredFrom": "Lao Chong",
       "discoveredAt": 599
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Loch Ness Monster",
+      "iso": "_MULTI",
+      "label": "Loch Ness Monster",
+      "discoveredFrom": "Loch Ness Monster",
+      "discoveredAt": 600
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Herefordshire folklore",
+      "iso": "_MULTI",
+      "label": "Herefordshire folklore",
+      "discoveredFrom": "The King of the Cats",
+      "discoveredAt": 600
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Canadian legends",
+      "iso": "CA",
+      "label": "Canadian legends",
+      "discoveredFrom": "Fireship of Baie des Chaleurs",
+      "discoveredAt": 600
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary ghost ships",
+      "iso": "_MULTI",
+      "label": "Legendary ghost ships",
+      "discoveredFrom": "Fireship of Baie des Chaleurs",
+      "discoveredAt": 600
     }
   ],
-  "totalAdded": 3351,
-  "runs": 600,
-  "lastRun": "2026-07-25T13:03:42.738Z",
-  "lastDiscoveredIndex": 555
+  "totalAdded": 3356,
+  "runs": 601,
+  "lastRun": "2026-07-25T18:54:36.296Z",
+  "lastDiscoveredIndex": 558
 }
