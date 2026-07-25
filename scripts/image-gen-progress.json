@@ -1105,5 +1105,13 @@
   "ie-bile-irish-legend": "/creatures/europe/bile-irish-legend.webp",
   "ie-fetch-folklore": "/creatures/europe/fetch-folklore.webp",
   "no-annar": "/creatures/europe/annar.webp",
-  "in-gremlin": "/creatures/south-asia/gremlin.webp"
+  "in-gremlin": "/creatures/south-asia/gremlin.webp",
+  "au-whowie": "/creatures/oceania/whowie.webp",
+  "au-wirnpa": "/creatures/oceania/wirnpa.webp",
+  "ph-mananambal": "/creatures/east-asia/mananambal.webp",
+  "gb-fionn-mac-cumhaill": "/creatures/europe/fionn-mac-cumhaill.webp",
+  "ie-desmond-arthur": "/creatures/europe/desmond-arthur.webp",
+  "bg-bulgarian-folk-songs": "/creatures/europe/bulgarian-folk-songs.webp",
+  "ca-uumarnituq-and-aakulujjuusi": "/creatures/americas/uumarnituq-and-aakulujjuusi.webp",
+  "ca-canadian-folklore": "/creatures/americas/canadian-folklore.webp"
 }
