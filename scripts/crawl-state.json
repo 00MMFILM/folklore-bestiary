@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 63,
+  "lastCategoryIndex": 66,
   "processedPageIds": [
     27551093,
     40572945,
@@ -5597,7 +5597,29 @@
     1607102,
     3239273,
     207376,
-    3378059
+    3378059,
+    3072643,
+    53915257,
+    10225536,
+    72858752,
+    6190198,
+    15530457,
+    6492822,
+    7137314,
+    607264,
+    50196900,
+    35494731,
+    6440726,
+    62978019,
+    8843579,
+    15515760,
+    473463,
+    28116036,
+    2922570,
+    15190650,
+    2204292,
+    37999532,
+    554608
   ],
   "discoveredCategories": [
     {
@@ -21247,10 +21269,26 @@
       "label": "Legendary creatures",
       "discoveredFrom": "Homunculus",
       "discoveredAt": 601
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Venezuelan legends",
+      "iso": "VE",
+      "label": "Venezuelan legends",
+      "discoveredFrom": "Sayona",
+      "discoveredAt": 602
+    },
+    {
+      "lang": "en",
+      "cat": "Category:London folklore",
+      "iso": "_MULTI",
+      "label": "London folklore",
+      "discoveredFrom": "The Black Dog of Newgate",
+      "discoveredAt": 602
     }
   ],
-  "totalAdded": 3363,
-  "runs": 602,
-  "lastRun": "2026-07-26T01:55:39.762Z",
-  "lastDiscoveredIndex": 561
+  "totalAdded": 3371,
+  "runs": 603,
+  "lastRun": "2026-07-26T08:09:52.233Z",
+  "lastDiscoveredIndex": 564
 }
