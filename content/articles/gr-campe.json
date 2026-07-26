@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Campe",
+ "sourceLang": "en",
+ "sourceChars": 6319,
+ "generatedAt": "2026-07-26T07:54:57.955Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "그리스 신화에서 캠페(Campe)는 여성 괴물로, 타르타로스에서 키클롭스와 헤카톤케이레스를 지키고 있었습니다. 이들은 우라노스에 의해 그곳에 감금된 존재들입니다. 제우스는 타이탄 전쟁에서 캠페의 포로들인 키클롭스와 헤카톤케이레스를 도와 승리할 것이라는 예언을 듣고, 캠페를 죽여 그들을 자유롭게 하였습니다. 이후 이들은 제우스를 도와 크로노스를 물리쳤습니다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "In Greek mythology, Campe (캠페) is a female monster who guarded the Cyclopes and Hecatoncheires in Tartarus. These beings were imprisoned there by Uranus. Zeus heard a prophecy that he would win the Titan War by freeing the Cyclopes and Hecatoncheires, who were prisoners of Campe. He killed Campe to liberate them. Afterwards, they assisted Zeus in defeating Cronus.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "在希腊神话中，坎佩（Campe）是一位女性怪物，守卫着塔尔塔罗斯（Tartarus）中的独眼巨人（Cyclopes）和百臂巨人（Hecatoncheires）。他们是被乌拉诺斯（Uranus）囚禁的存在。宙斯（Zeus）听闻预言，称他将在泰坦战争中帮助坎佩的囚徒独眼巨人和百臂巨人取得胜利，于是杀死了坎佩，释放了他们。之后，他们帮助宙斯击败了克罗诺斯（Cronus）。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ギリシャ神話において、カンペ(Campe)は女性の怪物で、タルタロスでキクロプスとヘカトンケイルを守っていました。彼らはウラノスによってそこに監禁された存在です。ゼウスはタイタン戦争でカンペの囚人であるキクロプスとヘカトンケイルを助けて勝利するという予言を聞き、カンペを殺して彼らを自由にしました。その後、彼らはゼウスを助けてクロノスを打ち負かしました。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}
