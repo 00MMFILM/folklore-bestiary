@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 66,
+  "lastCategoryIndex": 69,
   "processedPageIds": [
     27551093,
     40572945,
@@ -5619,7 +5619,24 @@
     15190650,
     2204292,
     37999532,
-    554608
+    554608,
+    27579510,
+    4740034,
+    27996650,
+    68504122,
+    6921525,
+    80250707,
+    19331160,
+    63123954,
+    38229000,
+    66275607,
+    1565877,
+    11113141,
+    13695865,
+    9804944,
+    9814235,
+    607360,
+    9813623
   ],
   "discoveredCategories": [
     {
@@ -21285,10 +21302,18 @@
       "label": "London folklore",
       "discoveredFrom": "The Black Dog of Newgate",
       "discoveredAt": 602
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Swedish people",
+      "iso": "SE",
+      "label": "Legendary Swedish people",
+      "discoveredFrom": "Barbro Eriksdotter",
+      "discoveredAt": 603
     }
   ],
-  "totalAdded": 3371,
-  "runs": 603,
-  "lastRun": "2026-07-26T08:09:52.233Z",
-  "lastDiscoveredIndex": 564
+  "totalAdded": 3373,
+  "runs": 604,
+  "lastRun": "2026-07-26T13:00:09.826Z",
+  "lastDiscoveredIndex": 567
 }
