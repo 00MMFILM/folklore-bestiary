@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 60,
+  "lastCategoryIndex": 63,
   "processedPageIds": [
     27551093,
     40572945,
@@ -5568,7 +5568,36 @@
     51160977,
     5618154,
     2077404,
-    54459391
+    54459391,
+    6136647,
+    40372444,
+    76156197,
+    21017709,
+    48661914,
+    43079,
+    2058337,
+    3073167,
+    22474511,
+    327416,
+    1580349,
+    4949111,
+    6794768,
+    317467,
+    83493990,
+    38166006,
+    39506742,
+    8172684,
+    8476605,
+    38943344,
+    79293506,
+    34313046,
+    79744396,
+    39218646,
+    4565389,
+    1607102,
+    3239273,
+    207376,
+    3378059
   ],
   "discoveredCategories": [
     {
@@ -21202,10 +21231,26 @@
       "label": "Legendary ghost ships",
       "discoveredFrom": "Fireship of Baie des Chaleurs",
       "discoveredAt": 600
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Places in Persian mythology",
+      "iso": "IR",
+      "label": "Places in Persian mythology",
+      "discoveredFrom": "Mount Qaf",
+      "discoveredAt": 601
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary creatures",
+      "iso": "_MULTI",
+      "label": "Legendary creatures",
+      "discoveredFrom": "Homunculus",
+      "discoveredAt": 601
     }
   ],
-  "totalAdded": 3356,
-  "runs": 601,
-  "lastRun": "2026-07-25T18:54:36.296Z",
-  "lastDiscoveredIndex": 558
+  "totalAdded": 3363,
+  "runs": 602,
+  "lastRun": "2026-07-26T01:55:39.762Z",
+  "lastDiscoveredIndex": 561
 }
