@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "The Black Dog of Newgate",
+ "sourceLang": "en",
+ "sourceChars": 3280,
+ "generatedAt": "2026-07-27T08:55:09.675Z",
+ "locales": {
+  "ko": {
+   "origin": "블랙 독 오브 뉴게이트의 전설은 런던의 구 뉴게이트 감옥에서의 유령 이야기에 관한 것으로, 구 뉴게이트는 올드 베일리(중앙 형사 법원)와 가까운 세인트 폴 대성당 근처에 위치해 있었다. 이 전설은 영국의 민속과 미신에서 중요한 원형으로 여겨지는 불길한 의도를 가진 유령의 사냥개를 특징으로 하는 잉글랜드 블랙 독 범주에 속하는 초자연적 현상의 예시이다.",
+   "legend": "전설에 따르면, 헨리 3세의 통치 기간 동안 기근이 발생했을 때, 마법사로 알려진 학자가 뉴게이트 감옥에 수감되었다. 이 학자는 자신의 마법과 악마적인 마법으로 왕의 신하들에게 큰 해를 끼쳤다는 평판을 가지고 있었다. 기근이 극심해져 수감자들이 식인 행위에까지 이르게 되었고, 이 새로운 수감자는 자신을 방어할 수 없는 상태에서 곧바로 희생되었다. 그의 죽음에 책임이 있는 수감자들은 곧 블랙 독의 유령을 보게 되었고, 이는 그들의 복수를 위해 돌아온 마법사의 영혼이라고 믿었다. 이 존재는 책임이 있는 자들을 하나씩 죽이고 소비하였으며, 마지막 생존자들은 두려움에 미쳐 감옥을 탈출하였다. 탈출한 자들은 어디를 가든지 이 존재에게 쫓겼다고 전해진다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "The legend of the Black Dog of Newgate is a ghost story related to the old Newgate Prison in London, which was located near St. Paul's Cathedral close to the Old Bailey (Central Criminal Court). This legend is an example of a supernatural phenomenon that falls under the category of England's Black Dog, characterized by a ghostly hunting dog with sinister intentions, considered an important archetype in British folklore and superstition.",
+   "legend": "According to the legend, during the reign of King Henry III, a famine occurred, and a scholar known as a magician was imprisoned in Newgate Prison. This scholar had a reputation for causing great harm to the king's subjects with his magic and demonic sorcery. As the famine worsened, the prisoners resorted to cannibalism, and this new inmate was immediately sacrificed in a defenseless state. The prisoners responsible for his death soon saw the ghost of the Black Dog, believed to be the soul of the magician returned for their revenge. This entity hunted down and consumed those responsible one by one, and the last survivors, driven mad with fear, escaped the prison. It is said that those who escaped were pursued by this entity wherever they went.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "黑犬纽盖特的传说与伦敦旧纽盖特监狱的幽灵故事有关，旧纽盖特位于老贝利（中央刑事法院）附近的圣保罗大教堂附近。这个传说被视为英国民俗和迷信中重要的原型，特征是具有不祥意图的幽灵猎犬，属于英格兰黑犬类别的超自然现象的例子。",
+   "legend": "传说中，在亨利三世统治期间发生饥荒时，一位被称为魔法师的学者被囚禁在纽盖特监狱。这位学者因其魔法和恶魔般的魔法而声名显赫，给国王的臣子们带来了巨大的伤害。饥荒愈演愈烈，囚犯们甚至开始进行食人行为，而这位新囚犯在无法自我防卫的情况下很快就被牺牲。对他的死亡负责的囚犯们很快就看到了黑犬的幽灵，他们相信这是为了复仇而归来的魔法师的灵魂。这个存在一个个地杀死并吞噬了责任人，最后的幸存者们因恐惧而逃离监狱。逃脱者们据说无论走到哪里都被这个存在追赶。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "ブラック・ドッグ・オブ・ニューゲートの伝説は、ロンドンの旧ニューゲート刑務所に関する幽霊の話であり、旧ニューゲートはオールド・ベイリー（中央刑事裁判所）に近いセント・ポール大聖堂の近くに位置していた。この伝説は、イギリスの民俗と迷信において重要な原型と見なされる不吉な意図を持つ幽霊の猟犬を特徴とするイングランドのブラック・ドッグのカテゴリーに属する超自然現象の例である。",
+   "legend": "伝説によれば、ヘンリー3世の治世の間に飢饉が発生したとき、魔法使いとして知られる学者がニューゲート刑務所に収監された。この学者は、自身の魔法と悪魔的な魔法で王の家臣たちに大きな害を及ぼしたという評判を持っていた。飢饉がひどくなり、収監者たちが食人行為にまで至ったとき、この新しい収監者は自分を守ることができない状態で直ちに犠牲となった。彼の死に責任がある収監者たちはすぐにブラック・ドッグの幽霊を目撃し、これは彼らの復讐のために戻ってきた魔法使いの魂であると信じられた。この存在は責任のある者たちを一人ずつ殺し、消費していき、最後の生存者たちは恐怖に駆られて刑務所を脱出した。脱出した者たちは、どこに行ってもこの存在に追われていたと伝えられている。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}
