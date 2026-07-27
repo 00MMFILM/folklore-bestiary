@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 75,
+  "lastCategoryIndex": 78,
   "processedPageIds": [
     27551093,
     40572945,
@@ -5669,7 +5669,51 @@
     347068,
     5111349,
     5509562,
-    160108
+    160108,
+    3331621,
+    3908024,
+    66349256,
+    39324088,
+    54166744,
+    46659238,
+    335169,
+    40511038,
+    71003458,
+    9252649,
+    3211116,
+    86156,
+    29309763,
+    274767,
+    1129234,
+    664974,
+    7981297,
+    7066919,
+    86818,
+    71556,
+    78161057,
+    46586573,
+    285558,
+    66581184,
+    24075260,
+    38318095,
+    15661936,
+    57192322,
+    56996201,
+    80480868,
+    77971009,
+    79174175,
+    15423899,
+    1261005,
+    22369867,
+    33934301,
+    72169394,
+    54136041,
+    10617843,
+    11303,
+    68523433,
+    470031,
+    3264956,
+    2487003
   ],
   "discoveredCategories": [
     {
@@ -21359,10 +21403,82 @@
       "label": "Fairy tales about griffins",
       "discoveredFrom": "Fehérlófia (folk tale)",
       "discoveredAt": 605
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2000s ghost films",
+      "iso": "_MULTI",
+      "label": "2000s ghost films",
+      "discoveredFrom": "Investigation into the Invisible World",
+      "discoveredAt": 606
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2002 supernatural films",
+      "iso": "_MULTI",
+      "label": "2002 supernatural films",
+      "discoveredFrom": "Investigation into the Invisible World",
+      "discoveredAt": 606
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Documentary films about spirituality",
+      "iso": "_MULTI",
+      "label": "Documentary films about spirituality",
+      "discoveredFrom": "Investigation into the Invisible World",
+      "discoveredAt": 606
+    },
+    {
+      "lang": "en",
+      "cat": "Category:French ghost films",
+      "iso": "FR",
+      "label": "French ghost films",
+      "discoveredFrom": "Investigation into the Invisible World",
+      "discoveredAt": 606
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Witchcraft museums",
+      "iso": "_MULTI",
+      "label": "Witchcraft museums",
+      "discoveredFrom": "Museum of Sorcery and Witchcraft",
+      "discoveredAt": 606
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Dutch legends",
+      "iso": "NL",
+      "label": "Dutch legends",
+      "discoveredFrom": "Buckriders",
+      "discoveredAt": 606
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Supernatural books",
+      "iso": "_MULTI",
+      "label": "Supernatural books",
+      "discoveredFrom": "Giants, Monsters & Dragons",
+      "discoveredAt": 606
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Works based on folklore",
+      "iso": "_MULTI",
+      "label": "Works based on folklore",
+      "discoveredFrom": "The Inland Whale",
+      "discoveredAt": 606
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Works based on legends",
+      "iso": "_MULTI",
+      "label": "Works based on legends",
+      "discoveredFrom": "Legends of the Jews",
+      "discoveredAt": 606
     }
   ],
-  "totalAdded": 3391,
-  "runs": 606,
-  "lastRun": "2026-07-27T02:03:40.668Z",
-  "lastDiscoveredIndex": 573
+  "totalAdded": 3406,
+  "runs": 607,
+  "lastRun": "2026-07-27T09:33:10.988Z",
+  "lastDiscoveredIndex": 576
 }
