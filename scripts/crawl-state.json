@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 72,
+  "lastCategoryIndex": 75,
   "processedPageIds": [
     27551093,
     40572945,
@@ -5643,7 +5643,33 @@
     65814369,
     15840907,
     17698960,
-    1580817
+    1580817,
+    246003,
+    9383941,
+    251058,
+    80058859,
+    58319481,
+    14018057,
+    46971863,
+    73926745,
+    73561864,
+    73574422,
+    61025727,
+    12480089,
+    23888,
+    13366777,
+    82138780,
+    27987278,
+    6831740,
+    52594705,
+    78630365,
+    66952186,
+    10191846,
+    71266492,
+    347068,
+    5111349,
+    5509562,
+    160108
   ],
   "discoveredCategories": [
     {
@@ -21317,10 +21343,26 @@
       "label": "Legendary Swedish people",
       "discoveredFrom": "Barbro Eriksdotter",
       "discoveredAt": 603
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Belgian legends",
+      "iso": "BE",
+      "label": "Belgian legends",
+      "discoveredFrom": "Ewiger Jäger",
+      "discoveredAt": 605
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about griffins",
+      "iso": "_MULTI",
+      "label": "Fairy tales about griffins",
+      "discoveredFrom": "Fehérlófia (folk tale)",
+      "discoveredAt": 605
     }
   ],
-  "totalAdded": 3376,
-  "runs": 605,
-  "lastRun": "2026-07-26T18:57:56.453Z",
-  "lastDiscoveredIndex": 570
+  "totalAdded": 3391,
+  "runs": 606,
+  "lastRun": "2026-07-27T02:03:40.668Z",
+  "lastDiscoveredIndex": 573
 }
