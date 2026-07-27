@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 78,
+  "lastCategoryIndex": 81,
   "processedPageIds": [
     27551093,
     40572945,
@@ -5713,7 +5713,45 @@
     68523433,
     470031,
     3264956,
-    2487003
+    2487003,
+    9886516,
+    3396302,
+    58595772,
+    41567738,
+    61850005,
+    64129650,
+    1758763,
+    15801153,
+    25543321,
+    1754766,
+    14659093,
+    13410021,
+    70477542,
+    16017601,
+    70833840,
+    11698,
+    1567740,
+    5435636,
+    17891505,
+    2603530,
+    62124426,
+    175143,
+    33260222,
+    13474766,
+    62406414,
+    1435569,
+    26358494,
+    4078994,
+    3261029,
+    1248438,
+    1858255,
+    30865472,
+    48335858,
+    3818828,
+    44491438,
+    25450348,
+    87021,
+    390530
   ],
   "discoveredCategories": [
     {
@@ -21475,10 +21513,26 @@
       "label": "Works based on legends",
       "discoveredFrom": "Legends of the Jews",
       "discoveredAt": 606
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Novels based on classical mythology",
+      "iso": "_MULTI",
+      "label": "Novels based on classical mythology",
+      "discoveredFrom": "A Man Was Going Down the Road",
+      "discoveredAt": 607
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Greek ghosts",
+      "iso": "GR",
+      "label": "Greek ghosts",
+      "discoveredFrom": "Drosoulites",
+      "discoveredAt": 607
     }
   ],
-  "totalAdded": 3406,
-  "runs": 607,
-  "lastRun": "2026-07-27T09:33:10.988Z",
-  "lastDiscoveredIndex": 576
+  "totalAdded": 3418,
+  "runs": 608,
+  "lastRun": "2026-07-27T14:11:55.891Z",
+  "lastDiscoveredIndex": 579
 }
