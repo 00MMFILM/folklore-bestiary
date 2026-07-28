@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 93,
+  "lastCategoryIndex": 96,
   "processedPageIds": [
     27551093,
     40572945,
@@ -5877,7 +5877,27 @@
     5807208,
     60918758,
     4634823,
-    3747529
+    3747529,
+    52952403,
+    25842917,
+    907738,
+    70566233,
+    577515,
+    3358513,
+    23198270,
+    95196,
+    11351696,
+    2783112,
+    51110018,
+    66052844,
+    81039129,
+    66943336,
+    6901326,
+    25253255,
+    313155,
+    717197,
+    1842978,
+    8446004
   ],
   "discoveredCategories": [
     {
@@ -21767,10 +21787,26 @@
       "label": "Feline goddesses",
       "discoveredFrom": "Mafdet",
       "discoveredAt": 610
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Characters in Japanese mythology",
+      "iso": "JP",
+      "label": "Characters in Japanese mythology",
+      "discoveredFrom": "Momotarō",
+      "discoveredAt": 612
+    },
+    {
+      "lang": "en",
+      "cat": "Category:South African folklore",
+      "iso": "ZA",
+      "label": "South African folklore",
+      "discoveredFrom": "Afrikaans folklore",
+      "discoveredAt": 612
     }
   ],
-  "totalAdded": 3465,
-  "runs": 612,
-  "lastRun": "2026-07-28T13:41:44.581Z",
-  "lastDiscoveredIndex": 591
+  "totalAdded": 3475,
+  "runs": 613,
+  "lastRun": "2026-07-28T19:11:30.185Z",
+  "lastDiscoveredIndex": 594
 }
