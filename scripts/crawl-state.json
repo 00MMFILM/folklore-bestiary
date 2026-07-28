@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 87,
+  "lastCategoryIndex": 90,
   "processedPageIds": [
     27551093,
     40572945,
@@ -5835,7 +5835,30 @@
     90315,
     85483,
     34323205,
-    98420
+    98420,
+    2268477,
+    1587235,
+    7934013,
+    72578092,
+    73010987,
+    45936,
+    82298507,
+    79960230,
+    3088136,
+    775985,
+    42861676,
+    1803918,
+    10671975,
+    3927156,
+    38849682,
+    17507685,
+    497237,
+    83349008,
+    90198,
+    14372,
+    98372,
+    90309,
+    98386
   ],
   "discoveredCategories": [
     {
@@ -21685,10 +21708,50 @@
       "label": "Serer gods",
       "discoveredFrom": "Kopé Tiatie Cac",
       "discoveredAt": 609
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Southern African legendary creatures",
+      "iso": "_MULTI",
+      "label": "Southern African legendary creatures",
+      "discoveredFrom": "Kishi (folklore)",
+      "discoveredAt": 610
+    },
+    {
+      "lang": "en",
+      "cat": "Category:African shamanism",
+      "iso": "_MULTI",
+      "label": "African shamanism",
+      "discoveredFrom": "Mbwiri",
+      "discoveredAt": 610
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Demonic possession",
+      "iso": "_MULTI",
+      "label": "Demonic possession",
+      "discoveredFrom": "Spirit possession",
+      "discoveredAt": 610
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Life-death-rebirth goddesses",
+      "iso": "_MULTI",
+      "label": "Life-death-rebirth goddesses",
+      "discoveredFrom": "Cōātlīcue",
+      "discoveredAt": 610
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Feline goddesses",
+      "iso": "_MULTI",
+      "label": "Feline goddesses",
+      "discoveredFrom": "Mafdet",
+      "discoveredAt": 610
     }
   ],
-  "totalAdded": 3446,
-  "runs": 610,
-  "lastRun": "2026-07-28T01:45:43.138Z",
-  "lastDiscoveredIndex": 585
+  "totalAdded": 3461,
+  "runs": 611,
+  "lastRun": "2026-07-28T08:16:14.478Z",
+  "lastDiscoveredIndex": 588
 }
