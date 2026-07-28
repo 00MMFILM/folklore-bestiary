@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 84,
+  "lastCategoryIndex": 87,
   "processedPageIds": [
     27551093,
     40572945,
@@ -5803,7 +5803,39 @@
     71027145,
     67245641,
     4387701,
-    88671
+    88671,
+    37181031,
+    37168285,
+    83612198,
+    5582740,
+    42014468,
+    8762348,
+    8478592,
+    6709987,
+    23209324,
+    288700,
+    4386179,
+    81803483,
+    175317,
+    31027605,
+    1656530,
+    71013592,
+    961229,
+    28849,
+    90213,
+    14074029,
+    5354120,
+    76897015,
+    18252131,
+    76847882,
+    2608687,
+    72332876,
+    34273316,
+    36105614,
+    90315,
+    85483,
+    34323205,
+    98420
   ],
   "discoveredCategories": [
     {
@@ -21629,10 +21661,34 @@
       "label": "Ugandan mythology",
       "discoveredFrom": "Kibuka (deity)",
       "discoveredAt": 608
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Marriage gods",
+      "iso": "_MULTI",
+      "label": "Marriage gods",
+      "discoveredFrom": "Khoriphaba",
+      "discoveredAt": 609
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Luwian gods",
+      "iso": "_MULTI",
+      "label": "Luwian gods",
+      "discoveredFrom": "Apaliunas",
+      "discoveredAt": 609
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Serer gods",
+      "iso": "SN",
+      "label": "Serer gods",
+      "discoveredFrom": "Kopé Tiatie Cac",
+      "discoveredAt": 609
     }
   ],
-  "totalAdded": 3431,
-  "runs": 609,
-  "lastRun": "2026-07-27T19:14:21.613Z",
-  "lastDiscoveredIndex": 582
+  "totalAdded": 3446,
+  "runs": 610,
+  "lastRun": "2026-07-28T01:45:43.138Z",
+  "lastDiscoveredIndex": 585
 }
