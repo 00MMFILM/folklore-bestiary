@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 96,
+  "lastCategoryIndex": 99,
   "processedPageIds": [
     27551093,
     40572945,
@@ -5897,7 +5897,35 @@
     313155,
     717197,
     1842978,
-    8446004
+    8446004,
+    96536,
+    24527043,
+    18901126,
+    96571,
+    81110927,
+    907287,
+    5041631,
+    41365088,
+    56432015,
+    11044878,
+    19390851,
+    581868,
+    3548378,
+    10650563,
+    2804162,
+    48603924,
+    27211679,
+    676900,
+    9016239,
+    34787220,
+    15950438,
+    73521977,
+    43390244,
+    2646867,
+    173599,
+    9792895,
+    5782296,
+    77637052
   ],
   "discoveredCategories": [
     {
@@ -21803,10 +21831,18 @@
       "label": "South African folklore",
       "discoveredFrom": "Afrikaans folklore",
       "discoveredAt": 612
+    },
+    {
+      "lang": "en",
+      "cat": "Category:French legends",
+      "iso": "FR",
+      "label": "French legends",
+      "discoveredFrom": "Genevieve of Brabant",
+      "discoveredAt": 613
     }
   ],
-  "totalAdded": 3475,
-  "runs": 613,
-  "lastRun": "2026-07-28T19:11:30.185Z",
-  "lastDiscoveredIndex": 594
+  "totalAdded": 3483,
+  "runs": 614,
+  "lastRun": "2026-07-29T01:47:20.528Z",
+  "lastDiscoveredIndex": 597
 }
