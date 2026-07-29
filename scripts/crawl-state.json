@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 102,
+  "lastCategoryIndex": 105,
   "processedPageIds": [
     27551093,
     40572945,
@@ -5947,7 +5947,34 @@
     143364,
     46558433,
     87768,
-    87769
+    87769,
+    48923822,
+    35176447,
+    10250248,
+    5651029,
+    8799478,
+    1573526,
+    67521411,
+    4351641,
+    36908994,
+    49233636,
+    36909232,
+    36909356,
+    85147,
+    9993397,
+    100192,
+    14279434,
+    10141,
+    17952960,
+    24836902,
+    80513,
+    26496812,
+    72105165,
+    2017476,
+    1052556,
+    3088896,
+    3088923,
+    1792011
   ],
   "discoveredCategories": [
     {
@@ -21869,10 +21896,34 @@
       "label": "Servants in Norse mythology",
       "discoveredFrom": "Beyla",
       "discoveredAt": 614
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklorists of Romani folklore",
+      "iso": "_MULTI",
+      "label": "Folklorists of Romani folklore",
+      "discoveredFrom": "Andrej Giňa",
+      "discoveredAt": 615
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Television episodes about legendary creatures",
+      "iso": "_MULTI",
+      "label": "Television episodes about legendary creatures",
+      "discoveredFrom": "Kaddish (The X-Files)",
+      "discoveredAt": 615
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Lusitanian goddesses",
+      "iso": "PT",
+      "label": "Lusitanian goddesses",
+      "discoveredFrom": "Ataegina",
+      "discoveredAt": 615
     }
   ],
-  "totalAdded": 3498,
-  "runs": 615,
-  "lastRun": "2026-07-29T08:22:27.161Z",
-  "lastDiscoveredIndex": 600
+  "totalAdded": 3513,
+  "runs": 616,
+  "lastRun": "2026-07-29T13:47:49.040Z",
+  "lastDiscoveredIndex": 603
 }
