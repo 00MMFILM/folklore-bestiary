@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 99,
+  "lastCategoryIndex": 102,
   "processedPageIds": [
     27551093,
     40572945,
@@ -5925,7 +5925,29 @@
     173599,
     9792895,
     5782296,
-    77637052
+    77637052,
+    7034166,
+    77635550,
+    5791834,
+    11834672,
+    24133306,
+    5357602,
+    5766174,
+    6997470,
+    43722263,
+    8509229,
+    1886956,
+    8684052,
+    46449200,
+    60871129,
+    2320502,
+    728004,
+    25187603,
+    71623734,
+    143364,
+    46558433,
+    87768,
+    87769
   ],
   "discoveredCategories": [
     {
@@ -21839,10 +21861,18 @@
       "label": "French legends",
       "discoveredFrom": "Genevieve of Brabant",
       "discoveredAt": 613
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Servants in Norse mythology",
+      "iso": "NO",
+      "label": "Servants in Norse mythology",
+      "discoveredFrom": "Beyla",
+      "discoveredAt": 614
     }
   ],
-  "totalAdded": 3483,
-  "runs": 614,
-  "lastRun": "2026-07-29T01:47:20.528Z",
-  "lastDiscoveredIndex": 597
+  "totalAdded": 3498,
+  "runs": 615,
+  "lastRun": "2026-07-29T08:22:27.161Z",
+  "lastDiscoveredIndex": 600
 }
