@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 105,
+  "lastCategoryIndex": 108,
   "processedPageIds": [
     27551093,
     40572945,
@@ -5974,7 +5974,26 @@
     1052556,
     3088896,
     3088923,
-    1792011
+    1792011,
+    8667248,
+    3111785,
+    22344292,
+    321971,
+    56039901,
+    39292134,
+    321449,
+    351711,
+    6171898,
+    5687944,
+    9039799,
+    24998631,
+    14515203,
+    3272642,
+    86074,
+    64980,
+    2706650,
+    6751,
+    12549358
   ],
   "discoveredCategories": [
     {
@@ -21920,10 +21939,18 @@
       "label": "Lusitanian goddesses",
       "discoveredFrom": "Ataegina",
       "discoveredAt": 615
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Vietnamese goddesses",
+      "iso": "VN",
+      "label": "Vietnamese goddesses",
+      "discoveredFrom": "Âu Cơ",
+      "discoveredAt": 616
     }
   ],
-  "totalAdded": 3513,
-  "runs": 616,
-  "lastRun": "2026-07-29T13:47:49.040Z",
-  "lastDiscoveredIndex": 603
+  "totalAdded": 3521,
+  "runs": 617,
+  "lastRun": "2026-07-29T18:59:12.743Z",
+  "lastDiscoveredIndex": 606
 }
