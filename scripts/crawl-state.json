@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 108,
+  "lastCategoryIndex": 111,
   "processedPageIds": [
     27551093,
     40572945,
@@ -5993,7 +5993,33 @@
     64980,
     2706650,
     6751,
-    12549358
+    12549358,
+    79482514,
+    48812669,
+    48887682,
+    48693868,
+    48642007,
+    48629995,
+    49088707,
+    14740980,
+    86588,
+    274799,
+    10299096,
+    29073784,
+    36660672,
+    7792722,
+    29342166,
+    39175785,
+    3431988,
+    16182803,
+    66382495,
+    4310346,
+    34278130,
+    75192798,
+    73850148,
+    34277983,
+    28307247,
+    2739518
   ],
   "discoveredCategories": [
     {
@@ -21947,10 +21973,18 @@
       "label": "Vietnamese goddesses",
       "discoveredFrom": "Âu Cơ",
       "discoveredAt": 616
+    },
+    {
+      "lang": "en",
+      "cat": "Category:County Durham folklore",
+      "iso": "_MULTI",
+      "label": "County Durham folklore",
+      "discoveredFrom": "Brag (folklore)",
+      "discoveredAt": 617
     }
   ],
-  "totalAdded": 3521,
-  "runs": 617,
-  "lastRun": "2026-07-29T18:59:12.743Z",
-  "lastDiscoveredIndex": 606
+  "totalAdded": 3529,
+  "runs": 618,
+  "lastRun": "2026-07-30T01:40:28.168Z",
+  "lastDiscoveredIndex": 609
 }
