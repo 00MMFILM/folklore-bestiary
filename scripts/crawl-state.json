@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 111,
+  "lastCategoryIndex": 114,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6019,7 +6019,31 @@
     73850148,
     34277983,
     28307247,
-    2739518
+    2739518,
+    48426532,
+    722663,
+    990380,
+    7866645,
+    85381,
+    187111,
+    4875665,
+    39553511,
+    7101028,
+    10387014,
+    4336285,
+    85124,
+    27951,
+    40070739,
+    38757865,
+    86100,
+    55825101,
+    810952,
+    36745,
+    96382,
+    8810731,
+    9932410,
+    4597838,
+    3050714
   ],
   "discoveredCategories": [
     {
@@ -21981,10 +22005,26 @@
       "label": "County Durham folklore",
       "discoveredFrom": "Brag (folklore)",
       "discoveredAt": 617
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Celtic water goddesses",
+      "iso": "IE",
+      "label": "Celtic water goddesses",
+      "discoveredFrom": "Brigid",
+      "discoveredAt": 618
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ainu goddesses",
+      "iso": "JP",
+      "label": "Ainu goddesses",
+      "discoveredFrom": "Kamuy-huci",
+      "discoveredAt": 618
     }
   ],
-  "totalAdded": 3529,
-  "runs": 618,
-  "lastRun": "2026-07-30T01:40:28.168Z",
-  "lastDiscoveredIndex": 609
+  "totalAdded": 3542,
+  "runs": 619,
+  "lastRun": "2026-07-30T08:08:50.173Z",
+  "lastDiscoveredIndex": 612
 }
