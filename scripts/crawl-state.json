@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 117,
+  "lastCategoryIndex": 120,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6071,7 +6071,24 @@
     20859268,
     16886118,
     20859333,
-    16783291
+    16783291,
+    666585,
+    808418,
+    1424053,
+    81403465,
+    6979845,
+    88335,
+    9863883,
+    62653007,
+    1040285,
+    10065263,
+    77098460,
+    951777,
+    81619,
+    74072566,
+    242633,
+    3959601,
+    4512595
   ],
   "discoveredCategories": [
     {
@@ -22089,10 +22106,26 @@
       "label": "Godzilla (character)",
       "discoveredFrom": "Godzilla (TriStar)",
       "discoveredAt": 619
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Witchcraft in Norway",
+      "iso": "NO",
+      "label": "Witchcraft in Norway",
+      "discoveredFrom": "Domen, Norway",
+      "discoveredAt": 620
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Witchcraft in Spain",
+      "iso": "ES",
+      "label": "Witchcraft in Spain",
+      "discoveredFrom": "Queimada (drink)",
+      "discoveredAt": 620
     }
   ],
-  "totalAdded": 3547,
-  "runs": 620,
-  "lastRun": "2026-07-30T13:29:20.205Z",
-  "lastDiscoveredIndex": 615
+  "totalAdded": 3554,
+  "runs": 621,
+  "lastRun": "2026-07-30T19:10:48.491Z",
+  "lastDiscoveredIndex": 618
 }
