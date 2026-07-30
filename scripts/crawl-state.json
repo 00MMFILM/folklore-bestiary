@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 114,
+  "lastCategoryIndex": 117,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6043,7 +6043,35 @@
     8810731,
     9932410,
     4597838,
-    3050714
+    3050714,
+    81493,
+    983582,
+    26995815,
+    65001,
+    11986,
+    78123684,
+    67252995,
+    79339350,
+    78149819,
+    1338891,
+    78341,
+    20849220,
+    25346075,
+    361475,
+    277019,
+    17363756,
+    10121375,
+    21727217,
+    8362718,
+    59818638,
+    4757,
+    2849167,
+    20859198,
+    19664940,
+    20859268,
+    16886118,
+    20859333,
+    16783291
   ],
   "discoveredCategories": [
     {
@@ -22021,10 +22049,50 @@
       "label": "Ainu goddesses",
       "discoveredFrom": "Kamuy-huci",
       "discoveredAt": 618
+    },
+    {
+      "lang": "en",
+      "cat": "Category:English heroic legends",
+      "iso": "GB",
+      "label": "English heroic legends",
+      "discoveredFrom": "The dragon (Beowulf)",
+      "discoveredAt": 619
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Animal superheroes",
+      "iso": "_MULTI",
+      "label": "Animal superheroes",
+      "discoveredFrom": "Gamera",
+      "discoveredAt": 619
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fictional sea monsters",
+      "iso": "_MULTI",
+      "label": "Fictional sea monsters",
+      "discoveredFrom": "Godzilla (TriStar)",
+      "discoveredAt": 619
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Godzilla (1998 film)",
+      "iso": "_MULTI",
+      "label": "Godzilla (1998 film)",
+      "discoveredFrom": "Godzilla (TriStar)",
+      "discoveredAt": 619
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Godzilla (character)",
+      "iso": "_MULTI",
+      "label": "Godzilla (character)",
+      "discoveredFrom": "Godzilla (TriStar)",
+      "discoveredAt": 619
     }
   ],
-  "totalAdded": 3542,
-  "runs": 619,
-  "lastRun": "2026-07-30T08:08:50.173Z",
-  "lastDiscoveredIndex": 612
+  "totalAdded": 3547,
+  "runs": 620,
+  "lastRun": "2026-07-30T13:29:20.205Z",
+  "lastDiscoveredIndex": 615
 }
