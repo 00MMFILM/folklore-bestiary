@@ -1148,5 +1148,14 @@
   "cn-gonggong": "/creatures/east-asia/gonggong.webp",
   "cn-fangfeng": "/creatures/east-asia/fangfeng.webp",
   "cn-chinese-dragon": "/creatures/east-asia/chinese-dragon.webp",
-  "in-shesha": "/creatures/south-asia/shesha.webp"
+  "in-shesha": "/creatures/south-asia/shesha.webp",
+  "wls-llamrei": "/creatures/europe/wls-llamrei.webp",
+  "gr-chaos-cosmogony": "/creatures/europe/chaos-cosmogony.webp",
+  "al-stihi": "/creatures/europe/stihi.webp",
+  "ir-shabdiz": "/creatures/south-asia/shabdiz.webp",
+  "gb-beheading-game": "/creatures/europe/beheading-game.webp",
+  "fr-culture-hero": "/creatures/europe/culture-hero.webp",
+  "fr-big-ghoul": "/creatures/europe/big-ghoul.webp",
+  "bo-acalica": "/creatures/americas/acalica.webp",
+  "vn-au-co": "/creatures/east-asia/au-co.webp"
 }
