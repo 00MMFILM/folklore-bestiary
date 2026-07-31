@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 120,
+  "lastCategoryIndex": 123,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6088,7 +6088,32 @@
     74072566,
     242633,
     3959601,
-    4512595
+    4512595,
+    50304382,
+    74484358,
+    67555746,
+    2549662,
+    9854211,
+    36391287,
+    31812279,
+    47351978,
+    34453187,
+    35544048,
+    1488262,
+    596929,
+    78558432,
+    1146191,
+    58596723,
+    9887921,
+    2017424,
+    2017419,
+    3089022,
+    2016791,
+    8727967,
+    53760059,
+    1089939,
+    50059138,
+    27171589
   ],
   "discoveredCategories": [
     {
@@ -22122,10 +22147,18 @@
       "label": "Witchcraft in Spain",
       "discoveredFrom": "Queimada (drink)",
       "discoveredAt": 620
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of Louisiana",
+      "iso": "_MULTI",
+      "label": "Folklore of Louisiana",
+      "discoveredFrom": "Annie Christmas",
+      "discoveredAt": 621
     }
   ],
-  "totalAdded": 3554,
-  "runs": 621,
-  "lastRun": "2026-07-30T19:10:48.491Z",
-  "lastDiscoveredIndex": 618
+  "totalAdded": 3569,
+  "runs": 622,
+  "lastRun": "2026-07-31T01:57:40.767Z",
+  "lastDiscoveredIndex": 621
 }
