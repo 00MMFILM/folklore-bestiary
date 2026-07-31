@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 126,
+  "lastCategoryIndex": 129,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6140,7 +6140,29 @@
     53823521,
     53625737,
     2328809,
-    66159985
+    66159985,
+    207543,
+    46742401,
+    82955759,
+    3102675,
+    1173346,
+    996012,
+    16363784,
+    1160598,
+    40103276,
+    578194,
+    277037,
+    56676752,
+    166246,
+    8792718,
+    8808267,
+    8809702,
+    64560016,
+    80546212,
+    32248039,
+    8810929,
+    8811705,
+    53731002
   ],
   "discoveredCategories": [
     {
@@ -22206,10 +22228,26 @@
       "label": "Novels based on folklore",
       "discoveredFrom": "Tristan Strong Punches a Hole in the Sky",
       "discoveredAt": 622
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ancient Greek mock-heroic poems",
+      "iso": "GR",
+      "label": "Ancient Greek mock-heroic poems",
+      "discoveredFrom": "Batrachomyomachia",
+      "discoveredAt": 623
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological and legendary Japanese snakes",
+      "iso": "JP",
+      "label": "Mythological and legendary Japanese snakes",
+      "discoveredFrom": "Hoyau",
+      "discoveredAt": 623
     }
   ],
-  "totalAdded": 3579,
-  "runs": 623,
-  "lastRun": "2026-07-31T08:35:48.961Z",
-  "lastDiscoveredIndex": 624
+  "totalAdded": 3594,
+  "runs": 624,
+  "lastRun": "2026-07-31T13:43:06.987Z",
+  "lastDiscoveredIndex": 627
 }
