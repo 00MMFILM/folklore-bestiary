@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Geryon",
+ "sourceLang": "en",
+ "sourceChars": 7741,
+ "generatedAt": "2026-07-31T08:16:50.763Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "그리스 신화에서 게리온(Geryon)은 지중해의 먼 서쪽에 위치한 신화적인 헤스페리데스 섬 에리테이아(Erytheia)에 거주하는 무서운 거인으로 묘사된다. 그는 일반적으로 세 개의 몸과 세 개의 머리, 또는 세 개의 머리와 하나의 몸, 또는 세 개의 몸과 하나의 머리를 가진 괴물로 설명된다. 게리온은 주로 인간 형태를 띠고 있으며, 날개나 여러 몸과 같은 특징을 지닌다. 그는 자신의 소를 지키는 것으로 유명하다. 그의 부모는 크리사오르(Chrysaor)와 칼리르호에(Callirrhoe)이며, 메두사(Medusa)의 손자이자 페가수스(Pegasus)의 조카이다.",
+   "variants": "",
+   "culture": "게리온의 신화는 스페인과 포르투갈의 국가 건설과 연결되어 있으며, 그는 이베리아 반도의 거주자로 여겨졌다. 중세 작가들은 그리스 침략자에 대한 게리온의 저항을 정당화하려고 했다. 알폰소 10세의 '에스토리아 데 에스파냐'에서는 헤라클레스가 거인 게리온을 죽이고 그의 머리를 잘라 승리를 기념하는 탑을 세웠다고 전해진다. 스페인 코룬나에 있는 헤라클레스 탑은 실제로 로마 시대의 등대를 재건한 것이다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "In Greek mythology, Geryon is depicted as a fearsome giant residing on the mythical island of Erytheia, located far to the west of the Mediterranean. He is generally described as a monster with three bodies and three heads, or three heads and one body, or three bodies and one head. Geryon primarily takes on a human form, possessing features such as wings or multiple bodies. He is famous for guarding his cattle. His parents are Chrysaor and Callirrhoe, and he is the grandson of Medusa and the nephew of Pegasus.",
+   "variants": "",
+   "culture": "The myth of Geryon is connected to the nation-building of Spain and Portugal, and he was considered an inhabitant of the Iberian Peninsula. Medieval writers sought to justify Geryon's resistance against Greek invaders. In Alfonso X's 'Estoria de España', it is said that Hercules killed the giant Geryon and erected a tower to commemorate his victory by cutting off his head. The Tower of Hercules in La Coruña, Spain, is actually a reconstruction of a Roman lighthouse."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "在希腊神话中，盖里翁（Geryon）被描绘为居住在地中海遥远西方的神话岛屿赫斯佩里德斯岛（Erytheia）上的可怕巨人。他通常被描述为拥有三个身体和三个头，或者三个头和一个身体，或者三个身体和一个头的怪物。盖里翁主要呈现人类形态，具有翅膀或多个身体等特征。他以守护自己的牛而闻名。他的父母是克里萨奥尔（Chrysaor）和卡利尔霍（Callirrhoe），是美杜莎（Medusa）的孙子和飞马（Pegasus）的侄子。",
+   "variants": "",
+   "culture": "盖里翁的神话与西班牙和葡萄牙的国家建设相联系，他被视为伊比利亚半岛的居民。中世纪作家试图为盖里翁对希腊侵略者的抵抗辩护。在阿方索十世的《西班牙史》（'Estoria de España'）中，传说赫拉克勒斯杀死了巨人盖里翁，并砍下他的头颅，建立了一座纪念胜利的塔。位于西班牙科鲁尼亚的赫拉克勒斯塔实际上是重建的罗马时期的灯塔。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ギリシャ神話においてゲリオン（Geryon）は、地中海の遠く西に位置する神話的なヘスペリデス島エリテイア（Erytheia）に住む恐ろしい巨人として描かれています。彼は通常、三つの体と三つの頭、または三つの頭と一つの体、または三つの体と一つの頭を持つ怪物として説明されます。ゲリオンは主に人間の形をしており、翼や複数の体といった特徴を持っています。彼は自分の牛を守ることで有名です。彼の親はクリサオール（Chrysaor）とカリルホエ（Callirrhoe）であり、メデューサ（Medusa）の孫でありペガサス（Pegasus）の甥です。",
+   "variants": "",
+   "culture": "ゲリオンの神話はスペインとポルトガルの国家建設と関連付けられており、彼はイベリア半島の住人と見なされていました。中世の作家たちはギリシャの侵略者に対するゲリオンの抵抗を正当化しようとしました。アルフォンソ10世の『エストリア・デ・エスパーニャ』では、ヘラクレスが巨人ゲリオンを殺し、彼の頭を切り落として勝利を記念する塔を建てたと伝えられています。スペインのコルーニャにあるヘラクレスの塔は、実際にはローマ時代の灯台を再建したものです。"
+  }
+ }
+}
