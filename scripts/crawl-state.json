@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 123,
+  "lastCategoryIndex": 126,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6113,7 +6113,34 @@
     53760059,
     1089939,
     50059138,
-    27171589
+    27171589,
+    215025,
+    44152015,
+    14810107,
+    53947737,
+    362917,
+    242118,
+    190493,
+    246664,
+    53087,
+    208539,
+    2210,
+    1473451,
+    41927230,
+    252507,
+    140893,
+    15045243,
+    4349650,
+    1869575,
+    25891135,
+    728361,
+    53219268,
+    53794438,
+    53880802,
+    53823521,
+    53625737,
+    2328809,
+    66159985
   ],
   "discoveredCategories": [
     {
@@ -22155,10 +22182,34 @@
       "label": "Folklore of Louisiana",
       "discoveredFrom": "Annie Christmas",
       "discoveredAt": 621
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Hoodoo (spirituality)",
+      "iso": "_MULTI",
+      "label": "Hoodoo (spirituality)",
+      "discoveredFrom": "Hoodoo (spirituality)",
+      "discoveredAt": 622
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythology by country",
+      "iso": "_MULTI",
+      "label": "Mythology by country",
+      "discoveredFrom": "American mythology",
+      "discoveredAt": 622
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Novels based on folklore",
+      "iso": "_MULTI",
+      "label": "Novels based on folklore",
+      "discoveredFrom": "Tristan Strong Punches a Hole in the Sky",
+      "discoveredAt": 622
     }
   ],
-  "totalAdded": 3569,
-  "runs": 622,
-  "lastRun": "2026-07-31T01:57:40.767Z",
-  "lastDiscoveredIndex": 621
+  "totalAdded": 3579,
+  "runs": 623,
+  "lastRun": "2026-07-31T08:35:48.961Z",
+  "lastDiscoveredIndex": 624
 }
