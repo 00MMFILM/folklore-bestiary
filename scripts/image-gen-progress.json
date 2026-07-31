@@ -1157,5 +1157,14 @@
   "fr-culture-hero": "/creatures/europe/culture-hero.webp",
   "fr-big-ghoul": "/creatures/europe/big-ghoul.webp",
   "bo-acalica": "/creatures/americas/acalica.webp",
-  "vn-au-co": "/creatures/east-asia/au-co.webp"
+  "vn-au-co": "/creatures/east-asia/au-co.webp",
+  "it-hippocampus-mythology": "/creatures/europe/hippocampus-mythology.webp",
+  "es-geryon": "/creatures/europe/geryon.webp",
+  "gr-ipotane": "/creatures/europe/ipotane.webp",
+  "us-mules-and-men": "/creatures/americas/mules-and-men.webp",
+  "it-goatman-urban-legend": "/creatures/europe/goatman-urban-legend.webp",
+  "gr-broteas": "/creatures/europe/broteas.webp",
+  "gr-echeneis": "/creatures/europe/echeneis.webp",
+  "us-night-doctors": "/creatures/americas/night-doctors.webp",
+  "tr-chuvash-dragon": "/creatures/south-asia/chuvash-dragon.webp"
 }
