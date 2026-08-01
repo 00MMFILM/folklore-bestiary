@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Delphyne",
+ "sourceLang": "en",
+ "sourceChars": 7049,
+ "generatedAt": "2026-08-01T07:42:12.897Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "그리스 신화에서 델피네(Δελφύνη)는 아폴로에 의해 델피에서 죽임을 당한 괴물 뱀의 이름이다. 헬레니즘 시대와 이후의 이야기에서는 아폴로가 처치한 델피의 괴물은 일반적으로 남성 뱀인 파이톤으로 알려져 있지만, 이 이야기의 가장 초기 알려진 계정인 호메로스의 아폴로 찬가에서는 신이 이름 없는 암뱀(드라카이나)을 죽였으며, 이후 델피네라고 불리게 되었다. 수다(Suda)에 따르면, 델피는 델피네의 이름을 따서 지어졌다. 호메로스의 찬가는 이 뱀을 '부풀어 오른, 거대한 암용, 지상에서 인간과 그들의 가는 다리를 가진 양들에게 큰 해를 끼치는 사나운 괴물'로 묘사하며, '그 드래곤을 만나는 자는 운명의 날에 휩쓸려 갈 것'이라고 전한다. 또한, 찬가는 델피네가 뱀 괴물 타이폰의 양육모였다고 언급하며, 타이폰은 결국 제우스와 우주 지배를 두고 싸우게 된다. 아폴로는 델피에서 자신의 신탁 사원을 건설하는 동안 이 암뱀을 만났고, 활로 그녀를 쏘아 죽였다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "In Greek mythology, Delphine (Δελφύνη) is the name of the monstrous serpent killed by Apollo at Delphi. In stories from the Hellenistic period and later, the monster of Delphi slain by Apollo is generally known as the male serpent Python, but in the earliest known account of this story, Homer's Hymn to Apollo, the god killed a nameless female serpent (drakaina), which later came to be called Delphine. According to the Suda, Delphi was named after Delphine. Homer's hymn describes this serpent as 'a swollen, gigantic female dragon, a fierce monster that causes great harm to humans and their slender-legged sheep on the earth,' and states that 'those who encounter that dragon will be swept away on the day of their fate.' Additionally, the hymn mentions that Delphine was the nurse of the serpent monster Typhon, who eventually fights Zeus for dominion over the universe. Apollo encountered this female serpent while constructing his oracle temple at Delphi and shot her dead with his bow.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "在希腊神话中，德尔菲娜（Δελφύνη）是被阿波罗在德尔菲杀死的怪物蛇的名字。在希腊化时代及其后的故事中，阿波罗所消灭的德尔菲怪物通常被称为男性蛇皮顿（Python），但在这个故事的最早已知版本中，即荷马的《阿波罗颂歌》中，神杀死了一条没有名字的雌蛇（德拉卡伊娜），后来被称为德尔菲娜。根据苏达（Suda）的说法，德尔菲是以德尔菲娜的名字命名的。荷马的颂歌将这条蛇描述为“膨胀的、巨大的雌龙，对地面上的人类及其细腿的羊造成巨大伤害的凶猛怪物”，并传达“遇见那条龙的人将在命运之日被卷走”。此外，颂歌提到德尔菲娜是蛇怪泰丰（Typhon）的养母，泰丰最终与宙斯争夺宇宙的统治权。阿波罗在德尔菲建造自己的神谕庙时遇到了这条雌蛇，并用箭射杀了她。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ギリシャ神話において、デルフィネ（Δελφύνη）はアポロによってデルフィで殺された怪物の蛇の名前である。ヘレニズム時代以降の物語では、アポロが退治したデルフィの怪物は一般的に男性の蛇であるパイソンとして知られているが、この物語の最も初期の知られている記録であるホメロスのアポロ賛歌では、神が名前のない雌の蛇（ドラカイナ）を殺し、その後デルフィネと呼ばれるようになった。スーダ（Suda）によれば、デルフィはデルフィネの名前にちなんで名付けられた。ホメロスの賛歌はこの蛇を「膨れ上がった、巨大な雌のドラゴンで、地上で人間とその細い足を持つ羊に大きな害を与える凶暴な怪物」と描写し、「そのドラゴンに出会った者は運命の日に巻き込まれるであろう」と伝えている。また、賛歌はデルフィネが蛇の怪物タイフォンの養母であったことに言及し、タイフォンは最終的にゼウスと宇宙の支配を巡って戦うことになる。アポロはデルフィで自らの神託神殿を建設する際にこの雌の蛇に出会い、弓で彼女を射殺した。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}
