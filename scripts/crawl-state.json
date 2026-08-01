@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 138,
+  "lastCategoryIndex": 141,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6259,7 +6259,39 @@
     38139548,
     38189555,
     38880238,
-    11038
+    11038,
+    38932867,
+    72441279,
+    83805700,
+    504093,
+    83672631,
+    82746621,
+    3822681,
+    939237,
+    494683,
+    964983,
+    78103018,
+    81689055,
+    806047,
+    5267124,
+    806654,
+    89155,
+    25600972,
+    49891342,
+    824284,
+    1038888,
+    792934,
+    15206076,
+    33855566,
+    11408998,
+    1215757,
+    1992931,
+    10250243,
+    36993037,
+    4236990,
+    49168357,
+    77538737,
+    64508890
   ],
   "discoveredCategories": [
     {
@@ -22389,10 +22421,58 @@
       "label": "Yazidi mythology",
       "discoveredFrom": "Tawûsî Melek",
       "discoveredAt": 626
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Supernatural anime and manga",
+      "iso": "_MULTI",
+      "label": "Supernatural anime and manga",
+      "discoveredFrom": "Hebigami Transforms When He's Cold",
+      "discoveredAt": 627
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Baltic goddesses",
+      "iso": "LT",
+      "label": "Baltic goddesses",
+      "discoveredFrom": "Aušrinė",
+      "discoveredAt": 627
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Proto-Indo-European goddesses",
+      "iso": "_MULTI",
+      "label": "Proto-Indo-European goddesses",
+      "discoveredFrom": "Fates",
+      "discoveredAt": 627
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Hittite mythology",
+      "iso": "_MULTI",
+      "label": "Hittite mythology",
+      "discoveredFrom": "Istustaya and Papaya",
+      "discoveredAt": 627
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Celtic sea and river goddesses",
+      "iso": "IE",
+      "label": "Celtic sea and river goddesses",
+      "discoveredFrom": "Aerfen",
+      "discoveredAt": 627
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Celtic war goddesses",
+      "iso": "IE",
+      "label": "Celtic war goddesses",
+      "discoveredFrom": "Aerfen",
+      "discoveredAt": 627
     }
   ],
-  "totalAdded": 3630,
-  "runs": 627,
-  "lastRun": "2026-08-01T08:05:27.296Z",
-  "lastDiscoveredIndex": 636
+  "totalAdded": 3645,
+  "runs": 628,
+  "lastRun": "2026-08-01T12:58:27.171Z",
+  "lastDiscoveredIndex": 639
 }
