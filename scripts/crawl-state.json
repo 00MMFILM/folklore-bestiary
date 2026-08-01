@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 141,
+  "lastCategoryIndex": 1,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6291,7 +6291,36 @@
     4236990,
     49168357,
     77538737,
-    64508890
+    64508890,
+    73136537,
+    5987837,
+    39322066,
+    5856404,
+    74329741,
+    1139199,
+    957837,
+    229235,
+    19009041,
+    256830,
+    73217352,
+    806108,
+    810632,
+    30871701,
+    68631811,
+    10172734,
+    1039187,
+    79846998,
+    5801465,
+    80041609,
+    69852076,
+    6511224,
+    76462530,
+    80937729,
+    79952096,
+    79327668,
+    28374626,
+    6104176,
+    5862788
   ],
   "discoveredCategories": [
     {
@@ -22469,10 +22498,18 @@
       "label": "Celtic war goddesses",
       "discoveredFrom": "Aerfen",
       "discoveredAt": 627
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Prussian gods",
+      "iso": "_MULTI",
+      "label": "Prussian gods",
+      "discoveredFrom": "Peckols",
+      "discoveredAt": 628
     }
   ],
-  "totalAdded": 3645,
-  "runs": 628,
-  "lastRun": "2026-08-01T12:58:27.171Z",
-  "lastDiscoveredIndex": 639
+  "totalAdded": 3660,
+  "runs": 629,
+  "lastRun": "2026-08-01T18:55:56.534Z",
+  "lastDiscoveredIndex": 642
 }
