@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 132,
+  "lastCategoryIndex": 135,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6184,7 +6184,41 @@
     25942074,
     22734670,
     21585,
-    30950143
+    30950143,
+    76548870,
+    22184472,
+    86519,
+    6593019,
+    63415456,
+    57461695,
+    2471828,
+    63726865,
+    3007378,
+    7149386,
+    41612271,
+    17789597,
+    1400413,
+    2006734,
+    78406822,
+    367616,
+    38340058,
+    81294983,
+    81426845,
+    38703659,
+    24404099,
+    24415623,
+    24414922,
+    12265853,
+    9866289,
+    73312346,
+    3996838,
+    55699862,
+    70786620,
+    42675450,
+    2912855,
+    68327583,
+    9463530,
+    4351109
   ],
   "discoveredCategories": [
     {
@@ -22266,10 +22300,18 @@
       "label": "Mythological and legendary Japanese snakes",
       "discoveredFrom": "Hoyau",
       "discoveredAt": 623
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Lithuanian fairy tales",
+      "iso": "LT",
+      "label": "Lithuanian fairy tales",
+      "discoveredFrom": "Jūratė and Kastytis",
+      "discoveredAt": 625
     }
   ],
-  "totalAdded": 3609,
-  "runs": 625,
-  "lastRun": "2026-07-31T19:09:39.060Z",
-  "lastDiscoveredIndex": 630
+  "totalAdded": 3615,
+  "runs": 626,
+  "lastRun": "2026-08-01T01:58:45.260Z",
+  "lastDiscoveredIndex": 633
 }
