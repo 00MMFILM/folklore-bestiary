@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 135,
+  "lastCategoryIndex": 138,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6218,7 +6218,48 @@
     2912855,
     68327583,
     9463530,
-    4351109
+    4351109,
+    84281,
+    81207627,
+    83726,
+    23986,
+    73067923,
+    87895,
+    27881,
+    87564,
+    24066691,
+    7677401,
+    63461,
+    3305140,
+    22685471,
+    38759218,
+    2745337,
+    2442097,
+    5279371,
+    409476,
+    72788754,
+    14703480,
+    39253995,
+    4428422,
+    78103037,
+    75113077,
+    77889784,
+    75249212,
+    49122,
+    1146151,
+    67389042,
+    2259586,
+    733632,
+    36408333,
+    9909454,
+    23738464,
+    100537,
+    85306,
+    724601,
+    38139548,
+    38189555,
+    38880238,
+    11038
   ],
   "discoveredCategories": [
     {
@@ -22308,10 +22349,50 @@
       "label": "Lithuanian fairy tales",
       "discoveredFrom": "Jūratė and Kastytis",
       "discoveredAt": 625
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Middle-earth deities and spirits",
+      "iso": "_MULTI",
+      "label": "Middle-earth deities and spirits",
+      "discoveredFrom": "Goldberry",
+      "discoveredAt": 626
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Witch trials in Europe",
+      "iso": "_MULTI",
+      "label": "Witch trials in Europe",
+      "discoveredFrom": "Werewolf witch trials",
+      "discoveredAt": 626
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of Nevada",
+      "iso": "_MULTI",
+      "label": "Folklore of Nevada",
+      "discoveredFrom": "Ong (Washoe folklore)",
+      "discoveredAt": 626
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Washoe legendary creatures",
+      "iso": "_MULTI",
+      "label": "Washoe legendary creatures",
+      "discoveredFrom": "Ong (Washoe folklore)",
+      "discoveredAt": 626
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Yazidi mythology",
+      "iso": "_MULTI",
+      "label": "Yazidi mythology",
+      "discoveredFrom": "Tawûsî Melek",
+      "discoveredAt": 626
     }
   ],
-  "totalAdded": 3615,
-  "runs": 626,
-  "lastRun": "2026-08-01T01:58:45.260Z",
-  "lastDiscoveredIndex": 633
+  "totalAdded": 3630,
+  "runs": 627,
+  "lastRun": "2026-08-01T08:05:27.296Z",
+  "lastDiscoveredIndex": 636
 }
