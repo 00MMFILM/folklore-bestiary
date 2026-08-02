@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 1,
+  "lastCategoryIndex": 4,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6320,7 +6320,36 @@
     79327668,
     28374626,
     6104176,
-    5862788
+    5862788,
+    78796692,
+    5133236,
+    80977804,
+    77729883,
+    301064,
+    5576185,
+    5329085,
+    82055230,
+    5145515,
+    76344135,
+    12459816,
+    27584254,
+    37137343,
+    30504528,
+    81907685,
+    2150521,
+    5847489,
+    4259184,
+    66098601,
+    10473443,
+    77960,
+    54353168,
+    81752,
+    79322,
+    81314777,
+    66674069,
+    21276015,
+    30881057,
+    81914
   ],
   "discoveredCategories": [
     {
@@ -22506,10 +22535,26 @@
       "label": "Prussian gods",
       "discoveredFrom": "Peckols",
       "discoveredAt": 628
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about mermaids",
+      "iso": "_MULTI",
+      "label": "Fairy tales about mermaids",
+      "discoveredFrom": "The Little Mermaid",
+      "discoveredAt": 629
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary flying machines",
+      "iso": "_MULTI",
+      "label": "Legendary flying machines",
+      "discoveredFrom": "The Ebony Horse",
+      "discoveredAt": 629
     }
   ],
-  "totalAdded": 3660,
-  "runs": 629,
-  "lastRun": "2026-08-01T18:55:56.534Z",
-  "lastDiscoveredIndex": 642
+  "totalAdded": 3675,
+  "runs": 630,
+  "lastRun": "2026-08-02T01:55:03.793Z",
+  "lastDiscoveredIndex": 645
 }
