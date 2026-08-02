@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 7,
+  "lastCategoryIndex": 10,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6366,7 +6366,27 @@
     18359789,
     83878,
     2672836,
-    54216854
+    54216854,
+    5653,
+    363264,
+    25018,
+    60136,
+    2499252,
+    476150,
+    376486,
+    429909,
+    1377892,
+    2231338,
+    17643876,
+    250049,
+    261998,
+    44575107,
+    26391485,
+    387701,
+    28212572,
+    22186421,
+    45527380,
+    1396986
   ],
   "discoveredCategories": [
     {
@@ -22576,10 +22596,18 @@
       "label": "Children of Leda (mythology)",
       "discoveredFrom": "Castor and Pollux",
       "discoveredAt": 630
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Computer folklore",
+      "iso": "_MULTI",
+      "label": "Computer folklore",
+      "discoveredFrom": "Does not compute",
+      "discoveredAt": 631
     }
   ],
-  "totalAdded": 3690,
-  "runs": 631,
-  "lastRun": "2026-08-02T08:07:01.585Z",
-  "lastDiscoveredIndex": 648
+  "totalAdded": 3696,
+  "runs": 632,
+  "lastRun": "2026-08-02T13:00:47.743Z",
+  "lastDiscoveredIndex": 651
 }
