@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 10,
+  "lastCategoryIndex": 13,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6386,7 +6386,28 @@
     28212572,
     22186421,
     45527380,
-    1396986
+    1396986,
+    8750101,
+    38442431,
+    34515757,
+    4927622,
+    53753741,
+    13483344,
+    250989,
+    37158989,
+    692524,
+    501493,
+    63130843,
+    50224145,
+    39504930,
+    29419155,
+    74342254,
+    268983,
+    4978405,
+    62694267,
+    27796,
+    268985,
+    305
   ],
   "discoveredCategories": [
     {
@@ -22604,10 +22625,18 @@
       "label": "Computer folklore",
       "discoveredFrom": "Does not compute",
       "discoveredAt": 631
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological female rapists",
+      "iso": "_MULTI",
+      "label": "Mythological female rapists",
+      "discoveredFrom": "Succubus",
+      "discoveredAt": 632
     }
   ],
-  "totalAdded": 3696,
-  "runs": 632,
-  "lastRun": "2026-08-02T13:00:47.743Z",
-  "lastDiscoveredIndex": 651
+  "totalAdded": 3711,
+  "runs": 633,
+  "lastRun": "2026-08-02T18:56:32.602Z",
+  "lastDiscoveredIndex": 654
 }
