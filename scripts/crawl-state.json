@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 22,
+  "lastCategoryIndex": 25,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6458,7 +6458,28 @@
     63703946,
     5988513,
     1858920,
-    7382545
+    7382545,
+    143837,
+    2604806,
+    1423789,
+    3255970,
+    4057757,
+    1352342,
+    1836060,
+    2738703,
+    279399,
+    204708,
+    9854978,
+    1568,
+    81841151,
+    86042,
+    990619,
+    98291,
+    58593,
+    78879209,
+    773748,
+    90203,
+    90509
   ],
   "discoveredCategories": [
     {
@@ -22708,10 +22729,34 @@
       "label": "Uruguayan folklore",
       "discoveredFrom": "Bolas",
       "discoveredAt": 634
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:민속 인물",
+      "iso": "_MULTI",
+      "label": "민속 인물",
+      "discoveredFrom": "악마화 대상",
+      "discoveredAt": 636
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Salaminians",
+      "iso": "_MULTI",
+      "label": "Mythological Salaminians",
+      "discoveredFrom": "Ajax the Great",
+      "discoveredAt": 636
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Potiphar's wife archetype in folklore",
+      "iso": "_MULTI",
+      "label": "Potiphar's wife archetype in folklore",
+      "discoveredFrom": "Anagyros (hero)",
+      "discoveredAt": 636
     }
   ],
-  "totalAdded": 3726,
-  "runs": 636,
-  "lastRun": "2026-08-03T14:17:39.523Z",
-  "lastDiscoveredIndex": 663
+  "totalAdded": 3737,
+  "runs": 637,
+  "lastRun": "2026-08-03T19:20:24.125Z",
+  "lastDiscoveredIndex": 666
 }
