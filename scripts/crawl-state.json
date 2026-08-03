@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 19,
+  "lastCategoryIndex": 22,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6453,7 +6453,12 @@
     6186347,
     61365005,
     319049,
-    48287509
+    48287509,
+    63720937,
+    63703946,
+    5988513,
+    1858920,
+    7382545
   ],
   "discoveredCategories": [
     {
@@ -22705,8 +22710,8 @@
       "discoveredAt": 634
     }
   ],
-  "totalAdded": 3723,
-  "runs": 635,
-  "lastRun": "2026-08-03T09:24:03.822Z",
-  "lastDiscoveredIndex": 660
+  "totalAdded": 3726,
+  "runs": 636,
+  "lastRun": "2026-08-03T14:17:39.523Z",
+  "lastDiscoveredIndex": 663
 }
