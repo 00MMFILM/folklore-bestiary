@@ -9,6 +9,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import LanguageSelector from "@/components/LanguageSelector";
 import { getCreatureTranslation } from "@/lib/creature-translations";
 import { getCreatureArticle } from "@/lib/articles";
+import { localizeTags, localizeDescription } from "@/lib/tag-i18n";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://folklore-bestiary.vercel.app";
 
@@ -38,8 +39,14 @@ export async function generateMetadata({
   const image = getCreatureImage(creature.id);
   const ogImage = image || "/og-default.png";
   const countryLocalized = getCountryName(creature.country, locale as Locale);
+  const typeLocalized = getTypeName(creature.t, locale as Locale);
   const trans = getCreatureTranslation(creature.id, locale as Locale);
-  const descText = trans?.d || creature.d;
+  const descText = localizeDescription(
+    trans?.d || creature.d,
+    locale as Locale,
+    countryLocalized,
+    typeLocalized
+  );
   const title = `${creature.n} — ${countryLocalized}`;
   const description = descText.length > 160 ? descText.slice(0, 157) + "..." : descText;
 
@@ -95,9 +102,21 @@ export default async function CreaturePage({
   const regionName = getRegionName(creature.region, locale);
   const typeName = getTypeName(creature.t, locale);
 
-  const description = trans?.d || creature.d;
-  const abilities = Array.isArray(trans?.ab) ? trans.ab : creature.ab;
-  const weaknesses = Array.isArray(trans?.wk) ? trans.wk : creature.wk;
+  const description = localizeDescription(
+    trans?.d || creature.d,
+    locale,
+    countryName,
+    typeName
+  );
+  const abilities = localizeTags(
+    Array.isArray(trans?.ab) ? trans.ab : creature.ab,
+    locale
+  );
+  const weaknesses = localizeTags(
+    Array.isArray(trans?.wk) ? trans.wk : creature.wk,
+    locale
+  );
+  const genres = localizeTags(creature.gf, locale);
   const rawSh = trans?.sh || creature.sh;
   const storyHooks = rawSh ? (Array.isArray(rawSh) ? rawSh : [rawSh]) : null;
 
@@ -403,7 +422,7 @@ export default async function CreaturePage({
           )}
 
           {/* Genres */}
-          {creature.gf && creature.gf.length > 0 && (
+          {genres && genres.length > 0 && (
             <section style={{ marginBottom: "32px" }}>
               <h2
                 style={{ fontSize: "16px", color: colors.accent, marginBottom: "12px" }}
@@ -411,7 +430,7 @@ export default async function CreaturePage({
                 {t["creature.genres"]}
               </h2>
               <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
-                {creature.gf.map((g) => (
+                {genres.map((g) => (
                   <span
                     key={g}
                     style={{
