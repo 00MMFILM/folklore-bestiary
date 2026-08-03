@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 16,
+  "lastCategoryIndex": 19,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6427,7 +6427,33 @@
     2872472,
     910543,
     52303,
-    8789728
+    8789728,
+    2200397,
+    86387,
+    1804771,
+    171581,
+    479046,
+    253194,
+    25010331,
+    436618,
+    17229682,
+    386905,
+    5764521,
+    69911415,
+    551842,
+    924242,
+    4417394,
+    36500415,
+    1166304,
+    30036464,
+    79197036,
+    45138076,
+    56300348,
+    75922902,
+    6186347,
+    61365005,
+    319049,
+    48287509
   ],
   "discoveredCategories": [
     {
@@ -22669,10 +22695,18 @@
       "label": "Legendary South American people",
       "discoveredFrom": "Francisco el Hombre",
       "discoveredAt": 633
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Uruguayan folklore",
+      "iso": "UY",
+      "label": "Uruguayan folklore",
+      "discoveredFrom": "Bolas",
+      "discoveredAt": 634
     }
   ],
-  "totalAdded": 3717,
-  "runs": 634,
-  "lastRun": "2026-08-03T01:57:39.795Z",
-  "lastDiscoveredIndex": 657
+  "totalAdded": 3723,
+  "runs": 635,
+  "lastRun": "2026-08-03T09:24:03.822Z",
+  "lastDiscoveredIndex": 660
 }
