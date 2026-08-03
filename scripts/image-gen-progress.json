@@ -1181,5 +1181,11 @@
   "jp-isonade": "/creatures/east-asia/isonade.webp",
   "gr-lampus": "/creatures/europe/lampus.webp",
   "gr-alcidice": "/creatures/europe/alcidice.webp",
-  "gr-aristomachus-mythology": "/creatures/europe/aristomachus-mythology.webp"
+  "gr-aristomachus-mythology": "/creatures/europe/aristomachus-mythology.webp",
+  "il-qippoz": "/creatures/south-asia/qippoz.webp",
+  "gr-gello": "/creatures/europe/gello.webp",
+  "il-rahab-mythology": "/creatures/south-asia/rahab-mythology.webp",
+  "il-tannin-mythology": "/creatures/south-asia/tannin-mythology.webp",
+  "gr-augeas": "/creatures/europe/augeas.webp",
+  "gr-ancaeus-son-of-poseidon": "/creatures/europe/ancaeus-son-of-poseidon.webp"
 }
