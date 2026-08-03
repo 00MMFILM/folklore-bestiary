@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 13,
+  "lastCategoryIndex": 16,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6407,7 +6407,27 @@
     62694267,
     27796,
     268985,
-    305
+    305,
+    22223112,
+    62069166,
+    79648085,
+    81517300,
+    82394497,
+    2028684,
+    14696130,
+    36254867,
+    67234787,
+    73827543,
+    46989857,
+    12193774,
+    18064024,
+    1407683,
+    1667495,
+    46789796,
+    2872472,
+    910543,
+    52303,
+    8789728
   ],
   "discoveredCategories": [
     {
@@ -22633,10 +22653,26 @@
       "label": "Mythological female rapists",
       "discoveredFrom": "Succubus",
       "discoveredAt": 632
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Assamese folklore",
+      "iso": "_MULTI",
+      "label": "Assamese folklore",
+      "discoveredFrom": "Chand Sadagar",
+      "discoveredAt": 633
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary South American people",
+      "iso": "_MULTI",
+      "label": "Legendary South American people",
+      "discoveredFrom": "Francisco el Hombre",
+      "discoveredAt": 633
     }
   ],
-  "totalAdded": 3711,
-  "runs": 633,
-  "lastRun": "2026-08-02T18:56:32.602Z",
-  "lastDiscoveredIndex": 654
+  "totalAdded": 3717,
+  "runs": 634,
+  "lastRun": "2026-08-03T01:57:39.795Z",
+  "lastDiscoveredIndex": 657
 }
