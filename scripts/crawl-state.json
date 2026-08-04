@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 34,
+  "lastCategoryIndex": 37,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6582,7 +6582,26 @@
     52588951,
     7322,
     606554,
-    31865085
+    31865085,
+    4562372,
+    78713,
+    67240319,
+    67638180,
+    58273606,
+    2615346,
+    63676183,
+    72882449,
+    54089016,
+    1670440,
+    5279236,
+    7758653,
+    87910,
+    70060,
+    88673,
+    1678866,
+    87292,
+    62989340,
+    5884218
   ],
   "discoveredCategories": [
     {
@@ -22944,10 +22963,50 @@
       "label": "Comparative mythologists",
       "discoveredFrom": "Fyodor Buslaev",
       "discoveredAt": 639
+    },
+    {
+      "lang": "en",
+      "cat": "Category:1970s monster movies",
+      "iso": "_MULTI",
+      "label": "1970s monster movies",
+      "discoveredFrom": "Allegro non troppo",
+      "discoveredAt": 640
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Animated films about demons",
+      "iso": "_MULTI",
+      "label": "Animated films about demons",
+      "discoveredFrom": "Allegro non troppo",
+      "discoveredAt": 640
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Animated films based on classical mythology",
+      "iso": "_MULTI",
+      "label": "Animated films based on classical mythology",
+      "discoveredFrom": "Allegro non troppo",
+      "discoveredAt": 640
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Metamorphoses into plants in Greek mythology",
+      "iso": "GR",
+      "label": "Metamorphoses into plants in Greek mythology",
+      "discoveredFrom": "Ampelos",
+      "discoveredAt": 640
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of Kentucky",
+      "iso": "_MULTI",
+      "label": "Folklore of Kentucky",
+      "discoveredFrom": "Pope Lick Monster",
+      "discoveredAt": 640
     }
   ],
-  "totalAdded": 3772,
-  "runs": 640,
-  "lastRun": "2026-08-04T13:49:30.684Z",
-  "lastDiscoveredIndex": 675
+  "totalAdded": 3787,
+  "runs": 641,
+  "lastRun": "2026-08-04T19:18:57.303Z",
+  "lastDiscoveredIndex": 678
 }
