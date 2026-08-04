@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 28,
+  "lastCategoryIndex": 31,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6499,7 +6499,38 @@
     6372527,
     85716,
     80170296,
-    5135353
+    5135353,
+    3736372,
+    3823171,
+    2863917,
+    487131,
+    2557716,
+    3895139,
+    704078,
+    976799,
+    49278,
+    956700,
+    1089080,
+    1538136,
+    1606258,
+    66001,
+    1829408,
+    5452620,
+    13227166,
+    57224442,
+    20315223,
+    46587572,
+    43304353,
+    3352312,
+    43305500,
+    16368765,
+    16271626,
+    4919142,
+    15962414,
+    72100326,
+    5348236,
+    14512556,
+    12764558
   ],
   "discoveredCategories": [
     {
@@ -22773,10 +22804,26 @@
       "label": "Potiphar's wife archetype in folklore",
       "discoveredFrom": "Anagyros (hero)",
       "discoveredAt": 636
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:신화의 괴물",
+      "iso": "_MULTI",
+      "label": "신화의 괴물",
+      "discoveredFrom": "호네온나",
+      "discoveredAt": 638
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary characters",
+      "iso": "_MULTI",
+      "label": "Legendary characters",
+      "discoveredFrom": "Keve",
+      "discoveredAt": 638
     }
   ],
-  "totalAdded": 3748,
-  "runs": 638,
-  "lastRun": "2026-08-04T01:43:31.363Z",
-  "lastDiscoveredIndex": 669
+  "totalAdded": 3763,
+  "runs": 639,
+  "lastRun": "2026-08-04T08:22:39.766Z",
+  "lastDiscoveredIndex": 672
 }
