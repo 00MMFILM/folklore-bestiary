@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 31,
+  "lastCategoryIndex": 34,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6530,7 +6530,59 @@
     72100326,
     5348236,
     14512556,
-    12764558
+    12764558,
+    4039882,
+    23420764,
+    34004012,
+    60415617,
+    69254775,
+    31362714,
+    48697335,
+    75571839,
+    83598559,
+    80346730,
+    83394342,
+    42010285,
+    18268292,
+    24305421,
+    52194735,
+    13250871,
+    9162562,
+    16983960,
+    61753027,
+    7325475,
+    7281028,
+    4202963,
+    11495940,
+    65166181,
+    70999945,
+    67664658,
+    68326602,
+    3777846,
+    42661623,
+    10333947,
+    71039100,
+    14403153,
+    8658727,
+    47177386,
+    40574783,
+    40575244,
+    12400438,
+    8659243,
+    8658639,
+    8643817,
+    8656292,
+    8659156,
+    1924079,
+    2628,
+    11833883,
+    1831837,
+    27118694,
+    30860983,
+    52588951,
+    7322,
+    606554,
+    31865085
   ],
   "discoveredCategories": [
     {
@@ -22820,10 +22872,82 @@
       "label": "Legendary characters",
       "discoveredFrom": "Keve",
       "discoveredAt": 638
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Buddhist mythology",
+      "iso": "_MULTI",
+      "label": "Buddhist mythology",
+      "discoveredFrom": "Huangmei Dawang",
+      "discoveredAt": 639
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythology by culture",
+      "iso": "_MULTI",
+      "label": "Mythology by culture",
+      "discoveredFrom": "Burmese mythology",
+      "discoveredAt": 639
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Minangkabau folklore",
+      "iso": "_MULTI",
+      "label": "Minangkabau folklore",
+      "discoveredFrom": "Malin Kundang",
+      "discoveredAt": 639
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Animated films based on European myths and legends",
+      "iso": "_MULTI",
+      "label": "Animated films based on European myths and legends",
+      "discoveredFrom": "Song of the Miraculous Hind",
+      "discoveredAt": 639
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Films based on Finno-Ugric mythology",
+      "iso": "_MULTI",
+      "label": "Films based on Finno-Ugric mythology",
+      "discoveredFrom": "Song of the Miraculous Hind",
+      "discoveredAt": 639
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ob-Ugrian gods",
+      "iso": "_MULTI",
+      "label": "Ob-Ugrian gods",
+      "discoveredFrom": "Heini-iki",
+      "discoveredAt": 639
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological clothing",
+      "iso": "_MULTI",
+      "label": "Mythological clothing",
+      "discoveredFrom": "Aegis",
+      "discoveredAt": 639
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological shields",
+      "iso": "_MULTI",
+      "label": "Mythological shields",
+      "discoveredFrom": "Aegis",
+      "discoveredAt": 639
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Comparative mythologists",
+      "iso": "_MULTI",
+      "label": "Comparative mythologists",
+      "discoveredFrom": "Fyodor Buslaev",
+      "discoveredAt": 639
     }
   ],
-  "totalAdded": 3763,
-  "runs": 639,
-  "lastRun": "2026-08-04T08:22:39.766Z",
-  "lastDiscoveredIndex": 672
+  "totalAdded": 3772,
+  "runs": 640,
+  "lastRun": "2026-08-04T13:49:30.684Z",
+  "lastDiscoveredIndex": 675
 }
