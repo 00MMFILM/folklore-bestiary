@@ -118,7 +118,11 @@ export default async function CreaturePage({
   );
   const genres = localizeTags(creature.gf, locale);
   const rawSh = trans?.sh || creature.sh;
-  const storyHooks = rawSh ? (Array.isArray(rawSh) ? rawSh : [rawSh]) : null;
+  const storyHooks = rawSh
+    ? (Array.isArray(rawSh) ? rawSh : [rawSh]).map((s) =>
+        localizeDescription(s, locale, countryName, typeName)
+      )
+    : null;
 
   // 심화 아티클 (있을 때만 — content/articles/{id}.json)
   const article = getCreatureArticle(creature.id, locale);
@@ -136,7 +140,7 @@ export default async function CreaturePage({
     "@context": "https://schema.org",
     "@type": "Article",
     headline: creature.n,
-    description: creature.d,
+    description,
     image: image ? `${SITE_URL}${image}` : `${SITE_URL}/og-default.png`,
     author: { "@type": "Organization", name: "Global Folklore Bestiary" },
     publisher: { "@type": "Organization", name: "Global Folklore Bestiary" },
