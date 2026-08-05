@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Lake Worth Monster",
+ "sourceLang": "en",
+ "sourceChars": 2554,
+ "generatedAt": "2026-08-05T08:01:48.117Z",
+ "locales": {
+  "ko": {
+   "origin": "텍사스 민속에서, 레이크 워스 몬스터는 포트 워스 자연 센터와 보호구역 근처의 레이크 워스에 살고 있다고 전해지는 전설적인 생물이다.",
+   "legend": "이 생물은 종종 '반인반염소'로 묘사되며 비늘과 긴 발톱이 있는 손가락을 가지고 있다고 전해진다. 1969년 7월, 지역 주민들이 '털과 비늘이 있는 반인반염소'를 목격했다는 보고가 이어지면서 레이크 워스에 신비로운 생물이 살고 있다는 믿음이 생겼다. 신문에서는 나무에서 뛰어내린 후 한 남자의 차에 착지한 사건과, 한 무리의 사람들에게 자동차 타이어를 던진 사건 등을 보도했다.",
+   "variants": "",
+   "culture": "2009년부터 레이크 워스 몬스터 목격 사건의 40주년을 기념하여 포트 워스 자연 센터와 보호구역에서는 매년 10월 레이크 워스 몬스터 배시를 개최하고 있다. 2019년에는 포트 워스 수자원부의 H2OMG 팟캐스트에서 레이크 워스 몬스터 전설에 대한 4부작 오디오 시리즈를 발표했다."
+  },
+  "en": {
+   "origin": "In Texas folklore, the Lake Worth Monster is a legendary creature said to inhabit Lake Worth near the Fort Worth Nature Center and Refuge.",
+   "legend": "This creature is often described as a 'half-man, half-goat' and is said to have scales and long claws on its fingers. In July 1969, reports emerged from local residents claiming to have witnessed a 'hairy, scaly half-man, half-goat,' leading to a belief that a mysterious creature lived in Lake Worth. Newspapers reported incidents such as a man landing on a car after jumping from a tree and another incident where a group of people had tires thrown at them by the creature.",
+   "variants": "",
+   "culture": "Since 2009, to commemorate the 40th anniversary of the Lake Worth Monster sightings, the Fort Worth Nature Center and Refuge has held an annual Lake Worth Monster Bash every October. In 2019, a four-part audio series about the Lake Worth Monster legend was released on the H2OMG podcast by the Fort Worth Water Department."
+  },
+  "zh": {
+   "origin": "在德克萨斯民俗中，莱克沃斯怪物被传说为生活在沃斯堡自然中心和保护区附近的莱克沃斯的传奇生物。",
+   "legend": "这个生物常常被描述为“半人半羊”，据说它有鳞片和长爪的手指。1969年7月，当地居民报告目击到“有毛发和鳞片的半人半羊”，从而产生了莱克沃斯有神秘生物存在的信念。报纸报道了一个事件，一名男子在树上跳下后落在他的车上，以及向一群人投掷汽车轮胎的事件。",
+   "variants": "",
+   "culture": "自2009年以来，为了纪念莱克沃斯怪物目击事件的40周年，沃斯堡自然中心和保护区每年10月都会举办莱克沃斯怪物盛会。在2019年，沃斯堡水务局的H2OMG播客发布了关于莱克沃斯怪物传说的四部曲音频系列。"
+  },
+  "ja": {
+   "origin": "テキサス民俗において、レイク・ウォース・モンスターはフォート・ワース自然センターと保護区近くのレイク・ウォースに住んでいるとされる伝説的な生物である。",
+   "legend": "この生物はしばしば「半人半山羊」と描写され、鱗と長い爪のある指を持っていると言われている。1969年7月、地域住民が「毛と鱗のある半人半山羊」を目撃したという報告が続き、レイク・ウォースに神秘的な生物が住んでいるという信念が生まれた。新聞では木から飛び降りた後に一人の男性の車に着地した事件や、一群の人々に自動車のタイヤを投げた事件などが報じられた。",
+   "variants": "",
+   "culture": "2009年からレイク・ウォース・モンスター目撃事件の40周年を記念して、フォート・ワース自然センターと保護区では毎年10月にレイク・ウォース・モンスター・バッシュを開催している。2019年にはフォート・ワース水資源局のH2OMGポッドキャストでレイク・ウォース・モンスターの伝説に関する4部作のオーディオシリーズを発表した。"
+  }
+ }
+}
