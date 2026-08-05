@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 46,
+  "lastCategoryIndex": 49,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6671,7 +6671,32 @@
     5766244,
     28366363,
     5524466,
-    5552278
+    5552278,
+    22017946,
+    41863180,
+    19972602,
+    52756683,
+    613615,
+    1969386,
+    22301956,
+    1341942,
+    50821615,
+    309016,
+    15942175,
+    5963212,
+    2273331,
+    18504030,
+    15383906,
+    280940,
+    485846,
+    14983126,
+    2221317,
+    48985512,
+    177452,
+    50429399,
+    405827,
+    42530390,
+    2448259
   ],
   "discoveredCategories": [
     {
@@ -23137,10 +23162,74 @@
       "label": "Fairy tales about animals",
       "discoveredFrom": "The Heart of a Monkey",
       "discoveredAt": 643
+    },
+    {
+      "lang": "en",
+      "cat": "Category:British legends",
+      "iso": "GB",
+      "label": "British legends",
+      "discoveredFrom": "Christchurch Dragon",
+      "discoveredAt": 644
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Anglo-Saxon gods",
+      "iso": "_MULTI",
+      "label": "Anglo-Saxon gods",
+      "discoveredFrom": "Cofgod",
+      "discoveredAt": 644
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Yorkshire folklore",
+      "iso": "_MULTI",
+      "label": "Yorkshire folklore",
+      "discoveredFrom": "Hob (folklore)",
+      "discoveredAt": 644
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Somerset folklore",
+      "iso": "_MULTI",
+      "label": "Somerset folklore",
+      "discoveredFrom": "Hunky punk",
+      "discoveredAt": 644
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Wiltshire folklore",
+      "iso": "_MULTI",
+      "label": "Wiltshire folklore",
+      "discoveredFrom": "Drummer of Tedworth",
+      "discoveredAt": 644
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Berkshire folklore",
+      "iso": "_MULTI",
+      "label": "Berkshire folklore",
+      "discoveredFrom": "Herne the Hunter",
+      "discoveredAt": 644
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Surrey folklore",
+      "iso": "_MULTI",
+      "label": "Surrey folklore",
+      "discoveredFrom": "Herne the Hunter",
+      "discoveredAt": 644
+    },
+    {
+      "lang": "en",
+      "cat": "Category:West Sussex folklore",
+      "iso": "_MULTI",
+      "label": "West Sussex folklore",
+      "discoveredFrom": "King Cnut and the tide",
+      "discoveredAt": 644
     }
   ],
-  "totalAdded": 3815,
-  "runs": 644,
-  "lastRun": "2026-08-05T13:47:38.380Z",
-  "lastDiscoveredIndex": 687
+  "totalAdded": 3828,
+  "runs": 645,
+  "lastRun": "2026-08-05T19:16:12.687Z",
+  "lastDiscoveredIndex": 690
 }
