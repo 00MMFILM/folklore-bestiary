@@ -26,6 +26,7 @@ interface Dictionary {
   "creature.storyHooks": string;
   "creature.relatedCountry": string;
   "creature.relatedType": string;
+  "creature.relatedTale": string;
   "article.origin": string;
   "article.legend": string;
   "article.variants": string;
@@ -114,6 +115,7 @@ const ko: Dictionary = {
   "creature.storyHooks": "스토리 훅",
   "creature.relatedCountry": "같은 나라의 다른 존재",
   "creature.relatedType": "비슷한 유형의 존재",
+  "creature.relatedTale": "같은 설화 속 다른 존재",
   "article.origin": "기원과 배경",
   "article.legend": "전승",
   "article.variants": "변형과 이형",
@@ -197,6 +199,7 @@ const en: Dictionary = {
   "creature.storyHooks": "Story Hooks",
   "creature.relatedCountry": "More creatures from this country",
   "creature.relatedType": "Similar creature types",
+  "creature.relatedTale": "Others in the same tale",
   "article.origin": "Origin & Background",
   "article.legend": "The Legend",
   "article.variants": "Variants",
@@ -280,6 +283,7 @@ const zh: Dictionary = {
   "creature.storyHooks": "故事线索",
   "creature.relatedCountry": "同一国家的其他传说",
   "creature.relatedType": "类似类型的存在",
+  "creature.relatedTale": "同一传说中的其他存在",
   "article.origin": "起源与背景",
   "article.legend": "传说内容",
   "article.variants": "变体与异说",
@@ -363,6 +367,7 @@ const ja: Dictionary = {
   "creature.storyHooks": "ストーリーフック",
   "creature.relatedCountry": "同じ国の他の存在",
   "creature.relatedType": "似たタイプの存在",
+  "creature.relatedTale": "同じ説話の他の存在",
   "article.origin": "起源と背景",
   "article.legend": "伝承",
   "article.variants": "異伝",

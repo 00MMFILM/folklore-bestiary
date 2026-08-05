@@ -1,0 +1,864 @@
+{
+ "al-i-verbti": [
+  {
+   "id": "al-shurdh",
+   "n": "Shurdh"
+  }
+ ],
+ "al-shurdh": [
+  {
+   "id": "al-i-verbti",
+   "n": "I Verbti"
+  }
+ ],
+ "bo-anchancho": [
+  {
+   "id": "bo-ekeko",
+   "n": "Ekeko"
+  }
+ ],
+ "bo-ekeko": [
+  {
+   "id": "bo-anchancho",
+   "n": "Anchancho (안찬초)"
+  }
+ ],
+ "br-mapinguari": [
+  {
+   "id": "br-curupira",
+   "n": "Curupira (쿠루피라)"
+  }
+ ],
+ "br-curupira": [
+  {
+   "id": "br-mapinguari",
+   "n": "Mapinguari (마핑구아리)"
+  }
+ ],
+ "cl-kalku": [
+  {
+   "id": "cl-anchimayen",
+   "n": "Anchimayen"
+  },
+  {
+   "id": "cl-nguruvilu",
+   "n": "Nguruvilu"
+  }
+ ],
+ "cl-anchimayen": [
+  {
+   "id": "cl-kalku",
+   "n": "Kalku"
+  }
+ ],
+ "cl-nguruvilu": [
+  {
+   "id": "cl-kalku",
+   "n": "Kalku"
+  }
+ ],
+ "eg-sekhmet": [
+  {
+   "id": "eg-hathor",
+   "n": "Hathor"
+  }
+ ],
+ "eg-hathor": [
+  {
+   "id": "eg-sekhmet",
+   "n": "세크메트"
+  }
+ ],
+ "gr-aerope": [
+  {
+   "id": "gr-althaemenes",
+   "n": "Althaemenes"
+  }
+ ],
+ "gr-althaemenes": [
+  {
+   "id": "gr-aerope",
+   "n": "Aerope"
+  }
+ ],
+ "gr-charybdis": [
+  {
+   "id": "gr-scylla",
+   "n": "스킬라"
+  }
+ ],
+ "gr-scylla": [
+  {
+   "id": "gr-charybdis",
+   "n": "Charybdis"
+  }
+ ],
+ "gr-lernaean-hydra": [
+  {
+   "id": "gr-hydra",
+   "n": "히드라"
+  }
+ ],
+ "gr-hydra": [
+  {
+   "id": "gr-lernaean-hydra",
+   "n": "Lernaean Hydra"
+  }
+ ],
+ "id-batara-kala": [
+  {
+   "id": "id-setesuyara",
+   "n": "Setesuyara"
+  }
+ ],
+ "id-setesuyara": [
+  {
+   "id": "id-batara-kala",
+   "n": "바타라 칼라"
+  }
+ ],
+ "id-calon-arang": [
+  {
+   "id": "id-rangda",
+   "n": "Rangda"
+  }
+ ],
+ "id-rangda": [
+  {
+   "id": "id-calon-arang",
+   "n": "Calon Arang"
+  }
+ ],
+ "ie-balor": [
+  {
+   "id": "ie-fomorians",
+   "n": "Fomorians"
+  }
+ ],
+ "ie-fomorians": [
+  {
+   "id": "ie-balor",
+   "n": "발로르"
+  }
+ ],
+ "in-ravana": [
+  {
+   "id": "in-asura",
+   "n": "아수라"
+  }
+ ],
+ "in-asura": [
+  {
+   "id": "in-ravana",
+   "n": "라바나"
+  }
+ ],
+ "iq-lamashtu": [
+  {
+   "id": "iq-anzu",
+   "n": "Anzû"
+  }
+ ],
+ "iq-anzu": [
+  {
+   "id": "iq-lamashtu",
+   "n": "Lamashtu"
+  }
+ ],
+ "ir-aeshma": [
+  {
+   "id": "ir-mithra",
+   "n": "Mithra"
+  }
+ ],
+ "ir-mithra": [
+  {
+   "id": "ir-aeshma",
+   "n": "Aeshma"
+  }
+ ],
+ "ir-ahriman": [
+  {
+   "id": "ir-ahura-mazda",
+   "n": "Ahura Mazda"
+  },
+  {
+   "id": "ir-zahhak",
+   "n": "Zahhak"
+  }
+ ],
+ "ir-ahura-mazda": [
+  {
+   "id": "ir-ahriman",
+   "n": "Ahriman"
+  },
+  {
+   "id": "ir-zahhak",
+   "n": "Zahhak"
+  }
+ ],
+ "ir-zahhak": [
+  {
+   "id": "ir-ahriman",
+   "n": "Ahriman"
+  },
+  {
+   "id": "ir-ahura-mazda",
+   "n": "Ahura Mazda"
+  },
+  {
+   "id": "ir-azhdaha",
+   "n": "Azhdaha"
+  }
+ ],
+ "ir-azhdaha": [
+  {
+   "id": "ir-zahhak",
+   "n": "Zahhak"
+  }
+ ],
+ "kr-cheoyong": [
+  {
+   "id": "kr-munsin",
+   "n": "문전신"
+  },
+  {
+   "id": "kr-yeoksin",
+   "n": "Yeoksin (역신)"
+  }
+ ],
+ "kr-yeoksin": [
+  {
+   "id": "kr-호구별성",
+   "n": "호구별성"
+  },
+  {
+   "id": "kr-cheoyong",
+   "n": "Cheoyong (처용)"
+  }
+ ],
+ "kr-cheuksin": [
+  {
+   "id": "kr-jowangsin",
+   "n": "Jowangsin (조왕신)"
+  },
+  {
+   "id": "kr-seongju",
+   "n": "Seongjusin (성주신)"
+  }
+ ],
+ "kr-jowangsin": [
+  {
+   "id": "kr-cheuksin",
+   "n": "측신"
+  }
+ ],
+ "kr-seongju": [
+  {
+   "id": "kr-gunungsin",
+   "n": "군웅신"
+  },
+  {
+   "id": "kr-munsin",
+   "n": "문전신"
+  },
+  {
+   "id": "kr-cheuksin",
+   "n": "측신"
+  },
+  {
+   "id": "kr-eeopsin",
+   "n": "Eeopsin (업신)"
+  }
+ ],
+ "kr-dokkakgwi": [
+  {
+   "id": "kr-dokgak",
+   "n": "Dokgak (독각)"
+  }
+ ],
+ "kr-dokgak": [
+  {
+   "id": "kr-dokkakgwi",
+   "n": "독각귀"
+  }
+ ],
+ "kr-dongmyeong-of-goguryeo": [
+  {
+   "id": "kr-전설의-고향",
+   "n": "전설의 고향"
+  }
+ ],
+ "kr-전설의-고향": [
+  {
+   "id": "kr-dongmyeong-of-goguryeo",
+   "n": "Dongmyeong of Goguryeo"
+  },
+  {
+   "id": "kr-gumiho",
+   "n": "Gumiho (구미호)"
+  },
+  {
+   "id": "kr-jeoseung-saja",
+   "n": "Jeoseung Saja (저승사자)"
+  },
+  {
+   "id": "kr-kumiho",
+   "n": "Kumiho"
+  }
+ ],
+ "kr-dragon-king": [
+  {
+   "id": "kr-yongwang",
+   "n": "용왕"
+  }
+ ],
+ "kr-yongwang": [
+  {
+   "id": "kr-dragon-king",
+   "n": "Dragon King"
+  }
+ ],
+ "kr-eeopsin": [
+  {
+   "id": "kr-chilseongsin",
+   "n": "Chilseongsin (칠성신)"
+  },
+  {
+   "id": "kr-seongju",
+   "n": "Seongjusin (성주신)"
+  },
+  {
+   "id": "kr-teojusin",
+   "n": "Teojusin (터주신)"
+  }
+ ],
+ "kr-chilseongsin": [
+  {
+   "id": "kr-eopsin",
+   "n": "업신"
+  },
+  {
+   "id": "kr-eeopsin",
+   "n": "Eeopsin (업신)"
+  }
+ ],
+ "kr-teojusin": [
+  {
+   "id": "kr-eeopsin",
+   "n": "Eeopsin (업신)"
+  }
+ ],
+ "kr-eopsin": [
+  {
+   "id": "kr-chilseongsin",
+   "n": "Chilseongsin (칠성신)"
+  }
+ ],
+ "kr-gangcheori": [
+  {
+   "id": "kr-gangcheoli",
+   "n": "Gangcheoli (강철이)"
+  },
+  {
+   "id": "kr-imugi",
+   "n": "Imugi (이무기)"
+  }
+ ],
+ "kr-imugi": [
+  {
+   "id": "kr-gangcheori",
+   "n": "강철이"
+  },
+  {
+   "id": "kr-korean-dragon",
+   "n": "한국의 용"
+  },
+  {
+   "id": "kr-gangcheoli",
+   "n": "Gangcheoli (강철이)"
+  },
+  {
+   "id": "kr-gumiho",
+   "n": "Gumiho (구미호)"
+  },
+  {
+   "id": "kr-yeongnoh",
+   "n": "Yeongnoh (영노)"
+  }
+ ],
+ "kr-gangcheoli": [
+  {
+   "id": "kr-gangcheori",
+   "n": "강철이"
+  },
+  {
+   "id": "kr-korean-dragon",
+   "n": "한국의 용"
+  },
+  {
+   "id": "kr-imugi",
+   "n": "Imugi (이무기)"
+  }
+ ],
+ "kr-gangrim-doryeong": [
+  {
+   "id": "kr-jeoseung-saja",
+   "n": "Jeoseung Saja (저승사자)"
+  }
+ ],
+ "kr-jeoseung-saja": [
+  {
+   "id": "kr-gangrim-doryeong",
+   "n": "강림도령"
+  },
+  {
+   "id": "kr-myth-of-general-sinui",
+   "n": "시누이 장군 설화"
+  },
+  {
+   "id": "kr-전설의-고향",
+   "n": "전설의 고향"
+  },
+  {
+   "id": "kr-yeomra-daewang",
+   "n": "Yeomra Daewang (염라대왕)"
+  }
+ ],
+ "kr-gongsim": [
+  {
+   "id": "kr-mengdu",
+   "n": "Mengdu"
+  }
+ ],
+ "kr-mengdu": [
+  {
+   "id": "kr-gongsim",
+   "n": "Gongsim"
+  }
+ ],
+ "kr-gumiho": [
+  {
+   "id": "kr-samsin-halmeoni",
+   "n": "삼신할머니"
+  },
+  {
+   "id": "kr-전설의-고향",
+   "n": "전설의 고향"
+  },
+  {
+   "id": "kr-korean-dragon",
+   "n": "한국의 용"
+  },
+  {
+   "id": "kr-imugi",
+   "n": "Imugi (이무기)"
+  },
+  {
+   "id": "kr-kumiho",
+   "n": "Kumiho"
+  }
+ ],
+ "kr-gunungsin": [
+  {
+   "id": "kr-seongju",
+   "n": "Seongjusin (성주신)"
+  }
+ ],
+ "kr-gwisin": [
+  {
+   "id": "kr-cheonyeo-gwishin",
+   "n": "Cheonyeo Gwishin (처녀귀신)"
+  },
+  {
+   "id": "kr-mul-gwishin",
+   "n": "Mul Gwishin (물귀신)"
+  }
+ ],
+ "kr-cheonyeo-gwishin": [
+  {
+   "id": "kr-gwisin",
+   "n": "귀신"
+  },
+  {
+   "id": "kr-mongdal-gwishin-bachelor-ghost",
+   "n": "몽달귀신"
+  },
+  {
+   "id": "kr-korean-virgin-ghost",
+   "n": "손말명"
+  },
+  {
+   "id": "kr-songgaksi",
+   "n": "Songgaksi (손각시)"
+  }
+ ],
+ "kr-mul-gwishin": [
+  {
+   "id": "kr-gwisin",
+   "n": "귀신"
+  }
+ ],
+ "kr-heungbu": [
+  {
+   "id": "kr-jeokbyeokga",
+   "n": "적벽가"
+  },
+  {
+   "id": "kr-nolbu",
+   "n": "Nolbu (놀부)"
+  }
+ ],
+ "kr-nolbu": [
+  {
+   "id": "kr-heungbu",
+   "n": "Heungbu (흥부)"
+  }
+ ],
+ "kr-igong-bon-puri": [
+  {
+   "id": "kr-할락궁이",
+   "n": "할락궁이"
+  }
+ ],
+ "kr-할락궁이": [
+  {
+   "id": "kr-igong-bon-puri",
+   "n": "Igong bon-puri"
+  }
+ ],
+ "kr-yeongnoh": [
+  {
+   "id": "kr-imugi",
+   "n": "Imugi (이무기)"
+  }
+ ],
+ "kr-jangsan-beom-jangsan-tiger": [
+  {
+   "id": "kr-jangsanbum",
+   "n": "Jangsanbum (장산범)"
+  }
+ ],
+ "kr-jangsanbum": [
+  {
+   "id": "kr-jangsan-beom-jangsan-tiger",
+   "n": "장산범"
+  }
+ ],
+ "kr-jeokbyeokga": [
+  {
+   "id": "kr-chunhyang",
+   "n": "Chunhyang (춘향)"
+  },
+  {
+   "id": "kr-heungbu",
+   "n": "Heungbu (흥부)"
+  },
+  {
+   "id": "kr-simcheong",
+   "n": "Simcheong (심청)"
+  }
+ ],
+ "kr-simcheong": [
+  {
+   "id": "kr-jeokbyeokga",
+   "n": "적벽가"
+  }
+ ],
+ "kr-chunhyang": [
+  {
+   "id": "kr-jeokbyeokga",
+   "n": "적벽가"
+  }
+ ],
+ "kr-yeomra-daewang": [
+  {
+   "id": "kr-jeoseung-saja",
+   "n": "Jeoseung Saja (저승사자)"
+  }
+ ],
+ "kr-kongjwi": [
+  {
+   "id": "kr-patjwi",
+   "n": "Patjwi (팥쥐)"
+  }
+ ],
+ "kr-patjwi": [
+  {
+   "id": "kr-kongjwi",
+   "n": "Kongjwi (콩쥐)"
+  }
+ ],
+ "kr-korean-dragon": [
+  {
+   "id": "kr-gangcheoli",
+   "n": "Gangcheoli (강철이)"
+  },
+  {
+   "id": "kr-gumiho",
+   "n": "Gumiho (구미호)"
+  },
+  {
+   "id": "kr-imugi",
+   "n": "Imugi (이무기)"
+  }
+ ],
+ "kr-korean-virgin-ghost": [
+  {
+   "id": "kr-cheonyeo-gwishin",
+   "n": "Cheonyeo Gwishin (처녀귀신)"
+  }
+ ],
+ "kr-kumiho": [
+  {
+   "id": "kr-전설의-고향",
+   "n": "전설의 고향"
+  },
+  {
+   "id": "kr-gumiho",
+   "n": "Gumiho (구미호)"
+  }
+ ],
+ "kr-magwi": [
+  {
+   "id": "kr-하느님",
+   "n": "하느님"
+  }
+ ],
+ "kr-하느님": [
+  {
+   "id": "kr-magwi",
+   "n": "Magwi (마귀)"
+  }
+ ],
+ "kr-mongdal-gwishin-bachelor-ghost": [
+  {
+   "id": "kr-cheonyeo-gwishin",
+   "n": "Cheonyeo Gwishin (처녀귀신)"
+  },
+  {
+   "id": "kr-mongdalgwi",
+   "n": "Mongdalgwi (몽달귀)"
+  }
+ ],
+ "kr-mongdalgwi": [
+  {
+   "id": "kr-mongdal-gwishin-bachelor-ghost",
+   "n": "몽달귀신"
+  },
+  {
+   "id": "kr-songgaksi",
+   "n": "Songgaksi (손각시)"
+  }
+ ],
+ "kr-munsin": [
+  {
+   "id": "kr-cheoyong",
+   "n": "Cheoyong (처용)"
+  },
+  {
+   "id": "kr-seongju",
+   "n": "Seongjusin (성주신)"
+  }
+ ],
+ "kr-myth-of-general-sinui": [
+  {
+   "id": "kr-jeoseung-saja",
+   "n": "Jeoseung Saja (저승사자)"
+  }
+ ],
+ "kr-nogo-halmi-giant-creator-goddess": [
+  {
+   "id": "kr-mago-halmi",
+   "n": "Mago Halmi (마고할미)"
+  }
+ ],
+ "kr-mago-halmi": [
+  {
+   "id": "kr-nogo-halmi-giant-creator-goddess",
+   "n": "노고할미"
+  }
+ ],
+ "kr-samsin-halmeoni": [
+  {
+   "id": "kr-gumiho",
+   "n": "Gumiho (구미호)"
+  },
+  {
+   "id": "kr-samsinghalmi",
+   "n": "Samsinghalmi (삼신할미)"
+  }
+ ],
+ "kr-samsinghalmi": [
+  {
+   "id": "kr-samsin-halmeoni",
+   "n": "삼신할머니"
+  }
+ ],
+ "kr-songgaksi": [
+  {
+   "id": "kr-cheonyeo-gwishin",
+   "n": "Cheonyeo Gwishin (처녀귀신)"
+  },
+  {
+   "id": "kr-mongdalgwi",
+   "n": "Mongdalgwi (몽달귀)"
+  }
+ ],
+ "kr-sungmo": [
+  {
+   "id": "kr-성모",
+   "n": "성모"
+  }
+ ],
+ "kr-성모": [
+  {
+   "id": "kr-sungmo",
+   "n": "Sungmo"
+  }
+ ],
+ "kr-the-heavenly-maiden-and-the-woodcutter": [
+  {
+   "id": "kr-namu-kkun",
+   "n": "Namu-kkun (나무꾼)"
+  }
+ ],
+ "kr-namu-kkun": [
+  {
+   "id": "kr-the-heavenly-maiden-and-the-woodcutter",
+   "n": "선녀와 나무꾼"
+  }
+ ],
+ "kr-three-heavenly-seals": [
+  {
+   "id": "kr-hwanung",
+   "n": "환웅"
+  }
+ ],
+ "kr-hwanung": [
+  {
+   "id": "kr-three-heavenly-seals",
+   "n": "천부인"
+  }
+ ],
+ "kr-ungnyeo": [
+  {
+   "id": "kr-신단수",
+   "n": "신단수"
+  }
+ ],
+ "kr-신단수": [
+  {
+   "id": "kr-ungnyeo",
+   "n": "웅녀"
+  }
+ ],
+ "kr-vasuki": [
+  {
+   "id": "kr-takshaka",
+   "n": "탁샤카"
+  }
+ ],
+ "kr-takshaka": [
+  {
+   "id": "kr-vasuki",
+   "n": "바수키"
+  }
+ ],
+ "kr-호구별성": [
+  {
+   "id": "kr-yeoksin",
+   "n": "Yeoksin (역신)"
+  }
+ ],
+ "mx-tzitzimitl": [
+  {
+   "id": "mx-cihuateteo",
+   "n": "Cihuateteo (시우아테테오)"
+  },
+  {
+   "id": "mx-citlalicue",
+   "n": "Citlālicue"
+  },
+  {
+   "id": "mx-coatlicue",
+   "n": "Cōātlīcue"
+  }
+ ],
+ "mx-cihuateteo": [
+  {
+   "id": "mx-tzitzimitl",
+   "n": "Tzitzimitl (치치미틀)"
+  }
+ ],
+ "mx-citlalicue": [
+  {
+   "id": "mx-tzitzimitl",
+   "n": "Tzitzimitl (치치미틀)"
+  }
+ ],
+ "mx-coatlicue": [
+  {
+   "id": "mx-tzitzimitl",
+   "n": "Tzitzimitl (치치미틀)"
+  }
+ ],
+ "ng-sopona": [
+  {
+   "id": "ng-babalu-aye",
+   "n": "Babalú-Ayé"
+  }
+ ],
+ "ng-babalu-aye": [
+  {
+   "id": "ng-sopona",
+   "n": "Sopona"
+  }
+ ],
+ "no-nidhogg": [
+  {
+   "id": "no-ratatoskr",
+   "n": "Ratatoskr"
+  }
+ ],
+ "no-ratatoskr": [
+  {
+   "id": "no-nidhogg",
+   "n": "Nidhogg"
+  }
+ ],
+ "us-malsumis": [
+  {
+   "id": "us-tabaldak",
+   "n": "Tabaldak"
+  }
+ ],
+ "us-tabaldak": [
+  {
+   "id": "us-malsumis",
+   "n": "Malsumis"
+  }
+ ],
+ "wls-addanc": [
+  {
+   "id": "wls-cigfa",
+   "n": "Cigfa"
+  },
+  {
+   "id": "wls-merlin",
+   "n": "Merlin"
+  }
+ ],
+ "wls-cigfa": [
+  {
+   "id": "wls-addanc",
+   "n": "Addanc"
+  }
+ ],
+ "wls-merlin": [
+  {
+   "id": "wls-addanc",
+   "n": "Addanc"
+  }
+ ]
+}

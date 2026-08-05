@@ -9,6 +9,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import LanguageSelector from "@/components/LanguageSelector";
 import { getCreatureTranslation } from "@/lib/creature-translations";
 import { getCreatureArticle } from "@/lib/articles";
+import { getTaleLinks } from "@/lib/tale-links";
 import { localizeTags, localizeDescription } from "@/lib/tag-i18n";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://folklore-bestiary.vercel.app";
@@ -191,6 +192,10 @@ export default async function CreaturePage({
   const relatedType = allCreatures
     .filter((c) => c.t === creature.t && c.countryCode !== creature.countryCode)
     .slice(0, 6);
+  // 같은 설화 등장 존재 (content/tale-links.json)
+  const relatedTale = getTaleLinks(creature.id)
+    .map((l) => getCreatureById(l.id))
+    .filter((c): c is NonNullable<typeof c> => Boolean(c));
 
   return (
     <>
@@ -478,6 +483,7 @@ export default async function CreaturePage({
 
           {/* Related creatures (internal links) */}
           {[
+            { title: t["creature.relatedTale"], items: relatedTale },
             { title: `${t["creature.relatedCountry"]} · ${countryName}`, items: relatedCountry },
             { title: `${t["creature.relatedType"]} · ${typeName}`, items: relatedType },
           ].map(
