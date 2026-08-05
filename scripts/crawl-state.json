@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 37,
+  "lastCategoryIndex": 40,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6601,7 +6601,31 @@
     1678866,
     87292,
     62989340,
-    5884218
+    5884218,
+    380702,
+    69076219,
+    2423180,
+    27116707,
+    49611218,
+    17958127,
+    1259432,
+    59784297,
+    59784162,
+    33809949,
+    9561421,
+    544007,
+    39950420,
+    40130242,
+    476378,
+    41387259,
+    69114085,
+    54509763,
+    38161880,
+    51198619,
+    32673325,
+    67474846,
+    53306593,
+    16797034
   ],
   "discoveredCategories": [
     {
@@ -23003,10 +23027,58 @@
       "label": "Folklore of Kentucky",
       "discoveredFrom": "Pope Lick Monster",
       "discoveredAt": 640
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Serbian mythology",
+      "iso": "RS",
+      "label": "Serbian mythology",
+      "discoveredFrom": "Psoglav",
+      "discoveredAt": 641
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Finnish Sámi shamans",
+      "iso": "FI",
+      "label": "Finnish Sámi shamans",
+      "discoveredFrom": "Aikia Aikianpoika",
+      "discoveredAt": 641
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Finnish people executed for witchcraft",
+      "iso": "FI",
+      "label": "Finnish people executed for witchcraft",
+      "discoveredFrom": "Aikia Aikianpoika",
+      "discoveredAt": 641
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Norwegian Sámi shamans",
+      "iso": "NO",
+      "label": "Norwegian Sámi shamans",
+      "discoveredFrom": "Quiwe Baarsen",
+      "discoveredAt": 641
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Swedish Sámi shamans",
+      "iso": "SE",
+      "label": "Swedish Sámi shamans",
+      "discoveredFrom": "Anders Paulsen",
+      "discoveredAt": 641
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Witch trials in Norway",
+      "iso": "NO",
+      "label": "Witch trials in Norway",
+      "discoveredFrom": "Anders Paulsen",
+      "discoveredAt": 641
     }
   ],
-  "totalAdded": 3787,
-  "runs": 641,
-  "lastRun": "2026-08-04T19:18:57.303Z",
-  "lastDiscoveredIndex": 678
+  "totalAdded": 3794,
+  "runs": 642,
+  "lastRun": "2026-08-05T01:45:47.555Z",
+  "lastDiscoveredIndex": 681
 }
