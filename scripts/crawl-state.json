@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 43,
+  "lastCategoryIndex": 46,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6653,7 +6653,25 @@
     63434346,
     9426892,
     9240814,
-    73113481
+    73113481,
+    5847793,
+    860317,
+    7021004,
+    80448106,
+    61748191,
+    70853588,
+    80726482,
+    25640505,
+    6339128,
+    74133371,
+    77749007,
+    5957314,
+    7115617,
+    77476789,
+    5766244,
+    28366363,
+    5524466,
+    5552278
   ],
   "discoveredCategories": [
     {
@@ -23103,10 +23121,26 @@
       "label": "Witch trials in Norway",
       "discoveredFrom": "Anders Paulsen",
       "discoveredAt": 641
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Tunisian fairy tales",
+      "iso": "TN",
+      "label": "Tunisian fairy tales",
+      "discoveredFrom": "The Donkey's Head",
+      "discoveredAt": 643
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales about animals",
+      "iso": "_MULTI",
+      "label": "Fairy tales about animals",
+      "discoveredFrom": "The Heart of a Monkey",
+      "discoveredAt": 643
     }
   ],
-  "totalAdded": 3809,
-  "runs": 643,
-  "lastRun": "2026-08-05T08:19:55.838Z",
-  "lastDiscoveredIndex": 684
+  "totalAdded": 3815,
+  "runs": 644,
+  "lastRun": "2026-08-05T13:47:38.380Z",
+  "lastDiscoveredIndex": 687
 }
