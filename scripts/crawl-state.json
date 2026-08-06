@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 49,
+  "lastCategoryIndex": 52,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6696,7 +6696,35 @@
     50429399,
     405827,
     42530390,
-    2448259
+    2448259,
+    44362010,
+    5264047,
+    19275122,
+    27458040,
+    1234600,
+    8980484,
+    1016446,
+    4517460,
+    84791,
+    404509,
+    601316,
+    32752334,
+    53700079,
+    6894110,
+    3413436,
+    15026262,
+    17725388,
+    41633021,
+    254922,
+    11151335,
+    1444176,
+    5544467,
+    4739561,
+    157174,
+    258884,
+    29019482,
+    6040500,
+    19968953
   ],
   "discoveredCategories": [
     {
@@ -23226,10 +23254,42 @@
       "label": "West Sussex folklore",
       "discoveredFrom": "King Cnut and the tide",
       "discoveredAt": 644
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Television series based on American folklore",
+      "iso": "US",
+      "label": "Television series based on American folklore",
+      "discoveredFrom": "Tall Tales & Legends",
+      "discoveredAt": 645
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Works based on The Legend of Sleepy Hollow",
+      "iso": "_MULTI",
+      "label": "Works based on The Legend of Sleepy Hollow",
+      "discoveredFrom": "Chopper (comics)",
+      "discoveredAt": 645
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Germanic heroic legends",
+      "iso": "DE",
+      "label": "Germanic heroic legends",
+      "discoveredFrom": "Wayland the Smith",
+      "discoveredAt": 645
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Hertfordshire folklore",
+      "iso": "_MULTI",
+      "label": "Hertfordshire folklore",
+      "discoveredFrom": "Jack o' Legs",
+      "discoveredAt": 645
     }
   ],
-  "totalAdded": 3828,
-  "runs": 645,
-  "lastRun": "2026-08-05T19:16:12.687Z",
-  "lastDiscoveredIndex": 690
+  "totalAdded": 3838,
+  "runs": 646,
+  "lastRun": "2026-08-06T01:45:35.210Z",
+  "lastDiscoveredIndex": 693
 }
