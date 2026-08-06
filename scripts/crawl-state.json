@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 55,
+  "lastCategoryIndex": 58,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6749,7 +6749,30 @@
     71890019,
     8680984,
     82049930,
-    5147713
+    5147713,
+    47757628,
+    6466287,
+    74682532,
+    10924029,
+    1155086,
+    308785,
+    27150206,
+    1029128,
+    585657,
+    84896,
+    5860981,
+    73366520,
+    6520008,
+    4579070,
+    6423910,
+    10940753,
+    74277047,
+    68810347,
+    10941031,
+    67515094,
+    33314889,
+    3681524,
+    10951156
   ],
   "discoveredCategories": [
     {
@@ -23343,10 +23366,26 @@
       "label": "Shamanistic festivals",
       "discoveredFrom": "Gavari",
       "discoveredAt": 646
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Literature based on Grimms' Fairy Tales",
+      "iso": "_MULTI",
+      "label": "Literature based on Grimms' Fairy Tales",
+      "discoveredFrom": "Iron John: A Book About Men",
+      "discoveredAt": 647
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Scottish people",
+      "iso": "SCT",
+      "label": "Legendary Scottish people",
+      "discoveredFrom": "Lailoken",
+      "discoveredAt": 647
     }
   ],
-  "totalAdded": 3853,
-  "runs": 647,
-  "lastRun": "2026-08-06T08:16:47.991Z",
-  "lastDiscoveredIndex": 696
+  "totalAdded": 3868,
+  "runs": 648,
+  "lastRun": "2026-08-06T13:43:18.933Z",
+  "lastDiscoveredIndex": 699
 }
