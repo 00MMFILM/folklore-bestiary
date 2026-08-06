@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 58,
+  "lastCategoryIndex": 61,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6772,7 +6772,45 @@
     67515094,
     33314889,
     3681524,
-    10951156
+    10951156,
+    68147929,
+    42654321,
+    449924,
+    5223214,
+    71628917,
+    50780087,
+    2956441,
+    5989282,
+    5224746,
+    5911885,
+    498669,
+    43420240,
+    5334599,
+    3016063,
+    43480173,
+    41337237,
+    5328890,
+    80169563,
+    77284388,
+    5607044,
+    6815369,
+    6172071,
+    6069301,
+    8474229,
+    5148113,
+    9425764,
+    71524135,
+    70818106,
+    1025576,
+    38494341,
+    38468539,
+    38322353,
+    18618575,
+    2323399,
+    38404437,
+    38458720,
+    14423014,
+    7731288
   ],
   "discoveredCategories": [
     {
@@ -23382,10 +23420,26 @@
       "label": "Legendary Scottish people",
       "discoveredFrom": "Lailoken",
       "discoveredAt": 647
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fungi found in fairy rings",
+      "iso": "_MULTI",
+      "label": "Fungi found in fairy rings",
+      "discoveredFrom": "Fairy ring",
+      "discoveredAt": 648
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fungi in folklore",
+      "iso": "_MULTI",
+      "label": "Fungi in folklore",
+      "discoveredFrom": "Fairy ring",
+      "discoveredAt": 648
     }
   ],
-  "totalAdded": 3868,
-  "runs": 648,
-  "lastRun": "2026-08-06T13:43:18.933Z",
-  "lastDiscoveredIndex": 699
+  "totalAdded": 3881,
+  "runs": 649,
+  "lastRun": "2026-08-06T23:50:42.821Z",
+  "lastDiscoveredIndex": 702
 }
