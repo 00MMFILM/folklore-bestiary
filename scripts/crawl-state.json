@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 52,
+  "lastCategoryIndex": 55,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6724,7 +6724,32 @@
     258884,
     29019482,
     6040500,
-    19968953
+    19968953,
+    37775,
+    995728,
+    71290,
+    81790155,
+    1532953,
+    28159341,
+    80136733,
+    286882,
+    63595277,
+    143817,
+    2012721,
+    99750,
+    54632646,
+    434140,
+    93104,
+    17379,
+    6002763,
+    34945713,
+    95278,
+    77594065,
+    5123174,
+    71890019,
+    8680984,
+    82049930,
+    5147713
   ],
   "discoveredCategories": [
     {
@@ -23286,10 +23311,42 @@
       "label": "Hertfordshire folklore",
       "discoveredFrom": "Jack o' Legs",
       "discoveredAt": 645
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sussex folklore",
+      "iso": "_MULTI",
+      "label": "Sussex folklore",
+      "discoveredFrom": "Knucker",
+      "discoveredAt": 646
+    },
+    {
+      "lang": "en",
+      "cat": "Category:British legendary characters",
+      "iso": "GB",
+      "label": "British legendary characters",
+      "discoveredFrom": "The Mermaids of Staithes",
+      "discoveredAt": 646
+    },
+    {
+      "lang": "en",
+      "cat": "Category:British mythology",
+      "iso": "GB",
+      "label": "British mythology",
+      "discoveredFrom": "The Mermaids of Staithes",
+      "discoveredAt": 646
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Shamanistic festivals",
+      "iso": "_MULTI",
+      "label": "Shamanistic festivals",
+      "discoveredFrom": "Gavari",
+      "discoveredAt": 646
     }
   ],
-  "totalAdded": 3838,
-  "runs": 646,
-  "lastRun": "2026-08-06T01:45:35.210Z",
-  "lastDiscoveredIndex": 693
+  "totalAdded": 3853,
+  "runs": 647,
+  "lastRun": "2026-08-06T08:16:47.991Z",
+  "lastDiscoveredIndex": 696
 }
