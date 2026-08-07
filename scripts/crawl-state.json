@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 70,
+  "lastCategoryIndex": 73,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6864,7 +6864,19 @@
     1144084,
     5218956,
     6848718,
-    5341120
+    5341120,
+    5427634,
+    1546032,
+    181076,
+    454456,
+    1222669,
+    83879,
+    44083714,
+    62560444,
+    14598636,
+    8862114,
+    62867034,
+    62867337
   ],
   "discoveredCategories": [
     {
@@ -23514,10 +23526,34 @@
       "label": "East Asian folklore",
       "discoveredFrom": "The Son of a Horse",
       "discoveredAt": 649
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Armenian people",
+      "iso": "AM",
+      "label": "Legendary Armenian people",
+      "discoveredFrom": "Saint Blaise",
+      "discoveredAt": 652
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore people",
+      "iso": "_MULTI",
+      "label": "Folklore people",
+      "discoveredFrom": "El buner d'Ordino",
+      "discoveredAt": 652
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Franciscan spirituality",
+      "iso": "_MULTI",
+      "label": "Franciscan spirituality",
+      "discoveredFrom": "Wolf of Gubbio",
+      "discoveredAt": 652
     }
   ],
-  "totalAdded": 3919,
-  "runs": 652,
-  "lastRun": "2026-08-07T12:41:34.185Z",
-  "lastDiscoveredIndex": 711
+  "totalAdded": 3924,
+  "runs": 653,
+  "lastRun": "2026-08-07T18:41:01.210Z",
+  "lastDiscoveredIndex": 714
 }
