@@ -1209,5 +1209,13 @@
   "gb-simonside-dwarfs": "/creatures/europe/simonside-dwarfs.webp",
   "gb-wayland-the-smith": "/creatures/europe/wayland-the-smith.webp",
   "it-axis-mundi": "/creatures/europe/axis-mundi.webp",
-  "us-american-frontier": "/creatures/americas/american-frontier.webp"
+  "us-american-frontier": "/creatures/americas/american-frontier.webp",
+  "it-lailoken": "/creatures/europe/lailoken.webp",
+  "sa-palis-mythology": "/creatures/south-asia/palis-mythology.webp",
+  "gb-beowulf-hero": "/creatures/europe/beowulf-hero.webp",
+  "gr-acte-mythology": "/creatures/europe/acte-mythology.webp",
+  "cl-nusta-huillac": "/creatures/americas/nusta-huillac.webp",
+  "cl-la-quintrala": "/creatures/americas/la-quintrala.webp",
+  "in-the-story-of-halahala-kumar": "/creatures/south-asia/the-story-of-halahala-kumar.webp",
+  "in-the-story-of-hira-and-lal": "/creatures/south-asia/the-story-of-hira-and-lal.webp"
 }
