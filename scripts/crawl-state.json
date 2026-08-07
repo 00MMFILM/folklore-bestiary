@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 61,
+  "lastCategoryIndex": 64,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6810,7 +6810,30 @@
     38404437,
     38458720,
     14423014,
-    7731288
+    7731288,
+    3085855,
+    24190823,
+    9881680,
+    50612141,
+    43209369,
+    15234879,
+    78055884,
+    6374022,
+    78039703,
+    54289075,
+    64493687,
+    48385994,
+    71616750,
+    6546415,
+    70820873,
+    5486156,
+    5523249,
+    64454380,
+    17918789,
+    64379851,
+    6758077,
+    10191369,
+    5970229
   ],
   "discoveredCategories": [
     {
@@ -23436,10 +23459,34 @@
       "label": "Fungi in folklore",
       "discoveredFrom": "Fairy ring",
       "discoveredAt": 648
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Arab people",
+      "iso": "SA",
+      "label": "Legendary Arab people",
+      "discoveredFrom": "Zarqa al Yamama",
+      "discoveredAt": 649
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fiction about God",
+      "iso": "_MULTI",
+      "label": "Fiction about God",
+      "discoveredFrom": "Gambling Hansel",
+      "discoveredAt": 649
+    },
+    {
+      "lang": "en",
+      "cat": "Category:East Asian folklore",
+      "iso": "_MULTI",
+      "label": "East Asian folklore",
+      "discoveredFrom": "The Son of a Horse",
+      "discoveredAt": 649
     }
   ],
-  "totalAdded": 3881,
-  "runs": 649,
-  "lastRun": "2026-08-06T23:50:42.821Z",
-  "lastDiscoveredIndex": 702
+  "totalAdded": 3896,
+  "runs": 650,
+  "lastRun": "2026-08-07T02:10:13.962Z",
+  "lastDiscoveredIndex": 705
 }
