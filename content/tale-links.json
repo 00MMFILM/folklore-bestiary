@@ -165,6 +165,18 @@
    "n": "Lamashtu"
   }
  ],
+ "iq-ullikummi": [
+  {
+   "id": "iq-upelluri",
+   "n": "Upelluri"
+  }
+ ],
+ "iq-upelluri": [
+  {
+   "id": "iq-ullikummi",
+   "n": "Ullikummi"
+  }
+ ],
  "ir-aeshma": [
   {
    "id": "ir-mithra",

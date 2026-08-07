@@ -1,0 +1,120 @@
+{"ts":"2026-08-06T06:26:39.707Z","action":"delete","id":"cn-miscellaneous-morsels-from-youyang","name":"유양잡조","iso":"CN","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"delete","id":"gb-arthurian-literature-book-series","name":"Arthurian Literature (book series)","iso":"GB","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"delete","id":"ca-bluenose-ghosts","name":"Bluenose Ghosts","iso":"CA","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"delete","id":"jm-jamaica-anansi-stories","name":"Jamaica Anansi Stories","iso":"JM","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"delete","id":"py-ayvu-rapyta","name":"Ayvu Rapyta","iso":"PY","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"delete","id":"kr-kiringul","name":"기린굴","iso":"KR","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"delete","id":"in-ayodhya-ramayana","name":"아요디아 (라마야나)","iso":"IN","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"delete","id":"gr-mount-zas","name":"Mount Zas","iso":"GR","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"delete","id":"lt-sventaragis-valley","name":"Šventaragis Valley","iso":"LT","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"delete","id":"no-jarnvi-r","name":"Járnviðr","iso":"NO","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"delete","id":"ru-blockula","name":"Blockula","iso":"RU","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"delete","id":"si-heathen-maiden","name":"Heathen Maiden","iso":"SI","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"delete","id":"jp-devil-s-sword-dance","name":"Devil's sword dance","iso":"JP","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"delete","id":"jp-inau","name":"이나우","iso":"JP","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"delete","id":"cn-chinese-spirit-possession","name":"Chinese spirit possession","iso":"CN","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"delete","id":"in-durga-puja-in-west-bengal","name":"Durga Puja in West Bengal","iso":"IN","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"delete","id":"in-devakkoothu","name":"Devakkoothu","iso":"IN","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"delete","id":"ru-wawel-chakra","name":"Wawel Chakra","iso":"RU","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"delete","id":"ng-ofinran","name":"Ofinran","iso":"NG","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"delete","id":"in-sakanoue-no-tamuramaro","name":"Sakanoue no Tamuramaro","iso":"IN","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"delete","id":"ie-bullaun","name":"Bullaun","iso":"IE","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"delete","id":"gr-baetyl","name":"Baetyl","iso":"GR","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"delete","id":"ru-alatyr-mythology","name":"Alatyr (mythology)","iso":"RU","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"delete","id":"il-qippoz","name":"Qippoz","iso":"IL","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"delete","id":"gb-lake-monster","name":"Lake monster","iso":"GB","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"move","id":"us-afanc","newId":"wls-afanc","name":"Afanc","from":"US","to":"WLS"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"move","id":"us-apu-god","newId":"pe-apu-god","name":"Apu (god)","from":"US","to":"PE"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"move","id":"nz-abraxas","newId":"eg-abraxas","name":"Abraxas","from":"NZ","to":"EG"}
+{"ts":"2026-08-06T06:26:39.708Z","action":"move","id":"ie-fenodyree","newId":"gb-fenodyree","name":"Fenodyree","from":"IE","to":"GB"}
+{"ts":"2026-08-06T06:26:39.709Z","action":"move","id":"ie-bedivere","newId":"gb-bedivere","name":"Bedivere","from":"IE","to":"GB"}
+{"ts":"2026-08-06T06:26:39.709Z","action":"move","id":"in-thanh-giong","newId":"vn-thanh-giong","name":"Thánh Gióng","from":"IN","to":"VN"}
+{"ts":"2026-08-06T06:26:39.709Z","action":"merge-drop","id":"in-brahma","name":"Brahma","iso":"IN","kept":"in-brahma-buddhism"}
+{"ts":"2026-08-06T06:26:39.710Z","action":"image-delete","slug":"jamaica-anansi-stories","file":"/creatures/americas/jamaica-anansi-stories.webp","path":"public/creatures/americas/jamaica-anansi-stories.webp"}
+{"ts":"2026-08-06T06:26:39.710Z","action":"image-delete","slug":"jarnvi-r","file":"/creatures/europe/jarnvi-r.webp","path":"public/creatures/europe/jarnvi-r.webp"}
+{"ts":"2026-08-06T06:26:39.710Z","action":"image-delete","slug":"heathen-maiden","file":"/creatures/europe/heathen-maiden.webp","path":"public/creatures/europe/heathen-maiden.webp"}
+{"ts":"2026-08-06T06:26:39.710Z","action":"image-delete","slug":"chinese-spirit-possession","file":"/creatures/east-asia/chinese-spirit-possession.webp","path":"public/creatures/east-asia/chinese-spirit-possession.webp"}
+{"ts":"2026-08-06T06:26:39.710Z","action":"image-delete","slug":"ofinran","file":"/creatures/africa/ofinran.webp","path":"public/creatures/africa/ofinran.webp"}
+{"ts":"2026-08-06T06:26:39.710Z","action":"image-delete","slug":"qippoz","file":"/creatures/south-asia/qippoz.webp","path":"public/creatures/south-asia/qippoz.webp"}
+{"ts":"2026-08-06T06:26:39.710Z","action":"image-delete","slug":"lake-monster","file":"/creatures/europe/lake-monster.webp","path":"public/creatures/europe/lake-monster.webp"}
+{"ts":"2026-08-06T06:26:39.826Z","action":"article-delete","id":"kr-kiringul"}
+{"ts":"2026-08-07T06:55:59.367Z","action":"delete","id":"cn-miscellaneous-morsels-from-youyang","name":"유양잡조","iso":"CN","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T06:55:59.368Z","action":"delete","id":"gb-arthurian-literature-book-series","name":"Arthurian Literature (book series)","iso":"GB","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T06:55:59.368Z","action":"delete","id":"ca-bluenose-ghosts","name":"Bluenose Ghosts","iso":"CA","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T06:55:59.368Z","action":"delete","id":"jm-jamaica-anansi-stories","name":"Jamaica Anansi Stories","iso":"JM","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T06:55:59.368Z","action":"delete","id":"py-ayvu-rapyta","name":"Ayvu Rapyta","iso":"PY","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T06:55:59.368Z","action":"delete","id":"kr-kiringul","name":"기린굴","iso":"KR","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T06:55:59.368Z","action":"delete","id":"in-ayodhya-ramayana","name":"아요디아 (라마야나)","iso":"IN","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T06:55:59.368Z","action":"delete","id":"gr-mount-zas","name":"Mount Zas","iso":"GR","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T06:55:59.368Z","action":"delete","id":"lt-sventaragis-valley","name":"Šventaragis Valley","iso":"LT","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T06:55:59.368Z","action":"delete","id":"no-jarnvi-r","name":"Járnviðr","iso":"NO","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T06:55:59.368Z","action":"delete","id":"ru-blockula","name":"Blockula","iso":"RU","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T06:55:59.368Z","action":"delete","id":"si-heathen-maiden","name":"Heathen Maiden","iso":"SI","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T06:55:59.368Z","action":"delete","id":"jp-devil-s-sword-dance","name":"Devil's sword dance","iso":"JP","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T06:55:59.368Z","action":"delete","id":"jp-inau","name":"이나우","iso":"JP","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T06:55:59.368Z","action":"delete","id":"cn-chinese-spirit-possession","name":"Chinese spirit possession","iso":"CN","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T06:55:59.368Z","action":"delete","id":"in-durga-puja-in-west-bengal","name":"Durga Puja in West Bengal","iso":"IN","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T06:55:59.368Z","action":"delete","id":"in-devakkoothu","name":"Devakkoothu","iso":"IN","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T06:55:59.368Z","action":"delete","id":"ru-wawel-chakra","name":"Wawel Chakra","iso":"RU","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T06:55:59.368Z","action":"delete","id":"ng-ofinran","name":"Ofinran","iso":"NG","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T06:55:59.368Z","action":"delete","id":"in-sakanoue-no-tamuramaro","name":"Sakanoue no Tamuramaro","iso":"IN","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T06:55:59.368Z","action":"delete","id":"ie-bullaun","name":"Bullaun","iso":"IE","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T06:55:59.368Z","action":"delete","id":"gr-baetyl","name":"Baetyl","iso":"GR","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T06:55:59.368Z","action":"delete","id":"ru-alatyr-mythology","name":"Alatyr (mythology)","iso":"RU","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T06:55:59.368Z","action":"delete","id":"il-qippoz","name":"Qippoz","iso":"IL","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T06:55:59.368Z","action":"delete","id":"gb-lake-monster","name":"Lake monster","iso":"GB","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T06:55:59.370Z","action":"move","id":"us-afanc","newId":"wls-afanc","name":"Afanc","from":"US","to":"WLS"}
+{"ts":"2026-08-07T06:55:59.370Z","action":"move","id":"us-apu-god","newId":"pe-apu-god","name":"Apu (god)","from":"US","to":"PE"}
+{"ts":"2026-08-07T06:55:59.370Z","action":"move","id":"nz-abraxas","newId":"eg-abraxas","name":"Abraxas","from":"NZ","to":"EG"}
+{"ts":"2026-08-07T06:55:59.370Z","action":"move","id":"ie-fenodyree","newId":"gb-fenodyree","name":"Fenodyree","from":"IE","to":"GB"}
+{"ts":"2026-08-07T06:55:59.371Z","action":"move","id":"ie-bedivere","newId":"gb-bedivere","name":"Bedivere","from":"IE","to":"GB"}
+{"ts":"2026-08-07T06:55:59.371Z","action":"move","id":"in-thanh-giong","newId":"vn-thanh-giong","name":"Thánh Gióng","from":"IN","to":"VN"}
+{"ts":"2026-08-07T06:55:59.371Z","action":"merge-drop","id":"in-brahma","name":"Brahma","iso":"IN","kept":"in-brahma-buddhism"}
+{"ts":"2026-08-07T06:55:59.372Z","action":"image-delete","slug":"jamaica-anansi-stories","file":"/creatures/americas/jamaica-anansi-stories.webp","path":"public/creatures/americas/jamaica-anansi-stories.webp"}
+{"ts":"2026-08-07T06:55:59.372Z","action":"image-delete","slug":"jarnvi-r","file":"/creatures/europe/jarnvi-r.webp","path":"public/creatures/europe/jarnvi-r.webp"}
+{"ts":"2026-08-07T06:55:59.372Z","action":"image-delete","slug":"heathen-maiden","file":"/creatures/europe/heathen-maiden.webp","path":"public/creatures/europe/heathen-maiden.webp"}
+{"ts":"2026-08-07T06:55:59.372Z","action":"image-delete","slug":"chinese-spirit-possession","file":"/creatures/east-asia/chinese-spirit-possession.webp","path":"public/creatures/east-asia/chinese-spirit-possession.webp"}
+{"ts":"2026-08-07T06:55:59.372Z","action":"image-delete","slug":"ofinran","file":"/creatures/africa/ofinran.webp","path":"public/creatures/africa/ofinran.webp"}
+{"ts":"2026-08-07T06:55:59.372Z","action":"image-delete","slug":"qippoz","file":"/creatures/south-asia/qippoz.webp","path":"public/creatures/south-asia/qippoz.webp"}
+{"ts":"2026-08-07T06:55:59.372Z","action":"image-delete","slug":"lake-monster","file":"/creatures/europe/lake-monster.webp","path":"public/creatures/europe/lake-monster.webp"}
+{"ts":"2026-08-07T06:55:59.463Z","action":"article-delete","id":"kr-kiringul"}
+{"ts":"2026-08-07T07:19:35.576Z","action":"delete","id":"cn-miscellaneous-morsels-from-youyang","name":"유양잡조","iso":"CN","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T07:19:35.577Z","action":"delete","id":"gb-arthurian-literature-book-series","name":"Arthurian Literature (book series)","iso":"GB","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T07:19:35.577Z","action":"delete","id":"ca-bluenose-ghosts","name":"Bluenose Ghosts","iso":"CA","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T07:19:35.577Z","action":"delete","id":"jm-jamaica-anansi-stories","name":"Jamaica Anansi Stories","iso":"JM","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T07:19:35.577Z","action":"delete","id":"py-ayvu-rapyta","name":"Ayvu Rapyta","iso":"PY","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T07:19:35.577Z","action":"delete","id":"kr-kiringul","name":"기린굴","iso":"KR","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T07:19:35.577Z","action":"delete","id":"in-ayodhya-ramayana","name":"아요디아 (라마야나)","iso":"IN","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T07:19:35.577Z","action":"delete","id":"gr-mount-zas","name":"Mount Zas","iso":"GR","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T07:19:35.577Z","action":"delete","id":"lt-sventaragis-valley","name":"Šventaragis Valley","iso":"LT","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T07:19:35.577Z","action":"delete","id":"no-jarnvi-r","name":"Járnviðr","iso":"NO","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T07:19:35.577Z","action":"delete","id":"ru-blockula","name":"Blockula","iso":"RU","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T07:19:35.577Z","action":"delete","id":"si-heathen-maiden","name":"Heathen Maiden","iso":"SI","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T07:19:35.577Z","action":"delete","id":"jp-devil-s-sword-dance","name":"Devil's sword dance","iso":"JP","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T07:19:35.577Z","action":"delete","id":"jp-inau","name":"이나우","iso":"JP","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T07:19:35.577Z","action":"delete","id":"cn-chinese-spirit-possession","name":"Chinese spirit possession","iso":"CN","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T07:19:35.577Z","action":"delete","id":"in-durga-puja-in-west-bengal","name":"Durga Puja in West Bengal","iso":"IN","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T07:19:35.577Z","action":"delete","id":"in-devakkoothu","name":"Devakkoothu","iso":"IN","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T07:19:35.577Z","action":"delete","id":"ru-wawel-chakra","name":"Wawel Chakra","iso":"RU","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T07:19:35.577Z","action":"delete","id":"ng-ofinran","name":"Ofinran","iso":"NG","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T07:19:35.577Z","action":"delete","id":"in-sakanoue-no-tamuramaro","name":"Sakanoue no Tamuramaro","iso":"IN","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T07:19:35.577Z","action":"delete","id":"ie-bullaun","name":"Bullaun","iso":"IE","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T07:19:35.577Z","action":"delete","id":"gr-baetyl","name":"Baetyl","iso":"GR","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T07:19:35.577Z","action":"delete","id":"ru-alatyr-mythology","name":"Alatyr (mythology)","iso":"RU","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T07:19:35.577Z","action":"delete","id":"il-qippoz","name":"Qippoz","iso":"IL","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T07:19:35.577Z","action":"delete","id":"gb-lake-monster","name":"Lake monster","iso":"GB","reason":"non-creature (승인 2026-08-06)"}
+{"ts":"2026-08-07T07:19:35.577Z","action":"move","id":"us-afanc","newId":"wls-afanc","name":"Afanc","from":"US","to":"WLS"}
+{"ts":"2026-08-07T07:19:35.577Z","action":"move","id":"us-apu-god","newId":"pe-apu-god","name":"Apu (god)","from":"US","to":"PE"}
+{"ts":"2026-08-07T07:19:35.577Z","action":"move","id":"nz-abraxas","newId":"eg-abraxas","name":"Abraxas","from":"NZ","to":"EG"}
+{"ts":"2026-08-07T07:19:35.578Z","action":"move","id":"ie-fenodyree","newId":"gb-fenodyree","name":"Fenodyree","from":"IE","to":"GB"}
+{"ts":"2026-08-07T07:19:35.578Z","action":"move","id":"ie-bedivere","newId":"gb-bedivere","name":"Bedivere","from":"IE","to":"GB"}
+{"ts":"2026-08-07T07:19:35.578Z","action":"move","id":"in-thanh-giong","newId":"vn-thanh-giong","name":"Thánh Gióng","from":"IN","to":"VN"}
+{"ts":"2026-08-07T07:19:35.578Z","action":"merge-drop","id":"in-brahma","name":"Brahma","iso":"IN","kept":"in-brahma-buddhism"}
+{"ts":"2026-08-07T07:19:35.579Z","action":"image-delete","slug":"jamaica-anansi-stories","file":"/creatures/americas/jamaica-anansi-stories.webp","path":"public/creatures/americas/jamaica-anansi-stories.webp"}
+{"ts":"2026-08-07T07:19:35.579Z","action":"image-delete","slug":"jarnvi-r","file":"/creatures/europe/jarnvi-r.webp","path":"public/creatures/europe/jarnvi-r.webp"}
+{"ts":"2026-08-07T07:19:35.579Z","action":"image-delete","slug":"heathen-maiden","file":"/creatures/europe/heathen-maiden.webp","path":"public/creatures/europe/heathen-maiden.webp"}
+{"ts":"2026-08-07T07:19:35.579Z","action":"image-delete","slug":"chinese-spirit-possession","file":"/creatures/east-asia/chinese-spirit-possession.webp","path":"public/creatures/east-asia/chinese-spirit-possession.webp"}
+{"ts":"2026-08-07T07:19:35.579Z","action":"image-delete","slug":"ofinran","file":"/creatures/africa/ofinran.webp","path":"public/creatures/africa/ofinran.webp"}
+{"ts":"2026-08-07T07:19:35.579Z","action":"image-delete","slug":"qippoz","file":"/creatures/south-asia/qippoz.webp","path":"public/creatures/south-asia/qippoz.webp"}
+{"ts":"2026-08-07T07:19:35.579Z","action":"image-delete","slug":"lake-monster","file":"/creatures/europe/lake-monster.webp","path":"public/creatures/europe/lake-monster.webp"}
+{"ts":"2026-08-07T07:19:35.669Z","action":"article-delete","id":"kr-kiringul"}
