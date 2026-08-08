@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 73,
+  "lastCategoryIndex": 76,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6876,7 +6876,28 @@
     14598636,
     8862114,
     62867034,
-    62867337
+    62867337,
+    41566939,
+    25153856,
+    31030978,
+    30158723,
+    75853976,
+    2782394,
+    4293761,
+    27097399,
+    25131083,
+    65658073,
+    66642216,
+    55684112,
+    2414599,
+    55684078,
+    60580289,
+    15514,
+    451627,
+    5070690,
+    1789439,
+    54663520,
+    16475521
   ],
   "discoveredCategories": [
     {
@@ -23550,10 +23571,18 @@
       "label": "Franciscan spirituality",
       "discoveredFrom": "Wolf of Gubbio",
       "discoveredAt": 652
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Music based on European myths and legends",
+      "iso": "_MULTI",
+      "label": "Music based on European myths and legends",
+      "discoveredFrom": "Koroghlu (opera)",
+      "discoveredAt": 653
     }
   ],
-  "totalAdded": 3924,
-  "runs": 653,
-  "lastRun": "2026-08-07T18:41:01.210Z",
-  "lastDiscoveredIndex": 714
+  "totalAdded": 3936,
+  "runs": 654,
+  "lastRun": "2026-08-08T00:57:29.987Z",
+  "lastDiscoveredIndex": 717
 }
