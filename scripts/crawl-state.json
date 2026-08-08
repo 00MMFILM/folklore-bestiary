@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 79,
+  "lastCategoryIndex": 82,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6918,7 +6918,32 @@
     286046,
     98383,
     19845,
-    82971
+    82971,
+    32718513,
+    38967565,
+    17869981,
+    62965165,
+    640852,
+    40831447,
+    5652866,
+    36747138,
+    27202246,
+    34209355,
+    26239557,
+    369971,
+    35884992,
+    13218292,
+    90200,
+    81096,
+    2855451,
+    78060556,
+    9065520,
+    8468562,
+    6998587,
+    5559343,
+    70575816,
+    27715653,
+    20568847
   ],
   "discoveredCategories": [
     {
@@ -23608,10 +23633,34 @@
       "label": "Haitian Vodou goddesses",
       "discoveredFrom": "Erzulie",
       "discoveredAt": 654
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Monkeys and apes in Chinese mythology",
+      "iso": "CN",
+      "label": "Monkeys and apes in Chinese mythology",
+      "discoveredFrom": "Xiao (mythology)",
+      "discoveredAt": 655
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Malagasy mythology",
+      "iso": "MG",
+      "label": "Malagasy mythology",
+      "discoveredFrom": "Andriamahilala",
+      "discoveredAt": 655
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Egyptian fairy tales",
+      "iso": "EG",
+      "label": "Egyptian fairy tales",
+      "discoveredFrom": "The Story of Arab-Zandiq",
+      "discoveredAt": 655
     }
   ],
-  "totalAdded": 3951,
-  "runs": 655,
-  "lastRun": "2026-08-08T06:35:59.372Z",
-  "lastDiscoveredIndex": 720
+  "totalAdded": 3966,
+  "runs": 656,
+  "lastRun": "2026-08-08T12:28:37.187Z",
+  "lastDiscoveredIndex": 723
 }
