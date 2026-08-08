@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 76,
+  "lastCategoryIndex": 79,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6897,7 +6897,28 @@
     5070690,
     1789439,
     54663520,
-    16475521
+    16475521,
+    91016,
+    29870468,
+    30874115,
+    28297497,
+    86149,
+    36688365,
+    3029917,
+    40693685,
+    40511129,
+    40492399,
+    57466812,
+    53584712,
+    40644081,
+    40616850,
+    40886482,
+    79539,
+    90756,
+    286046,
+    98383,
+    19845,
+    82971
   ],
   "discoveredCategories": [
     {
@@ -23579,10 +23600,18 @@
       "label": "Music based on European myths and legends",
       "discoveredFrom": "Koroghlu (opera)",
       "discoveredAt": 653
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Haitian Vodou goddesses",
+      "iso": "HT",
+      "label": "Haitian Vodou goddesses",
+      "discoveredFrom": "Erzulie",
+      "discoveredAt": 654
     }
   ],
-  "totalAdded": 3936,
-  "runs": 654,
-  "lastRun": "2026-08-08T00:57:29.987Z",
-  "lastDiscoveredIndex": 717
+  "totalAdded": 3951,
+  "runs": 655,
+  "lastRun": "2026-08-08T06:35:59.372Z",
+  "lastDiscoveredIndex": 720
 }
