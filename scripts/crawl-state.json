@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 82,
+  "lastCategoryIndex": 85,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6943,7 +6943,32 @@
     5559343,
     70575816,
     27715653,
-    20568847
+    20568847,
+    28285442,
+    18376224,
+    62142348,
+    47865361,
+    62398020,
+    3475220,
+    3475444,
+    62421650,
+    67205403,
+    28374690,
+    11074214,
+    82310551,
+    59855930,
+    11074412,
+    8501495,
+    80769479,
+    82958810,
+    80800337,
+    82604922,
+    47312834,
+    41229001,
+    10265459,
+    48405360,
+    46994442,
+    81138125
   ],
   "discoveredCategories": [
     {
@@ -23657,10 +23682,18 @@
       "label": "Egyptian fairy tales",
       "discoveredFrom": "The Story of Arab-Zandiq",
       "discoveredAt": 655
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fairy tales",
+      "iso": "_MULTI",
+      "label": "Fairy tales",
+      "discoveredFrom": "Origin of the Snow White tale",
+      "discoveredAt": 656
     }
   ],
-  "totalAdded": 3966,
-  "runs": 656,
-  "lastRun": "2026-08-08T12:28:37.187Z",
-  "lastDiscoveredIndex": 723
+  "totalAdded": 3975,
+  "runs": 657,
+  "lastRun": "2026-08-08T18:23:17.694Z",
+  "lastDiscoveredIndex": 726
 }
