@@ -1219,5 +1219,14 @@
   "tr-mhachkay": "/creatures/south-asia/mhachkay.webp",
   "tr-muu-shuvuu": "/creatures/south-asia/muu-shuvuu.webp",
   "sa-dandan": "/creatures/south-asia/dandan.webp",
-  "sa-shadhavar": "/creatures/south-asia/shadhavar.webp"
+  "sa-shadhavar": "/creatures/south-asia/shadhavar.webp",
+  "tr-itbarak": "/creatures/south-asia/itbarak.webp",
+  "il-fiery-flying-serpent": "/creatures/south-asia/fiery-flying-serpent.webp",
+  "il-leviathan": "/creatures/south-asia/leviathan.webp",
+  "il-samael": "/creatures/south-asia/samael.webp",
+  "il-yaldabaoth": "/creatures/south-asia/yaldabaoth.webp",
+  "il-chalkydri": "/creatures/south-asia/chalkydri.webp",
+  "eg-ichneumon-medieval-zoology": "/creatures/africa/ichneumon-medieval-zoology.webp",
+  "eg-ouroboros": "/creatures/africa/ouroboros.webp",
+  "gb-bisterne-dragon": "/creatures/europe/bisterne-dragon.webp"
 }
