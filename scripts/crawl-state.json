@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 88,
+  "lastCategoryIndex": 91,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6998,7 +6998,32 @@
     98271,
     90300,
     86538,
-    52560572
+    52560572,
+    48813524,
+    36366168,
+    96388,
+    99357,
+    97050,
+    692992,
+    28099093,
+    54641828,
+    70503076,
+    69941316,
+    70338655,
+    4076795,
+    39753395,
+    70338233,
+    19736057,
+    73817387,
+    11129434,
+    6074442,
+    1626438,
+    3438178,
+    45198846,
+    45198847,
+    78881716,
+    904391,
+    26684204
   ],
   "discoveredCategories": [
     {
@@ -23736,10 +23761,58 @@
       "label": "Fish goddesses",
       "discoveredFrom": "Hatmehit",
       "discoveredAt": 657
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Yoruba goddesses",
+      "iso": "NG",
+      "label": "Yoruba goddesses",
+      "discoveredFrom": "Ọya",
+      "discoveredAt": 658
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fujian folklore",
+      "iso": "_MULTI",
+      "label": "Fujian folklore",
+      "discoveredFrom": "Chen Jinggu",
+      "discoveredAt": 658
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Women in Chinese mythology",
+      "iso": "CN",
+      "label": "Women in Chinese mythology",
+      "discoveredFrom": "Chen Jinggu",
+      "discoveredAt": 658
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Cultural depictions of Arthurian legend",
+      "iso": "GB",
+      "label": "Cultural depictions of Arthurian legend",
+      "discoveredFrom": "List of works based on Arthurian legends",
+      "discoveredAt": 658
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Games based on Arthurian legend",
+      "iso": "GB",
+      "label": "Games based on Arthurian legend",
+      "discoveredFrom": "List of works based on Arthurian legends",
+      "discoveredAt": 658
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Works based on Arthurian legend",
+      "iso": "GB",
+      "label": "Works based on Arthurian legend",
+      "discoveredFrom": "List of works based on Arthurian legends",
+      "discoveredAt": 658
     }
   ],
-  "totalAdded": 3986,
-  "runs": 658,
-  "lastRun": "2026-08-09T01:00:43.796Z",
-  "lastDiscoveredIndex": 729
+  "totalAdded": 3999,
+  "runs": 659,
+  "lastRun": "2026-08-09T06:39:09.060Z",
+  "lastDiscoveredIndex": 732
 }
