@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 85,
+  "lastCategoryIndex": 88,
   "processedPageIds": [
     27551093,
     40572945,
@@ -6968,7 +6968,37 @@
     10265459,
     48405360,
     46994442,
-    81138125
+    81138125,
+    25393830,
+    29745307,
+    5697856,
+    6731856,
+    67696624,
+    74474043,
+    1448403,
+    1272047,
+    68314752,
+    8884221,
+    83408861,
+    11732513,
+    52950937,
+    83437327,
+    11035275,
+    13050107,
+    60340260,
+    27155869,
+    460528,
+    80482150,
+    85911,
+    90506,
+    85979,
+    97393,
+    2002292,
+    71264195,
+    98271,
+    90300,
+    86538,
+    52560572
   ],
   "discoveredCategories": [
     {
@@ -23690,10 +23720,26 @@
       "label": "Fairy tales",
       "discoveredFrom": "Origin of the Snow White tale",
       "discoveredAt": 656
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Pagodas in China",
+      "iso": "CN",
+      "label": "Pagodas in China",
+      "discoveredFrom": "Bao'en Temple (Pingwu)",
+      "discoveredAt": 657
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fish goddesses",
+      "iso": "_MULTI",
+      "label": "Fish goddesses",
+      "discoveredFrom": "Hatmehit",
+      "discoveredAt": 657
     }
   ],
-  "totalAdded": 3975,
-  "runs": 657,
-  "lastRun": "2026-08-08T18:23:17.694Z",
-  "lastDiscoveredIndex": 726
+  "totalAdded": 3986,
+  "runs": 658,
+  "lastRun": "2026-08-09T01:00:43.796Z",
+  "lastDiscoveredIndex": 729
 }
