@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 94,
+  "lastCategoryIndex": 97,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7049,7 +7049,38 @@
     9567122,
     5359852,
     69961743,
-    2916204
+    2916204,
+    74576913,
+    53169512,
+    1603538,
+    34850157,
+    757501,
+    47555329,
+    7999520,
+    9862578,
+    5000415,
+    7515117,
+    8060141,
+    7795643,
+    750970,
+    9406328,
+    35044671,
+    5959306,
+    21650967,
+    69383192,
+    22574519,
+    2601088,
+    13468674,
+    471315,
+    1806193,
+    15844861,
+    20582051,
+    1866361,
+    77481448,
+    38760557,
+    7973990,
+    54250216,
+    4159718
   ],
   "discoveredCategories": [
     {
@@ -23851,10 +23882,34 @@
       "label": "Legendary Japanese people",
       "discoveredFrom": "Hoichi the Earless",
       "discoveredAt": 659
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Objects in Hindu mythology",
+      "iso": "IN",
+      "label": "Objects in Hindu mythology",
+      "discoveredFrom": "Cintamani",
+      "discoveredAt": 660
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Theban mythology",
+      "iso": "_MULTI",
+      "label": "Theban mythology",
+      "discoveredFrom": "Teumessian fox",
+      "discoveredAt": 660
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Nintendo Switch games",
+      "iso": "_MULTI",
+      "label": "Nintendo Switch games",
+      "discoveredFrom": "Kitsune Tails",
+      "discoveredAt": 660
     }
   ],
-  "totalAdded": 4004,
-  "runs": 660,
-  "lastRun": "2026-08-09T12:30:27.281Z",
-  "lastDiscoveredIndex": 735
+  "totalAdded": 4019,
+  "runs": 661,
+  "lastRun": "2026-08-09T18:26:47.947Z",
+  "lastDiscoveredIndex": 738
 }
