@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 91,
+  "lastCategoryIndex": 94,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7023,7 +7023,33 @@
     45198847,
     78881716,
     904391,
-    26684204
+    26684204,
+    61757712,
+    516422,
+    37245786,
+    63696245,
+    4377498,
+    535878,
+    8064988,
+    432698,
+    2303431,
+    39473628,
+    5498988,
+    5634575,
+    1796280,
+    2704879,
+    3246179,
+    842292,
+    9566972,
+    70821822,
+    60093863,
+    640839,
+    50718046,
+    53708940,
+    9567122,
+    5359852,
+    69961743,
+    2916204
   ],
   "discoveredCategories": [
     {
@@ -23809,10 +23835,26 @@
       "label": "Works based on Arthurian legend",
       "discoveredFrom": "List of works based on Arthurian legends",
       "discoveredAt": 658
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Chinese people",
+      "iso": "CN",
+      "label": "Legendary Chinese people",
+      "discoveredFrom": "Princess Changping",
+      "discoveredAt": 659
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Japanese people",
+      "iso": "JP",
+      "label": "Legendary Japanese people",
+      "discoveredFrom": "Hoichi the Earless",
+      "discoveredAt": 659
     }
   ],
-  "totalAdded": 3999,
-  "runs": 659,
-  "lastRun": "2026-08-09T06:39:09.060Z",
-  "lastDiscoveredIndex": 732
+  "totalAdded": 4004,
+  "runs": 660,
+  "lastRun": "2026-08-09T12:30:27.281Z",
+  "lastDiscoveredIndex": 735
 }
