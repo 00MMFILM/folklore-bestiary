@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 97,
+  "lastCategoryIndex": 100,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7080,7 +7080,40 @@
     38760557,
     7973990,
     54250216,
-    4159718
+    4159718,
+    6968997,
+    66828601,
+    70986077,
+    56637249,
+    70964515,
+    16223705,
+    7019092,
+    5235818,
+    11043474,
+    5546554,
+    14691592,
+    1218170,
+    90313,
+    92556,
+    22163740,
+    1897033,
+    47809776,
+    355132,
+    2298706,
+    497436,
+    28090140,
+    337012,
+    2250585,
+    58559,
+    4979116,
+    9409363,
+    52808837,
+    9195886,
+    3240670,
+    38704890,
+    19419819,
+    616403,
+    65498492
   ],
   "discoveredCategories": [
     {
@@ -23906,10 +23939,34 @@
       "label": "Nintendo Switch games",
       "discoveredFrom": "Kitsune Tails",
       "discoveredAt": 660
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Vengeance gods",
+      "iso": "_MULTI",
+      "label": "Vengeance gods",
+      "discoveredFrom": "Maximón",
+      "discoveredAt": 661
+    },
+    {
+      "lang": "en",
+      "cat": "Category:National heroes of Guatemala",
+      "iso": "GT",
+      "label": "National heroes of Guatemala",
+      "discoveredFrom": "Tecun Uman",
+      "discoveredAt": 661
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Neoshamanism",
+      "iso": "_MULTI",
+      "label": "Neoshamanism",
+      "discoveredFrom": "Tonal (mythology)",
+      "discoveredAt": 661
     }
   ],
-  "totalAdded": 4019,
-  "runs": 661,
-  "lastRun": "2026-08-09T18:26:47.947Z",
-  "lastDiscoveredIndex": 738
+  "totalAdded": 4034,
+  "runs": 662,
+  "lastRun": "2026-08-10T01:02:50.195Z",
+  "lastDiscoveredIndex": 741
 }
