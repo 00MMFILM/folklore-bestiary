@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 100,
+  "lastCategoryIndex": 103,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7113,7 +7113,36 @@
     38704890,
     19419819,
     616403,
-    65498492
+    65498492,
+    18576,
+    3449528,
+    42345076,
+    61102175,
+    19162634,
+    71529327,
+    36886893,
+    9967170,
+    355242,
+    654413,
+    771284,
+    13376108,
+    252610,
+    269979,
+    3091929,
+    17928394,
+    452846,
+    78256816,
+    236002,
+    15106782,
+    55813298,
+    23494814,
+    70996544,
+    53088491,
+    67836897,
+    2303957,
+    31933321,
+    15565115,
+    27885734
   ],
   "discoveredCategories": [
     {
@@ -23963,10 +23992,58 @@
       "label": "Neoshamanism",
       "discoveredFrom": "Tonal (mythology)",
       "discoveredAt": 661
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mexican urban legends",
+      "iso": "MX",
+      "label": "Mexican urban legends",
+      "discoveredFrom": "Mapimí Silent Zone",
+      "discoveredAt": 662
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Japanese mythology in popular culture",
+      "iso": "JP",
+      "label": "Japanese mythology in popular culture",
+      "discoveredFrom": "Teen Wolf season 4",
+      "discoveredAt": 662
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Works about kappa (folklore)",
+      "iso": "_MULTI",
+      "label": "Works about kappa (folklore)",
+      "discoveredFrom": "Death Kappa",
+      "discoveredAt": 662
+    },
+    {
+      "lang": "en",
+      "cat": "Category:1960s monster movies",
+      "iso": "_MULTI",
+      "label": "1960s monster movies",
+      "discoveredFrom": "Gappa: The Triphibian Monster",
+      "discoveredAt": 662
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Giant monster films",
+      "iso": "_MULTI",
+      "label": "Giant monster films",
+      "discoveredFrom": "Gappa: The Triphibian Monster",
+      "discoveredAt": 662
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Video games about monsters",
+      "iso": "_MULTI",
+      "label": "Video games about monsters",
+      "discoveredFrom": "A Kappa's Trail",
+      "discoveredAt": 662
     }
   ],
-  "totalAdded": 4034,
-  "runs": 662,
-  "lastRun": "2026-08-10T01:02:50.195Z",
-  "lastDiscoveredIndex": 741
+  "totalAdded": 4044,
+  "runs": 663,
+  "lastRun": "2026-08-10T07:12:35.747Z",
+  "lastDiscoveredIndex": 744
 }
