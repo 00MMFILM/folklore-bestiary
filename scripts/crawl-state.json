@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 103,
+  "lastCategoryIndex": 106,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7142,7 +7142,27 @@
     2303957,
     31933321,
     15565115,
-    27885734
+    27885734,
+    693613,
+    346739,
+    29018440,
+    26271687,
+    31895210,
+    75773083,
+    2617516,
+    52114775,
+    80997969,
+    3474056,
+    7733867,
+    13297696,
+    2694536,
+    67880009,
+    100120,
+    6922077,
+    514937,
+    23007299,
+    27842042,
+    40763816
   ],
   "discoveredCategories": [
     {
@@ -24040,10 +24060,34 @@
       "label": "Video games about monsters",
       "discoveredFrom": "A Kappa's Trail",
       "discoveredAt": 662
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore writers",
+      "iso": "_MULTI",
+      "label": "Folklore writers",
+      "discoveredFrom": "Verna Aardema",
+      "discoveredAt": 663
+    },
+    {
+      "lang": "en",
+      "cat": "Category:African witchcraft",
+      "iso": "_MULTI",
+      "label": "African witchcraft",
+      "discoveredFrom": "Buda (folklore)",
+      "discoveredAt": 663
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mandé mythology",
+      "iso": "_MULTI",
+      "label": "Mandé mythology",
+      "discoveredFrom": "Enfant terrible (folklore)",
+      "discoveredAt": 663
     }
   ],
-  "totalAdded": 4044,
-  "runs": 663,
-  "lastRun": "2026-08-10T07:12:35.747Z",
-  "lastDiscoveredIndex": 744
+  "totalAdded": 4053,
+  "runs": 664,
+  "lastRun": "2026-08-10T12:46:45.804Z",
+  "lastDiscoveredIndex": 747
 }
