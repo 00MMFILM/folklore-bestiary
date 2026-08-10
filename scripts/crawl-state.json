@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 106,
+  "lastCategoryIndex": 109,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7162,7 +7162,24 @@
     514937,
     23007299,
     27842042,
-    40763816
+    40763816,
+    78757,
+    1540,
+    1544,
+    1567,
+    54259289,
+    19132602,
+    79152,
+    33373161,
+    81763,
+    6735994,
+    23858218,
+    28110845,
+    28939923,
+    100334,
+    7076155,
+    1813245,
+    1894996
   ],
   "discoveredCategories": [
     {
@@ -24084,10 +24101,50 @@
       "label": "Mandé mythology",
       "discoveredFrom": "Enfant terrible (folklore)",
       "discoveredAt": 663
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Katabasis in classical mythology",
+      "iso": "_MULTI",
+      "label": "Katabasis in classical mythology",
+      "discoveredFrom": "Aeneas",
+      "discoveredAt": 664
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Children of Nestor (mythology)",
+      "iso": "_MULTI",
+      "label": "Children of Nestor (mythology)",
+      "discoveredFrom": "Antilochus",
+      "discoveredAt": 664
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythology of Pylos",
+      "iso": "_MULTI",
+      "label": "Mythology of Pylos",
+      "discoveredFrom": "Antilochus",
+      "discoveredAt": 664
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Names of God in Hinduism",
+      "iso": "_MULTI",
+      "label": "Names of God in Hinduism",
+      "discoveredFrom": "Acintya",
+      "discoveredAt": 664
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological kidnapped people",
+      "iso": "_MULTI",
+      "label": "Mythological kidnapped people",
+      "discoveredFrom": "Aniruddha",
+      "discoveredAt": 664
     }
   ],
-  "totalAdded": 4053,
-  "runs": 664,
-  "lastRun": "2026-08-10T12:46:45.804Z",
-  "lastDiscoveredIndex": 747
+  "totalAdded": 4068,
+  "runs": 665,
+  "lastRun": "2026-08-10T18:45:53.053Z",
+  "lastDiscoveredIndex": 750
 }
