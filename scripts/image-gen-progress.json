@@ -1237,5 +1237,13 @@
   "ie-fomorians": "/creatures/europe/fomorians.webp",
   "ie-onchu": "/creatures/europe/onchu.webp",
   "ie-aed-god": "/creatures/europe/aed-god.webp",
-  "de-chaoskampf": "/creatures/europe/chaoskampf.webp"
+  "de-chaoskampf": "/creatures/europe/chaoskampf.webp",
+  "gr-agamemnon": "/creatures/europe/agamemnon.webp",
+  "gr-ajax-the-lesser": "/creatures/europe/ajax-the-lesser.webp",
+  "gr-amphiaraus": "/creatures/europe/amphiaraus.webp",
+  "gr-alcon-mythology": "/creatures/europe/alcon-mythology.webp",
+  "cn-dragon-turtle": "/creatures/east-asia/dragon-turtle.webp",
+  "no-huginn-and-muninn": "/creatures/europe/huginn-and-muninn.webp",
+  "no-hati-hroðvitnisson": "/creatures/europe/hati-hroðvitnisson.webp",
+  "no-gulon": "/creatures/europe/gulon.webp"
 }
