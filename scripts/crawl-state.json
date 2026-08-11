@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 115,
+  "lastCategoryIndex": 118,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7226,7 +7226,21 @@
     264521,
     986718,
     10631064,
-    9565932
+    9565932,
+    5523934,
+    17356267,
+    2082172,
+    68252927,
+    42123608,
+    73013468,
+    18889042,
+    73049271,
+    73083416,
+    21340742,
+    94129,
+    65982455,
+    93100,
+    51411782
   ],
   "discoveredCategories": [
     {
@@ -24276,10 +24290,26 @@
       "label": "Films based on classical mythology",
       "discoveredFrom": "Innocence (2013 film)",
       "discoveredAt": 666
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Witchcraft in Maryland",
+      "iso": "_MULTI",
+      "label": "Witchcraft in Maryland",
+      "discoveredFrom": "Michael Zittle Jr.",
+      "discoveredAt": 667
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ghost towns in Maryland",
+      "iso": "_MULTI",
+      "label": "Ghost towns in Maryland",
+      "discoveredFrom": "List of ghost towns in Maryland",
+      "discoveredAt": 667
     }
   ],
-  "totalAdded": 4096,
-  "runs": 667,
-  "lastRun": "2026-08-11T06:50:40.549Z",
-  "lastDiscoveredIndex": 756
+  "totalAdded": 4100,
+  "runs": 668,
+  "lastRun": "2026-08-11T12:42:42.946Z",
+  "lastDiscoveredIndex": 759
 }
