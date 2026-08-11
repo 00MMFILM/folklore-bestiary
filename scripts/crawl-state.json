@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 112,
+  "lastCategoryIndex": 115,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7196,7 +7196,37 @@
     9895482,
     71541820,
     70922319,
-    21634343
+    21634343,
+    439967,
+    2474,
+    25279290,
+    21604958,
+    22453413,
+    68954980,
+    3142629,
+    19358225,
+    25623959,
+    21605068,
+    79356,
+    72578414,
+    70984281,
+    77446,
+    21586,
+    10641961,
+    84520,
+    2489216,
+    82841,
+    2205660,
+    392192,
+    27888,
+    1525197,
+    34544176,
+    20469278,
+    40226212,
+    264521,
+    986718,
+    10631064,
+    9565932
   ],
   "discoveredCategories": [
     {
@@ -24166,10 +24196,90 @@
       "label": "Dawn gods",
       "discoveredFrom": "Dellingr",
       "discoveredAt": 665
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Triton (mythology)",
+      "iso": "_MULTI",
+      "label": "Triton (mythology)",
+      "discoveredFrom": "Calliste (mythology)",
+      "discoveredAt": 666
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Odyssean gods",
+      "iso": "_MULTI",
+      "label": "Odyssean gods",
+      "discoveredFrom": "Leucothea",
+      "discoveredAt": 666
+    },
+    {
+      "lang": "en",
+      "cat": "Category:The Heroes of Olympus",
+      "iso": "_MULTI",
+      "label": "The Heroes of Olympus",
+      "discoveredFrom": "The Demigod Diaries",
+      "discoveredAt": 666
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2000s demon films",
+      "iso": "_MULTI",
+      "label": "2000s demon films",
+      "discoveredFrom": "Drag Me to Hell",
+      "discoveredAt": 666
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2009 supernatural films",
+      "iso": "_MULTI",
+      "label": "2009 supernatural films",
+      "discoveredFrom": "Drag Me to Hell",
+      "discoveredAt": 666
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2009 supernatural horror films",
+      "iso": "_MULTI",
+      "label": "2009 supernatural horror films",
+      "discoveredFrom": "Drag Me to Hell",
+      "discoveredAt": 666
+    },
+    {
+      "lang": "en",
+      "cat": "Category:American ghost films",
+      "iso": "US",
+      "label": "American ghost films",
+      "discoveredFrom": "Drag Me to Hell",
+      "discoveredAt": 666
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Films about spirit possession",
+      "iso": "_MULTI",
+      "label": "Films about spirit possession",
+      "discoveredFrom": "Drag Me to Hell",
+      "discoveredAt": 666
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Films about witchcraft",
+      "iso": "_MULTI",
+      "label": "Films about witchcraft",
+      "discoveredFrom": "Drag Me to Hell",
+      "discoveredAt": 666
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Films based on classical mythology",
+      "iso": "_MULTI",
+      "label": "Films based on classical mythology",
+      "discoveredFrom": "Innocence (2013 film)",
+      "discoveredAt": 666
     }
   ],
-  "totalAdded": 4083,
-  "runs": 666,
-  "lastRun": "2026-08-11T01:01:58.115Z",
-  "lastDiscoveredIndex": 753
+  "totalAdded": 4096,
+  "runs": 667,
+  "lastRun": "2026-08-11T06:50:40.549Z",
+  "lastDiscoveredIndex": 756
 }
