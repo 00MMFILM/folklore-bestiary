@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 121,
+  "lastCategoryIndex": 124,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7258,7 +7258,26 @@
     84914,
     85650,
     95848,
-    90297
+    90297,
+    14538123,
+    69838349,
+    2180929,
+    4560387,
+    2375688,
+    106339,
+    13898965,
+    28935408,
+    15398943,
+    3855631,
+    4668844,
+    90320,
+    4461770,
+    9987042,
+    9987730,
+    54103665,
+    13072183,
+    4060490,
+    990419
   ],
   "discoveredCategories": [
     {
@@ -24324,10 +24343,26 @@
       "label": "Ghost towns in Maryland",
       "discoveredFrom": "List of ghost towns in Maryland",
       "discoveredAt": 667
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Demonological literature",
+      "iso": "_MULTI",
+      "label": "Demonological literature",
+      "discoveredFrom": "Dictionary of Deities and Demons in the Bible",
+      "discoveredAt": 669
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of Ohio",
+      "iso": "_MULTI",
+      "label": "Folklore of Ohio",
+      "discoveredFrom": "Loveland frog",
+      "discoveredAt": 669
     }
   ],
-  "totalAdded": 4115,
-  "runs": 669,
-  "lastRun": "2026-08-11T18:48:32.358Z",
-  "lastDiscoveredIndex": 762
+  "totalAdded": 4129,
+  "runs": 670,
+  "lastRun": "2026-08-12T01:09:11.685Z",
+  "lastDiscoveredIndex": 765
 }
