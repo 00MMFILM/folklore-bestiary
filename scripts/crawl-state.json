@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 127,
+  "lastCategoryIndex": 130,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7304,7 +7304,28 @@
     70696728,
     3182619,
     3726657,
-    11080615
+    11080615,
+    1476417,
+    30907,
+    78414408,
+    52720439,
+    59470594,
+    30887918,
+    21709242,
+    21709320,
+    21708782,
+    28660974,
+    11637084,
+    1883209,
+    27431805,
+    67337662,
+    13812010,
+    760054,
+    8880,
+    41081,
+    20775,
+    27899,
+    67537341
   ],
   "discoveredCategories": [
     {
@@ -24418,10 +24439,18 @@
       "label": "Cantonese folklore",
       "discoveredFrom": "The Legend of Five Goats",
       "discoveredAt": 670
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Kalenjin folklore",
+      "iso": "_MULTI",
+      "label": "Kalenjin folklore",
+      "discoveredFrom": "Nandi bear",
+      "discoveredAt": 671
     }
   ],
-  "totalAdded": 4139,
-  "runs": 671,
-  "lastRun": "2026-08-12T07:09:54.604Z",
-  "lastDiscoveredIndex": 768
+  "totalAdded": 4149,
+  "runs": 672,
+  "lastRun": "2026-08-12T12:46:02.969Z",
+  "lastDiscoveredIndex": 771
 }
