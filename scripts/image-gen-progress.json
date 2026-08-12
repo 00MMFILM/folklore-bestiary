@@ -1245,5 +1245,12 @@
   "cn-dragon-turtle": "/creatures/east-asia/dragon-turtle.webp",
   "no-huginn-and-muninn": "/creatures/europe/huginn-and-muninn.webp",
   "no-hati-hroðvitnisson": "/creatures/europe/hati-hroðvitnisson.webp",
-  "no-gulon": "/creatures/europe/gulon.webp"
+  "no-gulon": "/creatures/europe/gulon.webp",
+  "in-maa-shoolini": "/creatures/south-asia/maa-shoolini.webp",
+  "iq-dumuzid": "/creatures/south-asia/dumuzid.webp",
+  "se-hug-folklore": "/creatures/europe/hug-folklore.webp",
+  "gr-cacodemon": "/creatures/europe/cacodemon.webp",
+  "ru-twardowski-conjuring-up-the-spirit-of-barbara-before-sigismund-augustus": "/creatures/europe/twardowski-conjuring-up-the-spirit-of-barbara-before-sigismund-augustus.webp",
+  "cz-the-golem-leivick": "/creatures/europe/the-golem-leivick.webp",
+  "al-kulshedra": "/creatures/europe/kulshedra.webp"
 }
