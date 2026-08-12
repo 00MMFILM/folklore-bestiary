@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 130,
+  "lastCategoryIndex": 133,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7325,7 +7325,31 @@
     41081,
     20775,
     27899,
-    67537341
+    67537341,
+    914857,
+    6085047,
+    1376318,
+    79908509,
+    46796962,
+    25364746,
+    1155244,
+    3377463,
+    28648868,
+    54452105,
+    6362,
+    2638733,
+    95226,
+    95240,
+    10220968,
+    67790082,
+    77247315,
+    46441841,
+    67248940,
+    78400250,
+    1631306,
+    19059158,
+    24171115,
+    26477867
   ],
   "discoveredCategories": [
     {
@@ -24447,10 +24471,26 @@
       "label": "Kalenjin folklore",
       "discoveredFrom": "Nandi bear",
       "discoveredAt": 671
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Australian people",
+      "iso": "AU",
+      "label": "Legendary Australian people",
+      "discoveredFrom": "Kondole",
+      "discoveredAt": 672
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Olmec mythology and religion",
+      "iso": "_MULTI",
+      "label": "Olmec mythology and religion",
+      "discoveredFrom": "Werejaguar",
+      "discoveredAt": 672
     }
   ],
-  "totalAdded": 4149,
-  "runs": 672,
-  "lastRun": "2026-08-12T12:46:02.969Z",
-  "lastDiscoveredIndex": 771
+  "totalAdded": 4164,
+  "runs": 673,
+  "lastRun": "2026-08-12T18:49:51.369Z",
+  "lastDiscoveredIndex": 774
 }
