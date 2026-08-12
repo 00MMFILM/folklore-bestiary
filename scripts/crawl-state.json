@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 124,
+  "lastCategoryIndex": 127,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7277,7 +7277,34 @@
     54103665,
     13072183,
     4060490,
-    990419
+    990419,
+    83836923,
+    18600363,
+    8810049,
+    248111,
+    21638376,
+    44672,
+    81264611,
+    59051035,
+    51364722,
+    36937823,
+    36476633,
+    37034100,
+    63617430,
+    53649490,
+    67167311,
+    40897505,
+    277028,
+    251452,
+    159852,
+    3272436,
+    77135427,
+    174545,
+    2518675,
+    70696728,
+    3182619,
+    3726657,
+    11080615
   ],
   "discoveredCategories": [
     {
@@ -24359,10 +24386,42 @@
       "label": "Folklore of Ohio",
       "discoveredFrom": "Loveland frog",
       "discoveredAt": 669
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Television episodes about cryptids",
+      "iso": "_MULTI",
+      "label": "Television episodes about cryptids",
+      "discoveredFrom": "Detour (The X-Files)",
+      "discoveredAt": 670
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Video games about cryptids",
+      "iso": "_MULTI",
+      "label": "Video games about cryptids",
+      "discoveredFrom": "Mothmen 1966",
+      "discoveredAt": 670
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Birds in Chinese mythology",
+      "iso": "CN",
+      "label": "Birds in Chinese mythology",
+      "discoveredFrom": "Birds in Chinese mythology",
+      "discoveredAt": 670
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Cantonese folklore",
+      "iso": "_MULTI",
+      "label": "Cantonese folklore",
+      "discoveredFrom": "The Legend of Five Goats",
+      "discoveredAt": 670
     }
   ],
-  "totalAdded": 4129,
-  "runs": 670,
-  "lastRun": "2026-08-12T01:09:11.685Z",
-  "lastDiscoveredIndex": 765
+  "totalAdded": 4139,
+  "runs": 671,
+  "lastRun": "2026-08-12T07:09:54.604Z",
+  "lastDiscoveredIndex": 768
 }
