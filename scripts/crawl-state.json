@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 133,
+  "lastCategoryIndex": 136,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7349,7 +7349,46 @@
     1631306,
     19059158,
     24171115,
-    26477867
+    26477867,
+    42592507,
+    81808926,
+    38346426,
+    97348,
+    3667113,
+    43236,
+    43188556,
+    3200707,
+    81749,
+    80386,
+    60450794,
+    34593328,
+    13880595,
+    81977,
+    18738767,
+    8879173,
+    57420985,
+    11817142,
+    5339227,
+    34637797,
+    63452279,
+    70565984,
+    36548135,
+    70349658,
+    79916995,
+    81020461,
+    78129907,
+    78825836,
+    5988676,
+    97106,
+    29782948,
+    72667512,
+    86187,
+    6848,
+    74514402,
+    156629,
+    20510657,
+    5878168,
+    83627062
   ],
   "discoveredCategories": [
     {
@@ -24487,10 +24526,18 @@
       "label": "Olmec mythology and religion",
       "discoveredFrom": "Werejaguar",
       "discoveredAt": 672
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Pakistani fairy tales",
+      "iso": "PK",
+      "label": "Pakistani fairy tales",
+      "discoveredFrom": "Prince Lal Maluk",
+      "discoveredAt": 673
     }
   ],
-  "totalAdded": 4164,
-  "runs": 673,
-  "lastRun": "2026-08-12T18:49:51.369Z",
-  "lastDiscoveredIndex": 774
+  "totalAdded": 4179,
+  "runs": 674,
+  "lastRun": "2026-08-13T01:10:51.932Z",
+  "lastDiscoveredIndex": 777
 }
