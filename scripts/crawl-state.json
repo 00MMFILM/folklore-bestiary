@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 142,
+  "lastCategoryIndex": 2,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7422,7 +7422,28 @@
     85696,
     13225,
     4042929,
-    5161241
+    5161241,
+    28813036,
+    10147845,
+    2578363,
+    92801,
+    45352156,
+    17813595,
+    28976666,
+    77986976,
+    17031248,
+    17031106,
+    19380326,
+    364322,
+    2020538,
+    9895974,
+    85373,
+    70650598,
+    1933422,
+    92717,
+    2665718,
+    1095706,
+    63325
   ],
   "discoveredCategories": [
     {
@@ -24600,10 +24621,26 @@
       "label": "Folklore of Massachusetts",
       "discoveredFrom": "Dover Demon",
       "discoveredAt": 675
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Yanomami mythology",
+      "iso": "_MULTI",
+      "label": "Yanomami mythology",
+      "discoveredFrom": "Amahiri-teri",
+      "discoveredAt": 676
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Elamite gods",
+      "iso": "_MULTI",
+      "label": "Elamite gods",
+      "discoveredFrom": "Inshushinak",
+      "discoveredAt": 676
     }
   ],
-  "totalAdded": 4204,
-  "runs": 676,
-  "lastRun": "2026-08-13T12:48:33.458Z",
-  "lastDiscoveredIndex": 783
+  "totalAdded": 4219,
+  "runs": 677,
+  "lastRun": "2026-08-13T18:49:59.308Z",
+  "lastDiscoveredIndex": 786
 }
