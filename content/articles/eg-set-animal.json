@@ -1,0 +1,32 @@
+{
+ "sourceTitle": "Set animal",
+ "sourceLang": "en",
+ "sourceChars": 10373,
+ "generatedAt": "2026-08-13T06:56:40.869Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "셋 동물(셋 동물, 또는 샤)은 고대 이집트 신 셋의 관련 동물로, 그리스의 괴물 타이폰과 동일시되었다. 이 동물은 현대 동물 세계에서 쉽게 식별되지 않으며, 이집트학자들 사이에서는 실제 존재하지 않았던 신화적 존재로 여겨진다. 셋 동물은 고대 이집트 종교에서 중요한 의미를 지니고 있었으며, 이집트의 여러 문서에서 셋이 위험한 동물의 형태로 묘사되기도 했다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "The Set animal (Set animal, or Sha) is associated with the ancient Egyptian god Set and is identified with the Greek monster Typhon. This animal is not easily identifiable in the modern animal world and is considered a mythical being that did not actually exist among Egyptologists. The Set animal held significant meaning in ancient Egyptian religion, and Set was sometimes depicted in the form of a dangerous animal in various Egyptian documents.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "塞特动物（塞特动物，或称为沙特，Shati）是古埃及神塞特（Set）的相关动物，与希腊的怪物泰丰（Typhon）相同。这个动物在现代动物世界中难以识别，在埃及学者之间被认为是实际上不存在的神话存在。塞特动物在古埃及宗教中具有重要意义，并且在埃及的多份文献中，塞特有时被描绘成危险动物的形态。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "セト動物（セト動物、またはシャ）は古代エジプトの神セトに関連する動物で、ギリシャの怪物タイフォンと同一視されていた。この動物は現代の動物界では容易に識別されず、エジプト学者の間では実際には存在しなかった神話的存在と見なされている。セト動物は古代エジプトの宗教において重要な意味を持っており、エジプトのいくつかの文書ではセトが危険な動物の形で描かれることもあった。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}
