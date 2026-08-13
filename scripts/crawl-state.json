@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 139,
+  "lastCategoryIndex": 142,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7403,7 +7403,26 @@
     1350710,
     37753,
     41567770,
-    97385
+    97385,
+    7055815,
+    856270,
+    7900498,
+    87430,
+    506827,
+    5304600,
+    88552,
+    665117,
+    88554,
+    20123255,
+    88322,
+    1879039,
+    100205,
+    36750281,
+    84895,
+    85696,
+    13225,
+    4042929,
+    5161241
   ],
   "discoveredCategories": [
     {
@@ -24573,10 +24592,18 @@
       "label": "American superhero films",
       "discoveredFrom": "Catwoman (film)",
       "discoveredAt": 674
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Folklore of Massachusetts",
+      "iso": "_MULTI",
+      "label": "Folklore of Massachusetts",
+      "discoveredFrom": "Dover Demon",
+      "discoveredAt": 675
     }
   ],
-  "totalAdded": 4189,
-  "runs": 675,
-  "lastRun": "2026-08-13T07:13:43.621Z",
-  "lastDiscoveredIndex": 780
+  "totalAdded": 4204,
+  "runs": 676,
+  "lastRun": "2026-08-13T12:48:33.458Z",
+  "lastDiscoveredIndex": 783
 }
