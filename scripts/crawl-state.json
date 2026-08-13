@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 136,
+  "lastCategoryIndex": 139,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7388,7 +7388,22 @@
     156629,
     20510657,
     5878168,
-    83627062
+    83627062,
+    286738,
+    44588657,
+    1959649,
+    1802644,
+    65466989,
+    98392,
+    37594875,
+    48790055,
+    755344,
+    789903,
+    505661,
+    1350710,
+    37753,
+    41567770,
+    97385
   ],
   "discoveredCategories": [
     {
@@ -24534,10 +24549,34 @@
       "label": "Pakistani fairy tales",
       "discoveredFrom": "Prince Lal Maluk",
       "discoveredAt": 673
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2004 superhero films",
+      "iso": "_MULTI",
+      "label": "2004 superhero films",
+      "discoveredFrom": "Catwoman (film)",
+      "discoveredAt": 674
+    },
+    {
+      "lang": "en",
+      "cat": "Category:African-American superhero films",
+      "iso": "US",
+      "label": "African-American superhero films",
+      "discoveredFrom": "Catwoman (film)",
+      "discoveredAt": 674
+    },
+    {
+      "lang": "en",
+      "cat": "Category:American superhero films",
+      "iso": "US",
+      "label": "American superhero films",
+      "discoveredFrom": "Catwoman (film)",
+      "discoveredAt": 674
     }
   ],
-  "totalAdded": 4179,
-  "runs": 674,
-  "lastRun": "2026-08-13T01:10:51.932Z",
-  "lastDiscoveredIndex": 777
+  "totalAdded": 4189,
+  "runs": 675,
+  "lastRun": "2026-08-13T07:13:43.621Z",
+  "lastDiscoveredIndex": 780
 }
