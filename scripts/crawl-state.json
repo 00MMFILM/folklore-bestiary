@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 2,
+  "lastCategoryIndex": 5,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7443,7 +7443,26 @@
     92717,
     2665718,
     1095706,
-    63325
+    63325,
+    83341381,
+    72910562,
+    21750231,
+    27319577,
+    40894896,
+    72889632,
+    72927337,
+    13706,
+    72194110,
+    79200595,
+    1423,
+    65729172,
+    261899,
+    68146713,
+    7372153,
+    75785482,
+    71905122,
+    1472988,
+    303408
   ],
   "discoveredCategories": [
     {
@@ -24637,10 +24656,26 @@
       "label": "Elamite gods",
       "discoveredFrom": "Inshushinak",
       "discoveredAt": 676
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Roman people",
+      "iso": "IT",
+      "label": "Legendary Roman people",
+      "discoveredFrom": "Domnina (daughter of Nero)",
+      "discoveredAt": 677
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Shamanism in China",
+      "iso": "CN",
+      "label": "Shamanism in China",
+      "discoveredFrom": "Tongji (spirit medium)",
+      "discoveredAt": 677
     }
   ],
-  "totalAdded": 4219,
-  "runs": 677,
-  "lastRun": "2026-08-13T18:49:59.308Z",
-  "lastDiscoveredIndex": 786
+  "totalAdded": 4225,
+  "runs": 678,
+  "lastRun": "2026-08-14T01:09:37.972Z",
+  "lastDiscoveredIndex": 789
 }
