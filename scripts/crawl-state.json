@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 8,
+  "lastCategoryIndex": 11,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7473,7 +7473,14 @@
     57275295,
     23738509,
     44514325,
-    78163167
+    78163167,
+    60999168,
+    7937684,
+    48459962,
+    23103744,
+    83585744,
+    1849356,
+    665637
   ],
   "discoveredCategories": [
     {
@@ -24683,10 +24690,26 @@
       "label": "Shamanism in China",
       "discoveredFrom": "Tongji (spirit medium)",
       "discoveredAt": 677
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Female folklore characters",
+      "iso": "_MULTI",
+      "label": "Female folklore characters",
+      "discoveredFrom": "Annie Palmer (White Witch of Rose Hall)",
+      "discoveredAt": 679
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Haitian people",
+      "iso": "HT",
+      "label": "Legendary Haitian people",
+      "discoveredFrom": "Annie Palmer (White Witch of Rose Hall)",
+      "discoveredAt": 679
     }
   ],
-  "totalAdded": 4230,
-  "runs": 679,
-  "lastRun": "2026-08-14T07:10:15.362Z",
-  "lastDiscoveredIndex": 792
+  "totalAdded": 4232,
+  "runs": 680,
+  "lastRun": "2026-08-14T12:42:49.691Z",
+  "lastDiscoveredIndex": 795
 }
