@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 14,
+  "lastCategoryIndex": 17,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7492,7 +7492,26 @@
     90838,
     41790677,
     6615478,
-    3345936
+    3345936,
+    197780,
+    79374,
+    2508370,
+    7685714,
+    6415781,
+    240648,
+    19380175,
+    48355949,
+    18493082,
+    79506918,
+    85870,
+    75591680,
+    77536502,
+    100379,
+    77518523,
+    71925813,
+    21034520,
+    79386,
+    78452
   ],
   "discoveredCategories": [
     {
@@ -24718,10 +24737,26 @@
       "label": "Legendary Haitian people",
       "discoveredFrom": "Annie Palmer (White Witch of Rose Hall)",
       "discoveredAt": 679
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Gaulish water goddesses",
+      "iso": "FR",
+      "label": "Gaulish water goddesses",
+      "discoveredFrom": "Abnoba",
+      "discoveredAt": 681
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ceres (mythology)",
+      "iso": "_MULTI",
+      "label": "Ceres (mythology)",
+      "discoveredFrom": "Ceres (mythology)",
+      "discoveredAt": 681
     }
   ],
-  "totalAdded": 4239,
-  "runs": 681,
-  "lastRun": "2026-08-14T18:41:34.817Z",
-  "lastDiscoveredIndex": 798
+  "totalAdded": 4254,
+  "runs": 682,
+  "lastRun": "2026-08-15T00:43:00.500Z",
+  "lastDiscoveredIndex": 801
 }
