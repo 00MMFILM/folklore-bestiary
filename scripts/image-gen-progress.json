@@ -1270,5 +1270,13 @@
   "gr-cercopes": "/creatures/europe/cercopes.webp",
   "al-the-twins-folktale": "/creatures/europe/the-twins-folktale.webp",
   "al-ljubi": "/creatures/europe/ljubi.webp",
-  "ug-lukwata": "/creatures/africa/lukwata.webp"
+  "ug-lukwata": "/creatures/africa/lukwata.webp",
+  "us-baymax": "/creatures/americas/baymax.webp",
+  "ca-tizheruk": "/creatures/americas/tizheruk.webp",
+  "mx-ehecatl": "/creatures/americas/ehecatl.webp",
+  "co-jurupari": "/creatures/americas/jurupari.webp",
+  "co-muisca-religion": "/creatures/americas/muisca-religion.webp",
+  "cl-basilisco-chilote": "/creatures/americas/basilisco-chilote.webp",
+  "au-wandjina": "/creatures/oceania/wandjina.webp",
+  "fj-degei": "/creatures/oceania/degei.webp"
 }
