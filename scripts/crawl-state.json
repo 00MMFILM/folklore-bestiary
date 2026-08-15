@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 17,
+  "lastCategoryIndex": 20,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7511,7 +7511,33 @@
     71925813,
     21034520,
     79386,
-    78452
+    78452,
+    1069743,
+    72028,
+    467665,
+    752766,
+    1944752,
+    8857940,
+    1133757,
+    8000786,
+    1768174,
+    60018050,
+    63786250,
+    8771706,
+    64489326,
+    11907066,
+    14144472,
+    4626021,
+    7045887,
+    6323556,
+    49438675,
+    20696342,
+    51812168,
+    1129912,
+    2505502,
+    75802286,
+    40243586,
+    68227473
   ],
   "discoveredCategories": [
     {
@@ -24753,10 +24779,26 @@
       "label": "Ceres (mythology)",
       "discoveredFrom": "Ceres (mythology)",
       "discoveredAt": 681
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Chilote mythology",
+      "iso": "CL",
+      "label": "Chilote mythology",
+      "discoveredFrom": "Chilote mythology",
+      "discoveredAt": 682
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological ships",
+      "iso": "_MULTI",
+      "label": "Mythological ships",
+      "discoveredFrom": "Caleuche",
+      "discoveredAt": 682
     }
   ],
-  "totalAdded": 4254,
-  "runs": 682,
-  "lastRun": "2026-08-15T00:43:00.500Z",
-  "lastDiscoveredIndex": 801
+  "totalAdded": 4262,
+  "runs": 683,
+  "lastRun": "2026-08-15T06:21:28.484Z",
+  "lastDiscoveredIndex": 804
 }
