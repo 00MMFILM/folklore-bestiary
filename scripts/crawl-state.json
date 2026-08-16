@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 35,
+  "lastCategoryIndex": 38,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7654,7 +7654,38 @@
     90301,
     90304,
     36768489,
-    77700201
+    77700201,
+    6373472,
+    1290524,
+    87285,
+    5235315,
+    920137,
+    531615,
+    12004160,
+    1478,
+    3617031,
+    6961754,
+    1486283,
+    16813400,
+    26998504,
+    1231558,
+    82142046,
+    657976,
+    3535887,
+    16330135,
+    274463,
+    3132196,
+    9195248,
+    100588,
+    85901,
+    896236,
+    1442886,
+    13151,
+    2558282,
+    2344716,
+    9197211,
+    90878,
+    47440357
   ],
   "discoveredCategories": [
     {
@@ -24976,10 +25007,18 @@
       "label": "Mythological Lycians",
       "discoveredFrom": "Xanthus (mythology)",
       "discoveredAt": 687
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mexican legends",
+      "iso": "MX",
+      "label": "Mexican legends",
+      "discoveredFrom": "Cross-Stitch (novel)",
+      "discoveredAt": 688
     }
   ],
-  "totalAdded": 4328,
-  "runs": 688,
-  "lastRun": "2026-08-16T12:20:38.312Z",
-  "lastDiscoveredIndex": 819
+  "totalAdded": 4343,
+  "runs": 689,
+  "lastRun": "2026-08-16T18:15:34.342Z",
+  "lastDiscoveredIndex": 822
 }
