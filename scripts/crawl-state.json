@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 32,
+  "lastCategoryIndex": 35,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7628,7 +7628,33 @@
     3008377,
     83134,
     75744139,
-    30124391
+    30124391,
+    83981886,
+    82268372,
+    54441937,
+    23700077,
+    70729394,
+    70857194,
+    83627294,
+    75754315,
+    83271335,
+    83673783,
+    67639144,
+    15055516,
+    55407,
+    67638510,
+    38313276,
+    29143181,
+    90247,
+    36768465,
+    11487649,
+    68243592,
+    36899449,
+    15057897,
+    90301,
+    90304,
+    36768489,
+    77700201
   ],
   "discoveredCategories": [
     {
@@ -24934,10 +24960,26 @@
       "label": "Archaeological sources on Greek mythology",
       "discoveredFrom": "Potnia Theron",
       "discoveredAt": 685
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ionian mythology",
+      "iso": "_MULTI",
+      "label": "Ionian mythology",
+      "discoveredFrom": "Xanthus (mythology)",
+      "discoveredAt": 687
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Lycians",
+      "iso": "_MULTI",
+      "label": "Mythological Lycians",
+      "discoveredFrom": "Xanthus (mythology)",
+      "discoveredAt": 687
     }
   ],
-  "totalAdded": 4313,
-  "runs": 687,
-  "lastRun": "2026-08-16T06:23:26.923Z",
-  "lastDiscoveredIndex": 816
+  "totalAdded": 4328,
+  "runs": 688,
+  "lastRun": "2026-08-16T12:20:38.312Z",
+  "lastDiscoveredIndex": 819
 }
