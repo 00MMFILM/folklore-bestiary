@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 26,
+  "lastCategoryIndex": 29,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7588,7 +7588,35 @@
     16139435,
     73949783,
     33337401,
-    24230050
+    24230050,
+    24650955,
+    46826545,
+    2960562,
+    2267667,
+    63768370,
+    6822837,
+    79317,
+    21556,
+    84918,
+    1511622,
+    156483,
+    79320,
+    79318,
+    1830411,
+    17146902,
+    38753528,
+    10477,
+    84925,
+    456663,
+    80963,
+    83129,
+    864930,
+    3156849,
+    82639769,
+    511966,
+    9212086,
+    90246,
+    58544695
   ],
   "discoveredCategories": [
     {
@@ -24846,10 +24874,58 @@
       "label": "Mythological ships",
       "discoveredFrom": "Caleuche",
       "discoveredAt": 682
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Fictional goddesses",
+      "iso": "_MULTI",
+      "label": "Fictional goddesses",
+      "discoveredFrom": "Belldandy",
+      "discoveredAt": 685
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Norse mythology in anime and manga",
+      "iso": "NO",
+      "label": "Norse mythology in anime and manga",
+      "discoveredFrom": "Belldandy",
+      "discoveredAt": 685
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Oh My Goddess! characters",
+      "iso": "_MULTI",
+      "label": "Oh My Goddess! characters",
+      "discoveredFrom": "Belldandy",
+      "discoveredAt": 685
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Luna (goddess)",
+      "iso": "_MULTI",
+      "label": "Luna (goddess)",
+      "discoveredFrom": "Luna (goddess)",
+      "discoveredAt": 685
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Sabine goddesses",
+      "iso": "_MULTI",
+      "label": "Sabine goddesses",
+      "discoveredFrom": "Luna (goddess)",
+      "discoveredAt": 685
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Archaeological sources on Greek mythology",
+      "iso": "GR",
+      "label": "Archaeological sources on Greek mythology",
+      "discoveredFrom": "Potnia Theron",
+      "discoveredAt": 685
     }
   ],
-  "totalAdded": 4290,
-  "runs": 685,
-  "lastRun": "2026-08-15T18:15:32.142Z",
-  "lastDiscoveredIndex": 810
+  "totalAdded": 4305,
+  "runs": 686,
+  "lastRun": "2026-08-16T00:44:30.665Z",
+  "lastDiscoveredIndex": 813
 }
