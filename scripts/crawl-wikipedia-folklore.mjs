@@ -839,6 +839,58 @@ function isDuplicate(creature, data, state) {
 }
 
 // ═══════════════════════════════════════════════════════════════
+//  비생물 정의문 게이트 (2026-08-16)
+//  크롤러가 서적·장소·풍습/의례·실존인물·사물을 계속 유입시키는 문제 차단.
+//  핵심: 첫 계사(is/was a/an/the) 보어만 검사 → 진짜 생물이 종속절에서
+//  "is the word for corpse"(ro-langs) 같은 표현을 써도 오차단하지 않음.
+// ═══════════════════════════════════════════════════════════════
+
+// 보어가 생물이 아님을 드러내는 명사 (하드: 무조건 비생물). term/word는 아래 별도 처리.
+const NC_HARD = 'book(?:\\s+series)?|manuscript|anthology|compilation|publication|treatise|' +
+  'ritual(?:istic)?|practice|ceremony|festival|custom|holiday|rite|dance|' +
+  'concept|proverb|saying|' +
+  'village|town|city|cave|grotto|valley|castle|fortress|palace|ruin|' +
+  'county|province|municipality|district|region|prefecture|' +
+  'sword|blade|spear|dagger|statue|monument|obelisk|painting|artifact|relic|amulet|talisman';
+// soft: 장소명사지만 생물 수식어(lake monster·forest spirit 등)일 땐 통과
+const NC_SOFT = 'mountain|hill|lake|river|forest|woods|island|peninsula|spring|waterfall|swamp|' +
+  '(?:sacred\\s+)?stone|rock(?:\\s+formation)?';
+// 명사 뒤에 오면 '진짜 생물'로 보는 단어들 (man/woman/folk = forest man 류 구제)
+const NC_BEING = 'monster|serpent|spirit|dragon|demon|god|goddess|deity|beast|creature|being|' +
+  'nymph|giant|troll|fairy|ghost|wyrm|guardian|naga|deva|dwarf|elf|imp|devil|maiden|hag|witch|sprite|' +
+  'dwelling|man|men|woman|women|folk|humanoid|dweller|people|figure';
+// 형용사 스킵 — 전치사·관사·접속사는 건너뛰지 않음 (of the river 파고들기 방지)
+const NC_ADJ = `(?:(?!(?:of|in|on|at|the|a|an|to|for|from|by|and|or|with)[ ])[\\w'’-]+[ ]){0,2}?`;
+const SOFT_TAIL = `(?![\\w-])(?!\\s+(?:${NC_BEING}))`;
+// term/word: 뒤 6단어 안에 생물어가 없을 때만 비생물 ("word for a water dragon"·"term for god" 구제)
+const TERMWORD_TAIL = `(?![\\w-])(?!(?:\\s+[\\w'’-]+){0,6}\\s+(?:${NC_BEING}))`;
+
+// 첫 계사 보어에 앵커된 비생물 명사 판정
+const NC_COMPLEMENT = new RegExp(
+  `^${NC_ADJ}(?:(?:${NC_HARD})(?![\\w-])|(?:term|word)${TERMWORD_TAIL}|(?:${NC_SOFT})${SOFT_TAIL})`, 'i'
+);
+// 실존/역사 인물 신호 (신화적 왕·영웅은 안 걸리게 날짜·왕조 근거 요구. prince/princess 등은 전설 인물 오차단이라 제외)
+const HIST_PERSON = [
+  /\bhistorical\s+(?:figure|person|personage)\b/i,
+  /\bwas\s+(?:a|an)\s+(?:[\w'’-]+[ ]){0,2}?\d{1,2}(?:st|nd|rd|th)[-\s]century\b/i,
+  /\b(?:king|queen|emperor|empress|shogun|general|caliph|sultan|pharaoh|chieftain|warlord|monarch)\s+of\s+the\s+(?:[\w'’-]+[ ]){1,3}?(?:empire|dynasty|kingdom|period|republic|state|clan|caliphate|sultanate)\b/i,
+  /\b(?:reigned|ruled)\s+(?:from|between|c\.|circa|in\b)/i,
+];
+
+function looksNonCreatureSubject(extract) {
+  const text = (extract || '').replace(/\s+/g, ' ').trim();
+  if (!text) return false;
+  // 실존 인물: 첫 200자에서 판정 (날짜·왕조 근거 있는 경우만)
+  const head = text.slice(0, 200);
+  if (HIST_PERSON.some(re => re.test(head))) return true;
+  // 첫 계사 보어만 검사 (그 뒤 종속절은 무시 → ro-langs 함정 회피)
+  const cop = text.match(/\b(?:is|was|are|were)\s+(?:an?|the)\s+/i);
+  if (!cop) return false;
+  const complement = text.slice(cop.index + cop[0].length);
+  return NC_COMPLEMENT.test(complement);
+}
+
+// ═══════════════════════════════════════════════════════════════
 //  필터링: 크리처/설화 관련 기사인지 확인
 // ═══════════════════════════════════════════════════════════════
 function isCreatureArticle(article) {
@@ -865,6 +917,9 @@ function isCreatureArticle(article) {
 
   // 너무 짧은 기사 제외
   if ((article.extract || '').length < 80) return false;
+
+  // 비생물 정의문 게이트 (서적·장소·풍습/의례·실존인물·사물)
+  if (looksNonCreatureSubject(article.extract)) return false;
 
   // 설화/생물 관련 키워드 포함 확인
   const creatureIndicators = /creature|monster|spirit|demon|ghost|beast|dragon|serpent|fairy|deity|god|mytholog|folklore|legend|supernatural|cryptid|요괴|귀신|신화|전설|민담|괴물|정령|악마|용|뱀|유령/;
@@ -1083,5 +1138,5 @@ if (isDirectRun) {
 export {
   guessCountryFromText, countryScores, COUNTRY_KEYWORDS, isFolkloreRelatedCategory,
   buildCreatureFromArticle, fetchArticleDetail, isCreatureArticle, isDuplicate,
-  loadData, saveData, mk,
+  looksNonCreatureSubject, loadData, saveData, mk,
 };
