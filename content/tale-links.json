@@ -71,11 +71,21 @@
  ],
  "gr-aerope": [
   {
+   "id": "gr-agamemnon",
+   "n": "Agamemnon"
+  },
+  {
    "id": "gr-althaemenes",
    "n": "Althaemenes"
   }
  ],
  "gr-althaemenes": [
+  {
+   "id": "gr-aerope",
+   "n": "Aerope"
+  }
+ ],
+ "gr-agamemnon": [
   {
    "id": "gr-aerope",
    "n": "Aerope"
@@ -103,6 +113,18 @@
   {
    "id": "gr-lernaean-hydra",
    "n": "Lernaean Hydra"
+  }
+ ],
+ "gt-camazotz": [
+  {
+   "id": "gt-popol-vuh",
+   "n": "Popol Vuh"
+  }
+ ],
+ "gt-popol-vuh": [
+  {
+   "id": "gt-camazotz",
+   "n": "Camazotz (카마소츠)"
   }
  ],
  "id-batara-kala": [

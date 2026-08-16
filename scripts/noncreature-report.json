@@ -1,0 +1,168 @@
+{
+  "scannedAt": "2026-08-16T07:38:24.407Z",
+  "total": 4875,
+  "flags": [
+    {
+      "cat": "historical-person",
+      "iso": "KR",
+      "id": "kr-kim-al-chi",
+      "name": "김알지",
+      "type": "Creature",
+      "evidence": "historical figure",
+      "desc": "한국 설화에 등장하는 Creature. Kim Al-chi (Korean: 김알지; Hanja: 金閼智; unknown–?), was a historical figure in Korean history. His desc"
+    },
+    {
+      "cat": "object",
+      "iso": "JP",
+      "id": "jp-ame-no-ohabari",
+      "name": "Ame-no-ohabari",
+      "type": "Spirit",
+      "evidence": "is a sword",
+      "desc": "세계 설화에 등장하는 Spirit. Ame-no-Ohabari (Japanese: 天之尾羽; \"Heavenly-Point-Blade-Extended\") is a sword of Japanese legend and k"
+    },
+    {
+      "cat": "practice-concept",
+      "iso": "CN",
+      "id": "cn-ro-langs",
+      "name": "Ro-langs",
+      "type": "Spirit",
+      "evidence": "is the word for",
+      "desc": "중국 설화에 등장하는 Spirit. A ro-langs (Tibetan: རོ་ལང) is a zombie-like creature from Tibetan folklore.  Ro is the word for cor"
+    },
+    {
+      "cat": "object",
+      "iso": "BD",
+      "id": "bd-puthi",
+      "name": "Puthi",
+      "type": "Fairy",
+      "evidence": "is a book",
+      "desc": "세계 설화에 등장하는 Fairy. A puthi (Bengali: পুঁথি, Perso-Arab: پوتھی) is a book or writing of poetic fairy tales and religious"
+    },
+    {
+      "cat": "practice-concept",
+      "iso": "EG",
+      "id": "eg-abraxas",
+      "name": "Abraxas",
+      "type": "Spirit",
+      "evidence": "is a term for",
+      "desc": "이집트 설화에 등장하는 Spirit. Abraxas or Abrasax (Biblical Greek: Ἀβράξας or Ἀβρασάξ) is a term for the \"Great Archon\" in Gnostic "
+    },
+    {
+      "cat": "place",
+      "iso": "GE",
+      "id": "ge-germakochi",
+      "name": "Germakochi",
+      "type": "Creature",
+      "evidence": "is a forest",
+      "desc": "세계 설화에 등장하는 Creature. Germakochi is a forest man who appears in the mythology of the Laz people. Ochokochi of Georgian myt"
+    },
+    {
+      "cat": "place",
+      "iso": "DE",
+      "id": "de-bergmonch",
+      "name": "Bergmönch",
+      "type": "Spirit",
+      "evidence": "is a mountain",
+      "desc": "독일 설화에 등장하는 Spirit. The Bergmönch (\"mountain monk\"; German: [ˈbɛʁkˌmœnç]) is a mountain spirit from German folklore. He "
+    },
+    {
+      "cat": "place",
+      "iso": "SCT",
+      "id": "sct-muc-sheilche",
+      "name": "Muc-sheilche",
+      "type": "Sea Creature",
+      "evidence": "is a lake",
+      "desc": "스코틀랜드 설화에 등장하는 Sea Creature. In Scottish folklore, Muc-sheilch(e) (Scottish Gaelic pronunciation: [muxkˈhelɪçə]) is a lake monste"
+    },
+    {
+      "cat": "place",
+      "iso": "WLS",
+      "id": "wls-afanc",
+      "name": "Afanc",
+      "type": "Demon",
+      "evidence": "is a lake",
+      "desc": "웨일스 설화에 등장하는 Demon. The Afanc (Welsh pronunciation: [ˈavaŋk], sometimes also called Addanc, [ˈaðaŋk]) is a lake monster "
+    },
+    {
+      "cat": "place",
+      "iso": "RU",
+      "id": "ru-menk",
+      "name": "Menk",
+      "type": "Spirit",
+      "evidence": "is a forest",
+      "desc": "러시아 설화에 등장하는 Spirit. In Khanty and Mansi folklore, the Menk is a forest spirit of these peoples' mythology. The Khanty an"
+    },
+    {
+      "cat": "place",
+      "iso": "IT",
+      "id": "it-lariosauro",
+      "name": "Lariosauro",
+      "type": "Beast",
+      "evidence": "is a lake",
+      "desc": "이탈리아 설화에 등장하는 Beast. In Italian folklore, Lariosauro is a lake monster said to live in Lake Como in Italy, about 50 km (3"
+    },
+    {
+      "cat": "object",
+      "iso": "IT",
+      "id": "it-iron-john-a-book-about-men",
+      "name": "Iron John: A Book About Men",
+      "type": "Fairy",
+      "evidence": "is a book",
+      "desc": "이탈리아 설화에 등장하는 Fairy. Iron John: A Book About Men is a book by American poet Robert Bly. It is an exegesis of Iron John, a"
+    },
+    {
+      "cat": "historical-person",
+      "iso": "US",
+      "id": "us-pa-ao",
+      "name": "Paʻao",
+      "type": "Deity",
+      "evidence": "historical person",
+      "desc": "세계 설화에 등장하는 Deity. Paʻao is a prominent figure in Hawaiian tradition, often regarded as a historical person whose story"
+    },
+    {
+      "cat": "place",
+      "iso": "CA",
+      "id": "ca-manipogo",
+      "name": "마니포고",
+      "type": "Sea Creature",
+      "evidence": "is a lake",
+      "desc": "세계 설화에 등장하는 Sea Creature. In Canadian folklore, the Manipogo is a lake monster said to live in Lake Manitoba, Manitoba, Canada"
+    },
+    {
+      "cat": "place",
+      "iso": "CA",
+      "id": "ca-memphre",
+      "name": "Memphre",
+      "type": "Sea Creature",
+      "evidence": "is a lake",
+      "desc": "세계 설화에 등장하는 Sea Creature. In Canadian folklore, Memphré is a lake monster said to live in Lake Memphremagog, a fresh water gla"
+    },
+    {
+      "cat": "place",
+      "iso": "BR",
+      "id": "br-caipora",
+      "name": "Caipora",
+      "type": "Spirit",
+      "evidence": "is a forest",
+      "desc": "브라질 설화에 등장하는 Spirit. Caipora (Portuguese pronunciation: [kajˈpɔɾɐ]) or Caapora (Kaapora) is a forest spirit or humanoid a"
+    },
+    {
+      "cat": "practice-concept",
+      "iso": "PE",
+      "id": "pe-apu-god",
+      "name": "Apu (god)",
+      "type": "Spirit",
+      "evidence": "is the term used",
+      "desc": "페루 설화에 등장하는 Spirit. In the ancient religion and mythology of Peru, Ecuador, and Bolivia, an apu is the term used to desc"
+    },
+    {
+      "cat": "place",
+      "iso": "AU",
+      "id": "au-yee-na-pah",
+      "name": "Yee-Na-Pah",
+      "type": "Spirit",
+      "evidence": "is a mountain",
+      "desc": "호주 설화에 등장하는 Spirit. Yee-Na-Pah is a figure in Arrernte mythology. She is a mountain devil spirit girl who marries an ech"
+    }
+  ]
+}
