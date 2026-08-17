@@ -1286,5 +1286,12 @@
   "jp-kaibyo": "/creatures/east-asia/kaibyo.webp",
   "co-chibafruime": "/creatures/americas/chibafruime.webp",
   "co-chiminigagua": "/creatures/americas/chiminigagua.webp",
-  "am-dakhanavar": "/creatures/south-asia/dakhanavar.webp"
+  "am-dakhanavar": "/creatures/south-asia/dakhanavar.webp",
+  "no-otr-mythological-character": "/creatures/europe/otr-mythological-character.webp",
+  "no-regin": "/creatures/europe/regin.webp",
+  "jp-minamoto-no-yoshiie": "/creatures/east-asia/minamoto-no-yoshiie.webp",
+  "se-bess-dane": "/creatures/europe/bess-dane.webp",
+  "gn-kilibob-and-manup": "/creatures/africa/kilibob-and-manup.webp",
+  "no-sons-of-ivaldi": "/creatures/europe/sons-of-ivaldi.webp",
+  "jp-botan-doro": "/creatures/east-asia/botan-doro.webp"
 }
