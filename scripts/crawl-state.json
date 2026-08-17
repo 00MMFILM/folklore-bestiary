@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 38,
+  "lastCategoryIndex": 41,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7685,7 +7685,35 @@
     2344716,
     9197211,
     90878,
-    47440357
+    47440357,
+    24791293,
+    79409395,
+    68406955,
+    23753484,
+    68368410,
+    69702791,
+    68519268,
+    67955393,
+    68732330,
+    3292536,
+    59803563,
+    81665297,
+    22224608,
+    7603504,
+    59804423,
+    19607167,
+    22343413,
+    10998933,
+    7972533,
+    16250175,
+    9613777,
+    5328383,
+    82904752,
+    2734518,
+    20284589,
+    9195097,
+    96460,
+    60515444
   ],
   "discoveredCategories": [
     {
@@ -25015,10 +25043,34 @@
       "label": "Mexican legends",
       "discoveredFrom": "Cross-Stitch (novel)",
       "discoveredAt": 688
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary Cambodian people",
+      "iso": "KH",
+      "label": "Legendary Cambodian people",
+      "discoveredFrom": "Dam Din",
+      "discoveredAt": 689
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary sagas",
+      "iso": "_MULTI",
+      "label": "Legendary sagas",
+      "discoveredFrom": "Egil One-Hand",
+      "discoveredAt": 689
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Melanesian mythology",
+      "iso": "PG",
+      "label": "Melanesian mythology",
+      "discoveredFrom": "Kilibob and Manup",
+      "discoveredAt": 689
     }
   ],
-  "totalAdded": 4343,
-  "runs": 689,
-  "lastRun": "2026-08-16T18:15:34.342Z",
-  "lastDiscoveredIndex": 822
+  "totalAdded": 4356,
+  "runs": 690,
+  "lastRun": "2026-08-17T00:42:51.162Z",
+  "lastDiscoveredIndex": 825
 }
