@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 44,
+  "lastCategoryIndex": 47,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7740,7 +7740,32 @@
     18992044,
     93362,
     6266244,
-    25207307
+    25207307,
+    83963567,
+    25815270,
+    8716412,
+    1831534,
+    24786457,
+    82723139,
+    75390639,
+    81929488,
+    8669367,
+    8314215,
+    43404077,
+    96383,
+    5849969,
+    96417,
+    95847,
+    95546,
+    6949137,
+    87897,
+    4778715,
+    97022,
+    82139,
+    33537760,
+    1029641,
+    50738015,
+    558796
   ],
   "discoveredCategories": [
     {
@@ -25094,10 +25119,26 @@
       "label": "Melanesian mythology",
       "discoveredFrom": "Kilibob and Manup",
       "discoveredAt": 689
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Moriori mythology",
+      "iso": "_MULTI",
+      "label": "Moriori mythology",
+      "discoveredFrom": "Rohe (mythology)",
+      "discoveredAt": 691
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Tahiti and Society Islands goddesses",
+      "iso": "_MULTI",
+      "label": "Tahiti and Society Islands goddesses",
+      "discoveredFrom": "Te-uri",
+      "discoveredAt": 691
     }
   ],
-  "totalAdded": 4368,
-  "runs": 691,
-  "lastRun": "2026-08-17T06:35:08.228Z",
-  "lastDiscoveredIndex": 828
+  "totalAdded": 4383,
+  "runs": 692,
+  "lastRun": "2026-08-17T12:24:13.975Z",
+  "lastDiscoveredIndex": 831
 }
