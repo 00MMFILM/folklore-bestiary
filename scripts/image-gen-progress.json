@@ -1293,5 +1293,13 @@
   "se-bess-dane": "/creatures/europe/bess-dane.webp",
   "gn-kilibob-and-manup": "/creatures/africa/kilibob-and-manup.webp",
   "no-sons-of-ivaldi": "/creatures/europe/sons-of-ivaldi.webp",
-  "jp-botan-doro": "/creatures/east-asia/botan-doro.webp"
+  "jp-botan-doro": "/creatures/east-asia/botan-doro.webp",
+  "gr-echidna-mythology": "/creatures/europe/echidna-mythology.webp",
+  "gb-angul-mythology": "/creatures/europe/angul-mythology.webp",
+  "jp-funayurei": "/creatures/east-asia/funayurei.webp",
+  "jp-japanese-urban-legends": "/creatures/east-asia/japanese-urban-legends.webp",
+  "jp-spirit-away": "/creatures/east-asia/spirit-away.webp",
+  "jp-kami": "/creatures/east-asia/kami.webp",
+  "jp-ikiryo": "/creatures/east-asia/ikiryo.webp",
+  "cn-ro-langs": "/creatures/east-asia/ro-langs.webp"
 }
