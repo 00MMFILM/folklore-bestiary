@@ -1301,5 +1301,13 @@
   "jp-spirit-away": "/creatures/east-asia/spirit-away.webp",
   "jp-kami": "/creatures/east-asia/kami.webp",
   "jp-ikiryo": "/creatures/east-asia/ikiryo.webp",
-  "cn-ro-langs": "/creatures/east-asia/ro-langs.webp"
+  "cn-ro-langs": "/creatures/east-asia/ro-langs.webp",
+  "cn-snow-lion": "/creatures/east-asia/snow-lion.webp",
+  "cn-bai-suzhen": "/creatures/east-asia/bai-suzhen.webp",
+  "cn-xiaoqing-character": "/creatures/east-asia/xiaoqing-character.webp",
+  "cn-the-king-of-the-snakes": "/creatures/east-asia/the-king-of-the-snakes.webp",
+  "tw-hanitu": "/creatures/east-asia/hanitu.webp",
+  "th-kob-kin-duean": "/creatures/east-asia/kob-kin-duean.webp",
+  "ph-laon-deity": "/creatures/east-asia/laon-deity.webp",
+  "tr-kormos": "/creatures/south-asia/kormos.webp"
 }
