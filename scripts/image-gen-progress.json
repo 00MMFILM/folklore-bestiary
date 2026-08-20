@@ -1309,5 +1309,13 @@
   "tw-hanitu": "/creatures/east-asia/hanitu.webp",
   "th-kob-kin-duean": "/creatures/east-asia/kob-kin-duean.webp",
   "ph-laon-deity": "/creatures/east-asia/laon-deity.webp",
-  "tr-kormos": "/creatures/south-asia/kormos.webp"
+  "tr-kormos": "/creatures/south-asia/kormos.webp",
+  "tr-uylak": "/creatures/south-asia/uylak.webp",
+  "iq-aradia": "/creatures/south-asia/aradia.webp",
+  "iq-gula-goddess": "/creatures/south-asia/gula-goddess.webp",
+  "iq-gunura": "/creatures/south-asia/gunura.webp",
+  "iq-meme-mesopotamian-goddess": "/creatures/south-asia/meme-mesopotamian-goddess.webp",
+  "eg-bennu": "/creatures/africa/bennu.webp",
+  "eg-meskhenet": "/creatures/africa/meskhenet.webp",
+  "eg-nebethetepet": "/creatures/africa/nebethetepet.webp"
 }
