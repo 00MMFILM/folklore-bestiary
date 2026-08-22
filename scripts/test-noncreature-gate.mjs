@@ -33,6 +33,14 @@ const MUST_REJECT = [
   ['Bluenose Ghosts', "Bluenose Ghosts is a book which presents a series of Nova Scotia ghost stories collected over forty years."],
   ['Iron John', "Iron John: A Book About Men is a book by American poet Robert Bly, an exegesis of the fairy tale Iron John."],
   ['Arthurian Literature', "Arthurian Literature is a book series published annually since 1982 by Boydell & Brewer."],
+  // ── 2026-08-22 추가: 기존 데이터 전수 스캔으로 발견된 게이트 구멍 ──
+  ['Gogeumsochong', "Gogeumsochong (Korean: 고금소총) is a collection of eleven different anthologies of stories collected throughout the Joseon dynasty."],
+  ['Korean shamanism', "Korean shamanism, also known as Musok, is a religion from Korea. Scholars of religion have classified it as a folk religion."],
+  ['German folklore', "German folklore is the folk tradition which has developed in Germany over a number of centuries."],
+  ['Meitei folklore', "Meitei folklore is the folklore and mythology of the Meitei people of Manipur, India."],
+  ['Hausa animism', "Hausa animism, Maguzanci or Bori is a pre-Islamic traditional religion of the Hausa people of West Africa."],
+  ['Dinka religion', "Dinka spirituality is the traditional religion of the Dinka people, an ethnic group of South Sudan."],
+  ['Michael Foster', "Michael Dylan Foster is an American folklorist, professor, and author specializing in Japanese folklore."],
 ];
 
 // ── (B) pass 되어야 하는 진짜 생물 (기존 데이터 실존 존재) ──
@@ -52,6 +60,10 @@ const MUST_PASS = [
   ['Vodyanoy', "In Slavic mythology, the Vodyanoy is a water spirit who lives in rivers and drowns those who anger him."],
   ['Leshy', "The Leshy is a forest-dwelling spirit who protects wild animals and forests in Slavic mythology."],
   ['Nyami Nyami', "The Nyami Nyami is a river god of the Tonga people, depicted as a serpent-like dragon of the Zambezi."],
+  // ── 2026-08-22 추가: 위 구멍을 막되 오차단하면 안 되는 진짜 생물 ──
+  ['Kappa creature', "The kappa is a creature of Japanese folklore, a water-dwelling yokai with a dish on its head."],
+  ['Folklore figure', "Baba Yaga is a folklore figure and supernatural being in Slavic tradition who lives in a hut on chicken legs."],
+  ['Religion deity', "Inanna is a goddess of the ancient Mesopotamian religion, associated with love, war, and fertility."],
 ];
 
 let failN = 0;

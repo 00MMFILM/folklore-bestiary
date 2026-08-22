@@ -1,24 +1,17 @@
 [
   {
     "iso": "KR",
-    "id": "kr-igong-maji",
-    "n": "Igong Maji",
-    "t": "Deity",
-    "eng": "The Igong Maji (Korean: 이공맞이; lit. 'Greeting the Igong' is a Korean shamanistic ritual done in Jeju "
+    "id": "kr-gogeumsochong",
+    "n": "고금소총",
+    "t": "Sea Creature",
+    "eng": "Gogeumsochong (Korean: 고금소총) is a collection of eleven different anthologies of stories collected th"
   },
   {
     "iso": "KR",
-    "id": "kr-gawp",
-    "n": "ᄀᆞᆸ",
-    "t": "Deity",
-    "eng": "Gawp (Jeju: ᄀᆞᆸ) is a cosmological concept in Jeju Island shamanism referring to the divide between "
-  },
-  {
-    "iso": "KR",
-    "id": "kr-jeju-chilmeoridang-yeongdeunggut",
-    "n": "제주 칠머리당영등굿",
-    "t": "Deity",
-    "eng": "Jeju Chilmeoridang Yeongdeunggut (Korean: 제주 칠머리당영등굿) is a shaman ritual that is held on Jeju Island"
+    "id": "kr-korean-shamanism",
+    "n": "Korean shamanism",
+    "t": "Spirit",
+    "eng": "Korean shamanism, also known as Musok (Korean: 무속; Hanja: 巫俗), is a religion from Korea. Scholars of"
   },
   {
     "iso": "KR",
@@ -28,13 +21,6 @@
     "eng": "Kim Al-chi (Korean: 김알지; Hanja: 金閼智; unknown–?), was a historical figure in Korean history. His desc"
   },
   {
-    "iso": "KR",
-    "id": "kr-asadal",
-    "n": "아사달",
-    "t": "Creature",
-    "eng": "Asadal, (Korean: 아사달; Hanja: 阿斯達) was the capital city of the kingdom of Old Chosŏn (고조선; 古朝鮮; Gojos"
-  },
-  {
     "iso": "JP",
     "id": "jp-hungry-ghost",
     "n": "아귀 (신화)",
@@ -42,81 +28,11 @@
     "eng": "Hungry ghost is a term in Buddhism and Chinese traditional religion, representing beings who are dri"
   },
   {
-    "iso": "JP",
-    "id": "jp-the-allies-fairy-book",
-    "n": "The Allies' Fairy Book",
-    "t": "Fairy",
-    "eng": "The Allies' Fairy Book is a compilation of fairy tales published by William Heinemann and J.B. Lippi"
-  },
-  {
-    "iso": "JP",
-    "id": "jp-biringan",
-    "n": "Biringan",
-    "t": "Demon",
-    "eng": "Biringan (IPA: [ˈbɪɾɪŋɐn]) is a mythical city said to lie invisibly between the municipalities of Ga"
-  },
-  {
-    "iso": "JP",
-    "id": "jp-chinkon-kishin",
-    "n": "Chinkon kishin",
-    "t": "Spirit",
-    "eng": "Chinkon kishin (鎮魂帰神) is a Japanese religious practice that consists of two components, chinkon (鎮魂)"
-  },
-  {
-    "iso": "JP",
-    "id": "jp-kitsune-no-yomeiri",
-    "n": "기쓰네노 요메이리",
-    "t": "Spirit",
-    "eng": "The kitsune no yomeiri (狐の嫁入り; \"the fox's wedding\") is a term or metaphor for certain natural phenom"
-  },
-  {
-    "iso": "JP",
-    "id": "jp-ame-no-ohabari",
-    "n": "Ame-no-ohabari",
-    "t": "Spirit",
-    "eng": "Ame-no-Ohabari (Japanese: 天之尾羽; \"Heavenly-Point-Blade-Extended\") is a sword of Japanese legend and k"
-  },
-  {
-    "iso": "CN",
-    "id": "cn-chronomancy",
-    "n": "Chronomancy",
-    "t": "Creature",
-    "eng": "Chronomancy, also known as hemerology or calendar astrology, is a generalized term for divination th"
-  },
-  {
-    "iso": "CN",
-    "id": "cn-egg-balancing",
-    "n": "Egg balancing",
-    "t": "Serpent",
-    "eng": "Egg balancing is a traditional Chinese practice of standing eggs on their ends that has also been po"
-  },
-  {
-    "iso": "CN",
-    "id": "cn-kalapa",
-    "n": "Kalapa",
-    "t": "Creature",
-    "eng": "Kalapa, according to Buddhist legend, is the capital city of the Kingdom of Shambhala ,The city is d"
-  },
-  {
-    "iso": "TH",
-    "id": "th-kham-chanot",
-    "n": "Kham Chanot",
-    "t": "Serpent",
-    "eng": "Kham Chanot (Thai: คำชะโนด, pronounced [kʰām t͡ɕʰā.nòːt]) is a forested island and cultural site loc"
-  },
-  {
     "iso": "ID",
-    "id": "id-agimat",
-    "n": "Agimat",
-    "t": "Deity",
-    "eng": "Agimat, also known as anting or folklorized as anting-anting, is a Filipino word for \"amulet\" or \"ch"
-  },
-  {
-    "iso": "ID",
-    "id": "id-dukun",
-    "n": "Dukun",
-    "t": "Spirit",
-    "eng": "Dukun is an Indonesian term for shaman. Their societal role is that of a traditional healer, spirit "
+    "id": "id-keong-emas",
+    "n": "Keong Emas",
+    "t": "Creature",
+    "eng": "Keong Emas (Javanese and Indonesian for Golden Snail) is a popular Javanese folklore about a princes"
   },
   {
     "iso": "ID",
@@ -124,20 +40,6 @@
     "n": "Si Pitung",
     "t": "Creature",
     "eng": "Si Pitung (Old spelling: Si Pitoeng; or sometimes written just Pitung) was a 19th-century bandit in "
-  },
-  {
-    "iso": "MY",
-    "id": "my-ulek-mayang",
-    "n": "Ulek mayang",
-    "t": "Spirit",
-    "eng": "Ulek mayang (Jawi: اولق مايڠ‎) is a classical Malay dance from the state of Terengganu in Malaysia. "
-  },
-  {
-    "iso": "MY",
-    "id": "my-alluring-monsters",
-    "n": "Alluring Monsters",
-    "t": "Creature",
-    "eng": "Alluring Monsters: The Pontianak and Cinemas of Decolonization is a non-fiction book by Rosalind Gal"
   },
   {
     "iso": "IN",
@@ -148,24 +50,24 @@
   },
   {
     "iso": "IN",
-    "id": "in-himavanta",
-    "n": "Himavanta",
-    "t": "Spirit",
-    "eng": "Himavanta is a legendary forest, also called Himmanpan Mountain, which is said to be located in the "
+    "id": "in-meitei-folklore",
+    "n": "Meitei folklore",
+    "t": "Creature",
+    "eng": "Meitei folklore is the folklore and mythology of the Meitei people of Manipur, India. Such folklore "
   },
   {
     "iso": "IN",
-    "id": "in-parkham-yaksha",
-    "n": "Parkham Yaksha",
-    "t": "Deity",
-    "eng": "The Parkham Yaksha is a colossal statue of a Yaksha, discovered in the area of Parkham, in the vicin"
+    "id": "in-the-tiger-the-brahmin-and-the-jackal",
+    "n": "The Tiger, the Brahmin and the Jackal",
+    "t": "Fairy",
+    "eng": "The Tiger, the Brahmin and the Jackal is a popular Indian folklore with a long history and many vari"
   },
   {
     "iso": "BD",
-    "id": "bd-puthi",
-    "n": "Puthi",
-    "t": "Fairy",
-    "eng": "A puthi (Bengali: পুঁথি, Perso-Arab: پوتھی) is a book or writing of poetic fairy tales and religious"
+    "id": "bd-sylhet-gitika",
+    "n": "Sylhet Gitika",
+    "t": "Creature",
+    "eng": "Sylhet Gitika (Sylheti: ꠍꠤꠟꠐ ꠉꠤꠔꠤꠇꠣ, Bengali: সিলেট গীতিকা, lit. 'Sylhet Ballads') is the folklore o"
   },
   {
     "iso": "IR",
@@ -183,10 +85,17 @@
   },
   {
     "iso": "SA",
-    "id": "sa-ilah",
-    "n": "Ilah",
-    "t": "Deity",
-    "eng": "ʾIlāh (Arabic: إله; plural: آلهة ʾālihat) is an Arabic term meaning \"god\" or deity, refers to anythi"
+    "id": "sa-hausa-animism",
+    "n": "Hausa animism",
+    "t": "Spirit",
+    "eng": "Hausa animism, Maguzanci or Bori is a pre-Islamic traditional religion of the Hausa people of West A"
+  },
+  {
+    "iso": "SA",
+    "id": "sa-dinka-religion",
+    "n": "Dinka religion",
+    "t": "Spirit",
+    "eng": "Dinka spirituality is the traditional religion of the Dinka people (also known as Muonyjang), an eth"
   },
   {
     "iso": "IQ",
@@ -197,24 +106,10 @@
   },
   {
     "iso": "IL",
-    "id": "il-andromeda-s-rock",
-    "n": "Andromeda's rock",
-    "t": "Sea Creature",
-    "eng": "The Andromeda Rock is a rock jutting out of the Mediterranean in front of the old town of Jaffa, in "
-  },
-  {
-    "iso": "IL",
     "id": "il-moloch",
     "n": "Moloch",
     "t": "Deity",
     "eng": "Moloch, Molech, or Molek is a word which appears in the Hebrew Bible several times, primarily in the"
-  },
-  {
-    "iso": "IL",
-    "id": "il-legends-of-the-jews",
-    "n": "Legends of the Jews",
-    "t": "Creature",
-    "eng": "The Legends of the Jews is a chronological compilation of aggadah from hundreds of biblical legends "
   },
   {
     "iso": "IL",
@@ -239,13 +134,6 @@
   },
   {
     "iso": "GB",
-    "id": "gb-astolat",
-    "n": "아스톨라트",
-    "t": "Creature",
-    "eng": "Astolat (; French: Escalot) is a legendary castle and town of Great Britain named in Arthurian legen"
-  },
-  {
-    "iso": "GB",
     "id": "gb-arkan-sonney",
     "n": "Arkan sonney",
     "t": "Fairy",
@@ -253,45 +141,17 @@
   },
   {
     "iso": "GB",
-    "id": "gb-camelot",
-    "n": "Camelot",
-    "t": "Creature",
-    "eng": "Camelot is a legendary castle and court associated with King Arthur. Absent in the early Arthurian m"
-  },
-  {
-    "iso": "GB",
-    "id": "gb-cortain",
-    "n": "Cortain",
-    "t": "Creature",
-    "eng": "Cortain (also spelled Courtain, Cortana, Curtana, Cortaine or Corte) is the short sword of the legen"
-  },
-  {
-    "iso": "GB",
-    "id": "gb-wyrd",
-    "n": "Wyrd",
-    "t": "Deity",
-    "eng": "Wyrd is a concept in  Anglo-Saxon culture roughly corresponding to fate or personal destiny. The wor"
+    "id": "gb-dick-whittington-and-his-cat",
+    "n": "Dick Whittington and His Cat",
+    "t": "Sea Creature",
+    "eng": "Dick Whittington and His Cat is the English folklore surrounding the real-life Richard Whittington ("
   },
   {
     "iso": "IE",
-    "id": "ie-murder-of-mary-gallagher",
-    "n": "Murder of Mary Gallagher",
-    "t": "Spirit",
-    "eng": "Mary Gallagher was a 19th-century Irish-Canadian woman who was murdered in the then-Irish dominant n"
-  },
-  {
-    "iso": "IE",
-    "id": "ie-isle-of-the-dead-mythology",
-    "n": "Isle of the Dead (mythology)",
-    "t": "Creature",
-    "eng": "The Isle of the Dead is a concept from pre-Christian Europe of an island to the west where souls wen"
-  },
-  {
-    "iso": "IE",
-    "id": "ie-caladbolg",
-    "n": "칼라드볼그",
-    "t": "Creature",
-    "eng": "Caladbolg (\"hard cleft\", also spelled Caladcholg, \"hard blade\") is the sword of Fergus mac Róich fro"
+    "id": "ie-a-house-of-pomegranates",
+    "n": "A House of Pomegranates",
+    "t": "Fairy",
+    "eng": "A House of Pomegranates is a collection of fairy tales written by Oscar Wilde, published in 1891. It"
   },
   {
     "iso": "FR",
@@ -301,46 +161,32 @@
     "eng": "Gradlon the Great (Gradlon Meur) was a semi-legendary 5th century \"king\" of Cornouaille who became t"
   },
   {
-    "iso": "FR",
-    "id": "fr-on-the-demonomania-of-the-sorcerers",
-    "n": "On the Demonomania of the Sorcerers",
-    "t": "Demon",
-    "eng": "On the Demonomania of the Sorcerers (French: De la démonomanie des sorciers) is a treatise on witchc"
-  },
-  {
-    "iso": "FR",
-    "id": "fr-durendal",
-    "n": "Durendal",
-    "t": "Creature",
-    "eng": "Durendal, also spelled Durandal, is the sword of Roland, a legendary paladin and partially historica"
-  },
-  {
     "iso": "DE",
-    "id": "de-deutsche-sagen",
-    "n": "Deutsche Sagen",
+    "id": "de-german-folklore",
+    "n": "German folklore",
+    "t": "Creature",
+    "eng": "German folklore is the folk tradition which has developed in Germany over a number of centuries. See"
+  },
+  {
+    "iso": "NO",
+    "id": "no-norwegian-folktales",
+    "n": "Norwegian Folktales",
+    "t": "Creature",
+    "eng": "Norwegian Folktales (Norwegian: Norske folkeeventyr) is a collection of Norwegian folktales and lege"
+  },
+  {
+    "iso": "SE",
+    "id": "se-among-gnomes-and-trolls",
+    "n": "Among Gnomes and Trolls",
     "t": "Fairy",
-    "eng": "Deutsche Sagen (\"German Legends\") is a publication by the Brothers Grimm, appearing in two volumes i"
-  },
-  {
-    "iso": "DE",
-    "id": "de-deutsche-mythologie",
-    "n": "Deutsche Mythologie",
-    "t": "Creature",
-    "eng": "Deutsche Mythologie (German: [ˈdɔʏtʃə mytoloˈɡiː], Teutonic Mythology) is a treatise on Germanic myt"
-  },
-  {
-    "iso": "FI",
-    "id": "fi-metsanpeitto",
-    "n": "Metsänpeitto",
-    "t": "Beast",
-    "eng": "Metsänpeitto (Finnish pronunciation: [ˈmetsæmˌpei̯tːo], lit. forest's cover) is a term in Finnish fo"
+    "eng": "Among Gnomes and Trolls (Swedish: Bland tomtar och troll), is a popular Swedish folklore and fairy t"
   },
   {
     "iso": "IS",
-    "id": "is-husafell-stone",
-    "n": "Húsafell Stone",
-    "t": "Beast",
-    "eng": "The Húsafell Stone is a legendary lifting stone weighing 186 kg (410 lb) located in a west country f"
+    "id": "is-salin-hans-jons-mins",
+    "n": "Sálin hans Jóns míns",
+    "t": "Creature",
+    "eng": "Sálin hans Jóns míns (literally The Soul of Jón) is an Icelandic folklore legend."
   },
   {
     "iso": "SCT",
@@ -364,20 +210,6 @@
     "eng": "Cythraul (formerly also Kythreul and Cythrawl) is a Welsh language word for Satan or other incarnati"
   },
   {
-    "iso": "WLS",
-    "id": "wls-british-goblins",
-    "n": "British Goblins",
-    "t": "Fairy",
-    "eng": "British Goblins: Welsh Folk-Lore, Fairy Mythology, Legends and Traditions is an 1880 book on Welsh f"
-  },
-  {
-    "iso": "GR",
-    "id": "gr-bendidia",
-    "n": "Bendidia",
-    "t": "Deity",
-    "eng": "The Bendidia was an ancient Athenian festival celebrating the Thracian goddess Bendis.  It was celeb"
-  },
-  {
     "iso": "GR",
     "id": "gr-thrasos",
     "n": "Thrasos",
@@ -386,17 +218,17 @@
   },
   {
     "iso": "GR",
-    "id": "gr-all-things-are-full-of-gods",
-    "n": "All Things Are Full of Gods",
-    "t": "Deity",
-    "eng": "All Things Are Full of Gods is a 2024 book by philosopher and religious studies scholar David Bentle"
+    "id": "gr-modern-greek-folklore",
+    "n": "Modern Greek folklore",
+    "t": "Serpent",
+    "eng": "Greek folklore is the folk tradition that has developed among the Greek people in and outside Greece"
   },
   {
     "iso": "GR",
-    "id": "gr-damian-and-the-dragon-modern-greek-folk-tales",
-    "n": "Damian and the Dragon: Modern Greek Folk-Tales",
-    "t": "Serpent",
-    "eng": "Damian and the Dragon: Modern Greek Folk-Tales is a 1965 anthology of 21 tales that have been collec"
+    "id": "gr-the-demigod-diaries",
+    "n": "The Demigod Diaries",
+    "t": "Deity",
+    "eng": "The Demigod Diaries is a collection of short stories relating to The Heroes of Olympus book series."
   },
   {
     "iso": "RU",
@@ -406,25 +238,25 @@
     "eng": "Gostomysl (Russian: Гостомысл, Russian pronunciation: [ɡəstɐˈmɨsl]) was a legendary 9th-century prin"
   },
   {
-    "iso": "RU",
-    "id": "ru-antillia",
-    "n": "안티이아",
-    "t": "Spirit",
-    "eng": "Antillia or Antilia is a phantom island that was reputed, during the 15th-century age of exploration"
+    "iso": "CZ",
+    "id": "cz-czech-folklore",
+    "n": "Czech folklore",
+    "t": "Creature",
+    "eng": "Czech folklore is the folk tradition which has developed among the Czech people over a number of cen"
   },
   {
-    "iso": "RU",
-    "id": "ru-brittia",
-    "n": "Brittia",
-    "t": "Sea Creature",
-    "eng": "Brittia (Βριττία), according to Procopius, was an island known to the inhabitants of the Low Countri"
+    "iso": "BG",
+    "id": "bg-bulgarian-folk-songs",
+    "n": "Bulgarian Folk Songs",
+    "t": "Creature",
+    "eng": "Bulgarian Folk Songs is a collection of folk songs and traditions from the then Ottoman Empire, espe"
   },
   {
-    "iso": "RU",
-    "id": "ru-sword-kladenets",
-    "n": "클라데네츠",
-    "t": "Fairy",
-    "eng": "Sword Kladenets (also mech-kladenets; Russian: меч-кладенец. [mʲetɕ klədʲɪˈnʲets]) is a magic sword "
+    "iso": "BG",
+    "id": "bg-grandfather-ivan-historical-myth",
+    "n": "Grandfather Ivan (historical myth)",
+    "t": "Creature",
+    "eng": "Grandfather Ivan (Bulgarian: Дядо Иван) is a folklore image of Russia in the minds of Bulgarians fro"
   },
   {
     "iso": "IT",
@@ -434,53 +266,32 @@
     "eng": "Aequitas (genitive aequitatis) is the Latin concept of justice, equality, conformity, symmetry, or f"
   },
   {
-    "iso": "IT",
-    "id": "it-deus",
-    "n": "Deus",
-    "t": "Deity",
-    "eng": "Deus (Classical Latin: [ˈd̪e.ʊs], Ecclesiastical Latin: [ˈd̪ɛː.us]) is the Latin word for \"god\"  or "
-  },
-  {
-    "iso": "IT",
-    "id": "it-de-daemonialitate-et-incubis-et-succubis",
-    "n": "De Daemonialitate et Incubis et Succubis",
-    "t": "Demon",
-    "eng": "De Daemonialitate et Incubis et Succubis is a seventeen-century manuscript treatise by Italian Frans"
-  },
-  {
-    "iso": "IT",
-    "id": "it-axis-mundi",
-    "n": "Axis mundi",
+    "iso": "UA",
+    "id": "ua-ukrainian-folklore",
+    "n": "Ukrainian folklore",
     "t": "Creature",
-    "eng": "In astronomy, axis mundi is the Latin term for the axis of Earth between the celestial poles. In a g"
+    "eng": "Ukrainian folklore is the folk tradition which has developed in Ukraine and among ethnic Ukrainians."
   },
   {
-    "iso": "IT",
-    "id": "it-iron-john-a-book-about-men",
-    "n": "Iron John: A Book About Men",
-    "t": "Fairy",
-    "eng": "Iron John: A Book About Men is a book by American poet Robert Bly. It is an exegesis of Iron John, a"
-  },
-  {
-    "iso": "ES",
-    "id": "es-el-dorado",
-    "n": "El Dorado",
-    "t": "Deity",
-    "eng": "El Dorado (Spanish: [el doˈɾaðo]) is a mythical city of gold supposedly located somewhere in South A"
+    "iso": "AL",
+    "id": "al-albanian-folklore",
+    "n": "Albanian folklore",
+    "t": "Creature",
+    "eng": "Albanian folklore is the folk tradition of the Albanian people. Albanian traditions have been orally"
   },
   {
     "iso": "LT",
-    "id": "lt-anapilis",
-    "n": "Anapilis",
+    "id": "lt-romuva-religion",
+    "n": "Romuva (religion)",
     "t": "Creature",
-    "eng": "Anapilis is a fictional mountain, allegedly the place of the afterlife in the pagan mythology of anc"
+    "eng": "Romuva is a neo-pagan religion derived from the traditional mythology of the Lithuanians, attempting"
   },
   {
-    "iso": "LT",
-    "id": "lt-interpretatio-slavica",
-    "n": "Interpretatio slavica",
-    "t": "Deity",
-    "eng": "Interpretatio slavica is the practice by the Slavic peoples to identify the gods of neighboring peop"
+    "iso": "NG",
+    "id": "ng-trinidad-orisha",
+    "n": "Trinidad Orisha",
+    "t": "Spirit",
+    "eng": "Trinidad Orisha, also known as Orisha religion and Shango, is a syncretic religion in Trinidad and T"
   },
   {
     "iso": "US",
@@ -491,66 +302,31 @@
   },
   {
     "iso": "US",
-    "id": "us-bell-witch-cave",
-    "n": "Bell Witch Cave",
-    "t": "Sorcerer",
-    "eng": "The Bell Witch Cave is a karst cave located in Robertson County, Tennessee near the city of Adams, w"
+    "id": "us-pueblo-religion",
+    "n": "Pueblo religion",
+    "t": "Spirit",
+    "eng": "Pueblo religion is the religion of the Puebloans, a group of Native American tribes in the Southwest"
   },
   {
     "iso": "US",
-    "id": "us-the-inland-whale",
-    "n": "The Inland Whale",
-    "t": "Demon",
-    "eng": "The Inland Whale is a 1959 book by Theodora Kroeber. It is a retelling of nine pieces of Indigenous "
-  },
-  {
-    "iso": "US",
-    "id": "us-daniels-maryland",
-    "n": "Daniels, Maryland",
-    "t": "Spirit",
-    "eng": "Daniels is a ghost town straddling the Patapsco River east of Woodstock and north of Old Ellicott Ci"
-  },
-  {
-    "iso": "MX",
-    "id": "mx-cerro-colorado-arizona",
-    "n": "Cerro Colorado, Arizona",
-    "t": "Spirit",
-    "eng": "Cerro Colorado is a ghost town in southern Pima County, Arizona. The town is located off Arivaca Roa"
-  },
-  {
-    "iso": "MX",
-    "id": "mx-alamocita-new-mexico",
-    "n": "Alamocita, New Mexico",
-    "t": "Spirit",
-    "eng": "Alamocita, initially called New Alamosa, was a later 19th century native New Mexican frontier settle"
-  },
-  {
-    "iso": "MX",
-    "id": "mx-balankanche",
-    "n": "Balankanche",
-    "t": "Deity",
-    "eng": "Balankanche (also Balancanche, Balaamcanche, Balaancanche) is an ancient Maya cave site lying at sho"
-  },
-  {
-    "iso": "PE",
-    "id": "pe-inti-raymi",
-    "n": "Inti Raymi",
-    "t": "Deity",
-    "eng": "The Inti Raymi (Quechua for \"Inti festival\") is a traditional religious ceremony of the Inca Empire "
-  },
-  {
-    "iso": "PE",
-    "id": "pe-pacha-inca-mythology",
-    "n": "Pacha (Inca mythology)",
-    "t": "Creature",
-    "eng": "The pacha (Quechua pronunciation: [pætʃæ]) is an Andean cosmological concept associating the physica"
-  },
-  {
-    "iso": "PE",
-    "id": "pe-paqarina",
-    "n": "Paqarina",
+    "id": "us-mules-and-men",
+    "n": "Mules and Men",
     "t": "Sea Creature",
-    "eng": "Paqarina is a Quechua term that ancient Andeans used to describe the place of origin, and final dest"
+    "eng": "Mules and Men is a 1935 autoethnographical collection of African-American folklore collected and wri"
+  },
+  {
+    "iso": "US",
+    "id": "us-the-people-could-fly",
+    "n": "The People Could Fly",
+    "t": "Fairy",
+    "eng": "The People Could Fly: American Black Folktales is a 1985 collection of twenty-four folktales retold "
+  },
+  {
+    "iso": "CA",
+    "id": "ca-inuit-religion",
+    "n": "Inuit religion",
+    "t": "Spirit",
+    "eng": "Inuit religion is the traditional religion of Inuit people. It is practiced within Inuit communities"
   },
   {
     "iso": "PE",
@@ -560,73 +336,24 @@
     "eng": "In the ancient religion and mythology of Peru, Ecuador, and Bolivia, an apu is the term used to desc"
   },
   {
-    "iso": "CL",
-    "id": "cl-piedra-santa",
-    "n": "Piedra Santa",
+    "iso": "AU",
+    "id": "au-australian-legendary-tales",
+    "n": "Australian Legendary Tales",
     "t": "Creature",
-    "eng": "Piedra Santa is a large rock outcrop near Malalcahuello in Araucanía Region, Chile. It is best known"
-  },
-  {
-    "iso": "CL",
-    "id": "cl-cueva-del-pirata",
-    "n": "Cueva del Pirata",
-    "t": "Sea Creature",
-    "eng": "Cueva del Pirata, Spanish for \"Cave of the Pirate\" is a sea cave in the town of Quintero, near Valpa"
-  },
-  {
-    "iso": "AU",
-    "id": "au-the-giant-devil-dingo",
-    "n": "The Giant Devil Dingo",
-    "t": "Demon",
-    "eng": "The Giant Devil Dingo (1973) is a picture book for children by Dick Roughsey. It describes how the d"
-  },
-  {
-    "iso": "AU",
-    "id": "au-anzac-spirit",
-    "n": "Anzac spirit",
-    "t": "Spirit",
-    "eng": "The ANZAC spirit or ANZAC legend is a concept which suggests that Australian and New Zealand soldier"
-  },
-  {
-    "iso": "NZ",
-    "id": "nz-alfro-ull",
-    "n": "Álfröðull",
-    "t": "Deity",
-    "eng": "Álfröðull (Old Norse \"elf-beam\", \"elf-disc\" or \"elf-glory, elf-heaven\") is a term and common kenning"
-  },
-  {
-    "iso": "WS",
-    "id": "ws-fagogo",
-    "n": "Fāgogo",
-    "t": "Folktale",
-    "eng": "Fāgogo is a word in the Samoan language to describe a type of storytelling of the Samoa Islands.  It"
-  },
-  {
-    "iso": "WS",
-    "id": "ws-norse-gods-and-giants",
-    "n": "Norse Gods and Giants",
-    "t": "Giant",
-    "eng": "Norse Gods and Giants is a children's book written and illustrated by Ingri and Edgar Parin d'Aulair"
-  },
-  {
-    "iso": "LV",
-    "id": "lv-necrobotics",
-    "n": "Necrobotics",
-    "t": "Demon",
-    "eng": "Necrobotics is the practice of using biotic materials (or dead organisms) as robotic components. Nec"
+    "eng": "Australian Legendary Tales is a translated collection of stories told to K. Langloh Parker by Austra"
   },
   {
     "iso": "EE",
-    "id": "ee-ukko-island",
-    "n": "우코섬",
-    "t": "Sea Creature",
-    "eng": "Ukko (Inari Sami: Äijih) is an island in Lake Inari, Finnish Lapland. The area of the lake is called"
+    "id": "ee-estonian-folklore-archives",
+    "n": "Estonian Folklore Archives",
+    "t": "Creature",
+    "eng": "The Estonian Folklore Archives (EFA) is the central folklore archives in Estonia. The Archives funct"
   },
   {
-    "iso": "EE",
-    "id": "ee-monumenta-estoniae-antiquae",
-    "n": "Monumenta Estoniae Antiquae",
+    "iso": "AZ",
+    "id": "az-azerbaijani-folklore",
+    "n": "Azerbaijani folklore",
     "t": "Creature",
-    "eng": "The Monumenta Estoniae Antiquae is an academic publication series of Estonian folklore, including fo"
+    "eng": "Azerbaijani folklore (Azerbaijani: Azərbaycan folkloru) is the folk tradition of Azerbaijani people."
   }
 ]

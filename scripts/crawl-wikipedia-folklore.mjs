@@ -665,10 +665,44 @@ function guessVisualKeywords(title, type, extract) {
 }
 
 // 한국어 설명 생성 (한국어 위키 기사면 직접 사용, 아니면 템플릿)
+// ═══════════════════════════════════════════════════════════════
+//  설명 절단 — 단어/문장 중간에서 끊기지 않게
+//  (구버전은 substring(0,100) 하드컷이라 "is one type of supernatura"
+//   처럼 단어 중간에서 끊긴 설명이 대량 생성됐다)
+// ═══════════════════════════════════════════════════════════════
+
+// 마침표가 문장 끝이 아니라 약어인 경우 (c. 1300 / e.g. / pl. / Gr. …)
+const ABBREV = /\b(?:c|ca|e\.g|i\.e|cf|pl|sg|lit|var|approx|no|vol|ch|St|Mt|Dr|Mr|Mrs|Ms|Jr|Sr|Gr|Lat|Skt|Jp|Kor|Chin|fl|r|d|b)\.$/i;
+
+function clipExtract(extract, max = 100) {
+  const text = (extract || '').replace(/\s+/g, ' ').trim();
+  if (!text) return '';
+  if (text.length <= max) return text;
+
+  // 1) max 이내의 마지막 문장 경계에서 끊는다 (약어 마침표는 제외)
+  const window = text.slice(0, max + 1);
+  const sentenceEnd = /[.!?](?=\s|$)/g;
+  let cut = -1, m;
+  while ((m = sentenceEnd.exec(window)) !== null) {
+    const upto = window.slice(0, m.index + 1);
+    if (ABBREV.test(upto)) continue;      // "c. 1300" 류는 문장 끝이 아님
+    cut = m.index + 1;
+  }
+  // 너무 앞에서 끊기면(절반 미만) 문장 경계를 포기하고 단어 경계로 간다
+  if (cut >= Math.floor(max * 0.5)) return text.slice(0, cut).trim();
+
+  // 2) 단어 경계에서 끊고 잘렸음을 …로 표시
+  let clipped = text.slice(0, max);
+  const lastSpace = clipped.lastIndexOf(' ');
+  if (lastSpace > 0) clipped = clipped.slice(0, lastSpace);
+  clipped = clipped.replace(/[\s,;:(\[]+$/, '');
+  return clipped + '…';
+}
+
 function generateKoreanDescription(article, type, iso) {
   if (article.lang === 'ko' && article.extract) {
     // 한국어 위키 기사 → 직접 사용 (최대 200자)
-    return article.extract.replace(/\n/g, ' ').substring(0, 200);
+    return clipExtract(article.extract, 200);
   }
   // 영어 기사 → 템플릿 기반 한국어 설명
   const regionMap = {
@@ -682,7 +716,7 @@ function generateKoreanDescription(article, type, iso) {
     PE: '페루', ET: '에티오피아', KH: '캄보디아', HU: '헝가리',
   };
   const region = regionMap[iso] || '세계';
-  const engDesc = (article.extract || '').substring(0, 100).replace(/\n/g, ' ');
+  const engDesc = clipExtract(article.extract, 100);
   return `${region} 설화에 등장하는 ${type}. ${engDesc}`;
 }
 
@@ -846,7 +880,7 @@ function isDuplicate(creature, data, state) {
 // ═══════════════════════════════════════════════════════════════
 
 // 보어가 생물이 아님을 드러내는 명사 (하드: 무조건 비생물). term/word는 아래 별도 처리.
-const NC_HARD = 'book(?:\\s+series)?|manuscript|anthology|compilation|publication|treatise|' +
+const NC_HARD = 'book(?:\\s+series)?|manuscript|anthology|collection|compilation|publication|treatise|' +
   'ritual(?:istic)?|practice|ceremony|festival|custom|holiday|rite|dance|' +
   'concept|proverb|saying|' +
   'village|town|city|cave|grotto|valley|castle|fortress|palace|ruin|' +
@@ -854,7 +888,10 @@ const NC_HARD = 'book(?:\\s+series)?|manuscript|anthology|compilation|publicatio
   'sword|blade|spear|dagger|statue|monument|obelisk|painting|artifact|relic|amulet|talisman';
 // soft: 장소명사지만 생물 수식어(lake monster·forest spirit 등)일 땐 통과
 const NC_SOFT = 'mountain|hill|lake|river|forest|woods|island|peninsula|spring|waterfall|swamp|' +
-  '(?:sacred\\s+)?stone|rock(?:\\s+formation)?';
+  '(?:sacred\\s+)?stone|rock(?:\\s+formation)?|' +
+  // 2026-08-22 추가 — 개론·전통 문서 차단 (German folklore·Meitei folklore·Dinka religion 류).
+  // soft라서 "folklore figure"·"mountain god"처럼 뒤에 생물어가 오면 통과된다.
+  'folklore|mythology|tradition|religion|spirituality|shamanism|animism';
 // 명사 뒤에 오면 '진짜 생물'로 보는 단어들 (man/woman/folk = forest man 류 구제)
 const NC_BEING = 'monster|serpent|spirit|dragon|demon|god|goddess|deity|beast|creature|being|' +
   'nymph|giant|troll|fairy|ghost|wyrm|guardian|naga|deva|dwarf|elf|imp|devil|maiden|hag|witch|sprite|' +
@@ -903,7 +940,7 @@ function isCreatureArticle(article) {
   // 한국어 미디어 기사 (드라마/방송 에피소드 목록 등 — '전설의 고향 - 1996년' 류)
   if (/방영|드라마|시리즈|영화화|애니메이션/.test(text) && /KBS|MBC|SBS|tvN|채널/.test(text)) return false;
   // 존재(being)가 아닌 것들: 인물·천체·조형물·서적·식물·유사과학 등
-  if (/\b(asteroid|obelisk|statue|sculpture|monument|fountain|novelist|author|writer|historian|essayist|non-?fiction|pseudoscien|proverb|execution method|ekadashi|cultivar)\b/.test(text)) return false;
+  if (/\b(asteroid|obelisk|statue|sculpture|monument|fountain|novelist|author|writer|historian|folklorist|essayist|non-?fiction|pseudoscien|proverb|execution method|ekadashi|cultivar)\b/.test(text)) return false;
   if (/소설가|作家|평론가|저술가|천문학|소행성|기념비|조각상|출판사|단행본/.test(text)) return false;
   // 연도로 시작하는 제목 (TV 프로그램 등)
   if (/^\d{4}\s/.test(title)) return false;
@@ -1138,5 +1175,5 @@ if (isDirectRun) {
 export {
   guessCountryFromText, countryScores, COUNTRY_KEYWORDS, isFolkloreRelatedCategory,
   buildCreatureFromArticle, fetchArticleDetail, isCreatureArticle, isDuplicate,
-  looksNonCreatureSubject, loadData, saveData, mk,
+  looksNonCreatureSubject, clipExtract, loadData, saveData, mk,
 };
