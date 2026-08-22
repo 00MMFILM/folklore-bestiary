@@ -1326,5 +1326,12 @@
   "gb-peg-powler": "/creatures/europe/peg-powler.webp",
   "ie-kilkenny-cats": "/creatures/europe/kilkenny-cats.webp",
   "de-petermannchen": "/creatures/europe/petermannchen.webp",
-  "no-habrok": "/creatures/europe/habrok.webp"
+  "no-habrok": "/creatures/europe/habrok.webp",
+  "no-ra": "/creatures/europe/ra.webp",
+  "se-elsa-thomasdotter": "/creatures/europe/elsa-thomasdotter.webp",
+  "gr-actaeon": "/creatures/europe/actaeon.webp",
+  "gr-atalanta": "/creatures/europe/atalanta.webp",
+  "gr-sonchis-of-sais": "/creatures/europe/sonchis-of-sais.webp",
+  "gr-calydonian-boar-hunt": "/creatures/europe/calydonian-boar-hunt.webp",
+  "gr-cinnamon-bird": "/creatures/europe/cinnamon-bird.webp"
 }
