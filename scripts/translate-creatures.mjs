@@ -96,6 +96,15 @@ function extractCreatures() {
   return creatures;
 }
 
+// ─── 문체 규칙 ───
+// 기존 번역 4,800여 건이 평서체(~이다/~한다)로 쌓여 있다. 존댓말로 번역하면
+// 사이트 안에서 문체가 뒤섞이므로 언어별로 도감 문체를 못박는다.
+const STYLE_RULES = {
+  ko: '- 반드시 평서체(~이다 / ~한다 / ~이었다)로 쓴다. 존댓말(~입니다 / ~습니다 / ~해요)은 절대 쓰지 않는다.\n- 백과사전 항목처럼 간결하게 쓴다.',
+  ja: '- 必ず常体(だ・である体)で書く。敬体(です・ます)は使わない。\n- 百科事典の項目のように簡潔に書く。',
+  zh: '- 使用书面语，简洁客观，如百科全书词条。\n- 不要使用口语或敬语表达。',
+};
+
 // ─── OpenAI Translation ───
 async function translateBatch(texts, fromLang, toLang) {
   const apiKey = process.env.OPENAI_API_KEY;
@@ -115,7 +124,19 @@ async function translateBatch(texts, fromLang, toLang) {
       messages: [
         {
           role: "system",
-          content: `You are a professional translator specializing in folklore and mythology. Translate the following JSON from ${langNames[fromLang]} to ${langNames[toLang]}. Preserve JSON structure exactly. Keep proper nouns (creature names) in their original form. Return only valid JSON.`,
+          content: `You are a professional translator specializing in folklore and mythology. Translate the following JSON from ${langNames[fromLang]} to ${langNames[toLang]}. Preserve JSON structure exactly. The JSON keys are database IDs (e.g. "br-headless-mule", "gb-실낙원") — copy every key VERBATIM, byte for byte. NEVER translate, transliterate, or alter a key. Keep proper nouns (creature names) in their original form. Return only valid JSON.
+
+STYLE (must follow — this is an encyclopedia/bestiary, not a conversation):
+${STYLE_RULES[toLang] || ""}
+
+TERMINOLOGY:
+- Creature type labels stay in English exactly as written: Deity, Creature, Spirit, Fairy, Serpent, Demon, Beast, Sea Creature, Giant, Bird, Vengeful Ghost, Folktale, Vampire, Monster, Sorcerer, Urban Legend, Ghost, Witch, Water Spirit, Trickster, Cryptid, Hero, Undead, Shapeshifter, Dragon, Divine Beast, Werewolf, Forest Spirit.
+  They are classification labels used by the site's filters, and the existing 4,800+ translations keep them in English.
+  e.g. "한국 설화에 등장하는 Spirit." stays "한국 설화에 등장하는 Spirit." — never "영혼" or "정령".
+
+ACCURACY:
+- Translate place names by meaning, not by literal word. e.g. "Heaven Lake" is the lake 천지/天池, not "the sky".
+- If the source text ends mid-thought with an ellipsis (… or ...), keep it at the end. Do not invent an ending.`,
         },
         {
           role: "user",
@@ -134,8 +155,24 @@ async function translateBatch(texts, fromLang, toLang) {
   const content = data.choices[0].message.content.trim();
 
   // Parse JSON from response (handle markdown code blocks)
-  const jsonStr = content.replace(/^```json?\n?/, "").replace(/\n?```$/, "");
-  return JSON.parse(jsonStr);
+  let jsonStr = content.replace(/^```json?\n?/, "").replace(/\n?```$/, "");
+  try {
+    return JSON.parse(jsonStr);
+  } catch (e) {
+    // LLM이 문자열 리터럴 안에 raw 개행/제어문자를 넣어 깨뜨리는 경우가 잦다.
+    // 따옴표 안에 있는 제어문자만 이스케이프해서 한 번 더 시도한다.
+    let out = "", inStr = false, esc = false;
+    for (const ch of jsonStr) {
+      if (esc) { out += ch; esc = false; continue; }
+      if (ch === "\\") { out += ch; esc = true; continue; }
+      if (ch === '"') { inStr = !inStr; out += ch; continue; }
+      if (inStr && ch === "\n") { out += "\\n"; continue; }
+      if (inStr && ch === "\r") { out += "\\r"; continue; }
+      if (inStr && ch === "\t") { out += "\\t"; continue; }
+      out += ch;
+    }
+    return JSON.parse(out);
+  }
 }
 
 // ─── Main ───
@@ -220,21 +257,44 @@ async function main() {
 
       console.log(`  [${locale}] Chunk ${Math.floor(i / CHUNK_SIZE) + 1}/${Math.ceil(batch.length / CHUNK_SIZE)} (${chunk.length} creatures)...`);
 
-      try {
-        const fromLang = locale === "ko" ? "en" : "en"; // d is always English
-        const translated = await translateBatch(chunkData, fromLang, locale);
-
-        for (const [id, trans] of Object.entries(translated)) {
-          result[id] = trans;
+      // 청크가 실패하면 그 20건이 통째로 유실된다(무효화 후 재번역이라 빈 자리가 남는다).
+      // 재시도하고, 그래도 안 되면 반으로 쪼개 시도한다 — 작은 청크일수록 LLM이
+      // 온전한 JSON을 낼 확률이 높다.
+      const runChunk = async (data, depth = 0) => {
+        for (let attempt = 1; attempt <= 3; attempt++) {
+          try {
+            const translated = await translateBatch(data, "en", locale);
+            // LLM이 키(id)까지 번역해버리는 일이 실제로 있었다
+            // ("br-headless-mule" → "br-无头骡"). 요청한 키가 아니면 버린다.
+            // 버려진 항목은 미번역으로 남아 다음 실행에서 자연히 재시도된다.
+            let bad = 0;
+            for (const [id, trans] of Object.entries(translated)) {
+              if (!(id in data)) { bad++; continue; }
+              result[id] = trans;
+            }
+            if (bad) console.error(`  키 변조 ${bad}건 폐기`);
+            return true;
+          } catch (err) {
+            console.error(`  chunk 실패(${attempt}/3, ${Object.keys(data).length}건): ${err.message}`);
+            await new Promise(r => setTimeout(r, 1000 * attempt));
+          }
         }
-
-        // Save progress after each chunk
-        writeFileSync(outPath, JSON.stringify(result, null, 0));
-      } catch (err) {
-        console.error(`  Error in chunk: ${err.message}`);
-        // Save what we have
-        writeFileSync(outPath, JSON.stringify(result, null, 0));
-      }
+        const keys = Object.keys(data);
+        if (depth < 3 && keys.length > 1) {
+          const mid = Math.ceil(keys.length / 2);
+          const a = {}, b = {};
+          keys.slice(0, mid).forEach(k => (a[k] = data[k]));
+          keys.slice(mid).forEach(k => (b[k] = data[k]));
+          console.error(`  → ${keys.length}건을 ${mid}/${keys.length - mid}로 쪼개 재시도`);
+          const ra = await runChunk(a, depth + 1);
+          const rb = await runChunk(b, depth + 1);
+          return ra && rb;
+        }
+        console.error(`  → 포기: ${keys.join(", ")}`);
+        return false;
+      };
+      await runChunk(chunkData);
+      writeFileSync(outPath, JSON.stringify(result, null, 0));
 
       // Small delay between chunks
       if (i + CHUNK_SIZE < batch.length) {
