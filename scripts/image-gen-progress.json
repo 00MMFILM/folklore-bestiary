@@ -1333,5 +1333,13 @@
   "gr-atalanta": "/creatures/europe/atalanta.webp",
   "gr-sonchis-of-sais": "/creatures/europe/sonchis-of-sais.webp",
   "gr-calydonian-boar-hunt": "/creatures/europe/calydonian-boar-hunt.webp",
-  "gr-cinnamon-bird": "/creatures/europe/cinnamon-bird.webp"
+  "gr-cinnamon-bird": "/creatures/europe/cinnamon-bird.webp",
+  "gr-arae": "/creatures/europe/arae.webp",
+  "gr-orestes-mythology": "/creatures/europe/orestes-mythology.webp",
+  "hu-hadur": "/creatures/europe/hadur.webp",
+  "es-mari-goddess": "/creatures/europe/mari-goddess.webp",
+  "us-african-american-folktales": "/creatures/americas/african-american-folktales.webp",
+  "kr-beasts-of-asia": "/creatures/east-asia/beasts-of-asia.webp",
+  "jp-fukurokuju": "/creatures/east-asia/fukurokuju.webp",
+  "jp-mintuci": "/creatures/east-asia/mintuci.webp"
 }
