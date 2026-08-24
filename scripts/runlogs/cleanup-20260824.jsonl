@@ -1,0 +1,52 @@
+{"act":"remove-creature","id":"kr-bon-puri","n":"본풀이","t":"Deity","iso":"KR","country":"Korea","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"kr-gogeumsochong","n":"고금소총","t":"Sea Creature","iso":"KR","country":"Korea","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"kr-korean-shamanism","n":"Korean shamanism","t":"Spirit","iso":"KR","country":"Korea","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"jp-japanese-urban-legends","n":"Japanese urban legends","t":"Spirit","iso":"JP","country":"Japan","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"cn-chinese-flood-myths","n":"Chinese flood myths","t":"Creature","iso":"CN","country":"China","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"in-meitei-folklore","n":"Meitei folklore","t":"Creature","iso":"IN","country":"India","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"bd-sylhet-gitika","n":"Sylhet Gitika","t":"Creature","iso":"BD","country":"Bangladesh","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"sa-hausa-animism","n":"Hausa animism","t":"Spirit","iso":"SA","country":"Saudi Arabia","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"sa-dinka-religion","n":"Dinka religion","t":"Spirit","iso":"SA","country":"Saudi Arabia","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"ie-a-house-of-pomegranates","n":"A House of Pomegranates","t":"Fairy","iso":"IE","country":"Ireland","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"de-german-folklore","n":"German folklore","t":"Creature","iso":"DE","country":"Germany","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"no-norwegian-folktales","n":"Norwegian Folktales","t":"Creature","iso":"NO","country":"Norway","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"se-among-gnomes-and-trolls","n":"Among Gnomes and Trolls","t":"Fairy","iso":"SE","country":"Sweden","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"gr-modern-greek-folklore","n":"Modern Greek folklore","t":"Serpent","iso":"GR","country":"Greece","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"gr-the-demigod-diaries","n":"The Demigod Diaries","t":"Deity","iso":"GR","country":"Greece","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"cz-czech-folklore","n":"Czech folklore","t":"Creature","iso":"CZ","country":"Czech Republic","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"cz-the-golem-leivick","n":"The Golem (Leivick)","t":"Vampire","iso":"CZ","country":"Czech Republic","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"bg-bulgarian-folk-songs","n":"Bulgarian Folk Songs","t":"Creature","iso":"BG","country":"Bulgaria","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"bg-grandfather-ivan-historical-myth","n":"Grandfather Ivan (historical myth)","t":"Creature","iso":"BG","country":"Bulgaria","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"ua-ukrainian-folklore","n":"Ukrainian folklore","t":"Creature","iso":"UA","country":"Ukraine","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"al-albanian-folklore","n":"Albanian folklore","t":"Creature","iso":"AL","country":"Albania","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"lt-romuva-religion","n":"Romuva (religion)","t":"Creature","iso":"LT","country":"Lithuania","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"ng-oba-ko-so","n":"Ọba kò so","t":"Creature","iso":"NG","country":"Nigeria","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"ng-trinidad-orisha","n":"Trinidad Orisha","t":"Spirit","iso":"NG","country":"Nigeria","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"us-pueblo-religion","n":"Pueblo religion","t":"Spirit","iso":"US","country":"United States","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"us-mules-and-men","n":"Mules and Men","t":"Sea Creature","iso":"US","country":"United States","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"us-the-people-could-fly","n":"The People Could Fly","t":"Fairy","iso":"US","country":"United States","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"ca-inuit-religion","n":"Inuit religion","t":"Spirit","iso":"CA","country":"Canada","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"au-australian-legendary-tales","n":"Australian Legendary Tales","t":"Creature","iso":"AU","country":"Australia","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"ee-baltic-finnic-creation-myths","n":"Baltic Finnic creation myths","t":"Deity","iso":"EE","country":"Estonia","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"ee-estonian-folklore-archives","n":"Estonian Folklore Archives","t":"Creature","iso":"EE","country":"Estonia","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"az-azerbaijani-folklore","n":"Azerbaijani folklore","t":"Creature","iso":"AZ","country":"Azerbaijan","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-creature","id":"az-koroghlu-opera","n":"Koroghlu (opera)","t":"Creature","iso":"AZ","country":"Azerbaijan","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-imagemap","id":"kr-bon-puri","key":"bon-puri","path":"/creatures/east-asia/bon-puri.webp","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-imagemap","id":"jp-japanese-urban-legends","key":"japanese-urban-legends","path":"/creatures/east-asia/japanese-urban-legends.webp","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-imagemap","id":"cz-the-golem-leivick","key":"the-golem-leivick","path":"/creatures/europe/the-golem-leivick.webp","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-imagemap","id":"bg-bulgarian-folk-songs","key":"bulgarian-folk-songs","path":"/creatures/europe/bulgarian-folk-songs.webp","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-imagemap","id":"lt-romuva-religion","key":"romuva-religion","path":"/creatures/europe/romuva-religion.webp","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-imagemap","id":"ng-oba-ko-so","key":"oba-ko-so","path":"/creatures/africa/oba-ko-so.webp","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-imagemap","id":"us-mules-and-men","key":"mules-and-men","path":"/creatures/americas/mules-and-men.webp","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"remove-imagemap","id":"az-koroghlu-opera","key":"koroghlu-opera","path":"/creatures/south-asia/koroghlu-opera.webp","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"delete-file","path":"/public/creatures/east-asia/bon-puri.webp","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"delete-file","path":"/public/creatures/east-asia/japanese-urban-legends.webp","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"delete-file","path":"/public/creatures/europe/the-golem-leivick.webp","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"delete-file","path":"/public/creatures/europe/bulgarian-folk-songs.webp","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"delete-file","path":"/public/creatures/europe/romuva-religion.webp","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"delete-file","path":"/public/creatures/africa/oba-ko-so.webp","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"delete-file","path":"/public/creatures/americas/mules-and-men.webp","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"delete-file","path":"/public/creatures/south-asia/koroghlu-opera.webp","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"delete-article","path":"/content/articles/kr-bon-puri.json","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"delete-article","path":"/content/articles/kr-gogeumsochong.json","ts":"2026-08-24T03:49:54.433Z"}
+{"act":"delete-article","path":"/content/articles/kr-korean-shamanism.json","ts":"2026-08-24T03:49:54.433Z"}
