@@ -25,13 +25,16 @@ import path from 'path';
 const ROOT = process.cwd();
 const SP = '/private/tmp/claude-501/-Users-leechangyeop/e91821c5-edff-4c4f-9203-2b1bb3b104d6/scratchpad';
 const DATA_PATH = path.join(ROOT, 'lib', 'folklore-data.ts');
-const RUNLOG = path.join(ROOT, 'scripts', 'runlogs', 'cleanup-20260824.jsonl');
 const DRY = process.argv.includes('--dry');
+// 2차 이후 실행분은 목록·런로그를 따로 지정한다 (1차 런로그를 덮어쓰지 않게)
+const argOf = k => { const i = process.argv.indexOf(k); return i > -1 ? process.argv[i + 1] : null; };
+const IDS_FILE = argOf('--ids') || 'delete-ids.json';
+const RUNLOG = path.join(ROOT, 'scripts', 'runlogs', argOf('--log') || 'cleanup-20260824.jsonl');
 
 const DATA_MARKER = 'export const FOLKLORE_DATA: CountryData[] = ';
 const IMG_MARKER = 'export const CREATURE_IMAGE_MAP: Record<string, string> = ';
 
-const targets = new Set(JSON.parse(fs.readFileSync(path.join(SP, 'delete-ids.json'), 'utf8')));
+const targets = new Set(JSON.parse(fs.readFileSync(path.join(SP, IDS_FILE), 'utf8')));
 console.log(`삭제 대상: ${targets.size}종`);
 
 // ── 정본 로드 (마커별로 그 줄만 교체한다) ──

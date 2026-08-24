@@ -1,0 +1,21 @@
+{"act":"remove-creature","id":"kr-wang-ryung","n":"고려 세조","t":"Hero","iso":"KR","country":"Korea","ts":"2026-08-24T04:21:27.063Z"}
+{"act":"remove-creature","id":"kr-전설의-고향","n":"전설의 고향","t":"Bird","iso":"KR","country":"Korea","ts":"2026-08-24T04:21:27.063Z"}
+{"act":"remove-creature","id":"kr-전설의-고향-1996년","n":"전설의 고향 - 1996년","t":"Creature","iso":"KR","country":"Korea","ts":"2026-08-24T04:21:27.063Z"}
+{"act":"remove-creature","id":"kr-전설의-고향-1997년","n":"전설의 고향 - 1997년","t":"Deity","iso":"KR","country":"Korea","ts":"2026-08-24T04:21:27.063Z"}
+{"act":"remove-creature","id":"kr-전설의-고향-1998년","n":"전설의 고향 - 1998년","t":"Creature","iso":"KR","country":"Korea","ts":"2026-08-24T04:21:27.063Z"}
+{"act":"remove-creature","id":"kr-전설의-고향-1999년","n":"전설의 고향 - 1999년","t":"Creature","iso":"KR","country":"Korea","ts":"2026-08-24T04:21:27.063Z"}
+{"act":"remove-creature","id":"kr-함흥차사","n":"함흥차사","t":"Serpent","iso":"KR","country":"Korea","ts":"2026-08-24T04:21:27.063Z"}
+{"act":"remove-creature","id":"kr-mausoleum-of-tangun","n":"단군릉","t":"Sea Creature","iso":"KR","country":"Korea","ts":"2026-08-24T04:21:27.063Z"}
+{"act":"remove-creature","id":"kr-gegege-no-kitaro","n":"게게게의 기타로","t":"Spirit","iso":"KR","country":"Korea","ts":"2026-08-24T04:21:27.063Z"}
+{"act":"remove-creature","id":"kr-budoji","n":"부도지","t":"Serpent","iso":"KR","country":"Korea","ts":"2026-08-24T04:21:27.063Z"}
+{"act":"remove-creature","id":"jp-gappa-the-triphibian-monster","n":"대괴수 갓파","t":"Monster","iso":"JP","country":"Japan","ts":"2026-08-24T04:21:27.063Z"}
+{"act":"remove-creature","id":"jp-sarazanmai","n":"사라잔마이","t":"Creature","iso":"JP","country":"Japan","ts":"2026-08-24T04:21:27.063Z"}
+{"act":"remove-creature","id":"jp-this-monster-wants-to-eat-me","n":"나를 먹고 싶은, 괴물","t":"Demon","iso":"JP","country":"Japan","ts":"2026-08-24T04:21:27.063Z"}
+{"act":"remove-creature","id":"jp-a-terrified-teacher-at-ghoul-school","n":"요괴 학교 선생님이 되었습니다!","t":"Creature","iso":"JP","country":"Japan","ts":"2026-08-24T04:21:27.063Z"}
+{"act":"remove-creature","id":"cn-요괴메카드","n":"요괴메카드","t":"Spirit","iso":"CN","country":"China","ts":"2026-08-24T04:21:27.063Z"}
+{"act":"remove-creature","id":"us-jan-harold-brunvand","n":"얀 해럴드 브룬번드","t":"Serpent","iso":"US","country":"United States","ts":"2026-08-24T04:21:27.063Z"}
+{"act":"remove-imagemap","id":"kr-전설의-고향","key":"전설의-고향","path":"/creatures/east-asia/전설의-고향.webp","ts":"2026-08-24T04:21:27.063Z"}
+{"act":"remove-imagemap","id":"kr-mausoleum-of-tangun","key":"mausoleum-of-tangun","path":"/creatures/east-asia/mausoleum-of-tangun.webp","ts":"2026-08-24T04:21:27.063Z"}
+{"act":"delete-file","path":"/public/creatures/east-asia/전설의-고향.webp","ts":"2026-08-24T04:21:27.063Z"}
+{"act":"delete-file","path":"/public/creatures/east-asia/mausoleum-of-tangun.webp","ts":"2026-08-24T04:21:27.063Z"}
+{"act":"delete-article","path":"/content/articles/kr-wang-ryung.json","ts":"2026-08-24T04:21:27.063Z"}

@@ -21,7 +21,7 @@ import path from 'path';
 const ROOT = process.cwd();
 const SP = '/private/tmp/claude-501/-Users-leechangyeop/e91821c5-edff-4c4f-9203-2b1bb3b104d6/scratchpad';
 const DATA_PATH = path.join(ROOT, 'lib', 'folklore-data.ts');
-const RUNLOG = path.join(ROOT, 'scripts', 'runlogs', 'folktale-reclass-20260824.jsonl');
+const RUNLOG = path.join(ROOT, 'scripts', 'runlogs', (process.argv.indexOf('--log') > -1 ? process.argv[process.argv.indexOf('--log') + 1] : 'folktale-reclass-20260824.jsonl'));
 const DRY = process.argv.includes('--dry');
 const MARKER = 'export const FOLKLORE_DATA: CountryData[] = ';
 
@@ -33,7 +33,11 @@ const EXCLUDE = new Set([
 ]);
 
 const ids = new Set();
-for (const [file, want] of [['A-verdict.json', 'folktale'], ['B-verdict.json', 'reclass']]) {
+const argOf2 = k => { const i = process.argv.indexOf(k); return i > -1 ? process.argv[i + 1] : null; };
+const SOURCES = argOf2('--from')
+  ? argOf2('--from').split(',').map(x => { const [f, w] = x.split(':'); return [f, w]; })
+  : [['A-verdict.json', 'folktale'], ['B-verdict.json', 'reclass']];
+for (const [file, want] of SOURCES) {
   const p = path.join(SP, file);
   if (!fs.existsSync(p)) throw new Error('판정 파일 없음: ' + p);
   for (const v of JSON.parse(fs.readFileSync(p, 'utf8'))) {
