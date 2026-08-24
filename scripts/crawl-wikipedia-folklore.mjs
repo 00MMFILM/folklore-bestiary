@@ -914,6 +914,67 @@ const HIST_PERSON = [
   /\b(?:reigned|ruled)\s+(?:from|between|c\.|circa|in\b)/i,
 ];
 
+// ═══════════════════════════════════════════════════════════════
+//  한/일/중 계사 게이트
+//  looksNonCreatureSubject는 영문 extract만 검사한다. 설명이 CJK로만
+//  된 항목은 그 검사를 통째로 통과해버려서, 「전설의 고향」 KBS 드라마
+//  시리즈가 t=Bird/Creature로 등록되는 일이 있었다.
+//  정의문(첫 문장)에 비생물 명사가 서술되면 걸러낸다.
+// ═══════════════════════════════════════════════════════════════
+
+// 하드 — 이게 나오면 존재어가 함께 있어도 비생물이다.
+// (「대괴수 갓파」처럼 제목에 '괴수'가 들어간 영화가 구제되면 안 된다)
+const CJK_NC_HARD = new RegExp([
+  '드라마|영화이다|영화로|애니메이션|만화|웹툰|방영된|방영되었|시청률',
+  // 개별 이야기(고전소설·설화)는 막지 않는다 — 도감이 t=Folktale로 담기로 한 대상이다.
+  // 영문 게이트도 anthology/collection은 막되 개별 tale은 통과시킨다. 여기서는
+  // 작품집과 설화가 아닌 문학·음악 장르(향가·악장·악곡)만 막는다.
+  '향가|악장|악곡|궁중 음악|국악|희곡|오페라|사서(?:이다|인)|설화집|선집|전집|총서',
+  '무덤|고분|왕릉|사찰|사원|유적',
+  '민속학자|명예 교수|정치인|추존왕|감독의',
+  '사자성어|고사성어',
+  'ドラマ|放送された|映画である|アニメ|漫画',
+  '电视剧|电影|动画片',
+].join('|'));
+
+// 소프트 — 존재어가 같은 문장에 있으면 통과시킨다
+const CJK_NC_SOFT = new RegExp([
+  '서적|문집|저서|번역본|시집',
+  '능이다|지역이다|마을이다|도시이다|장식물|조형물',
+  '학자이다|교수이다|작가이다|소설가',
+  '축제|제사이다|의례|굿이다|풍습|명절|용어이다|개념이다|현상이다|미신이다',
+  // '~을 일컫는 말이다' = 용어 정의. 앞 수식어를 요구해 '신성한 말이다'(馬)와 구분한다
+  '(?:일컫는|가리키는|이르는|부르는|뜻하는) 말',
+  '書物|書籍|寺院|神社|遺跡|祭り|儀式|学者|教授|作家|装飾物|置物',
+  '古籍|书籍|寺庙|遗址|节日|仪式|学者|教授|作家|装饰物',
+].join('|'));
+
+// 존재를 가리키는 말 — 소프트 판정을 구제한다
+const CJK_BEING = new RegExp([
+  '신이다|신령|신수|귀신|요괴|괴물|정령|악마|악귀|도깨비|용이다|이무기|구미호',
+  '동물이다|짐승|생물이다|존재이다|존재로|신물|영물|의인화|화신|수호신|산신|해신|용왕',
+  // 신격 총칭도 존재다 — 「신들을 묶어 이르는 말」(가미노요나나오), 「부부신」(오메테오틀)
+  '신들|부부신|신격|신명|여신|남신|천신|지신|조상신',
+  '妖怪|鬼神|神獣|精霊|化身|守護神|魔物|怪物|霊獣',
+  '妖怪|鬼神|神兽|精灵|怪物|神灵|守护神',
+].join('|'));
+
+function looksNonCreatureSubjectCJK(text) {
+  const t = (text || '').replace(/\s+/g, ' ').trim();
+  if (!t) return false;
+  // CJK 문자가 거의 없으면 영문 게이트 소관이다
+  const cjk = (t.match(/[가-힣ぁ-んァ-ン一-鿿]/g) || []).length;
+  if (cjk < 10) return false;
+
+  // 정의문 = 첫 문장. 종결부호까지, 없으면 앞 120자.
+  const m = t.match(/^[\s\S]{10,300}?[.。！？]/);
+  const first = m ? m[0] : t.slice(0, 120);
+
+  if (CJK_NC_HARD.test(first)) return true;
+  if (CJK_NC_SOFT.test(first) && !CJK_BEING.test(first)) return true;
+  return false;
+}
+
 function looksNonCreatureSubject(extract) {
   const text = (extract || '').replace(/\s+/g, ' ').trim();
   if (!text) return false;
@@ -957,6 +1018,8 @@ function isCreatureArticle(article) {
 
   // 비생물 정의문 게이트 (서적·장소·풍습/의례·실존인물·사물)
   if (looksNonCreatureSubject(article.extract)) return false;
+  // 같은 판정을 CJK 정의문에도 적용한다 (영문 계사가 없는 기사 대응)
+  if (looksNonCreatureSubjectCJK(article.extract)) return false;
 
   // 설화/생물 관련 키워드 포함 확인
   const creatureIndicators = /creature|monster|spirit|demon|ghost|beast|dragon|serpent|fairy|deity|god|mytholog|folklore|legend|supernatural|cryptid|요괴|귀신|신화|전설|민담|괴물|정령|악마|용|뱀|유령/;
@@ -1175,5 +1238,5 @@ if (isDirectRun) {
 export {
   guessCountryFromText, countryScores, COUNTRY_KEYWORDS, isFolkloreRelatedCategory,
   buildCreatureFromArticle, fetchArticleDetail, isCreatureArticle, isDuplicate,
-  looksNonCreatureSubject, clipExtract, loadData, saveData, mk,
+  looksNonCreatureSubject, looksNonCreatureSubjectCJK, clipExtract, loadData, saveData, mk,
 };
