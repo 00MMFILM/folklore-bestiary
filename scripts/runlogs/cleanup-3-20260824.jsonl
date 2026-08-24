@@ -1,0 +1,8 @@
+{"act":"remove-creature","id":"kr-chakchegon","n":"고려 의조","t":"Hero","iso":"KR","country":"Korea","ts":"2026-08-24T10:44:29.884Z"}
+{"act":"remove-creature","id":"kr-badgers-animation","n":"배저 배저 배저","t":"Serpent","iso":"KR","country":"Korea","ts":"2026-08-24T10:44:29.884Z"}
+{"act":"remove-creature","id":"jp-키타로-게게게의-기타로","n":"키타로 (게게게의 기타로)","t":"Creature","iso":"JP","country":"Japan","ts":"2026-08-24T10:44:29.884Z"}
+{"act":"remove-creature","id":"jp-카사네의-늪","n":"카사네의 늪","t":"Folktale","iso":"JP","country":"Japan","ts":"2026-08-24T10:44:29.884Z"}
+{"act":"remove-creature","id":"jp-요괴워치-애니메이션","n":"요괴워치 (애니메이션)","t":"Serpent","iso":"JP","country":"Japan","ts":"2026-08-24T10:44:29.884Z"}
+{"act":"remove-imagemap","id":"kr-badgers-animation","key":"badgers-animation","path":"/creatures/east-asia/badgers-animation.webp","ts":"2026-08-24T10:44:29.884Z"}
+{"act":"delete-file","path":"/public/creatures/east-asia/badgers-animation.webp","ts":"2026-08-24T10:44:29.884Z"}
+{"act":"delete-article","path":"/content/articles/kr-chakchegon.json","ts":"2026-08-24T10:44:29.884Z"}
