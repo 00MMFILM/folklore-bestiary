@@ -1373,5 +1373,13 @@
   "om-portunes": "/creatures/south-asia/portunes.webp",
   "jp-smallpox-demon": "/creatures/east-asia/smallpox-demon.webp",
   "vn-lac-bird": "/creatures/east-asia/lac-bird.webp",
-  "in-bhasmasura": "/creatures/south-asia/bhasmasura.webp"
+  "in-bhasmasura": "/creatures/south-asia/bhasmasura.webp",
+  "in-saraswati": "/creatures/south-asia/saraswati.webp",
+  "in-vasu": "/creatures/south-asia/vasu.webp",
+  "tr-iyarri": "/creatures/south-asia/iyarri.webp",
+  "tr-ammamma": "/creatures/south-asia/ammamma.webp",
+  "iq-belet-suhnir-and-belet-terraban": "/creatures/south-asia/belet-suhnir-and-belet-terraban.webp",
+  "iq-gilgamesh": "/creatures/south-asia/gilgamesh.webp",
+  "iq-agron-of-lydia": "/creatures/south-asia/agron-of-lydia.webp",
+  "il-jesus-in-christianity": "/creatures/south-asia/jesus-in-christianity.webp"
 }
