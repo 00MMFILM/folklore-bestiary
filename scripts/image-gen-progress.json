@@ -1389,5 +1389,13 @@
   "gr-nemean-lion": "/creatures/europe/nemean-lion.webp",
   "gr-hippalectryon": "/creatures/europe/hippalectryon.webp",
   "ru-psoglav": "/creatures/europe/psoglav.webp",
-  "rs-black-arab-mythology": "/creatures/europe/black-arab-mythology.webp"
+  "rs-black-arab-mythology": "/creatures/europe/black-arab-mythology.webp",
+  "al-shurdh": "/creatures/europe/shurdh.webp",
+  "us-chernobog-and-belobog": "/creatures/americas/chernobog-and-belobog.webp",
+  "us-matshishkapeu": "/creatures/americas/matshishkapeu.webp",
+  "us-crybaby-bridge": "/creatures/americas/crybaby-bridge.webp",
+  "us-tsul-kalu": "/creatures/americas/tsul-kalu.webp",
+  "mx-lords-of-the-night": "/creatures/americas/lords-of-the-night.webp",
+  "mx-xiuhtecuhtli": "/creatures/americas/xiuhtecuhtli.webp",
+  "mx-coyolxauhqui-imperative": "/creatures/americas/coyolxauhqui-imperative.webp"
 }
