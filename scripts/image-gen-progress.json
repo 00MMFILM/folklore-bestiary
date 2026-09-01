@@ -1403,5 +1403,13 @@
   "jp-godzilla-heisei": "/creatures/east-asia/godzilla-heisei.webp",
   "jp-ae-oyna-kamuy": "/creatures/east-asia/ae-oyna-kamuy.webp",
   "cn-chang-e": "/creatures/east-asia/chang-e.webp",
-  "sa-apotheosis": "/creatures/south-asia/apotheosis.webp"
+  "sa-apotheosis": "/creatures/south-asia/apotheosis.webp",
+  "in-ushas": "/creatures/south-asia/ushas.webp",
+  "tr-luwr": "/creatures/south-asia/luwr.webp",
+  "iq-canaanite-religion": "/creatures/south-asia/canaanite-religion.webp",
+  "il-sea-goat": "/creatures/south-asia/sea-goat.webp",
+  "eg-khenti-kheti": "/creatures/africa/khenti-kheti.webp",
+  "gb-hop-o-my-thumb": "/creatures/europe/hop-o-my-thumb.webp",
+  "gb-beast-of-dean": "/creatures/europe/beast-of-dean.webp",
+  "gb-bugbear": "/creatures/europe/bugbear.webp"
 }
