@@ -1429,5 +1429,14 @@
   "pe-viracocha": "/creatures/americas/viracocha.webp",
   "au-mokoi": "/creatures/oceania/mokoi.webp",
   "ws-guayota": "/creatures/oceania/guayota.webp",
-  "jp-huri-ainu-legendary-bird": "/creatures/east-asia/huri-ainu-legendary-bird.webp"
+  "jp-huri-ainu-legendary-bird": "/creatures/east-asia/huri-ainu-legendary-bird.webp",
+  "in-gajasura": "/creatures/south-asia/gajasura.webp",
+  "in-sharabha": "/creatures/south-asia/sharabha.webp",
+  "eg-ta-bitjet": "/creatures/africa/ta-bitjet.webp",
+  "gb-jack-the-giant-killer": "/creatures/europe/jack-the-giant-killer.webp",
+  "de-snallygaster": "/creatures/europe/snallygaster.webp",
+  "no-nott": "/creatures/europe/nott.webp",
+  "wls-llamhigyn-y-dwr": "/creatures/europe/wls-llamhigyn-y-dwr.webp",
+  "gr-ariadne": "/creatures/europe/ariadne.webp",
+  "gr-hestia": "/creatures/europe/hestia.webp"
 }
