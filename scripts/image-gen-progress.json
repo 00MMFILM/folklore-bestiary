@@ -1446,5 +1446,13 @@
   "ca-jiibayaabooz": "/creatures/americas/jiibayaabooz.webp",
   "pe-inkarri": "/creatures/americas/inkarri.webp",
   "au-yalungur": "/creatures/oceania/yalungur.webp",
-  "pg-flaming-teeth": "/creatures/oceania/flaming-teeth.webp"
+  "pg-flaming-teeth": "/creatures/oceania/flaming-teeth.webp",
+  "lv-incubus": "/creatures/europe/incubus.webp",
+  "ee-ved-ava": "/creatures/europe/ved-ava.webp",
+  "ee-vanemuine-god": "/creatures/europe/vanemuine-god.webp",
+  "jp-kotan-kar-kamuy": "/creatures/east-asia/kotan-kar-kamuy.webp",
+  "iq-nergal": "/creatures/south-asia/nergal.webp",
+  "il-solomon-s-shamir": "/creatures/south-asia/solomon-s-shamir.webp",
+  "il-angel-of-the-lord": "/creatures/south-asia/angel-of-the-lord.webp",
+  "gb-father-thames": "/creatures/europe/father-thames.webp"
 }
