@@ -1481,5 +1481,14 @@
   "us-skin-walker": "/creatures/americas/skin-walker.webp",
   "mx-coyotlinahual": "/creatures/americas/coyotlinahual.webp",
   "mx-oxomoco": "/creatures/americas/oxomoco.webp",
-  "ht-baron-criminel": "/creatures/americas/baron-criminel.webp"
+  "ht-baron-criminel": "/creatures/americas/baron-criminel.webp",
+  "cl-chaotroquin": "/creatures/americas/chaotroquin.webp",
+  "in-champavati": "/creatures/south-asia/champavati.webp",
+  "tr-abakhan": "/creatures/south-asia/abakhan.webp",
+  "iq-apkallu": "/creatures/south-asia/apkallu.webp",
+  "de-the-brave-little-tailor": "/creatures/europe/the-brave-little-tailor.webp",
+  "no-freyja": "/creatures/europe/freyja.webp",
+  "gr-arachne": "/creatures/europe/arachne.webp",
+  "gr-dike-mythology": "/creatures/europe/dike-mythology.webp",
+  "us-michigan-dogman": "/creatures/americas/michigan-dogman.webp"
 }
