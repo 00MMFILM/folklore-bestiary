@@ -1490,5 +1490,13 @@
   "no-freyja": "/creatures/europe/freyja.webp",
   "gr-arachne": "/creatures/europe/arachne.webp",
   "gr-dike-mythology": "/creatures/europe/dike-mythology.webp",
-  "us-michigan-dogman": "/creatures/americas/michigan-dogman.webp"
+  "us-michigan-dogman": "/creatures/americas/michigan-dogman.webp",
+  "pe-pacha-kamaq": "/creatures/americas/pacha-kamaq.webp",
+  "kr-daejongism": "/creatures/east-asia/daejongism.webp",
+  "jp-ushi-oni": "/creatures/east-asia/ushi-oni.webp",
+  "cn-four-harmonious-animals": "/creatures/east-asia/four-harmonious-animals.webp",
+  "in-chamunda": "/creatures/south-asia/chamunda.webp",
+  "ir-nasu-zoroastrianism": "/creatures/south-asia/nasu-zoroastrianism.webp",
+  "fi-kalevi-mythology": "/creatures/europe/kalevi-mythology.webp",
+  "gr-cancer-mythology": "/creatures/europe/cancer-mythology.webp"
 }
