@@ -1542,5 +1542,12 @@
   "br-agnen": "/creatures/americas/agnen.webp",
   "jm-obia-folklore": "/creatures/americas/obia-folklore.webp",
   "jp-kanda-koro-kamuy": "/creatures/east-asia/kanda-koro-kamuy.webp",
-  "es-eacus-god": "/creatures/europe/eacus-god.webp"
+  "es-eacus-god": "/creatures/europe/eacus-god.webp",
+  "wls-gwyllion": "/creatures/europe/wls-gwyllion.webp",
+  "kr-jangsan-beom-jangsan-tiger": "/creatures/east-asia/jangsan-beom-jangsan-tiger.webp",
+  "kr-mongdal-gwishin-bachelor-ghost": "/creatures/east-asia/mongdal-gwishin-bachelor-ghost.webp",
+  "kr-gaekgwi-wandering-ghost": "/creatures/east-asia/gaekgwi-wandering-ghost.webp",
+  "jp-hanako-san": "/creatures/east-asia/hanako-san.webp",
+  "kr-kongkong-gwishin-hopping-ghost": "/creatures/east-asia/kongkong-gwishin-hopping-ghost.webp",
+  "cn-zhong-kui": "/creatures/east-asia/zhong-kui.webp"
 }
