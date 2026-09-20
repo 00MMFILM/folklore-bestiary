@@ -1555,5 +1555,11 @@
   "cn-emperor-ku": "/creatures/east-asia/emperor-ku.webp",
   "kr-쇠말뚝": "/creatures/east-asia/쇠말뚝.webp",
   "cn-tongtian-jiaozhu": "/creatures/east-asia/tongtian-jiaozhu.webp",
-  "kr-홍콩할매귀신": "/creatures/east-asia/홍콩할매귀신.webp"
+  "kr-홍콩할매귀신": "/creatures/east-asia/홍콩할매귀신.webp",
+  "no-hulder": "/creatures/europe/hulder.webp",
+  "sct-water-bull": "/creatures/europe/sct-water-bull.webp",
+  "am-lake-van-monster": "/creatures/south-asia/lake-van-monster.webp",
+  "jp-kisaragi-station": "/creatures/east-asia/kisaragi-station.webp",
+  "cn-xiangliu": "/creatures/east-asia/xiangliu.webp",
+  "ph-sarangay": "/creatures/east-asia/sarangay.webp"
 }
