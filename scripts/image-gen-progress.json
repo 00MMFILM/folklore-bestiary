@@ -1561,5 +1561,11 @@
   "am-lake-van-monster": "/creatures/south-asia/lake-van-monster.webp",
   "jp-kisaragi-station": "/creatures/east-asia/kisaragi-station.webp",
   "cn-xiangliu": "/creatures/east-asia/xiangliu.webp",
-  "ph-sarangay": "/creatures/east-asia/sarangay.webp"
+  "ph-sarangay": "/creatures/east-asia/sarangay.webp",
+  "ph-dalaketnon": "/creatures/east-asia/dalaketnon.webp",
+  "sct-muc-sheilche": "/creatures/europe/sct-muc-sheilche.webp",
+  "us-chessie-sea-monster": "/creatures/americas/chessie-sea-monster.webp",
+  "co-monster-of-lake-tota": "/creatures/americas/monster-of-lake-tota.webp",
+  "jp-harionago": "/creatures/east-asia/harionago.webp",
+  "cn-kui-chinese-mythology": "/creatures/east-asia/kui-chinese-mythology.webp"
 }
