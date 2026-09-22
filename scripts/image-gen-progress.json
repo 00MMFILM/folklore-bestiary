@@ -1567,5 +1567,11 @@
   "us-chessie-sea-monster": "/creatures/americas/chessie-sea-monster.webp",
   "co-monster-of-lake-tota": "/creatures/americas/monster-of-lake-tota.webp",
   "jp-harionago": "/creatures/east-asia/harionago.webp",
-  "cn-kui-chinese-mythology": "/creatures/east-asia/kui-chinese-mythology.webp"
+  "cn-kui-chinese-mythology": "/creatures/east-asia/kui-chinese-mythology.webp",
+  "se-vittra-folklore": "/creatures/europe/vittra-folklore.webp",
+  "sct-pictish-beast": "/creatures/europe/sct-pictish-beast.webp",
+  "sct-dobhar-chu": "/creatures/europe/sct-dobhar-chu.webp",
+  "za-amafufunyana": "/creatures/africa/amafufunyana.webp",
+  "us-dark-lord": "/creatures/americas/dark-lord.webp",
+  "jm-lusca": "/creatures/americas/lusca.webp"
 }
