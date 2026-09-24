@@ -1580,5 +1580,11 @@
   "jp-shikome": "/creatures/east-asia/shikome.webp",
   "cn-great-flood-and-procreation": "/creatures/east-asia/great-flood-and-procreation.webp",
   "gb-ankou": "/creatures/europe/ankou.webp",
-  "ie-fionnuala": "/creatures/europe/fionnuala.webp"
+  "ie-fionnuala": "/creatures/europe/fionnuala.webp",
+  "ie-buggane": "/creatures/europe/buggane.webp",
+  "no-loki": "/creatures/europe/loki.webp",
+  "wls-welsh-dragon": "/creatures/europe/wls-welsh-dragon.webp",
+  "al-baloz": "/creatures/europe/baloz.webp",
+  "us-sharlie": "/creatures/americas/sharlie.webp",
+  "nz-kaupe": "/creatures/oceania/kaupe.webp"
 }
