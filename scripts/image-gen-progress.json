@@ -1586,5 +1586,11 @@
   "wls-welsh-dragon": "/creatures/europe/wls-welsh-dragon.webp",
   "al-baloz": "/creatures/europe/baloz.webp",
   "us-sharlie": "/creatures/americas/sharlie.webp",
-  "nz-kaupe": "/creatures/oceania/kaupe.webp"
+  "nz-kaupe": "/creatures/oceania/kaupe.webp",
+  "lv-undead": "/creatures/europe/undead.webp",
+  "cn-shuihu": "/creatures/east-asia/shuihu.webp",
+  "th-women-in-black-of-wat-samian-nari": "/creatures/east-asia/women-in-black-of-wat-samian-nari.webp",
+  "iq-mukil-res-lemutti": "/creatures/south-asia/mukil-res-lemutti.webp",
+  "gb-revenant": "/creatures/europe/revenant.webp",
+  "fi-lalli": "/creatures/europe/lalli.webp"
 }
