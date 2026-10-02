@@ -1627,5 +1627,11 @@
   "ng-madam-koi-koi": "/creatures/africa/madam-koi-koi.webp",
   "us-underwater-panther": "/creatures/americas/underwater-panther.webp",
   "br-white-lady": "/creatures/americas/white-lady.webp",
-  "co-mohan-legendary": "/creatures/americas/mohan-legendary.webp"
+  "co-mohan-legendary": "/creatures/americas/mohan-legendary.webp",
+  "cl-pincoy": "/creatures/americas/pincoy.webp",
+  "au-wagyl": "/creatures/oceania/wagyl.webp",
+  "nz-moehau": "/creatures/oceania/moehau.webp",
+  "ee-the-dragon-of-the-north": "/creatures/europe/the-dragon-of-the-north.webp",
+  "jp-jikininki": "/creatures/east-asia/jikininki.webp",
+  "jp-mazoku": "/creatures/east-asia/mazoku.webp"
 }
