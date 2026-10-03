@@ -1633,5 +1633,9 @@
   "nz-moehau": "/creatures/oceania/moehau.webp",
   "ee-the-dragon-of-the-north": "/creatures/europe/the-dragon-of-the-north.webp",
   "jp-jikininki": "/creatures/east-asia/jikininki.webp",
-  "jp-mazoku": "/creatures/east-asia/mazoku.webp"
+  "jp-mazoku": "/creatures/east-asia/mazoku.webp",
+  "cn-erlang-shen": "/creatures/east-asia/erlang-shen.webp",
+  "mn-erlik": "/creatures/east-asia/erlik.webp",
+  "in-bakasura-crane-demon": "/creatures/south-asia/bakasura-crane-demon.webp",
+  "iq-asag": "/creatures/south-asia/asag.webp"
 }
