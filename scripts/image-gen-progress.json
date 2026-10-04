@@ -1637,5 +1637,10 @@
   "cn-erlang-shen": "/creatures/east-asia/erlang-shen.webp",
   "mn-erlik": "/creatures/east-asia/erlik.webp",
   "in-bakasura-crane-demon": "/creatures/south-asia/bakasura-crane-demon.webp",
-  "iq-asag": "/creatures/south-asia/asag.webp"
+  "iq-asag": "/creatures/south-asia/asag.webp",
+  "iq-dimmeku": "/creatures/south-asia/dimmeku.webp",
+  "iq-namtar": "/creatures/south-asia/namtar.webp",
+  "gb-double-headed-serpent": "/creatures/europe/double-headed-serpent.webp",
+  "ie-cat-sith": "/creatures/europe/cat-sith.webp",
+  "ie-latoon-fairy-bush": "/creatures/europe/latoon-fairy-bush.webp"
 }
