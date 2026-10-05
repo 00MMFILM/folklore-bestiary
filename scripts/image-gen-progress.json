@@ -1642,5 +1642,9 @@
   "iq-namtar": "/creatures/south-asia/namtar.webp",
   "gb-double-headed-serpent": "/creatures/europe/double-headed-serpent.webp",
   "ie-cat-sith": "/creatures/europe/cat-sith.webp",
-  "ie-latoon-fairy-bush": "/creatures/europe/latoon-fairy-bush.webp"
+  "ie-latoon-fairy-bush": "/creatures/europe/latoon-fairy-bush.webp",
+  "ie-the-greek-princess-and-the-young-gardener": "/creatures/europe/the-greek-princess-and-the-young-gardener.webp",
+  "fr-histoires-ou-contes-du-temps-passe": "/creatures/europe/histoires-ou-contes-du-temps-passe.webp",
+  "gr-daimonic": "/creatures/europe/daimonic.webp",
+  "gr-myrsina": "/creatures/europe/myrsina.webp"
 }
