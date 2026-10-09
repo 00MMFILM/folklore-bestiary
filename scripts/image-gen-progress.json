@@ -1664,5 +1664,11 @@
   "pe-mama-killa": "/creatures/americas/mama-killa.webp",
   "au-wihwin": "/creatures/oceania/wihwin.webp",
   "nz-kumi-lizard": "/creatures/oceania/kumi-lizard.webp",
-  "lb-shalim": "/creatures/south-asia/shalim.webp"
+  "lb-shalim": "/creatures/south-asia/shalim.webp",
+  "lv-lemures": "/creatures/europe/lemures.webp",
+  "jp-raiju": "/creatures/east-asia/raiju.webp",
+  "jp-gazu-hyakki-tsurezure-bukuro": "/creatures/east-asia/gazu-hyakki-tsurezure-bukuro.webp",
+  "cn-merfolk": "/creatures/east-asia/merfolk.webp",
+  "sa-zaratan": "/creatures/south-asia/zaratan.webp",
+  "sa-iblis": "/creatures/south-asia/iblis.webp"
 }
