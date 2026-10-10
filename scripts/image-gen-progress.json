@@ -1670,5 +1670,11 @@
   "jp-gazu-hyakki-tsurezure-bukuro": "/creatures/east-asia/gazu-hyakki-tsurezure-bukuro.webp",
   "cn-merfolk": "/creatures/east-asia/merfolk.webp",
   "sa-zaratan": "/creatures/south-asia/zaratan.webp",
-  "sa-iblis": "/creatures/south-asia/iblis.webp"
+  "sa-iblis": "/creatures/south-asia/iblis.webp",
+  "ie-abhartach": "/creatures/europe/abhartach.webp",
+  "no-buttercup-fairy-tale": "/creatures/europe/buttercup-fairy-tale.webp",
+  "se-the-giant-who-had-no-heart-in-his-body": "/creatures/europe/the-giant-who-had-no-heart-in-his-body.webp",
+  "sct-how-ian-direach-got-the-blue-falcon": "/creatures/europe/sct-how-ian-direach-got-the-blue-falcon.webp",
+  "ru-maruda-slavic-demon": "/creatures/europe/maruda-slavic-demon.webp",
+  "al-ora-mythology": "/creatures/europe/ora-mythology.webp"
 }
