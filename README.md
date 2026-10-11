@@ -1,3 +1,14 @@
+세계 민속 생물 도감 (4,821종 / 145개국). Next.js + Vercel.
+
+> **데이터를 건드리기 전에 [`AGENTS.md`](AGENTS.md)를 읽어라.**
+> 정본이 한 줄짜리 거대 JSON이라 git 병합이 불가능하고, 봇이 하루 수회 커밋하며,
+> 종을 지우면 파생물 4곳이 같이 남는다. 이미지 슬러그 규칙과 크롤 게이트 설계도 거기 있다.
+>
+> 작업 내역: [`docs/작업내역-데이터정리-2026-08.md`](docs/작업내역-데이터정리-2026-08.md) ·
+> [`docs/작업내역-2026-10.md`](docs/작업내역-2026-10.md)
+
+---
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
