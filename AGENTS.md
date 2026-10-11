@@ -3,7 +3,20 @@
 세계 민속 **생물** 도감. Next.js + Vercel 자동 배포. GitHub `00MMFILM/folklore-bestiary`.
 GitHub Actions 봇이 하루 수회 커밋한다 (crawl → translate → image-gen → articles).
 
-2026-10-11 기준 **4,821종 / 145개국**. 이미지 1,599종 연결(33%), 아티클 343편(7%).
+2026-10-11 기준 **4,821종 / 145개국**. 봇이 이미지·아티클을 계속 늘리므로
+그 수치는 고정값으로 믿지 말고 직접 세라.
+
+```bash
+node -e "
+const fs=require('fs');
+const lines=fs.readFileSync('lib/folklore-data.ts','utf8').split('\n');
+const ex=p=>{const l=lines.find(x=>x.startsWith(p));let b=l.slice(l.indexOf('= ')+2).trim();if(b.endsWith(';'))b=b.slice(0,-1);return JSON.parse(b);};
+const data=ex('export const FOLKLORE_DATA'), IMG=ex('export const CREATURE_IMAGE_MAP');
+const all=[];for(const c of data)for(const b of c.b)all.push(b);
+const img=id=>!id.includes('-')?IMG[id]:(IMG[id.replace(/^[a-z]{2,3}-/,'')]||IMG[id.replace(/^[a-z]{2}-/,'')]||IMG[id]);
+console.log('종',all.length,'/ 국가',data.length,'/ 이미지',all.filter(c=>img(c.id)).length,'/ 맵',Object.keys(IMG).length);
+"
+```
 
 작업 내역과 판단 근거는 `docs/작업내역-데이터정리-2026-08.md`, `docs/작업내역-2026-10.md`에 있다.
 **데이터를 건드리기 전에 이 파일과 10월 내역서를 먼저 읽어라.**
@@ -51,7 +64,7 @@ git stash -q -u && git pull -q --rebase && git stash pop -q
 | 아티클 | `content/articles/{id}.json` | 종 id |
 | 설화 링크 | `content/tale-links.json` | `scripts/build-tale-links.mjs`로 결정적 재생성 (크레딧 0) |
 
-i18n 3종의 항목 수는 **종 수와 정확히 일치해야 한다** (현재 4,821 = 4,821 = 4,821 = 4,821).
+i18n 3종의 항목 수는 **종 수와 정확히 일치해야 한다** (2026-10-11 확인: 4,821 = 4,821 = 4,821 = 4,821).
 
 ---
 
@@ -204,9 +217,10 @@ node scripts/regress-gate.mjs                 # 기존 데이터 역적용 — �
 
 ## 남은 미결
 
-1. **CJK 게이트가 잡는 2건** — `용비어천가`는 2026-10-11에 삭제했고,
-   `아오키 마리코 현상`은 도시전설이라 `t=Folktale`로 남겼다. 추가 판단이 필요하면 감독에게 묻는다.
-2. **이미지 커버리지 33%, 아티클 7%** — 늘리려면 생성 크레딧이 든다 (감독 승인 대상).
+1. **CJK 게이트가 잡는 1건** — `아오키 마리코 현상`. 초자연 요소가 없는 도시전설이지만
+   도감이 도시전설을 다루는 범주에 들어 `t=Folktale`로 남겼다. 판단이 필요하면 감독에게 묻는다.
+2. **이미지·아티클 커버리지** — 봇이 계속 늘리는 중이다(2026-10-11: 이미지 1,925종 40%,
+   아티클 343편 7%). 수동으로 늘리려면 생성 크레딧이 든다 (감독 승인 대상).
 3. **유형 분류 정밀도** — 재분류로 Folktale은 바로잡았지만, 생물 유형끼리의 오분류
    (`Bedivere`=Sea Creature 류)는 남아 있다. `reclassify-types.mjs`는 OpenAI 크레딧이 필요하다.
 4. **고아 이미지 파일 9개(약 2MB)** — 맵 키는 지웠지만 파일은 남겼다.
