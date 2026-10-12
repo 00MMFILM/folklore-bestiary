@@ -1682,5 +1682,11 @@
   "us-ball-tailed-cat": "/creatures/americas/ball-tailed-cat.webp",
   "us-little-catskin": "/creatures/americas/little-catskin.webp",
   "jm-madre-de-aguas": "/creatures/americas/madre-de-aguas.webp",
-  "tt-mama-d-leau": "/creatures/americas/mama-d-leau.webp"
+  "tt-mama-d-leau": "/creatures/americas/mama-d-leau.webp",
+  "jp-hungry-ghost": "/creatures/east-asia/hungry-ghost.webp",
+  "in-kaliya": "/creatures/south-asia/kaliya.webp",
+  "in-ghatotkacha": "/creatures/south-asia/ghatotkacha.webp",
+  "il-belial": "/creatures/south-asia/belial.webp",
+  "gb-the-old-witch": "/creatures/europe/the-old-witch.webp",
+  "de-brother-lustig": "/creatures/europe/brother-lustig.webp"
 }
