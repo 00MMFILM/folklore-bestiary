@@ -1694,5 +1694,11 @@
   "sct-sluagh": "/creatures/europe/sct-sluagh.webp",
   "gr-monster": "/creatures/europe/monster.webp",
   "gr-cadborosaurus": "/creatures/europe/cadborosaurus.webp",
-  "es-the-knights-of-the-fish": "/creatures/europe/the-knights-of-the-fish.webp"
+  "es-the-knights-of-the-fish": "/creatures/europe/the-knights-of-the-fish.webp",
+  "ma-aisha-qandicha": "/creatures/africa/aisha-qandicha.webp",
+  "us-yei-tso": "/creatures/americas/yei-tso.webp",
+  "us-the-gingerbread-man": "/creatures/americas/the-gingerbread-man.webp",
+  "in-chedipe": "/creatures/south-asia/chedipe.webp",
+  "in-vinayakas": "/creatures/south-asia/vinayakas.webp",
+  "il-agrat-bat-mahlat": "/creatures/south-asia/agrat-bat-mahlat.webp"
 }
