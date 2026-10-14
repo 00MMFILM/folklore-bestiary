@@ -12,6 +12,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const entries: MetadataRoute.Sitemap = [];
 
+  entries.push({
+    url: `${SITE_URL}/en/encounters/bulgasari`,
+    lastModified: new Date("2026-10-14"),
+    changeFrequency: "monthly",
+    priority: 0.8,
+  });
+
   // Home
   entries.push({
     url: SITE_URL,

@@ -1,0 +1,48 @@
+{
+  "sourceTitle": "불가사리 / 불가사리 설화",
+  "sourceLang": "ko",
+  "factBased": true,
+  "sources": [
+    {
+      "title": "한국민족문화대백과사전: 불가사리 (유강하)",
+      "url": "https://encykorea.aks.ac.kr/Article/E0024904"
+    },
+    {
+      "title": "한국민족문화대백과사전: 불가사리 설화 (박현숙)",
+      "url": "https://encykorea.aks.ac.kr/Article/E0030766"
+    }
+  ],
+  "researchNotes": {
+    "ko": "한국민족문화대백과사전 두 항목을 참고했다. 인용된 옛 문헌과 구술 기록은 직접 대조하지 않았다. 영화의 설정과 창작 훅은 전승의 근거로 삼지 않았다.",
+    "en": "Based on two Academy of Korean Studies encyclopedia entries. Their cited historical texts and oral records were not independently checked. Film settings and creative hooks are not folklore evidence.",
+    "ja": "韓国学中央研究院の百科事典二項目を参照した。引用された古文献・口承記録は直接照合していない。映画の設定や創作の着想は伝承の根拠にしていない。",
+    "zh": "参考韩国学中央研究院百科全书的两个条目，未独立核对其引用的古代文献和口述记录。电影设定与创作灵感不作为传说依据。"
+  },
+  "reviewedAt": "2026-10-14",
+  "locales": {
+    "ko": {
+      "origin": "불가사리와 불가살이는 같은 존재를 가리키는 이름이다.",
+      "legend": "한 전승에서는 승려가 밥풀로 만든 짐승이 바늘을 먹으며 자란다.",
+      "variants": "불에 타 없어지거나, 불붙은 몸으로 화재를 퍼뜨린다.",
+      "culture": "재앙과 화재를 막는 상징으로 병풍과 굴뚝 등에 표현됐다."
+    },
+    "en": {
+      "origin": "Bulgasari and Bulgasal-i name the same creature.",
+      "legend": "In one account, a monk's rice-made creature grows by eating needles.",
+      "variants": "Fire destroys it in some accounts; in others, its burning body spreads fire.",
+      "culture": "It appears on screens and chimneys as protection against calamity and fire."
+    },
+    "ja": {
+      "origin": "불가사리と불가살이は同じ存在を指す名である。",
+      "legend": "ある伝承では、僧が飯粒で作った獣が針を食べて育つ。",
+      "variants": "火で消滅する話も、燃える体で火災を広げる話もある。",
+      "culture": "災厄や火災を防ぐ象徴として屏風や煙突などに描かれた。"
+    },
+    "zh": {
+      "origin": "불가사리与불가살이是同一存在的不同名称。",
+      "legend": "一则传说中，僧人用饭粒做成的怪物吞食针后长大。",
+      "variants": "有的版本中被火烧毁，有的则以燃烧的身体蔓延火势。",
+      "culture": "它被绘于屏风、烟囱等处，象征抵御灾祸和火灾。"
+    }
+  }
+}

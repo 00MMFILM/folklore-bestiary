@@ -11,6 +11,7 @@ import { getCreatureTranslation } from "@/lib/creature-translations";
 import { getCreatureArticle } from "@/lib/articles";
 import { getTaleLinks } from "@/lib/tale-links";
 import { localizeTags, localizeDescription } from "@/lib/tag-i18n";
+import BulgasariSampleCard, { isBulgasari } from "@/components/BulgasariSampleCard";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://folklore-bestiary.vercel.app";
 
@@ -242,6 +243,11 @@ export default async function CreaturePage({
                 height={600}
                 style={{ width: "100%", height: "auto", display: "block" }}
               />
+              {isBulgasari(creature.id) && (
+                <p style={{ padding: "10px 14px", fontSize: 12, color: "#b7aa99" }}>
+                  {{ ko: "창작적 재해석 이미지. 전승마다 모습이 다릅니다.", en: "An artistic interpretation. Appearance varies across traditions.", ja: "創作的なイメージ。姿は伝承によって異なります。", zh: "艺术化演绎；不同传说中的形态并不相同。" }[locale]}
+                </p>
+              )}
             </div>
           )}
 
@@ -320,6 +326,7 @@ export default async function CreaturePage({
           </section>
 
           {/* In-depth article sections */}
+          {isBulgasari(creature.id) && <BulgasariSampleCard locale={locale} creatureId={creature.id} />}
           {articleSections.map(([key, text]) => (
             <section key={key} style={{ marginBottom: "32px" }}>
               <h2 style={{ fontSize: "18px", color: colors.accent, marginBottom: "12px" }}>
@@ -337,7 +344,17 @@ export default async function CreaturePage({
           ))}
           {article && (
             <p style={{ fontSize: "12px", color: "#777", marginBottom: "32px" }}>
-              {article.factBased ? (
+              {article.sources?.length ? (
+                <>
+                  {article.sources.map((source, index) => (
+                    <span key={source.url}>
+                      {index > 0 && " · "}
+                      <a href={source.url} target="_blank" rel="noopener noreferrer" style={{ color: "#bbb" }}>{source.title}</a>
+                    </span>
+                  ))}
+                  {article.researchNote && <span style={{ display: "block", marginTop: 8, color: "#aaa" }}>{article.researchNote}</span>}
+                </>
+              ) : article.factBased ? (
                 t["article.attributionFact"].replace("{title}", article.sourceTitle)
               ) : (
                 <>

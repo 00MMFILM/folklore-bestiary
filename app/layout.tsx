@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { CREATURE_COUNT, COUNTRY_COUNT } from "@/lib/site-stats";
 import "./globals.css";
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/next";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://folklore-bestiary.vercel.app";
 

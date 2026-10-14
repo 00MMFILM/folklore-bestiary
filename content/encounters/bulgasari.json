@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-11",
+  "brand": "Global Folklore Bestiary",
+  "collection_title": "10 Korean Folklore Encounters",
+  "title": "The Hunger Under the Forge",
+  "creature": "Bulgasari",
+  "korean_name": "불가사리",
+  "creature_id": "kr-bulgasari",
+  "existing_url": "https://folklore-bestiary.vercel.app/en/creatures/kr-bulgasari",
+  "edition": "Free sample 01 / editorial preview",
+  "pitch": "Your weapons are its next meal. So are the tools the village needs to survive.",
+  "description": "A system-neutral encounter about an iron-eating creature, a threatened harvest, and the cost of keeping a promise. Includes folklore notes, three locations, three characters, and consequences you can bring to the table.",
+  "format_note": "For a game master to adapt to their own rules. No statistics or claims of tested balance. The village and adventure are fictional; they do not reconstruct a historical Korean community.",
+  "folklore": [
+    {"title": "Iron becomes strength", "body": "Bulgasari is an iron-eating creature in Korean folklore. It grows as it consumes iron objects. Bulgasari and Bulgasal-i are related names, not evidence of two separate species.", "sources": ["S1", "S2"]},
+    {"title": "A creature with many forms", "body": "Accounts give it different animal forms. A single bear-like or horned appearance should not stand for every telling.", "sources": ["S1"]},
+    {"title": "Fire has more than one ending", "body": "Some versions end with its destruction by fire. In another, burning the creature makes it spread the blaze. Other endings also exist. Neither fire immunity nor a fire weakness is universal.", "sources": ["S1", "S2"]},
+    {"title": "More than a destructive monster", "body": "Alongside destructive tales, Bulgasari appears in protective imagery associated with warding off disasters and fire.", "sources": ["S2"]}
+  ],
+  "boundary": "The four notes above summarize the cited encyclopedia entries. Everything in the adventure below is newly created game material, including names, motives, geography, clues, and the exact effects of fire.",
+  "game_rules": [
+    {"title": "Hunger, not hatred", "body": "This Bulgasari is a low, bristled quadruped the size of a pig. It seeks exposed iron and ignores food, coins made of other metals, and people without iron. Cornering it can provoke a charge. Its appearance and priorities are choices for this adventure."},
+    {"title": "Warn before taking", "body": "Before it consumes carried equipment, describe it sniffing, pawing, and opening its mouth toward that item. Give the player a chance to put the item away, throw it aside, or intervene. Do not destroy equipment by surprise."},
+    {"title": "Choose this fire rule", "body": "For this adventure, a small flame makes it retreat; sustained heat in the closed kiln can destroy it. It cannot climb a sheer rock face. It does not speak, shrink between meals, or follow commands. Mark it OVERSIZED after it eats a large iron object during play: it then cannot fit in the kiln. These are game rules, not universal folklore."}
+  ],
+  "quickstart": [
+    {"label": "Begin", "text": "At a silent forge, with harvest tools missing."},
+    {"label": "Discover", "text": "The smith has been feeding a small iron-eater."},
+    {"label": "Decide", "text": "Spend the village's fuel to end it, or contain it and accept an ongoing burden."},
+    {"label": "Keep open", "text": "Players can invent another plan; judge it using the stated creature rules."}
+  ],
+  "opening": "The forge is cold. Wooden handles hang above an empty tool rack, each ending where iron should begin. Beneath the workbench, something crunches a nail. The smith holds out both empty hands. 'Please. Put your swords away before it smells them.'",
+  "truth": "Miran, the village smith, found the creature beside a ruined storehouse. She fed it bent nails, hoping to turn dangerous scrap into something harmless. It has learned that her workshop means food. Last night it ate the replacement ploughshares. Miran has hidden the damage because several households already paid for those tools. The next grain convoy leaves this evening; its iron-bound cart and the bridge fittings are easy meals. Miran asks the party to move the creature before anyone sees it. She cannot pay in coin, but offers repairs and a written promise to replace any tools sacrificed to the plan.",
+  "npcs": [
+    {"name": "Miran", "role": "The smith", "want": "Save the village and admit the loss on her own terms.", "offer": "Scrap iron, wooden-handled tools, and help making a lure.", "pressure": "She first hides the missing ploughshares. If confronted with evidence, she admits the debt and helps; she never blocks a workable rescue."},
+    {"name": "Jun", "role": "The grain keeper", "want": "Get the grain across the footbridge before the evening convoy.", "offer": "A handcart, rope, and neighbors willing to help move stores.", "pressure": "He wants the creature killed but will accept containment if the party secures the bridge and names someone to maintain the barrier."},
+    {"name": "Dal", "role": "The kiln keeper", "want": "Prevent a panicked attempt to burn the creature inside the village.", "offer": "A stone kiln, its door brace, and knowledge of the old quarry pit.", "pressure": "Firing the kiln will consume the dry fuel set aside for the village's next pottery batch. Dal requires a replacement plan, not a fee."}
+  ],
+  "locations": [
+    {"number": "01", "name": "The silent forge", "detail": "Warm ash, severed tool handles, and a creature sleeping behind a sack of bent nails. A clear route leads to the lane.", "clue": "Anyone looking at the rack sees that only the iron parts are gone. Miran demonstrates that the creature follows a nail pulled on a cord but ignores a wooden peg.", "action": "A character may test a lure here with a single nail. Success reveals its priorities; failure costs time or a scrap, never a required clue."},
+    {"number": "02", "name": "The storehouse and bridge", "detail": "Grain waits in an iron-bound cart beside the stream. The footbridge has removable iron fittings and can be temporarily braced with timber.", "clue": "Jun points out that the cart and fittings are both targets. Workers can carry the grain by hand while others brace the bridge; the party must organize the work.", "action": "Moving the grain takes one substantial interval. Clearing a path and hiding exposed iron prevents bystanders' equipment from drawing the creature off course."},
+    {"number": "03", "name": "The kiln and quarry", "detail": "A stone kiln stands beside a dry quarry pit with sheer sides and a sloping entrance ramp. A tall, smooth stone slab stands ready to close the ramp; wooden skids and hemp rope lie nearby.", "clue": "Dal can safely show that a flame on a long pole makes the creature back away. The kiln can hold it only at its initial size. The pit is deep enough for every growth event described in this encounter.", "action": "The cold kiln has no exposed iron. Two people can close its stone door and secure the exterior brace, outside the heated chamber, before Dal lights the separate firebox. For the pit, two helpers can move the slab on skids using rope; no cart is required. Clear rubble from its inner face so it offers no footholds."}
+  ],
+  "map_note": "All three sites connect by the same village lane. The storehouse and forge are on the village side of the stream; reaching the kiln does not require crossing the threatened bridge. Map is schematic, not to scale.",
+  "clue_policy": "Give the listed clues whenever the characters inspect a place or ask its keeper. Use your game's rolls for danger, speed, or disputed outcomes; a failed roll must not hide the only route forward.",
+  "clock_rule": "This is a threat track, not a growth track. After a substantial delay, announce the next threat and allow intervention; resolve it only if nobody prevents it. Discussion, visits for clues, and small tests do not advance the track. Growth happens only when it actually eats a large iron object during play; then mark OVERSIZED. A test nail does not count. If all exposed iron is secured and the creature is contained, pause the track.",
+  "clock": [
+    {"name": "01 / The last tool", "body": "It begins nosing toward the remaining ploughshare. If no one stops it, it eats the iron and grows beyond the kiln doorway. After this, the kiln plan needs a new enclosure; Dal says so clearly."},
+    {"name": "02 / The crossing", "body": "It heads for the bridge fittings. If the bridge was not braced or the creature redirected, it damages the crossing. Evacuate the bridge before it fails; the grain convoy is delayed, not automatically lost."},
+    {"name": "03 / The stores", "body": "It reaches the iron-bound cart. If redirected, nothing is lost. If it eats the bindings, mark OVERSIZED. Grain already moved is safe; otherwise the party can rescue sacks from the collapsing cart. The pit remains usable without the cart. The kiln's availability depends on actual growth, not the track number."}
+  ],
+  "resolutions": [
+    {"title": "End the hunger", "method": "Before it is OVERSIZED, lure it into the cold kiln with one nail on a cord. A nail does not cause growth. Pull the lure out, close and brace the door, then let Dal light the external firebox. Explain the outcome before anyone commits; this plan kills the creature.", "cost": "The village loses the next pottery firing. Someone must supply replacement fuel or arrange a later firing elsewhere. Miran survives her mistake and owes the households their tools.", "failure": "If the lure or door plan fails, it escapes before the kiln heats. Any small flame makes it retreat toward exposed iron. Everyone can withdraw. Once OVERSIZED, this kiln cannot work without a larger enclosure; say so before preparations begin."},
+    {"title": "Keep it alive", "method": "Lead it down the quarry ramp, then pull away the nail lure. Once everyone is clear, two helpers use the skids and rope to slide the stone slab across the exit. Its inner face must stay smooth and free of climbable rubble. This method works even if the cart was lost.", "cost": "Containment needs an agreed keeper and regular inspections. It stays hungry, and adding iron makes it larger. This is an ongoing duty, not a permanent cure; later feeding could make this pit too small.", "failure": "A gap or rubble at the barrier gives it an escape route. Show the weakness before the last person leaves the pit; a helper can call out the problem. If it gets out, the next threatened place is whichever still contains exposed iron."}
+  ],
+  "improvisation": "Accept other plans that address its appetite, movement, and growth. Tell players the visible risk, what help they need, and what failure costs. Stone, timber, evacuation, and misdirection may matter more than a damage roll. For combat, use your own system's creature statistics; this packet supplies behavior, not a balanced stat block.",
+  "aftermath": [
+    {"title": "The unpaid harvest", "body": "Miran's repair promise comes due before the next planting. A wealthy buyer offers iron only if the villagers accept a new debt. The party can find another supplier, renegotiate the terms, or expose a false shortage."},
+    {"title": "The purchaser", "body": "If the creature lives, an arms dealer offers to buy it. Jun wants the money for the bridge; Miran fears where it will be fed next. Someone quietly shifts the slab sealing the quarry entrance."},
+    {"title": "The clean theft", "body": "Tools disappear from a nearby workshop with no broken handles or bite marks. The owner blames another Bulgasari. The loss is a human theft, and the creature's reputation is being used as cover."}
+  ],
+  "table_sheet": [
+    "Expose the missing iron before showing the creature.",
+    "Tell players when iron equipment attracts its attention.",
+    "Offer all three keepers' clues without a mandatory roll.",
+    "State the kiln's size limit before the first growth step.",
+    "Track bridge bracing, grain relocation, and creature growth separately.",
+    "Ask who pays the cost and who takes responsibility afterward."
+  ],
+  "questions": [
+    "Using only this packet, how would you introduce the encounter? What would you still need to prepare?",
+    "Point to one sentence where you would be unsure what happens next or how to resolve an action.",
+    "Which parts would you actually use in an upcoming session?",
+    "Compared with the last game-master resource you paid for, what would need to change before you would buy this collection?"
+  ],
+  "sources": [
+    {"id": "S1", "title": "Bulgasari / 불가사리", "author": "유강하", "institution": "Encyclopedia of Korean Culture, Academy of Korean Studies", "updated": "2025-11-18", "url": "https://encykorea.aks.ac.kr/Article/E0024904", "used_for": "Names, iron consumption, varied forms, and the fire-destruction tradition."},
+    {"id": "S2", "title": "Bulgasari seolhwa / 불가사리 설화", "author": "박현숙", "institution": "Encyclopedia of Korean Culture, Academy of Korean Studies", "updated": "2023-11-06", "url": "https://encykorea.aks.ac.kr/Article/E0030766", "used_for": "Contrasting fire endings and protective imagery."}
+  ],
+  "research_note": "Both encyclopedia entries were read on 11 October 2026. They are scholarly reference articles. The historical texts and oral-tale transcripts they cite were not independently checked for this sample. The packet does not claim a single original or definitive Bulgasari story.",
+  "credits_note": "Text developed with AI assistance and checked against the references listed here. Adventure details are original to this preview. No third-party illustration, movie still, or game-system text is included. No external expert review or table playtest has yet been completed."
+}
