@@ -1,0 +1,78 @@
+{
+  "reviewedAt": "2026-10-14",
+  "sourceCheckedAt": "2026-10-11",
+  "ids": ["kr-bulgasari", "kr-balgasari", "kr-bulgasari-creature"],
+  "canonicalId": "kr-bulgasari",
+  "scope": "백과사전 두 항목을 바탕으로 한 제한적 내용 교정. 원전 직접 대조, 전문가 감수, 이미지 검증 또는 권리 검토를 뜻하지 않는다. 별칭 ID는 기존 링크 보존을 위해 유지한다.",
+  "sources": [
+    {"title": "한국민족문화대백과사전: 불가사리 (유강하)", "url": "https://encykorea.aks.ac.kr/Article/E0024904"},
+    {"title": "한국민족문화대백과사전: 불가사리 설화 (박현숙)", "url": "https://encykorea.aks.ac.kr/Article/E0030766"}
+  ],
+  "canonical": {
+    "n": "Bulgasari (불가사리)",
+    "ln": "불가사리",
+    "d": "An iron-eating creature from Korean folklore that grows as it feeds. Also called Bulgasal-i, its appearance and fate vary between accounts.",
+    "ab": ["쇠붙이를 먹으며 성장", "일부 전승에서 칼과 화살로 처치하기 어려움"],
+    "wk": ["전승에 따라 다름: 불로 소멸하거나 불붙은 몸으로 화재를 퍼뜨리기도 함"],
+    "vk": ["전승마다 다른 모습"],
+    "sh": ["창작 훅: 농기구를 먹는 괴물을 없앨 것인가, 가두고 돌볼 것인가?"]
+  },
+  "translations": {
+    "en": {
+      "d": "An iron-eating creature from Korean folklore that grows as it feeds. Also called Bulgasal-i, its appearance and fate vary between accounts.",
+      "ab": ["Growth through eating iron", "In some accounts, resistance to swords and arrows"],
+      "wk": ["Varies by account: fire may destroy it, or leave it spreading flames"],
+      "sh": ["Creative hook: A creature is eating the village's farming tools. Destroy it, or contain and tend it?"]
+    },
+    "ko": {
+      "d": "쇠붙이를 먹으며 몸집이 커지는 한국 설화 속 괴물. 불가살이라고도 하며, 모습과 최후는 전승마다 다르다.",
+      "ab": ["쇠붙이를 먹으며 성장", "일부 전승에서 칼과 화살로 처치하기 어려움"],
+      "wk": ["전승에 따라 다름: 불로 소멸하거나 불붙은 몸으로 화재를 퍼뜨리기도 함"],
+      "sh": ["창작 훅: 농기구를 먹는 괴물을 없앨 것인가, 가두고 돌볼 것인가?"]
+    },
+    "ja": {
+      "d": "鉄を食べて大きくなる韓国の伝説上の怪物。불가살이という表記もあり、姿や結末は伝承によって異なる。",
+      "ab": ["鉄を食べて成長する", "一部の伝承では刀や矢で倒しにくい"],
+      "wk": ["伝承によって異なる。火で滅びる話も、燃えた体で火災を広げる話もある"],
+      "sh": ["創作の着想：農具を食べる怪物を倒すか、囲いに閉じ込めて世話を続けるか。"]
+    },
+    "zh": {
+      "d": "韩国传说中以铁为食、随进食而长大的怪物，韩文名为불가사리，也称불가살이。形态和结局因传说而异。",
+      "ab": ["吞食铁器后长大", "部分传说中难以用刀箭杀死"],
+      "wk": ["因传说而异：有的被火烧毁，有的带着火焰四处蔓延火势"],
+      "sh": ["创作灵感：怪物正在吞食村里的农具。是消灭它，还是将它圈养并长期照看？"]
+    }
+  },
+  "researchNotes": {
+    "ko": "한국민족문화대백과사전 두 항목을 참고했다. 인용된 옛 문헌과 구술 기록은 직접 대조하지 않았다. 영화의 설정과 창작 훅은 전승의 근거로 삼지 않았다.",
+    "en": "Based on two Academy of Korean Studies encyclopedia entries. Their cited historical texts and oral records were not independently checked. Film settings and creative hooks are not folklore evidence.",
+    "ja": "韓国学中央研究院の百科事典二項目を参照した。引用された古文献・口承記録は直接照合していない。映画の設定や創作の着想は伝承の根拠にしていない。",
+    "zh": "参考韩国学中央研究院百科全书的两个条目，未独立核对其引用的古代文献和口述记录。电影设定与创作灵感不作为传说依据。"
+  },
+  "articleLocales": {
+    "ko": {
+      "origin": "불가사리와 불가살이는 같은 존재를 가리키는 이름이다.",
+      "legend": "한 전승에서는 승려가 밥풀로 만든 짐승이 바늘을 먹으며 자란다.",
+      "variants": "불에 타 없어지거나, 불붙은 몸으로 화재를 퍼뜨린다.",
+      "culture": "재앙과 화재를 막는 상징으로 병풍과 굴뚝 등에 표현됐다."
+    },
+    "en": {
+      "origin": "Bulgasari and Bulgasal-i name the same creature.",
+      "legend": "In one account, a monk's rice-made creature grows by eating needles.",
+      "variants": "Fire destroys it in some accounts; in others, its burning body spreads fire.",
+      "culture": "It appears on screens and chimneys as protection against calamity and fire."
+    },
+    "ja": {
+      "origin": "불가사리と불가살이は同じ存在を指す名である。",
+      "legend": "ある伝承では、僧が飯粒で作った獣が針を食べて育つ。",
+      "variants": "火で消滅する話も、燃える体で火災を広げる話もある。",
+      "culture": "災厄や火災を防ぐ象徴として屏風や煙突などに描かれた。"
+    },
+    "zh": {
+      "origin": "불가사리与불가살이是同一存在的不同名称。",
+      "legend": "一则传说中，僧人用饭粒做成的怪物吞食针后长大。",
+      "variants": "有的版本中被火烧毁，有的则以燃烧的身体蔓延火势。",
+      "culture": "它被绘于屏风、烟囱等处，象征抵御灾祸和火灾。"
+    }
+  }
+}
