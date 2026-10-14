@@ -16,6 +16,8 @@ export interface CreatureArticle {
   sourceLang: string;
   factBased: boolean;
   sections: ArticleSections;
+  sources?: { title: string; url: string }[];
+  researchNote?: string;
 }
 
 export function getCreatureArticle(id: string, locale: Locale): CreatureArticle | null {
@@ -30,6 +32,8 @@ export function getCreatureArticle(id: string, locale: Locale): CreatureArticle 
       sourceLang: raw.sourceLang,
       factBased: raw.factBased === true,
       sections,
+      sources: raw.sources,
+      researchNote: raw.researchNotes?.[locale],
     };
   } catch {
     return null;
