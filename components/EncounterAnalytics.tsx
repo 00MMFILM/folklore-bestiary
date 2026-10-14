@@ -1,6 +1,6 @@
 "use client";
 
-import { track } from "@vercel/analytics";
+import { inject, track } from "@vercel/analytics";
 import Link from "next/link";
 import { useEffect, useRef, type ReactNode } from "react";
 
@@ -10,6 +10,14 @@ const SAMPLE_ID = "bulgasari-01";
 // events require Vercel Pro/Enterprise and an enabled Web Analytics project.
 function record(name: string, properties: Record<string, string>) {
   try {
+    // A mount event can run before the root Analytics effect. Its SDK drops
+    // events without a queue, so initialize it idempotently before tracking.
+    // Next's Analytics component still owns route pageviews.
+    inject({
+      framework: "next",
+      disableAutoTrack: true,
+      basePath: process.env.NEXT_PUBLIC_VERCEL_OBSERVABILITY_BASEPATH,
+    });
     track(name, { sample_id: SAMPLE_ID, ...properties });
   } catch {
     // A blocked analytics script must never prevent reading or downloading.
