@@ -19,7 +19,7 @@ function load(filename) {
     compilerOptions: { module: ts.ModuleKind.CommonJS, jsx: ts.JsxEmit.ReactJSX, esModuleInterop: true, target: ts.ScriptTarget.ES2020 },
   }).outputText;
   const localRequire = id => {
-    if (id === "@vercel/analytics") return { track: (...args) => {
+    if (id === "@vercel/analytics") return { inject: () => {}, track: (...args) => {
       if (analyticsBlocked) throw new Error("analytics unavailable");
       events.push(args);
     } };
