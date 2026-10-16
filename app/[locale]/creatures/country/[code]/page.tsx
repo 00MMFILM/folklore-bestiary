@@ -13,6 +13,7 @@ import { getRegionColors } from "@/lib/region-colors";
 import Breadcrumb from "@/components/Breadcrumb";
 import CreatureCard from "@/components/CreatureCard";
 import LanguageSelector from "@/components/LanguageSelector";
+import EncounterPromoCard from "@/components/EncounterPromoCard";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://folklore-bestiary.vercel.app";
 
@@ -167,6 +168,12 @@ export default async function CountryPage({
             {t["list.creatureCount"]}
           </p>
         </header>
+
+        {code.toLowerCase() === "kr" && (
+          <div style={{ marginBottom: 24 }}>
+            <EncounterPromoCard locale={locale} placement="korea" />
+          </div>
+        )}
 
         {/* Creature Grid */}
         <div

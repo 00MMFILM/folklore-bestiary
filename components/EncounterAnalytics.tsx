@@ -82,3 +82,104 @@ export function EncounterDownloadLink({
     </a>
   );
 }
+
+type PromoPlacement = "home" | "korea";
+
+export function EncounterPromoSurface({
+  locale,
+  placement,
+  children,
+}: {
+  locale: string;
+  placement: PromoPlacement;
+  children: ReactNode;
+}) {
+  const surface = useRef<HTMLDivElement>(null);
+  const viewedPlacements = useRef(new Set<string>());
+
+  useEffect(() => {
+    const element = surface.current;
+    const key = `${placement}_${locale}`;
+    if (!element || viewedPlacements.current.has(key) || typeof IntersectionObserver === "undefined") return;
+
+    let active = true;
+    let inView = false;
+    let timer: ReturnType<typeof setTimeout> | null = null;
+    const cancelTimer = () => {
+      if (timer !== null) clearTimeout(timer);
+      timer = null;
+    };
+    const onIntersection = (entries: IntersectionObserverEntry[]) => {
+      if (!active || document.visibilityState !== "visible") {
+        inView = false;
+        cancelTimer();
+        return;
+      }
+      for (const entry of entries) {
+        if (entry.target !== element) continue;
+        inView = entry.isIntersecting && entry.intersectionRatio >= 0.5;
+        if (!inView) {
+          cancelTimer();
+          continue;
+        }
+        if (timer !== null || viewedPlacements.current.has(key)) continue;
+        const pendingTimer = setTimeout(() => {
+          if (!active) return;
+          // Drain a queued exit before counting at the one-second boundary.
+          onIntersection(observer.takeRecords());
+          if (timer !== pendingTimer || !inView || document.visibilityState !== "visible") return;
+          timer = null;
+          viewedPlacements.current.add(key);
+          record("encounter_promo_view", { placement: key });
+          observer.disconnect();
+          document.removeEventListener("visibilitychange", onVisibilityChange);
+        }, 1000);
+        timer = pendingTimer;
+      }
+    };
+    const observer = new IntersectionObserver(onIntersection, { threshold: 0.5 });
+    const onVisibilityChange = () => {
+      cancelTimer();
+      inView = false;
+      observer.disconnect();
+      observer.takeRecords();
+      // A returning tab needs a fresh intersection, not pre-hide geometry.
+      if (document.visibilityState === "visible") observer.observe(element);
+    };
+    document.addEventListener("visibilitychange", onVisibilityChange);
+    onVisibilityChange();
+
+    return () => {
+      active = false;
+      cancelTimer();
+      observer.disconnect();
+      observer.takeRecords();
+      document.removeEventListener("visibilitychange", onVisibilityChange);
+    };
+  }, [locale, placement]);
+
+  return <div ref={surface}>{children}</div>;
+}
+
+export function EncounterPromoLink({
+  locale,
+  placement,
+  children,
+  className,
+}: {
+  locale: string;
+  placement: PromoPlacement;
+  children: ReactNode;
+  className?: string;
+}) {
+  return (
+    <Link
+      href="/en/encounters/bulgasari"
+      prefetch={false}
+      className={className}
+      onClick={() => record("encounter_promo_click", { placement: `${placement}_${locale}` })}
+    >
+      {children}
+    </Link>
+  );
+}
