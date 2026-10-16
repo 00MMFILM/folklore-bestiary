@@ -1707,5 +1707,12 @@
   "ie-hungry-grass": "/creatures/europe/hungry-grass.webp",
   "de-the-devil-s-sooty-brother": "/creatures/europe/the-devil-s-sooty-brother.webp",
   "no-brokkr": "/creatures/europe/brokkr.webp",
-  "no-baldr": "/creatures/europe/baldr.webp"
+  "no-baldr": "/creatures/europe/baldr.webp",
+  "fi-finnish-flood-myth": "/creatures/europe/finnish-flood-myth.webp",
+  "wls-efnysien": "/creatures/europe/wls-efnysien.webp",
+  "wls-cythraul": "/creatures/europe/wls-cythraul.webp",
+  "gr-agenor-son-of-pleuron": "/creatures/europe/agenor-son-of-pleuron.webp",
+  "it-caca-mythology": "/creatures/europe/caca-mythology.webp",
+  "es-banyoles-monster": "/creatures/europe/banyoles-monster.webp",
+  "ng-shango": "/creatures/africa/shango.webp"
 }
