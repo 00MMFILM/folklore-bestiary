@@ -5970,7 +5970,8 @@ export default function FolkloreMap() {
         🆕 {L.lastUpdate}: {new Date(LAST_UPDATED).toLocaleString(locale === "ko" ? "ko-KR" : locale === "zh" ? "zh-CN" : locale === "ja" ? "ja-JP" : "en-US", {
           year: "numeric", month: "2-digit", day: "2-digit",
           hour: "2-digit", minute: "2-digit", hour12: false,
-        })} · {FOLKLORE_DATA.reduce((a, c) => a + c.b.length, 0)}{L.totalSpecies}
+          timeZone: "Asia/Seoul",
+        })} KST · {FOLKLORE_DATA.reduce((a, c) => a + c.b.length, 0)}{L.totalSpecies}
       </div>
 
       {/* Header */}
