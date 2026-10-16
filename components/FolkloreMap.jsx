@@ -4,6 +4,7 @@ import { useState, useMemo, useCallback, useRef, useEffect } from "react";
 import { PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, RadarChart, Radar, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Legend } from "recharts";
 import { CREATURE_IMAGE_MAP, FOLKLORE_DATA, getCreatureImage } from "@/lib/folklore-data";
 import { getCountryName, getRegionName, getTypeName } from "@/lib/i18n-names";
+import EncounterPromoCard from "./EncounterPromoCard";
 
 // 크롤 스크립트가 자동 갱신 (아래 한 줄만 교체)
 const LAST_UPDATED = "2026-08-17T12:24:13.974Z";
@@ -5976,6 +5977,9 @@ export default function FolkloreMap() {
       <header style={styles.header}>
         <h1 style={styles.title}>{L.siteTitle}</h1>
         <div style={styles.subtitle}>{L.siteSubtitle}</div>
+        <div style={{ maxWidth: 960, margin: "20px auto 0", textAlign: "left" }}>
+          <EncounterPromoCard locale={locale} placement="home" />
+        </div>
         <div style={styles.stats}>
           <span>{filtered.length}{L.countries}</span>
           <span>·</span>
