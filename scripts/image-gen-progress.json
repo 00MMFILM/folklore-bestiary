@@ -1728,5 +1728,11 @@
   "gb-werewoman": "/creatures/europe/werewoman.webp",
   "gb-the-devil-with-the-three-golden-hairs": "/creatures/europe/the-devil-with-the-three-golden-hairs.webp",
   "fr-la-petite-toute-belle": "/creatures/europe/la-petite-toute-belle.webp",
-  "gr-andromeda-mythology": "/creatures/europe/andromeda-mythology.webp"
+  "gr-andromeda-mythology": "/creatures/europe/andromeda-mythology.webp",
+  "ee-vanapagan": "/creatures/europe/vanapagan.webp",
+  "am-vishap": "/creatures/south-asia/vishap.webp",
+  "jp-메리씨의-전화": "/creatures/east-asia/메리씨의-전화.webp",
+  "jp-kobutori-jiisan": "/creatures/east-asia/kobutori-jiisan.webp",
+  "in-balarama": "/creatures/south-asia/balarama.webp",
+  "iq-anzu": "/creatures/south-asia/anzu.webp"
 }
