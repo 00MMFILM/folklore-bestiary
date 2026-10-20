@@ -1734,5 +1734,11 @@
   "jp-메리씨의-전화": "/creatures/east-asia/메리씨의-전화.webp",
   "jp-kobutori-jiisan": "/creatures/east-asia/kobutori-jiisan.webp",
   "in-balarama": "/creatures/south-asia/balarama.webp",
-  "iq-anzu": "/creatures/south-asia/anzu.webp"
+  "iq-anzu": "/creatures/south-asia/anzu.webp",
+  "eg-abezethibou": "/creatures/africa/abezethibou.webp",
+  "is-the-witch-in-the-stone-boat": "/creatures/europe/the-witch-in-the-stone-boat.webp",
+  "gr-agrius": "/creatures/europe/agrius.webp",
+  "gr-archon-gnosticism": "/creatures/europe/archon-gnosticism.webp",
+  "gr-epiales": "/creatures/europe/epiales.webp",
+  "ng-amadioha": "/creatures/africa/amadioha.webp"
 }
