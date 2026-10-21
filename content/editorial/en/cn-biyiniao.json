@@ -1,0 +1,46 @@
+{
+  "id": "cn-biyiniao",
+  "locale": "en",
+  "title": "Biyiniao: Chinese Birds That Can Only Fly Together",
+  "metaDescription": "Discover the Biyiniao, paired birds of Chinese myth: their one-winged Manman form, flood omen in the Shanhaijing, and meaning in Bai Juyi’s love poetry.",
+  "description": "Biyiniao (比翼鳥) are paired birds in Chinese literature whose joined flight became an image of lasting attachment. The Shanhaijing connects them with the Manman, ducklike birds with one eye and one wing each that can fly only together; that passage also treats their appearance as a sign of great flooding.",
+  "displayType": "Paired mythic birds",
+  "abilities": [
+    "Flight together: the Manman passage says the birds fly only when they find one another.",
+    "An omen of widespread flooding in the Shanhaijing’s Western Mountains account; the text does not explain a power to control water."
+  ],
+  "weaknesses": [
+    "Unable to fly alone in the Shanhaijing’s description of the Manman."
+  ],
+  "storyHooks": [
+    "Two rival courts each keep one flightless bird as a wedding gift. A river scholar recognizes the pair and warns that their reunion may announce a flood. The party must reunite them while persuading both courts to prepare the valley.",
+    "A pair of birds circles a ruined bridge each evening, but their shadows point in different directions. The party discovers that two communities remember opposite versions of the promise once made there and must recover the missing testimony."
+  ],
+  "sections": {
+    "origin": "The name Biyiniao describes birds flying with their wings together. In the Shanhaijing, the account of regions beyond the southern seas places them east of a southern mountain and describes blue-green and red birds paired wing to wing. A different passage, at Mount Chongwu in the Western Mountains section, names a bird called Manman. Each resembles a duck but has only one wing and one eye. It can fly only when joined with another. The commentary printed with that passage identifies the Manman with the Biyiniao, so the connection is visible in the text and its commentary.",
+    "legend": "The Manman entry ends with an unsettling detail: its appearance signals great flooding under heaven. It offers no story of the birds attacking people, deliberately making rain, or being defeated by a ritual. Their unusual anatomy and their meaning as an omen are the actual recorded features. The southern-seas entry is shorter and emphasizes the pair and their colors rather than the flood. These compact descriptions belong to a catalogue of extraordinary places and beings. Expanding them into a named couple’s tragedy would be a new story, not a recovered episode from these passages.",
+    "variants": "Biyiniao and Manman are therefore useful names to compare, but the details should remain tied to their passages. The commentary also gives Jianjian as a corresponding name in the Erya; that cross-reference is reported here as part of the commentary, not as a separately verified reading of the Erya. The Chinese color term qing can encompass blue and green, so blue-green is used here rather than assigning one exact modern shade. The paired birds should also be distinguished from an ordinary two-winged bird: their dependence on one another is the defining feature in the Manman description.",
+    "culture": "Bai Juyi’s Chang Hen Ge, usually known in English as The Song of Everlasting Sorrow, gives the joined-wing birds a different setting. Near the poem’s end, a remembered vow imagines being such birds in heaven and intertwined branches on earth. Within that passage, the image expresses enduring attachment across separation. Reading the poem beside the Shanhaijing shows why Biyiniao can carry both an intimate meaning and an ominous one. A modern story may explore either, but the romantic image should not erase the flood omen, and the flood omen should not be presented as the birds’ meaning in every Chinese text."
+  },
+  "sources": [
+    {
+      "title": "Shanhaijing, Haiwai Nan Jing — paired blue-green and red birds",
+      "url": "https://zh.wikisource.org/wiki/山海經/海外南經"
+    },
+    {
+      "title": "Shanhaijing, Xi Shan Jing — Mount Chongwu, Manman, and accompanying commentary",
+      "url": "https://zh.wikisource.org/wiki/山海經/西山經"
+    },
+    {
+      "title": "Bai Juyi, Chang Hen Ge — Chinese text of the poem",
+      "url": "https://zh.wikisource.org/wiki/長恨歌"
+    }
+  ],
+  "researchNote": "Reviewed the two cited Shanhaijing passages, their displayed commentary, and the closing vow in Bai Juyi’s poem directly in Chinese on Wikisource. The Erya reference is present in the Shanhaijing commentary but was not independently checked. English descriptions and story hooks are original summaries and fiction, not copied translations. The online transcriptions were not collated against manuscript images or a critical edition. A flood omen is not treated as evidence of deliberate weather control.",
+  "reviewedAt": "2026-10-20",
+  "relatedIds": [
+    "cn-bifang",
+    "cn-fenghuang",
+    "cn-jingwei"
+  ]
+}

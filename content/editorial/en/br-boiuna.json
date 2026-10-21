@@ -1,0 +1,44 @@
+{
+  "id": "br-boiuna",
+  "locale": "en",
+  "title": "Boiuna: the Giant River Serpent of Amazonian Folklore",
+  "metaDescription": "Meet Boiuna, the giant serpent of Amazonian folklore, through documented river legends, the story of night, and living Brazilian storytelling.",
+  "description": "Boiuna, also written Boiúna and associated with Cobra Grande, is a giant serpent of Amazonian folklore. Different retellings connect it with dangerous rivers, extraordinary transformations, and the origins of the world.",
+  "displayType": "River serpent",
+  "abilities": [
+    "Attacks boats and changes watercourses in the MultiRio retelling reproduced by Goiânia's education department.",
+    "Takes the appearance of vessels and disorients navigators with luminous eyes in an account discussed by a Universidade do Estado do Amazonas study."
+  ],
+  "weaknesses": [],
+  "storyHooks": [
+    "A river pilot recognizes the lights of a ship lost years ago. It offers passage to families stranded by a flood, but its wake travels against the current.",
+    "Two villages dispute custody of a sealed seed said to contain a missing season. The couriers must decide whose testimony to trust before anyone opens it."
+  ],
+  "sections": {
+    "origin": "Boiuna belongs to the river landscapes of Amazonian storytelling. A lesson published by Goiânia's municipal education department, drawing on MultiRio, presents Boiúna or Cobra Grande as an enormous serpent living in the region's great rivers. This retelling combines a creation figure with a threat to boats and fishers. The lesson also recognizes that different Indigenous peoples know different versions. Its broad introduction is therefore a useful starting point, rather than a single account that represents every community.",
+    "legend": "One story connects the great serpent with the arrival of night. A Universidade do Estado do Amazonas study discusses a version recorded by Hernâni Donato: Cobra Grande, called Mboiaçu in this account, marries off a daughter and sends her night enclosed inside a tucumã seed. The people carrying it become curious, open the container, and release its contents. Their punishment concludes the brief account. The serpent here belongs to a story about how the world acquired its conditions, rather than simply an encounter with a hungry river animal.",
+    "variants": "The study also discusses an account attributed to Alfredo da Mata in which Boiúna resembles vessels. Its movement disturbs the water and its eyes confuse navigators. The name combines words for snake and black. This river threat and the serpent in the night story have different roles; their episodes need not form one continuous narrative.",
+    "culture": "Boiuna remains part of public storytelling. In August 2025, a library at TerPaz Cabanagem in Pará advertised a reading of Adriana Cruz's A Boiuna e a Moça, followed by a paper-folding activity. The library described the book's collection as drawing on Amazonian encantaria and stories passed between generations. Goiânia's classroom material likewise invites children to retell stories with their families. These examples show how the subject circulates through books, libraries, performance, and education. The modern book is a new literary retelling; it should not be mistaken for an unchanged transcript of an ancient tale."
+  },
+  "sources": [
+    {
+      "title": "Goiânia Municipal Education Department — Cultura brasileira: a lenda da Boiúna e o ritmo afro-indígena Coco",
+      "url": "https://sme.goiania.go.gov.br/conexaoescola/ensino_fundamental/cultura-brasileira/"
+    },
+    {
+      "title": "Universidade do Estado do Amazonas — Narrativas orais na comunidade do Julião, pp. 19–21",
+      "url": "https://ppgla.uea.edu.br/wp-content/uploads/2021/06/Narrativas-orais-na-comunidade-do-Juliao.pdf"
+    },
+    {
+      "title": "Fundação Cultural do Pará — A Boiuna e a Moça storytelling activity at TerPaz Cabanagem",
+      "url": "https://sistemabib.fcp.pa.gov.br/cabanagem/contacao-de-historia-e-oficina-de-dradura-a-boiuna-e-a-moca/"
+    }
+  ],
+  "researchNote": "This entry distinguishes institutional retellings and a university study's discussion of earlier collectors. It does not identify one definitive version or assign all these stories to a single Indigenous people. The selected sources establish no shared method for defeating Boiuna. The two story hooks are original fiction.",
+  "reviewedAt": "2026-10-20",
+  "relatedIds": [
+    "br-boto",
+    "br-iara",
+    "br-boitata"
+  ]
+}

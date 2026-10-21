@@ -1,0 +1,44 @@
+{
+  "id": "cn-xiaotian-quan",
+  "locale": "en",
+  "title": "Xiaotian Quan: Yang Jian’s Divine Hound in Chinese Myth",
+  "metaDescription": "Meet Xiaotian Quan, Yang Jian’s divine hound in Fengshen Yanyi, and compare its exploits with Erlang’s unnamed hound in Journey to the West.",
+  "description": "Xiaotian Quan (哮天犬) is the divine hound summoned by Yang Jian in the Chinese novel Fengshen Yanyi. It pursues and bites supernatural opponents. A related comparison is Erlang’s hound in Journey to the West, whose role in capturing Sun Wukong is described without the name Xiaotian Quan in chapter 6.",
+  "displayType": "Divine hound",
+  "abilities": [
+    "Summoned into the air by Yang Jian in Fengshen Yanyi, chapter 96.",
+    "A powerful bite against supernatural opponents: it bites off one head of the nine-headed pheasant spirit in chapter 96."
+  ],
+  "weaknesses": [],
+  "storyHooks": [
+    "A divine hound stops outside a village granary and refuses to leave. The magistrate declares the keeper a monster, but the party finds evidence that something hidden in the grain shipment is the true quarry.",
+    "A courier carrying a heavenly warrant loses its final line. The pursuing hound can lead the party to the named fugitive, but only recovering the missing order will reveal whether they must arrest, protect, or release them."
+  ],
+  "sections": {
+    "origin": "Xiaotian Quan is named in Fengshen Yanyi, often called The Investiture of the Gods in English. In this novel, Yang Jian sends the dog against supernatural opponents. Chapter 96 explicitly calls it an immortal or divine dog that has developed spiritual awareness. That makes divine hound a more faithful description here than a generic demon. The name contains the characters for a cry or bark, heaven, and dog; Howling Celestial Dog is a useful explanatory rendering, while Xiaotian Quan preserves the Chinese name for readers comparing sources.",
+    "legend": "In chapter 96, Yang Jian pursues a nine-headed pheasant spirit. He summons Xiaotian Quan into the air, and the dog rushes forward and bites off one of the spirit’s heads. The wounded opponent still escapes, forcing Yang Jian to continue the chase. The episode demonstrates a formidable attack without making the dog all-powerful. Chapter 90 supplies another limit: Yang Jian sends it against Chang Hao, identified there as a snake spirit, but it cannot hurt him and he escapes in black vapor. These are results of particular encounters, not evidence that every serpent is immune or that a universal weakness has been established.",
+    "variants": "Journey to the West supplies a useful comparison in chapter 6. During the capture of Sun Wukong, Laozi’s thrown ring first knocks the Monkey King down. As Wukong tries to flee, Erlang’s slender hound catches him, bites his calf, and pulls him down again; the surrounding divine warriors then seize him. The dog contributes to a combined capture rather than defeating Wukong alone. This chapter calls it Erlang’s slender hound, not Xiaotian Quan. Keeping that wording distinct from Fengshen Yanyi avoids quietly inserting one novel’s name into the other. Neither passage reviewed fixes a modern dog breed.",
+    "culture": "The two scenes place a dog beside powerful divine combatants, giving pursuit and a well-timed bite a decisive role among spectacular transformations and magical weapons. That is an interpretation of these episodes, not a claim that all traditions give the hound one consistent personality. A retelling can use the figure as a companion or pursuer without treating a deity’s animal as inherently evil. The sources reviewed do not establish moon-swallowing, an origin story, or a ritual for defeating Xiaotian Quan; those features should not be supplied simply because other mythic dogs possess them."
+  },
+  "sources": [
+    {
+      "title": "Fengshen Yanyi, chapter 96 — Xiaotian Quan and the nine-headed pheasant spirit",
+      "url": "https://zh.wikisource.org/wiki/封神演義/卷096"
+    },
+    {
+      "title": "Fengshen Yanyi, chapter 90 — the unsuccessful attack on Chang Hao",
+      "url": "https://zh.wikisource.org/wiki/封神演義/卷090"
+    },
+    {
+      "title": "Journey to the West, chapter 6 — Erlang’s hound and Sun Wukong’s capture",
+      "url": "https://zh.wikisource.org/wiki/西遊記/第006回"
+    }
+  ],
+  "researchNote": "Read the cited Chinese episodes directly in Wikisource transcriptions. Fengshen Yanyi explicitly names Xiaotian Quan; Journey to the West chapter 6 uses the description slender hound. This comparison does not establish the first historical appearance of the name or a complete history of Erlang worship. No modern English translation was copied, and the story hooks are newly invented. Online transcriptions were not checked against manuscript images or a critical edition. No general weakness was inferred from a single failed attack.",
+  "reviewedAt": "2026-10-20",
+  "relatedIds": [
+    "cn-erlang-shen",
+    "cn-sun-wukong",
+    "cn-tiangou"
+  ]
+}

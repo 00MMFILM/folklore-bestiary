@@ -1,0 +1,44 @@
+{
+  "id": "cn-tenghuang",
+  "locale": "en",
+  "title": "Tenghuang: The Chinese Divine Horse of Longevity",
+  "metaDescription": "Explore Tenghuang, the yellow divine horse linked with Chenghuang: its foxlike shape, horns, longevity legends, and differing accounts in Chinese texts.",
+  "description": "Tenghuang (騰黃) is a divine mount associated with extraordinary longevity in Chinese literature. Some texts call it a horse, while a passage preserved in the Taiping Yulan describes a yellow, foxlike creature with two horns on its back and identifies Chenghuang as another name.",
+  "displayType": "Divine mount",
+  "abilities": [
+    "Extraordinary longevity: the Baopuzi gives the Tenghuang horse a lifespan of 3,000 years.",
+    "A lifespan of 3,000 years for its rider in the account quoted in Taiping Yulan, volume 896."
+  ],
+  "weaknesses": [],
+  "storyHooks": [
+    "A ruler commissions a magnificent stable to attract Tenghuang, but an old account says the beast appears when royal transport is restrained. The party must decide whether to expose the contradiction before the treasury is emptied.",
+    "A traveler claims to have ridden Chenghuang centuries ago. Two manuscripts promise different lifespans, and rival heirs hire the party to discover whether the traveler is an impostor or the one witness who can settle their dispute."
+  ],
+  "sections": {
+    "origin": "Tenghuang belongs to a cluster of remarkable mounts described in Chinese texts. Ge Hong’s Baopuzi, in its third inner chapter, names the Tenghuang horse alongside the beast Jiguang and assigns both a lifespan of three thousand years. The passage forms part of a discussion of long-lived beings; it does not describe a battle or provide a detailed portrait. This is evidence for Tenghuang as a marvel of longevity, rather than for the miscellaneous magical powers sometimes attached to fantasy creatures.",
+    "legend": "A fuller description appears in volume 896 of the Taiping Yulan, under its material on horses. Quoting the Furui Tu, the compilation calls Tenghuang a yellow divine horse, then says that it resembles a fox and has two horns on its back. It places the animal in the land of the Baishi and states that riding it brings a lifespan of three thousand years. The same passage associates its appearance with moderation in the use of carriages and horses. These details describe an auspicious mount; they do not establish wings, fire-breathing, or a particular way to defeat it.",
+    "variants": "The Taiping Yulan passage explicitly lists Chenghuang, Feihuang, Jihuang, Cuihuang, and Zihuang as alternative names. However, the accounts are not identical. The Shanhaijing’s section on the regions beyond the western seas places Chenghuang in the land of the Baimin. There it resembles a fox, has a horn on its back, and grants its rider a lifespan of two thousand years. That differs both from the three-thousand-year riding benefit in the Taiping Yulan and from the animal’s own three-thousand-year lifespan in the Baopuzi. Keeping the text attached to each claim avoids turning several traditions into one fixed anatomy and rulebook.",
+    "culture": "Read together, these passages connect an exceptional animal with two human concerns: the desire for a longer life and the hope for good government. The political connection is explicit in the omen material preserved by the Taiping Yulan, where restraint in royal transport precedes its appearance. The Baopuzi uses the animal within an argument about longevity instead. Neither account is an instruction for summoning it. For a modern retelling, the difference between possessing a rare mount and deserving an auspicious sign offers a useful tension; that narrative interpretation is separate from the recorded descriptions."
+  },
+  "sources": [
+    {
+      "title": "Ge Hong, Baopuzi, Inner Chapter 3: Dui Su — Chinese text",
+      "url": "https://zh.wikisource.org/wiki/抱朴子/卷03"
+    },
+    {
+      "title": "Taiping Yulan, volume 896: Horses IV — quotation from Furui Tu",
+      "url": "https://zh.wikisource.org/wiki/太平御覽/0896"
+    },
+    {
+      "title": "Shanhaijing, Haiwai Xi Jing — Chenghuang passage",
+      "url": "https://zh.wikisource.org/wiki/山海經/海外西經"
+    }
+  ],
+  "researchNote": "Reviewed the cited Chinese passages directly in Wikisource transcriptions. The summaries and story hooks are newly written; no modern English translation was copied. Tenghuang and Chenghuang are linked explicitly by the Taiping Yulan passage, but their descriptions and lifespan claims are kept separate. These online transcriptions were not checked against manuscript images or a modern critical edition. No specific weakness was established in the passages reviewed.",
+  "reviewedAt": "2026-10-20",
+  "relatedIds": [
+    "cn-tianma",
+    "cn-longma",
+    "cn-qilin"
+  ]
+}

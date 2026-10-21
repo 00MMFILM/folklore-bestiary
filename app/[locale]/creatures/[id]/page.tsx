@@ -9,6 +9,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import LanguageSelector from "@/components/LanguageSelector";
 import { getCreatureTranslation } from "@/lib/creature-translations";
 import { getCreatureArticle } from "@/lib/articles";
+import { getEditorialCreature } from "@/lib/editorial-creatures";
 import { getTaleLinks } from "@/lib/tale-links";
 import { localizeTags, localizeDescription } from "@/lib/tag-i18n";
 import BulgasariSampleCard, { isBulgasari } from "@/components/BulgasariSampleCard";
@@ -37,7 +38,7 @@ export async function generateMetadata({
   const creature = getCreatureById(id);
   if (!creature) return { title: "Creature Not Found" };
 
-  const t = getDictionary(locale);
+  const editorial = getEditorialCreature(id, locale);
   const image = getCreatureImage(creature.id);
   const ogImage = image || "/og-default.png";
   const countryLocalized = getCountryName(creature.country, locale as Locale);
@@ -49,8 +50,8 @@ export async function generateMetadata({
     countryLocalized,
     typeLocalized
   );
-  const title = `${creature.n} — ${countryLocalized}`;
-  const description = descText.length > 160 ? descText.slice(0, 157) + "..." : descText;
+  const title = editorial?.title || `${creature.n} — ${countryLocalized}`;
+  const description = editorial?.metaDescription || (descText.length > 160 ? descText.slice(0, 157) + "..." : descText);
 
   const langAlternates: Record<string, string> = {};
   for (const l of LOCALES) {
@@ -94,6 +95,7 @@ export default async function CreaturePage({
 
   const creature = getCreatureById(id);
   if (!creature) notFound();
+  const editorial = getEditorialCreature(id, locale);
 
   const t = getDictionary(locale);
   const image = getCreatureImage(creature.id);
@@ -102,32 +104,41 @@ export default async function CreaturePage({
 
   const countryName = getCountryName(creature.country, locale);
   const regionName = getRegionName(creature.region, locale);
-  const typeName = getTypeName(creature.t, locale);
+  const typeName = editorial?.displayType || getTypeName(creature.t, locale);
 
-  const description = localizeDescription(
+  const description = editorial?.description || localizeDescription(
     trans?.d || creature.d,
     locale,
     countryName,
     typeName
   );
-  const abilities = localizeTags(
+  const abilities = editorial?.abilities ?? localizeTags(
     Array.isArray(trans?.ab) ? trans.ab : creature.ab,
     locale
   );
-  const weaknesses = localizeTags(
+  const weaknesses = editorial?.weaknesses ?? localizeTags(
     Array.isArray(trans?.wk) ? trans.wk : creature.wk,
     locale
   );
   const genres = localizeTags(creature.gf, locale);
   const rawSh = trans?.sh || creature.sh;
-  const storyHooks = rawSh
+  const storyHooks = editorial?.storyHooks ?? (rawSh
     ? (Array.isArray(rawSh) ? rawSh : [rawSh]).map((s) =>
         localizeDescription(s, locale, countryName, typeName)
       )
-    : null;
+    : null);
 
   // 심화 아티클 (있을 때만 — content/articles/{id}.json)
-  const article = getCreatureArticle(creature.id, locale);
+  const article = editorial
+    ? {
+        sourceTitle: editorial.title,
+        sourceLang: "en",
+        factBased: true,
+        sections: editorial.sections,
+        sources: editorial.sources,
+        researchNote: editorial.researchNote,
+      }
+    : getCreatureArticle(creature.id, locale);
   const articleSections = article
     ? ([
         ["article.origin", article.sections.origin],
@@ -141,22 +152,30 @@ export default async function CreaturePage({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: creature.n,
+    headline: editorial?.title || creature.n,
     description,
     image: image ? `${SITE_URL}${image}` : `${SITE_URL}/og-default.png`,
     author: { "@type": "Organization", name: "Global Folklore Bestiary" },
     publisher: { "@type": "Organization", name: "Global Folklore Bestiary" },
     mainEntityOfPage: `${SITE_URL}/${locale}/creatures/${creature.id}`,
     inLanguage: locale,
+    ...(editorial ? {
+      dateModified: editorial.reviewedAt,
+      citation: editorial.sources.map(source => ({
+        "@type": "CreativeWork",
+        name: source.title,
+        url: source.url,
+      })),
+    } : {}),
     ...(articleBody
       ? { articleBody, wordCount: articleBody.split(/\s+/).length }
       : {}),
     keywords: [
-      creature.t,
+      editorial?.displayType || creature.t,
       creature.country,
       creature.region,
       creature.ln,
-      ...(creature.ab || []),
+      ...(editorial ? [] : creature.ab || []),
     ].join(", "),
   };
 
@@ -197,6 +216,9 @@ export default async function CreaturePage({
   const relatedTale = getTaleLinks(creature.id)
     .map((l) => getCreatureById(l.id))
     .filter((c): c is NonNullable<typeof c> => Boolean(c));
+  const editorialRelated = (editorial?.relatedIds || [])
+    .map(id => getCreatureById(id))
+    .filter((c): c is NonNullable<typeof c> => Boolean(c));
 
   return (
     <>
@@ -210,6 +232,7 @@ export default async function CreaturePage({
       />
 
       <main
+        lang={locale}
         style={{
           minHeight: "100vh",
           background: `linear-gradient(135deg, ${colors.bg} 0%, #0a0a0a 100%)`,
@@ -243,7 +266,7 @@ export default async function CreaturePage({
                 height={600}
                 style={{ width: "100%", height: "auto", display: "block" }}
               />
-              {isBulgasari(creature.id) && (
+              {(isBulgasari(creature.id) || editorial) && (
                 <p style={{ padding: "10px 14px", fontSize: 12, color: "#b7aa99" }}>
                   {{ ko: "창작적 재해석 이미지. 전승마다 모습이 다릅니다.", en: "An artistic interpretation. Appearance varies across traditions.", ja: "創作的なイメージ。姿は伝承によって異なります。", zh: "艺术化演绎；不同传说中的形态并不相同。" }[locale]}
                 </p>
@@ -262,7 +285,7 @@ export default async function CreaturePage({
                 lineHeight: 1.2,
               }}
             >
-              {creature.n}
+              {editorial?.title || creature.n}
             </h1>
             <div
               style={{
@@ -293,7 +316,7 @@ export default async function CreaturePage({
               >
                 {countryName} · {regionName}
               </span>
-              {creature.ct && (
+              {!editorial && creature.ct && (
                 <span
                   style={{
                     background: "#ffffff11",
@@ -304,7 +327,7 @@ export default async function CreaturePage({
                   {getCtLabel(locale, creature.ct)}
                 </span>
               )}
-              <span
+              {!editorial && <span
                 style={{
                   background: creature.f >= 7 ? "#ff000022" : "#ffaa0022",
                   padding: "4px 12px",
@@ -313,7 +336,7 @@ export default async function CreaturePage({
                 }}
               >
                 {t["creature.fear"]} {creature.f}/10
-              </span>
+              </span>}
             </div>
           </header>
 
@@ -342,8 +365,13 @@ export default async function CreaturePage({
               ))}
             </section>
           ))}
+          {editorial && (
+            <h2 style={{ fontSize: "18px", color: colors.accent, marginBottom: "12px" }}>
+              Research notes
+            </h2>
+          )}
           {article && (
-            <p style={{ fontSize: "12px", color: "#777", marginBottom: "32px" }}>
+            <p style={{ fontSize: editorial ? "14px" : "12px", lineHeight: 1.7, color: "#aaa", marginBottom: "32px" }}>
               {article.sources?.length ? (
                 <>
                   {article.sources.map((source, index) => (
@@ -353,6 +381,7 @@ export default async function CreaturePage({
                     </span>
                   ))}
                   {article.researchNote && <span style={{ display: "block", marginTop: 8, color: "#aaa" }}>{article.researchNote}</span>}
+                  {editorial && <span style={{ display: "block", marginTop: 8, color: "#aaa" }}>Reviewed {editorial.reviewedAt}</span>}
                 </>
               ) : article.factBased ? (
                 t["article.attributionFact"].replace("{title}", article.sourceTitle)
@@ -376,7 +405,7 @@ export default async function CreaturePage({
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "1fr 1fr",
+              gridTemplateColumns: editorial ? "repeat(auto-fit, minmax(min(100%, 260px), 1fr))" : "1fr 1fr",
               gap: "24px",
               marginBottom: "32px",
             }}
@@ -386,7 +415,7 @@ export default async function CreaturePage({
                 <h2
                   style={{ fontSize: "16px", color: colors.accent, marginBottom: "12px" }}
                 >
-                  {t["creature.abilities"]}
+                  {editorial ? "Traits in the sources" : t["creature.abilities"]}
                 </h2>
                 <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
                   {abilities.map((a) => (
@@ -409,7 +438,7 @@ export default async function CreaturePage({
                 <h2
                   style={{ fontSize: "16px", color: "#ff6666", marginBottom: "12px" }}
                 >
-                  {t["creature.weaknesses"]}
+                  {editorial ? "Limits in these accounts" : t["creature.weaknesses"]}
                 </h2>
                 <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
                   {weaknesses.map((w) => (
@@ -430,7 +459,7 @@ export default async function CreaturePage({
           </div>
 
           {/* Sources */}
-          {creature.src && (
+          {!editorial && creature.src && (
             <section style={{ marginBottom: "32px" }}>
               <h2
                 style={{ fontSize: "16px", color: colors.accent, marginBottom: "12px" }}
@@ -448,7 +477,7 @@ export default async function CreaturePage({
           )}
 
           {/* Genres */}
-          {genres && genres.length > 0 && (
+          {!editorial && genres && genres.length > 0 && (
             <section style={{ marginBottom: "32px" }}>
               <h2
                 style={{ fontSize: "16px", color: colors.accent, marginBottom: "12px" }}
@@ -479,8 +508,13 @@ export default async function CreaturePage({
               <h2
                 style={{ fontSize: "16px", color: colors.accent, marginBottom: "12px" }}
               >
-                {t["creature.storyHooks"]}
+                {editorial ? "Creative prompts" : t["creature.storyHooks"]}
               </h2>
+              {editorial && (
+                <p style={{ color: "#aaa", fontSize: "14px", lineHeight: 1.7 }}>
+                  Original ideas for fiction or tabletop play. These are creative adaptations, separate from the traditions described above.
+                </p>
+              )}
               <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
                 {storyHooks.map((s) => (
                   <li
@@ -500,9 +534,10 @@ export default async function CreaturePage({
 
           {/* Related creatures (internal links) */}
           {[
+            { title: "Continue exploring", items: editorialRelated },
             { title: t["creature.relatedTale"], items: relatedTale },
             { title: `${t["creature.relatedCountry"]} · ${countryName}`, items: relatedCountry },
-            { title: `${t["creature.relatedType"]} · ${typeName}`, items: relatedType },
+            { title: `${t["creature.relatedType"]} · ${typeName}`, items: editorial ? [] : relatedType },
           ].map(
             ({ title, items }) =>
               items.length > 0 && (
