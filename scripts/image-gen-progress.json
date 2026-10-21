@@ -1740,5 +1740,12 @@
   "gr-agrius": "/creatures/europe/agrius.webp",
   "gr-archon-gnosticism": "/creatures/europe/archon-gnosticism.webp",
   "gr-epiales": "/creatures/europe/epiales.webp",
-  "ng-amadioha": "/creatures/africa/amadioha.webp"
+  "ng-amadioha": "/creatures/africa/amadioha.webp",
+  "al-flocka": "/creatures/europe/flocka.webp",
+  "gh-nyambe": "/creatures/africa/nyambe.webp",
+  "pg-afekan": "/creatures/oceania/afekan.webp",
+  "kr-the-fox-sister": "/creatures/east-asia/the-fox-sister.webp",
+  "cn-assassin-s-mace": "/creatures/east-asia/assassin-s-mace.webp",
+  "in-yali-mythology": "/creatures/south-asia/yali-mythology.webp",
+  "iq-gallu": "/creatures/south-asia/gallu.webp"
 }
