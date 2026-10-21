@@ -1,0 +1,43 @@
+{
+  "id": "wls-gwenddydd",
+  "locale": "en",
+  "title": "Gwenddydd: Merlin's Sister in Welsh Legend",
+  "metaDescription": "Discover Gwenddydd, Myrddin's sister in Welsh poetry, her prophetic dialogue, and the related figure Ganieda in Geoffrey of Monmouth's Vita Merlini.",
+  "description": "Gwenddydd is a woman in Welsh literary tradition, best known as the sister who questions Myrddin about the future. The related figure Ganieda appears in Geoffrey of Monmouth's Vita Merlini.",
+  "displayType": "Legendary figure",
+  "abilities": [
+    "Prophetic speech is attributed to her Latin counterpart Ganieda in Geoffrey of Monmouth's Vita Merlini."
+  ],
+  "weaknesses": [],
+  "storyHooks": [
+    "A ruler demands a prophet's next prediction, but only his estranged sister knows which questions he will answer. She asks the envoys to resolve a family's old grievance before approaching him.",
+    "Two copies of a prophetic dialogue name different successors to a throne. A travelling scholar must establish who altered the text while the sister who first recorded it refuses to endorse either claimant."
+  ],
+  "sections": {
+    "origin": "Gwenddydd belongs to the Welsh tradition surrounding Myrddin. Bartrum's Welsh Classical Dictionary identifies her as his sister in the dialogue preserved in the Red Book of Hergest. She is a literary person, rather than a species of supernatural creature.",
+    "legend": "The Dialogue Between Myrddin and His Sister Gwenddydd is built from alternating questions and answers. Gwenddydd asks who will govern after successive rulers, while Myrddin responds with names and predictions. His memories of the battle of Arderydd repeatedly interrupt the exchange. The conversation therefore places political uncertainty beside the suffering of someone who has lived through violence.\n\nGwenddydd's questions also carry personal concern. In the English translation linked below, she speaks of tears and the pain of leaving her brother; he addresses her directly rather than delivering an impersonal list of future events. Their conversation makes the relationship part of the poem's structure. Reading her only as a name beside Merlin misses the voice that prompts, sustains, and gives a human setting to his disclosures.",
+    "variants": "Geoffrey's Vita Merlini calls Merlin's sister Ganieda and makes her the wife of Rodarchus. Bartrum cautions that this marriage is not established by the Welsh poems. In Geoffrey's narrative she supports Merlin in the wilderness and participates in prophecy. These details belong to a particular version; the different texts do not automatically form a single continuous biography.",
+    "culture": "The Welsh Merlin material remains an active field of textual scholarship. Cardiff University reports that a collaborative edition examined 102 poems surviving across 519 manuscripts, including medieval and early modern material. That scale helps explain why a brief modern character profile cannot stand for the whole tradition. Gwenddydd is best approached through a named poem or version: the questions she asks, her relationship with Myrddin, and the form of prophecy all have a literary setting. For readers following her into Arthurian fiction, the Welsh dialogue offers a useful encounter with a voice easily overshadowed by her more famous brother."
+  },
+  "sources": [
+    {
+      "title": "Peter C. Bartrum — A Welsh Classical Dictionary, Gwenddydd entry, pp. 356–357; National Library of Wales",
+      "url": "https://www.library.wales/fileadmin/docs_gwefan/new_structure/discover/digital_exhibitions/printed_material/welsh_classical_dictionary/06_G.pdf"
+    },
+    {
+      "title": "The Dialogue Between Myrddin and His Sister Gwenddydd — English translation, Red Book of Hergest 577–583",
+      "url": "https://www.ancienttexts.org/library/celtic/ctexts/h01.html"
+    },
+    {
+      "title": "Cardiff University — Discovering the true origins of Merlin",
+      "url": "https://www.cardiff.ac.uk/news/view/2899063-discovering-the-true-origins-of-merlin"
+    }
+  ],
+  "researchNote": "This entry separates Welsh Gwenddydd from the corresponding Ganieda narrative in Latin. The dialogue was consulted in an online English translation and checked against Bartrum's reference work; it is not a new translation of the manuscript. Prophecy is attributed to a particular literary version, not treated as evidence for a historical person's powers. The sources do not supply a monster-style weakness. The two story hooks are original fiction.",
+  "reviewedAt": "2026-10-20",
+  "relatedIds": [
+    "wls-merlin",
+    "wls-king-arthur",
+    "wls-cyledr-wyllt"
+  ]
+}

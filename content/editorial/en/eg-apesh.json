@@ -1,0 +1,41 @@
+{
+  "id": "eg-apesh",
+  "locale": "en",
+  "title": "Apesh: the Egyptian Tortoise Deity and the Evidence",
+  "metaDescription": "What the sources say about Apesh, the Egyptian tortoise deity: Budge's account, turtle imagery, funerary texts, and the distinction from Apep.",
+  "description": "Apesh is the name E. A. Wallis Budge gives to an Egyptian tortoise deity associated with darkness and night. His account distinguishes this figure from the serpent Apep.",
+  "displayType": "Deity",
+  "abilities": [],
+  "weaknesses": [],
+  "storyHooks": [
+    "A fictional museum receives two incompatible labels for the same turtle amulet. Investigators must reconstruct its history before a collector uses a mistaken attribution to claim ownership.",
+    "In an invented tomb, four wind passages have been sealed in a recent restoration. Opening them requires finding out which changes belong to the original builders and which were made to conceal a theft."
+  ],
+  "sections": {
+    "origin": "In the second volume of The Gods of the Egyptians, published in 1904, E. A. Wallis Budge names Apesh while discussing sacred reptiles. He describes a tortoise deity connected with darkness, night, and hostile forces, and says it had a place in the heavens. This is the specific published account behind the name used here. Its brief description supplies an association, rather than an extended biography or a catalogue of supernatural feats.",
+    "legend": "Budge connects his discussion with chapter 161 of the Book of the Dead. His English translation of that chapter presents Thoth opening the four wind entrances. A repeated formula sets the life of Ra against the death of the tortoise, alongside wishes for the deceased's bodily integrity. The accompanying directions concern figures placed on a coffin and the dead person's passage into heaven. This is a funerary text: its setting and purpose differ from a narrative in which a hero hunts or defeats a monster.",
+    "variants": "Apesh and Apep should be kept separate. Budge discusses Apep, also called Apophis, under serpents immediately after his treatment of the tortoise. He also mentions a tortoise called Sheta in connection with another Book of the Dead chapter. That nearby reference does not by itself establish that every Egyptian turtle name or representation denotes Apesh.",
+    "culture": "UCL's Digital Egypt for Universities explains that turtles had an ambiguous position in Egyptian belief. They could represent an enemy of the sun god, yet turtle imagery also appeared on objects intended to protect health and life. The resource brings together funerary references, palettes, seals, and amulets. This material context matters: a turtle-shaped object need not represent a hostile deity, and an object's protective use cannot be inferred from the animal's appearance alone."
+  },
+  "sources": [
+    {
+      "title": "E. A. Wallis Budge — The Gods of the Egyptians, vol. II (1904), pp. 376–377",
+      "url": "https://archive.org/stream/in.ernet.dli.2015.22227/2015.22227.The-Gods-Of-The-Egyptians-Or-Studies-In-Egyptian-Mythology-Vol-2_djvu.txt"
+    },
+    {
+      "title": "E. A. Wallis Budge — The Book of the Dead, English translation (1901), chapter 161, pp. 531–532",
+      "url": "https://iapsop.com/ssoc/1901__budge___egyptian_book_of_the_dead.pdf"
+    },
+    {
+      "title": "UCL Digital Egypt for Universities — Turtles",
+      "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/religion/turtles.html"
+    }
+  ],
+  "researchNote": "Apesh is retained with explicit attribution to Budge's older Egyptological account. The Book of the Dead passage was checked in his published English translation, not newly translated from hieroglyphs; the passage itself refers to the tortoise without naming Apesh in English. These sources do not establish a human body with a turtle head, a specific set of powers, or a combat weakness. The two story hooks are original fiction.",
+  "reviewedAt": "2026-10-20",
+  "relatedIds": [
+    "eg-apep",
+    "eg-sobek",
+    "eg-bennu"
+  ]
+}
