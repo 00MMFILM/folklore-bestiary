@@ -13,6 +13,7 @@ import { getEditorialCreature } from "@/lib/editorial-creatures";
 import { getTaleLinks } from "@/lib/tale-links";
 import { localizeTags, localizeDescription } from "@/lib/tag-i18n";
 import BulgasariSampleCard, { isBulgasari } from "@/components/BulgasariSampleCard";
+import GuidePromoCard, { KOREAN_GUIDE_CREATURE_IDS } from "@/components/GuidePromoCard";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://folklore-bestiary.vercel.app";
 
@@ -349,6 +350,7 @@ export default async function CreaturePage({
           </section>
 
           {/* In-depth article sections */}
+          {KOREAN_GUIDE_CREATURE_IDS.includes(creature.id) && <div style={{ marginBottom: 24 }}><GuidePromoCard locale={locale} /></div>}
           {isBulgasari(creature.id) && <BulgasariSampleCard locale={locale} creatureId={creature.id} />}
           {articleSections.map(([key, text]) => (
             <section key={key} style={{ marginBottom: "32px" }}>

@@ -14,6 +14,8 @@ import Breadcrumb from "@/components/Breadcrumb";
 import CreatureCard from "@/components/CreatureCard";
 import LanguageSelector from "@/components/LanguageSelector";
 import EncounterPromoCard from "@/components/EncounterPromoCard";
+import GuidePromoCard from "@/components/GuidePromoCard";
+import WriterStudioPromo from "@/components/writer/WriterStudioPromo";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://folklore-bestiary.vercel.app";
 
@@ -170,7 +172,9 @@ export default async function CountryPage({
         </header>
 
         {code.toLowerCase() === "kr" && (
-          <div style={{ marginBottom: 24 }}>
+          <div style={{ marginBottom: 24, display: "grid", gap: 12 }}>
+            {locale === "ko" && <WriterStudioPromo />}
+            <GuidePromoCard locale={locale} />
             <EncounterPromoCard locale={locale} placement="korea" />
           </div>
         )}

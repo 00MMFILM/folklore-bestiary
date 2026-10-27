@@ -5,6 +5,9 @@ import { PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveCo
 import { CREATURE_IMAGE_MAP, FOLKLORE_DATA, getCreatureImage } from "@/lib/folklore-data";
 import { getCountryName, getRegionName, getTypeName } from "@/lib/i18n-names";
 import EncounterPromoCard from "./EncounterPromoCard";
+import GuidePromoCard from "./GuidePromoCard";
+import WriterStudioPromo from "./writer/WriterStudioPromo";
+import { readScenarioStream, parseScenarioText, selectScenarioBeings } from "@/lib/scenario-stream";
 
 // 크롤 스크립트가 자동 갱신 (아래 한 줄만 교체)
 const LAST_UPDATED = "2026-08-17T12:24:13.974Z";
@@ -1352,6 +1355,7 @@ export default function FolkloreMap() {
   const [scenarioTone, setScenarioTone] = useState("");
   const [scenarioAILoading, setScenarioAILoading] = useState(false);
   const [scenarioStreamText, setScenarioStreamText] = useState("");
+  const [scenarioAIError, setScenarioAIError] = useState("");
   const [expandedActs, setExpandedActs] = useState({0: true, 1: true, 2: true, 3: true});
   const [charBuilt, setCharBuilt] = useState(null);
   const [webtoonGenre, setWebtoonGenre] = useState(null);
@@ -2678,12 +2682,10 @@ export default function FolkloreMap() {
     };
 
     const generateScenario = () => {
+      if (scenarioAILoading) return;
+      setScenarioAIError("");
       const template = scenarioGenre || pickRandom(SCENARIO_TEMPLATES);
-      let beings = scenarioBeings.length >= 1 ? [...scenarioBeings] : [];
-      while (beings.length < 2) {
-        const b = pickRandom(allBeings);
-        if (!beings.find(x => x.n === b.n)) beings.push(b);
-      }
+      const beings = selectScenarioBeings(scenarioBeings, allBeings);
       const setting = pickRandom(template.settings);
       const hook = pickRandom(template.hooks);
       const twist = pickRandom(template.twists);
@@ -2802,16 +2804,13 @@ export default function FolkloreMap() {
     };
 
     const generateScenarioAI = async () => {
+      if (scenarioAILoading) return;
       setScenarioAILoading(true);
       setScenarioStreamText("");
-      setScenarioResult(null);
+      setScenarioAIError("");
 
       const template = scenarioGenre || pickRandom(SCENARIO_TEMPLATES);
-      let beings = scenarioBeings.length >= 1 ? [...scenarioBeings] : [];
-      while (beings.length < 2) {
-        const b = pickRandom(allBeings);
-        if (!beings.find(x => x.n === b.n)) beings.push(b);
-      }
+      const beings = selectScenarioBeings(scenarioBeings, allBeings);
 
       try {
         const res = await fetch("/api/scenario/generate", {
@@ -2828,38 +2827,11 @@ export default function FolkloreMap() {
           }),
         });
 
-        if (!res.ok) throw new Error("AI generation failed");
-
-        const reader = res.body.getReader();
-        const decoder = new TextDecoder();
-        let fullText = "";
-
-        while (true) {
-          const { done, value } = await reader.read();
-          if (done) break;
-          const chunk = decoder.decode(value, { stream: true });
-          const lines = chunk.split("\n");
-          for (const line of lines) {
-            if (!line.startsWith("data: ")) continue;
-            const data = line.slice(6);
-            if (data === "[DONE]") break;
-            try {
-              const parsed = JSON.parse(data);
-              const content = parsed.choices?.[0]?.delta?.content;
-              if (content) {
-                fullText += content;
-                setScenarioStreamText(fullText);
-              }
-            } catch {}
-          }
-        }
-
-        // Parse the JSON from accumulated text
-        const jsonMatch = fullText.match(/\{[\s\S]*\}/);
-        if (jsonMatch) {
-          const aiResult = JSON.parse(jsonMatch[0]);
+        if (!res.ok || !res.body) throw new Error("AI generation failed");
+        const fullText = await readScenarioStream(res.body, setScenarioStreamText);
+        const aiResult = parseScenarioText(fullText);
           if (aiResult.acts) {
-            // Ensure each act has 5 beats with emotion/subplot fields
+            // The parser verifies the complete 4-act, 20-beat treatment first.
             const normalizedActs = (aiResult.acts || []).map(act => ({
               ...act,
               mood: act.mood || "",
@@ -2909,14 +2881,13 @@ export default function FolkloreMap() {
               isAI: true,
             });
           }
-          setScenarioStreamText("");
-        } else {
-          throw new Error("Failed to parse AI response");
-        }
       } catch (err) {
-        console.warn("AI generation failed, falling back to template:", err);
-        generateScenario();
+        console.warn("AI scenario generation did not complete:", err);
+        setScenarioAIError(isKo
+          ? "AI 시나리오를 완성하지 못했습니다. 다시 시도해 주세요. 이전 결과가 있다면 그대로 유지됩니다."
+          : "The AI scenario could not be completed. Please try again. Your previous result, if any, has been kept.");
       } finally {
+        setScenarioStreamText("");
         setScenarioAILoading(false);
       }
     };
@@ -2999,6 +2970,8 @@ export default function FolkloreMap() {
         <p style={{ textAlign: "center", fontSize: 13, opacity: 0.5, marginBottom: 24 }}>
           {L.subtitle}
         </p>
+
+        {isKo && <div style={{ marginBottom: 24 }}><WriterStudioPromo /></div>}
 
         {/* Genre Selection */}
         <div style={{ marginBottom: 20 }}>
@@ -3159,6 +3132,12 @@ export default function FolkloreMap() {
             {scenarioMode === "ai" ? L.aiHint : L.fastHint}
           </div>
         </div>
+
+        {scenarioAIError && (
+          <div role="alert" style={{ background: "#301b1b", border: "1px solid #b85c5c", borderRadius: 12, padding: 16, marginBottom: 24, color: "#ffd4d4", fontSize: 14, lineHeight: 1.7 }}>
+            {scenarioAIError}
+          </div>
+        )}
 
         {/* AI Streaming indicator */}
         {scenarioAILoading && scenarioStreamText && (
@@ -3556,7 +3535,7 @@ export default function FolkloreMap() {
 
               {/* 18. Action buttons */}
               <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: 8, marginTop: 16 }}>
-                <button onClick={scenarioMode === "ai" ? generateScenarioAI : generateScenario} style={{
+                <button onClick={scenarioMode === "ai" ? generateScenarioAI : generateScenario} disabled={scenarioAILoading} style={{
                   padding: "8px 20px", borderRadius: 20, border: `1px solid ${theme.accent}66`,
                   background: "transparent", color: theme.accent, cursor: "pointer", fontSize: 12,
                   fontFamily: "'Crimson Text', serif",
@@ -5978,7 +5957,9 @@ export default function FolkloreMap() {
       <header style={styles.header}>
         <h1 style={styles.title}>{L.siteTitle}</h1>
         <div style={styles.subtitle}>{L.siteSubtitle}</div>
-        <div style={{ maxWidth: 960, margin: "20px auto 0", textAlign: "left" }}>
+        <div style={{ maxWidth: 960, margin: "20px auto 0", textAlign: "left", display: "grid", gap: 12 }}>
+          {locale === "ko" && <WriterStudioPromo />}
+          <GuidePromoCard locale={locale} />
           <EncounterPromoCard locale={locale} placement="home" />
         </div>
         <div style={styles.stats}>

@@ -1,0 +1,105 @@
+{
+  "title": "Korean Folklore: Beyond the Screen",
+  "subtitle": "Six beings, the stories behind them, and a different way to watch fantasy",
+  "intro": [
+    "A fox, a messenger, a guardian: the beings in Korean fantasy carry histories that a single costume or dramatic reveal cannot explain. This guide introduces six of them through institutional reference works, a museum object, and one published oral account. It is a starting point for curious viewers, with sources you can follow.",
+    "Folklore is not a single fictional universe. Narrators, regions, rituals, and later adaptations may give the same name different meanings. The story sections below summarize particular documented traditions. Screen lenses and reader questions are our editorial prompts, not claims that every adaptation follows an ancient rule."
+  ],
+  "editorialNote": "AI-assisted research and English drafting, checked against the linked Academy of Korean Studies reference articles on October 24, 2026. Historical and oral works cited by these reference articles were not independently reviewed. This is an introductory editorial guide, not a scholarly critical edition or a folklore specialist’s independent review. Screen lenses and reader questions are newly written interpretation prompts. No film stills, television designs, source photographs or source illustrations are included.",
+  "entries": [
+    {
+      "id": "dokkaebi",
+      "english": "Dokkaebi",
+      "korean": "도깨비",
+      "romanization": "Dokkaebi",
+      "tagline": "The stranger who may make you rich, frighten you, or lose at its own game.",
+      "kind": "A changeable supernatural being",
+      "summary": "A dokkaebi can disrupt an ordinary night without fitting the role of either a helpful fairy or a permanent villain. The AKS encyclopedia describes encounters involving uncanny noises, fire, changing appearances, mischief, and unexpected help. The name gathers varied beings and stories rather than one consistent species.",
+      "sections": [
+        {
+          "title": "An ordinary object becomes unfamiliar",
+          "body": "Some accounts connect dokkaebi with old tools, household objects, trees, or stones. In a tale summarized by AKS, something encountered at night turns out to be a worn broom the next morning. This background matters: dokkaebi should not automatically be understood as the souls of dead people. Familiar things can become the unsettling presence, bringing the extraordinary close to everyday life."
+        },
+        {
+          "title": "A club, a hazelnut, and two different choices",
+          "body": "One version of the magical-club tale begins with a considerate person who finds hazelnuts and saves some for his parents. Sheltering in an empty house, he sees dokkaebi producing goods with their clubs. The crack of his nut frightens them away, and he gains a club. A greedy imitator later repeats the attempt and receives a beating. The useful contrast is between the two people and their choices; the tale does not supply a universal instruction manual for controlling dokkaebi."
+        },
+        {
+          "title": "Read the bargain as well as the creature",
+          "body": "As a reader, try following the exchange: who offers something, who takes advantage, and who misunderstands what happened? A scene can turn on embarrassment or generosity as much as physical danger. This is an interpretive exercise, not another traditional rule. It helps keep a complicated encounter from becoming only a catalogue of supernatural powers."
+        }
+      ],
+      "variation": "Accounts differ in appearance and temperament. A one-legged wrestler belongs to some stories; it is not the required body of every dokkaebi.",
+      "screenLens": "When a fantasy introduces a dokkaebi, ask what the work has chosen to emphasize: a frightening interruption, an unpredictable neighbour, a bargain, or a relationship. Notice what the character wants from humans. The answers describe that adaptation, and may be more revealing than checking whether a costume matches a familiar illustration.",
+      "visualNote": "AKS records varied appearances, including human and animal forms. Treat a single horned portrait as a design choice, not a universal identification key.",
+      "sourceIds": [
+        "aks-dokkaebi",
+        "aks-dokkaebi-club"
+      ],
+      "question": "What changes if the human in the encounter is the greedy or foolish one?"
+    },
+    {
+      "id": "gumiho",
+      "english": "Gumiho",
+      "korean": "구미호",
+      "romanization": "Gumiho",
+      "tagline": "Nine tails do not tell you which version of the fox you have met.",
+      "kind": "A nine-tailed fox of story and adaptation",
+      "summary": "Gumiho names the nine-tailed fox, but a tail count cannot explain every fox narrative. Korean fox tales include transformations, dangerous encounters, and extraordinary knowledge. Their details need to be read story by story, especially when a modern work makes the fox its sympathetic central character."
+    },
+    {
+      "id": "jeoseung-saja",
+      "english": "Jeoseung Saja",
+      "korean": "저승사자",
+      "romanization": "Jeoseung Saja",
+      "tagline": "A messenger at the boundary, not simply a monster that kills.",
+      "kind": "A messenger who guides the dead",
+      "summary": "Jeoseung saja are messengers associated with taking the dead to the otherworld and its judges. Their role concerns passage between worlds. Calling every such figure an evil demon erases the rituals, obligations, and varied personalities surrounding this difficult journey."
+    },
+    {
+      "id": "bulgasari",
+      "english": "Bulgasari",
+      "korean": "불가사리",
+      "romanization": "Bulgasari",
+      "tagline": "An appetite for iron makes an ordinary weapon a dangerous answer.",
+      "kind": "An iron-eating creature with divergent traditions",
+      "summary": "Bulgasari is associated with eating iron and growing as it feeds. The AKS references connect its name with the difficulty of killing it. Beyond that memorable premise, accounts differ substantially in origin, appearance, the effect of fire, and the creature’s place in everyday belief."
+    },
+    {
+      "id": "haetae",
+      "english": "Haetae / Haechi",
+      "korean": "해태 / 해치",
+      "romanization": "Haetae / Haechi",
+      "tagline": "A guardian asks whether power can recognise what is right.",
+      "kind": "An imagined guardian associated with justice",
+      "summary": "Haetae, also called haechi, is associated with discerning right from wrong. The AKS entry links the creature to judicial symbols and protective architectural decoration. It belongs to a shared East Asian cultural history, including Chinese textual references and distinctive uses in Korea."
+    },
+    {
+      "id": "imugi",
+      "english": "Imugi",
+      "korean": "이무기",
+      "romanization": "Imugi",
+      "tagline": "A serpent’s unfinished transformation can hide a very different story.",
+      "kind": "A great serpent associated with dragons and water",
+      "summary": "Imugi is commonly associated with a great water-dwelling serpent and an incomplete or unsuccessful passage toward dragonhood. The AKS entry on dragons records this relationship, but it is not a complete biography for every being called imugi. Individual narratives deserve their own explanation."
+    }
+  ],
+  "sources": [
+    {
+      "id": "aks-dokkaebi",
+      "title": "도깨비 — Dokkaebi",
+      "organization": "Academy of Korean Studies, Encyclopedia of Korean Culture",
+      "url": "https://encykorea.aks.ac.kr/Article/E0015527",
+      "accessed": "2026-10-24",
+      "note": "Im Dong-gwon; institutional encyclopedia explanation read. Historical and oral works in its bibliography were not independently reviewed."
+    },
+    {
+      "id": "aks-dokkaebi-club",
+      "title": "도깨비방망이 설화 — The magical dokkaebi-club tale",
+      "organization": "Academy of Korean Studies, Encyclopedia of Korean Culture",
+      "url": "https://encykorea.aks.ac.kr/Article/E0015530",
+      "accessed": "2026-10-24",
+      "note": "Park Hyeon-suk; the encyclopedia’s summary of a tale family, not a newly collected oral account."
+    }
+  ]
+}

@@ -13,6 +13,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
 
   entries.push({
+    url: `${SITE_URL}/ko/studio`,
+    lastModified: new Date("2026-10-24"),
+    changeFrequency: "weekly",
+    priority: 0.8,
+  });
+
+  for (const locale of ["en", "ko"]) {
+    entries.push({
+      url: `${SITE_URL}/${locale}/guides/korean-folklore`,
+      lastModified: new Date("2026-10-24"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+      alternates: { languages: {
+        en: `${SITE_URL}/en/guides/korean-folklore`,
+        ko: `${SITE_URL}/ko/guides/korean-folklore`,
+      } },
+    });
+  }
+
+  entries.push({
     url: `${SITE_URL}/en/encounters/bulgasari`,
     lastModified: new Date("2026-10-14"),
     changeFrequency: "monthly",
