@@ -31,6 +31,8 @@ function load(filename) {
       const base = id.startsWith("@/") ? path.join(root, id.slice(2)) : path.resolve(path.dirname(filename), id);
       const found = [base, `${base}.ts`, `${base}.tsx`].find(p => fs.existsSync(p) && fs.statSync(p).isFile());
       if (!found) throw new Error(`Missing import ${id}`);
+      // CSS modules are bundler-only; class names don't matter for these checks.
+      if (found.endsWith(".css")) return new Proxy({}, { get: (_, key) => (key === "__esModule" ? false : String(key)) });
       return /\.tsx?$/.test(found) ? load(found) : require(found);
     }
     return require(id);
