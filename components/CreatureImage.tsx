@@ -190,7 +190,8 @@ export default function CreatureImage({
         {/* 생성 버튼 (오버레이) */}
         {showGenerateButton && prompt && !isGenerating && (
           <button
-            onClick={generateImage}
+            disabled
+            title="AI 이미지 생성은 잠시 중단되었습니다."
             style={{
               position: 'absolute',
               bottom: 6,
@@ -204,11 +205,11 @@ export default function CreatureImage({
               padding: `${Math.max(3, size === 'sm' ? 2 : 6)}px ${Math.max(6, size === 'sm' ? 4 : 10)}px`,
               fontSize: Math.max(8, dims.fontSize - 3),
               fontWeight: 600,
-              cursor: 'pointer',
+              cursor: 'not-allowed',
               whiteSpace: 'nowrap',
             }}
           >
-            ✦ 이미지 생성
+            이미지 생성 일시 중단
           </button>
         )}
       </div>
