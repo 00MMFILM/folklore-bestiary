@@ -3104,8 +3104,8 @@ export default function FolkloreMap() {
             }}>
               {L.fastMode}
             </button>
-            <button onClick={() => setScenarioMode("ai")} style={{
-              padding: "8px 20px", border: "none", borderLeft: "1px solid #333", fontSize: 13, cursor: "pointer", fontFamily: "'Crimson Text', serif",
+            <button disabled aria-describedby="paid-ai-paused" style={{
+              padding: "8px 20px", border: "none", borderLeft: "1px solid #333", fontSize: 13, cursor: "not-allowed", fontFamily: "'Crimson Text', serif",
               background: scenarioMode === "ai" ? "#8b5cf633" : "transparent",
               color: scenarioMode === "ai" ? "#a78bfa" : "#666",
               fontWeight: scenarioMode === "ai" ? 700 : 400,
@@ -3131,6 +3131,9 @@ export default function FolkloreMap() {
           <div style={{ fontSize: 11, opacity: 0.4, marginTop: 6 }}>
             {scenarioMode === "ai" ? L.aiHint : L.fastHint}
           </div>
+          <p id="paid-ai-paused" style={{ fontSize: 12, color: "#aaa", marginTop: 10 }}>
+            {isKo ? "AI 생성은 잠시 중단되었습니다. 무료 템플릿과 설화 작업실은 계속 사용할 수 있습니다." : "AI generation is temporarily paused. Free templates and the writer studio remain available."}
+          </p>
         </div>
 
         {scenarioAIError && (
