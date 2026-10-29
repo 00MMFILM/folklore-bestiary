@@ -8,6 +8,9 @@ import EncounterPromoCard from "./EncounterPromoCard";
 import GuidePromoCard from "./GuidePromoCard";
 import WriterStudioPromo from "./writer/WriterStudioPromo";
 import { readScenarioStream, parseScenarioText, selectScenarioBeings } from "@/lib/scenario-stream";
+import ScenarioAuth, { useScenarioAuth, scenarioErrorMessage } from "./ScenarioAuth";
+import { getScenarioAccessToken } from "@/lib/supabase-browser";
+import { parseScenarioLoginDraft, SCENARIO_DRAFT_KEY } from "@/lib/scenario-login-draft";
 
 // 크롤 스크립트가 자동 갱신 (아래 한 줄만 교체)
 const LAST_UPDATED = "2026-08-17T12:24:13.974Z";
@@ -1301,6 +1304,12 @@ const createStyles = (theme) => ({
 export default function FolkloreMap() {
   const [locale, setLocaleState] = useState("ko");
   useEffect(() => {
+    const requested = new URLSearchParams(window.location.search).get("lang");
+    if (["ko", "en", "zh", "ja"].includes(requested)) {
+      setLocaleState(requested);
+      localStorage.setItem("bestiary-locale", requested);
+      return;
+    }
     const saved = typeof localStorage !== "undefined" && localStorage.getItem("bestiary-locale");
     if (saved && ["ko","en","zh","ja"].includes(saved)) { setLocaleState(saved); return; }
     const nav = typeof navigator !== "undefined" ? navigator.language : "ko";
@@ -1356,6 +1365,11 @@ export default function FolkloreMap() {
   const [scenarioAILoading, setScenarioAILoading] = useState(false);
   const [scenarioStreamText, setScenarioStreamText] = useState("");
   const [scenarioAIError, setScenarioAIError] = useState("");
+  const scenarioAuth = useScenarioAuth();
+  const scenarioRequest = useRef(null);
+  useEffect(() => {
+    return () => { scenarioRequest.current?.abort(); };
+  }, [scenarioAuth.session?.user.id]);
   const [expandedActs, setExpandedActs] = useState({0: true, 1: true, 2: true, 3: true});
   const [charBuilt, setCharBuilt] = useState(null);
   const [webtoonGenre, setWebtoonGenre] = useState(null);
@@ -1407,6 +1421,41 @@ export default function FolkloreMap() {
   const styles = useMemo(() => createStyles(theme), [activeContinent]);
 
   const DATA = useMemo(() => FOLKLORE_DATA, []);
+  const scenarioDraftRestored = useRef(false);
+  useEffect(() => {
+    if (scenarioDraftRestored.current) return;
+    scenarioDraftRestored.current = true;
+    try {
+      const draft = parseScenarioLoginDraft(sessionStorage.getItem(SCENARIO_DRAFT_KEY));
+      sessionStorage.removeItem(SCENARIO_DRAFT_KEY);
+      if (!draft) return;
+      const catalog = new Map();
+      FOLKLORE_DATA.forEach(country => country.b.forEach(being => catalog.set(being.id, { ...being, country: country.c, region: country.r, iso: country.i })));
+      setScenarioGenre(SCENARIO_TEMPLATES.find(template => template.id === draft.genreId) || null);
+      setScenarioBeings(draft.beingIds.map(id => catalog.get(id)).filter(Boolean));
+      setScenarioProtaName(draft.name);
+      setScenarioProtaRole(draft.role);
+      setScenarioEra(draft.era);
+      setScenarioCustomEra(draft.customEra);
+      setScenarioKeywords(draft.keywords);
+      setScenarioKeywordInput(draft.keywordInput);
+      setScenarioTone(draft.tone);
+      setScenarioMode("ai");
+      setActiveTab("scenario");
+    } catch { /* Storage may be unavailable; public tools still work. */ }
+  }, []);
+
+  const preserveScenarioForLogin = () => {
+    try {
+      const draft = JSON.stringify({ version: 1, savedAt: Date.now(), genreId: scenarioGenre?.id || null, beingIds: scenarioBeings.map(being => being.id), name: scenarioProtaName, role: scenarioProtaRole, era: scenarioEra, customEra: scenarioCustomEra, keywords: scenarioKeywords, keywordInput: scenarioKeywordInput, tone: scenarioTone });
+      if (!parseScenarioLoginDraft(draft)) throw new Error("Draft too large");
+      sessionStorage.setItem(SCENARIO_DRAFT_KEY, draft);
+      return true;
+    } catch {
+      setScenarioAIError(locale === "ko" ? "입력을 임시 저장하지 못했습니다. 내용을 복사해 둔 뒤 로그인해 주세요." : "Your draft could not be saved for sign-in. Copy your inputs before leaving this page.");
+      return false;
+    }
+  };
 
   const continents = ["All", "Asia", "Europe", "Africa", "Americas", "Oceania"];
 
@@ -2804,7 +2853,13 @@ export default function FolkloreMap() {
     };
 
     const generateScenarioAI = async () => {
-      if (scenarioAILoading) return;
+      if (scenarioAILoading || scenarioRequest.current) return;
+      if (!scenarioAuth.config.scenario) {
+        setScenarioAIError(scenarioErrorMessage("AI_UNAVAILABLE", locale));
+        return;
+      }
+      const controller = new AbortController();
+      scenarioRequest.current = controller;
       setScenarioAILoading(true);
       setScenarioStreamText("");
       setScenarioAIError("");
@@ -2813,9 +2868,16 @@ export default function FolkloreMap() {
       const beings = selectScenarioBeings(scenarioBeings, allBeings);
 
       try {
+        const token = await getScenarioAccessToken();
+        if (!token) {
+          if (preserveScenarioForLogin()) window.location.assign(`/${locale}/login`);
+          return;
+        }
+        if (controller.signal.aborted) return;
         const res = await fetch("/api/scenario/generate", {
           method: "POST",
-          headers: { "Content-Type": "application/json" },
+          headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
+          signal: controller.signal,
           body: JSON.stringify({
             genre: template.name,
             beings: beings.map(b => ({ n: b.n, t: b.t, d: b.d, country: b.country, ct: b.ct, ab: b.ab, wk: b.wk, sh: b.sh, gf: b.gf, vk: b.vk, src: b.src, ln: b.ln })),
@@ -2827,8 +2889,14 @@ export default function FolkloreMap() {
           }),
         });
 
-        if (!res.ok || !res.body) throw new Error("AI generation failed");
+        if (!res.ok || !res.body) {
+          const failure = await res.json().catch(() => ({}));
+          const error = new Error("AI generation failed");
+          error.code = failure.code || "GENERATION_FAILED";
+          throw error;
+        }
         const fullText = await readScenarioStream(res.body, setScenarioStreamText);
+        if (controller.signal.aborted) return;
         const aiResult = parseScenarioText(fullText);
           if (aiResult.acts) {
             // The parser verifies the complete 4-act, 20-beat treatment first.
@@ -2882,13 +2950,12 @@ export default function FolkloreMap() {
             });
           }
       } catch (err) {
-        console.warn("AI scenario generation did not complete:", err);
-        setScenarioAIError(isKo
-          ? "AI 시나리오를 완성하지 못했습니다. 다시 시도해 주세요. 이전 결과가 있다면 그대로 유지됩니다."
-          : "The AI scenario could not be completed. Please try again. Your previous result, if any, has been kept.");
+        if (!controller.signal.aborted) setScenarioAIError(scenarioErrorMessage(err.code || "GENERATION_FAILED", locale));
       } finally {
+        if (scenarioRequest.current === controller) scenarioRequest.current = null;
         setScenarioStreamText("");
         setScenarioAILoading(false);
+        void scenarioAuth.refreshQuota();
       }
     };
 
@@ -3104,8 +3171,8 @@ export default function FolkloreMap() {
             }}>
               {L.fastMode}
             </button>
-            <button disabled aria-describedby="paid-ai-paused" style={{
-              padding: "8px 20px", border: "none", borderLeft: "1px solid #333", fontSize: 13, cursor: "not-allowed", fontFamily: "'Crimson Text', serif",
+            <button onClick={() => setScenarioMode("ai")} disabled={!scenarioAuth.config.scenario} style={{
+              padding: "8px 20px", border: "none", borderLeft: "1px solid #333", fontSize: 13, cursor: scenarioAuth.config.scenario ? "pointer" : "not-allowed", fontFamily: "'Crimson Text', serif",
               background: scenarioMode === "ai" ? "#8b5cf633" : "transparent",
               color: scenarioMode === "ai" ? "#a78bfa" : "#666",
               fontWeight: scenarioMode === "ai" ? 700 : 400,
@@ -3113,9 +3180,10 @@ export default function FolkloreMap() {
               {L.aiMode}
             </button>
           </div>
+          {(scenarioMode === "ai" || !scenarioAuth.config.scenario) && <ScenarioAuth auth={scenarioAuth} locale={locale} onLogin={event => { if (!preserveScenarioForLogin()) event.preventDefault(); }} />}
           <div>
             <button onClick={scenarioMode === "ai" ? generateScenarioAI : generateScenario}
-              disabled={scenarioAILoading}
+              disabled={scenarioAILoading || (scenarioMode === "ai" && !scenarioAuth.config.scenario)}
               style={{
                 padding: "14px 36px", borderRadius: 28,
                 border: `2px solid ${scenarioMode === "ai" ? "#8b5cf6" : theme.accent}`,
@@ -3125,15 +3193,12 @@ export default function FolkloreMap() {
                 cursor: scenarioAILoading ? "wait" : "pointer", fontSize: 16, fontWeight: 700,
                 fontFamily: "'Crimson Text', serif", letterSpacing: "0.05em", transition: "all 0.3s",
               }}>
-              {scenarioAILoading ? L.generating : (scenarioMode === "ai" ? L.aiGenerate : L.fastGenerate)}
+              {scenarioAILoading ? L.generating : (scenarioMode === "ai" ? (scenarioAuth.session ? L.aiGenerate : isKo ? "로그인하고 AI 생성" : "Sign in to generate with AI") : L.fastGenerate)}
             </button>
           </div>
           <div style={{ fontSize: 11, opacity: 0.4, marginTop: 6 }}>
             {scenarioMode === "ai" ? L.aiHint : L.fastHint}
           </div>
-          <p id="paid-ai-paused" style={{ fontSize: 12, color: "#aaa", marginTop: 10 }}>
-            {isKo ? "AI 생성은 잠시 중단되었습니다. 무료 템플릿과 설화 작업실은 계속 사용할 수 있습니다." : "AI generation is temporarily paused. Free templates and the writer studio remain available."}
-          </p>
         </div>
 
         {scenarioAIError && (
@@ -3538,7 +3603,7 @@ export default function FolkloreMap() {
 
               {/* 18. Action buttons */}
               <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: 8, marginTop: 16 }}>
-                <button onClick={scenarioMode === "ai" ? generateScenarioAI : generateScenario} disabled={scenarioAILoading} style={{
+                <button onClick={scenarioMode === "ai" ? generateScenarioAI : generateScenario} disabled={scenarioAILoading || (scenarioMode === "ai" && !scenarioAuth.config.scenario)} style={{
                   padding: "8px 20px", borderRadius: 20, border: `1px solid ${theme.accent}66`,
                   background: "transparent", color: theme.accent, cursor: "pointer", fontSize: 12,
                   fontFamily: "'Crimson Text', serif",
