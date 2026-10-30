@@ -143,8 +143,63 @@ async function main() {
       }
     }
   }
+  // Korean search landing pages must render reviewed material and keep it
+  // isolated from other languages and crawler-generated placeholder claims.
+  const koIds = ["kr-imugi", "kr-eoduksini", "kr-geuseundae"];
+  const { getEditorialCreature } = load(path.join(root, "lib/editorial-creatures.ts"));
+  for (const id of koIds) {
+    const entry = getEditorialCreature(id, "ko");
+    assert.ok(entry, `${id}: Korean reviewed entry missing`);
+    const params = Promise.resolve({ locale: "ko", id });
+    const html = renderToStaticMarkup(await page.default({ params }));
+    const visible = visibleMarkup(html);
+    const metadata = await page.generateMetadata({ params });
+    assert.equal(metadata.title, entry.title);
+    assert.equal(metadata.description, entry.metaDescription);
+    assert.equal(metadata.openGraph.title, entry.title);
+    assert.equal(metadata.twitter.description, entry.metaDescription);
+    assert.equal(metadata.alternates.canonical, `https://folklore-bestiary.vercel.app/ko/creatures/${id}`);
+    assert.equal(Object.keys(metadata.alternates.languages).length, 4);
+    assert.ok(visible.includes(plain(entry.description)));
+    assert.ok(visible.includes(plain(entry.researchNote)));
+    assert.match(visible, /자료와 확인 범위/);
+    assert.match(visible, /창작을 위한 질문/);
+    assert.match(visible, /전승 사실과 구분한 창작 제안/);
+    assert.doesNotMatch(visible, /Research notes|Creative prompts|Traits in the sources|Continue exploring/);
+    assert.match(visible, /href="\/ko\/studio"/);
+    assert.match(visible, /직접 옮겨/);
+    for (const field of ["abilities", "weaknesses", "storyHooks"]) {
+      for (const value of entry[field]) assert.ok(visible.includes(plain(value)));
+    }
+    for (const value of Object.values(entry.sections)) {
+      for (const para of value.split(/\n+/).filter(Boolean)) assert.ok(visible.includes(plain(para)));
+    }
+    for (const source of entry.sources) {
+      assert.ok(visible.includes(plain(source.title)));
+      assert.ok(visible.includes(plain(source.url)));
+    }
+    for (const relatedId of entry.relatedIds) {
+      assert.ok(getCreatureById(relatedId), `${id}: related target does not exist`);
+      assert.ok(visible.includes(`href="/ko/creatures/${relatedId}"`));
+    }
+    for (const question of entry.questions) {
+      assert.ok(visible.includes(plain(question.question)));
+      assert.ok(visible.includes(plain(question.answer)));
+    }
+    const article = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)]
+      .map(match => JSON.parse(match[1])).find(item => item["@type"] === "Article");
+    assert.equal(article.headline, entry.title);
+    assert.equal(article.inLanguage, "ko");
+    assert.equal(article.citation.length, entry.sources.length);
+    assert.equal(article.dateModified, entry.reviewedAt);
+    for (const locale of ["en", "ja", "zh"]) {
+      assert.equal(getEditorialCreature(id, locale), null);
+      const other = await page.generateMetadata({ params: Promise.resolve({ locale, id }) });
+      assert.notEqual(other.title, entry.title, `${id}: Korean title leaked into ${locale}`);
+    }
+  }
   await assert.rejects(page.default({ params: Promise.resolve({ locale: "xx", id: ids[0] }) }));
   await assert.rejects(page.default({ params: Promise.resolve({ locale: "en", id: "missing-creature" }) }));
-  console.log("PASS: six rendered English entries and visible editorial fields, linked sources and related pages, metadata/JSON-LD, legacy English article and Korean body isolation, and 404 handling");
+  console.log("PASS: three Korean search pages, six rendered English entries and visible editorial fields, linked sources and related pages, metadata/JSON-LD, legacy English article and Korean body isolation, and 404 handling");
 }
 main().catch(error => { console.error(error.message); process.exitCode = 1; });

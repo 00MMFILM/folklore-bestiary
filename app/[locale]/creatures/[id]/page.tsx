@@ -133,7 +133,7 @@ export default async function CreaturePage({
   const article = editorial
     ? {
         sourceTitle: editorial.title,
-        sourceLang: "en",
+        sourceLang: locale,
         factBased: true,
         sections: editorial.sections,
         sources: editorial.sources,
@@ -355,7 +355,7 @@ export default async function CreaturePage({
           {articleSections.map(([key, text]) => (
             <section key={key} style={{ marginBottom: "32px" }}>
               <h2 style={{ fontSize: "18px", color: colors.accent, marginBottom: "12px" }}>
-                {t[key]}
+                {editorial && locale === "ko" && key === "article.culture" ? "오늘의 창작과 활용" : t[key]}
               </h2>
               {text.split(/\n{2,}|\n/).filter(Boolean).map((para, i) => (
                 <p
@@ -369,7 +369,7 @@ export default async function CreaturePage({
           ))}
           {editorial && (
             <h2 style={{ fontSize: "18px", color: colors.accent, marginBottom: "12px" }}>
-              Research notes
+              {locale === "ko" ? "자료와 확인 범위" : "Research notes"}
             </h2>
           )}
           {article && (
@@ -383,7 +383,7 @@ export default async function CreaturePage({
                     </span>
                   ))}
                   {article.researchNote && <span style={{ display: "block", marginTop: 8, color: "#aaa" }}>{article.researchNote}</span>}
-                  {editorial && <span style={{ display: "block", marginTop: 8, color: "#aaa" }}>Reviewed {editorial.reviewedAt}</span>}
+                  {editorial && <span style={{ display: "block", marginTop: 8, color: "#aaa" }}>{locale === "ko" ? "확인일" : "Reviewed"} {editorial.reviewedAt}</span>}
                 </>
               ) : article.factBased ? (
                 t["article.attributionFact"].replace("{title}", article.sourceTitle)
@@ -417,7 +417,7 @@ export default async function CreaturePage({
                 <h2
                   style={{ fontSize: "16px", color: colors.accent, marginBottom: "12px" }}
                 >
-                  {editorial ? "Traits in the sources" : t["creature.abilities"]}
+                  {editorial ? (locale === "ko" ? "자료에서 확인한 특징" : "Traits in the sources") : t["creature.abilities"]}
                 </h2>
                 <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
                   {abilities.map((a) => (
@@ -440,7 +440,7 @@ export default async function CreaturePage({
                 <h2
                   style={{ fontSize: "16px", color: "#ff6666", marginBottom: "12px" }}
                 >
-                  {editorial ? "Limits in these accounts" : t["creature.weaknesses"]}
+                  {editorial ? (locale === "ko" ? "해당 이야기의 조건" : "Limits in these accounts") : t["creature.weaknesses"]}
                 </h2>
                 <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
                   {weaknesses.map((w) => (
@@ -510,11 +510,11 @@ export default async function CreaturePage({
               <h2
                 style={{ fontSize: "16px", color: colors.accent, marginBottom: "12px" }}
               >
-                {editorial ? "Creative prompts" : t["creature.storyHooks"]}
+                {editorial ? (locale === "ko" ? "창작을 위한 질문" : "Creative prompts") : t["creature.storyHooks"]}
               </h2>
               {editorial && (
                 <p style={{ color: "#aaa", fontSize: "14px", lineHeight: 1.7 }}>
-                  Original ideas for fiction or tabletop play. These are creative adaptations, separate from the traditions described above.
+                  {locale === "ko" ? "아래는 전승 사실과 구분한 창작 제안입니다. 이야기의 인물·선택·대가를 새로 정할 때 출발점으로 쓸 수 있습니다." : "Original ideas for fiction or tabletop play. These are creative adaptations, separate from the traditions described above."}
                 </p>
               )}
               <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
@@ -534,10 +534,36 @@ export default async function CreaturePage({
             </section>
           )}
 
+          {editorial?.questions?.length ? (
+            <section style={{ marginBottom: 32 }} aria-labelledby="reader-questions">
+              <h2 id="reader-questions" style={{ fontSize: 18, color: colors.accent, marginBottom: 16 }}>
+                {locale === "ko" ? "자주 묻는 질문" : "Questions from readers"}
+              </h2>
+              {editorial.questions.map(({ question, answer }) => (
+                <div key={question} style={{ marginBottom: 20 }}>
+                  <h3 style={{ fontSize: 16, color: "#eed8c0", lineHeight: 1.6, marginBottom: 6 }}>{question}</h3>
+                  <p style={{ fontSize: 15, color: "#ccc", lineHeight: 1.8 }}>{answer}</p>
+                </div>
+              ))}
+            </section>
+          ) : null}
+          {editorial && locale === "ko" && (
+            <aside style={{ marginBottom: 32, padding: 24, background: "#ffffff08", border: `1px solid ${colors.accent}44`, borderRadius: 12 }}>
+              <h2 style={{ fontSize: 18, color: colors.accent, marginBottom: 10 }}>읽은 설화를 내 이야기로</h2>
+              <p style={{ fontSize: 15, color: "#ccc", lineHeight: 1.8, marginBottom: 16 }}>
+                마음에 든 질문과 출처를 작업실에 직접 옮겨, 주인공의 선택과 다섯 시퀀스를 작성하세요.
+                무료 작업실은 이 브라우저에 글을 저장하고 파일로 내보낼 수 있습니다.
+              </p>
+              <Link href="/ko/studio" prefetch={false} style={{ display: "inline-block", padding: "12px 18px", background: colors.accent, color: "#111", borderRadius: 8, fontWeight: 700, textDecoration: "none" }}>
+                무료 설화 작업실 열기
+              </Link>
+            </aside>
+          )}
+
           {/* Related creatures (internal links) */}
           {[
-            { title: "Continue exploring", items: editorialRelated },
-            { title: t["creature.relatedTale"], items: relatedTale },
+            { title: locale === "ko" ? "함께 비교해 읽기" : "Continue exploring", items: editorialRelated },
+            { title: locale === "ko" && editorial ? "전승과 소재가 연결되는 존재" : t["creature.relatedTale"], items: relatedTale },
             { title: `${t["creature.relatedCountry"]} · ${countryName}`, items: relatedCountry },
             { title: `${t["creature.relatedType"]} · ${typeName}`, items: editorial ? [] : relatedType },
           ].map(
@@ -571,7 +597,7 @@ export default async function CreaturePage({
                       >
                         <div style={{ fontWeight: 600, marginBottom: "2px" }}>{c.n}</div>
                         <div style={{ fontSize: "12px", color: "#999" }}>
-                          {getCountryName(c.country, locale)} · {getTypeName(c.t, locale)}
+                          {getCountryName(c.country, locale)} · {getEditorialCreature(c.id, locale)?.displayType || getTypeName(c.t, locale)}
                         </div>
                       </Link>
                     ))}
