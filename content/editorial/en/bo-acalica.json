@@ -1,0 +1,42 @@
+{
+  "id": "bo-acalica",
+  "locale": "en",
+  "title": "Acalica: Bolivia’s Weather Fairies and Their Limited Sources",
+  "metaDescription": "Acalica are described in modern references as rarely seen Bolivian weather beings. Here is what that short account says, and what its source trail cannot establish.",
+  "description": "Acalica are described in modern references as rarely seen Bolivian weather beings. Here is what that short account says, and what its source trail cannot establish.",
+  "displayType": "Weather beings in modern reference accounts",
+  "abilities": [],
+  "weaknesses": [],
+  "storyHooks": [
+    "A village’s weather records disagree with the memory of its oldest resident. Build an original story around that disagreement without presenting it as a recovered Bolivian legend."
+  ],
+  "sections": {
+    "origin": "The accessible reference trail is short. Wikipedia cites John and Caitlin Matthews’s 2005 Element Encyclopedia of Magical Creatures, page 6. That citation points to a modern compilation; it is not itself a dated field recording.",
+    "legend": "The brief description associates Acalica with weather, caves, and the appearance of small elderly men. It supplies no full encounter tale with a named narrator, place of collection, or sequence of events.",
+    "variants": "Without that documentation, this entry does not assign the account to a particular Indigenous community or invent an ancient origin. An English label such as weather fairy is a reference label, not evidence of the original language or category.",
+    "culture": "This makes a useful example of how to read a bestiary critically: separate the reported traits from a story you create around them. A detailed illustration cannot fill a gap in the written evidence."
+  },
+  "sources": [
+    {
+      "title": "Wikipedia — Acalica, with its Matthews bibliography",
+      "url": "https://en.wikipedia.org/wiki/Acalica"
+    }
+  ],
+  "researchNote": "The cited encyclopedia page was not independently inspected. The available summary is secondary evidence; this page does not claim a verified oral-history source.",
+  "reviewedAt": "2026-11-14",
+  "relatedIds": [
+    "pe-supay",
+    "pe-amaru",
+    "no-hafgufa"
+  ],
+  "questions": [
+    {
+      "question": "What do Acalica look like?",
+      "answer": "The short modern account describes small elderly men. Details beyond it need a separate source."
+    },
+    {
+      "question": "Is there a documented original Acalica story here?",
+      "answer": "No. The source available for this page is a brief modern reference summary, and its limits are stated above."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "es-anguila-peluda",
+  "locale": "en",
+  "title": "Anguila Peluda: The Hairy Eel Legend of Anaga, Tenerife",
+  "metaDescription": "The Anguila peluda, or hairy eel, belongs to stories about Anaga in Tenerife. A nineteenth-century expedition account connects the legend to a real pool and ravine.",
+  "description": "The Anguila peluda, or hairy eel, belongs to stories about Anaga in Tenerife. A nineteenth-century expedition account connects the legend to a real pool and ravine.",
+  "displayType": "Canarian water legend",
+  "abilities": [],
+  "weaknesses": [],
+  "storyHooks": [
+    "A guide and a visitor reach the legendary pool. One wants to publish its location; the other fears what an audience will change."
+  ],
+  "sections": {
+    "origin": "Anguila peluda means hairy eel. This entry concerns Anaga, in northeastern Tenerife, rather than a creature said to inhabit every part of Spain.",
+    "legend": "Andrés Raya Ramos reproduces a passage from Manuel de Ossuna’s Anaga y sus antigüedades (1897), describing an expedition in August 1889. The travellers approach a pool associated with the feared eel. The narrative describes terrain and apprehension; it does not report the capture of such an animal.",
+    "variants": "Raya Ramos also notes the place-name Charco de la Anguila on modern mapping. A surviving place-name helps locate a story, but does not establish the existence or anatomy of its monster.",
+    "culture": "A Canary Islands school’s account of the 2023 Los Silos storytelling festival includes the eel of Anaga among the legends presented to pupils. The story continues to circulate through local storytelling."
+  },
+  "sources": [
+    {
+      "title": "Andrés Raya Ramos — Manuel Ossuna en busca de la anguila peluda",
+      "url": "https://andresrayaramos.com/2022/05/01/manuel-ossuna-en-busca-de-la-anguila-peluda/"
+    },
+    {
+      "title": "Canary Islands school — Los Silos storytelling festival (2023)",
+      "url": "https://www3.gobiernodecanarias.org/medusa/edublog/ceipbaldomerobethencourt/2023/11/27/xxviii-festival-internacional-del-cuento-los-silos-2023/"
+    }
+  ],
+  "researchNote": "The historical passage was read through a modern transcription, not checked against a scan of the 1897 edition.",
+  "reviewedAt": "2026-11-14",
+  "relatedIds": [
+    "br-boiuna",
+    "no-hafgufa",
+    "es-geryon"
+  ],
+  "questions": [
+    {
+      "question": "Where is this legend set?",
+      "answer": "In Anaga on Tenerife, in the Canary Islands."
+    },
+    {
+      "question": "Did Ossuna find a hairy eel?",
+      "answer": "The transcribed passage describes the expedition and pool, not a captured or verified monster."
+    }
+  ]
+}

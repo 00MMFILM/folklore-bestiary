@@ -1,0 +1,42 @@
+{
+  "id": "kr-gumiho",
+  "locale": "en",
+  "title": "Gumiho: Korea’s Nine-Tailed Fox, Fox Beads and Changing Stories",
+  "metaDescription": "Gumiho is Korea’s nine-tailed fox figure. Tales include transformation, fox beads and unusual ancestry; they do not all follow one rule for becoming human.",
+  "description": "Gumiho is Korea’s nine-tailed fox figure. Tales include transformation, fox beads and unusual ancestry; they do not all follow one rule for becoming human.",
+  "displayType": "Korean fox spirit",
+  "abilities": [],
+  "weaknesses": [],
+  "storyHooks": [
+    "A child discovers that their family’s celebrated ancestor was a fox. Protecting the family reputation would mean erasing the person who saved it."
+  ],
+  "sections": {
+    "origin": "Gumiho literally refers to a nine-tailed fox. A Korea Heritage Agency essay also explains that Korean fox-spirit stories use the category more broadly than a strict tail count.",
+    "legend": "The essay discusses fox-bead stories: a pupil acquires extraordinary knowledge after swallowing a fox’s bead. It also presents a fox-woman ancestry tale about the general Gang Gam-chan. These give the fox roles beyond a single predatory stereotype.",
+    "variants": "Other stories are threatening, including the fox sister. A fixed requirement to eat a particular number of organs should not be treated as the rule of every gumiho tale. Identify the particular account before combining its details.",
+    "culture": "For writers, choose the relationship first: stranger, family member, teacher, or parent. Then decide which recorded motif your adaptation uses, and label the new choices as fiction."
+  },
+  "sources": [
+    {
+      "title": "Korea Heritage Agency — Lee Young-soo, creatures in Korean folktales (2022)",
+      "url": "https://www.kh.or.kr/brd/board/741/L/menu/740?bbIdx=112290&brdType=R"
+    }
+  ],
+  "researchNote": "This introduction summarizes a named heritage essay. It does not claim to represent every regional fox tale.",
+  "reviewedAt": "2026-11-14",
+  "relatedIds": [
+    "jp-kitsune",
+    "kr-huli-jing",
+    "kr-eoduksini"
+  ],
+  "questions": [
+    {
+      "question": "Are all gumiho evil?",
+      "answer": "The cited essay includes both harmful foxes and foxes connected with exceptional human ancestry or knowledge."
+    },
+    {
+      "question": "Is a gumiho identical to a kitsune?",
+      "answer": "These names belong to different storytelling contexts. Comparing particular stories is more useful than treating the labels as interchangeable."
+    }
+  ]
+}

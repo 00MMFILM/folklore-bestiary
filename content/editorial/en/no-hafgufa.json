@@ -1,0 +1,42 @@
+{
+  "id": "no-hafgufa",
+  "locale": "en",
+  "title": "Hafgufa: The Norse Sea Monster and Trap-Feeding Whales",
+  "metaDescription": "Hafgufa is a huge sea creature in medieval Norse writing. Its open-mouth feeding has been compared with whale trap feeding; the comparison is a research interpretation.",
+  "description": "Hafgufa is a huge sea creature in medieval Norse writing. Its open-mouth feeding has been compared with whale trap feeding; the comparison is a research interpretation.",
+  "displayType": "Medieval sea creature",
+  "abilities": [],
+  "weaknesses": [],
+  "storyHooks": [
+    "A navigator recognizes a feeding pattern before the crew does. How can they convince people that the calmest water is the dangerous route?"
+  ],
+  "sections": {
+    "origin": "Medieval accounts, including the King’s Mirror, describe a huge creature that attracts fish to an open mouth. The feeding scene matters more here than a modern illustration’s tentacles.",
+    "legend": "A 2023 Marine Mammal Science paper compares hafgufa and the older aspidochelone tradition with whales that wait at the surface with their mouths open. Fish enter before the jaws close.",
+    "variants": "The researchers argue for parallels between historical descriptions and observed feeding. That does not identify every sea monster in Norse literature, or prove that every detail records a particular whale species.",
+    "culture": "For a retelling, the useful reversal is scale: a safe-looking patch of sea becomes part of a feeding animal. Label any invented anatomy separately from the medieval description."
+  },
+  "sources": [
+    {
+      "title": "McCarthy, Sebo & Firth (2023) — Marine Mammal Science",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/mms.13009"
+    }
+  ],
+  "researchNote": "This introduction follows a modern scholarly comparison, not an independent translation of every medieval manuscript.",
+  "reviewedAt": "2026-11-14",
+  "relatedIds": [
+    "no-kraken",
+    "br-boiuna",
+    "es-anguila-peluda"
+  ],
+  "questions": [
+    {
+      "question": "Was hafgufa a kraken?",
+      "answer": "The names should not be treated as interchangeable. This entry concerns the open-mouth feeding descriptions discussed in the cited study."
+    },
+    {
+      "question": "Has the monster been proved real?",
+      "answer": "Whale feeding is observed behaviour. Connecting it to a medieval description remains an interpretation of historical evidence."
+    }
+  ]
+}

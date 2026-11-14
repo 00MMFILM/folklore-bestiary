@@ -1,0 +1,58 @@
+{
+  "title": "Jamaican Folklore: Duppies, the Rolling Calf and Anansi Stories",
+  "metaDescription": "Start with Jamaica’s duppy and Rolling Calf, then explore Anansi storytelling. Read source notes and distinguish Jamaican accounts from wider Caribbean traditions.",
+  "intro": "A duppy is a spirit in Jamaican storytelling; the Rolling Calf is one frightening form in recorded accounts. Anansi belongs to a different kind of story, where wit and appetite often matter more than terror.",
+  "sections": [
+    {
+      "title": "Start with the ghost stories",
+      "text": "Martha Warren Beckwith’s Jamaica Anansi Stories (1924) includes a note describing the Rolling Calf as a duppy with fiery eyes. A spirit category and a particular apparition therefore need not be two unrelated species."
+    },
+    {
+      "title": "Read Anansi as a storyteller’s character",
+      "text": "Beckwith’s collection records named tellers, locations, stories and songs. Its Anansi is a trickster within a storytelling tradition, not simply another hostile creature to defeat. The related Anansi entry below is filed under Ghana; the collection linked here supplies the Jamaican context."
+    },
+    {
+      "title": "Keep the island and the source in view",
+      "text": "Caribbean traditions travel, but a name recorded on another island is not automatically a Jamaican origin story. The list below focuses on Duppy and Rolling Calf. The 1924 collection is a historical record mediated by its collector, not a claim that every Jamaican tells the same stories today."
+    }
+  ],
+  "picks": [
+    {
+      "id": "jm-duppy",
+      "label": "Duppy",
+      "reason": "Start with the spirit category"
+    },
+    {
+      "id": "jm-rolling-calf",
+      "label": "Rolling Calf",
+      "reason": "A particular apparition in the accounts"
+    },
+    {
+      "id": "gh-anansi",
+      "label": "Anansi",
+      "reason": "Compare the Ghana-filed entry with Jamaican stories"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Is a Rolling Calf a duppy?",
+      "answer": "Beckwith’s collection explicitly describes the Rolling Calf as a duppy. That relationship is the starting point used here."
+    },
+    {
+      "question": "Are all Caribbean creatures Jamaican?",
+      "answer": "No. Follow the location and collector attached to each account; a regional name alone does not establish its origin."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Martha Warren Beckwith — Jamaica Anansi Stories (1924)",
+      "url": "https://www.gutenberg.org/cache/epub/72735/pg72735-images.html"
+    }
+  ],
+  "reviewedAt": "2026-11-14",
+  "listTitle": "Jamaican ghost entries",
+  "listedIds": [
+    "jm-duppy",
+    "jm-rolling-calf"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "cn-qingniao",
+  "locale": "en",
+  "title": "Qingniao: The Blue-Green Birds of the Queen Mother of the West",
+  "metaDescription": "Qingniao are birds associated with Xiwangmu, the Queen Mother of the West. Early descriptions of attendants and later messenger imagery should be read in their own contexts.",
+  "description": "Qingniao are birds associated with Xiwangmu, the Queen Mother of the West. Early descriptions of attendants and later messenger imagery should be read in their own contexts.",
+  "displayType": "Mythic birds",
+  "abilities": [],
+  "weaknesses": [],
+  "storyHooks": [
+    "Three messengers carry the same invitation, but each receives a different reply. Which response reaches the host?"
+  ],
+  "sections": {
+    "origin": "The Shanhaijing describes three qing birds bringing food to Xiwangmu. The Wikisource text moves this passage between the northern and western inner-seas sections through its editorial arrangement; its notes explain the placement.",
+    "legend": "Taiping Yulan, volume 927, preserves another account under its bird material: a qing bird appears before Emperor Wu, in a passage attributed to Han Wu Gushi. This is part of the literary association between the birds and the Queen Mother.",
+    "variants": "The word qing covers a range often translated as blue or green. Calling the birds blue-green avoids pretending that the text supplies a precise modern paint colour. Three attendants also should not automatically become one uniquely named individual.",
+    "culture": "For reading and drawing, distinguish role from appearance: carrying food, announcing a visitor, and delivering a message are related ideas, but each needs its own textual support."
+  },
+  "sources": [
+    {
+      "title": "Shanhaijing — Hai Nei Bei Jing, editorial notes on the three birds",
+      "url": "https://zh.wikisource.org/wiki/山海經/海內北經"
+    },
+    {
+      "title": "Taiping Yulan, volume 927 — Qingniao",
+      "url": "https://zh.wikisource.org/wiki/太平御覽/0927"
+    }
+  ],
+  "researchNote": "Based on online Chinese transcriptions and their commentary. This is not a critical edition or a claim that every messenger bird is Qingniao.",
+  "reviewedAt": "2026-11-14",
+  "relatedIds": [
+    "cn-biyiniao",
+    "cn-fenghuang",
+    "cn-jingwei"
+  ],
+  "questions": [
+    {
+      "question": "Is Qingniao one bird or three?",
+      "answer": "The Shanhaijing passage describes three birds serving Xiwangmu. Other literary uses need to be read separately."
+    },
+    {
+      "question": "Are the birds blue or green?",
+      "answer": "Qing can cover both; blue-green is used here to preserve that uncertainty."
+    }
+  ]
+}

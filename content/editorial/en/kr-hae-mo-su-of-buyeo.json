@@ -1,0 +1,42 @@
+{
+  "id": "kr-hae-mo-su-of-buyeo",
+  "locale": "en",
+  "title": "Haemosu: The Heavenly Ancestor in Korean Foundation Myths",
+  "metaDescription": "Haemosu, also written Hae Mo-su, is a heavenly figure in Korean foundation myths. Accounts connect him with Yuhwa and Jumong, or with the founding of North Buyeo.",
+  "description": "Haemosu, also written Hae Mo-su, is a heavenly figure in Korean foundation myths. Accounts connect him with Yuhwa and Jumong, or with the founding of North Buyeo.",
+  "displayType": "Mythic ancestor",
+  "abilities": [],
+  "weaknesses": [],
+  "storyHooks": [
+    "A royal archivist discovers two incompatible accounts of the dynasty’s ancestor. Publishing both could threaten the ruler who commissioned the history."
+  ],
+  "sections": {
+    "origin": "The Encyclopedia of Korean Culture identifies Haemosu as a figure in the foundation mythology of Goguryeo. He is a mythic ancestor, not a serpent species.",
+    "legend": "In the account summarized there, he descends as the heavenly emperor’s son and is connected with Yuhwa, daughter of Habaek. Yuhwa later gives birth to Jumong. Another tradition makes Haemosu the founder of North Buyeo and father of Buru.",
+    "variants": "The encyclopedia notes that Haemosu is absent from some earlier accounts of Goguryeo’s beginnings. These differences matter: a unified modern biography can hide changes in the written tradition.",
+    "culture": "A foundation myth explains lineage and authority through a story. Reading it as mythology does not establish a verified birth date, a complete historical reign, or a literal family tree shared by every source."
+  },
+  "sources": [
+    {
+      "title": "Academy of Korean Studies — Haemosu, Encyclopedia of Korean Culture",
+      "url": "https://encykorea.aks.ac.kr/Article/E0062581"
+    }
+  ],
+  "researchNote": "Based on the scholarly encyclopedia entry, including its distinction between variant traditions. Dates within a myth are not presented as independently verified events.",
+  "reviewedAt": "2026-11-14",
+  "relatedIds": [
+    "kr-lady-yuhwa",
+    "kr-dangun",
+    "kr-gumiho"
+  ],
+  "questions": [
+    {
+      "question": "Was Haemosu a monster?",
+      "answer": "The source describes a heavenly ancestral figure in foundation mythology; this page corrects the older serpent classification."
+    },
+    {
+      "question": "Why do summaries call him a founder of Buyeo?",
+      "answer": "One tradition gives him that role. Other accounts emphasize his relationship to Yuhwa and Jumong, so the source should accompany the claim."
+    }
+  ]
+}

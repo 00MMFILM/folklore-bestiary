@@ -1,0 +1,46 @@
+{
+  "id": "cn-huoshu",
+  "locale": "en",
+  "title": "Huoshu: The Chinese Fire Rat and Fire-Washed Cloth",
+  "metaDescription": "Huoshu means fire rat. Chinese literary accounts connect an animal living in fire with cloth made from its hair that is cleaned by burning.",
+  "description": "Huoshu means fire rat. Chinese literary accounts connect an animal living in fire with cloth made from its hair that is cleaned by burning.",
+  "displayType": "Literary fire animal",
+  "abilities": [],
+  "weaknesses": [],
+  "storyHooks": [
+    "A ruler demands an indestructible robe. The tailor must decide whether to reveal that the treasured cloth protects its wearer but preserves every stain of guilt."
+  ],
+  "sections": {
+    "origin": "The fire-rat motif appears in Chinese descriptions of extraordinary places and materials. A passage collected in Gujin Tushu Jicheng quotes earlier material about a fiery mountain, fire animals, and cloth made from their hair.",
+    "legend": "The striking idea is fire-washed cloth: dirt disappears in the fire while the fabric survives. The animal supplies a story explaining a marvellous material, rather than a modern zoological description.",
+    "variants": "The compilation preserves differing descriptions of size, colour, and hair. Keep the quoted source attached to each detail instead of merging them into a single creature design. Similar cloth motifs need not describe the same animal.",
+    "culture": "For an adaptation, the material can drive the conflict. A garment that survives fire might expose a fraudulent gift or become evidence in a trial. Those plots are new uses of the motif, not recovered episodes from the cited text."
+  },
+  "sources": [
+    {
+      "title": "Gujin Tushu Jicheng — Birds and Animals, volume 126, quoted fire-animal accounts",
+      "url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/禽蟲典/第126卷"
+    },
+    {
+      "title": "Qidong Yeyu, volume 12 — discussion of fire-washed cloth",
+      "url": "https://ctext.org/wiki.pl?chapter=6250302&if=gb"
+    }
+  ],
+  "researchNote": "The anthology transcription and indexed Qidong Yeyu passage were consulted. Their marvels are literary claims, not instructions for identifying real animals or testing fabrics.",
+  "reviewedAt": "2026-11-14",
+  "relatedIds": [
+    "cn-tenghuang",
+    "cn-biyiniao",
+    "cn-qingniao"
+  ],
+  "questions": [
+    {
+      "question": "What is Huoshu in English?",
+      "answer": "Fire rat is a direct rendering of 火鼠."
+    },
+    {
+      "question": "Does the text prove a real fireproof animal existed?",
+      "answer": "No. It records a literary explanation for a marvellous material, not biological verification."
+    }
+  ]
+}

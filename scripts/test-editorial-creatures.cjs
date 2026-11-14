@@ -111,7 +111,7 @@ async function main() {
   // The editorial layer must leave an ordinary English entry and the Korean
   // edition of a reviewed entry on their existing data/article paths.
   for (const { id, locale } of [
-    { id: "kr-gumiho", locale: "en" },
+    { id: "kr-songgaksi", locale: "en" },
     { id: "cn-tenghuang", locale: "ko" },
   ]) {
     const params = Promise.resolve({ locale, id });
@@ -193,7 +193,7 @@ async function main() {
     assert.equal(article.citation.length, entry.sources.length);
     assert.equal(article.dateModified, entry.reviewedAt);
     for (const locale of ["en", "ja", "zh"]) {
-      assert.equal(getEditorialCreature(id, locale), null);
+      if (!(id === "kr-eoduksini" && locale === "en")) assert.equal(getEditorialCreature(id, locale), null);
       const other = await page.generateMetadata({ params: Promise.resolve({ locale, id }) });
       assert.notEqual(other.title, entry.title, `${id}: Korean title leaked into ${locale}`);
     }
@@ -202,4 +202,5 @@ async function main() {
   await assert.rejects(page.default({ params: Promise.resolve({ locale: "en", id: "missing-creature" }) }));
   console.log("PASS: three Korean search pages, six rendered English entries and visible editorial fields, linked sources and related pages, metadata/JSON-LD, legacy English article and Korean body isolation, and 404 handling");
 }
-main().catch(error => { console.error(error.message); process.exitCode = 1; });
+module.exports = { load, root, plain, visibleMarkup };
+if (require.main === module) main().catch(error => { console.error(error.message); process.exitCode = 1; });

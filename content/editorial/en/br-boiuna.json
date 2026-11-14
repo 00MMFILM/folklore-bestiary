@@ -1,7 +1,7 @@
 {
   "id": "br-boiuna",
   "locale": "en",
-  "title": "Boiuna: the Giant River Serpent of Amazonian Folklore",
+  "title": "Boiuna: Amazonian Giant Snake, Cobra Grande and the Night Story",
   "metaDescription": "Meet Boiuna, the giant serpent of Amazonian folklore, through documented river legends, the story of night, and living Brazilian storytelling.",
   "description": "Boiuna, also written Boiúna and associated with Cobra Grande, is a giant serpent of Amazonian folklore. Different retellings connect it with dangerous rivers, extraordinary transformations, and the origins of the world.",
   "displayType": "River serpent",
@@ -35,10 +35,20 @@
     }
   ],
   "researchNote": "This entry distinguishes institutional retellings and a university study's discussion of earlier collectors. It does not identify one definitive version or assign all these stories to a single Indigenous people. The selected sources establish no shared method for defeating Boiuna. The two story hooks are original fiction.",
-  "reviewedAt": "2026-10-20",
+  "reviewedAt": "2026-11-14",
   "relatedIds": [
     "br-boto",
     "br-iara",
     "br-boitata"
+  ],
+  "questions": [
+    {
+      "question": "Are Boiuna and Cobra Grande the same name?",
+      "answer": "The sources connect them, but their stories and roles vary. The names should not collapse every Amazonian serpent account into one tale."
+    },
+    {
+      "question": "What is the story about the origin of night?",
+      "answer": "In the account discussed here, night is enclosed in a tucumã seed and released when its carriers open it. The page identifies the study and retelling behind that version."
+    }
   ]
 }

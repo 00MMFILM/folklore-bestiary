@@ -1,7 +1,7 @@
 {
   "id": "eg-apesh",
   "locale": "en",
-  "title": "Apesh: the Egyptian Tortoise Deity and the Evidence",
+  "title": "Apesh: Egyptian Tortoise Deity, Not the Serpent Apep",
   "metaDescription": "What the sources say about Apesh, the Egyptian tortoise deity: Budge's account, turtle imagery, funerary texts, and the distinction from Apep.",
   "description": "Apesh is the name E. A. Wallis Budge gives to an Egyptian tortoise deity associated with darkness and night. His account distinguishes this figure from the serpent Apep.",
   "displayType": "Deity",
@@ -32,10 +32,20 @@
     }
   ],
   "researchNote": "Apesh is retained with explicit attribution to Budge's older Egyptological account. The Book of the Dead passage was checked in his published English translation, not newly translated from hieroglyphs; the passage itself refers to the tortoise without naming Apesh in English. These sources do not establish a human body with a turtle head, a specific set of powers, or a combat weakness. The two story hooks are original fiction.",
-  "reviewedAt": "2026-10-20",
+  "reviewedAt": "2026-11-14",
   "relatedIds": [
     "eg-apep",
     "eg-sobek",
     "eg-bennu"
+  ],
+  "questions": [
+    {
+      "question": "Is Apesh another spelling of Apep?",
+      "answer": "Budge treats the tortoise Apesh separately from the serpent Apep. This entry preserves that distinction."
+    },
+    {
+      "question": "Does every Egyptian turtle image depict Apesh?",
+      "answer": "No. The UCL material shows different uses of turtle imagery; an object’s identity needs its own context."
+    }
   ]
 }
