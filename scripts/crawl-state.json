@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 53,
+  "lastCategoryIndex": 56,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7775,7 +7775,8 @@
     1085526,
     71749764,
     26491360,
-    81701879
+    81701879,
+    83946989
   ],
   "discoveredCategories": [
     {
@@ -25147,8 +25148,8 @@
       "discoveredAt": 691
     }
   ],
-  "totalAdded": 4384,
-  "runs": 694,
-  "lastRun": "2026-11-14T06:30:59.566Z",
-  "lastDiscoveredIndex": 837
+  "totalAdded": 4385,
+  "runs": 695,
+  "lastRun": "2026-11-14T06:46:55.515Z",
+  "lastDiscoveredIndex": 840
 }
