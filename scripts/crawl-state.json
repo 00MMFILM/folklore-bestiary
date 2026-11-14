@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 56,
+  "lastCategoryIndex": 59,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7776,7 +7776,33 @@
     71749764,
     26491360,
     81701879,
-    83946989
+    83946989,
+    17484266,
+    55515422,
+    406220,
+    12105265,
+    22809651,
+    12252915,
+    1843369,
+    610105,
+    1283897,
+    857775,
+    1436341,
+    30864926,
+    4799962,
+    2522539,
+    1576982,
+    676520,
+    47577199,
+    1257770,
+    65263134,
+    2356421,
+    2297349,
+    81345,
+    1832216,
+    2821422,
+    11995813,
+    1832144
   ],
   "discoveredCategories": [
     {
@@ -25146,10 +25172,114 @@
       "label": "Tahiti and Society Islands goddesses",
       "discoveredFrom": "Te-uri",
       "discoveredAt": 691
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Child superheroes",
+      "iso": "_MULTI",
+      "label": "Child superheroes",
+      "discoveredFrom": "Combo Rangers",
+      "discoveredAt": 695
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Superhero teams",
+      "iso": "_MULTI",
+      "label": "Superhero teams",
+      "discoveredFrom": "Combo Rangers",
+      "discoveredAt": 695
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Superhero webcomics",
+      "iso": "_MULTI",
+      "label": "Superhero webcomics",
+      "discoveredFrom": "Combo Rangers",
+      "discoveredAt": 695
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Marvel Comics American superheroes",
+      "iso": "US",
+      "label": "Marvel Comics American superheroes",
+      "discoveredFrom": "Sunspot (character)",
+      "discoveredAt": 695
+    },
+    {
+      "lang": "en",
+      "cat": "Category:DC Comics child superheroes",
+      "iso": "_MULTI",
+      "label": "DC Comics child superheroes",
+      "discoveredFrom": "Bart Allen",
+      "discoveredAt": 695
+    },
+    {
+      "lang": "en",
+      "cat": "Category:DC Comics superheroes",
+      "iso": "_MULTI",
+      "label": "DC Comics superheroes",
+      "discoveredFrom": "Blue Beetle (Jaime Reyes)",
+      "discoveredAt": 695
+    },
+    {
+      "lang": "en",
+      "cat": "Category:DC Comics superhero teams",
+      "iso": "_MULTI",
+      "label": "DC Comics superhero teams",
+      "discoveredFrom": "Boy Commandos",
+      "discoveredAt": 695
+    },
+    {
+      "lang": "en",
+      "cat": "Category:African-American superheroes",
+      "iso": "US",
+      "label": "African-American superheroes",
+      "discoveredFrom": "Cyborg (DC Comics)",
+      "discoveredAt": 695
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Cyborg superheroes",
+      "iso": "_MULTI",
+      "label": "Cyborg superheroes",
+      "discoveredFrom": "Cyborg (DC Comics)",
+      "discoveredAt": 695
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2010s American superhero comedy television series",
+      "iso": "US",
+      "label": "2010s American superhero comedy television series",
+      "discoveredFrom": "DC Super Hero Girls",
+      "discoveredAt": 695
+    },
+    {
+      "lang": "en",
+      "cat": "Category:American children's animated superhero television series",
+      "iso": "US",
+      "label": "American children's animated superhero television series",
+      "discoveredFrom": "DC Super Hero Girls",
+      "discoveredAt": 695
+    },
+    {
+      "lang": "en",
+      "cat": "Category:DC Comics LGBTQ superheroes",
+      "iso": "_MULTI",
+      "label": "DC Comics LGBTQ superheroes",
+      "discoveredFrom": "Tim Drake",
+      "discoveredAt": 695
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ghostbusters characters",
+      "iso": "_MULTI",
+      "label": "Ghostbusters characters",
+      "discoveredFrom": "Janine Melnitz",
+      "discoveredAt": 695
     }
   ],
-  "totalAdded": 4385,
-  "runs": 695,
-  "lastRun": "2026-11-14T06:46:55.515Z",
-  "lastDiscoveredIndex": 840
+  "totalAdded": 4387,
+  "runs": 696,
+  "lastRun": "2026-11-14T12:45:02.165Z",
+  "lastDiscoveredIndex": 843
 }

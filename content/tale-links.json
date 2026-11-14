@@ -163,6 +163,18 @@
    "n": "발로르"
   }
  ],
+ "in-kabandha": [
+  {
+   "id": "in-kali",
+   "n": "Kali"
+  }
+ ],
+ "in-kali": [
+  {
+   "id": "in-kabandha",
+   "n": "Kabandha"
+  }
+ ],
  "in-ravana": [
   {
    "id": "in-asura",
@@ -249,6 +261,38 @@
   {
    "id": "ir-zahhak",
    "n": "Zahhak"
+  }
+ ],
+ "jp-fujin": [
+  {
+   "id": "jp-susanoo",
+   "n": "스사노오"
+  },
+  {
+   "id": "jp-amaterasu",
+   "n": "아마테라스"
+  },
+  {
+   "id": "jp-izanami",
+   "n": "이자나미"
+  }
+ ],
+ "jp-amaterasu": [
+  {
+   "id": "jp-fujin",
+   "n": "Fūjin"
+  }
+ ],
+ "jp-susanoo": [
+  {
+   "id": "jp-fujin",
+   "n": "Fūjin"
+  }
+ ],
+ "jp-izanami": [
+  {
+   "id": "jp-fujin",
+   "n": "Fūjin"
   }
  ],
  "kr-cheoyong": [
