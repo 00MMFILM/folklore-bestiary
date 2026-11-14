@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Hannya",
+ "sourceLang": "en",
+ "sourceChars": 10105,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Hannya",
+ "generatedAt": "2026-11-14T06:45:45.319Z",
+ "locales": {
+  "ko": {
+   "origin": "Hannya(般若)라는 단어는 산스크리트어 prajñā(प्रज्ञा)의 일본어 음역으로, '지혜'를 의미한다. Hannya 마스크가 복수심에 불타는 여성의 질투와 원한을 표현하는 Noh에서 사용되는 이유에 대한 여러 가설이 있다. 첫 번째 가설에 따르면, 이 마스크는 분메이 시대(1469–1487)의 일본 승려 Hannya-bō(般若坊)에 의해 완성되었다고 전해진다. 두 번째 가설은 Noh 연극 Aoi no Ue에서 '아라 두려운 목소리로 심경을 외우는구나'라는 구절에서 유래되었다고 한다. 이 구절의 hannya-goe는 악령을 쫓는 심경을 외우는 목소리를 가리킨다. 또 다른 설명으로는 이 마스크를 제작하기 위해서는 많은 지혜(hannya)가 필요하다는 점이 있다.",
+   "legend": "Hannya(般若)는 질투하는 여성 악마를 나타내는 전통 일본 Noh 극에서 사용되는 마스크이다. 두 개의 날카로운 황소 같은 뿔, 금속성의 눈, 그리고 비웃는 입이 특징이다. Noh 연극에서 마스크의 종류는 여성 캐릭터의 질투, 원한, 분노의 정도에 따라 달라진다. Hannya는 여성 온리요(onryō)를 나타내며, 이는 나만나리(生成)보다도 더 강한 원한과 질투, 분노를 지닌 존재로 여겨진다.",
+   "variants": "Hannya는 chūnari(中成)라고도 불린다. shinjya(真蛇)라는 마스크는 hannya보다도 더 강렬한 여성 온리요의 모습을 나타낸다. 이러한 마스크들은 여성 악마의 질투, 원한, 분노를 표현하는 jya(蛇, 뱀) 마스크로 분류된다.",
+   "culture": "Hannya는 에도 시대에 시작된 인형극인 분라쿠(Bunraku)에서도 등장한다. 일본 예술 위원회는 129종의 인형 머리를 나열하고 있으며, 그 중 하나가 hannya이다. gabu 유형의 인형 머리는 hannya를 나타낼 수 있으며, 이 인형은 끈을 당김으로써 즉시 얼굴 표정을 변화시킬 수 있는 장치가 장착되어 있다. 이와 같이, 하나의 머리는 아름다운 여성에서 hannya로의 변화를 나타낼 수 있다."
+  },
+  "en": {
+   "origin": "The word Hannya (般若) is a Japanese transliteration of the Sanskrit word prajñā (प्रज्ञा), meaning 'wisdom.' There are several hypotheses regarding why the Hannya mask is used in Noh to express the jealousy and resentment of a woman consumed by vengeance. According to the first hypothesis, this mask is said to have been completed by the Japanese monk Hannya-bō (般若坊) during the Bunmei era (1469–1487). The second hypothesis suggests that it originated from the phrase 'Ara, you recite your heart's feelings in a fearful voice' in the Noh play Aoi no Ue. The hannya-goe in this phrase refers to the voice used to recite one's feelings while chasing away evil spirits. Another explanation is that a great deal of wisdom (hannya) is required to create this mask.",
+   "legend": "Hannya (般若) is a mask used in traditional Japanese Noh theater to represent a jealous female demon. It is characterized by two sharp, bull-like horns, metallic eyes, and a mocking mouth. In Noh plays, the type of mask varies depending on the degree of jealousy, resentment, and anger of the female character. Hannya represents a female onryō (怨霊), which is considered to possess a stronger grudge and jealousy, and anger than a mananari (生成).",
+   "variants": "Hannya is also known as chūnari (中成). The shinjya (真蛇) mask represents an even more intense form of female onryō. These masks are classified as jya (蛇, snake) masks that express the jealousy, resentment, and anger of female demons.",
+   "culture": "Hannya also appears in Bunraku, a puppet theater that began during the Edo period. The Japan Arts Council lists 129 types of puppet heads, one of which is hannya. The gabu type of puppet head can represent hannya, and this puppet is equipped with a mechanism that allows it to instantly change facial expressions by pulling a string. In this way, a single head can represent the transformation from a beautiful woman to hannya."
+  },
+  "zh": {
+   "origin": "Hannya(般若)这个词是梵语prajñā(प्रज्ञा)的日语音译，意为'智慧'。关于Hannya面具在Noh中表达燃烧着复仇心的女性的嫉妒和怨恨的原因，有多种假说。第一种假说认为，这个面具是由分梅时代(1469–1487)的日本僧侣Hannya-bō(般若坊)所完成。第二种假说则认为它源于Noh戏剧《青上(あおいのうえ)》中的一句话'啊，恐怖的声音在吟诵心境'。这句话中的hannya-goe指的是驱赶恶灵的心境吟诵的声音。还有另一种解释是，制作这个面具需要大量的智慧(hannya)。",
+   "legend": "Hannya(般若)是代表嫉妒女性恶魔的传统日本Noh剧中使用的面具。它的特点是两根尖锐的牛角、金属般的眼睛和嘲笑的嘴巴。在Noh戏剧中，面具的种类根据女性角色的嫉妒、怨恨和愤怒的程度而有所不同。Hannya代表女性的怨灵(onryō)，被认为拥有比生生(生成)更强烈的怨恨、嫉妒和愤怒。",
+   "variants": "Hannya也被称为chūnari(中成)。shinjya(真蛇)面具则表现出比hannya更强烈的女性怨灵的形象。这些面具被归类为表现女性恶魔的嫉妒、怨恨和愤怒的jya(蛇, 蛇)面具。",
+   "culture": "Hannya也出现在始于江户时代的木偶剧分乐(Bunraku)中。日本艺术委员会列出了129种木偶头，其中之一就是hannya。gabu类型的木偶头可以表现hannya，这种木偶装有可以通过拉绳立即改变面部表情的装置。这样，一个头可以表现从美丽女性到hannya的变化。"
+  },
+  "ja": {
+   "origin": "Hannya(般若)という言葉は、サンスクリット語のprajñā(प्रज्ञा)の日本語音訳であり、「知恵」を意味する。Hannyaマスクが復讐心に燃える女性の嫉妬と恨みを表現するNohで使用される理由については、いくつかの仮説がある。第一の仮説によれば、このマスクは分明時代(1469–1487)の日本の僧侶Hannya-bō(般若坊)によって完成されたと伝えられている。第二の仮説は、Noh演劇Aoi no Ueで「アラ恐ろしい声で心境を唱えるのだ」というフレーズに由来するとされている。このフレーズのhannya-goeは、悪霊を追い払う心境を唱える声を指す。もう一つの説明としては、このマスクを制作するためには多くの知恵(hannya)が必要であるという点がある。",
+   "legend": "Hannya(般若)は嫉妬する女性悪魔を表す伝統的な日本のNoh劇で使用されるマスクである。二つの鋭い牛のような角、金属的な目、そして嘲笑する口が特徴である。Noh演劇においてマスクの種類は女性キャラクターの嫉妬、恨み、怒りの程度によって異なる。Hannyaは女性のオンリョウ(onryō)を表し、これはナマナリ(生成)よりも強い恨みと嫉妬、怒りを持つ存在と見なされる。",
+   "variants": "Hannyaはchūnari(中成)とも呼ばれる。shinjya(真蛇)というマスクはhannyaよりもさらに強烈な女性オンリョウの姿を表す。これらのマスクは女性悪魔の嫉妬、恨み、怒りを表現するjya(蛇、ヘビ)マスクに分類される。",
+   "culture": "Hannyaは江戸時代に始まった人形劇である文楽(Bunraku)にも登場する。日本芸術委員会は129種類の人形頭を列挙しており、その中の一つがhannyaである。gabuタイプの人形頭はhannyaを表すことができ、この人形は紐を引くことで即座に顔の表情を変える装置が装備されている。このように、一つの頭は美しい女性からhannyaへの変化を表すことができる。"
+  }
+ }
+}

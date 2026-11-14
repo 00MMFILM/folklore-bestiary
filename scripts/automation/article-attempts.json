@@ -288,5 +288,15 @@
     "status": "generated",
     "at": "2026-11-14T06:31:24.386Z",
     "retryAfter": "2026-11-15T06:31:24.386Z"
+  },
+  "br-bestial-beast": {
+    "status": "rejected",
+    "at": "2026-11-14T06:45:24.538Z",
+    "retryAfter": "2026-11-21T06:45:24.538Z"
+  },
+  "jp-hannya": {
+    "status": "generated",
+    "at": "2026-11-14T06:45:45.319Z",
+    "retryAfter": "2026-11-15T06:45:45.319Z"
   }
 }
