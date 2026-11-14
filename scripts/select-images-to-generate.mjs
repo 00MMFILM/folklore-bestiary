@@ -13,6 +13,7 @@ import { fileURLToPath } from "url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
 const BATCH = parseInt(process.env.IMAGE_BATCH || "10", 10);
+if (!Number.isInteger(BATCH) || BATCH < 1 || BATCH > 10) throw new Error('IMAGE_BATCH must be 1..10');
 
 const src = readFileSync(resolve(ROOT, "lib/folklore-data.ts"), "utf-8");
 
@@ -43,7 +44,8 @@ const shortId = (id) => id.replace(/^[a-z]{2,3}-/, "");
 const missing = [];
 for (const country of data) {
   for (const b of country.b) {
-    if (imageMap[shortId(b.id)] || progress[b.id]) continue;
+    const images=[imageMap[shortId(b.id)],imageMap[b.id.replace(/^[a-z]{2}-/,'')],imageMap[b.id],progress[b.id]];
+    if (images.some(p=>p && existsSync(resolve(ROOT,'public',p.replace(/^\//,''))))) continue;
     missing.push({
       id: b.id,
       name: b.n,
@@ -59,6 +61,6 @@ for (const country of data) {
 missing.sort((a, b) => (b.fear - a.fear) || ((b.d || "").length - (a.d || "").length));
 const selected = missing.slice(0, BATCH);
 
-writeFileSync("/tmp/creatures-to-generate.json", JSON.stringify(selected, null, 2));
+writeFileSync(process.env.IMAGE_INPUT || "/tmp/creatures-to-generate.json", JSON.stringify(selected, null, 2));
 console.log(`🎨 이미지 미보유: ${missing.length}마리 중 ${selected.length}마리 선별 (배치: ${BATCH})`);
 selected.forEach(c => console.log(`   [f:${c.fear}] ${c.name} (${c.country})`));

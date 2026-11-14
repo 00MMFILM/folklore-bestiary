@@ -4,60 +4,61 @@ on:
   schedule:
     # 6시간마다 실행 (UTC 0, 6, 12, 18시)
     - cron: '0 */6 * * *'
-  workflow_dispatch: # 수동 트리거 가능
+  workflow_dispatch:
+    inputs:
+      max_new:
+        description: '최대 신규 항목 수 (검증 기본 1)'
+        default: '1'
 
 permissions:
   contents: write
 
+concurrency:
+  group: folklore-content-updates
+  cancel-in-progress: false
+
 jobs:
   crawl:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
-      - name: Setup Node.js 20
+      - name: Setup Node.js 22
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: Run Wikipedia crawler
+        env:
+          CRAWL_MAX_NEW: ${{ inputs.max_new || '5' }}
         run: node scripts/crawl-wikipedia-folklore.mjs
 
-      - name: Check for changes
-        id: changes
+      - name: Translate new creatures and rebuild tale links
+        if: always() && !cancelled()
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          # folklore-data.ts 변경 여부만 체크 — crawl-state.json/FolkloreMap.jsx만 변경된
-          # 빈 실행은 커밋하지 않음 (저장소 노이즈 방지)
-          if git diff --quiet lib/folklore-data.ts; then
-            echo "changed=false" >> $GITHUB_OUTPUT
-          else
-            echo "changed=true" >> $GITHUB_OUTPUT
+          if [ -f scripts/.last-added.json ]; then
+            node scripts/translate-creatures.mjs
+            node scripts/build-tale-links.mjs
           fi
 
-      - name: Commit and push
-        if: steps.changes.outputs.changed == 'true'
+      - name: Persist crawl progress and validated content
+        if: always() && !cancelled()
+        env:
+          PIPELINE_NAME: crawl
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add lib/folklore-data.ts lib/site-stats.ts components/FolkloreMap.jsx scripts/crawl-state.json
-          CREATURE_COUNT=$(node -e "
-            const fs = require('fs');
-            const c = fs.readFileSync('lib/folklore-data.ts','utf8');
-            const marker = 'export const FOLKLORE_DATA: CountryData[] = ';
-            const s = c.indexOf(marker) + marker.length;
-            let d=0,e=s,inStr=false,esc=false;
-            for(let i=s;i<c.length;i++){const ch=c[i];if(esc){esc=false;continue;}if(ch==='\\\\'){esc=true;continue;}if(ch==='\"'){inStr=!inStr;continue;}if(inStr)continue;if(ch==='[')d++;if(ch===']'){d--;if(d===0){e=i+1;break;}}}
-            const data=JSON.parse(c.substring(s,e));
-            console.log(data.reduce((a,b)=>a+b.b.length,0));
-          ")
-          git commit -m "Auto-crawl: update folklore creatures (total: ${CREATURE_COUNT})"
-          git pull --rebase origin main
-          git push
+          node scripts/validate-automation-data.mjs
+          bash scripts/commit-automation.sh lib/folklore-data.ts lib/site-stats.ts components/FolkloreMap.jsx scripts/crawl-state.json scripts/automation public/i18n content/tale-links.json
 
       - name: Notify search engines (IndexNow)
-        if: steps.changes.outputs.changed == 'true'
         run: |
-          # Vercel 배포 대기 후 신규 크리처 URL을 Bing/네이버/Yandex에 통지
-          sleep 180
-          node scripts/submit-indexnow.mjs --from scripts/.last-added.json || true
+          if [ -f scripts/.last-added.json ]; then
+            sleep 180
+            node scripts/submit-indexnow.mjs --from scripts/.last-added.json
+          fi

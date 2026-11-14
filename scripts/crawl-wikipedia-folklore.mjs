@@ -9,6 +9,7 @@
 import fs from 'fs';
 import path from 'path';
 import { pathToFileURL } from 'url';
+import { finishRun } from './lib/automation-state.mjs';
 
 // ─── 데이터 로드/저장 (expand-folklore.mjs와 동일) ───
 const DATA_PATH = path.join(process.cwd(), 'lib', 'folklore-data.ts');
@@ -504,6 +505,7 @@ function guessCountryFromText(text) {
 //  Wikipedia API 호출
 // ═══════════════════════════════════════════════════════════════
 let apiCallCount = 0;
+let apiErrors = 0;
 const MAX_API_CALLS = parseInt(process.env.CRAWL_MAX_API || '80', 10);
 
 async function fetchJSON(url) {
@@ -518,8 +520,12 @@ async function fetchJSON(url) {
       signal: controller.signal,
       headers: { 'User-Agent': 'FolkloreBestiary/1.0 (https://github.com/folklore-bestiary)' },
     });
-    return await res.json();
+    if (!res.ok) throw new Error(`Wikipedia HTTP ${res.status}`);
+    const json=await res.json();
+    if(json.error) throw new Error('Wikipedia API error');
+    return json;
   } catch {
+    apiErrors++;
     return null;
   } finally {
     clearTimeout(timeout);
@@ -1197,7 +1203,7 @@ async function main() {
     fs.writeFileSync(fmPath, fmContent, 'utf8');
     console.log(`🕐 LAST_UPDATED 갱신: ${new Date().toISOString()}`);
   } else {
-    console.log(`\n⏸️  변경 없음 — 커밋 스킵`);
+    console.log(`\n신규 콘텐츠 없음 — 다음 실행을 위해 탐색 진행 위치는 저장합니다`);
   }
 
   // ── 상태 업데이트 ──
@@ -1205,6 +1211,8 @@ async function main() {
   state.runs++;
   state.lastRun = new Date().toISOString();
   saveState(state);
+  finishRun('crawl',{attempted:apiCallCount,generated:added,errors:apiErrors,remaining:null,categoryIndex:state.lastCategoryIndex,discoveredIndex:state.lastDiscoveredIndex});
+  if(apiErrors) process.exitCode=1;
 
   const afterCount = data.reduce((s, c) => s + c.b.length, 0);
 
