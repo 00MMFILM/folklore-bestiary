@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 59,
+  "lastCategoryIndex": 62,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7802,7 +7802,28 @@
     1832216,
     2821422,
     11995813,
-    1832144
+    1832144,
+    2934233,
+    7515857,
+    71308220,
+    25133008,
+    690804,
+    19533905,
+    37574,
+    800042,
+    182879,
+    57256981,
+    923210,
+    69694645,
+    324349,
+    31635747,
+    61790154,
+    72561445,
+    26140666,
+    69311163,
+    20326758,
+    3224395,
+    25017875
   ],
   "discoveredCategories": [
     {
@@ -25276,10 +25297,122 @@
       "label": "Ghostbusters characters",
       "discoveredFrom": "Janine Melnitz",
       "discoveredAt": 695
+    },
+    {
+      "lang": "en",
+      "cat": "Category:God in Islam",
+      "iso": "SA",
+      "label": "God in Islam",
+      "discoveredFrom": "God in Islam",
+      "discoveredAt": 696
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Demonologists",
+      "iso": "_MULTI",
+      "label": "Demonologists",
+      "discoveredFrom": "Demon hunter",
+      "discoveredAt": 696
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Female superheroes",
+      "iso": "_MULTI",
+      "label": "Female superheroes",
+      "discoveredFrom": "Bayonetta (character)",
+      "discoveredAt": 696
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Buffyverse demons",
+      "iso": "_MULTI",
+      "label": "Buffyverse demons",
+      "discoveredFrom": "Cordelia Chase",
+      "discoveredAt": 696
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Bisexual superheroes",
+      "iso": "_MULTI",
+      "label": "Bisexual superheroes",
+      "discoveredFrom": "John Constantine",
+      "discoveredAt": 696
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legends of Tomorrow characters",
+      "iso": "_MULTI",
+      "label": "Legends of Tomorrow characters",
+      "discoveredFrom": "John Constantine (Arrowverse)",
+      "discoveredAt": 696
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Demon characters in video games",
+      "iso": "_MULTI",
+      "label": "Demon characters in video games",
+      "discoveredFrom": "Dante (Devil May Cry)",
+      "discoveredAt": 696
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2010s supernatural thriller films",
+      "iso": "_MULTI",
+      "label": "2010s supernatural thriller films",
+      "discoveredFrom": "Blubberella",
+      "discoveredAt": 696
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2011 supernatural films",
+      "iso": "_MULTI",
+      "label": "2011 supernatural films",
+      "discoveredFrom": "Blubberella",
+      "discoveredAt": 696
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2011 supernatural horror films",
+      "iso": "_MULTI",
+      "label": "2011 supernatural horror films",
+      "discoveredFrom": "Blubberella",
+      "discoveredAt": 696
+    },
+    {
+      "lang": "en",
+      "cat": "Category:1970s supernatural horror films",
+      "iso": "_MULTI",
+      "label": "1970s supernatural horror films",
+      "discoveredFrom": "Grave of the Vampire",
+      "discoveredAt": 696
+    },
+    {
+      "lang": "en",
+      "cat": "Category:1970s vampire films",
+      "iso": "_MULTI",
+      "label": "1970s vampire films",
+      "discoveredFrom": "Grave of the Vampire",
+      "discoveredAt": 696
+    },
+    {
+      "lang": "en",
+      "cat": "Category:1972 supernatural films",
+      "iso": "_MULTI",
+      "label": "1972 supernatural films",
+      "discoveredFrom": "Grave of the Vampire",
+      "discoveredAt": 696
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Blood: The Last Vampire",
+      "iso": "_MULTI",
+      "label": "Blood: The Last Vampire",
+      "discoveredFrom": "Saya Kisaragi",
+      "discoveredAt": 696
     }
   ],
-  "totalAdded": 4387,
-  "runs": 696,
-  "lastRun": "2026-11-14T12:45:02.165Z",
-  "lastDiscoveredIndex": 843
+  "totalAdded": 4392,
+  "runs": 697,
+  "lastRun": "2026-11-14T21:50:10.445Z",
+  "lastDiscoveredIndex": 846
 }
