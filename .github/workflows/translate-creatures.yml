@@ -9,39 +9,34 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: folklore-content-updates
+  cancel-in-progress: false
+
 jobs:
   translate:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
-      - name: Setup Node.js 20
+      - name: Setup Node.js 22
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: Run translation (ko/zh/ja incremental)
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: node scripts/translate-creatures.mjs
 
-      - name: Check for changes
-        id: changes
+      - name: Persist validated translations
+        env:
+          PIPELINE_NAME: translate
         run: |
-          if git diff --quiet public/i18n/; then
-            echo "changed=false" >> $GITHUB_OUTPUT
-          else
-            echo "changed=true" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Commit and push
-        if: steps.changes.outputs.changed == 'true'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/i18n/
-          COUNT=$(node -e "console.log(Object.keys(require('./public/i18n/creatures-ko.json')).length)")
-          git commit -m "Auto-translate: update creature translations (ko total: ${COUNT})"
-          git pull --rebase origin main
-          git push
+          node scripts/validate-automation-data.mjs
+          bash scripts/commit-automation.sh public/i18n

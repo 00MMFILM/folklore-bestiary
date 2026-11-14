@@ -4,7 +4,7 @@
 // generate-images.mjs 실행 후 콘솔 출력을 수동 복사하던 단계를 자동화.
 // ============================================================
 
-import { readFileSync, writeFileSync } from "fs";
+import { readFileSync, writeFileSync, existsSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 
@@ -27,20 +27,27 @@ for (let i = startIdx; i < src.length; i++) {
 }
 
 const imageMap = JSON.parse(src.substring(startIdx, endIdx));
-const progress = JSON.parse(readFileSync(resolve(ROOT, "scripts/image-gen-progress.json"), "utf-8"));
+const progressFile=resolve(ROOT, "scripts/image-gen-progress.json");
+const progress = existsSync(progressFile) ? JSON.parse(readFileSync(progressFile, "utf-8")) : {};
+const dataLine=src.split('\n').find(l=>l.startsWith('export const FOLKLORE_DATA: CountryData[] = '));
+const ids=new Set(JSON.parse(dataLine.slice(dataLine.indexOf('= ')+2).replace(/;$/,'')).flatMap(c=>c.b.map(b=>b.id)));
 
 const shortId = (id) => id.replace(/^[a-z]{2,3}-/, "");
 let added = 0;
+const addedIds=[];
 for (const [fullId, path] of Object.entries(progress)) {
-  const key = shortId(fullId);
-  if (!imageMap[key]) {
-    imageMap[key] = path;
+  if (!ids.has(fullId) || !existsSync(resolve(ROOT,'public',path.replace(/^\//,'')))) continue;
+  const existing=[imageMap[shortId(fullId)],imageMap[fullId.replace(/^[a-z]{2}-/,'')],imageMap[fullId]];
+  if (!existing.some(p=>p && existsSync(resolve(ROOT,'public',p.replace(/^\//,''))))) {
+    imageMap[fullId] = path;
     added++;
+    addedIds.push(fullId);
   }
 }
 
-if (added > 0) {
+if (added > 0 && !process.argv.includes('--dry')) {
   const newSrc = src.substring(0, startIdx) + JSON.stringify(imageMap) + src.substring(endIdx);
   writeFileSync(DATA_PATH, newSrc, "utf-8");
 }
 console.log(`🗺️ CREATURE_IMAGE_MAP: +${added}건 병합 (총 ${Object.keys(imageMap).length}건)`);
+console.log(`${process.argv.includes('--dry') ? 'DRY' : 'APPLIED'}: ${addedIds.join(', ')}`);

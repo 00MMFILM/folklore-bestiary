@@ -1,0 +1,36 @@
+name: Monitor Content Automation
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_run:
+    workflows: [Crawl Wikipedia Folklore, Generate Creature Images, Generate Creature Articles, Translate Creatures]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      test_alert:
+        description: '알림 경로 테스트 이슈 만들기'
+        type: boolean
+        default: false
+permissions:
+  contents: read
+  actions: read
+  issues: write
+concurrency:
+  group: folklore-automation-monitor
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/check-automation-health.mjs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TEST_ALERT: ${{ inputs.test_alert || 'false' }}

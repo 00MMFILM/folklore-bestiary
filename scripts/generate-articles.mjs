@@ -18,6 +18,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { readJson, writeJson, selectCandidates, recordAttempt, finishRun } from './lib/automation-state.mjs';
 
 const ROOT = process.cwd();
 const OUT_DIR = path.join(ROOT, 'content', 'articles');
@@ -33,6 +34,13 @@ const argVal = (name, def) => (argIdx(name) !== -1 ? process.argv[argIdx(name) +
 const COUNTRY = argVal('--country', null);
 const BATCH = parseInt(argVal('--batch', '30'), 10);
 const CONCURRENCY = parseInt(argVal('--concurrency', '6'), 10);
+const MAX_GENERATED = parseInt(argVal('--max-generated', String(BATCH)), 10);
+const DRY = process.argv.includes('--dry');
+if (![BATCH,CONCURRENCY,MAX_GENERATED].every(n=>Number.isInteger(n)&&n>0) || BATCH>30 || MAX_GENERATED>BATCH || CONCURRENCY>6) throw new Error('Invalid article batch/concurrency limit');
+const ATTEMPTS_PATH=path.join(ROOT,'scripts/automation/article-attempts.json');
+const attempts=readJson(ATTEMPTS_PATH);
+let apiCalls=0;
+const MAX_CALLS=Number(process.env.ARTICLE_MAX_CALLS || 150);
 
 fs.mkdirSync(OUT_DIR, { recursive: true });
 
@@ -67,7 +75,10 @@ function throttledWikiFetch(url) {
           headers: { 'User-Agent': 'FolkloreBestiary/1.0 (leechan0415@gmail.com; article pipeline)' },
         });
         const text = await res.text();
-        if (text.startsWith('{')) return JSON.parse(text);
+        if (res.ok && text.startsWith('{')) {
+          const json=JSON.parse(text);
+          if (!json.error) return json;
+        }
         // 레이트리밋/차단 응답 — 대기 후 재시도
         console.log(`   ⏳ 위키 레이트리밋 감지 — ${15 * (attempt + 1)}초 대기`);
         await new Promise(r => setTimeout(r, 15000 * (attempt + 1)));
@@ -75,7 +86,7 @@ function throttledWikiFetch(url) {
         await new Promise(r => setTimeout(r, 5000));
       }
     }
-    return null;
+    throw new Error('Wikipedia unavailable after 3 attempts');
   });
   wikiChain = run.catch(() => {});
   return run;
@@ -112,21 +123,28 @@ async function findBestSource(creature) {
 async function chat(messages, maxRetry = 2) {
   for (let i = 0; i <= maxRetry; i++) {
     try {
+      if (++apiCalls > MAX_CALLS) throw new Error('Article API call limit reached');
       const res = await fetch('https://api.openai.com/v1/chat/completions', {
         method: 'POST',
+        signal: AbortSignal.timeout(60000),
         headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${apiKey}` },
         body: JSON.stringify({
           model: 'gpt-4o-mini',
           temperature: 0.2,
+          max_tokens: 3500,
           response_format: { type: 'json_object' },
           messages,
         }),
       });
-      if (!res.ok) throw new Error(`OpenAI ${res.status}`);
+      if (!res.ok) {
+        const error=new Error(`OpenAI ${res.status}`);
+        error.fatal=[400,401,403,404,429].includes(res.status);
+        throw error;
+      }
       const json = await res.json();
       return JSON.parse(json.choices[0].message.content);
     } catch (e) {
-      if (i === maxRetry) throw e;
+      if (i === maxRetry || e.fatal || apiCalls>=MAX_CALLS) throw e;
       await new Promise(r => setTimeout(r, 5000 * (i + 1)));
     }
   }
@@ -157,20 +175,20 @@ JSON으로 반환:
   ]);
 }
 
-async function verifyArticle(article, source) {
+async function verifyArticle(article, source, creature) {
   const body = ['origin', 'legend', 'variants', 'culture'].map(k => article[k]).filter(Boolean).join('\n\n');
   if (body.length < 200) return { pass: false, reason: '내용 부족' };
   const v = await chat([
     {
       role: 'system',
-      content: `당신은 팩트체커입니다. 아래 아티클의 주장들이 제공된 원문에 근거하는지 검증하세요.
+      content: `당신은 팩트체커입니다. 대상은 "${creature.n}" (${creature.ln || ''})입니다. 원문이 같은 이름의 다른 사람·장소·생물이 아니라 이 설화의 존재를 설명하는지 먼저 확인하세요. 대상 불일치는 불합격입니다. 아래 아티클의 주장들이 제공된 원문에 근거하는지 검증하세요.
 원문에 없는 사실(창작·추측·다른 지식 혼입)이 하나라도 실질적으로 포함되어 있으면 불합격입니다.
 표현을 다듬거나 요약한 것은 합격입니다.
-JSON 반환: {"grounded": true|false, "issues": "문제가 있다면 한 줄 설명"}`,
+JSON 반환: {"subject_matches": true|false, "grounded": true|false, "issues": "문제가 있다면 한 줄 설명"}`,
     },
     { role: 'user', content: `[원문]\n${source.text.slice(0, 24000)}\n\n[아티클]\n${body}` },
   ]);
-  return { pass: v.grounded === true, reason: v.issues || '' };
+  return { pass: v.grounded === true && v.subject_matches === true, reason: v.issues || '' };
 }
 
 async function translateArticle(koArticle, targetLocale) {
@@ -196,24 +214,30 @@ for (const country of data) {
 }
 // 공포지수 → 설명 길이 순 (관심도 프록시)
 candidates.sort((a, b) => (b.f - a.f) || ((b.d || '').length - (a.d || '').length));
-const targets = candidates.slice(0, BATCH);
+const targets = selectCandidates(candidates,attempts,BATCH);
 console.log(`📝 아티클 생성 대상: ${targets.length}마리 (전체 미보유 ${candidates.length}${COUNTRY ? `, 국가=${COUNTRY}` : ''})`);
 
 // ── 동시 처리 풀 ──
 let ok = 0, skipThin = 0, skipNoSrc = 0, failVerify = 0, failErr = 0;
+let attempted=0, stop=false;
 
 async function processOne(b) {
+  let status='error';
+  attempted++;
   try {
     const source = await findBestSource(b);
-    if (!source) { skipNoSrc++; console.log(`   ⏭️ ${b.id} — 위키 문서 없음`); return; }
+    if (!source) { status='no_source'; skipNoSrc++; console.log(`   ⏭️ ${b.id} — 위키 문서 없음`); return; }
     if (source.text.length < MIN_SOURCE_CHARS) {
+      status='thin';
       skipThin++;
       console.log(`   ⏭️ ${b.id} — 소스 부족 (${source.text.length}자)`);
       return;
     }
+    if (DRY) { console.log(`DRY ${b.id}: ${source.lang}/${source.title}, ${source.text.length} chars`); return; }
     const ko = await generateKoArticle(b, source);
-    const verdict = await verifyArticle(ko, source);
+    const verdict = await verifyArticle(ko, source, b);
     if (!verdict.pass) {
+      status='rejected';
       failVerify++;
       console.log(`   ❌ ${b.id} — 검증 불합격: ${verdict.reason}`);
       return;
@@ -223,29 +247,42 @@ async function processOne(b) {
       translateArticle(ko, 'zh'),
       translateArticle(ko, 'ja'),
     ]);
+    for (const article of [ko,en,zh,ja]) {
+      if(!['origin','legend','variants','culture'].every(k=>typeof article[k]==='string') || !article.legend.trim()) throw new Error('Invalid article sections');
+    }
     const out = {
       sourceTitle: source.title,
       sourceLang: source.lang,
       sourceChars: source.text.length,
+      sourceUrl: `https://${source.lang}.wikipedia.org/wiki/${encodeURIComponent(source.title)}`,
       generatedAt: new Date().toISOString(),
       locales: { ko, en, zh, ja },
     };
     fs.writeFileSync(path.join(OUT_DIR, `${b.id}.json`), JSON.stringify(out, null, 1));
+    status='generated';
     ok++;
     console.log(`   ✅ ${b.id} — "${source.title}" (${source.lang}, ${source.text.length}자)`);
   } catch (e) {
     failErr++;
     console.log(`   ⚠️ ${b.id} — 오류: ${e.message}`);
+    if(e.fatal || apiCalls>=MAX_CALLS) stop=true;
+  } finally {
+    if(!DRY) {
+      recordAttempt(attempts,b.id,status);
+      writeJson(ATTEMPTS_PATH,attempts);
+    }
   }
 }
 
 const queue = [...targets];
 await Promise.all(
-  Array.from({ length: Math.min(CONCURRENCY, queue.length) }, async () => {
-    while (queue.length > 0) {
+  Array.from({ length: Math.min(MAX_GENERATED<BATCH ? 1 : CONCURRENCY, queue.length) }, async () => {
+    while (queue.length > 0 && ok<MAX_GENERATED && !stop) {
       await processOne(queue.shift());
     }
   })
 );
 
 console.log(`\n완료: 생성 ${ok} / 소스없음 ${skipNoSrc} / 소스부족 ${skipThin} / 검증탈락 ${failVerify} / 오류 ${failErr}`);
+if(!DRY) finishRun('articles',{attempted,generated:ok,skipped:skipNoSrc+skipThin+failVerify,errors:failErr,remaining:candidates.length-ok,apiCalls},ROOT);
+if(failErr) process.exitCode=1;

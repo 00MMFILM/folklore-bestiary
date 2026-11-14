@@ -253,22 +253,22 @@
  ],
  "kr-cheoyong": [
   {
-   "id": "kr-munsin",
-   "n": "문전신"
-  },
-  {
    "id": "kr-yeoksin",
    "n": "Yeoksin (역신)"
+  },
+  {
+   "id": "kr-munsin",
+   "n": "문전신"
   }
  ],
  "kr-yeoksin": [
   {
-   "id": "kr-호구별성",
-   "n": "호구별성"
-  },
-  {
    "id": "kr-cheoyong",
    "n": "Cheoyong (처용)"
+  },
+  {
+   "id": "kr-호구별성",
+   "n": "호구별성"
   }
  ],
  "kr-cheuksin": [
@@ -289,6 +289,10 @@
  ],
  "kr-seongju": [
   {
+   "id": "kr-eeopsin",
+   "n": "Eeopsin (업신)"
+  },
+  {
    "id": "kr-gunungsin",
    "n": "군웅신"
   },
@@ -299,10 +303,6 @@
   {
    "id": "kr-cheuksin",
    "n": "측신"
-  },
-  {
-   "id": "kr-eeopsin",
-   "n": "Eeopsin (업신)"
   }
  ],
  "kr-dokkakgwi": [
@@ -315,30 +315,6 @@
   {
    "id": "kr-dokkakgwi",
    "n": "독각귀"
-  }
- ],
- "kr-dongmyeong-of-goguryeo": [
-  {
-   "id": "kr-전설의-고향",
-   "n": "전설의 고향"
-  }
- ],
- "kr-전설의-고향": [
-  {
-   "id": "kr-dongmyeong-of-goguryeo",
-   "n": "Dongmyeong of Goguryeo"
-  },
-  {
-   "id": "kr-gumiho",
-   "n": "Gumiho (구미호)"
-  },
-  {
-   "id": "kr-jeoseung-saja",
-   "n": "Jeoseung Saja (저승사자)"
-  },
-  {
-   "id": "kr-kumiho",
-   "n": "Kumiho"
   }
  ],
  "kr-dragon-king": [
@@ -369,12 +345,12 @@
  ],
  "kr-chilseongsin": [
   {
-   "id": "kr-eopsin",
-   "n": "업신"
-  },
-  {
    "id": "kr-eeopsin",
    "n": "Eeopsin (업신)"
+  },
+  {
+   "id": "kr-eopsin",
+   "n": "업신"
   }
  ],
  "kr-teojusin": [
@@ -401,14 +377,6 @@
  ],
  "kr-imugi": [
   {
-   "id": "kr-gangcheori",
-   "n": "강철이"
-  },
-  {
-   "id": "kr-korean-dragon",
-   "n": "한국의 용"
-  },
-  {
    "id": "kr-gangcheoli",
    "n": "Gangcheoli (강철이)"
   },
@@ -419,9 +387,7 @@
   {
    "id": "kr-yeongnoh",
    "n": "Yeongnoh (영노)"
-  }
- ],
- "kr-gangcheoli": [
+  },
   {
    "id": "kr-gangcheori",
    "n": "강철이"
@@ -429,10 +395,20 @@
   {
    "id": "kr-korean-dragon",
    "n": "한국의 용"
-  },
+  }
+ ],
+ "kr-gangcheoli": [
   {
    "id": "kr-imugi",
    "n": "Imugi (이무기)"
+  },
+  {
+   "id": "kr-gangcheori",
+   "n": "강철이"
+  },
+  {
+   "id": "kr-korean-dragon",
+   "n": "한국의 용"
   }
  ],
  "kr-gangrim-doryeong": [
@@ -443,20 +419,16 @@
  ],
  "kr-jeoseung-saja": [
   {
+   "id": "kr-yeomra-daewang",
+   "n": "Yeomra Daewang (염라대왕)"
+  },
+  {
    "id": "kr-gangrim-doryeong",
    "n": "강림도령"
   },
   {
    "id": "kr-myth-of-general-sinui",
    "n": "시누이 장군 설화"
-  },
-  {
-   "id": "kr-전설의-고향",
-   "n": "전설의 고향"
-  },
-  {
-   "id": "kr-yeomra-daewang",
-   "n": "Yeomra Daewang (염라대왕)"
   }
  ],
  "kr-gongsim": [
@@ -469,28 +441,6 @@
   {
    "id": "kr-gongsim",
    "n": "Gongsim"
-  }
- ],
- "kr-gumiho": [
-  {
-   "id": "kr-samsin-halmeoni",
-   "n": "삼신할머니"
-  },
-  {
-   "id": "kr-전설의-고향",
-   "n": "전설의 고향"
-  },
-  {
-   "id": "kr-korean-dragon",
-   "n": "한국의 용"
-  },
-  {
-   "id": "kr-imugi",
-   "n": "Imugi (이무기)"
-  },
-  {
-   "id": "kr-kumiho",
-   "n": "Kumiho"
   }
  ],
  "kr-gunungsin": [
@@ -511,6 +461,10 @@
  ],
  "kr-cheonyeo-gwishin": [
   {
+   "id": "kr-songgaksi",
+   "n": "Songgaksi (손각시)"
+  },
+  {
    "id": "kr-gwisin",
    "n": "귀신"
   },
@@ -521,10 +475,6 @@
   {
    "id": "kr-korean-virgin-ghost",
    "n": "손말명"
-  },
-  {
-   "id": "kr-songgaksi",
-   "n": "Songgaksi (손각시)"
   }
  ],
  "kr-mul-gwishin": [
@@ -535,12 +485,12 @@
  ],
  "kr-heungbu": [
   {
-   "id": "kr-jeokbyeokga",
-   "n": "적벽가"
-  },
-  {
    "id": "kr-nolbu",
    "n": "Nolbu (놀부)"
+  },
+  {
+   "id": "kr-jeokbyeokga",
+   "n": "적벽가"
   }
  ],
  "kr-nolbu": [
@@ -559,6 +509,24 @@
   {
    "id": "kr-igong-bon-puri",
    "n": "Igong bon-puri"
+  }
+ ],
+ "kr-gumiho": [
+  {
+   "id": "kr-imugi",
+   "n": "Imugi (이무기)"
+  },
+  {
+   "id": "kr-kumiho",
+   "n": "Kumiho"
+  },
+  {
+   "id": "kr-samsin-halmeoni",
+   "n": "삼신할머니"
+  },
+  {
+   "id": "kr-korean-dragon",
+   "n": "한국의 용"
   }
  ],
  "kr-yeongnoh": [
@@ -645,10 +613,6 @@
  ],
  "kr-kumiho": [
   {
-   "id": "kr-전설의-고향",
-   "n": "전설의 고향"
-  },
-  {
    "id": "kr-gumiho",
    "n": "Gumiho (구미호)"
   }
@@ -677,12 +641,12 @@
  ],
  "kr-mongdalgwi": [
   {
-   "id": "kr-mongdal-gwishin-bachelor-ghost",
-   "n": "몽달귀신"
-  },
-  {
    "id": "kr-songgaksi",
    "n": "Songgaksi (손각시)"
+  },
+  {
+   "id": "kr-mongdal-gwishin-bachelor-ghost",
+   "n": "몽달귀신"
   }
  ],
  "kr-munsin": [
