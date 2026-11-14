@@ -1,0 +1,42 @@
+{
+  "id": "sct-baobh-shith",
+  "locale": "en",
+  "title": "Baobhan Sith: The Blood-Drinking Fairy of the Scottish Highlands",
+  "metaDescription": "Baobhan sìth are dangerous fairy women in Scottish Highland storytelling. A dance with a stranger becomes a threat; read the account and its source limits here.",
+  "description": "Baobhan sìth are dangerous fairy women in Scottish Highland storytelling. A dance with a stranger becomes a threat; read the account and its source limits here.",
+  "displayType": "Highland fairy woman",
+  "abilities": [],
+  "weaknesses": [],
+  "storyHooks": [
+    "A musician keeps a dance going because stopping would reveal what happened to the other guests. What can they communicate through the tune?"
+  ],
+  "sections": {
+    "origin": "The National Library of Scotland’s online exhibition introduces the Baobhan Sith as fairy women who approach hunters and travellers in the Highlands. The spelling on this page’s older URL is retained so existing links still work.",
+    "legend": "In that exhibition’s retelling, a beautiful stranger invites a hunter to dance and drinks his blood when he is off guard. The invitation turns a moment of companionship into danger.",
+    "variants": "The exhibition gives iron and horseshoes a protective role. These details belong to the version it presents; a modern collection is not proof that every local telling shares a complete set of vampire rules.",
+    "culture": "The scene offers a strong storytelling question: when does hospitality become a trap? For comparison, follow the related fairy and ghost entries, while keeping their separate regions and sources in view."
+  },
+  "sources": [
+    {
+      "title": "National Library of Scotland — Myths and Legends from the Scottish Highlands",
+      "url": "https://artsandculture.google.com/story/myths-and-legends-from-the-scottish-highlands-national-library-of-scotland/2QUhbWNBoR7zew?hl=en"
+    }
+  ],
+  "researchNote": "This is an introduction to the library exhibition’s retelling, not a survey of all Gaelic oral variants.",
+  "reviewedAt": "2026-11-14",
+  "relatedIds": [
+    "gb-banshee",
+    "kr-gumiho",
+    "no-hafgufa"
+  ],
+  "questions": [
+    {
+      "question": "Is a baobhan sith a vampire?",
+      "answer": "Blood-drinking makes the comparison useful, but the source frames this figure as a Highland fairy woman."
+    },
+    {
+      "question": "Does every version have the same weaknesses?",
+      "answer": "This page attributes iron and horseshoes to the cited retelling and does not supply a universal rulebook."
+    }
+  ]
+}

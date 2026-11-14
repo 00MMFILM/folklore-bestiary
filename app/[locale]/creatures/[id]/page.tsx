@@ -15,6 +15,10 @@ import { localizeTags, localizeDescription } from "@/lib/tag-i18n";
 import BulgasariSampleCard, { isBulgasari } from "@/components/BulgasariSampleCard";
 import GuidePromoCard, { KOREAN_GUIDE_CREATURE_IDS } from "@/components/GuidePromoCard";
 
+import { GrowthView } from "@/components/GrowthAnalytics";
+import GrowthReadingLinks from "@/components/GrowthReadingLinks";
+import { isGrowthPage, GROWTH_CAMPAIGN_ID } from "@/lib/growth-campaign";
+
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://folklore-bestiary.vercel.app";
 
 // ─── SSG: pre-render important creatures only (rest via ISR) ───
@@ -98,6 +102,8 @@ export default async function CreaturePage({
   if (!creature) notFound();
   const editorial = getEditorialCreature(id, locale);
 
+  const pagePath = `/${locale}/creatures/${creature.id}`;
+  const growth = isGrowthPage(pagePath);
   const t = getDictionary(locale);
   const image = getCreatureImage(creature.id);
   const colors = getRegionColors(creature.region);
@@ -247,7 +253,7 @@ export default async function CreaturePage({
 
         <article style={{ maxWidth: "800px", margin: "0 auto", padding: "40px 24px" }}>
           {/* Creature Image */}
-          {image && (
+          {image && !growth && (
             <div
               style={{
                 width: "100%",
@@ -315,7 +321,7 @@ export default async function CreaturePage({
                   borderRadius: "20px",
                 }}
               >
-                {countryName} · {regionName}
+                {editorial?.tradition || `${countryName} · ${regionName}`}
               </span>
               {!editorial && creature.ct && (
                 <span
@@ -348,6 +354,42 @@ export default async function CreaturePage({
             </h2>
             <p style={{ lineHeight: 1.8, fontSize: "16px", color: "#ccc" }}>{description}</p>
           </section>
+
+          {growth && <>
+            <GrowthView page={pagePath} campaign={GROWTH_CAMPAIGN_ID} />
+            <GrowthReadingLinks page={pagePath} locale={locale} links={[
+              ...editorialRelated.slice(0, 2).map(c => ({ href: `/${locale}/creatures/${c.id}`, label: c.n })),
+              { href: `/${locale}/creatures/country/${creature.countryCode.toLowerCase()}`, label: locale === "ko" ? `${countryName} 도감 더 읽기` : `Explore the ${countryName} index` },
+            ]} />
+          </>}
+          {/* Creature Image */}
+          {image && growth && (
+            <div
+              style={{
+                width: "100%",
+                maxWidth: "600px",
+                margin: "0 auto 32px",
+                borderRadius: "16px",
+                overflow: "hidden",
+                border: `2px solid ${colors.accent}44`,
+                boxShadow: `0 0 40px ${colors.accent}22`,
+              }}
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={image}
+                alt={creature.n}
+                width={600}
+                height={600}
+                style={{ width: "100%", height: "auto", display: "block" }}
+              />
+              {(isBulgasari(creature.id) || editorial) && (
+                <p style={{ padding: "10px 14px", fontSize: 12, color: "#b7aa99" }}>
+                  {{ ko: "창작적 재해석 이미지. 전승마다 모습이 다릅니다.", en: "An artistic interpretation. Appearance varies across traditions.", ja: "創作的なイメージ。姿は伝承によって異なります。", zh: "艺术化演绎；不同传说中的形态并不相同。" }[locale]}
+                </p>
+              )}
+            </div>
+          )}
 
           {/* In-depth article sections */}
           {KOREAN_GUIDE_CREATURE_IDS.includes(creature.id) && <div style={{ marginBottom: 24 }}><GuidePromoCard locale={locale} /></div>}

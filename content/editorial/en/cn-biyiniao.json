@@ -1,7 +1,7 @@
 {
   "id": "cn-biyiniao",
   "locale": "en",
-  "title": "Biyiniao: Chinese Birds That Can Only Fly Together",
+  "title": "Biyiniao: One-Winged Birds, Love Symbol and Flood Omen",
   "metaDescription": "Discover the Biyiniao, paired birds of Chinese myth: their one-winged Manman form, flood omen in the Shanhaijing, and meaning in Bai Juyi’s love poetry.",
   "description": "Biyiniao (比翼鳥) are paired birds in Chinese literature whose joined flight became an image of lasting attachment. The Shanhaijing connects them with the Manman, ducklike birds with one eye and one wing each that can fly only together; that passage also treats their appearance as a sign of great flooding.",
   "displayType": "Paired mythic birds",
@@ -37,10 +37,20 @@
     }
   ],
   "researchNote": "Reviewed the two cited Shanhaijing passages, their displayed commentary, and the closing vow in Bai Juyi’s poem directly in Chinese on Wikisource. The Erya reference is present in the Shanhaijing commentary but was not independently checked. English descriptions and story hooks are original summaries and fiction, not copied translations. The online transcriptions were not collated against manuscript images or a critical edition. A flood omen is not treated as evidence of deliberate weather control.",
-  "reviewedAt": "2026-10-20",
+  "reviewedAt": "2026-11-14",
   "relatedIds": [
     "cn-bifang",
     "cn-fenghuang",
     "cn-jingwei"
+  ],
+  "questions": [
+    {
+      "question": "Why must Biyiniao fly together?",
+      "answer": "The Manman passage describes one eye and one wing per bird, requiring a pair for flight."
+    },
+    {
+      "question": "Do Biyiniao symbolize love or disaster?",
+      "answer": "Bai Juyi’s poem uses joined-wing birds for enduring attachment, while the Shanhaijing’s Manman passage gives a flood omen. Context determines the meaning."
+    }
   ]
 }

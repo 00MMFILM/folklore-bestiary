@@ -1,0 +1,46 @@
+{
+  "id": "kr-eoduksini",
+  "locale": "en",
+  "title": "Eoduksini: Korea’s Darkness Figure, Names and Modern Retellings",
+  "metaDescription": "Eoduksini is a darkness figure familiar from modern Korean storytelling. Language guidance uses Eodukseoni; a modern performance links its size to the attention it receives.",
+  "description": "Eoduksini is a darkness figure familiar from modern Korean storytelling. Language guidance uses Eodukseoni; a modern performance links its size to the attention it receives.",
+  "displayType": "Figure associated with darkness",
+  "abilities": [],
+  "weaknesses": [],
+  "storyHooks": [
+    "A photographer earns a living by recording a growing shadow. When someone is trapped inside it, turning off the camera becomes a costly choice."
+  ],
+  "sections": {
+    "origin": "In a 2025 answer, the National Institute of Korean Language identifies 어둑서니 (Eodukseoni) as the standard form. It does not confirm the proposed etymology in the reader’s question.",
+    "legend": "The Asia Culture Center’s description of a children’s performance called Eoduksini presents a being that grows with attention and becomes smaller without it. This is a documented modern use of the motif.",
+    "variants": "A linguistic answer and a theatre synopsis answer different questions. Neither, by itself, verifies a claim that the creature was a guardian in the Goryeo period or that one method defeats it in every tradition.",
+    "culture": "When adapting the attention motif, identify the performance as a modern example. The Korean-language companion entry also discusses regional names and why a single bestiary category cannot settle every relationship between them."
+  },
+  "sources": [
+    {
+      "title": "National Institute of Korean Language — answer dated 21 February 2025",
+      "url": "https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=216&pageIndex=1&qna_seq=310530"
+    },
+    {
+      "title": "Asia Culture Center — online theatre programme",
+      "url": "https://www.acc.go.kr/main/board/board.do?PID=0701&action=Read&boardID=NOTICE&category=1&idx=2720&pageIndex=1&searchText=&searchType=all"
+    }
+  ],
+  "researchNote": "The sources establish language guidance and a modern performance, not an ancient origin narrative.",
+  "reviewedAt": "2026-11-14",
+  "relatedIds": [
+    "kr-geuseundae",
+    "kr-gumiho",
+    "kr-kongkong-gwishin-hopping-ghost"
+  ],
+  "questions": [
+    {
+      "question": "Are Eoduksini and Eodukseoni the same spelling?",
+      "answer": "No. Eoduksini reflects 어둑시니; the language institute’s answer gives 어둑서니 as the standard Korean form."
+    },
+    {
+      "question": "Is ignoring it an ancient rule?",
+      "answer": "This page verifies the attention motif in a modern performance description, not as a universal ancient rule."
+    }
+  ]
+}

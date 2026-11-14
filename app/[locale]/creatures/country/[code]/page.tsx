@@ -17,6 +17,11 @@ import EncounterPromoCard from "@/components/EncounterPromoCard";
 import GuidePromoCard from "@/components/GuidePromoCard";
 import WriterStudioPromo from "@/components/writer/WriterStudioPromo";
 
+import { getEditorialCountry } from "@/lib/editorial-countries";
+import { GrowthView, GrowthLink } from "@/components/GrowthAnalytics";
+import GrowthReadingLinks from "@/components/GrowthReadingLinks";
+import { GROWTH_CAMPAIGN_ID } from "@/lib/growth-campaign";
+
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://folklore-bestiary.vercel.app";
 
 // ─── SSG: 4 × 151 = 604 pages ───
@@ -39,9 +44,10 @@ export async function generateMetadata({
   if (!country) return { title: "Not Found" };
 
   const t = getDictionary(locale);
-  const creatures = getCreaturesByCountryCode(code);
+  const editorial = getEditorialCountry(code, locale);
+  const creatures = getCreaturesByCountryCode(code).filter(c => !editorial?.listedIds || editorial.listedIds.includes(c.id));
   const cName = getCountryName(country.name, locale);
-  const title = `${cName}${t["list.creaturesInCountry"]} (${creatures.length}${t["list.creatureCount"]})`;
+  const title = editorial?.title || `${cName}${t["list.creaturesInCountry"]} (${creatures.length}${t["list.creatureCount"]})`;
 
   const langAlternates: Record<string, string> = {};
   for (const l of LOCALES) {
@@ -50,20 +56,22 @@ export async function generateMetadata({
 
   return {
     title,
-    description:
+    description: editorial?.metaDescription || (
       locale === "ko"
         ? `${cName}의 전설 속 존재 ${creatures.length}종을 만나보세요.`
         : locale === "zh"
         ? `探索${cName}的${creatures.length}种传说生物。`
         : locale === "ja"
         ? `${cName}の伝説の存在${creatures.length}種をご覧ください。`
-        : `Discover ${creatures.length} legendary creatures from ${country.name}.`,
+        : `Discover ${creatures.length} legendary creatures from ${country.name}.`),
     openGraph: {
       type: "website",
       title,
+      description: editorial?.metaDescription,
       url: `${SITE_URL}/${locale}/creatures/country/${code}`,
       images: [{ url: "/og-default.png", width: 1200, height: 630 }],
     },
+    twitter: { card: "summary_large_image", title, description: editorial?.metaDescription, images: ["/og-default.png"] },
     alternates: {
       canonical: `${SITE_URL}/${locale}/creatures/country/${code}`,
       languages: langAlternates,
@@ -84,7 +92,8 @@ export default async function CountryPage({
   if (!country) notFound();
 
   const t = getDictionary(locale);
-  const creatures = getCreaturesByCountryCode(code);
+  const editorial = getEditorialCountry(code, locale);
+  const creatures = getCreaturesByCountryCode(code).filter(c => !editorial?.listedIds || editorial.listedIds.includes(c.id));
   const colors = getRegionColors(country.region);
   const regionSlug = regionToSlug(country.region);
   const countryName = getCountryName(country.name, locale);
@@ -111,7 +120,8 @@ export default async function CountryPage({
     {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
-      name: `${countryName}${t["list.creaturesInCountry"]}`,
+      name: editorial?.title || `${countryName}${t["list.creaturesInCountry"]}`,
+      ...(editorial ? { description: editorial.metaDescription, dateModified: editorial.reviewedAt, citation: editorial.sources.map(source => source.url) } : {}),
       url: `${SITE_URL}/${locale}/creatures/country/${code}`,
       inLanguage: locale,
       mainEntity: {
@@ -156,7 +166,7 @@ export default async function CountryPage({
               marginBottom: "8px",
             }}
           >
-            {countryName}
+            {editorial?.title || countryName}
           </h1>
           <p style={{ color: "#999", fontSize: "16px" }}>
             <Link
@@ -171,6 +181,26 @@ export default async function CountryPage({
           </p>
         </header>
 
+        {editorial && <section aria-label={locale === "ko" ? "처음 읽는 한국 설화" : "Start reading Jamaican folklore"} style={{ maxWidth: 800, lineHeight: 1.8, marginBottom: 32 }}>
+          <GrowthView page={`/${locale}/creatures/country/${code.toLowerCase()}`} campaign={GROWTH_CAMPAIGN_ID} />
+          <p style={{ fontSize: 18, color: "#ded6cc" }}>{editorial.intro}</p>
+          <ul style={{ paddingLeft: 20 }}>
+            {editorial.picks.map(pick => <li key={pick.id}>
+              <GrowthLink href={`/${locale}/creatures/${pick.id}`} page={`/${locale}/creatures/country/${code.toLowerCase()}`} campaign={GROWTH_CAMPAIGN_ID}>{pick.label}</GrowthLink>
+              {" — "}{pick.reason}
+            </li>)}
+          </ul>
+          {editorial.sections.map(section => <section key={section.title} style={{ marginTop: 24 }}>
+            <h2 style={{ fontSize: 20, color: colors.accent }}>{section.title}</h2><p>{section.text}</p>
+          </section>)}
+          {editorial.questions.map(item => <details key={item.question} style={{ margin: "16px 0" }}><summary style={{ cursor: "pointer", fontWeight: 600 }}>{item.question}</summary><p>{item.answer}</p></details>)}
+          <p style={{ color: "#bbb", fontSize: 14 }}>
+            {locale === "ko" ? "출처 · " : "Sources · "}
+            {editorial.sources.map((source, index) => <span key={source.url}>{index > 0 && " · "}<a href={source.url} target="_blank" rel="noopener noreferrer" style={{ color: "#cdbb9e" }}>{source.title}</a></span>)}
+            <span style={{ display: "block" }}>{locale === "ko" ? "확인일" : "Reviewed"}: {editorial.reviewedAt}</span>
+          </p>
+          <GrowthReadingLinks page={`/${locale}/creatures/country/${code.toLowerCase()}`} locale={locale} links={[]} />
+        </section>}
         {code.toLowerCase() === "kr" && (
           <div style={{ marginBottom: 24, display: "grid", gap: 12 }}>
             {locale === "ko" && <WriterStudioPromo />}
@@ -179,6 +209,7 @@ export default async function CountryPage({
           </div>
         )}
 
+        {editorial && <h2 style={{ fontSize: 24, marginBottom: 20 }}>{editorial.listTitle}</h2>}
         {/* Creature Grid */}
         <div
           style={{

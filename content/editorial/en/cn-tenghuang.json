@@ -1,7 +1,7 @@
 {
   "id": "cn-tenghuang",
   "locale": "en",
-  "title": "Tenghuang: The Chinese Divine Horse of Longevity",
+  "title": "Tenghuang: Divine Horse, Foxlike Mount and Longevity",
   "metaDescription": "Explore Tenghuang, the yellow divine horse linked with Chenghuang: its foxlike shape, horns, longevity legends, and differing accounts in Chinese texts.",
   "description": "Tenghuang (騰黃) is a divine mount associated with extraordinary longevity in Chinese literature. Some texts call it a horse, while a passage preserved in the Taiping Yulan describes a yellow, foxlike creature with two horns on its back and identifies Chenghuang as another name.",
   "displayType": "Divine mount",
@@ -35,10 +35,20 @@
     }
   ],
   "researchNote": "Reviewed the cited Chinese passages directly in Wikisource transcriptions. The summaries and story hooks are newly written; no modern English translation was copied. Tenghuang and Chenghuang are linked explicitly by the Taiping Yulan passage, but their descriptions and lifespan claims are kept separate. These online transcriptions were not checked against manuscript images or a modern critical edition. No specific weakness was established in the passages reviewed.",
-  "reviewedAt": "2026-10-20",
+  "reviewedAt": "2026-11-14",
   "relatedIds": [
     "cn-tianma",
     "cn-longma",
     "cn-qilin"
+  ],
+  "questions": [
+    {
+      "question": "Is Tenghuang a horse or a fox?",
+      "answer": "The texts differ. The Taiping Yulan calls it a divine horse while describing a foxlike body; the page keeps each account attached to its source."
+    },
+    {
+      "question": "Does riding it grant two thousand or three thousand years?",
+      "answer": "The Chenghuang passage in the Shanhaijing gives two thousand; the Taiping Yulan account gives three thousand. These are distinct literary claims."
+    }
   ]
 }
