@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Ipotane",
+ "sourceLang": "en",
+ "sourceChars": 1796,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Ipotane",
+ "generatedAt": "2026-11-14T12:25:15.074Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "아이포테인은 반인반마의 신화적 존재로, 일반적으로 센타우르스와는 다르게 묘사된다. 이들은 종종 그리스 신화에 속하는 것으로 여겨지지만, 실제로는 훨씬 나중에 등장한 용어로, 명확한 설명이 없다. 아이포테인은 14세기 존 드 만데빌의 여행기에서 처음 언급된다. 만데빌은 바카리아(박트리아)에서 발견된 폭력적인 아이포테인 종족에 대해 보고하였다. 이들은 때로는 물속에 살고, 때로는 육지에 살며, 반은 인간이고 반은 말로 이루어져 있고, 사람을 잡아먹는다고 전해진다.",
+   "variants": "",
+   "culture": "아이포테인은 현대 판타지 장르의 작품에서 등장하며, 다양한 말과 인간의 특징이 결합된 형태로 묘사된다. 이들은 센타우르스와 유사하지만, 그리스 및 로마 문헌에서는 언급되지 않는다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Aipotein is a mythological being that is half-human and half-horse, typically depicted differently from centaurs. They are often considered to belong to Greek mythology, but in reality, the term appeared much later and lacks a clear explanation. Aipotein is first mentioned in the 14th-century travelogue of John de Mandeville. Mandeville reported on a violent Aipotein tribe found in Bactria. They are said to sometimes live in water and sometimes on land, being half human and half horse, and are believed to eat people.",
+   "variants": "",
+   "culture": "Aipotein appears in modern fantasy genre works, depicted in various forms that combine characteristics of horses and humans. They are similar to centaurs, but are not mentioned in Greek and Roman literature."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "艾波泰因（Aipotein）是半人半马的神话存在，通常与凯瑟尔（Centaur）不同地被描绘。这些生物常常被认为属于希腊神话，但实际上是一个出现得更晚的术语，没有明确的解释。艾波泰因首次出现在14世纪约翰·德·曼德维尔（John de Mandeville）的旅行记中。曼德维尔报告了在巴卡里亚（巴克特里亚）发现的暴力艾波泰因种族。他们有时生活在水中，有时生活在陆地上，半人半马，并被传说会吃人。",
+   "variants": "",
+   "culture": "艾波泰因在现代奇幻作品中出现，通常被描绘为结合了各种马和人类特征的形态。他们与凯瑟尔相似，但在希腊和罗马文献中并未提及。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "アイポテインは半人半馬の神話的存在で、一般的にセンタウルスとは異なる描写がされる。彼らはしばしばギリシャ神話に属すると考えられているが、実際にはずっと後に登場した用語で、明確な説明はない。アイポテインは14世紀のジョン・ド・マンデビルの旅行記で初めて言及される。マンデビルはバカリア（バクトリア）で発見された暴力的なアイポテインの部族について報告した。彼らは時には水中に住み、時には陸上に住み、半分は人間で半分は馬で構成されており、人を捕まえて食べると伝えられている。",
+   "variants": "",
+   "culture": "アイポテインは現代ファンタジージャンルの作品に登場し、さまざまな馬と人間の特徴が結合された形で描かれる。彼らはセンタウルスに似ているが、ギリシャおよびローマの文献では言及されていない。"
+  }
+ }
+}

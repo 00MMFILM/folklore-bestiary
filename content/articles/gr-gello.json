@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Gello",
+ "sourceLang": "en",
+ "sourceChars": 20405,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Gello",
+ "generatedAt": "2026-11-14T12:24:46.564Z",
+ "locales": {
+  "ko": {
+   "origin": "Gello는 고대 메소포타미아의 악마인 Gallû에서 유래했을 가능성이 있으며, 이는 질병과 죽음을 가져오는 존재로 여겨졌다. 이 이론은 카를 프랑크에 의해 제안되었고, 마틴 리치필드 웨스트와 발터 부르크트 등의 지지를 받았다. 또한, 그리스 민속 어원학에서는 이 단어를 '조롱하다' 또는 '찡그리다'라는 의미의 gel- 뿌리와 연결짓고 있다.",
+   "legend": "그리스 신화에서 Gello는 여성 악마 또는 유령으로, 불임, 유산, 유아 사망을 초래하여 생식 주기를 위협하는 존재로 전해진다. 고대 신화에 따르면, Gello는 처녀로 죽은 젊은 여성으로, 다른 사람의 아이들에게 해를 끼치기 위해 유령으로 돌아온다고 한다. Gello는 특히 아이들에게 두려운 존재로 여겨졌으며, 6세기 BC부터 그 존재가 언급되었다.",
+   "variants": "Gyllou, Gylou, Gillo, Gelu와 같은 여러 변형 형태가 존재한다. 비잔틴 시대에는 Gello가 개별 존재가 아닌 존재의 유형으로 간주되었으며, gelloudes라는 복수형이 등장하였다. 이들은 7세기와 8세기에 요한 다마스쿠스에 의해 '마녀'와 동의어로 여겨졌다.",
+   "culture": "Gyllou는 현대 루시퍼리안 신앙의 주요 텍스트인 'The Bible of the Adversary'에서 리릴리트와 연관되어 있으며, 영원한 삶에 대한 욕망을 상징한다. Gello는 제시 D. 이커의 단편 소설 'The Name of the Demoness'의 주요 적으로 등장하며, 신생아를 훔치는 개 머리의 여성으로 묘사된다."
+  },
+  "en": {
+   "origin": "Gello may have originated from Gallû, a demon in ancient Mesopotamia, which was considered a being that brings disease and death. This theory was proposed by Karl Frank and supported by figures such as Martin Litchfield West and Walter Burkert. Additionally, in Greek folk etymology, the word is connected to the root gel-, meaning 'to mock' or 'to grimace.'",
+   "legend": "In Greek mythology, Gello is a female demon or ghost that is said to cause infertility, miscarriage, and infant death, threatening the reproductive cycle. According to ancient myths, Gello is described as a young woman who died a virgin and returned as a ghost to harm the children of others. Gello was particularly feared by children, and her existence has been mentioned since the 6th century BC.",
+   "variants": "There are several variant forms such as Gyllou, Gylou, Gillo, and Gelu. In the Byzantine era, Gello was considered a type of being rather than an individual entity, and the plural form gelloudes emerged. These were regarded as synonymous with 'witch' by John of Damascus in the 7th and 8th centuries.",
+   "culture": "Gyllou is associated with Lilith in 'The Bible of the Adversary,' a key text of modern Luciferian belief, symbolizing the desire for eternal life. Gello appears as the main antagonist in the short story 'The Name of the Demoness' by Jesse D. Icker, depicted as a woman with a dog’s head who steals newborns."
+  },
+  "zh": {
+   "origin": "Gello可能源于古代美索不达米亚的恶魔Gallû，据信是带来疾病和死亡的存在。这个理论是由卡尔·弗兰克（Karl Frank）提出的，并得到了马丁·里奇菲尔德·韦斯特（Martin Litchfield West）和瓦尔特·布尔克特（Walter Burkert）等人的支持。此外，在希腊民俗词源学中，这个词与意为“嘲弄”或“皱眉”的gel-词根相联系。",
+   "legend": "在希腊神话中，Gello是女性恶魔或幽灵，被传说为导致不孕、流产和婴儿死亡的存在，威胁生殖周期。根据古代神话，Gello是作为处女死去的年轻女性，化作幽灵回归以伤害他人的孩子。Gello被认为是特别令人恐惧的存在，自公元前6世纪起就有关于她的提及。",
+   "variants": "存在多种变体形式，如Gyllou、Gylou、Gillo、Gelu。在拜占庭时代，Gello被视为一种存在类型而非个体存在，出现了复数形式gelloudes。这些在7世纪和8世纪被约翰·大马士革（John of Damascus）视为与“女巫”同义。",
+   "culture": "Gyllou与现代路西法教信仰的主要文本《对手的圣经》（The Bible of the Adversary）中的莉莉丝（Lilith）相关联，象征着对永生的渴望。Gello在杰西·D·伊克（Jesse D. Icker）的短篇小说《女恶魔的名字》（The Name of the Demoness）中作为主要反派出现，被描绘为偷走新生儿的狗头女性。"
+  },
+  "ja": {
+   "origin": "Gelloは古代メソポタミアの悪魔Gallûに由来する可能性があり、これは病気と死をもたらす存在と見なされていた。この理論はカール・フランクによって提案され、マーティン・リッチフィールド・ウェストやヴァルター・ブルクトなどの支持を受けた。また、ギリシャ民俗語源学ではこの言葉を「嘲笑する」または「しかめる」という意味のgel-の語根と結びつけている。",
+   "legend": "ギリシャ神話においてGelloは女性の悪魔または幽霊で、不妊、流産、乳幼児死亡を引き起こし、生殖サイクルを脅かす存在として伝えられている。古代神話によれば、Gelloは処女として死んだ若い女性で、他の人の子供に害を及ぼすために幽霊として戻ってくると言われている。Gelloは特に子供たちにとって恐ろしい存在と見なされており、紀元前6世紀からその存在が言及されている。",
+   "variants": "Gyllou、Gylou、Gillo、Geluなどのさまざまな変形形態が存在する。ビザンチン時代にはGelloは個別の存在ではなく存在のタイプと見なされ、gelloudesという複数形が登場した。これらは7世紀と8世紀にヨハネス・ダマスケノスによって「魔女」と同義語と見なされた。",
+   "culture": "Gyllouは現代ルシファリアン信仰の主要なテキストである『The Bible of the Adversary』でリリスと関連付けられ、永遠の命への欲望を象徴している。Gelloはジェシー・D・イカーの短編小説『The Name of the Demoness』の主要な敵として登場し、新生児を盗む犬の頭を持つ女性として描かれている。"
+  }
+ }
+}

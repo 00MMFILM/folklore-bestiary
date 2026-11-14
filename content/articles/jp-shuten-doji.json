@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Shuten-dōji",
+ "sourceLang": "en",
+ "sourceChars": 20239,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Shuten-d%C5%8Dji",
+ "generatedAt": "2026-11-14T12:24:15.900Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "Shuten-dōji(酒呑童子)는 일본의 전설적인 오니(악마)로, 전설에 따르면 영웅 미나모토 노 라이코(源頼光)에 의해 처치되었다. 그의 본거지는 교토 북서쪽의 대오산(大江山) 또는 이부키산(伊吹山)으로 전해진다. 전설에 따르면, 라이코는 그의 부하들과 함께 대오산에 있는 술을 좋아하는 오니 왕인 슈텐도지의 성을 공격하여 그의 목을 베었다. 그러나 베어진 머리는 여전히 살아있어 라이코를 물어보려 했고, 라이코는 여러 개의 헬멧을 착용하여 이를 피했다.",
+   "variants": "슈텐도지 전설의 가장 오래된 기록은 14세기 대오산 그림책(大江山絵詞)에서 찾아볼 수 있으며, 이는 이츠오 미술관에 소장되어 있다. 이 전설은 후에 오토기조시(お伽草子)로 편입되어 널리 읽히게 되었고, 특히 시부카와 세이이몬 판본(약 1720년경)에서 목판 인쇄본으로 유통되었다. 대오산과 이부키산에 대한 다양한 지역적 변형이 존재하며, 이부키산에 위치한 슈텐도지의 성을 다룬 문헌도 있다.",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "Shuten-dōji (酒呑童子) is a legendary oni (demon) from Japan, and according to legend, he was defeated by the hero Minamoto no Raiko (源頼光). His stronghold is said to be located in Ōe Mountain (大江山) or Ibuki Mountain (伊吹山) in the northwest of Kyoto. According to the legend, Raiko, along with his retainers, attacked the castle of Shuten-dōji, the sake-loving oni king, in Ōe Mountain and beheaded him. However, the severed head remained alive and attempted to bite Raiko, who avoided it by wearing multiple helmets.",
+   "variants": "The oldest record of the Shuten-dōji legend can be found in the 14th-century Ōe Mountain Picture Book (大江山絵詞), which is housed in the Itsuo Art Museum. This legend was later incorporated into the Otogizōshi (お伽草子) and became widely read, particularly circulated in woodblock print editions of the Shibukawa Seiimon version (around 1720). There are various regional variations regarding Ōe Mountain and Ibuki Mountain, and there are also texts that deal with Shuten-dōji's castle located in Ibuki Mountain.",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "Shuten-dōji(酒吞童子)是日本的传说中的鬼(恶魔)，传说中被英雄源赖光(Minamoto no Raiko)所击败。他的根据地被传说为京都西北的太山(大江山)或伊吹山(伊吹山)。传说中，赖光和他的部下们攻击了太山上喜欢酒的鬼王Shuten-dōji的城堡，并斩下了他的头。然而，被斩下的头仍然活着，试图询问赖光，赖光则戴上多个头盔以躲避。",
+   "variants": "关于Shuten-dōji传说的最早记录可以在14世纪的太山绘本(大江山絵詞)中找到，该绘本现存于伊津尾美术馆。这一传说后来被编入了御伽草子(お伽草子)，广泛阅读，特别是在约1720年左右的涩川清右卫门版中以木版印刷本流通。关于太山和伊吹山的各种地方变体存在，也有文献涉及位于伊吹山的Shuten-dōji的城堡。",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "シュテン道士(Shuten-dōji)は日本の伝説的な鬼(おに)で、伝説によれば英雄源頼光(みなもとの よりみつ)によって討たれた。彼の本拠地は京都の北西にある大江山(おおえやま)または伊吹山(いぶきやま)と伝えられている。伝説によれば、頼光は彼の部下たちと共に大江山にいる酒を好む鬼の王シュテン道士の城を攻撃し、彼の首を切り落とした。しかし、切り落とされた頭はまだ生きていて頼光を噛もうとし、頼光は複数のヘルメットを着用してこれを避けた。",
+   "variants": "シュテン道士伝説の最も古い記録は14世紀の大江山絵詞(おおえやまえことば)に見られ、これはイツオ美術館に所蔵されている。この伝説は後にお伽草子(おとぎぞうし)に編入され広く読まれるようになり、特に渋川清衛門版(約1720年頃)で木版印刷本として流通した。大江山と伊吹山に関するさまざまな地域的変種が存在し、伊吹山に位置するシュテン道士の城を扱った文献もある。",
+   "culture": ""
+  }
+ }
+}

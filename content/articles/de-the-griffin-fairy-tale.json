@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "The Griffin (fairy tale)",
+ "sourceLang": "en",
+ "sourceChars": 4282,
+ "sourceUrl": "https://en.wikipedia.org/wiki/The%20Griffin%20(fairy%20tale)",
+ "generatedAt": "2026-11-14T12:24:59.088Z",
+ "locales": {
+  "ko": {
+   "origin": "이 이야기는 독일의 동화로, 형제 그림이 '그림 동화집'(KHM 165)에서 수집하였다. 이 이야기는 Aarne-Thompson 유형 610, 즉 '공주를 치료하는 과일'과 유형 461, '악마의 세 개의 머리카락'에 해당한다. 형제 그림은 이 이야기가 '세 개의 황금 머리카락을 가진 악마'와 유사하다고 언급하였다.",
+   "legend": "이야기는 한 왕의 딸이 병에 걸리고, 그녀를 치료하기 위해 사과를 먹어야 한다는 예언으로 시작된다. 왕은 그녀를 치료할 사과를 가져오는 사람과 결혼하겠다고 선언한다. 농부는 세 아들을 두고, 첫째 아들인 우엘이 사과 바구니를 들고 출발한다. 그러나 그는 철인과 만나 '개구리 다리'라고 대답하여 결국 바구니에 개구리 다리가 들어가게 된다. 둘째 아들인 세이메도 같은 운명을 겪고, 막내 아들 한스는 아버지의 허락을 받아 사과를 가져가게 된다. 그는 철인에게 사과가 들어있다고 말하고, 바구니에는 실제로 사과가 들어있어 공주가 치료된다. 그러나 왕은 그들이 결혼하기 위해서는 육지와 바다를 모두 건널 수 있는 배를 만들어야 한다고 요구한다.",
+   "variants": "",
+   "culture": "이 이야기는 짐 헨슨의 '스토리텔러'의 에피소드 '행운의 아이'에서 요소로 등장한다."
+  },
+  "en": {
+   "origin": "This story is a German fairy tale collected by the Brothers Grimm in 'Grimm's Fairy Tales' (KHM 165). This story corresponds to Aarne-Thompson type 610, 'The Fruit that Heals the Princess,' and type 461, 'The Devil's Three Hairs.' The Brothers Grimm noted that this story is similar to 'The Devil with Three Golden Hairs.'",
+   "legend": "The story begins with a princess of a king falling ill, and a prophecy states that she must eat an apple to be cured. The king declares that he will marry whoever brings the apple that can heal her. A farmer has three sons, and the eldest son, Uel, sets off with a basket of apples. However, he encounters an iron man and answers with 'frog legs,' which results in frog legs being placed in the basket. The second son, Seime, faces the same fate, and the youngest son, Hans, receives his father's permission to fetch the apple. He tells the iron man that there are apples in the basket, and indeed, the basket contains real apples, curing the princess. However, the king demands that they must build a ship capable of crossing both land and sea to marry.",
+   "variants": "",
+   "culture": "This story appears as an element in Jim Henson's 'The Storyteller' episode 'The Luck Child.'"
+  },
+  "zh": {
+   "origin": "这个故事是德国的童话，由格林兄弟在《格林童话集》(KHM 165)中收集。这个故事属于Aarne-Thompson类型610，即“治愈公主的水果”，以及类型461，“恶魔的三根头发”。格林兄弟提到这个故事与“拥有三根金发的恶魔”相似。",
+   "legend": "故事开始于一个国王的女儿生病了，预言她需要吃苹果才能治愈。国王宣布，谁能带来治愈她的苹果，谁就可以与她结婚。农夫有三个儿子，老大乌埃尔带着苹果篮出发。然而，他遇到了铁人，回答“青蛙腿”，最终篮子里放入了青蛙腿。二儿子塞伊梅也遭遇了同样的命运，最小的儿子汉斯在父亲的允许下去拿苹果。他告诉铁人篮子里有苹果，篮子里确实放着苹果，公主因此得以治愈。然而，国王要求他们必须造一艘能够跨越陆地和海洋的船才能结婚。",
+   "variants": "",
+   "culture": "这个故事在吉姆·汉森的《讲故事的人》的剧集“幸运的孩子”中出现过。"
+  },
+  "ja": {
+   "origin": "この物語はドイツの童話で、兄弟グリムが『グリム童話集』（KHM 165）で収集したものである。この物語はアーネ-トンプソンのタイプ610、すなわち『姫を治す果物』とタイプ461、『悪魔の三つの髪の毛』に該当する。兄弟グリムはこの物語が『三つの黄金の髪の毛を持つ悪魔』に類似していると述べている。",
+   "legend": "物語はある王の娘が病気になり、彼女を治すためにリンゴを食べなければならないという予言から始まる。王は彼女を治すリンゴを持ってくる者と結婚すると宣言する。農夫は三人の息子を持ち、長男のウエルがリンゴのバスケットを持って出発する。しかし、彼は鉄人に出会い、『カエルの足』と答えたため、結局バスケットにはカエルの足が入ることになる。次男のセイメも同じ運命を経験し、末っ子のハンスは父の許可を得てリンゴを持って行くことになる。彼は鉄人にリンゴが入っていると言い、バスケットには実際にリンゴが入っていて、姫は治る。しかし、王は彼らが結婚するためには陸と海をすべて渡れる船を作る必要があると要求する。",
+   "variants": "",
+   "culture": "この物語はジム・ヘンソンの『ストーリーテラー』のエピソード『幸運の子』に要素として登場する。"
+  }
+ }
+}
