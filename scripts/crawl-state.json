@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 65,
+  "lastCategoryIndex": 68,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7852,7 +7852,27 @@
     20224043,
     4808495,
     81846190,
-    62608152
+    62608152,
+    40746144,
+    80467441,
+    9363023,
+    33135512,
+    37196916,
+    19839221,
+    6111753,
+    27796919,
+    33355795,
+    26170677,
+    9153028,
+    52784038,
+    77257609,
+    7713618,
+    1526104,
+    52702007,
+    46938471,
+    52689662,
+    24596970,
+    74826683
   ],
   "discoveredCategories": [
     {
@@ -25478,10 +25498,26 @@
       "label": "Children's books based on fairy tales",
       "discoveredFrom": "The Frog Princess (novel)",
       "discoveredAt": 697
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Books about Greek mythology",
+      "iso": "GR",
+      "label": "Books about Greek mythology",
+      "discoveredFrom": "The Lightning Thief",
+      "discoveredAt": 698
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Novels based on fairy tales",
+      "iso": "_MULTI",
+      "label": "Novels based on fairy tales",
+      "discoveredFrom": "The Castle of Tangled Magic",
+      "discoveredAt": 698
     }
   ],
-  "totalAdded": 4392,
-  "runs": 698,
-  "lastRun": "2026-11-15T03:56:26.146Z",
-  "lastDiscoveredIndex": 849
+  "totalAdded": 4393,
+  "runs": 699,
+  "lastRun": "2026-11-15T13:11:53.953Z",
+  "lastDiscoveredIndex": 852
 }
