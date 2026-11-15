@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Space Pen",
+ "sourceLang": "en",
+ "sourceChars": 5177,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Space%20Pen",
+ "generatedAt": "2026-11-15T12:54:24.862Z",
+ "locales": {
+  "ko": {
+   "origin": "Space Pen은 오스트리아의 프리드리히 쉐흐터(Friedrich Schächter)에 의해 창조되었고, 에르빈 라트(Erwin Rath)에 의해 확장되었습니다. 폴 C. 피셔(Paul C. Fisher)는 '시소트로픽 특수 잉크'를 발명했습니다. 이 펜은 네바다주 볼더 시티에서 제조됩니다. 폴 C. 피셔는 1965년에 AG7 '반중력' 펜에 대한 특허를 처음으로 등록했습니다.",
+   "legend": "Space Pen은 제로 중력에서, 물속에서, 젖거나 기름진 종이 위에서도, 어떤 각도(거꾸로 포함)에서도 쓸 수 있는 압력 잉크 카트리지를 사용하는 펜입니다.",
+   "variants": "",
+   "culture": "코미디 TV 쇼 'Seinfeld'의 시즌 3 20번째 에피소드 'The Pen'에서 Space Pen이 주요 플롯 포인트로 등장합니다. 2009년 볼리우드 영화 '3 Idiots'에서도 Space Pen이 등장하며, 공학 대학의 교수가 학생들에게 소개합니다. 이 펜은 TV 쇼 'Mad Men', 'Gilmore Girls', 'How It’s Made'에서도 나타납니다. 2004년 영화 'Primer'에서도 언급되며, 소련의 일반 연필 사용과 대조됩니다."
+  },
+  "en": {
+   "origin": "The Space Pen was created by Friedrich Schächter in Austria and expanded by Erwin Rath. Paul C. Fisher invented the 'thixotropic special ink'. This pen is manufactured in Boulder City, Nevada. Paul C. Fisher first registered a patent for the AG7 'anti-gravity' pen in 1965.",
+   "legend": "The Space Pen is a pen that uses a pressurized ink cartridge that can write in zero gravity, underwater, on wet or greasy paper, and at any angle (including upside down).",
+   "variants": "",
+   "culture": "The Space Pen is a major plot point in the 20th episode of season 3 of the comedy TV show 'Seinfeld' titled 'The Pen'. It also appears in the 2009 Bollywood film '3 Idiots', where a professor from an engineering college introduces it to students. This pen is featured in the TV shows 'Mad Men', 'Gilmore Girls', and 'How It’s Made'. It is also mentioned in the 2004 film 'Primer', contrasting with the use of regular pencils in the Soviet Union."
+  },
+  "zh": {
+   "origin": "Space Pen是由奥地利的弗里德里希·谢赫特(Friedrich Schächter)创造的，并由埃尔温·拉特(Erwin Rath)扩展。保罗·C·费舍尔(Paul C. Fisher)发明了“剪切各向异性特种墨水”。这支笔在内华达州的博尔德城制造。保罗·C·费舍尔于1965年首次注册了AG7“反重力”笔的专利。",
+   "legend": "Space Pen是一种使用压力墨水墨盒的笔，可以在零重力、水中、潮湿或油腻的纸张上，以及任何角度（包括倒置）书写。",
+   "variants": "",
+   "culture": "喜剧电视节目《宋飞正传(Seinfeld)》的第三季第20集《笔(The Pen)》中，Space Pen作为主要情节出现。2009年宝莱坞电影《三傻大闹宝莱坞(3 Idiots)》中也出现了Space Pen，工程学院的教授向学生们介绍了这支笔。这支笔还出现在电视节目《广告狂人(Mad Men)》、《吉尔莫女孩(Gilmore Girls)》、《如何制作(How It’s Made)》中。2004年电影《初学者(Primer)》中也提到过，与苏联普遍使用铅笔形成对比。"
+  },
+  "ja": {
+   "origin": "Space Penはオーストリアのフリードリヒ・シェヒター(Friedrich Schächter)によって創造され、エルヴィン・ラート(Erwin Rath)によって拡張されました。ポール・C・フィッシャー(Paul C. Fisher)は『シソトロピック特別インク』を発明しました。このペンはネバダ州ボルダーシティで製造されています。ポール・C・フィッシャーは1965年にAG7『反重力』ペンに関する特許を最初に登録しました。",
+   "legend": "Space Penはゼロ重力下で、水中で、濡れたまたは油っぽい紙の上でも、どんな角度（逆さを含む）でも書ける圧力インクカートリッジを使用するペンです。",
+   "variants": "",
+   "culture": "コメディTVショー『セインフェルド』のシーズン3第20エピソード『ザ・ペン』でSpace Penが主要なプロットポイントとして登場します。2009年のボリウッド映画『3 Idiots』でもSpace Penが登場し、工学大学の教授が学生たちに紹介します。このペンはTVショー『マッドメン』、『ギルモア・ガールズ』、『ハウ・イット・ズ・メイド』にも登場します。2004年の映画『プライマー』でも言及され、ソ連の一般鉛筆使用と対照されます。"
+  }
+ }
+}
