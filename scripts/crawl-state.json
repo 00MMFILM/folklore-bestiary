@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 68,
+  "lastCategoryIndex": 71,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7872,7 +7872,33 @@
     46938471,
     52689662,
     24596970,
-    74826683
+    74826683,
+    6288234,
+    2043354,
+    1251943,
+    8833657,
+    71669333,
+    12839820,
+    34168325,
+    19742511,
+    506685,
+    34445482,
+    514384,
+    74883565,
+    31830157,
+    76916634,
+    76815823,
+    76748764,
+    67158347,
+    15112437,
+    76199497,
+    1571082,
+    6106572,
+    65251008,
+    3041816,
+    47457882,
+    71718587,
+    1349037
   ],
   "discoveredCategories": [
     {
@@ -25514,10 +25540,90 @@
       "label": "Novels based on fairy tales",
       "discoveredFrom": "The Castle of Tangled Magic",
       "discoveredAt": 698
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Image Comics male superheroes",
+      "iso": "_MULTI",
+      "label": "Image Comics male superheroes",
+      "discoveredFrom": "Cogliostro",
+      "discoveredAt": 699
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythology in comics",
+      "iso": "_MULTI",
+      "label": "Mythology in comics",
+      "discoveredFrom": "Cogliostro",
+      "discoveredAt": 699
+    },
+    {
+      "lang": "en",
+      "cat": "Category:American superheroes",
+      "iso": "US",
+      "label": "American superheroes",
+      "discoveredFrom": "Faust (comics)",
+      "discoveredAt": 699
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Superhero comics",
+      "iso": "_MULTI",
+      "label": "Superhero comics",
+      "discoveredFrom": "Faust (comics)",
+      "discoveredAt": 699
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Superhero horror comics",
+      "iso": "_MULTI",
+      "label": "Superhero horror comics",
+      "discoveredFrom": "Faust (comics)",
+      "discoveredAt": 699
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Comics superheroes",
+      "iso": "_MULTI",
+      "label": "Comics superheroes",
+      "discoveredFrom": "Hellboy",
+      "discoveredAt": 699
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Dark Horse Comics superheroes",
+      "iso": "_MULTI",
+      "label": "Dark Horse Comics superheroes",
+      "discoveredFrom": "Hellboy",
+      "discoveredAt": 699
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Rosario + Vampire characters",
+      "iso": "_MULTI",
+      "label": "Rosario + Vampire characters",
+      "discoveredFrom": "Moka Akashiya",
+      "discoveredAt": 699
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Vampire characters in comics",
+      "iso": "_MULTI",
+      "label": "Vampire characters in comics",
+      "discoveredFrom": "Moka Akashiya",
+      "discoveredAt": 699
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Ghost characters in video games",
+      "iso": "_MULTI",
+      "label": "Ghost characters in video games",
+      "discoveredFrom": "Jibanyan",
+      "discoveredAt": 699
     }
   ],
-  "totalAdded": 4393,
-  "runs": 699,
-  "lastRun": "2026-11-15T13:11:53.953Z",
-  "lastDiscoveredIndex": 852
+  "totalAdded": 4395,
+  "runs": 700,
+  "lastRun": "2026-11-15T22:18:17.973Z",
+  "lastDiscoveredIndex": 855
 }
