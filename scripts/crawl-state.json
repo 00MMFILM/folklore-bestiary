@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 62,
+  "lastCategoryIndex": 65,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7823,7 +7823,36 @@
     69311163,
     20326758,
     3224395,
-    25017875
+    25017875,
+    22227349,
+    231716,
+    2015899,
+    47571079,
+    647531,
+    6458438,
+    71922764,
+    1149427,
+    3249201,
+    74734737,
+    7812244,
+    2674646,
+    58383944,
+    23865562,
+    78799,
+    20939542,
+    22597255,
+    6479803,
+    20047402,
+    44029022,
+    44030484,
+    36900960,
+    65856110,
+    30685,
+    81820358,
+    20224043,
+    4808495,
+    81846190,
+    62608152
   ],
   "discoveredCategories": [
     {
@@ -25409,10 +25438,50 @@
       "label": "Blood: The Last Vampire",
       "discoveredFrom": "Saya Kisaragi",
       "discoveredAt": 696
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Novels about legendary creatures",
+      "iso": "_MULTI",
+      "label": "Novels about legendary creatures",
+      "discoveredFrom": "Dragon Rider (novel)",
+      "discoveredAt": 697
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Picture books based on fairy tales",
+      "iso": "_MULTI",
+      "label": "Picture books based on fairy tales",
+      "discoveredFrom": "Firebird (Pirotta picture book)",
+      "discoveredAt": 697
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Novels about witches and witchcraft",
+      "iso": "_MULTI",
+      "label": "Novels about witches and witchcraft",
+      "discoveredFrom": "Cemetery Boys",
+      "discoveredAt": 697
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Novels about demons",
+      "iso": "_MULTI",
+      "label": "Novels about demons",
+      "discoveredFrom": "The Fearsome Inn",
+      "discoveredAt": 697
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Children's books based on fairy tales",
+      "iso": "_MULTI",
+      "label": "Children's books based on fairy tales",
+      "discoveredFrom": "The Frog Princess (novel)",
+      "discoveredAt": 697
     }
   ],
   "totalAdded": 4392,
-  "runs": 697,
-  "lastRun": "2026-11-14T21:50:10.445Z",
-  "lastDiscoveredIndex": 846
+  "runs": 698,
+  "lastRun": "2026-11-15T03:56:26.146Z",
+  "lastDiscoveredIndex": 849
 }
