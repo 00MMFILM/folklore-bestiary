@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Stuha",
+ "sourceLang": "en",
+ "sourceChars": 5574,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Stuha",
+ "generatedAt": "2026-11-16T13:54:39.336Z",
+ "locales": {
+  "ko": {
+   "origin": "STUHA(학생운동의 약어)는 체코슬로바키아 공산 정권의 마지막 단계에서 독립적인 학생 운동으로 형성되었다. 이 운동은 1989년 가을 초에 프라하의 학생들에 의해 결성되었으며, 대학생들을 동원하는 촉매제가 되어 1989년 11월 17일 알베르토프에서의 시위와 행진으로 이어졌다. 이는 벨벳 혁명의 시작을 알리는 사건이었다.",
+   "legend": "STUHA 운동은 1989년 여름, 특히 9월 28일에 기술학교의 동창생들인 마렉 벤다와 지리 디엔스트비어 주니어의 주도로 결성되었다. 이 운동의 목표는 공산 정권에서의 눈에 띄는 민주적 변화를 촉구하는 것이었다. 시위가 진행되면서 정권이 붕괴하고 새로운 문제와 주제가 등장하면서 STUHA의 활동은 점차 중요성을 잃고 1990년 초에 중단되었다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "STUHA (Student Movement Abbreviation) was formed as an independent student movement during the final stages of the Czechoslovak communist regime. This movement was established by students in Prague in early autumn of 1989 and became a catalyst for mobilizing university students, leading to the protests and marches on November 17, 1989, in Albertov. This event marked the beginning of the Velvet Revolution.",
+   "legend": "The STUHA movement was formed in the summer of 1989, particularly on September 28, under the leadership of Marek Benda and Jiří Dienstbier Jr., who were alumni of a technical school. The goal of this movement was to urge significant democratic changes under the communist regime. As protests progressed and the regime collapsed, new issues and topics emerged, causing STUHA's activities to gradually lose importance and come to a halt in early 1990.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "STUHA（学生运动的缩写）是在捷克斯洛伐克共产政权的最后阶段形成的独立学生运动。该运动于1989年秋季初由布拉格的学生们成立，成为动员大学生的催化剂，导致1989年11月17日在阿尔贝尔托夫的示威和游行。这是天鹅绒革命开始的标志性事件。",
+   "legend": "STUHA运动是在1989年夏季，特别是9月28日，由技术学校的校友马雷克·本达（Marek Benda）和吉里·迪恩斯特维尔（Jiří Dienstbier）主导成立的。该运动的目标是呼吁在共产政权下实现显著的民主变革。随着示威的进行，政权崩溃，新问题和主题的出现使STUHA的活动逐渐失去重要性，并在1990年初停止。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "STUHA（学生運動の略称）は、チェコスロバキア共産政権の最後の段階で独立した学生運動として形成された。この運動は1989年秋の初めにプラハの学生たちによって結成され、大学生を動員する触媒となり、1989年11月17日のアルベルトフでのデモと行進につながった。これはベルベット革命の始まりを告げる出来事であった。",
+   "legend": "STUHA運動は1989年夏、特に9月28日に技術学校の同窓生であるマレク・ベンダ（Marek Benda）とジリ・ディエンストビア・ジュニア（Jiří Dienstbier Jr.）の主導で結成された。この運動の目標は共産政権下での目に見える民主的変化を促すことであった。デモが進行するにつれて政権が崩壊し、新たな問題やテーマが登場する中でSTUHAの活動は次第に重要性を失い、1990年初頭に中断された。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

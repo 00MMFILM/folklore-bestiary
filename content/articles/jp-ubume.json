@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Ubume",
+ "sourceLang": "en",
+ "sourceChars": 16600,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Ubume",
+ "generatedAt": "2026-11-16T13:54:19.208Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "우부메(産女)는 일본의 요괴로, 출산 중에 사망한 여성의 유령을 의미한다. 그녀는 일반적으로 아이를 안고 있는 평범한 여성의 모습으로 나타나며, 지나가는 사람에게 자신의 아이를 맡기려 한다. 그러나 아이를 받아들인 사람은 결국 그것이 나뭇잎이나 큰 돌이라는 것을 발견하게 된다. 전통적으로 우부메는 출산 중 사망한 어머니의 영혼으로 설명되며, 그녀는 종종 피로 젖어 있는 모습으로 묘사된다. 우부메는 다른 사람의 아기를 빼앗으려 하거나, 자신이 낳은 아기를 위해 음식을 찾는 것으로도 알려져 있다.",
+   "variants": "",
+   "culture": "우부메는 현대 대중문화에서도 다양한 형태로 재현되고 있다. 예를 들어, 나츠히코 쿄고쿠의 베스트셀러 추리 소설 '우부메의 여름'은 우부메 전설을 중심 주제로 삼고 있으며, 이 작품은 2005년에 주요 영화로 제작되었다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Ubume (産女) is a yokai from Japan, representing the ghost of a woman who died during childbirth. She typically appears as an ordinary woman holding a child and attempts to entrust her child to passersby. However, those who accept the child ultimately discover that it is actually a leaf or a large stone. Traditionally, Ubume is explained as the spirit of a mother who died during childbirth, and she is often depicted as being covered in blood. Ubume is also known for trying to take other people's babies or searching for food for her own child.",
+   "variants": "",
+   "culture": "Ubume is represented in various forms in modern popular culture. For example, Natsuhiko Kyogoku's bestselling mystery novel 'Ubume no Natsu' centers around the Ubume legend, and this work was adapted into a major film in 2005."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "乌布梅（Ubumē）是日本的妖怪，意指在分娩中死亡女性的幽灵。她通常以抱着孩子的普通女性的形象出现，并试图将自己的孩子托付给路过的人。然而，接受孩子的人最终会发现那只是树叶或大石头。传统上，乌布梅被解释为在分娩中死亡的母亲的灵魂，她常常被描绘成浑身沾满血迹的样子。乌布梅还以试图夺走他人的婴儿或为自己所生的婴儿寻找食物而闻名。",
+   "variants": "",
+   "culture": "乌布梅在现代大众文化中也以各种形式被再现。例如，夏彦京极的畅销推理小说《乌布梅的夏天》以乌布梅传说为中心主题，该作品于2005年被改编为主要电影。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ウブメ（産女）は日本の妖怪で、出産中に死亡した女性の幽霊を意味する。彼女は一般的に子供を抱えた普通の女性の姿で現れ、通りすがりの人に自分の子供を預けようとする。しかし、子供を受け取った人は結局それが葉っぱや大きな石であることを発見する。伝統的にウブメは出産中に死亡した母親の魂として説明され、彼女はしばしば血に濡れた姿で描かれる。ウブメは他の人の赤ちゃんを奪おうとしたり、自分が産んだ赤ちゃんのために食べ物を探すことでも知られている。",
+   "variants": "",
+   "culture": "ウブメは現代の大衆文化でも様々な形で再現されている。例えば、夏彦京極のベストセラー推理小説『ウブメの夏』はウブメ伝説を中心テーマとしており、この作品は2005年に主要映画として制作された。"
+  }
+ }
+}

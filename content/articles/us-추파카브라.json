@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "추파카브라",
+ "sourceLang": "ko",
+ "sourceChars": 1900,
+ "sourceUrl": "https://ko.wikipedia.org/wiki/%EC%B6%94%ED%8C%8C%EC%B9%B4%EB%B8%8C%EB%9D%BC",
+ "generatedAt": "2026-11-16T13:54:17.286Z",
+ "locales": {
+  "ko": {
+   "origin": "추파카브라는 1995년경에 처음으로 그 존재가 보고되었다. 이 생물은 아메리카 대륙에 산다고 전해지며, 북으로는 미국의 메인주, 남으로는 칠레까지 다양한 지역에서 출몰이 보고되고 있다.",
+   "legend": "추파카브라는 주로 가축들, 특히 염소를 습격하고 그 피를 빨아들인다고 한다. 이 생물의 외양은 매우 다양하게 묘사되며, 신장은 약 1미터에서 1.8미터 정도로 알려져 있다. 전신이 털로 덮여 있고, 붉은 큰 눈과 송곳니가 있으며, 등에는 가시가 있다. 직립보행이 가능하고, 캥거루처럼 뛰어다니며, 25미터의 점프력을 가진다고 전해진다. 또한, 날개가 있다는 증언도 존재한다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "The Chupacabra was first reported around 1995. This creature is said to inhabit the Americas, with sightings reported in various regions from northern Maine in the United States to southern Chile.",
+   "legend": "The Chupacabra is said to primarily attack livestock, especially goats, and suck their blood. The appearance of this creature is described in many different ways, and it is known to be about 1 meter to 1.8 meters tall. Its body is covered in fur, it has large red eyes and fangs, and it has spines on its back. It is said to be capable of bipedal movement, can jump like a kangaroo, and has a jumping ability of up to 25 meters. Additionally, there are testimonies that it has wings.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "楚帕卡布拉（Chupacabra）最早于1995年被报道存在。传说这种生物生活在美洲大陆，北至美国的缅因州，南至智利，多个地区都有目击报告。",
+   "legend": "楚帕卡布拉主要袭击家畜，尤其是山羊，并吸食它们的血。关于这种生物的外形描述非常多样，已知身高约为1米到1.8米。全身覆盖着毛发，拥有红色的大眼睛和尖牙，背上有刺。它能够直立行走，像袋鼠一样跳跃，传说其跳跃能力可达25米。此外，还有证据表明它可能有翅膀。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "チュパカブラは1995年頃に初めてその存在が報告された。この生物はアメリカ大陸に生息するとされており、北はアメリカのメイン州、南はチリまで様々な地域で目撃されている。",
+   "legend": "チュパカブラは主に家畜、特にヤギを襲い、その血を吸うと言われている。この生物の外見は非常に多様に描写されており、身長は約1メートルから1.8メートル程度と知られている。全身が毛で覆われており、赤い大きな目と犬歯があり、背中には棘がある。直立歩行が可能で、カンガルーのように跳び、25メートルのジャンプ力を持つと言われている。また、翼があるという証言も存在する。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

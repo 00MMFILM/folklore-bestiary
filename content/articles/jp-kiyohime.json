@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "도조지 설화",
+ "sourceLang": "ko",
+ "sourceChars": 5927,
+ "sourceUrl": "https://ko.wikipedia.org/wiki/%EB%8F%84%EC%A1%B0%EC%A7%80%20%EC%84%A4%ED%99%94",
+ "generatedAt": "2026-11-16T13:54:41.381Z",
+ "locales": {
+  "ko": {
+   "origin": "도조지 설화는 일본 기슈 지방에 전해오는 설화로, 기요히메와 승려 안친의 이야기이다. 이 설화는 헤이안 시대에 쓰여진 《대일본국법화험기》와 《곤자쿠 이야기집》 등에서 찾아볼 수 있으며, 더 거슬러 올라가면 《고지키》의 호무치와케노미코 설화와 관련이 있다.",
+   "legend": "기요히메는 승려 안친을 흠모하였으나 배신당하게 되고, 그로 인해 증오가 커져 뱀으로 변하게 된다. 기요히메는 도조지의 종에 숨은 안친을 찾아내어 그와 종을 태워 죽이는 이야기가 전해진다. 기요히메는 뱀의 모습으로 안친을 쫓아가며, 결국 안친은 도조지에서 불에 타 죽게 된다. 이후 기요히메는 뱀의 모습으로 자살하게 된다.",
+   "variants": "《곤쟈쿠 이야기집》에서는 '안친'과 '기요히메'라는 이름 대신 '승려'와 '여인'으로 등장하며, 젊은 승려와 함께 늙은 승려도 등장한다. 또한, 기요히메는 젊은 과부로 묘사되며, 슬픔에 잠겨 죽는 이야기로 변형된다. 《도조지연기 회권》에서는 기요히메가 기요지의 딸이 아닌 며느리로 등장하고, 안친의 이름도 다르게 언급된다. 기요히메의 어머니가 흰 뱀의 정령이라는 전설도 있다.",
+   "culture": "도조지 설화는 예술의 소재로 폭넓게 이용되었으며, 여러 형태의 공연 예술에서 다루어졌다. 노, 나가우타, 가부키 등 다양한 장르에서 기요히메의 원한 이야기가 전개되었다. 일본화가 고바야시 고케이가 이 설화를 소재로 한 회화를 제작하기도 하였다."
+  },
+  "en": {
+   "origin": "The Dojoji legend is a folktale passed down in the Kishu region of Japan, telling the story of Kiyohime and the monk Anchin. This legend can be found in works written during the Heian period, such as the 'Dai Nippon Koku Hōbaku Henki' and 'Konjaku Monogatari Shu', and if we trace back further, it is related to the Homuchiwake no Mikoto tale in the 'Nihon Shoki'.",
+   "legend": "Kiyohime admired the monk Anchin but was betrayed, which caused her hatred to grow and transform her into a serpent. The story tells how Kiyohime finds Anchin, who is hiding in the bell of Dojoji, and burns him along with the bell. Kiyohime, in the form of a serpent, chases Anchin, and ultimately, Anchin dies in flames at Dojoji. Afterward, Kiyohime commits suicide in the form of a serpent.",
+   "variants": "In the 'Konjaku Monogatari Shu', instead of the names 'Anchin' and 'Kiyohime', they are referred to as 'the monk' and 'the woman', and both a young monk and an old monk appear. Additionally, Kiyohime is depicted as a young widow, and the story is transformed into one where she dies in sorrow. In the 'Dojoji Engi Kaiken', Kiyohime is introduced as the daughter-in-law rather than the daughter of Kiyoji, and Anchin's name is mentioned differently. There is also a legend that Kiyohime's mother is the spirit of a white serpent.",
+   "culture": "The Dojoji legend has been widely used as a subject in art and has been addressed in various forms of performing arts. The tale of Kiyohime's vengeance has been developed in various genres such as Noh, Nagauta, and Kabuki. The Japanese painter Kobayashi Kokei also created paintings based on this legend."
+  },
+  "zh": {
+   "origin": "道藏寺传说是日本纪州地方流传的传说，讲述了清姬（Kiyohime）和僧侣安珍（Anchin）的故事。这个传说可以在平安时代写成的《大日本国法华验记》和《今昔物语集》等书中找到，追溯更早则与《古事记》的保牟治和气之美子（Homuchiwakenomiko）传说有关。",
+   "legend": "清姬爱慕僧侣安珍，但被背叛，因此仇恨加深，变成了蛇。清姬找到藏在道藏寺的安珍，并将他和寺庙一起烧死的故事流传下来。清姬以蛇的形态追赶安珍，最终安珍在道藏寺被火烧死。之后，清姬以蛇的形态自杀。",
+   "variants": "《今昔物语集》中，安珍和清姬的名字被替换为“僧侣”和“女人”，并且出现了年轻僧侣和年老僧侣。此外，清姬被描绘为年轻的寡妇，故事变成了沉浸在悲伤中而死的情节。《道藏寺缘起会权》中，清姬被描绘为清治的儿媳，而安珍的名字也被不同地提及。还有传说称清姬的母亲是白蛇的精灵。",
+   "culture": "道藏寺传说广泛被用作艺术素材，并在多种形式的表演艺术中被处理。能乐、长歌、歌舞伎等各种类型中，清姬的怨恨故事得以展开。日本画家小林古径（Kobayashi Kokei）也创作了以这个传说为题材的绘画。"
+  },
+  "ja": {
+   "origin": "道成寺の伝説は日本の紀州地方に伝わる伝説で、清姫（きよひめ）と僧侶安珍（あんちん）の物語である。この伝説は平安時代に書かれた《大日本国法華験記》や《今昔物語集》などに見られ、さらに遡ると《古事記》の保牟知和気の神話に関連している。",
+   "legend": "清姫は僧侶安珍を慕っていたが裏切られ、そのために憎しみが増し蛇に変わる。清姫は道成寺の鐘に隠れた安珍を見つけ出し、彼と鐘を焼き殺す話が伝わる。清姫は蛇の姿で安珍を追い、最終的に安珍は道成寺で火に焼かれて死ぬ。その後、清姫は蛇の姿で自殺する。",
+   "variants": "《今昔物語集》では「安珍」と「清姫」という名前の代わりに「僧侶」と「女」として登場し、若い僧侶と共に年老いた僧侶も登場する。また、清姫は若い未亡人として描かれ、悲しみに沈んで死ぬ話に変形される。《道成寺縁起会巻》では清姫が清水の娘ではなく嫁として登場し、安珍の名前も異なって言及される。清姫の母が白蛇の精霊であるという伝説もある。",
+   "culture": "道成寺の伝説は芸術の素材として広く利用され、さまざまな形の舞台芸術で扱われた。能、長歌、歌舞伎など多様なジャンルで清姫の怨恨の物語が展開された。日本画家小林古径がこの伝説を題材にした絵画を制作したこともある。"
+  }
+ }
+}

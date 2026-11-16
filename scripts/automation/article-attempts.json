@@ -598,5 +598,155 @@
     "status": "generated",
     "at": "2026-11-15T12:54:40.153Z",
     "retryAfter": "2026-11-16T12:54:40.153Z"
+  },
+  "fi-vetehinen": {
+    "status": "thin",
+    "at": "2026-11-16T13:54:07.935Z",
+    "retryAfter": "2026-11-23T13:54:07.935Z"
+  },
+  "ec-tunda": {
+    "status": "thin",
+    "at": "2026-11-16T13:54:09.393Z",
+    "retryAfter": "2026-11-23T13:54:09.393Z"
+  },
+  "kr-mudugwi": {
+    "status": "no_source",
+    "at": "2026-11-16T13:54:10.127Z",
+    "retryAfter": "2026-11-23T13:54:10.127Z"
+  },
+  "dk-mare": {
+    "status": "rejected",
+    "at": "2026-11-16T13:54:12.820Z",
+    "retryAfter": "2026-11-23T13:54:12.820Z"
+  },
+  "rw-ikimanuka": {
+    "status": "no_source",
+    "at": "2026-11-16T13:54:13.554Z",
+    "retryAfter": "2026-11-23T13:54:13.554Z"
+  },
+  "us-추파카브라": {
+    "status": "generated",
+    "at": "2026-11-16T13:54:17.286Z",
+    "retryAfter": "2026-11-17T13:54:17.286Z"
+  },
+  "mv-fanditha": {
+    "status": "no_source",
+    "at": "2026-11-16T13:54:18.008Z",
+    "retryAfter": "2026-11-23T13:54:18.008Z"
+  },
+  "ug-abazimu": {
+    "status": "no_source",
+    "at": "2026-11-16T13:54:18.707Z",
+    "retryAfter": "2026-11-23T13:54:18.707Z"
+  },
+  "jp-ubume": {
+    "status": "generated",
+    "at": "2026-11-16T13:54:19.208Z",
+    "retryAfter": "2026-11-17T13:54:19.208Z"
+  },
+  "ni-chancha-bruja": {
+    "status": "no_source",
+    "at": "2026-11-16T13:54:19.403Z",
+    "retryAfter": "2026-11-23T13:54:19.403Z"
+  },
+  "nz-maero": {
+    "status": "thin",
+    "at": "2026-11-16T13:54:20.112Z",
+    "retryAfter": "2026-11-23T13:54:20.112Z"
+  },
+  "kr-jangsanbum": {
+    "status": "thin",
+    "at": "2026-11-16T13:54:20.846Z",
+    "retryAfter": "2026-11-23T13:54:20.846Z"
+  },
+  "gl-amarok": {
+    "status": "thin",
+    "at": "2026-11-16T13:54:22.348Z",
+    "retryAfter": "2026-11-23T13:54:22.348Z"
+  },
+  "kr-geuseunse": {
+    "status": "no_source",
+    "at": "2026-11-16T13:54:23.078Z",
+    "retryAfter": "2026-11-23T13:54:23.078Z"
+  },
+  "mk-chuma": {
+    "status": "thin",
+    "at": "2026-11-16T13:54:23.800Z",
+    "retryAfter": "2026-11-23T13:54:23.800Z"
+  },
+  "no-mara": {
+    "status": "rejected",
+    "at": "2026-11-16T13:54:23.932Z",
+    "retryAfter": "2026-11-23T13:54:23.932Z"
+  },
+  "kr-빨간-종이-파란-종이": {
+    "status": "thin",
+    "at": "2026-11-16T13:54:24.506Z",
+    "retryAfter": "2026-11-23T13:54:24.506Z"
+  },
+  "jp-yasunori-kato": {
+    "status": "generated",
+    "at": "2026-11-16T13:54:25.133Z",
+    "retryAfter": "2026-11-17T13:54:25.133Z"
+  },
+  "hr-strigon": {
+    "status": "no_source",
+    "at": "2026-11-16T13:54:26.019Z",
+    "retryAfter": "2026-11-23T13:54:26.019Z"
+  },
+  "fr-salamanders-in-folklore": {
+    "status": "generated",
+    "at": "2026-11-16T13:54:27.183Z",
+    "retryAfter": "2026-11-17T13:54:27.183Z"
+  },
+  "al-lugat": {
+    "status": "thin",
+    "at": "2026-11-16T13:54:27.527Z",
+    "retryAfter": "2026-11-23T13:54:27.527Z"
+  },
+  "ba-stuha": {
+    "status": "generated",
+    "at": "2026-11-16T13:54:39.336Z",
+    "retryAfter": "2026-11-17T13:54:39.336Z"
+  },
+  "gr-strigla": {
+    "status": "no_source",
+    "at": "2026-11-16T13:54:40.138Z",
+    "retryAfter": "2026-11-23T13:54:40.138Z"
+  },
+  "jp-kamaitachi": {
+    "status": "generated",
+    "at": "2026-11-16T13:54:40.802Z",
+    "retryAfter": "2026-11-17T13:54:40.802Z"
+  },
+  "kr-samdugumi-three-headed-nine-tailed-fox": {
+    "status": "no_source",
+    "at": "2026-11-16T13:54:40.852Z",
+    "retryAfter": "2026-11-23T13:54:40.852Z"
+  },
+  "jp-kiyohime": {
+    "status": "generated",
+    "at": "2026-11-16T13:54:41.382Z",
+    "retryAfter": "2026-11-17T13:54:41.382Z"
+  },
+  "nl-bokkenrijder": {
+    "status": "no_source",
+    "at": "2026-11-16T13:54:41.567Z",
+    "retryAfter": "2026-11-23T13:54:41.567Z"
+  },
+  "mm-belu": {
+    "status": "thin",
+    "at": "2026-11-16T13:54:42.276Z",
+    "retryAfter": "2026-11-23T13:54:42.276Z"
+  },
+  "kr-yanluo-wang": {
+    "status": "generated",
+    "at": "2026-11-16T13:54:45.948Z",
+    "retryAfter": "2026-11-17T13:54:45.948Z"
+  },
+  "il-lilith": {
+    "status": "rejected",
+    "at": "2026-11-16T13:54:50.329Z",
+    "retryAfter": "2026-11-23T13:54:50.329Z"
   }
 }

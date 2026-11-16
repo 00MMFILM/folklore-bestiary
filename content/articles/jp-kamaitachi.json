@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Kamaitachi",
+ "sourceLang": "en",
+ "sourceChars": 9593,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Kamaitachi",
+ "generatedAt": "2026-11-16T13:54:40.802Z",
+ "locales": {
+  "ko": {
+   "origin": "카마이타치는 원래 '카마에 타치'(構太刀)라는 단어의 변형으로 여겨졌으나, 토리야마 세키엔의 '가즈 하키 야교'의 '큐키'와 같이 다시 사용되어 족제비 요괴로 묘사되면서 현재의 요괴로 자리잡게 되었다. 네기시 시즈모리의 '미미부쿠로'에서는 에도의 카가야라는 지역에서 아이들이 회오리에 휘말리는 사건이 기록되어 있으며, 이 사건은 카마에 타치의 증거로 여겨졌다. 카마이타치는 고슴도치와 같은 털을 가지고 있으며, 개와 같은 울음소리를 내며, 날개를 가지고 공중을 날아다니는 것으로 전해진다.",
+   "legend": "카마이타치는 먼지 회오리를 타고 나타나 사람들을 베어 상처를 입히는 요괴로 알려져 있다. 이들은 낫과 같은 앞발로 사람을 베어내며, 상처는 날카롭고 통증이 없는 특징이 있다. 카마이타치에 의해 입은 상처는 처음에는 통증이 없지만, 시간이 지나면서 심한 통증과 출혈이 발생한다고 전해진다.",
+   "variants": "중부, 긴키 등 여러 지역에서 사람들을 베는 악마의 바람에 대한 전설이 전해진다. 눈이 많이 내리는 지역에서는 회오리바람 자체를 '카마이타치'라고 부르기도 하며, 신에츠 지역에서는 카마이타치를 악신의 소행으로 여기고 있다. 도호쿠 지역에서는 카마이타치의 상처를 치료하기 위해 오래된 달력을 태워 그 재를 상처에 바르는 방법이 전해진다. 히다 지역에서는 세 명의 악신이 함께 행동하여 사람을 넘어뜨리고, 베고, 약을 바르는 전설이 있다.",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Kamaitachi is originally considered a variation of the word 'kamae tachi' (構太刀), but it became established as a yokai after being depicted as a weasel yokai in works like Toriyama Sekien's 'Kazu Haki Yakyō' with 'Kyuki'. In Negishi Shizumori's 'Mimibukuro', an incident where children were caught in a whirlwind in the Kagawa region of Edo is recorded, and this incident is considered evidence of the kamaitachi. Kamaitachi is said to have fur like a hedgehog, make sounds like a dog, and fly through the air with wings.",
+   "legend": "Kamaitachi is known as a yokai that appears riding on dust whirlwinds and injures people. They slash at people with their sickle-like front limbs, and the wounds are characterized as sharp and painless. It is said that wounds inflicted by kamaitachi initially do not hurt, but over time, severe pain and bleeding occur.",
+   "variants": "Legends of a demon wind that slashes people are passed down in various regions such as Chubu and Kinki. In areas with heavy snowfall, the whirlwind itself is sometimes referred to as 'kamaitachi', and in the Shin'etsu region, kamaitachi is regarded as the work of an evil deity. In the Tohoku region, there is a method of treating kamaitachi wounds by burning an old calendar and applying the ashes to the wound. In the Hida region, there is a legend of three evil deities acting together to trip, slash, and apply medicine to people.",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "卡马伊塔奇原本被认为是“卡马埃塔奇”（构太刀）一词的变体，但随着鸟山石燕的《画图百鬼夜行》中的“九鬼”再次被使用，逐渐被描绘为鼬妖怪，最终成为现在的妖怪。在根岸静森的《耳袋》中，记录了在江户的加贺屋地区，孩子们被旋风卷入的事件，这一事件被视为卡马埃塔奇的证据。卡马伊塔奇拥有像刺猬一样的毛发，发出类似狗的叫声，并且据说有翅膀可以在空中飞翔。",
+   "legend": "卡马伊塔奇被认为是乘着尘旋风出现，伤害人们的妖怪。它们用像镰刀一样的前爪割伤人，伤口锋利且没有疼痛的特征。传说中，卡马伊塔奇造成的伤口起初没有疼痛，但随着时间的推移，会出现剧烈的疼痛和出血。",
+   "variants": "中部、近畿等多个地区流传着关于割伤人们的恶魔之风的传说。在降雪较多的地区，旋风本身也被称为“卡马伊塔奇”，而在信越地区，人们将卡马伊塔奇视为恶神的行为。在东北地区，流传着为了治疗卡马伊塔奇的伤口，烧掉旧日历并将灰烬涂抹在伤口上的方法。在飞驒地区，有三个恶神一起行动，推倒人、割伤人并涂抹药物的传说。",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "カマイタチは元々「カマエタチ」（構太刀）という言葉の変形と考えられていたが、鳥山石燕の「風はきやぎょう」の「九鬼」と同様に再び使用され、イタチの妖怪として描かれるようになり、現在の妖怪として定着した。根岸静森の「耳袋」では江戸のカガヤという地域で子供たちが竜巻に巻き込まれる事件が記録されており、この事件はカマエタチの証拠と見なされた。カマイタチはハリネズミのような毛を持ち、犬のような鳴き声を上げ、翼を持って空を飛ぶと伝えられている。",
+   "legend": "カマイタチは埃の竜巻に乗って現れ、人々を切り傷を負わせる妖怪として知られている。彼らは鎌のような前足で人を切り裂き、傷は鋭く痛みがない特徴がある。カマイタチによって受けた傷は最初は痛みがないが、時間が経つにつれて激しい痛みと出血が発生すると伝えられている。",
+   "variants": "中部、近畿などのいくつかの地域で人々を切る悪魔の風に関する伝説が伝わっている。雪が多く降る地域では竜巻そのものを「カマイタチ」と呼ぶこともあり、信越地域ではカマイタチを悪神の仕業と見なしている。東北地域ではカマイタチの傷を治すために古いカレンダーを焼いてその灰を傷に塗る方法が伝わっている。飛騨地域では三人の悪神が共に行動し、人を倒し、切り、薬を塗る伝説がある。",
+   "culture": ""
+  }
+ }
+}
