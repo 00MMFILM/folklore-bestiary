@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 80,
+  "lastCategoryIndex": 83,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7929,7 +7929,19 @@
     40957533,
     22103870,
     37560999,
-    793127
+    793127,
+    506498,
+    64446939,
+    14388,
+    68194714,
+    96535,
+    73314962,
+    321464,
+    13748333,
+    12096234,
+    55375021,
+    14672667,
+    84611
   ],
   "discoveredCategories": [
     {
@@ -25675,10 +25687,18 @@
       "label": "Characters in Hindu mythology",
       "discoveredFrom": "Bhairav (tantrik)",
       "discoveredAt": 702
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Greek gods in art",
+      "iso": "GR",
+      "label": "Greek gods in art",
+      "discoveredFrom": "Berlin Foundry Cup",
+      "discoveredAt": 703
     }
   ],
-  "totalAdded": 4410,
-  "runs": 703,
-  "lastRun": "2026-11-17T01:19:27.000Z",
-  "lastDiscoveredIndex": 864
+  "totalAdded": 4415,
+  "runs": 704,
+  "lastRun": "2026-11-17T15:13:06.224Z",
+  "lastDiscoveredIndex": 867
 }

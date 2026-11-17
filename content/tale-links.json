@@ -69,6 +69,30 @@
    "n": "세크메트"
   }
  ],
+ "fr-gradlon": [
+  {
+   "id": "fr-dahut",
+   "n": "Dahut"
+  }
+ ],
+ "fr-dahut": [
+  {
+   "id": "fr-gradlon",
+   "n": "Gradlon"
+  }
+ ],
+ "gb-simonside-dwarfs": [
+  {
+   "id": "gb-will-o-the-wisp",
+   "n": "Will-o'-the-wisp"
+  }
+ ],
+ "gb-will-o-the-wisp": [
+  {
+   "id": "gb-simonside-dwarfs",
+   "n": "Simonside Dwarfs"
+  }
+ ],
  "gr-aerope": [
   {
    "id": "gr-agamemnon",
@@ -261,6 +285,18 @@
   {
    "id": "ir-zahhak",
    "n": "Zahhak"
+  }
+ ],
+ "it-lailoken": [
+  {
+   "id": "it-vita-merlini",
+   "n": "Vita Merlini"
+  }
+ ],
+ "it-vita-merlini": [
+  {
+   "id": "it-lailoken",
+   "n": "Lailoken"
   }
  ],
  "jp-fujin": [
@@ -869,6 +905,18 @@
    "n": "Nidhogg"
   }
  ],
+ "us-flying-africans": [
+  {
+   "id": "us-john-the-conqueror",
+   "n": "John the Conqueror"
+  }
+ ],
+ "us-john-the-conqueror": [
+  {
+   "id": "us-flying-africans",
+   "n": "Flying Africans"
+  }
+ ],
  "us-malsumis": [
   {
    "id": "us-tabaldak",
@@ -879,6 +927,28 @@
   {
    "id": "us-malsumis",
    "n": "Malsumis"
+  }
+ ],
+ "vn-thanh-giong": [
+  {
+   "id": "vn-au-co",
+   "n": "Âu Cơ"
+  },
+  {
+   "id": "vn-kinh-duong-vuong",
+   "n": "낀즈엉브엉"
+  }
+ ],
+ "vn-kinh-duong-vuong": [
+  {
+   "id": "vn-thanh-giong",
+   "n": "Thánh Gióng"
+  }
+ ],
+ "vn-au-co": [
+  {
+   "id": "vn-thanh-giong",
+   "n": "Thánh Gióng"
   }
  ],
  "wls-addanc": [
