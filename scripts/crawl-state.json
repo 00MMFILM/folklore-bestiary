@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 77,
+  "lastCategoryIndex": 80,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7918,7 +7918,18 @@
     10272350,
     1454375,
     20646531,
-    7874960
+    7874960,
+    84018670,
+    99552,
+    37012331,
+    2747333,
+    4453863,
+    100539,
+    7028171,
+    40957533,
+    22103870,
+    37560999,
+    793127
   ],
   "discoveredCategories": [
     {
@@ -25640,10 +25651,34 @@
       "label": "Ghost characters in video games",
       "discoveredFrom": "Jibanyan",
       "discoveredAt": 699
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Latvian folklore",
+      "iso": "LV",
+      "label": "Latvian folklore",
+      "discoveredFrom": "Celestial wedding in Baltic folklore",
+      "discoveredAt": 702
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Lithuanian folklore",
+      "iso": "LT",
+      "label": "Lithuanian folklore",
+      "discoveredFrom": "Celestial wedding in Baltic folklore",
+      "discoveredAt": 702
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Characters in Hindu mythology",
+      "iso": "IN",
+      "label": "Characters in Hindu mythology",
+      "discoveredFrom": "Bhairav (tantrik)",
+      "discoveredAt": 702
     }
   ],
-  "totalAdded": 4405,
-  "runs": 702,
-  "lastRun": "2026-11-16T14:21:24.335Z",
-  "lastDiscoveredIndex": 861
+  "totalAdded": 4410,
+  "runs": 703,
+  "lastRun": "2026-11-17T01:19:27.000Z",
+  "lastDiscoveredIndex": 864
 }
