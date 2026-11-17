@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Augeas",
+ "sourceLang": "en",
+ "sourceChars": 3906,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Augeas",
+ "generatedAt": "2026-11-17T14:48:04.785Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "그리스 신화에서 아우게아스(Augeas)는 엘리스의 왕이자 에피카스테의 아버지로 알려져 있다. 그는 아르고나우타이 중 한 명으로 언급되기도 하며, 그의 외양간은 나라에서 가장 많은 소를 수용하고 있었고, 헤라클레스라는 위대한 영웅의 시대까지 청소된 적이 없었다. 아우게아스의 외양간은 3,000마리의 소가 살고 있었고, 30년 이상 청소되지 않았다. 헤라클레스는 알페우스 강과 페네우스 강을 우회시켜 더러운 것을 씻어내는 방식으로 이 일을 성공적으로 수행했다. 그러나 아우게아스는 헤라클레스에게 하루 안에 일을 마치면 자신의 소의 10분의 1을 주겠다고 약속했음에도 불구하고 이를 지키지 않았다. 결국 헤라클레스는 그를 죽이고, 아우게아스의 왕국을 아우게아스의 아들인 필레우스에게 주었다.",
+   "variants": "",
+   "culture": "아우게아스의 이름에서 유래한 '아우게안'이라는 형용사는 일반적으로 나쁜 상태에 있는 것을 개선하거나 수리하는 도전적인 작업을 의미하게 되었다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "In Greek mythology, Augeas (아우게아스) is known as the king of Elis and the father of Epicaste. He is also mentioned as one of the Argonauts, and his stables housed the largest number of cattle in the country, which had not been cleaned since the time of the great hero Heracles (헤라클레스). Augeas's stables housed 3,000 cattle and had not been cleaned for over 30 years. Heracles successfully accomplished this task by diverting the rivers Alpheus (알페우스) and Peneus (페네우스) to wash away the filth. However, despite promising Heracles that he would give him one-tenth of his cattle if the work was completed in a day, Augeas did not keep his promise. Ultimately, Heracles killed him and gave Augeas's kingdom to Augeas's son, Phileus (필레우스).",
+   "variants": "",
+   "culture": "The adjective 'Augean' derived from Augeas's name has come to mean a challenging task of improving or repairing something that is in a bad state."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "在希腊神话中，阿乌盖阿斯（Augeas）是埃利斯的国王，也是埃皮卡斯特（Epicaste）的父亲。他被提及为阿尔戈英雄（Argonauts）之一，他的牛棚是国家中容纳最多牛的地方，并且在伟大的英雄赫拉克勒斯（Heracles）的时代之前从未被清理过。阿乌盖阿斯的牛棚里住着3000头牛，已经超过30年没有清理。赫拉克勒斯成功地通过引导阿尔费乌斯河（Alpheus）和佩纽斯河（Peneus）来冲洗掉污垢。然而，尽管阿乌盖阿斯承诺如果赫拉克勒斯在一天内完成工作就会给他自己牛的十分之一，但他并没有遵守这个承诺。最终，赫拉克勒斯杀了他，并将阿乌盖阿斯的王国给予了阿乌盖阿斯的儿子菲勒乌斯（Phileus）。",
+   "variants": "",
+   "culture": "源自阿乌盖阿斯名字的形容词“阿乌盖安（Augean）”通常指代改善或修复处于糟糕状态的挑战性工作。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ギリシャ神話において、アウゲアス（Augeas）はエリスの王であり、エピカステの父として知られている。彼はアルゴナウタイの一人としても言及され、彼の厩舎は国で最も多くの牛を収容しており、ヘラクレスという偉大な英雄の時代まで掃除されたことがなかった。アウゲアスの厩舎には3,000頭の牛が住んでおり、30年以上掃除されていなかった。ヘラクレスはアルフェウス川とペネウス川を迂回させて汚れを洗い流す方法でこの仕事を成功裏に遂行した。しかし、アウゲアスはヘラクレスに1日以内に仕事を終えたら自分の牛の10分の1を与えると約束したにもかかわらず、これを守らなかった。結局、ヘラクレスは彼を殺し、アウゲアスの王国をアウゲアスの息子であるフィレウスに与えた。",
+   "variants": "",
+   "culture": "アウゲアスの名前に由来する「アウゲアン」という形容詞は、一般的に悪い状態にあるものを改善または修理する挑戦的な作業を意味するようになった。"
+  }
+ }
+}

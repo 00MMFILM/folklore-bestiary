@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Ouroboros",
+ "sourceLang": "en",
+ "sourceChars": 15399,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Ouroboros",
+ "generatedAt": "2026-11-17T14:47:37.148Z",
+ "locales": {
+  "ko": {
+   "origin": "Ouroboros는 고대 이집트의 아이콘과 그리스의 마법 전통을 통해 서구 전통에 들어왔다. 이 상징은 영지주의, 헤르메티즘, 연금술에서 상징으로 채택되었다.",
+   "legend": "Ouroboros는 자신의 꼬리를 먹고 있는 뱀이나 용을 묘사한 고대의 상징으로, 생명의 영원한 순환을 나타낸다. Ouroboros는 종종 영원한 순환 갱신 또는 생명, 죽음, 재탄생의 주기를 상징하는 것으로 해석된다. 뱀의 피부가 벗겨지는 것은 영혼의 전이(symbolizes the transmigration of souls)를 상징하며, 꼬리를 물고 있는 뱀은 일부 종교에서 다산의 상징으로 여겨진다.",
+   "variants": "",
+   "culture": "Ouroboros는 현대 대중문화에서도 다양한 방식으로 수용되고 있다. 예를 들어, 스위스 정신과 의사 칼 융은 Ouroboros를 원형(archetype)으로 보았으며, 연금술의 기본 만다라로 해석하였다. 또한, 일본의 드래곤 게이트 프로레슬링에서는 Ouroboros를 스타일화한 로고를 사용하였다. 문학 작품에서도 Ouroboros의 변형이 중요한 상징으로 등장하며, 예를 들어, 미하엘 엔데의 판타지 소설 '끝나지 않는 이야기'에서는 두 개의 뱀이 서로의 꼬리를 물고 있는 모습이 나타난다."
+  },
+  "en": {
+   "origin": "Ouroboros entered Western tradition through ancient Egyptian icons and Greek magical traditions. This symbol has been adopted in Gnosticism, Hermeticism, and alchemy.",
+   "legend": "Ouroboros is an ancient symbol depicting a serpent or dragon eating its own tail, representing the eternal cycle of life. Ouroboros is often interpreted as symbolizing eternal cyclical renewal or the cycle of life, death, and rebirth. The shedding of the serpent's skin symbolizes the transmigration of souls, and the serpent biting its tail is considered a symbol of fertility in some religions.",
+   "variants": "",
+   "culture": "Ouroboros is also embraced in various ways in modern popular culture. For example, Swiss psychiatrist Carl Jung viewed Ouroboros as an archetype and interpreted it as a fundamental mandala of alchemy. Additionally, in Japan's Dragon Gate Pro Wrestling, a stylized logo of Ouroboros has been used. In literary works, variations of Ouroboros appear as significant symbols; for instance, in Michael Ende's fantasy novel 'The Neverending Story,' two serpents are depicted biting each other's tails."
+  },
+  "zh": {
+   "origin": "Ouroboros通过古埃及的图标和希腊的魔法传统进入西方传统。这个象征被采纳为诺斯替主义、赫尔墨斯主义和炼金术的象征。",
+   "legend": "Ouroboros是一个描绘吃自己尾巴的蛇或龙的古老象征，代表生命的永恒循环。Ouroboros常常被解读为象征永恒循环的更新或生命、死亡、再生的周期。蛇的皮肤脱落象征着灵魂的转移，而咬住自己尾巴的蛇在某些宗教中被视为丰饶的象征。",
+   "variants": "",
+   "culture": "Ouroboros在现代大众文化中也以各种方式被接受。例如，瑞士精神科医生卡尔·荣格将Ouroboros视为原型，并将其解读为炼金术的基本曼荼罗。此外，日本的龙门摔跤使用了Ouroboros的风格化标志。在文学作品中，Ouroboros的变体作为重要象征出现，例如，在米哈伊尔·恩德的奇幻小说《无尽的故事》中，出现了两条蛇互相咬住尾巴的形象。"
+  },
+  "ja": {
+   "origin": "ウロボロスは古代エジプトのアイコンとギリシャの魔法の伝統を通じて西洋の伝統に入った。このシンボルはグノーシス主義、ヘルメティズム、錬金術でシンボルとして採用された。",
+   "legend": "ウロボロスは自分の尾を食べている蛇やドラゴンを描いた古代のシンボルであり、生命の永遠の循環を表している。ウロボロスはしばしば永遠の循環の更新または生命、死、再生の周期を象徴するものとして解釈される。蛇の皮が剥がれることは魂の転生を象徴し、尾を噛んでいる蛇は一部の宗教で多産のシンボルと見なされる。",
+   "variants": "",
+   "culture": "ウロボロスは現代の大衆文化でもさまざまな方法で受け入れられている。例えば、スイスの精神科医カール・ユングはウロボロスを原型として見なし、錬金術の基本的なマンダラとして解釈した。また、日本のドラゴンゲートプロレスリングではウロボロスをスタイライズしたロゴを使用した。文学作品でもウロボロスの変形が重要なシンボルとして登場し、例えばミハエル・エンデのファンタジー小説『果てしない物語』では二匹の蛇が互いの尾を噛んでいる姿が現れる。"
+  }
+ }
+}

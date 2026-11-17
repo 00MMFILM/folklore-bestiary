@@ -748,5 +748,155 @@
     "status": "rejected",
     "at": "2026-11-16T13:54:50.329Z",
     "retryAfter": "2026-11-23T13:54:50.329Z"
+  },
+  "ie-black-irish-folklore": {
+    "status": "thin",
+    "at": "2026-11-17T14:46:48.402Z",
+    "retryAfter": "2026-11-24T14:46:48.402Z"
+  },
+  "ie-brewer-s-dictionary-of-irish-phrase-and-fable": {
+    "status": "thin",
+    "at": "2026-11-17T14:46:49.156Z",
+    "retryAfter": "2026-11-24T14:46:49.156Z"
+  },
+  "ca-champ-folklore": {
+    "status": "rejected",
+    "at": "2026-11-17T14:46:55.049Z",
+    "retryAfter": "2026-11-24T14:46:55.049Z"
+  },
+  "id-si-pitung": {
+    "status": "generated",
+    "at": "2026-11-17T14:47:05.317Z",
+    "retryAfter": "2026-11-18T14:47:05.317Z"
+  },
+  "gb-bedivere": {
+    "status": "generated",
+    "at": "2026-11-17T14:47:05.515Z",
+    "retryAfter": "2026-11-18T14:47:05.515Z"
+  },
+  "cn-lost-library-of-ivan-the-terrible": {
+    "status": "generated",
+    "at": "2026-11-17T14:47:08.694Z",
+    "retryAfter": "2026-11-18T14:47:08.694Z"
+  },
+  "us-flying-africans": {
+    "status": "generated",
+    "at": "2026-11-17T14:47:09.604Z",
+    "retryAfter": "2026-11-18T14:47:09.604Z"
+  },
+  "cn-xuanniao": {
+    "status": "generated",
+    "at": "2026-11-17T14:47:13.309Z",
+    "retryAfter": "2026-11-18T14:47:13.309Z"
+  },
+  "ie-conand-mythology": {
+    "status": "thin",
+    "at": "2026-11-17T14:47:14.346Z",
+    "retryAfter": "2026-11-24T14:47:14.346Z"
+  },
+  "it-goatman-urban-legend": {
+    "status": "thin",
+    "at": "2026-11-17T14:47:15.058Z",
+    "retryAfter": "2026-11-24T14:47:15.058Z"
+  },
+  "gb-folklore-studies": {
+    "status": "generated",
+    "at": "2026-11-17T14:47:20.383Z",
+    "retryAfter": "2026-11-18T14:47:20.383Z"
+  },
+  "il-rahab-mythology": {
+    "status": "generated",
+    "at": "2026-11-17T14:47:20.673Z",
+    "retryAfter": "2026-11-18T14:47:20.673Z"
+  },
+  "au-wirnpa": {
+    "status": "thin",
+    "at": "2026-11-17T14:47:21.180Z",
+    "retryAfter": "2026-11-24T14:47:21.180Z"
+  },
+  "vn-thanh-giong": {
+    "status": "generated",
+    "at": "2026-11-17T14:47:21.348Z",
+    "retryAfter": "2026-11-18T14:47:21.348Z"
+  },
+  "ie-anguish-of-ireland": {
+    "status": "thin",
+    "at": "2026-11-17T14:47:23.021Z",
+    "retryAfter": "2026-11-24T14:47:23.021Z"
+  },
+  "ir-shabdiz": {
+    "status": "thin",
+    "at": "2026-11-17T14:47:24.497Z",
+    "retryAfter": "2026-11-24T14:47:24.497Z"
+  },
+  "it-lailoken": {
+    "status": "generated",
+    "at": "2026-11-17T14:47:30.768Z",
+    "retryAfter": "2026-11-18T14:47:30.768Z"
+  },
+  "eg-ouroboros": {
+    "status": "generated",
+    "at": "2026-11-17T14:47:37.149Z",
+    "retryAfter": "2026-11-18T14:47:37.149Z"
+  },
+  "id-damarwulan": {
+    "status": "generated",
+    "at": "2026-11-17T14:47:40.610Z",
+    "retryAfter": "2026-11-18T14:47:40.610Z"
+  },
+  "ie-abhean": {
+    "status": "thin",
+    "at": "2026-11-17T14:47:41.323Z",
+    "retryAfter": "2026-11-24T14:47:41.323Z"
+  },
+  "cn-zouyu": {
+    "status": "generated",
+    "at": "2026-11-17T14:47:47.154Z",
+    "retryAfter": "2026-11-18T14:47:47.154Z"
+  },
+  "gb-simonside-dwarfs": {
+    "status": "generated",
+    "at": "2026-11-17T14:47:48.966Z",
+    "retryAfter": "2026-11-18T14:47:48.966Z"
+  },
+  "gr-palioxis": {
+    "status": "rejected",
+    "at": "2026-11-17T14:47:49.898Z",
+    "retryAfter": "2026-11-24T14:47:49.898Z"
+  },
+  "gb-jimmy-squarefoot": {
+    "status": "generated",
+    "at": "2026-11-17T14:47:54.678Z",
+    "retryAfter": "2026-11-18T14:47:54.678Z"
+  },
+  "gr-lion-of-cithaeron": {
+    "status": "generated",
+    "at": "2026-11-17T14:47:55.443Z",
+    "retryAfter": "2026-11-18T14:47:55.443Z"
+  },
+  "fr-gradlon": {
+    "status": "generated",
+    "at": "2026-11-17T14:47:55.465Z",
+    "retryAfter": "2026-11-18T14:47:55.465Z"
+  },
+  "gr-ancaeus-son-of-poseidon": {
+    "status": "thin",
+    "at": "2026-11-17T14:47:56.194Z",
+    "retryAfter": "2026-11-24T14:47:56.194Z"
+  },
+  "gr-augeas": {
+    "status": "generated",
+    "at": "2026-11-17T14:48:04.785Z",
+    "retryAfter": "2026-11-18T14:48:04.785Z"
+  },
+  "gr-ajax-the-lesser": {
+    "status": "generated",
+    "at": "2026-11-17T14:48:08.704Z",
+    "retryAfter": "2026-11-18T14:48:08.704Z"
+  },
+  "gr-karagiozis": {
+    "status": "generated",
+    "at": "2026-11-17T14:48:24.638Z",
+    "retryAfter": "2026-11-18T14:48:24.638Z"
   }
 }

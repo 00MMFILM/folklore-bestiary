@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Zouyu",
+ "sourceLang": "en",
+ "sourceChars": 2548,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Zouyu",
+ "generatedAt": "2026-11-17T14:47:47.154Z",
+ "locales": {
+  "ko": {
+   "origin": "zouyu(騶虞)의 가장 초기 기록은 '시경(詩經)'에서 발견되지만, J.J.L. Duyvendak는 이 시가 해당 이름의 동물을 지칭한다고 해석하는 것이 '매우 의심스럽다'고 설명하였다.",
+   "legend": "zouyu는 여러 후속 문헌에서 등장하며, '의로운' 동물로 묘사된다. 이는 기린과 유사하게 자비롭고 진실한 군주가 통치하는 동안에만 나타난다고 전해진다. 외형은 호랑이처럼 사납게 보이지만, 온순하고 엄격한 채식주의자로 묘사된다. 일부 문헌에서는 흰 호랑이에 검은 반점이 있는 모습으로 설명되기도 한다.",
+   "variants": "zouyu는 1404년 영락제 통치 기간 동안, 카이펑 출신의 친척 주수가 신후에서 포획한 zouyu를 황제에게 보냈다는 기록이 있다. 이 zouyu는 희귀한 흰 호랑이로 보였으며, 산둥에서도 또 다른 zouyu가 목격되었다. 이러한 zouyu의 목격은 동시대 작가들에 의해 좋은 징조로 언급되었다.",
+   "culture": "이 생물은 2018년 판타지 영화 '신비한 동물사전: 그린델왈드의 범죄'에 등장하며, 사자와 호랑이의 혼합체처럼 보이는 코끼리 크기의 고양이로 묘사된다. 큰 눈과 네 개의 상아, 그리고 중국의 수호사자와 유사한 주름진 꼬리를 가지고 있으며, 순간이동할 수 있는 능력을 지닌 것으로 그려진다."
+  },
+  "en": {
+   "origin": "The earliest record of zouyu (騶虞) is found in the 'Shijing' (詩經), but J.J.L. Duyvendak explained that interpreting this poem as referring to an animal by that name is 'highly questionable.'",
+   "legend": "Zouyu is mentioned in several subsequent texts and is described as a 'righteous' animal. It is said to appear only when a benevolent and truthful ruler governs, similar to a qilin. Its appearance is described as looking fierce like a tiger, but it is depicted as gentle and strictly herbivorous. In some texts, it is described as a white tiger with black spots.",
+   "variants": "There is a record from the reign of the Yongle Emperor in 1404, stating that a relative from Kaifeng, Zhu Shu, captured a zouyu in Xinhou and sent it to the emperor. This zouyu appeared to be a rare white tiger, and another zouyu was sighted in Shandong. Sightings of these zouyu were mentioned as good omens by contemporary writers.",
+   "culture": "This creature appears in the 2018 fantasy film 'Fantastic Beasts: The Crimes of Grindelwald,' depicted as a cat the size of an elephant that resembles a mix between a lion and a tiger. It is illustrated with large eyes, four tusks, and a wrinkled tail similar to that of a Chinese guardian lion, and it is portrayed as having the ability to teleport."
+  },
+  "zh": {
+   "origin": "zouyu(騶虞)的最早记录在《诗经》中被发现，但J.J.L. Duyvendak解释说将这首诗解读为指代该名称的动物是“非常可疑的”。",
+   "legend": "zouyu在多个后续文献中出现，被描述为“正义”的动物。传说中只有在仁慈和真实的君主统治下，它才会出现。外形看起来像老虎一样凶猛，但被描述为温顺且严格的素食主义者。在一些文献中，它被描述为有黑色斑点的白老虎的样子。",
+   "variants": "zouyu在1404年永乐帝统治期间，有记录称来自开封的亲戚朱肃在神后捕获了一只zouyu并送给了皇帝。这只zouyu看起来是一只稀有的白老虎，山东也有另一只zouyu被目击。这些zouyu的目击被同时代的作家提及为好兆头。",
+   "culture": "这个生物在2018年奇幻电影《神奇动物：格林德沃之罪》中出现，被描述为像狮子和老虎的混合体，大小如大象。它有着大眼睛和四根象牙，以及与中国的守护狮相似的皱纹尾巴，并被描绘为具有瞬间移动的能力。"
+  },
+  "ja": {
+   "origin": "zouyu(騶虞)の最も初期の記録は『詩経』に見られますが、J.J.L. Duyvendakはこの詩がその名前の動物を指していると解釈することは「非常に疑わしい」と説明しました。",
+   "legend": "zouyuは多くの後続文献に登場し、「義なる」動物として描かれています。これはキリンに似て、慈悲深く真実な君主が統治する間にのみ現れると伝えられています。外見は虎のように凶暴に見えますが、温和で厳格な菜食主義者として描かれています。一部の文献では、白い虎に黒い斑点がある姿で説明されることもあります。",
+   "variants": "zouyuは1404年、永楽帝の治世の間に、開封出身の親戚の朱守が神後で捕獲したzouyuを皇帝に送ったという記録があります。このzouyuは希少な白い虎のように見え、山東でも別のzouyuが目撃されました。これらのzouyuの目撃は同時代の作家たちによって良い兆しとして言及されました。",
+   "culture": "この生物は2018年のファンタジー映画『ファンタスティック・ビーストとグリンデルバルドの罪』に登場し、ライオンと虎の混合体のように見える象のサイズの猫として描かれています。大きな目と4本の牙、そして中国の守護獅子に似たしわのある尾を持ち、瞬間移動する能力を持っていると描かれています。"
+  }
+ }
+}

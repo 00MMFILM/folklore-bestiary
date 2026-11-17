@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Simonside Dwarfs",
+ "sourceLang": "en",
+ "sourceChars": 1776,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Simonside%20Dwarfs",
+ "generatedAt": "2026-11-17T14:47:48.966Z",
+ "locales": {
+  "ko": {
+   "origin": "Simonside Dwarfs는 잉글랜드 북부의 노섬벌랜드에 위치한 시몬사이드 언덕과 특히 연관된 난쟁이의 일종으로, 브라운맨(Brownmen), 보글(Bogles), 듀에르가(Duergar)로도 알려져 있다. 이들의 지도자는 헤슬롭(Heslop)으로 알려져 있다.",
+   "legend": "전설적인 시몬사이드 난쟁이는 여행자들을 길을 잃게 하는 것을 즐겼으며, 특히 어두운 밤에 불을 밝힌 횃불을 들고 여행자들을 늪으로 유인하는 것으로 전해진다. 이는 마치 윌로우-더-위스프(Will-o'-the-wisp)와 유사하다. 이 위협적인 존재들은 종종 새벽에 사라지곤 했다.",
+   "variants": "듀에르가(duergar)라는 단어는 앵글로-스코틀랜드 국경 지역의 난쟁이를 의미하는 방언에서 유래된 것으로 보인다. 이 방언에는 dorch, dwerch, durch, Duergh, Duerwe 등이 포함되어 있으며, 나중에 잘못 추가된 노르웨이어 -ar 복수형이 포함되었을 가능성이 있다. 또한, 이 단어는 난쟁이를 의미하는 고대 노르웨이어(dvergar)에서 유래했을 수도 있다.",
+   "culture": "2004년 영화 '반 헬싱(Van Helsing)'에서는 듀에르기(Duergi)가 드라큘라 백작의 하수인으로 등장한다."
+  },
+  "en": {
+   "origin": "Simonside Dwarfs are a type of dwarf particularly associated with Simonside Hill located in Northumberland, England, and are also known as Brownmen, Bogles, and Duergar. Their leader is known as Heslop.",
+   "legend": "The legendary Simonside Dwarfs enjoyed leading travelers astray, particularly by luring them into swamps with a torch held aloft on dark nights. This is reminiscent of Will-o'-the-wisp. These threatening beings often disappeared at dawn.",
+   "variants": "The word duergar seems to originate from a dialect meaning dwarf in the Anglo-Scottish border region. This dialect includes terms such as dorch, dwerch, durch, Duergh, and Duerwe, and may have later incorrectly included the Norwegian -ar plural. Additionally, this word may have derived from the Old Norwegian word for dwarf (dvergar).",
+   "culture": "In the 2004 film 'Van Helsing', Duergi appears as a minion of Count Dracula."
+  },
+  "zh": {
+   "origin": "Simonside Dwarfs是与位于英格兰北部诺森伯兰的西蒙赛德山特别相关的一种矮人，也被称为布朗曼(Brownmen)、博格尔(Bogles)和杜尔加(Duergar)。他们的领袖被称为赫斯洛普(Heslop)。",
+   "legend": "传说中的西蒙赛德矮人喜欢让旅行者迷路，特别是在黑暗的夜晚，他们会举着点燃的火把引诱旅行者进入沼泽。这与萤火虫(Will-o'-the-wisp)相似。这些威胁性的存在通常在黎明时消失。",
+   "variants": "杜尔加(duergar)这个词似乎源自于安格鲁-苏格兰边界地区对矮人的方言。这种方言包括dorch、dwerch、durch、Duergh、Duerwe等，可能还错误地加入了挪威语-ar复数形式。此外，这个词可能源自于古挪威语(dvergar)，意为矮人。",
+   "culture": "在2004年电影《范海辛(Van Helsing)》中，杜尔加(Duergi)作为德古拉伯爵的爪牙出现。"
+  },
+  "ja": {
+   "origin": "シモンサイド・ドワーフ(Simonside Dwarfs)は、イングランド北部のノーサンバーランドに位置するシモンサイド丘に特に関連する小人の一種で、ブラウンマン(Brownmen)、ボグル(Bogles)、デュエルガ(Duergar)としても知られています。彼らのリーダーはヘスロップ(Heslop)として知られています。",
+   "legend": "伝説のシモンサイド・ドワーフは、旅行者を迷わせることを楽しんでおり、特に暗い夜に火を灯した松明を持って旅行者を沼に誘い込むと伝えられています。これはまるでウィロー・ザ・ウィスプ(Will-o'-the-wisp)に似ています。この脅威的な存在は、しばしば夜明けに姿を消していました。",
+   "variants": "デュエルガ(duergar)という言葉は、アングロ・スコットランド国境地域の小人を意味する方言に由来していると考えられています。この方言にはdorch、dwerch、durch、Duergh、Duerweなどが含まれており、後に誤って追加されたノルウェー語の-ar複数形が含まれている可能性があります。また、この言葉は小人を意味する古代ノルウェー語(dvergar)に由来しているかもしれません。",
+   "culture": "2004年の映画『ヴァン・ヘルシング(Van Helsing)』では、デュエルガ(Duergi)がドラキュラ伯爵の手下として登場します。"
+  }
+ }
+}

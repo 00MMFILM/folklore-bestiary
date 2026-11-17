@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Bedivere",
+ "sourceLang": "en",
+ "sourceChars": 11648,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Bedivere",
+ "generatedAt": "2026-11-17T14:47:05.515Z",
+ "locales": {
+  "ko": {
+   "origin": "Bedivere는 아서 왕 전설에서 가장 초기의 인물 중 하나로, 원래 여러 웨일스 문헌에서 한 손의 위대한 전사인 Bedwyr Bedrydant로 묘사되었다. 그는 아서 왕의 원탁의 기사로서 아서의 마샬 역할을 하며, 그의 형 루칸과 사촌 그리플렛, 그리고 케이와 자주 연관된다.",
+   "legend": "Bedivere는 아서 왕의 충실한 동맹으로, Geoffrey of Monmouth의 'Historia Regum Britanniae'에서 Beduerus로 등장한다. 그는 아서의 왕실 집사로서 아서와 케이와 함께 몽 생 미셸의 거인과 싸우고, 로마의 황제 루시우스에 맞서 싸우는 전쟁에 참여한다. 아서의 마지막 전투 후, Bedivere는 아서의 요청에 따라 엑스칼리버를 레이크의 여인에게 반환하는 역할을 맡는다. 그는 처음에는 이 검이 너무 소중하다고 생각하여 두 번이나 던지기를 주저하지만, 결국 검을 물속에 던지게 된다.",
+   "variants": "",
+   "culture": "Bedivere는 현대 문학에서도 주요 인물로 등장한다. Rosemary Sutcliff, Mary Stewart, Gillian Bradshaw 등 여러 작가들이 그의 전통적인 역할을 변형하여 다루었으며, Tennyson의 아서 시가에서는 아서의 기사 중 첫 번째이자 마지막 인물로 묘사된다. 또한, 1975년 영화 'Monty Python and the Holy Grail'에서는 '지혜로운 베데베르'라는 이름으로 등장하여 코믹한 역할을 맡는다."
+  },
+  "en": {
+   "origin": "Bedivere is one of the earliest figures in the Arthurian legend, originally depicted in various Welsh literature as the great warrior Bedwyr Bedrydant. He serves as Arthur's marshal as a knight of the Round Table and is often associated with his brother Lucan, cousin Griflet, and Kay.",
+   "legend": "Bedivere is a loyal ally of King Arthur, appearing as Beduerus in Geoffrey of Monmouth's 'Historia Regum Britanniae'. He fights alongside Arthur and Kay against the giant of Mont Saint-Michel and participates in the war against the Roman Emperor Lucius. After Arthur's final battle, Bedivere is tasked by Arthur to return Excalibur to the Lady of the Lake. Initially, he hesitates to throw the sword into the water, thinking it is too precious, but ultimately he does throw the sword into the lake.",
+   "variants": "",
+   "culture": "Bedivere also appears as a major character in modern literature. Various authors, including Rosemary Sutcliff, Mary Stewart, and Gillian Bradshaw, have reinterpreted his traditional role, and in Tennyson's Arthurian poems, he is depicted as the first and last of Arthur's knights. Additionally, in the 1975 film 'Monty Python and the Holy Grail', he appears under the name 'Wise Bedevere' in a comedic role."
+  },
+  "zh": {
+   "origin": "贝迪维尔（Bedivere）是亚瑟王（Arthur）传说中最早的人物之一，最初在多部威尔士文献中被描绘为一位单手的伟大战士贝德维尔（Bedwyr Bedrydant）。作为亚瑟王圆桌骑士之一，他担任亚瑟的军械师，常与他的兄弟卢坎（Lucan）、表亲格里夫莱特（Griflet）以及凯（Kay）联系在一起。",
+   "legend": "贝迪维尔（Bedivere）是亚瑟王的忠实盟友，在杰弗里·蒙茅斯（Geoffrey of Monmouth）的《不列颠王史（Historia Regum Britanniae）》中以贝杜鲁斯（Beduerus）出现。他作为亚瑟的王室家仆，与亚瑟和凯一起与蒙圣米歇尔（Mont Saint-Michel）的巨人作战，并参与与罗马皇帝卢修斯（Lucius）作战的战争。在亚瑟的最后一场战斗后，贝迪维尔应亚瑟的请求负责将Excalibur（埃克斯卡利伯）归还给湖中女神。他起初认为这把剑太过珍贵，犹豫了两次才决定扔掉，但最终还是将剑扔入水中。",
+   "variants": "",
+   "culture": "贝迪维尔（Bedivere）在现代文学中也作为主要人物出现。罗丝玛丽·萨特克利夫（Rosemary Sutcliff）、玛丽·斯图尔特（Mary Stewart）、吉莉安·布拉德肖（Gillian Bradshaw）等多位作家对他的传统角色进行了改编，而丁尼生（Tennyson）的亚瑟诗中则将他描绘为亚瑟的骑士中第一位也是最后一位的人物。此外，在1975年电影《蒙提·派森与圣杯（Monty Python and the Holy Grail）》中，他以“智慧的贝迪维尔（Wise Bedivere）”的名字出现，扮演了搞笑角色。"
+  },
+  "ja": {
+   "origin": "ベディヴィア（Bedivere）はアーサー王伝説で最も初期の人物の一人で、元々はウェールズの文献で片手の偉大な戦士であるベドゥイル・ベドリダント（Bedwyr Bedrydant）として描かれていた。彼はアーサー王の円卓の騎士としてアーサーのマシャルの役割を果たし、彼の兄ルカン（Lukān）やいとこグリフレット（Griflet）、そしてケイ（Kay）としばしば関連付けられる。",
+   "legend": "ベディヴィアはアーサー王の忠実な同盟者で、ジェフリー・オブ・モンマス（Geoffrey of Monmouth）の『ブリタニア王の歴史（Historia Regum Britanniae）』においてベデウルス（Beduerus）として登場する。彼はアーサーの王室家令としてアーサーとケイと共にモン・サン・ミッシェルの巨人と戦い、ローマの皇帝ルシウス（Lucius）に対抗する戦争に参加する。アーサーの最後の戦闘の後、ベディヴィアはアーサーの依頼によりエクスカリバー（Excalibur）を湖の女（レイクの女）に返還する役割を担う。彼は最初、この剣があまりにも貴重であると考え、二度も投げることをためらうが、最終的には剣を水中に投げ入れることになる。",
+   "variants": "",
+   "culture": "ベディヴィアは現代文学でも主要な人物として登場する。ローズマリー・サトクリフ（Rosemary Sutcliff）、メアリー・スチュワート（Mary Stewart）、ジリアン・ブラッドショー（Gillian Bradshaw）などの多くの作家が彼の伝統的な役割を変形させて扱っており、テニソン（Tennyson）のアーサー詩ではアーサーの騎士の中で最初で最後の人物として描かれている。また、1975年の映画『モンティ・パイソン・アンド・ホーリー・グレイル（Monty Python and the Holy Grail）』では「賢いベディヴィア」という名前で登場し、コメディの役割を担っている。"
+  }
+ }
+}

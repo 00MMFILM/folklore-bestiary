@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Folklore studies",
+ "sourceLang": "en",
+ "sourceChars": 43191,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Folklore%20studies",
+ "generatedAt": "2026-11-17T14:47:20.382Z",
+ "locales": {
+  "ko": {
+   "origin": "Folklore studies는 19세기 중반 유럽에서 시작되었으며, 주로 농촌 지역의 구술 민속에 초점을 맞추었다. 1846년 영국의 윌리엄 톰스가 'folklore'라는 용어를 처음 사용하였고, 이는 주로 문맹인 농민들로 구성된 특정 인구 집단의 연구를 강조하기 위한 것이었다. 톰스는 구술 문화 전통을 수집하자는 호소를 하였고, 이는 유럽 전역의 학자들에 의해 공감받았다. 19세기 후반, 영국 민속학회와 미국 민속학회가 설립되면서 이 분야의 학문적 기초가 다져졌다.",
+   "legend": "Folklore studies는 전통 문화의 연구를 목적으로 하며, 구술 전통, 신화, 민속 이야기 등을 포함한다. 민속학자는 특정 집단의 전통적 유물과 그 유물이 전해지는 집단을 연구한다. 민속은 사회 집단의 자연스러운 구성 요소로, 현대에도 계속 생성되고 전파된다. 이 분야는 사회 과학과 인문학의 경계에 위치하며, 문화의 독특한 특성을 이해하기 위한 연구 방법론을 개발한다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Folklore studies began in mid-19th century Europe, focusing primarily on the oral folklore of rural areas. In 1846, the British William Thoms first used the term 'folklore', which was intended to emphasize the study of a specific population group primarily composed of illiterate peasants. Thoms called for the collection of oral cultural traditions, which resonated with scholars across Europe. By the late 19th century, the establishment of the Folklore Society in Britain and the American Folklore Society laid the academic foundation for this field.",
+   "legend": "Folklore studies aim to research traditional culture, including oral traditions, myths, and folk tales. Folklorists study the traditional artifacts of specific groups and the communities that transmit those artifacts. Folklore is a natural component of social groups, continuously created and disseminated even in modern times. This field occupies the boundary between social sciences and humanities, developing methodologies to understand the unique characteristics of culture.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "民俗学研究始于19世纪中叶的欧洲，主要集中在农村地区的口头民俗上。1846年，英国的威廉·汤姆斯（William Thoms）首次使用了“folklore”这个术语，主要是为了强调对由文盲农民组成的特定人群的研究。汤姆斯呼吁收集口头文化传统，这一呼吁得到了欧洲各地学者的共鸣。19世纪后半叶，英国民俗学会和美国民俗学会的成立为这一领域奠定了学术基础。",
+   "legend": "民俗学研究的目的是研究传统文化，包括口头传统、神话、民间故事等。民俗学家研究特定群体的传统遗物及其传承的群体。民俗是社会群体的自然组成部分，至今仍在不断生成和传播。该领域位于社会科学与人文学科的交界处，开发理解文化独特特征的研究方法论。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "フォークロア研究は19世紀中頃にヨーロッパで始まり、主に農村地域の口承民俗に焦点を当てていました。1846年、イギリスのウィリアム・トムス（William Thoms）が「フォークロア」という用語を初めて使用し、これは主に文盲の農民からなる特定の人口集団の研究を強調するためのものでした。トムスは口承文化の伝統を収集するよう呼びかけ、これはヨーロッパ全体の学者たちに共感されました。19世紀後半、イギリス民俗学会とアメリカ民俗学会が設立され、この分野の学問的基盤が築かれました。",
+   "legend": "フォークロア研究は伝統文化の研究を目的としており、口承伝統、神話、民俗物語などを含みます。民俗学者は特定の集団の伝統的遺物とその遺物が伝えられる集団を研究します。民俗は社会集団の自然な構成要素であり、現代でも引き続き生成され、普及しています。この分野は社会科学と人文学の境界に位置し、文化の独特な特性を理解するための研究方法論を開発します。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

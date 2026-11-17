@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Lion of Cithaeron",
+ "sourceLang": "en",
+ "sourceChars": 1801,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Lion%20of%20Cithaeron",
+ "generatedAt": "2026-11-17T14:47:55.443Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "Cithaeron의 사자는 그리스 신화에서 암피트리온 왕과 테스피우스 왕 또는 메가레우스 왕의 땅을 괴롭힌 사자이다. 일부 신화에서는 헤라클레스에 의해 죽임을 당했다고 전해지며, 다른 신화에서는 엘리스의 알카토스에 의해 사냥당했다고 한다. '사자'는 또한 '테스피안 사자'와 '협곡의 사자'라는 이름으로도 불리며, 이는 그가 '협곡'이라고 불리는 장소에 살았기 때문이다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "The lion of Cithaeron is a lion that troubled the lands of King Amphitryon and King Thespios or Megareus in Greek mythology. In some myths, it is said to have been killed by Heracles, while in other myths, it was hunted by Alcaeus of Elis. The 'lion' is also referred to as the 'Thespian lion' and the 'lion of the gorge,' as it lived in a place called the 'gorge.'",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "Cithaeron的狮子是希腊神话中困扰安菲特律翁王和特斯皮乌斯王或梅加雷乌斯王土地的狮子。在一些神话中，它被赫拉克勒斯杀死，而在其他神话中，则是被埃利斯的阿尔卡托斯猎杀。'狮子'也被称为'特斯皮安狮子'和'峡谷的狮子'，这是因为它生活在被称为'峡谷'的地方。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "Cithaeronのライオンは、ギリシャ神話においてアンフィトリオン王とテスピウス王またはメガレウス王の土地を悩ませたライオンである。一部の神話ではヘラクレスによって殺されたと伝えられ、他の神話ではエリスのアルカトスによって狩られたと言われている。「ライオン」はまた「テスピアンライオン」や「峡谷のライオン」とも呼ばれ、これは彼が「峡谷」と呼ばれる場所に住んでいたためである。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}
