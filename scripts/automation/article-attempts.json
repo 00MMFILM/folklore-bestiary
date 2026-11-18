@@ -898,5 +898,155 @@
     "status": "generated",
     "at": "2026-11-17T14:48:24.638Z",
     "retryAfter": "2026-11-18T14:48:24.638Z"
+  },
+  "gr-medon-mythology": {
+    "status": "thin",
+    "at": "2026-11-18T14:26:19.979Z",
+    "retryAfter": "2026-11-25T14:26:19.979Z"
+  },
+  "us-american-folklife-center": {
+    "status": "generated",
+    "at": "2026-11-18T14:26:30.903Z",
+    "retryAfter": "2026-11-19T14:26:30.903Z"
+  },
+  "us-american-frontier": {
+    "status": "generated",
+    "at": "2026-11-18T14:26:35.170Z",
+    "retryAfter": "2026-11-19T14:26:35.170Z"
+  },
+  "gr-eurytion": {
+    "status": "generated",
+    "at": "2026-11-18T14:26:35.871Z",
+    "retryAfter": "2026-11-19T14:26:35.871Z"
+  },
+  "ca-marie-josephte-corriveau": {
+    "status": "generated",
+    "at": "2026-11-18T14:26:36.703Z",
+    "retryAfter": "2026-11-19T14:26:36.703Z"
+  },
+  "au-australian-cricket-team-in-england-in-1948": {
+    "status": "rejected",
+    "at": "2026-11-18T14:26:38.157Z",
+    "retryAfter": "2026-11-25T14:26:38.157Z"
+  },
+  "jp-korpokkur": {
+    "status": "generated",
+    "at": "2026-11-18T14:26:48.591Z",
+    "retryAfter": "2026-11-19T14:26:48.591Z"
+  },
+  "jp-isonade": {
+    "status": "thin",
+    "at": "2026-11-18T14:26:49.414Z",
+    "retryAfter": "2026-11-25T14:26:49.414Z"
+  },
+  "sa-shadhavar": {
+    "status": "thin",
+    "at": "2026-11-18T14:26:50.121Z",
+    "retryAfter": "2026-11-25T14:26:50.121Z"
+  },
+  "jp-kitsunetsuki": {
+    "status": "generated",
+    "at": "2026-11-18T14:26:50.338Z",
+    "retryAfter": "2026-11-19T14:26:50.338Z"
+  },
+  "gt-popol-vuh": {
+    "status": "generated",
+    "at": "2026-11-18T14:26:55.396Z",
+    "retryAfter": "2026-11-19T14:26:55.396Z"
+  },
+  "cl-la-quintrala": {
+    "status": "generated",
+    "at": "2026-11-18T14:26:56.955Z",
+    "retryAfter": "2026-11-19T14:26:56.955Z"
+  },
+  "no-annar": {
+    "status": "thin",
+    "at": "2026-11-18T14:26:57.725Z",
+    "retryAfter": "2026-11-25T14:26:57.725Z"
+  },
+  "no-durinn": {
+    "status": "thin",
+    "at": "2026-11-18T14:26:58.483Z",
+    "retryAfter": "2026-11-25T14:26:58.483Z"
+  },
+  "no-blo-ughofi": {
+    "status": "generated",
+    "at": "2026-11-18T14:27:02.157Z",
+    "retryAfter": "2026-11-19T14:27:02.157Z"
+  },
+  "ie-liath-macha-and-dub-sainglend": {
+    "status": "generated",
+    "at": "2026-11-18T14:27:05.532Z",
+    "retryAfter": "2026-11-19T14:27:05.532Z"
+  },
+  "fr-hywel-the-great": {
+    "status": "generated",
+    "at": "2026-11-18T14:27:09.048Z",
+    "retryAfter": "2026-11-19T14:27:09.048Z"
+  },
+  "gr-andromachus-mythology": {
+    "status": "thin",
+    "at": "2026-11-18T14:27:09.794Z",
+    "retryAfter": "2026-11-25T14:27:09.794Z"
+  },
+  "gr-monopod-creature": {
+    "status": "rejected",
+    "at": "2026-11-18T14:27:11.552Z",
+    "retryAfter": "2026-11-25T14:27:11.552Z"
+  },
+  "fi-tietaja": {
+    "status": "generated",
+    "at": "2026-11-18T14:27:18.933Z",
+    "retryAfter": "2026-11-19T14:27:18.933Z"
+  },
+  "no-regin": {
+    "status": "generated",
+    "at": "2026-11-18T14:27:21.953Z",
+    "retryAfter": "2026-11-19T14:27:21.953Z"
+  },
+  "se-skvader": {
+    "status": "generated",
+    "at": "2026-11-18T14:27:23.669Z",
+    "retryAfter": "2026-11-19T14:27:23.669Z"
+  },
+  "gr-deianira": {
+    "status": "generated",
+    "at": "2026-11-18T14:27:28.800Z",
+    "retryAfter": "2026-11-19T14:27:28.800Z"
+  },
+  "gr-eurytus-and-cteatus": {
+    "status": "generated",
+    "at": "2026-11-18T14:27:31.339Z",
+    "retryAfter": "2026-11-19T14:27:31.339Z"
+  },
+  "ru-dobrynya": {
+    "status": "generated",
+    "at": "2026-11-18T14:27:33.721Z",
+    "retryAfter": "2026-11-19T14:27:33.721Z"
+  },
+  "ca-amautalik": {
+    "status": "no_source",
+    "at": "2026-11-18T14:27:34.474Z",
+    "retryAfter": "2026-11-25T14:27:34.474Z"
+  },
+  "ru-twardowski-conjuring-up-the-spirit-of-barbara-before-sigismund-augustus": {
+    "status": "generated",
+    "at": "2026-11-18T14:27:41.499Z",
+    "retryAfter": "2026-11-19T14:27:41.499Z"
+  },
+  "pl-coat-of-arms-of-the-duchy-of-czersk": {
+    "status": "generated",
+    "at": "2026-11-18T14:27:43.791Z",
+    "retryAfter": "2026-11-19T14:27:43.791Z"
+  },
+  "us-night-doctors": {
+    "status": "generated",
+    "at": "2026-11-18T14:27:45.086Z",
+    "retryAfter": "2026-11-19T14:27:45.086Z"
+  },
+  "co-jurupari": {
+    "status": "generated",
+    "at": "2026-11-18T14:27:46.090Z",
+    "retryAfter": "2026-11-19T14:27:46.090Z"
   }
 }

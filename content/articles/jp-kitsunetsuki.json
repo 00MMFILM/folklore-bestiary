@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Kitsunetsuki",
+ "sourceLang": "en",
+ "sourceChars": 8442,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Kitsunetsuki",
+ "generatedAt": "2026-11-18T14:26:50.337Z",
+ "locales": {
+  "ko": {
+   "origin": "Kitsunetsuki(狐憑き)의 믿음은 헤이안 시대(794-1185)로 거슬러 올라간다. 악성 여우 영혼에 의한 질병의 귀속은 9세기 문헌인 《니혼 료이키》(Nihon ryōiki)에서 이미 확인되며, 따라서 kitsunetsuki에 대한 민속 신앙은 최소한 이 시기까지 거슬러 올라간다.",
+   "legend": "Kitsunetsuki는 문자 그대로 '여우에게 사로잡힌 상태'를 의미하며, 피해자는 보통 젊은 여성으로 묘사된다. 여우는 그녀의 손톱 아래나 가슴을 통해 들어온다고 전해진다. 피해자의 얼굴 표정은 여우의 표정과 유사하게 변한다고 한다. 여우는 자의로 사람을 소유할 수 있지만, kitsunetsuki는 종종 세습된 여우 고용주의 악의적인 의도로 귀속된다.",
+   "variants": "",
+   "culture": "Kitsunetsuki는 20세기 초까지 정신 질환에 대한 일반적인 진단으로 남아 있었다. 피해자의 비정상적인 행동에 대한 설명으로 여겨졌으며, 19세기 후반에는 발열을 유발하는 신체 질환이 종종 kitsunetsuki로 간주되었다. 이 미신은 점차 쇠퇴했지만, 여우 소유에 대한 이야기는 여전히 존재하며, Aum 신리쿄와 같은 집단의 구성원들이 소유되었다는 주장이 있었다."
+  },
+  "en": {
+   "origin": "The belief in Kitsunetsuki (狐憑き) dates back to the Heian period (794-1185). The attribution of illness to malevolent fox spirits is already confirmed in the 9th-century text 《Nihon ryōiki》 (日本霊異記), thus the folk belief in kitsunetsuki can be traced back at least to this period.",
+   "legend": "Kitsunetsuki literally means 'the state of being possessed by a fox', and the victim is usually described as a young woman. It is said that the fox enters through her fingernails or chest. The victim's facial expressions are said to change to resemble those of the fox. While a fox can possess a person voluntarily, kitsunetsuki is often attributed to the malicious intent of a hereditary fox employer.",
+   "variants": "",
+   "culture": "Kitsunetsuki remained a common diagnosis for mental illness until the early 20th century. It was considered an explanation for the victim's abnormal behavior, and in the late 19th century, physical ailments causing fever were often regarded as kitsunetsuki. This superstition gradually declined, but stories of fox possession still exist, and there have been claims of possession among members of groups like Aum Shinrikyo (オウム真理教)."
+  },
+  "zh": {
+   "origin": "Kitsunetsuki(狐憑き)的信仰可以追溯到平安时代(794-1185)。由恶性狐狸灵魂引起的疾病的归属在9世纪文献《日本霊異記》(Nihon ryōiki)中已经得到确认，因此，关于kitsunetsuki的民俗信仰至少可以追溯到这个时期。",
+   "legend": "Kitsunetsuki字面意思是'被狐狸附身的状态'，受害者通常被描述为年轻女性。传说狐狸通过她的指甲或胸部进入。受害者的面部表情据说会与狐狸的表情相似。狐狸可以自主地附身于人，但kitsunetsuki通常被归因于世袭的狐狸雇主的恶意意图。",
+   "variants": "",
+   "culture": "Kitsunetsuki在20世纪初仍然是精神疾病的普遍诊断。它被视为对受害者异常行为的解释，在19世纪末，导致发热的身体疾病常常被认为是kitsunetsuki。这种迷信逐渐衰退，但关于狐狸附身的故事仍然存在，像Aum真理教这样的团体成员曾声称被附身。"
+  },
+  "ja": {
+   "origin": "Kitsunetsuki(狐憑き)の信仰は平安時代(794-1185)に遡る。悪性の狐の霊による病気の帰属は9世紀の文献《日本霊異記》(Nihon ryōiki)ですでに確認されており、したがってkitsunetsukiに関する民俗信仰は少なくともこの時期まで遡る。",
+   "legend": "Kitsunetsukiは文字通り「狐に取り憑かれた状態」を意味し、被害者は通常若い女性として描かれる。狐は彼女の爪の下や胸を通じて入ってくると言われている。被害者の顔の表情は狐の表情に似て変わると言われている。狐は自らの意志で人を所有することができるが、kitsunetsukiはしばしば世襲された狐の雇い主の悪意によるものとされる。",
+   "variants": "",
+   "culture": "Kitsunetsukiは20世紀初頭まで精神疾患に対する一般的な診断として残っていた。被害者の異常な行動に対する説明と見なされ、19世紀後半には発熱を引き起こす身体疾患がしばしばkitsunetsukiと見なされていた。この迷信は徐々に衰退したが、狐の所有に関する話は今でも存在し、Aum真理教のような集団の構成員が所有されたという主張があった。"
+  }
+ }
+}

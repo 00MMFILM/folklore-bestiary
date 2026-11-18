@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "American Folklife Center",
+ "sourceLang": "en",
+ "sourceChars": 3893,
+ "sourceUrl": "https://en.wikipedia.org/wiki/American%20Folklife%20Center",
+ "generatedAt": "2026-11-18T14:26:30.902Z",
+ "locales": {
+  "ko": {
+   "origin": "미국 의회는 1976년에 워싱턴 D.C.에 있는 의회 도서관 내에 '미국 민속을 보존하고 전시하기 위해' 미국 민속 센터를 설립하였다. 이 센터는 1928년에 도서관에 설립된 민속 문화 아카이브를 포함하고 있으며, 이는 미국 민속 음악의 저장소로 기능한다. 센터와 그 소장품은 전 세계의 민속 및 민속 생활의 모든 측면을 포괄하도록 성장하였다.",
+   "legend": "미국 민속 센터는 미국의 민속과 민속 생활을 보존하고 전시하는 기관으로, 다양한 지역, 민족 및 문화 집단의 목소리와 음악을 기록하는 데 중점을 두고 있다. 이 센터는 약 600만 개의 아이템을 보유하고 있으며, 그 중 40만 개는 음성 기록이다. 수집된 자료에는 미국 민속 음악, 원주율 민속, 고대 영국 발라드, 조지아 해양 섬의 Gullah 방언으로 전해지는 'Bruh Rabbit' 이야기, 탈노예자들의 생생한 이야기, 아팔래치아의 바이올린 곡, 매사추세츠 로웰에서의 캄보디아 결혼식, 콜로라도 푸에블로의 성 요셉의 날 전통 등이 포함된다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "The United States Congress established the American Folklife Center in 1976 within the Library of Congress in Washington, D.C. This center includes the folklore cultural archive established in the library in 1928, which serves as a repository for American folk music. The center and its collections have grown to encompass all aspects of folklore and folklife from around the world.",
+   "legend": "The American Folklife Center is an institution dedicated to preserving and exhibiting American folklore and folklife, with a focus on documenting the voices and music of diverse regions, ethnicities, and cultural groups. The center holds approximately 6 million items, of which 400,000 are audio recordings. The collected materials include American folk music, oral traditions, ancient English ballads, the 'Bruh Rabbit' stories transmitted in the Gullah dialect of the Sea Islands of Georgia, vivid narratives from formerly enslaved individuals, Appalachian fiddle tunes, Cambodian wedding ceremonies in Lowell, Massachusetts, and the tradition of St. Joseph's Day in Pueblo, Colorado.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "美国国会在1976年于华盛顿D.C.的国会图书馆内成立了美国民俗中心，旨在“保存和展示美国民俗”。该中心包括1928年在图书馆成立的民俗文化档案馆，作为美国民俗音乐的存储库。中心及其收藏品已发展到涵盖全球民俗和民俗生活的各个方面。",
+   "legend": "美国民俗中心是一个保存和展示美国民俗及民俗生活的机构，重点记录不同地区、民族和文化群体的声音和音乐。该中心拥有约600万个项目，其中40万个是音频记录。收集的资料包括美国民俗音乐、原住民民俗、古老的英国民谣、乔治亚海洋岛屿的Gullah方言传承的'Bruh Rabbit'故事、逃奴者的生动故事、阿巴拉契亚的小提琴曲、马萨诸塞州洛威尔的柬埔寨婚礼、科罗拉多州普韦布洛的圣约瑟夫节传统等。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "アメリカ合衆国議会は1976年にワシントンD.C.にある議会図書館内に「アメリカ民俗を保存し展示するため」にアメリカ民俗センターを設立した。このセンターは1928年に図書館に設立された民俗文化アーカイブを含んでおり、これはアメリカ民俗音楽の貯蔵庫として機能する。センターとその所蔵品は、世界中の民俗および民俗生活のあらゆる側面を網羅するように成長した。",
+   "legend": "アメリカ民俗センターはアメリカの民俗と民俗生活を保存し展示する機関であり、さまざまな地域、民族および文化集団の声と音楽を記録することに重点を置いている。このセンターは約600万点のアイテムを保有しており、そのうち40万点は音声記録である。収集された資料にはアメリカ民俗音楽、原住民民俗、古代イギリスのバラード、ジョージア海洋島のGullah方言で伝えられる「Bruh Rabbit」物語、脱奴隷者の生々しい物語、アパラチアのバイオリン曲、マサチューセッツ州ローレルでのカンボジアの結婚式、コロラド州プエブロの聖ヨセフの日の伝統などが含まれる。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

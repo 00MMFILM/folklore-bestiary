@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Dobrynya",
+ "sourceLang": "en",
+ "sourceChars": 1610,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Dobrynya",
+ "generatedAt": "2026-11-18T14:27:33.721Z",
+ "locales": {
+  "ko": {
+   "origin": "Dobrynya는 블라디미르 대공의 외삼촌이자 교사로 알려져 있다. 그의 여동생 말루샤는 블라디미르의 어머니로 추정된다. Dobrynya의 역사적 생애와 블라디미르에 대한 영향력은 논란의 여지가 있으며, 그의 후손인 콘스탄틴 도브리니치와 손자 오스트로미르가 노브고로드에서 그의 가계를 이어갔다고 전해진다.",
+   "legend": "Dobrynya는 러시아 민속에서 불사의 보가티르인 도브리냐 니키티치의 역사적 원형으로 여겨진다. 그는 블라디미르가 노브고로드를 통치하도록 유도하고, 후에 블라디미르가 형 야로폴크에게서 키예프를 빼앗도록 설득한 인물로 전해진다. 또한, 그는 블라디미르와 함께 985년 볼가 불가리아에 대한 원정에 동행하였고, 그 과정에서 볼코프 강가에 페룬의 우상을 세운 것으로 알려져 있다.",
+   "variants": "",
+   "culture": "Dobrynya는 키예프 세례 이후 노브고로드 주민들을 '불로' 기독교로 강제 개종시켰다고 전해지며, 이 과정에서 그는 폭력적인 이교도 무리와 맞서 싸웠다. 이 사건은 그의 집이 불타고 아내와 여러 가족이 살해되는 비극으로 이어졌다."
+  },
+  "en": {
+   "origin": "Dobrynya is known to be the uncle and teacher of Prince Vladimir. His sister Malusha is presumed to be the mother of Vladimir. The historical life of Dobrynya and his influence on Vladimir is controversial, and it is said that his descendants, Konstantin Dobrynich and his grandson Ostromir, continued his lineage in Novgorod.",
+   "legend": "Dobrynya is considered the historical archetype of the immortal bogatyr Dobrynya Nikitich in Russian folklore. He is said to have encouraged Vladimir to rule Novgorod and later persuaded Vladimir to seize Kyiv from his brother Yaroslav. Additionally, he accompanied Vladimir on the campaign against Volga Bulgaria in 985, during which he is known to have erected an idol of Perun by the banks of the Volkov River.",
+   "variants": "",
+   "culture": "Dobrynya is said to have forcibly converted the residents of Novgorod to Christianity after the Baptism of Kyiv, during which he fought against violent pagan mobs. This incident led to the tragedy of his house being burned and the murder of his wife and several family members."
+  },
+  "zh": {
+   "origin": "Dobrynya是弗拉基米尔大公的外叔叔和老师。他的妹妹马卢莎被认为是弗拉基米尔的母亲。Dobrynya的历史生涯和对弗拉基米尔的影响力存在争议，他的后裔康斯坦丁·多布里尼奇和孙子奥斯特罗米尔在诺夫哥罗德延续了他的家族。",
+   "legend": "Dobrynya在俄罗斯民俗中被视为不死的博加提尔多布里尼亚·尼基季奇的历史原型。他被传说引导弗拉基米尔统治诺夫哥罗德，并后来说服弗拉基米尔从兄弟雅罗波尔克手中夺取基辅。此外，他与弗拉基米尔一起参加了985年对伏尔加保加利亚的远征，并在此过程中在沃尔科夫河岸建立了佩鲁恩的偶像。",
+   "variants": "",
+   "culture": "Dobrynya被传说在基辅洗礼后强迫诺夫哥罗德居民'不由自主'地皈依基督教，在此过程中他与暴力的异教徒群体作斗争。这一事件导致他的家被焚烧，妻子和多个家人被杀的悲剧。"
+  },
+  "ja": {
+   "origin": "ドブリーニャはウラジーミル大公の叔父であり、教師として知られています。彼の妹マリューシャはウラジーミルの母親であると推測されています。ドブリーニャの歴史的な生涯とウラジーミルへの影響力は議論の余地があり、彼の子孫であるコンスタンティン・ドブリニチと孫のオストロミールがノヴゴロドで彼の系譜を引き継いだと伝えられています。",
+   "legend": "ドブリーニャはロシアの民俗において不死のボガティール、ドブリーニャ・ニキティチの歴史的原型と見なされています。彼はウラジーミルがノヴゴロドを統治するように導き、後にウラジーミルが兄のヤロポルクからキエフを奪うように説得した人物として伝えられています。また、彼はウラジーミルと共に985年にボルガ・ブルガリアへの遠征に同行し、その過程でボルコフ川岸にペルーンの偶像を建立したとされています。",
+   "variants": "",
+   "culture": "ドブリーニャはキエフの洗礼以降、ノヴゴロドの住民を「不死」にキリスト教に強制改宗させたと伝えられ、この過程で彼は暴力的な異教徒の集団と戦いました。この事件は彼の家が燃え、妻や多くの家族が殺される悲劇につながりました。"
+  }
+ }
+}
