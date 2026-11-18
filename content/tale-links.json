@@ -127,6 +127,70 @@
    "n": "Charybdis"
   }
  ],
+ "gr-eurytion": [
+  {
+   "id": "gr-deianira",
+   "n": "Deianira"
+  },
+  {
+   "id": "gr-eurytus",
+   "n": "Eurytus"
+  },
+  {
+   "id": "gr-orthrus",
+   "n": "Orthrus"
+  }
+ ],
+ "gr-orthrus": [
+  {
+   "id": "gr-eurytion",
+   "n": "Eurytion"
+  }
+ ],
+ "gr-deianira": [
+  {
+   "id": "gr-eurytion",
+   "n": "Eurytion"
+  }
+ ],
+ "gr-eurytus": [
+  {
+   "id": "gr-eurytion",
+   "n": "Eurytion"
+  }
+ ],
+ "gr-eurytus-and-cteatus": [
+  {
+   "id": "gr-athena",
+   "n": "Athena"
+  },
+  {
+   "id": "gr-augeas",
+   "n": "Augeas"
+  },
+  {
+   "id": "gr-hera",
+   "n": "Hera"
+  }
+ ],
+ "gr-athena": [
+  {
+   "id": "gr-eurytus-and-cteatus",
+   "n": "Eurytus and Cteatus"
+  }
+ ],
+ "gr-hera": [
+  {
+   "id": "gr-eurytus-and-cteatus",
+   "n": "Eurytus and Cteatus"
+  }
+ ],
+ "gr-augeas": [
+  {
+   "id": "gr-eurytus-and-cteatus",
+   "n": "Eurytus and Cteatus"
+  }
+ ],
  "gr-lernaean-hydra": [
   {
    "id": "gr-hydra",
@@ -903,6 +967,38 @@
   {
    "id": "no-nidhogg",
    "n": "Nidhogg"
+  }
+ ],
+ "no-regin": [
+  {
+   "id": "no-fafnir",
+   "n": "Fáfnir"
+  },
+  {
+   "id": "no-hreiðmarr",
+   "n": "Hreiðmarr"
+  },
+  {
+   "id": "no-alberich",
+   "n": "알베리히"
+  }
+ ],
+ "no-fafnir": [
+  {
+   "id": "no-regin",
+   "n": "Regin"
+  }
+ ],
+ "no-alberich": [
+  {
+   "id": "no-regin",
+   "n": "Regin"
+  }
+ ],
+ "no-hreiðmarr": [
+  {
+   "id": "no-regin",
+   "n": "Regin"
   }
  ],
  "us-flying-africans": [

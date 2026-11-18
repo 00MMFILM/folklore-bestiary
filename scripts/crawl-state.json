@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 86,
+  "lastCategoryIndex": 89,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7948,7 +7948,31 @@
     8868788,
     2631941,
     69259786,
-    19072971
+    19072971,
+    72342768,
+    73347621,
+    2971069,
+    69325146,
+    74682223,
+    4695825,
+    1015808,
+    6756095,
+    39752460,
+    70728340,
+    13684287,
+    74853385,
+    17147328,
+    37717474,
+    41545066,
+    8755343,
+    51884483,
+    26861,
+    155406,
+    34895893,
+    288281,
+    1865995,
+    4876257,
+    71192297
   ],
   "discoveredCategories": [
     {
@@ -25702,10 +25726,26 @@
       "label": "Greek gods in art",
       "discoveredFrom": "Berlin Foundry Cup",
       "discoveredAt": 703
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Books about shamanism",
+      "iso": "_MULTI",
+      "label": "Books about shamanism",
+      "discoveredFrom": "The Archaeology of Shamanism",
+      "discoveredAt": 705
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Books about spirituality",
+      "iso": "_MULTI",
+      "label": "Books about spirituality",
+      "discoveredFrom": "Breaking Open the Head",
+      "discoveredAt": 705
     }
   ],
-  "totalAdded": 4420,
-  "runs": 705,
-  "lastRun": "2026-11-18T00:15:12.342Z",
-  "lastDiscoveredIndex": 870
+  "totalAdded": 4425,
+  "runs": 706,
+  "lastRun": "2026-11-18T14:50:23.087Z",
+  "lastDiscoveredIndex": 873
 }
