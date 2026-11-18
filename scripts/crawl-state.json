@@ -1,5 +1,5 @@
 {
-  "lastCategoryIndex": 89,
+  "lastCategoryIndex": 92,
   "processedPageIds": [
     27551093,
     40572945,
@@ -7972,7 +7972,25 @@
     288281,
     1865995,
     4876257,
-    71192297
+    71192297,
+    47430056,
+    765131,
+    48834182,
+    92815,
+    92821,
+    38264968,
+    93738,
+    93360,
+    74142091,
+    30913,
+    8566026,
+    28219707,
+    5695992,
+    152308,
+    341871,
+    2509353,
+    863888,
+    67439351
   ],
   "discoveredCategories": [
     {
@@ -25742,10 +25760,18 @@
       "label": "Books about spirituality",
       "discoveredFrom": "Breaking Open the Head",
       "discoveredAt": 705
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Legendary North American people",
+      "iso": "_MULTI",
+      "label": "Legendary North American people",
+      "discoveredFrom": "Chief Owasippe",
+      "discoveredAt": 706
     }
   ],
-  "totalAdded": 4425,
-  "runs": 706,
-  "lastRun": "2026-11-18T14:50:23.087Z",
-  "lastDiscoveredIndex": 873
+  "totalAdded": 4430,
+  "runs": 707,
+  "lastRun": "2026-11-18T23:43:24.452Z",
+  "lastDiscoveredIndex": 876
 }
