@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Snow Lion",
+ "sourceLang": "en",
+ "sourceChars": 5585,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Snow%20Lion",
+ "generatedAt": "2026-11-19T14:37:42.166Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "눈 사자는 티베트의 천상의 동물로, 티베트의 상징으로 여겨지며, 눈 덮인 산맥과 빙하를 대표하고 힘과 강인함, 두려움 없음과 기쁨을 상징한다고 전해진다. 눈 사자는 '네 가지 위엄' 중 하나로, 일반적으로 흰색에 청록색 갈기를 가진 모습으로 묘사된다. '서쪽으로의 여행'이라는 1592년에 출판된 작품에서는 눈 사자가 괴물 영혼 중 하나로 등장한다.",
+   "variants": "",
+   "culture": "눈 사자는 티베트 민속 노래와 속담에서 자주 언급된다. 눈 사자는 '짐승의 왕'으로 여겨지며, 다른 동물들보다 높은 산에서 살고 있다고 믿어진다. 또한 눈 사자는 높은 산에서 사는 은둔자와 요가 수행자를 나타내기도 한다. 티베트의 위대한 요가 수행자 밀라레파는 한 번 꿈에서 눈 사자를 보았고, 그 의미를 해석하기 위해 마르파가 호출되었다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "The snow lion is a celestial animal of Tibet, regarded as a symbol of Tibet, representing snow-covered mountain ranges and glaciers, and is said to symbolize strength, resilience, fearlessness, and joy. The snow lion is depicted as one of the 'Four Dignities,' typically shown with a white body and turquoise mane. In the work published in 1592 titled 'Journey to the West,' the snow lion appears as one of the monstrous spirits.",
+   "variants": "",
+   "culture": "The snow lion is frequently mentioned in Tibetan folk songs and proverbs. It is considered the 'king of beasts' and is believed to live at higher altitudes than other animals. Additionally, the snow lion also represents hermits and yogis who reside in the high mountains. The great Tibetan yogi Milarepa once saw a snow lion in a dream, and Marpa was called upon to interpret its meaning."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "雪狮是西藏的天上动物，被视为西藏的象征，代表着雪覆盖的山脉和冰川，象征着力量、坚韧、无畏和快乐。雪狮被认为是“四大威严”之一，通常被描绘为白色和青绿色鬃毛的形象。在1592年出版的作品《向西的旅行》中，雪狮作为怪物灵魂之一出现。",
+   "variants": "",
+   "culture": "雪狮在西藏民间歌曲和谚语中经常被提及。雪狮被视为“兽中之王”，相信它生活在比其他动物更高的山上。此外，雪狮也代表住在高山上的隐士和瑜伽修行者。西藏伟大的瑜伽修行者米拉瑞巴曾在梦中见过雪狮，并召唤玛尔巴来解读其意义。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "雪獅子（ユキシシ）はチベットの天上の動物で、チベットの象徴とされ、雪に覆われた山脈と氷河を代表し、力と強さ、恐れのなさと喜びを象徴すると伝えられています。雪獅子は「四つの威厳」の一つで、一般的に白色に青緑色のたてがみを持つ姿で描かれます。「西への旅」という1592年に出版された作品では、雪獅子は怪物の霊の一つとして登場します。",
+   "variants": "",
+   "culture": "雪獅子はチベットの民俗歌や諺で頻繁に言及されます。雪獅子は「獣の王」と見なされ、他の動物よりも高い山に住んでいると信じられています。また、雪獅子は高い山に住む隠者やヨガの修行者を表すこともあります。チベットの偉大なヨガの修行者ミラレパは、一度夢の中で雪獅子を見て、その意味を解釈するためにマルパが呼ばれました。"
+  }
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Connla",
+ "sourceLang": "en",
+ "sourceChars": 5820,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Connla",
+ "generatedAt": "2026-11-19T14:38:21.538Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "Connla 또는 Conlaoch는 아일랜드 신화의 울스터 사이클에 등장하는 인물로, 울스터의 전사인 Cú Chulainn과 스코틀랜드 전사 여성 Aífe의 아들이다. 그는 스코틀랜드에서 어머니에 의해 홀로 자랐다. Connla는 'Aided Óenfhir Aífe'라는 이야기에서 등장하며, 이 이야기는 대서사시 'Táin Bó Cúailnge'의 전편으로 알려져 있다. Connla는 아버지인 Cú Chulainn이 남긴 금 반지를 착용할 수 있을 만큼 성장했을 때 아일랜드로 보내져야 한다는 약속을 받지만, 세 가지 금기를 지켜야 한다. 그는 아일랜드에 도착한 후 전투 기술을 연습하며, 울스터 전사들에 의해 그의 전투 능력이 인식된다. 결국 Cú Chulainn과의 전투에서 자신이 아버지의 아들임을 알리지 않은 채 치명상을 입고 죽게 된다.",
+   "variants": "Aided Óenfhir Aífe의 두 가지 버전이 존재한다. 가장 초기의 버전은 9세기 또는 10세기로 추정되는 'Yellow Book of Lecan'에서 발견된 고대 아일랜드어 텍스트이다. 이 외에도 'TCD 1336'에 있는 후속 버전, Lechtán Óenfhir Aífe의 dinnsenchas, Geoffrey Keating의 'History of Ireland', 그리고 'Oidheadh Chonlaoich'라는 제목의 초기 현대 아일랜드어 버전에서도 이 이야기가 나타난다.",
+   "culture": "Connla의 죽음 이야기는 W. B. Yeats의 시 'Cuchulain's Fight with the Sea'에서 언급되며, 1892년에 처음 출판되었다. 이 시적 재구성은 원래 신화와 몇 가지 점에서 다르며, Connla를 Aífe의 아들이 아닌 Emer의 아들로 묘사한다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Connla (or Conlaoch) is a character from the Ulster Cycle of Irish mythology, the son of the Ulster warrior Cú Chulainn and the Scottish warrior woman Aífe. He was raised alone by his mother in Scotland. Connla appears in the tale 'Aided Óenfhir Aífe', which is known as a precursor to the epic 'Táin Bó Cúailnge'. Connla is promised that he must be sent to Ireland when he has grown enough to wear the gold ring left by his father, but he must adhere to three taboos. After arriving in Ireland, he practices his combat skills, and his fighting abilities are recognized by the Ulster warriors. Ultimately, he is mortally wounded in a battle with Cú Chulainn without revealing that he is his father's son.",
+   "variants": "There are two versions of 'Aided Óenfhir Aífe'. The earliest version is an ancient Irish text found in the 'Yellow Book of Lecan', estimated to date from the 9th or 10th century. Additionally, this story appears in a later version in 'TCD 1336', in the dinnsenchas of Lechtán Óenfhir Aífe, in Geoffrey Keating's 'History of Ireland', and in an early modern Irish version titled 'Oidheadh Chonlaoich'.",
+   "culture": "The story of Connla's death is mentioned in W. B. Yeats's poem 'Cuchulain's Fight with the Sea', first published in 1892. This poetic reconstruction differs from the original myth in several ways, depicting Connla as the son of Emer rather than Aífe."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "Connla 或者 Conlaoch 是爱尔兰神话乌尔斯特周期中的人物，是乌尔斯特的战士 Cú Chulainn 和苏格兰女战士 Aífe 的儿子。他在苏格兰由母亲独自抚养长大。Connla 出现在名为 'Aided Óenfhir Aífe' 的故事中，该故事被认为是史诗 'Táin Bó Cúailnge' 的前篇。Connla 收到一个承诺，当他长到可以佩戴父亲 Cú Chulainn 留下的金戒指时，就要被送回爱尔兰，但他必须遵守三个禁忌。他到达爱尔兰后练习战斗技巧，乌尔斯特的战士们认识到他的战斗能力。最终，在与 Cú Chulainn 的战斗中，他没有透露自己是父亲的儿子，便受了致命伤而死。",
+   "variants": "存在 'Aided Óenfhir Aífe' 的两个版本。最早的版本是发现于9世纪或10世纪的 'Yellow Book of Lecan' 中的古爱尔兰语文本。此外，这个故事还出现在 'TCD 1336' 的后续版本、Lechtán Óenfhir Aífe 的 dinnsenchas、Geoffrey Keating 的 'History of Ireland' 以及标题为 'Oidheadh Chonlaoich' 的早期现代爱尔兰语版本中。",
+   "culture": "Connla 的死亡故事在 W. B. Yeats 的诗 'Cuchulain's Fight with the Sea' 中提到，该诗于1892年首次出版。这种诗意的重构在某些方面与原始神话不同，并将 Connla 描述为 Aífe 的儿子，而不是 Emer 的儿子。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "Connla（コンラ）は、アイルランド神話のウルスターサイクルに登場する人物で、ウルスターの戦士Cú Chulainn（クー・フーリン）とスコットランドの戦士女性Aífe（アイフェ）の息子である。彼はスコットランドで母親によって一人で育てられた。Connlaは『Aided Óenfhir Aífe』という物語に登場し、この物語は大叙事詩『Táin Bó Cúailnge』の前編として知られている。Connlaは父Cú Chulainnが残した金の指輪を着用できるほど成長したとき、アイルランドに送られるという約束を受けるが、三つの禁忌を守らなければならない。彼はアイルランドに到着した後、戦闘技術を練習し、ウルスターの戦士たちによってその戦闘能力が認識される。最終的にCú Chulainnとの戦闘で、自分が父の息子であることを知らせずに致命傷を負い、死ぬことになる。",
+   "variants": "『Aided Óenfhir Aífe』の二つのバージョンが存在する。最も初期のバージョンは9世紀または10世紀に推定される『Yellow Book of Lecan』で発見された古代アイルランド語のテキストである。この他にも『TCD 1336』にある後続のバージョン、Lechtán Óenfhir Aífeのdinnsenchas、Geoffrey Keatingの『History of Ireland』、そして『Oidheadh Chonlaoich』というタイトルの初期現代アイルランド語バージョンでもこの物語が現れる。",
+   "culture": "Connlaの死の物語はW. B. Yeats（W・B・イェイツ）の詩『Cuchulain's Fight with the Sea』で言及され、1892年に初めて出版された。この詩的再構成は元の神話とはいくつかの点で異なり、ConnlaをAífeの息子ではなくEmer（エマー）の息子として描いている。"
+  }
+ }
+}

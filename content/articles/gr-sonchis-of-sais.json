@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Sonchis of Sais",
+ "sourceLang": "en",
+ "sourceChars": 1558,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Sonchis%20of%20Sais",
+ "generatedAt": "2026-11-19T14:38:41.564Z",
+ "locales": {
+  "ko": {
+   "origin": "Sonchis of Sais는 기원전 594년경 활동한 이집트의 사제이다. 그의 역사적 존재 여부는 논란의 여지가 있다.",
+   "legend": "Sonchis는 플라톤의 대화편인 '티마이오스'와 '크리티아스'에서 아테네의 정치가 솔론이 이집트의 사이스에서 만난 사제로 언급된다. 그는 9000년 전 아테네가 아틀란티스라는 강대국과 충돌했으며, 그 후 아틀란티스가 재앙으로 멸망했다는 이야기를 전해준다. 플라톤의 대화편에서는 사제의 이름이 언급되지 않지만, 플루타르크는 그의 저서 '솔론의 생애'에서 이 노쇠한 사제를 Sonchis로 식별하였다.",
+   "variants": "플루타르크는 '이시스와 오시리스에 관하여'라는 책에서 이집트의 사제들이 그리스 철학자들에게 조언을 주었다고 설명하며, 솔온이 Sonchis에게서 아틀란티스 이야기를 배웠다고 언급한다.",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Sonchis of Sais is a priest from Egypt who was active around 594 BC. The historical existence of him is subject to controversy.",
+   "legend": "Sonchis is mentioned as the priest whom the Athenian politician Solon met in Egypt's Sais in Plato's dialogues 'Timaeus' and 'Critias'. He tells the story of how Athens clashed with a powerful nation called Atlantis 9,000 years ago, after which Atlantis was destroyed by a disaster. Although the priest's name is not mentioned in Plato's dialogues, Plutarch identified this aged priest as Sonchis in his work 'The Life of Solon'.",
+   "variants": "Plutarch explains in his book 'On Isis and Osiris' that Egyptian priests gave advice to Greek philosophers, mentioning that Solon learned the story of Atlantis from Sonchis.",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "Sonchis of Sais是公元前594年左右活动的埃及祭司。他的历史存在与否存在争议。",
+   "legend": "Sonchis在柏拉图的对话篇《蒂迈欧斯》和《克里提亚斯》中被提到，作为雅典政治家索伦在埃及的赛斯遇到的祭司。他讲述了9000年前雅典与名为亚特兰蒂斯的强国发生冲突，随后亚特兰蒂斯因灾难而灭亡的故事。在柏拉图的对话篇中没有提到祭司的名字，但普鲁塔克在他的著作《索伦的生涯》中将这位年迈的祭司识别为Sonchis。",
+   "variants": "普鲁塔克在《关于伊希斯和奥西里斯》中解释说，埃及的祭司们曾向希腊哲学家们提供建议，并提到索伦是从Sonchis那里学到了亚特兰蒂斯的故事。",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "ソンキス・オブ・サイス（Sonchis of Sais）は紀元前594年頃に活動したエジプトの祭司である。彼の歴史的存在については議論の余地がある。",
+   "legend": "ソンキスはプラトンの対話篇『ティマイオス』と『クリティアス』において、アテネの政治家ソロンがエジプトのサイスで出会った祭司として言及されている。彼は9000年前にアテネがアトランティスという大国と衝突し、その後アトランティスが災害によって滅びたという話を伝えている。プラトンの対話篇では祭司の名前は言及されていないが、プルタルコスは彼の著書『ソロンの生涯』でこの老いた祭司をソンキス（Sonchis）として特定した。",
+   "variants": "プルタルコスは『イシスとオシリスについて』という書籍で、エジプトの祭司たちがギリシャの哲学者たちに助言を与えたと説明し、ソロンがソンキスからアトランティスの話を学んだと述べている。",
+   "culture": ""
+  }
+ }
+}

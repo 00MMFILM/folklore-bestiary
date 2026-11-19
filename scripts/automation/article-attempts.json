@@ -1048,5 +1048,155 @@
     "status": "generated",
     "at": "2026-11-18T14:27:46.090Z",
     "retryAfter": "2026-11-19T14:27:46.090Z"
+  },
+  "cn-snow-lion": {
+    "status": "generated",
+    "at": "2026-11-19T14:37:42.167Z",
+    "retryAfter": "2026-11-20T14:37:42.167Z"
+  },
+  "jp-ishikawa-goemon": {
+    "status": "generated",
+    "at": "2026-11-19T14:37:45.111Z",
+    "retryAfter": "2026-11-20T14:37:45.111Z"
+  },
+  "fj-degei": {
+    "status": "generated",
+    "at": "2026-11-19T14:37:50.391Z",
+    "retryAfter": "2026-11-20T14:37:50.391Z"
+  },
+  "ph-berberoka": {
+    "status": "thin",
+    "at": "2026-11-19T14:37:51.183Z",
+    "retryAfter": "2026-11-26T14:37:51.183Z"
+  },
+  "mk-kuzman-kapidan": {
+    "status": "generated",
+    "at": "2026-11-19T14:37:51.378Z",
+    "retryAfter": "2026-11-20T14:37:51.378Z"
+  },
+  "cn-dragon-turtle": {
+    "status": "generated",
+    "at": "2026-11-19T14:37:54.585Z",
+    "retryAfter": "2026-11-20T14:37:54.585Z"
+  },
+  "in-brhatkathaslokasamgraha": {
+    "status": "rejected",
+    "at": "2026-11-19T14:37:54.724Z",
+    "retryAfter": "2026-11-26T14:37:54.724Z"
+  },
+  "sa-werehyena": {
+    "status": "rejected",
+    "at": "2026-11-19T14:37:57.695Z",
+    "retryAfter": "2026-11-26T14:37:57.695Z"
+  },
+  "ph-angalo": {
+    "status": "generated",
+    "at": "2026-11-19T14:38:01.942Z",
+    "retryAfter": "2026-11-20T14:38:01.942Z"
+  },
+  "tr-kormos": {
+    "status": "generated",
+    "at": "2026-11-19T14:38:03.074Z",
+    "retryAfter": "2026-11-20T14:38:03.074Z"
+  },
+  "il-tannin-mythology": {
+    "status": "rejected",
+    "at": "2026-11-19T14:38:03.617Z",
+    "retryAfter": "2026-11-26T14:38:03.617Z"
+  },
+  "vn-au-co": {
+    "status": "generated",
+    "at": "2026-11-19T14:38:07.412Z",
+    "retryAfter": "2026-11-20T14:38:07.412Z"
+  },
+  "ie-onchu": {
+    "status": "thin",
+    "at": "2026-11-19T14:38:08.227Z",
+    "retryAfter": "2026-11-26T14:38:08.227Z"
+  },
+  "il-leviathan": {
+    "status": "generated",
+    "at": "2026-11-19T14:38:16.750Z",
+    "retryAfter": "2026-11-20T14:38:16.750Z"
+  },
+  "gb-fionn-mac-cumhaill": {
+    "status": "generated",
+    "at": "2026-11-19T14:38:17.542Z",
+    "retryAfter": "2026-11-20T14:38:17.542Z"
+  },
+  "ie-dealgnaid": {
+    "status": "thin",
+    "at": "2026-11-19T14:38:17.576Z",
+    "retryAfter": "2026-11-26T14:38:17.576Z"
+  },
+  "eg-serpopard": {
+    "status": "generated",
+    "at": "2026-11-19T14:38:18.120Z",
+    "retryAfter": "2026-11-20T14:38:18.120Z"
+  },
+  "no-habrok": {
+    "status": "thin",
+    "at": "2026-11-19T14:38:19.101Z",
+    "retryAfter": "2026-11-26T14:38:19.101Z"
+  },
+  "no-andhrimnir": {
+    "status": "thin",
+    "at": "2026-11-19T14:38:20.664Z",
+    "retryAfter": "2026-11-26T14:38:20.664Z"
+  },
+  "ie-connla": {
+    "status": "generated",
+    "at": "2026-11-19T14:38:21.538Z",
+    "retryAfter": "2026-11-20T14:38:21.538Z"
+  },
+  "no-otr-mythological-character": {
+    "status": "thin",
+    "at": "2026-11-19T14:38:22.343Z",
+    "retryAfter": "2026-11-26T14:38:22.343Z"
+  },
+  "no-high-just-as-high-and-third": {
+    "status": "generated",
+    "at": "2026-11-19T14:38:28.780Z",
+    "retryAfter": "2026-11-20T14:38:28.780Z"
+  },
+  "de-legend-of-the-leather-bridge": {
+    "status": "generated",
+    "at": "2026-11-19T14:38:29.653Z",
+    "retryAfter": "2026-11-20T14:38:29.653Z"
+  },
+  "no-huginn-and-muninn": {
+    "status": "generated",
+    "at": "2026-11-19T14:38:29.677Z",
+    "retryAfter": "2026-11-20T14:38:29.677Z"
+  },
+  "se-elsa-thomasdotter": {
+    "status": "generated",
+    "at": "2026-11-19T14:38:35.081Z",
+    "retryAfter": "2026-11-20T14:38:35.081Z"
+  },
+  "gr-sonchis-of-sais": {
+    "status": "generated",
+    "at": "2026-11-19T14:38:41.565Z",
+    "retryAfter": "2026-11-20T14:38:41.565Z"
+  },
+  "gr-cacodemon": {
+    "status": "generated",
+    "at": "2026-11-19T14:38:43.609Z",
+    "retryAfter": "2026-11-20T14:38:43.609Z"
+  },
+  "gr-ocypete": {
+    "status": "generated",
+    "at": "2026-11-19T14:38:46.210Z",
+    "retryAfter": "2026-11-20T14:38:46.210Z"
+  },
+  "gr-actaeon": {
+    "status": "generated",
+    "at": "2026-11-19T14:38:50.058Z",
+    "retryAfter": "2026-11-20T14:38:50.058Z"
+  },
+  "gr-alcyoneus-mythology": {
+    "status": "generated",
+    "at": "2026-11-19T14:38:54.786Z",
+    "retryAfter": "2026-11-20T14:38:54.786Z"
   }
 }

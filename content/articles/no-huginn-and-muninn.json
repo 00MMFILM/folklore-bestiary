@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Huginn and Muninn",
+ "sourceLang": "en",
+ "sourceChars": 13084,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Huginn%20and%20Muninn",
+ "generatedAt": "2026-11-19T14:38:29.677Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "노르웨이 신화에서, 후긴(Huginn)과 문닌(Muninn)은 오딘(Odin) 신의 두 까마귀로, 세계(미드가르드)를 날아다니며 정보를 수집하고 소문을 전하는 역할을 한다. 후긴과 문닌은 13세기에 편찬된 '시가 에다'(Poetic Edda)와 '산문 에다'(Prose Edda), 그리고 '하임스크링글라'(Heimskringla)에서 언급된다. '시가 에다'에서는 오딘이 변 disguise하여 후긴과 문닌이 매일 비행 후 돌아오지 않을까 걱정하는 장면이 있다. '산문 에다'에서는 오딘이 후긴과 문닌을 자신의 어깨에 앉히고 그들이 보는 모든 것을 보고하게 한다고 설명한다. 또한, '하임스크링글라'에서는 오딘이 두 까마귀에게 말을 할 수 있는 능력을 부여했다고 전해진다.",
+   "variants": "",
+   "culture": "후긴과 문닌은 현대 대중문화에서도 자주 등장한다. 마블 코믹스에서는 이들을 기반으로 한 캐릭터들이 등장하며, 비디오 게임 '에이스 컴뱃 7: 스카이즈 언노운'에서도 같은 이름의 보스가 등장한다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "In Norse mythology, Huginn and Muninn are the two ravens of the god Odin, who fly around the world (Midgard) gathering information and spreading rumors. Huginn and Muninn are mentioned in the 'Poetic Edda' and 'Prose Edda', as well as in 'Heimskringla', compiled in the 13th century. In the 'Poetic Edda', there is a scene where Odin disguises himself and worries that Huginn and Muninn might not return after their daily flights. The 'Prose Edda' explains that Odin has Huginn and Muninn sit on his shoulders and report everything they see. Additionally, 'Heimskringla' recounts that Odin granted the two ravens the ability to speak.",
+   "variants": "",
+   "culture": "Huginn and Muninn also frequently appear in modern popular culture. In Marvel Comics, characters based on them appear, and in the video game 'Ace Combat 7: Skies Unknown', there is a boss with the same name."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "在挪威神话中，后金(Huginn)和梦宁(Muninn)是奥丁(Odin)神的两只乌鸦，它们在世界(米德加德)上空飞翔，收集信息并传播谣言。后金和梦宁在13世纪编纂的《诗体埃达》(Poetic Edda)和《散文埃达》(Prose Edda)，以及《海姆斯克林格拉》(Heimskringla)中都有提及。《诗体埃达》中有一幕，奥丁伪装成其他人，担心后金和梦宁每天飞行后不会回来。《散文埃达》则解释了奥丁将后金和梦宁安放在自己的肩膀上，让它们报告所见的一切。此外，《海姆斯克林格拉》还传说奥丁赋予这两只乌鸦说话的能力。",
+   "variants": "",
+   "culture": "后金和梦宁在现代大众文化中也经常出现。在漫威漫画中，以它们为基础的角色出现，而在视频游戏《王牌战斗机7：未知天空》中也有同名的Boss出现。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ノルウェー神話において、フーギン（Huginn）とムニン（Muninn）はオーディン（Odin）神の二羽のカラスであり、世界（ミズガルズ）を飛び回り情報を集め、噂を伝える役割を果たしている。フーギンとムニンは13世紀に編纂された『詩のエッダ』（Poetic Edda）や『散文のエッダ』（Prose Edda）、さらに『ヘイムスクリングラ』（Heimskringla）に言及されている。『詩のエッダ』ではオーディンが変装してフーギンとムニンが毎日飛行した後に戻らないのではないかと心配する場面がある。『散文のエッダ』ではオーディンがフーギンとムニンを自分の肩に座らせ、彼らが見るすべてを報告させると説明されている。また、『ヘイムスクリングラ』ではオーディンが二羽のカラスに言葉を話す能力を与えたと伝えられている。",
+   "variants": "",
+   "culture": "フーギンとムニンは現代のポップカルチャーでも頻繁に登場する。マーベル・コミックスでは彼らを基にしたキャラクターが登場し、ビデオゲーム『エースコンバット7: スカイズ・アンノウン』でも同じ名前のボスが登場する。"
+  }
+ }
+}

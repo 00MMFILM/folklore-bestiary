@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Legend of the Leather Bridge",
+ "sourceLang": "en",
+ "sourceChars": 5632,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Legend%20of%20the%20Leather%20Bridge",
+ "generatedAt": "2026-11-19T14:38:29.653Z",
+ "locales": {
+  "ko": {
+   "origin": "독일과 스위스의 여러 지역에서 전해지는 '가죽 다리 전설'은 'lederne'라는 단어가 '사다리'나 '랜턴'을 의미할 수도 있음을 시사한다.",
+   "legend": "전설에 따르면, 팔라티나 지역의 에르펜슈타인 성과 스판겐베르크 성을 연결하는 가죽 다리가 있었다. 두 형제 또는 가까운 친구가 서로를 자주 방문하기 위해 이 다리를 건설했으나, 결국 다리 위에서의 격렬한 다툼으로 인해 한 형제가 죽게 되었다. 이후 두 성의 주인들 사이에는 원한이 생겼고, 서로를 해치기 위해 노력했다. 이 전설은 두 성이 서로 다른 지배자에게 속해 있었던 역사적 배경을 반영하고 있다.",
+   "variants": "에이펠 지역에서는 스톨첸부르크 성과 피엘슈타인 성을 연결하는 가죽 다리가 있었다고 전해지며, 이 성의 기사들은 농민들에게 세금을 부과하면서도 자녀들이 다리 위에서 빵으로 스키틀을 하며 놀도록 허락했다고 한다. 사우어란트 지역에서는 악마가 루덴부르크 성과 아른스베르크 성 사이에 가죽 다리를 만들었다는 전설이 있다. 뇌르들링거 리스 지역에서는 세 개의 자매 성이 연결된 가죽 다리가 있었고, 이를 자른 자는 자신의 성이 땅에 삼켜질 것이라는 전설이 있다.",
+   "culture": ""
+  },
+  "en": {
+   "origin": "The 'leather bridge legend' passed down in various regions of Germany and Switzerland suggests that the word 'lederne' may also mean 'ladder' or 'lantern'.",
+   "legend": "According to the legend, there was a leather bridge connecting the castles of Erfenstein (Erfenstein) and Spangenberg (Spangenberg) in the Palatinate region. Two brothers or close friends built this bridge to visit each other frequently, but eventually, a fierce argument on the bridge led to one brother's death. Afterward, a grudge arose between the owners of the two castles, and they sought to harm each other. This legend reflects the historical background of the two castles belonging to different rulers.",
+   "variants": "In the Eifel region, it is said that there was a leather bridge connecting the castles of Stolzenburg (Stolzenburg) and Pielstein (Pielstein), and the knights of these castles allowed the peasants to play skittles with bread on the bridge while imposing taxes on them. In the Sauerland region, there is a legend that the devil made a leather bridge between the castles of Ludenburg (Ludenburg) and Arnsberg (Arnsberg). In the Nördlinger Ries region, there was a leather bridge connecting three sister castles, and the legend states that whoever cuts it will have their castle swallowed by the earth.",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "德国和瑞士的多个地区流传着“皮革桥传说”，这暗示着“lederne”这个词可能意味着“梯子”或“灯笼”。",
+   "legend": "传说中，帕拉蒂纳地区的埃尔芬施泰因城堡和斯潘根堡城堡之间有一座皮革桥。两个兄弟或亲密朋友为了经常互相拜访而建造了这座桥，但最终因在桥上的激烈争吵导致一位兄弟死去。之后，两座城堡的主人之间产生了仇恨，努力互相伤害。这个传说反映了两座城堡曾属于不同统治者的历史背景。",
+   "variants": "在艾费尔地区，传说有一座连接斯托尔岑堡城堡和皮尔施泰因城堡的皮革桥，这座城堡的骑士们在向农民征税的同时，也允许他们的孩子在桥上用面包滑雪玩耍。在萨乌兰特地区，有一个传说，恶魔在鲁登堡城堡和阿恩斯堡城堡之间建造了一座皮革桥。在诺尔德林根里斯地区，有三座姐妹城堡连接的皮革桥，传说切断这座桥的人会让自己的城堡被大地吞噬。",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "ドイツとスイスのいくつかの地域で伝えられる「皮の橋の伝説」は、「lederne」という言葉が「はしご」や「ランタン」を意味する可能性があることを示唆している。",
+   "legend": "伝説によれば、パラティナ地域のエルフェンシュタイン城とシュパンゲンベルク城を結ぶ皮の橋があった。二人の兄弟または親しい友人が互いに頻繁に訪れるためにこの橋を建設したが、最終的に橋の上での激しい争いによって一人の兄弟が亡くなった。その後、二つの城の主の間に恨みが生まれ、お互いを傷つけ合うために努力した。この伝説は二つの城が異なる支配者に属していた歴史的背景を反映している。",
+   "variants": "アイフェル地域では、シュトルツェンブルク城とピエルシュタイン城を結ぶ皮の橋があったと伝えられ、この城の騎士たちは農民に税金を課しながらも、子供たちが橋の上でパンでスキットルをして遊ぶことを許可していたと言われている。ザウアーラント地域では、悪魔がルーデンブルク城とアーンスベルク城の間に皮の橋を作ったという伝説がある。ネールドリンガーリース地域では、三つの姉妹城がつながる皮の橋があり、それを切った者は自分の城が地面に飲み込まれるという伝説がある。",
+   "culture": ""
+  }
+ }
+}
