@@ -115,6 +115,18 @@
    "n": "Aerope"
   }
  ],
+ "gr-alcyoneus-mythology": [
+  {
+   "id": "gr-hypnos",
+   "n": "Hypnos"
+  }
+ ],
+ "gr-hypnos": [
+  {
+   "id": "gr-alcyoneus-mythology",
+   "n": "Alcyoneus (mythology)"
+  }
+ ],
  "gr-charybdis": [
   {
    "id": "gr-scylla",
@@ -201,6 +213,38 @@
   {
    "id": "gr-lernaean-hydra",
    "n": "Lernaean Hydra"
+  }
+ ],
+ "gr-ocypete": [
+  {
+   "id": "gr-aello",
+   "n": "Aello"
+  },
+  {
+   "id": "gr-boreads",
+   "n": "Boreads"
+  },
+  {
+   "id": "gr-celaeno",
+   "n": "Celaeno"
+  }
+ ],
+ "gr-aello": [
+  {
+   "id": "gr-ocypete",
+   "n": "오퀴페테"
+  }
+ ],
+ "gr-celaeno": [
+  {
+   "id": "gr-ocypete",
+   "n": "오퀴페테"
+  }
+ ],
+ "gr-boreads": [
+  {
+   "id": "gr-ocypete",
+   "n": "오퀴페테"
   }
  ],
  "gt-camazotz": [
@@ -1025,10 +1069,10 @@
    "n": "Malsumis"
   }
  ],
- "vn-thanh-giong": [
+ "vn-au-co": [
   {
-   "id": "vn-au-co",
-   "n": "Âu Cơ"
+   "id": "vn-thanh-giong",
+   "n": "Thánh Gióng"
   },
   {
    "id": "vn-kinh-duong-vuong",
@@ -1037,14 +1081,22 @@
  ],
  "vn-kinh-duong-vuong": [
   {
+   "id": "vn-au-co",
+   "n": "Âu Cơ"
+  },
+  {
    "id": "vn-thanh-giong",
    "n": "Thánh Gióng"
   }
  ],
- "vn-au-co": [
+ "vn-thanh-giong": [
   {
-   "id": "vn-thanh-giong",
-   "n": "Thánh Gióng"
+   "id": "vn-au-co",
+   "n": "Âu Cơ"
+  },
+  {
+   "id": "vn-kinh-duong-vuong",
+   "n": "낀즈엉브엉"
   }
  ],
  "wls-addanc": [

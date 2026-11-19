@@ -1,19 +1,6 @@
 {
-  "lastCategoryIndex": 95,
+  "lastCategoryIndex": 98,
   "processedPageIds": [
-    27551093,
-    40572945,
-    37104611,
-    37157997,
-    37439317,
-    37095497,
-    37133777,
-    37364625,
-    37180194,
-    83415890,
-    38152666,
-    83421160,
-    1588551,
     6672740,
     3867767,
     425996,
@@ -7998,7 +7985,22 @@
     90760,
     1052848,
     61875059,
-    77238
+    77238,
+    84405144,
+    56392403,
+    84713006,
+    146091,
+    6073684,
+    1860503,
+    60457151,
+    48721969,
+    28017468,
+    27862198,
+    25345505,
+    12988257,
+    33073837,
+    759346,
+    79456110
   ],
   "discoveredCategories": [
     {
@@ -25776,10 +25778,58 @@
       "label": "Legendary North American people",
       "discoveredFrom": "Chief Owasippe",
       "discoveredAt": 706
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Paintings of Diana (mythology)",
+      "iso": "_MULTI",
+      "label": "Paintings of Diana (mythology)",
+      "discoveredFrom": "The Battle Between Love and Chastity",
+      "discoveredAt": 708
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Paintings of Jupiter (mythology)",
+      "iso": "_MULTI",
+      "label": "Paintings of Jupiter (mythology)",
+      "discoveredFrom": "The Battle Between Love and Chastity",
+      "discoveredAt": 708
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Paintings of Mercury (mythology)",
+      "iso": "_MULTI",
+      "label": "Paintings of Mercury (mythology)",
+      "discoveredFrom": "The Battle Between Love and Chastity",
+      "discoveredAt": 708
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Classical mythology in popular culture",
+      "iso": "_MULTI",
+      "label": "Classical mythology in popular culture",
+      "discoveredFrom": "The Clash of Triton",
+      "discoveredAt": 708
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Flora (mythology)",
+      "iso": "_MULTI",
+      "label": "Flora (mythology)",
+      "discoveredFrom": "La Flora",
+      "discoveredAt": 708
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Iranian mythology",
+      "iso": "IR",
+      "label": "Iranian mythology",
+      "discoveredFrom": "Persian mythology",
+      "discoveredAt": 708
     }
   ],
-  "totalAdded": 4435,
-  "runs": 708,
-  "lastRun": "2026-11-19T05:09:31.371Z",
-  "lastDiscoveredIndex": 879
+  "totalAdded": 4440,
+  "runs": 709,
+  "lastRun": "2026-11-19T14:56:51.849Z",
+  "lastDiscoveredIndex": 882
 }
