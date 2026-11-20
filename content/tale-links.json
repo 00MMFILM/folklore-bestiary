@@ -113,6 +113,62 @@
   {
    "id": "gr-aerope",
    "n": "Aerope"
+  },
+  {
+   "id": "gr-orestes-mythology",
+   "n": "Orestes (mythology)"
+  }
+ ],
+ "gr-aetolus-son-of-endymion": [
+  {
+   "id": "gr-aethlius",
+   "n": "Aethlius"
+  },
+  {
+   "id": "gr-amphictyon",
+   "n": "Amphictyon"
+  },
+  {
+   "id": "gr-epeius",
+   "n": "Epeius"
+  },
+  {
+   "id": "gr-eurycyda",
+   "n": "Eurycyda"
+  },
+  {
+   "id": "gr-naiad",
+   "n": "Naiad"
+  }
+ ],
+ "gr-amphictyon": [
+  {
+   "id": "gr-aetolus-son-of-endymion",
+   "n": "Aetolus (son of Endymion)"
+  }
+ ],
+ "gr-aethlius": [
+  {
+   "id": "gr-aetolus-son-of-endymion",
+   "n": "Aetolus (son of Endymion)"
+  }
+ ],
+ "gr-epeius": [
+  {
+   "id": "gr-aetolus-son-of-endymion",
+   "n": "Aetolus (son of Endymion)"
+  }
+ ],
+ "gr-eurycyda": [
+  {
+   "id": "gr-aetolus-son-of-endymion",
+   "n": "Aetolus (son of Endymion)"
+  }
+ ],
+ "gr-naiad": [
+  {
+   "id": "gr-aetolus-son-of-endymion",
+   "n": "Aetolus (son of Endymion)"
   }
  ],
  "gr-alcyoneus-mythology": [
@@ -125,6 +181,18 @@
   {
    "id": "gr-alcyoneus-mythology",
    "n": "Alcyoneus (mythology)"
+  }
+ ],
+ "gr-broteas": [
+  {
+   "id": "gr-actaeon",
+   "n": "Actaeon"
+  }
+ ],
+ "gr-actaeon": [
+  {
+   "id": "gr-broteas",
+   "n": "Broteas"
   }
  ],
  "gr-charybdis": [
@@ -189,6 +257,10 @@
   {
    "id": "gr-eurytus-and-cteatus",
    "n": "Eurytus and Cteatus"
+  },
+  {
+   "id": "gr-orestes-mythology",
+   "n": "Orestes (mythology)"
   }
  ],
  "gr-hera": [
@@ -245,6 +317,16 @@
   {
    "id": "gr-ocypete",
    "n": "오퀴페테"
+  }
+ ],
+ "gr-orestes-mythology": [
+  {
+   "id": "gr-agamemnon",
+   "n": "Agamemnon"
+  },
+  {
+   "id": "gr-athena",
+   "n": "Athena"
   }
  ],
  "gt-camazotz": [
