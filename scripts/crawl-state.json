@@ -1,13 +1,6 @@
 {
-  "lastCategoryIndex": 98,
+  "lastCategoryIndex": 101,
   "processedPageIds": [
-    6672740,
-    3867767,
-    425996,
-    253616,
-    1226956,
-    24710432,
-    24690453,
     24702145,
     24418804,
     65755,
@@ -8000,7 +7993,14 @@
     12988257,
     33073837,
     759346,
-    79456110
+    79456110,
+    442918,
+    82559317,
+    84189641,
+    380721,
+    83943818,
+    84403086,
+    84453247
   ],
   "discoveredCategories": [
     {
@@ -25826,10 +25826,18 @@
       "label": "Iranian mythology",
       "discoveredFrom": "Persian mythology",
       "discoveredAt": 708
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythologies of the Indigenous peoples of the Caribbean",
+      "iso": "_MULTI",
+      "label": "Mythologies of the Indigenous peoples of the Caribbean",
+      "discoveredFrom": "Garifuna music",
+      "discoveredAt": 709
     }
   ],
-  "totalAdded": 4440,
-  "runs": 709,
-  "lastRun": "2026-11-19T14:56:51.849Z",
-  "lastDiscoveredIndex": 882
+  "totalAdded": 4445,
+  "runs": 710,
+  "lastRun": "2026-11-20T00:02:44.291Z",
+  "lastDiscoveredIndex": 885
 }
