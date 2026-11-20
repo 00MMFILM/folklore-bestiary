@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Hadúr",
+ "sourceLang": "en",
+ "sourceChars": 1550,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Had%C3%BAr",
+ "generatedAt": "2026-11-20T14:15:45.335Z",
+ "locales": {
+  "ko": {
+   "origin": "Hadúr는 헝가리어에서 '전쟁의 군주' 또는 '군대의 군주'를 의미하는 Hadak Ura의 약칭으로, 초기 헝가리인(마자르족)의 종교에서 불의 신으로 시작하여 후에 전쟁의 신으로 발전하였다. 그는 주요 신과 여신인 아라니 아티야츠카(황금 아버지)와 하이날 아냐차스카(새벽 어머니)의 셋째 아들로 여겨진다.",
+   "legend": "헝가리 신화에서 Hadúr는 긴 머리를 가진 위대한 남자로 묘사되며, 순수한 구리로 만들어진 갑옷과 무기를 착용하고 있다. 구리는 그의 신성한 금속으로 여겨진다. 그는 신들의 대장장이로서 살았으며, 전설적인 검인 '신의 검'(Isten kardja)을 제작한 것으로 알려져 있다. 이 검은 훈족의 아틸라에 의해 발견되어 그의 통치를 확립하는 데 기여하였다. 마자르족은 전투 전에 그에게 백마를 희생하는 것이 관습이었다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Hadúr is a shortened form of Hadak Ura, meaning 'lord of war' or 'lord of the army' in Hungarian. He began as a god of fire in the early Hungarian (Magyar) religion and later evolved into a god of war. He is considered the third son of the major god and goddess, Arany Atyácska (Golden Father) and Hajnali Anyácska (Mother of Dawn).",
+   "legend": "In Hungarian mythology, Hadúr is depicted as a great man with long hair, wearing armor and weapons made of pure copper. Copper is considered his sacred metal. He lived as the blacksmith of the gods and is known for crafting the legendary sword 'Sword of God' (Isten kardja). This sword was discovered by Attila the Hun and contributed to establishing his rule. It was customary for the Magyars to sacrifice a white horse to him before battle.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "Hadúr是匈牙利语中“战争的君主”或“军队的君主”的缩写Hadak Ura，最初在匈牙利人（马扎尔族）的宗教中作为火之神开始，后来发展为战争之神。他被认为是主要神和女神阿拉尼·阿提亚茨卡（Arany Atyácska，黄金父亲）和哈伊纳尔·阿尼亚查斯卡（Hajnal Anyacska，黎明母亲）的第三个儿子。",
+   "legend": "在匈牙利神话中，Hadúr被描绘为一个长发的伟大男子，穿着用纯铜制成的盔甲和武器。铜被视为他的神圣金属。他作为神灵的铁匠生活，并被认为制作了传说中的剑“神之剑”（Isten kardja）。这把剑被匈奴的阿提拉发现，并帮助他建立统治。马扎尔族在战斗前习惯于向他献祭白马。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "Hadúrはハンガリー語で「戦争の君主」または「軍隊の君主」を意味するHadak Uraの略称であり、初期ハンガリー人（マジャール族）の宗教において火の神として始まり、後に戦争の神へと発展しました。彼は主要な神と女神であるアラニ・アティヤツカ（黄金の父）とハイナル・アニャチャスカ（夜明けの母）の三男と見なされています。",
+   "legend": "ハンガリー神話においてHadúrは長い髪を持つ偉大な男として描かれ、純粋な銅で作られた鎧と武器を身に着けています。銅は彼の神聖な金属と見なされています。彼は神々の鍛冶屋として生きており、伝説の剣「神の剣」（Isten kardja）を制作したことで知られています。この剣はフン族のアッティラによって発見され、彼の統治を確立するのに貢献しました。マジャール族は戦闘の前に彼に白馬を犠牲にすることが習慣でした。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

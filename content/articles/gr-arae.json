@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Arae",
+ "sourceLang": "en",
+ "sourceChars": 3884,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Arae",
+ "generatedAt": "2026-11-20T14:15:32.481Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "그리스 신화에서 아라에(Arae)는 저주를 의미하는 여성 영혼들로, 특히 죽은 자들이 자신의 죽음에 대한 죄를 지은 자들에게 내리는 저주와 관련이 있다. 이들은 지하 세계와 연관되어 있으며, 남자들에게 저주를 내릴 수 있는 능력을 가지고 있다. 이는 호메로스의 '오디세이'에서 태양신 헬리오스의 가축이 어떤 남자에 의해 해를 입었을 경우 내릴 수 있는 저주와 유사하다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "In Greek mythology, the Arae (아라에, Arae) are female spirits that signify curses, particularly related to the curses that the dead impose on those who have sinned against their own deaths. They are associated with the underworld and possess the ability to curse men. This is similar to the curse that can be imposed in Homer's 'Odyssey' when the cattle of the sun god Helios are harmed by a man.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "在希腊神话中，阿拉埃（Arae）是代表诅咒的女性灵魂，特别与死者对其死亡所犯的罪行施加的诅咒有关。她们与地下世界相关联，拥有对男性施加诅咒的能力。这与荷马的《奥德赛》中太阳神赫利俄斯的牲畜被某个男性伤害时可以施加的诅咒相似。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ギリシャ神話において、アラエ（Arae）は呪いを意味する女性の霊であり、特に死者が自らの死に対して罪を犯した者に下す呪いに関連している。彼女たちは地下の世界と関連しており、男性に呪いをかける能力を持っている。これはホメロスの『オデュッセイア』において、太陽神ヘリオスの家畜がある男性によって害を受けた場合に下される呪いに似ている。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Japanese dragon",
+ "sourceLang": "en",
+ "sourceChars": 12512,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Japanese%20dragon",
+ "generatedAt": "2026-11-20T14:16:32.468Z",
+ "locales": {
+  "ko": {
+   "origin": "일본 드래곤에 대한 최초의 문헌적 언급은 약 680년경의 《고지키》와 720년경의 《니혼기》에서 발견된다. 이들 문헌에서는 드래곤이 주로 물의 신으로 언급되며, 뱀 또는 드래곤 형태로 묘사된다.",
+   "legend": "일본 드래곤은 주로 물의 신이나 카미로 여겨지며, 비와 수역과 관련이 있다. 일본 드래곤의 대표적인 전설로는 야마타노오로치, 와타츠미, 리유진 등이 있다. 야마타노오로치는 여덟 개의 머리와 여덟 개의 꼬리를 가진 드래곤으로, 바람의 신 스사노오에 의해 처치되었다. 와타츠미는 바다의 신으로, 인간 형태로 변신할 수 있는 능력을 지닌 드래곤이다. 리유진은 바다의 궁전인 류구조에 거주하며, 마법의 조개 보석을 소유하고 있다.",
+   "variants": "일본 드래곤의 명칭은 중국어에서 차용된 경우가 많다. 예를 들어, 일본의 사신인 청룡, 적룡, 백호, 현무는 각각 중국의 청룡, 주작, 백호, 현무에서 유래하였다. 일본의 사룡은 중국의 용왕과 관련이 있으며, 동서남북의 바다를 지배하는 드래곤 왕들로 구성된다.",
+   "culture": "현대 일본 문화에서 드래곤은 다양한 형태로 나타난다. 제2차 세계대전 중 일본 군대는 드래곤과 관련된 이름을 가진 무기를 사용했다. 드래곤은 또한 야쿠자 예술에서 인기 있는 주제이며, 일본의 만화 및 애니메이션에서도 자주 등장한다. 예를 들어, '드래곤볼'과 '원피스'와 같은 인기 있는 작품에서 드래곤 캐릭터가 등장한다."
+  },
+  "en": {
+   "origin": "The earliest literary mention of Japanese dragons can be found in the 'Nihon Shoki' around 680 AD and 'Nihon Shoki' around 720 AD. In these texts, dragons are primarily referred to as gods of water and are depicted in the form of snakes or dragons.",
+   "legend": "Japanese dragons are mainly regarded as gods of water or kami, associated with rain and bodies of water. Notable legends of Japanese dragons include Yamata no Orochi, Watatsumi, and Ryujin. Yamata no Orochi is a dragon with eight heads and eight tails, defeated by the wind god Susanoo. Watatsumi is the god of the sea, a dragon with the ability to transform into human form. Ryujin resides in the underwater palace of Ryugu-jo and possesses magical shell jewels.",
+   "variants": "The names of Japanese dragons are often borrowed from Chinese. For example, the Japanese four divine beasts, Seiryu (青龍), Akuryu (朱雀), Byakko (白虎), and Genbu (玄武), are derived from the Chinese Qinglong, Zhuque, Baihu, and Xuanwu, respectively. The Japanese Saryu is related to the Chinese Dragon King and consists of dragon kings that rule the seas of the east, west, south, and north.",
+   "culture": "In modern Japanese culture, dragons appear in various forms. During World War II, the Japanese military used weapons with names related to dragons. Dragons are also a popular theme in Yakuza art and frequently appear in Japanese manga and anime. For example, dragon characters appear in popular works such as 'Dragon Ball' and 'One Piece.'"
+  },
+  "zh": {
+   "origin": "日本龙的首次文献提及可以追溯到约680年的《古事记》和720年的《日本纪》。这些文献中，龙主要被提及为水之神，并被描绘为蛇或龙的形态。",
+   "legend": "日本龙主要被视为水之神或神明，与雨水和水域相关。日本龙的代表性传说包括八岐大蛇（Yamata no Orochi）、海神（Watatsumi）和龙宫神（Ryūjin）等。八岐大蛇是一种拥有八个头和八条尾巴的龙，曾被风之神须佐之男（Susanoo）所击败。海神是海洋之神，能够变身为人类的龙。龙宫神居住在海洋的宫殿龙宫（Ryūgū-jō），拥有魔法的贝壳宝石。",
+   "variants": "日本龙的名称往往借用自中文。例如，日本的四神青龙、朱雀、白虎、玄武分别源自中国的青龙、朱雀、白虎、玄武。日本的沙龙与中国的龙王相关，由统治东西南北海洋的龙王组成。",
+   "culture": "在现代日本文化中，龙以多种形式出现。在第二次世界大战期间，日本军队使用了与龙相关名称的武器。龙也是黑帮艺术中的热门主题，并在日本的漫画和动画中频繁出现。例如，在《龙珠》（Dragon Ball）和《海贼王》（One Piece）等受欢迎的作品中，龙的角色经常出现。"
+  },
+  "ja": {
+   "origin": "日本のドラゴンに関する最初の文献的言及は、約680年頃の《古事記》（こじき）と720年頃の《日本書紀》（にほんき）で見られます。これらの文献では、ドラゴンは主に水の神として言及され、蛇またはドラゴンの形で描かれています。",
+   "legend": "日本のドラゴンは主に水の神や神（かみ）と見なされ、雨や水域と関連しています。日本のドラゴンの代表的な伝説には、ヤマタノオロチ、ワタツミ、リュウジンなどがあります。ヤマタノオロチは八つの頭と八つの尾を持つドラゴンで、風の神スサノオによって討たれました。ワタツミは海の神で、人間の形に変身する能力を持つドラゴンです。リュウジンは海の宮殿である竜宮城（りゅうぐうじょう）に住み、魔法の貝の宝石を所有しています。",
+   "variants": "日本のドラゴンの名称は中国語から借用された場合が多いです。例えば、日本の四神である青龍（せいりゅう）、赤龍（せきりゅう）、白虎（びゃっこ）、玄武（げんぶ）はそれぞれ中国の青龍、朱雀、白虎、玄武に由来しています。日本のサリュウは中国の龍王（りゅうおう）と関連しており、東西南北の海を支配するドラゴンの王たちで構成されています。",
+   "culture": "現代日本文化において、ドラゴンはさまざまな形で現れます。第二次世界大戦中、日本軍はドラゴンに関連する名前を持つ武器を使用しました。ドラゴンはまた、ヤクザアートにおいて人気のあるテーマであり、日本の漫画やアニメでも頻繁に登場します。例えば、『ドラゴンボール』や『ワンピース』といった人気作品にドラゴンキャラクターが登場します。"
+  }
+ }
+}

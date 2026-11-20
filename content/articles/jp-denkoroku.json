@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Denkoroku",
+ "sourceLang": "en",
+ "sourceChars": 6870,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Denkoroku",
+ "generatedAt": "2026-11-20T14:16:30.087Z",
+ "locales": {
+  "ko": {
+   "origin": "Denkōroku(伝光録)는 1300년에 케이잔 조킨 젠지(Keizan Jokin Zenji)에 의해 작성된 고안(公案) 모음집으로, 소토(曹洞) 선 불교의 대조사로 알려져 있다. 이 책은 약 1년간의 법문을 바탕으로 하고 있다. 이 텍스트는 '등불의 전승에 관한 정덕기'(The Jingde Record of the Transmission of the Lamp)와 혼동되어서는 안 되며, 두 기록에서 언급되는 인물들 간에는 상당한 겹침이 있지만, 내용은 정확히 일치하지 않는다.",
+   "legend": "Denkōroku는 1600년 이상의 전통적인 전설적 기록을 바탕으로 한 53개의 깨달음 이야기를 포함하고 있다. 이 이야기는 인도에서의 석가모니(Shakyamuni Buddha)부터 일본의 선사인 에조(Ejō)까지 이어지는 법의 전승을 다룬다. 각 장은 주로 스승과 제자 간의 깨달음의 만남을 다룬 고안 사례, 제자의 생애에 대한 간략한 전기, 케이잔의 해설, 그리고 케이잔이 쓴 요약 시로 구성된다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Denkōroku (伝光録) is a collection of kōans compiled by Keizan Jokin Zenji in 1300, known as a great master of Sōtō (曹洞) Zen Buddhism. This book is based on approximately one year of teachings. This text should not be confused with 'The Jingde Record of the Transmission of the Lamp,' and while there is considerable overlap between the figures mentioned in the two records, the content does not match exactly.",
+   "legend": "Denkōroku includes 53 stories of enlightenment based on over 1600 years of traditional legendary records. These stories cover the transmission of the Dharma from Shakyamuni Buddha in India to the Japanese Zen master Ejō. Each chapter primarily consists of kōan cases dealing with encounters of enlightenment between master and disciple, brief biographies of the disciples, Keizan's commentaries, and a summary poem written by Keizan.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "Denkōroku(传光录)是由凯赞乔金禅师(Keizan Jokin Zenji)于1300年编写的公案(公案)汇编，作为曹洞宗(曹洞)的祖师而闻名。这本书基于约一年的法文。这段文本不应与《灯传正德记》(The Jingde Record of the Transmission of the Lamp)混淆，尽管两者提到的人物之间有相当的重叠，但内容并不完全一致。",
+   "legend": "Denkōroku包含53个基于1600年以上传统传奇记录的觉悟故事。这些故事涵盖了从印度的释迦牟尼(Shakyamuni Buddha)到日本的禅师惠藏(Ejō)的法的传承。每一章主要由师徒之间觉悟的相遇的公案案例、弟子的生平简要传记、凯赞的解说，以及凯赞所写的总结诗组成。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "Denkōroku(伝光録)は1300年にケイザン・ジョキン・ゼンジ(Keizan Jokin Zenji)によって作成された公案(こうあん)の集まりで、曹洞(そうとう)禅仏教の大祖師として知られています。この本は約1年間の法文を基にしています。このテキストは『燈の伝承に関する正徳記』(The Jingde Record of the Transmission of the Lamp)と混同されてはならず、二つの記録で言及される人物間にはかなりの重複がありますが、内容は正確には一致しません。",
+   "legend": "Denkōrokuは1600年以上の伝統的な伝説的記録を基にした53の悟りの物語を含んでいます。この物語はインドでの釈迦牟尼(Shakyamuni Buddha)から日本の禅僧であるエジョー(Ejō)まで続く法の伝承を扱っています。各章は主に師匠と弟子間の悟りの出会いを扱った公案の事例、弟子の生涯に関する簡略な伝記、ケイザンの解説、そしてケイザンが書いた要約詩で構成されています。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

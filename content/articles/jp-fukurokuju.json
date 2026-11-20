@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Fukurokuju",
+ "sourceLang": "en",
+ "sourceChars": 2518,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Fukurokuju",
+ "generatedAt": "2026-11-20T14:16:16.702Z",
+ "locales": {
+  "ko": {
+   "origin": "후쿠로쿠주는 아마도 북송 시대(960–1127) 동안 기적을 행한 것으로 알려진 중국의 전설적인 도사에 관한 오래된 이야기에서 유래했을 것으로 추정된다. 중국에서는 이 도사가 남극성의 천체적 힘을 구현하는 존재로 여겨졌다. 일본에서 후쿠로쿠주는 초기의 일곱 복신의 모습에 항상 포함되지 않았으며, 대신 키쇼텐(행운, 미, 공덕의 여신)으로 대체되었다. 그러나 현재 그는 일곱 복신의 확고한 일원으로 자리 잡고 있다.",
+   "legend": "후쿠로쿠주는 일본 신화에서 일곱 복신 중 하나로, 지혜와 장수의 신으로 알려져 있다. 그는 중국의 별 신인 수(壽)와 가장 관련이 깊으며, 인간으로서의 화신 시절에는 송나라의 도사로 여겨지며, 도교의 신인 현천상제의 환생으로 간주되기도 한다. 후쿠로쿠주는 음식 없이 존재할 수 있는 불사의 존재인 '센닌'으로 알려져 있다. 그는 죽은 자를 부활시킬 수 있는 유일한 능력을 가진 복신으로 여겨진다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Fukurokuju is believed to have originated from an ancient story about a legendary Taoist in China who performed miracles during the Northern Song Dynasty (960–1127). In China, this Taoist was regarded as an embodiment of the celestial power of the North Star. In Japan, Fukurokuju was not always included in the early depictions of the Seven Lucky Gods and was instead replaced by Kishoten (the goddess of fortune, beauty, and virtue). However, he has now firmly established himself as a member of the Seven Lucky Gods.",
+   "legend": "Fukurokuju is one of the Seven Lucky Gods in Japanese mythology, known as the god of wisdom and longevity. He is most closely associated with the Chinese star god Shou (壽), and during his time as a human, he was considered a Taoist from the Song Dynasty and is sometimes regarded as a reincarnation of the Taoist deity Hoshin (現天上帝). Fukurokuju is known as a 'sennin,' an immortal being who can exist without food. He is considered the only lucky god with the ability to resurrect the dead.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "福禄寿可能起源于一个关于中国传奇道士的古老故事，该道士在北宋时期（960–1127）被认为行使奇迹。在中国，这位道士被视为南极星的天体力量的化身。在日本，福禄寿并不总是包含在最初的七福神中，而是被吉祥天（行运、美丽、功德的女神）所取代。然而，现在他已成为七福神的坚定成员。",
+   "legend": "福禄寿是日本神话中的七福神之一，被认为是智慧和长寿之神。他与中国的星神寿（壽）关系最为密切，在作为人类化身的时期被视为宋朝的道士，并被认为是道教神仙玄天上帝的转世。福禄寿被认为是可以在没有食物的情况下存在的不死存在，即‘仙人’。他被视为唯一能够复活死者的福神。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "福禄寿（ふくろくじゅ）は、おそらく北宋時代（960–1127）に奇跡を行ったとされる中国の伝説的な道士に関する古い物語に由来していると考えられている。中国では、この道士は南極星の天体的な力を具現化する存在と見なされていた。日本では福禄寿は初期の七福神の姿に常に含まれていなかったが、代わりに吉祥天（きしょうてん、幸運、美、功徳の女神）に置き換えられていた。しかし現在、彼は七福神の確固たる一員として位置づけられている。",
+   "legend": "福禄寿は日本神話における七福神の一つで、知恵と長寿の神として知られている。彼は中国の星神である寿（じゅ）と最も関連が深く、人間としての化身時代には宋の道士と見なされ、道教の神である玄天上帝の転生と考えられることもある。福禄寿は食べ物なしで存在できる不死の存在である「仙人（せんにん）」として知られている。彼は死者を復活させることができる唯一の能力を持つ福神と見なされている。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

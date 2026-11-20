@@ -1198,5 +1198,155 @@
     "status": "generated",
     "at": "2026-11-19T14:38:54.786Z",
     "retryAfter": "2026-11-20T14:38:54.786Z"
+  },
+  "gr-arae": {
+    "status": "generated",
+    "at": "2026-11-20T14:15:32.481Z",
+    "retryAfter": "2026-11-21T14:15:32.481Z"
+  },
+  "gr-hodites": {
+    "status": "thin",
+    "at": "2026-11-20T14:15:33.179Z",
+    "retryAfter": "2026-11-27T14:15:33.179Z"
+  },
+  "gr-aetolus-son-of-endymion": {
+    "status": "generated",
+    "at": "2026-11-20T14:15:35.413Z",
+    "retryAfter": "2026-11-21T14:15:35.413Z"
+  },
+  "ru-blud": {
+    "status": "thin",
+    "at": "2026-11-20T14:15:36.166Z",
+    "retryAfter": "2026-11-27T14:15:36.166Z"
+  },
+  "gr-orestes-mythology": {
+    "status": "generated",
+    "at": "2026-11-20T14:15:39.168Z",
+    "retryAfter": "2026-11-21T14:15:39.168Z"
+  },
+  "gr-broteas": {
+    "status": "generated",
+    "at": "2026-11-20T14:15:39.250Z",
+    "retryAfter": "2026-11-21T14:15:39.250Z"
+  },
+  "es-gatipedro": {
+    "status": "thin",
+    "at": "2026-11-20T14:15:40.031Z",
+    "retryAfter": "2026-11-27T14:15:40.031Z"
+  },
+  "es-mari-goddess": {
+    "status": "rejected",
+    "at": "2026-11-20T14:15:42.479Z",
+    "retryAfter": "2026-11-27T14:15:42.479Z"
+  },
+  "es-mono-grande": {
+    "status": "rejected",
+    "at": "2026-11-20T14:15:45.278Z",
+    "retryAfter": "2026-11-27T14:15:45.278Z"
+  },
+  "hu-hadur": {
+    "status": "generated",
+    "at": "2026-11-20T14:15:45.335Z",
+    "retryAfter": "2026-11-21T14:15:45.335Z"
+  },
+  "al-ljubi": {
+    "status": "generated",
+    "at": "2026-11-20T14:15:48.775Z",
+    "retryAfter": "2026-11-21T14:15:48.775Z"
+  },
+  "gr-satyress": {
+    "status": "generated",
+    "at": "2026-11-20T14:15:49.654Z",
+    "retryAfter": "2026-11-21T14:15:49.654Z"
+  },
+  "lt-celestial-wedding-in-baltic-folklore": {
+    "status": "generated",
+    "at": "2026-11-20T14:15:56.664Z",
+    "retryAfter": "2026-11-21T14:15:56.664Z"
+  },
+  "us-alom-bag-winno-sis": {
+    "status": "thin",
+    "at": "2026-11-20T14:15:57.406Z",
+    "retryAfter": "2026-11-27T14:15:57.406Z"
+  },
+  "cl-basilisco-chilote": {
+    "status": "thin",
+    "at": "2026-11-20T14:15:58.127Z",
+    "retryAfter": "2026-11-27T14:15:58.127Z"
+  },
+  "nz-matuku-tangotango": {
+    "status": "thin",
+    "at": "2026-11-20T14:15:58.850Z",
+    "retryAfter": "2026-11-27T14:15:58.850Z"
+  },
+  "us-flathead-lake-monster": {
+    "status": "generated",
+    "at": "2026-11-20T14:16:03.394Z",
+    "retryAfter": "2026-11-21T14:16:03.394Z"
+  },
+  "jp-kubikajiri": {
+    "status": "thin",
+    "at": "2026-11-20T14:16:04.213Z",
+    "retryAfter": "2026-11-27T14:16:04.213Z"
+  },
+  "us-boo-hag": {
+    "status": "generated",
+    "at": "2026-11-20T14:16:06.613Z",
+    "retryAfter": "2026-11-21T14:16:06.613Z"
+  },
+  "kr-beasts-of-asia": {
+    "status": "generated",
+    "at": "2026-11-20T14:16:08.993Z",
+    "retryAfter": "2026-11-21T14:16:08.993Z"
+  },
+  "jp-fukurokuju": {
+    "status": "generated",
+    "at": "2026-11-20T14:16:16.702Z",
+    "retryAfter": "2026-11-21T14:16:16.702Z"
+  },
+  "us-african-american-folktales": {
+    "status": "generated",
+    "at": "2026-11-20T14:16:19.202Z",
+    "retryAfter": "2026-11-21T14:16:19.202Z"
+  },
+  "jp-mintuci": {
+    "status": "generated",
+    "at": "2026-11-20T14:16:21.509Z",
+    "retryAfter": "2026-11-21T14:16:21.509Z"
+  },
+  "jp-denkoroku": {
+    "status": "generated",
+    "at": "2026-11-20T14:16:30.087Z",
+    "retryAfter": "2026-11-21T14:16:30.087Z"
+  },
+  "jp-botan-doro": {
+    "status": "generated",
+    "at": "2026-11-20T14:16:30.617Z",
+    "retryAfter": "2026-11-21T14:16:30.617Z"
+  },
+  "id-hantu-bongkok": {
+    "status": "thin",
+    "at": "2026-11-20T14:16:30.789Z",
+    "retryAfter": "2026-11-27T14:16:30.789Z"
+  },
+  "cn-gonggong": {
+    "status": "generated",
+    "at": "2026-11-20T14:16:31.173Z",
+    "retryAfter": "2026-11-21T14:16:31.173Z"
+  },
+  "id-gajamina": {
+    "status": "thin",
+    "at": "2026-11-20T14:16:31.600Z",
+    "retryAfter": "2026-11-27T14:16:31.600Z"
+  },
+  "jp-japanese-dragon": {
+    "status": "generated",
+    "at": "2026-11-20T14:16:32.468Z",
+    "retryAfter": "2026-11-21T14:16:32.468Z"
+  },
+  "kh-the-origin-of-the-sirenia": {
+    "status": "generated",
+    "at": "2026-11-20T14:16:44.895Z",
+    "retryAfter": "2026-11-21T14:16:44.895Z"
   }
 }
