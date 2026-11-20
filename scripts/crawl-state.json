@@ -1,36 +1,6 @@
 {
-  "lastCategoryIndex": 101,
+  "lastCategoryIndex": 104,
   "processedPageIds": [
-    24702145,
-    24418804,
-    65755,
-    999809,
-    21228223,
-    28788497,
-    68634367,
-    43327497,
-    52468680,
-    4236996,
-    1668552,
-    488475,
-    95768,
-    16191076,
-    95752,
-    61392921,
-    5874664,
-    96180,
-    96450,
-    4016738,
-    24476367,
-    24784147,
-    96196,
-    24604991,
-    93749,
-    51411799,
-    1751029,
-    1521643,
-    52786319,
-    1521641,
     83291405,
     52219697,
     5976324,
@@ -8000,7 +7970,37 @@
     380721,
     83943818,
     84403086,
-    84453247
+    84453247,
+    43926532,
+    33388421,
+    49868491,
+    57068538,
+    57880963,
+    82632057,
+    25606631,
+    19954049,
+    41748079,
+    57409926,
+    75930956,
+    34521846,
+    46627692,
+    1135297,
+    31514497,
+    6941760,
+    24746257,
+    12138219,
+    37376458,
+    46591242,
+    84718344,
+    57126738,
+    678080,
+    10575225,
+    58558975,
+    6557119,
+    41595406,
+    1371900,
+    253828,
+    42127125
   ],
   "discoveredCategories": [
     {
@@ -25834,10 +25834,242 @@
       "label": "Mythologies of the Indigenous peoples of the Caribbean",
       "discoveredFrom": "Garifuna music",
       "discoveredAt": 709
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2016 supernatural films",
+      "iso": "_MULTI",
+      "label": "2016 supernatural films",
+      "discoveredFrom": "The 9th Life of Louis Drax",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:British supernatural thriller films",
+      "iso": "GB",
+      "label": "British supernatural thriller films",
+      "discoveredFrom": "The 9th Life of Louis Drax",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Canadian supernatural thriller films",
+      "iso": "CA",
+      "label": "Canadian supernatural thriller films",
+      "discoveredFrom": "The 9th Life of Louis Drax",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2017 supernatural films",
+      "iso": "_MULTI",
+      "label": "2017 supernatural films",
+      "discoveredFrom": "American Satan",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Lesbian-related supernatural thriller films",
+      "iso": "_MULTI",
+      "label": "Lesbian-related supernatural thriller films",
+      "discoveredFrom": "American Satan",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2019 supernatural films",
+      "iso": "_MULTI",
+      "label": "2019 supernatural films",
+      "discoveredFrom": "Among the Shadows",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2019 supernatural horror films",
+      "iso": "_MULTI",
+      "label": "2019 supernatural horror films",
+      "discoveredFrom": "Among the Shadows",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2020s demon films",
+      "iso": "_MULTI",
+      "label": "2020s demon films",
+      "discoveredFrom": "Antlers (2021 film)",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2021 supernatural horror films",
+      "iso": "_MULTI",
+      "label": "2021 supernatural horror films",
+      "discoveredFrom": "Antlers (2021 film)",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Canadian monster movies",
+      "iso": "CA",
+      "label": "Canadian monster movies",
+      "discoveredFrom": "Antlers (2021 film)",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Canadian supernatural horror films",
+      "iso": "CA",
+      "label": "Canadian supernatural horror films",
+      "discoveredFrom": "Antlers (2021 film)",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2027 supernatural horror films",
+      "iso": "_MULTI",
+      "label": "2027 supernatural horror films",
+      "discoveredFrom": "Anything but Ghosts",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Atomic Monster films",
+      "iso": "_MULTI",
+      "label": "Atomic Monster films",
+      "discoveredFrom": "Anything but Ghosts",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2012 supernatural films",
+      "iso": "_MULTI",
+      "label": "2012 supernatural films",
+      "discoveredFrom": "The Apparition (2012 film)",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2012 supernatural horror films",
+      "iso": "_MULTI",
+      "label": "2012 supernatural horror films",
+      "discoveredFrom": "The Apparition (2012 film)",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2000s supernatural thriller films",
+      "iso": "_MULTI",
+      "label": "2000s supernatural thriller films",
+      "discoveredFrom": "The Attic Door",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2010s ghost films",
+      "iso": "_MULTI",
+      "label": "2010s ghost films",
+      "discoveredFrom": "Avenged (2013 American film)",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2013 supernatural films",
+      "iso": "_MULTI",
+      "label": "2013 supernatural films",
+      "discoveredFrom": "Avenged (2013 American film)",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2013 supernatural horror films",
+      "iso": "_MULTI",
+      "label": "2013 supernatural horror films",
+      "discoveredFrom": "Avenged (2013 American film)",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:American supernatural drama films",
+      "iso": "US",
+      "label": "American supernatural drama films",
+      "discoveredFrom": "The Ballerina",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:1960s ghost films",
+      "iso": "_MULTI",
+      "label": "1960s ghost films",
+      "discoveredFrom": "13 Ghosts",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2010 supernatural horror films",
+      "iso": "_MULTI",
+      "label": "2010 supernatural horror films",
+      "discoveredFrom": "13Hrs",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:British supernatural horror films",
+      "iso": "GB",
+      "label": "British supernatural horror films",
+      "discoveredFrom": "13Hrs",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2000s vampire films",
+      "iso": "_MULTI",
+      "label": "2000s vampire films",
+      "discoveredFrom": "30 Days of Night (film)",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2007 supernatural horror films",
+      "iso": "_MULTI",
+      "label": "2007 supernatural horror films",
+      "discoveredFrom": "30 Days of Night (film)",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2008 supernatural horror films",
+      "iso": "_MULTI",
+      "label": "2008 supernatural horror films",
+      "discoveredFrom": "100 Feet",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2010s demon films",
+      "iso": "_MULTI",
+      "label": "2010s demon films",
+      "discoveredFrom": "666 the Devil's Child",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2022 superhero films",
+      "iso": "_MULTI",
+      "label": "2022 superhero films",
+      "discoveredFrom": "Black Adam (film)",
+      "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:2006 supernatural horror films",
+      "iso": "_MULTI",
+      "label": "2006 supernatural horror films",
+      "discoveredFrom": "The Curse of King Tut's Tomb (2006 film)",
+      "discoveredAt": 710
     }
   ],
   "totalAdded": 4445,
-  "runs": 710,
-  "lastRun": "2026-11-20T00:02:44.291Z",
-  "lastDiscoveredIndex": 885
+  "runs": 711,
+  "lastRun": "2026-11-20T14:38:49.459Z",
+  "lastDiscoveredIndex": 888
 }
