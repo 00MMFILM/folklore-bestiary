@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Battle of Shahriar and Lion",
+ "sourceLang": "en",
+ "sourceChars": 7163,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Battle%20of%20Shahriar%20and%20Lion",
+ "generatedAt": "2026-11-21T13:39:10.605Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "샤리아르와 사자의 전투는 아케메네스 왕조의 샤리아르 왕이 사자와 대결하는 모습을 묘사한 것으로, 이는 페르세폴리스의 여러 궁전, 특히 100기둥 궁전의 암각화에서 찾아볼 수 있다. 이 전투는 샤리아르가 건설적이고 규율 있는 왕으로서의 이미지를 나타내기 위해 만들어졌다. 아케메네스 왕조의 통치 아래에서 샤리아르의 이미지는 초자연적 존재와 짐승에 대한 대립으로 나타나며, 이는 그가 평화와 안정을 유지하기 위한 역할을 수행하고 있음을 보여준다.",
+   "variants": "",
+   "culture": "현대에는 이 전설이 이란의 국립은행 첫 로고 디자인에 사용되었으며, 아케메네스 모티프를 나타내기 위해 이란의 수공예품에도 활용되고 있다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "The battle of Sharyar (샤리아르) and the lion is depicted as King Sharyar of the Achaemenid dynasty confronting a lion, which can be found in the rock carvings of various palaces in Persepolis, particularly in the Hall of a Hundred Columns. This battle was created to represent Sharyar's image as a constructive and disciplined king. Under the rule of the Achaemenid dynasty, Sharyar's image is manifested in the confrontation with supernatural beings and beasts, illustrating his role in maintaining peace and stability.",
+   "variants": "",
+   "culture": "In modern times, this legend has been used in the design of the first logo of Iran's National Bank, and it is also utilized in Iranian handicrafts to represent Achaemenid motifs."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "沙里亚尔与狮子的战斗描绘了阿凯美尼德王朝的沙里亚尔王与狮子对决的场景，这可以在波斯波利斯的多个宫殿中找到，特别是在百柱宫的岩刻中。这场战斗是为了展现沙里亚尔作为一个建设性和有纪律的国王的形象。在阿凯美尼德王朝的统治下，沙里亚尔的形象表现为超自然存在与野兽的对立，这表明他在维持和平与稳定方面所扮演的角色。",
+   "variants": "",
+   "culture": "在现代，这个传说被用于伊朗国家银行的第一个标志设计，并且在伊朗的手工艺品中也被用来表现阿凯美尼德的主题。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "シャリアールとライオンの戦いは、アケメネス朝のシャリアール王がライオンと対決する姿を描いたもので、これはペルセポリスのいくつかの宮殿、特に100本の柱の宮殿の岩絵で見ることができます。この戦いは、シャリアールが建設的で規律ある王としてのイメージを示すために作られました。アケメネス朝の統治の下で、シャリアールのイメージは超自然的存在と獣との対立として現れ、これは彼が平和と安定を維持する役割を果たしていることを示しています。",
+   "variants": "",
+   "culture": "現代ではこの伝説がイランの国立銀行の最初のロゴデザインに使用され、アケメネスのモチーフを表すためにイランの手工芸品にも活用されています。"
+  }
+ }
+}

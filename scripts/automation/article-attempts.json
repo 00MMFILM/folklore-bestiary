@@ -1348,5 +1348,155 @@
     "status": "generated",
     "at": "2026-11-20T14:16:44.895Z",
     "retryAfter": "2026-11-21T14:16:44.895Z"
+  },
+  "in-mahishi-demoness": {
+    "status": "thin",
+    "at": "2026-11-21T13:38:46.659Z",
+    "retryAfter": "2026-11-28T13:38:46.659Z"
+  },
+  "in-visvedevas": {
+    "status": "rejected",
+    "at": "2026-11-21T13:38:50.186Z",
+    "retryAfter": "2026-11-28T13:38:50.186Z"
+  },
+  "ir-aka-manah": {
+    "status": "rejected",
+    "at": "2026-11-21T13:39:00.165Z",
+    "retryAfter": "2026-11-28T13:39:00.165Z"
+  },
+  "sa-palis-mythology": {
+    "status": "thin",
+    "at": "2026-11-21T13:39:00.923Z",
+    "retryAfter": "2026-11-28T13:39:00.923Z"
+  },
+  "np-lakhey": {
+    "status": "generated",
+    "at": "2026-11-21T13:39:01.235Z",
+    "retryAfter": "2026-11-22T13:39:01.235Z"
+  },
+  "lk-demons-of-sri-lanka": {
+    "status": "generated",
+    "at": "2026-11-21T13:39:03.131Z",
+    "retryAfter": "2026-11-22T13:39:03.131Z"
+  },
+  "in-the-brahmin-and-the-mongoose": {
+    "status": "generated",
+    "at": "2026-11-21T13:39:03.489Z",
+    "retryAfter": "2026-11-22T13:39:03.489Z"
+  },
+  "il-chalkydri": {
+    "status": "thin",
+    "at": "2026-11-21T13:39:03.828Z",
+    "retryAfter": "2026-11-28T13:39:03.828Z"
+  },
+  "eg-battle-of-shahriar-and-lion": {
+    "status": "generated",
+    "at": "2026-11-21T13:39:10.606Z",
+    "retryAfter": "2026-11-22T13:39:10.606Z"
+  },
+  "gb-colbrand-giant": {
+    "status": "thin",
+    "at": "2026-11-21T13:39:11.327Z",
+    "retryAfter": "2026-11-28T13:39:11.327Z"
+  },
+  "iq-belshazzar-s-feast": {
+    "status": "generated",
+    "at": "2026-11-21T13:39:12.705Z",
+    "retryAfter": "2026-11-22T13:39:12.705Z"
+  },
+  "ie-bile-irish-legend": {
+    "status": "rejected",
+    "at": "2026-11-21T13:39:12.855Z",
+    "retryAfter": "2026-11-28T13:39:12.855Z"
+  },
+  "iq-seri-and-hurri": {
+    "status": "generated",
+    "at": "2026-11-21T13:39:14.326Z",
+    "retryAfter": "2026-11-22T13:39:14.326Z"
+  },
+  "gb-adam-bell": {
+    "status": "generated",
+    "at": "2026-11-21T13:39:20.170Z",
+    "retryAfter": "2026-11-22T13:39:20.170Z"
+  },
+  "ie-desmond-arthur": {
+    "status": "generated",
+    "at": "2026-11-21T13:39:24.011Z",
+    "retryAfter": "2026-11-22T13:39:24.011Z"
+  },
+  "ie-the-great-mare": {
+    "status": "generated",
+    "at": "2026-11-21T13:39:27.739Z",
+    "retryAfter": "2026-11-22T13:39:27.739Z"
+  },
+  "se-hug-folklore": {
+    "status": "rejected",
+    "at": "2026-11-21T13:39:29.179Z",
+    "retryAfter": "2026-11-28T13:39:29.179Z"
+  },
+  "de-alpharts-tod": {
+    "status": "generated",
+    "at": "2026-11-21T13:39:31.222Z",
+    "retryAfter": "2026-11-22T13:39:31.222Z"
+  },
+  "de-dietrich-und-wenezlan": {
+    "status": "generated",
+    "at": "2026-11-21T13:39:31.334Z",
+    "retryAfter": "2026-11-22T13:39:31.334Z"
+  },
+  "fr-culture-hero": {
+    "status": "generated",
+    "at": "2026-11-21T13:39:31.517Z",
+    "retryAfter": "2026-11-22T13:39:31.517Z"
+  },
+  "gr-aconteus": {
+    "status": "thin",
+    "at": "2026-11-21T13:39:32.772Z",
+    "retryAfter": "2026-11-28T13:39:32.772Z"
+  },
+  "gr-aeternae": {
+    "status": "thin",
+    "at": "2026-11-21T13:39:33.533Z",
+    "retryAfter": "2026-11-28T13:39:33.533Z"
+  },
+  "gr-leo-astrology": {
+    "status": "rejected",
+    "at": "2026-11-21T13:39:34.913Z",
+    "retryAfter": "2026-11-28T13:39:34.913Z"
+  },
+  "gr-phalanx-mythology": {
+    "status": "generated",
+    "at": "2026-11-21T13:39:42.387Z",
+    "retryAfter": "2026-11-22T13:39:42.387Z"
+  },
+  "gr-coronis-lover-of-apollo": {
+    "status": "thin",
+    "at": "2026-11-21T13:39:43.074Z",
+    "retryAfter": "2026-11-28T13:39:43.074Z"
+  },
+  "wls-gilfaethwy": {
+    "status": "generated",
+    "at": "2026-11-21T13:39:45.991Z",
+    "retryAfter": "2026-11-22T13:39:45.991Z"
+  },
+  "gr-aristomachus-mythology": {
+    "status": "thin",
+    "at": "2026-11-21T13:39:46.740Z",
+    "retryAfter": "2026-11-28T13:39:46.740Z"
+  },
+  "gr-golden-fleece": {
+    "status": "generated",
+    "at": "2026-11-21T13:39:46.982Z",
+    "retryAfter": "2026-11-22T13:39:46.982Z"
+  },
+  "gr-erymanthian-boar": {
+    "status": "generated",
+    "at": "2026-11-21T13:39:51.825Z",
+    "retryAfter": "2026-11-22T13:39:51.825Z"
+  },
+  "gr-sybaris-mythology": {
+    "status": "generated",
+    "at": "2026-11-21T13:39:55.237Z",
+    "retryAfter": "2026-11-22T13:39:55.237Z"
   }
 }

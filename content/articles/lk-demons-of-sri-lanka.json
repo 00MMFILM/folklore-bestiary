@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Demons of Sri Lanka",
+ "sourceLang": "en",
+ "sourceChars": 3301,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Demons%20of%20Sri%20Lanka",
+ "generatedAt": "2026-11-21T13:39:03.131Z",
+ "locales": {
+  "ko": {
+   "origin": "악마는 완전히 성장한 상태로 존재하는 것으로 여겨지며, 이는 팔리어로 opapatika라고 불린다. 그러나 Kola Sanni Yaka와 같은 일부 악마는 인간 부모에게 태어나 후에 악마가 되었다. 또 다른 악마인 Maha Sohona는 신에 의해 죽임을 당한 후 부활했지만, 악마로서 돌아왔다.",
+   "legend": "악마는 스리랑카의 신할라 민속에서 중요한 부분을 차지하며, 신할라어로 yakshaya와 yaka로 더 잘 알려져 있다. 이들은 왕의 지배를 받으며, 인간을 죽이는 것이 금지되어 있다. 따라서 이들은 인간에게 다양한 질병을 퍼뜨려 금지된 만족을 얻으려 한다. 악마에 의해 영향을 받은 것으로 여겨지는 피해자는 치료를 받고, 악마를 쫓아내기 위한 퇴마 의식을 치러야 한다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Demons are considered to exist in a fully grown state, referred to as opapatika in Pali. However, some demons, such as Kola Sanni Yaka, are born to human parents and later become demons. Another demon, Maha Sohona, was killed by a god and resurrected, but returned as a demon.",
+   "legend": "Demons play an important role in Sri Lankan Sinhala folklore, better known in Sinhala as yakshaya and yaka. They are subject to the king's rule and are prohibited from killing humans. Therefore, they seek forbidden satisfaction by spreading various diseases among humans. Victims believed to be affected by demons receive treatment and must undergo exorcism rituals to drive out the demon.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "恶魔被认为是完全成长的状态，这在巴利语中被称为opapatika。然而，像Kola Sanni Yaka这样的某些恶魔是由人类父母所生，后来成为恶魔。另一个恶魔Maha Sohona在被神杀死后复活，但以恶魔的身份归来。",
+   "legend": "恶魔在斯里兰卡的僧伽罗民俗中占据重要部分，更为人知的是僧伽罗语中的yakshaya和yaka。它们受到国王的统治，杀害人类是被禁止的。因此，它们试图通过传播各种疾病来获得禁忌的满足。被恶魔影响的受害者需要接受治疗，并进行驱魔仪式以驱赶恶魔。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "悪魔は完全に成長した状態で存在すると考えられており、これはパーリ語でopapatikaと呼ばれています。しかし、Kola Sanni Yakaのような一部の悪魔は人間の親から生まれ、後に悪魔になりました。また、別の悪魔であるMaha Sohonaは神によって殺された後に復活しましたが、悪魔として戻ってきました。",
+   "legend": "悪魔はスリランカのシンハラ民俗において重要な部分を占めており、シンハラ語でyakshayaとyakaとして知られています。彼らは王の支配を受け、人間を殺すことが禁じられています。したがって、彼らは人間にさまざまな病気を広めて禁じられた満足を得ようとします。悪魔によって影響を受けたと考えられる被害者は治療を受け、悪魔を追い出すための退魔儀式を行わなければなりません。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

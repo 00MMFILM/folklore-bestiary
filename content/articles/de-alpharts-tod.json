@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Alpharts Tod",
+ "sourceLang": "en",
+ "sourceChars": 12183,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Alpharts%20Tod",
+ "generatedAt": "2026-11-21T13:39:31.222Z",
+ "locales": {
+  "ko": {
+   "origin": "Alpharts Tod는 익명의 후기 중세 고독일어 시로, 영웅 디트리히 폰 베른의 서사 시리즈에 속한다. 이 작품은 역사적 오스트로고트 왕 테오도리크 대왕의 독일 전설에서의 대응물로 여겨진다. 이 시는 1245년에서 1300년 사이에 작성되었을 가능성이 있지만, 현재는 1470년 또는 1480년경의 단 하나의 원고로만 전해진다. 작곡 장소는 알려져 있지 않다.",
+   "legend": "Alpharts Tod는 젊은 영웅 알파르트에 관한 이야기로, 그는 디트리히의 영웅 중 한 명이며 힐드브란트의 조카이다. 이 시는 디트리히와 그의 삼촌 에르멘리히 간의 전쟁 시작을 다루고 있다. 알파르트는 혼자서 나가겠다고 고집하며, 용감하고 강력한 전사임에도 불구하고 결국 에르멘리히에게 배신한 두 명의 적, 비테게와 하이메를 만나게 된다. 그들은 비열한 방식으로 그를 죽인다. 에르멘리히는 디트리히를 이기지 못한다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Alpharts Tod is an anonymous late medieval Middle High German poem, belonging to the epic series of the hero Dietrich von Bern. This work is considered to be a counterpart in German legend to the historical Ostrogoth king Theoderic the Great. The poem is believed to have been composed between 1245 and 1300, but it is currently known only from a single manuscript dating from around 1470 or 1480. The place of composition is unknown.",
+   "legend": "Alpharts Tod tells the story of the young hero Alphart, who is one of Dietrich's heroes and the nephew of Hildebrandt. The poem deals with the beginning of the war between Dietrich and his uncle Ermenrich. Alphart insists on going out alone and, despite being a brave and powerful warrior, ultimately encounters two treacherous enemies, Witege and Heime, who betray him and kill him in a vile manner. Ermenrich is unable to defeat Dietrich.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "Alpharts Tod 是匿名的后中世纪高德语诗，属于英雄迪特里希·冯·贝恩的叙事系列。这部作品被认为是历史上东哥特王西奥多里克大帝在德国传说中的对应物。这首诗可能是在1245年至1300年间创作的，但目前只传世于1470年或1480年左右的唯一一份手稿。创作地点尚不清楚。",
+   "legend": "Alpharts Tod 是关于年轻英雄阿尔法特的故事，他是迪特里希的英雄之一，也是希尔德布兰特的侄子。这首诗讲述了迪特里希与他的叔叔埃尔门里希之间战争的开始。阿尔法特坚持要独自出发，尽管他是一位勇敢而强大的战士，但最终还是遇到了背叛他的两个敌人，维特格和海梅。他们以卑鄙的方式杀死了他。埃尔门里希无法战胜迪特里希。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "アルファルトの死（Alpharts Tod）は、匿名の後期中世高ドイツ語詩であり、英雄ディートリヒ・フォン・ベルン（Dietrich von Bern）の叙事詩シリーズに属します。この作品は、歴史的オストロゴート王テオドリック大王（Theoderich der Große）のドイツ伝説における対応物と見なされています。この詩は1245年から1300年の間に作成された可能性がありますが、現在は1470年または1480年頃の唯一の原稿として伝えられています。作曲場所は不明です。",
+   "legend": "アルファルトの死は、若き英雄アルファルト（Alphart）に関する物語で、彼はディートリヒの英雄の一人であり、ヒルドブランドの甥です。この詩は、ディートリヒと彼の叔父エルメンリヒ（Ermenrich）との間の戦争の始まりを扱っています。アルファルトは一人で出かけることを主張し、勇敢で強力な戦士であるにもかかわらず、最終的にエルメンリヒに裏切った二人の敵、ビテゲ（Witege）とハイメ（Heime）に出会います。彼らは卑劣な方法で彼を殺します。エルメンリヒはディートリヒに勝てません。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

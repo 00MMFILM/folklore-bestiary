@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Phalanx",
+ "sourceLang": "en",
+ "sourceChars": 33946,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Phalanx",
+ "generatedAt": "2026-11-21T13:39:42.386Z",
+ "locales": {
+  "ko": {
+   "origin": "팔랑크스의 가장 초기 형태는 기원전 25세기 수메르의 독수리 석판에서 발견되며, 이곳의 병사들은 창, 헬멧, 그리고 큰 방패로 무장한 모습으로 묘사된다. 고대 이집트의 보병들도 유사한 전투 형식을 사용한 것으로 알려져 있다. 팔랑크스라는 용어는 호메로스의 '일리아드'에서 처음 사용되며, 이는 조직적인 전투 대열에서 싸우는 호플리트를 묘사하기 위해 사용되었다. 역사학자들은 그리스의 팔랑크스와 이들 선행 형식 간의 관계에 대해 합의에 이르지 못하고 있다.",
+   "legend": "팔랑크스는 일반적으로 창, 파이크, 사리사 또는 유사한 장비로 무장한 중보병으로 구성된 직사각형의 대형 군사 편성이다. 이 형식은 고대 그리스 전쟁에서 사용되었으며, 병사들이 하나의 단위로 움직이며 전투, 행군 또는 캠프에서 배치될 수 있다. 팔랑크스는 적에게 방패 벽과 창 끝을 제공하여 정면 공격을 어렵게 만들었다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "The earliest form of the phalanx is found in a Sumerian eagle tablet from the 25th century BCE, where the soldiers are depicted armed with spears, helmets, and large shields. It is also known that ancient Egyptian infantry used a similar combat formation. The term phalanx is first used in Homer's 'Iliad', where it was employed to describe hoplites fighting in an organized battle line. Historians have not reached a consensus on the relationship between the Greek phalanx and these preceding forms.",
+   "legend": "The phalanx is generally a rectangular military formation composed of heavy infantry armed with spears, pikes, sarissas, or similar equipment. This formation was used in ancient Greek warfare, allowing soldiers to move as a single unit and be deployed in battle, marching, or camping. The phalanx provided a wall of shields and spear points to make frontal attacks difficult for the enemy.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "帕兰克斯的最早形式出现在公元前25世纪的苏美尔的鹰石板上，这里的士兵被描绘为装备有矛、头盔和大盾的样子。古埃及的步兵也被认为使用了类似的战斗形式。帕兰克斯这个术语首次出现在荷马的《伊利亚特》中，用于描述在有组织的战斗队列中作战的霍普利特。历史学家们对希腊的帕兰克斯与这些先行形式之间的关系尚未达成共识。",
+   "legend": "帕兰克斯通常由装备有矛、长矛、萨里萨或类似装备的重步兵组成，形成一个矩形的大型军事编队。这种形式在古希腊战争中使用，士兵们可以作为一个单位移动，并在战斗、行军或营地中部署。帕兰克斯为敌人提供了盾墙和矛尖，使正面攻击变得困难。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "パランクスの最初の形態は紀元前25世紀のシュメールの鷲の石版で発見され、ここでの兵士たちは槍、ヘルメット、そして大きな盾で武装した姿で描かれています。古代エジプトの歩兵も類似の戦闘形式を使用していたことが知られています。パランクスという用語はホメロスの『イリアス』で初めて使用され、これは組織的な戦闘隊列で戦うホプリタイを描写するために使われました。歴史家たちはギリシャのパランクスとこれらの先行形式との関係について合意に至っていません。",
+   "legend": "パランクスは一般的に槍、パイク、サリサまたは類似の装備で武装した中歩兵で構成された長方形の大規模な軍事編成です。この形式は古代ギリシャの戦争で使用され、兵士たちは一つの単位として動き、戦闘、行軍またはキャンプで配置されることができます。パランクスは敵に盾の壁と槍の先端を提供し、正面攻撃を困難にしました。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

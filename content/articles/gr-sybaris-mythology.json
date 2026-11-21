@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Sybaris",
+ "sourceLang": "en",
+ "sourceChars": 16913,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Sybaris",
+ "generatedAt": "2026-11-21T13:39:55.237Z",
+ "locales": {
+  "ko": {
+   "origin": "시바리스는 기원전 720년경 아카이아와 트로에제니아의 정착민들에 의해 설립된 고대 그리스의 중요한 도시였다. 아카이아인들은 인구 압박과 경작 가능한 토지 부족으로 인해 그리스에서 서쪽으로의 두 번째 대이동을 시작했으며, 이 과정에서 시바리스를 포함한 여러 도시를 세웠다.",
+   "legend": "시바리스는 그 부유함과 쾌락을 추구하는 문화로 유명했다. 그 주민들은 사치와 향락으로 유명해져 '시바리트'라는 용어가 사치와 쾌락을 추구하는 사람을 의미하게 되었다. 시바리스는 그 지역의 여러 작은 식민지를 지배했으며, 그 부유함은 비옥한 토지와 바쁜 항구에서 비롯되었다.",
+   "variants": "",
+   "culture": "시바리스와 관련된 이야기는 후에 로마 시대의 작가들에 의해 비판받았다. 그들은 시바리스의 파멸을 그들의 자만과 사치에 대한 신의 응징으로 보았다. '시바리트'와 '시바리틱'이라는 단어는 사치와 쾌락을 추구하는 의미로 영어에 전해졌다."
+  },
+  "en": {
+   "origin": "Sibaris was an important city in ancient Greece, established around 720 BC by settlers from Achaea and Troezenia. The Achaeans began a second great migration westward from Greece due to population pressure and a lack of arable land, during which they founded several cities, including Sibaris.",
+   "legend": "Sibaris was famous for its wealth and culture that pursued pleasure. Its inhabitants became known for their luxury and indulgence, leading to the term 'Sibarite' meaning a person who seeks luxury and pleasure. Sibaris dominated several small colonies in the region, and its wealth stemmed from fertile land and a busy port.",
+   "variants": "",
+   "culture": "Stories related to Sibaris were later criticized by writers of the Roman era. They viewed the downfall of Sibaris as divine punishment for their arrogance and luxury. The words 'Sibarite' and 'Sibaritic' have been transmitted into English with the meaning of seeking luxury and pleasure."
+  },
+  "zh": {
+   "origin": "希巴里斯（Shibarisu）是公元前720年左右由阿卡亚（Achaia）和特洛伊吉尼亚（Troizenia）的定居者建立的古希腊重要城市。阿卡亚人因人口压力和可耕地不足而开始了向希腊西部的第二次大迁徙，在这个过程中建立了包括希巴里斯在内的多个城市。",
+   "legend": "希巴里斯因其富裕和追求享乐的文化而闻名。其居民因奢华和享乐而出名，以至于“希巴里特”（Shibarite）一词成为追求奢华和享乐的人的代名词。希巴里斯统治着该地区的多个小殖民地，其财富源于肥沃的土地和繁忙的港口。",
+   "variants": "",
+   "culture": "与希巴里斯相关的故事后来被罗马时代的作家们批评。他们认为希巴里斯的毁灭是对其傲慢和奢华的神明惩罚。“希巴里特”（Shibarite）和“希巴里提克”（Shibaritic）这两个词以追求奢华和享乐的含义传入英语。"
+  },
+  "ja": {
+   "origin": "シバリスは紀元前720年頃、アカイアとトロイゼニアの定住者によって設立された古代ギリシャの重要な都市であった。アカイア人は人口圧迫と耕作可能な土地不足のためにギリシャから西方への第二次大移動を開始し、その過程でシバリスを含むいくつかの都市を建設した。",
+   "legend": "シバリスはその富と快楽を追求する文化で有名であった。その住民は贅沢と享楽で有名になり、「シバリト」という用語が贅沢と快楽を追求する人を意味するようになった。シバリスはその地域のいくつかの小さな植民地を支配しており、その富は肥沃な土地と賑やかな港から来ていた。",
+   "variants": "",
+   "culture": "シバリスに関連する物語は後にローマ時代の作家たちによって批判された。彼らはシバリスの滅亡を彼らの傲慢さと贅沢に対する神の懲罰と見なした。「シバリト」と「シバリティック」という言葉は贅沢と快楽を追求する意味で英語に伝わった。"
+  }
+ }
+}
