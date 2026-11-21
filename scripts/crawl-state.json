@@ -1,12 +1,6 @@
 {
-  "lastCategoryIndex": 113,
+  "lastCategoryIndex": 116,
   "processedPageIds": [
-    6583842,
-    236876,
-    1168366,
-    7364694,
-    60381048,
-    71742118,
     20928681,
     90281,
     3854823,
@@ -8000,7 +7994,13 @@
     78357,
     54259573,
     82866,
-    82330575
+    82330575,
+    1547228,
+    6377308,
+    66487113,
+    81101,
+    13739543,
+    58622485
   ],
   "discoveredCategories": [
     {
@@ -26090,10 +26090,18 @@
       "label": "Mythological paintings by Peter Paul Rubens",
       "discoveredFrom": "Bacchanalia (Rubens)",
       "discoveredAt": 713
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological Colchians",
+      "iso": "_MULTI",
+      "label": "Mythological Colchians",
+      "discoveredFrom": "Absyrtus",
+      "discoveredAt": 714
     }
   ],
-  "totalAdded": 4460,
-  "runs": 714,
-  "lastRun": "2026-11-21T13:55:54.198Z",
-  "lastDiscoveredIndex": 897
+  "totalAdded": 4465,
+  "runs": 715,
+  "lastRun": "2026-11-21T22:37:11.655Z",
+  "lastDiscoveredIndex": 900
 }
