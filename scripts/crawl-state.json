@@ -1,21 +1,6 @@
 {
-  "lastCategoryIndex": 110,
+  "lastCategoryIndex": 113,
   "processedPageIds": [
-    26641764,
-    72750596,
-    5210801,
-    55344979,
-    89159,
-    89028,
-    89515,
-    38599451,
-    8934704,
-    1606162,
-    14385720,
-    79628756,
-    6582952,
-    6720319,
-    31966969,
     6583842,
     236876,
     1168366,
@@ -8000,7 +7985,22 @@
     4605119,
     13445418,
     18421722,
-    83596
+    83596,
+    419062,
+    10626418,
+    20598392,
+    82162,
+    55137339,
+    31733298,
+    21138571,
+    65083605,
+    962148,
+    4001531,
+    77412,
+    78357,
+    54259573,
+    82866,
+    82330575
   ],
   "discoveredCategories": [
     {
@@ -26066,10 +26066,34 @@
       "label": "2006 supernatural horror films",
       "discoveredFrom": "The Curse of King Tut's Tomb (2006 film)",
       "discoveredAt": 710
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Metamorphoses into the opposite sex in Greek mythology",
+      "iso": "GR",
+      "label": "Metamorphoses into the opposite sex in Greek mythology",
+      "discoveredFrom": "Salmacis",
+      "discoveredAt": 713
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Paintings of Vulcan (mythology)",
+      "iso": "_MULTI",
+      "label": "Paintings of Vulcan (mythology)",
+      "discoveredFrom": "Allegory of Vice (Correggio)",
+      "discoveredAt": 713
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological paintings by Peter Paul Rubens",
+      "iso": "_MULTI",
+      "label": "Mythological paintings by Peter Paul Rubens",
+      "discoveredFrom": "Bacchanalia (Rubens)",
+      "discoveredAt": 713
     }
   ],
-  "totalAdded": 4455,
-  "runs": 713,
-  "lastRun": "2026-11-21T04:53:42.958Z",
-  "lastDiscoveredIndex": 894
+  "totalAdded": 4460,
+  "runs": 714,
+  "lastRun": "2026-11-21T13:55:54.198Z",
+  "lastDiscoveredIndex": 897
 }
