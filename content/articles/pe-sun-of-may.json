@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Sun of May",
+ "sourceLang": "en",
+ "sourceChars": 19097,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Sun%20of%20May",
+ "generatedAt": "2026-11-22T13:32:20.570Z",
+ "locales": {
+  "ko": {
+   "origin": "Sun of May(솔 데 마요)는 1810년 5월 혁명에서 유래하여 아르헨티나와 우루과이의 국가 상징 중 하나로, 두 나라의 국기와 문장에 나타난다. 이 태양은 새로운 국가의 탄생을 상징하는 것으로 해석되며, 이는 1813년 제정된 아르헨티나 국가의 가사에도 반영되어 있다. 태양의 첫 공식 사용은 1813년 제정된 제13년 의회의 인장에 채택되었으며, 이는 후에 아르헨티나의 문장의 기초가 되었다.",
+   "legend": "Sun of May는 일반적으로 잉카 태양신인 인티를 나타낸다고 여겨진다. 그러나 이 해석은 20세기 역사학자 디에고 아바드 데 산티얀에 의해 대중화되었으며, 혁명 기간의 현대 문서적 지원이 부족하다. 태양의 디자인은 유럽의 전통적인 문장 기호인 '찬란한 태양'에서 유래된 것으로 이해되는 것이 더 정확하다. 태양은 직선과 물결 모양의 광선을 번갈아 가며 내뿜는 인간의 얼굴을 가진 금색 원으로 구성되어 있다.",
+   "variants": "아르헨티나의 태양은 32개의 광선(16개의 직선과 16개의 물결 모양)을 가지고 있으며, 우루과이의 태양은 16개의 광선을 가진다. 우루과이의 경우, 태양은 1828년 독립 이후 여러 변형을 겪었으며, 1952년에 현재의 디자인으로 공식화되었다.",
+   "culture": ""
+  },
+  "en": {
+   "origin": "The Sun of May (Sol de Mayo) originates from the May Revolution of 1810 and is one of the national symbols of Argentina and Uruguay, appearing on the flags and coats of arms of both countries. This sun is interpreted as symbolizing the birth of a new nation, which is also reflected in the lyrics of the Argentine national anthem established in 1813. The first official use of the sun was adopted in the seal of the Congress of 1813, which later became the basis for the Argentine coat of arms.",
+   "legend": "The Sun of May is generally believed to represent Inti, the Inca sun god. However, this interpretation was popularized by 20th-century historian Diego Abad de Santillán, and there is a lack of modern documentary support from the revolutionary period. It is more accurate to understand that the design of the sun derives from the European traditional heraldic symbol known as the 'radiant sun.' The sun consists of a golden circle with a human face, emitting alternating straight and wavy rays.",
+   "variants": "The sun of Argentina has 32 rays (16 straight and 16 wavy), while the sun of Uruguay has 16 rays. In the case of Uruguay, the sun has undergone several variations since independence in 1828, and the current design was formalized in 1952.",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "五月之太阳(Sol de Mayo)源于1810年5月革命，是阿根廷和乌拉圭的国家象征之一，出现在两国的国旗和徽章上。这个太阳被解读为新国家诞生的象征，这在1813年制定的阿根廷国歌歌词中也有所反映。太阳的首次正式使用是在1813年制定的第13届国会的印章上，这后来成为阿根廷徽章的基础。",
+   "legend": "五月之太阳通常被认为代表印加太阳神因蒂。然而，这一解释是由20世纪历史学家迭戈·阿瓦德·德·圣地亚哥(Diago Abad de Santillán)普及的，缺乏革命时期的现代文献支持。太阳的设计更准确地理解为源于欧洲传统徽章符号中的“辉煌太阳”。太阳由一个金色圆形构成，拥有一个人脸，交替发出直线和波浪形的光线。",
+   "variants": "阿根廷的太阳有32道光线（16道直线和16道波浪形），而乌拉圭的太阳则有16道光线。在乌拉圭，太阳在1828年独立后经历了多次变形，并于1952年正式确定了现在的设计。",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "メイの太陽（ソル・デ・マヨ）は、1810年5月の革命に由来し、アルゼンチンとウルグアイの国家の象徴の一つであり、両国の国旗と紋章に現れます。この太陽は新しい国家の誕生を象徴するものと解釈され、1813年に制定されたアルゼンチン国家の歌詞にも反映されています。太陽の最初の公式使用は1813年に制定された第13年議会の印章に採用され、これは後にアルゼンチンの紋章の基礎となりました。",
+   "legend": "メイの太陽は一般的にインカの太陽神インティを表すと考えられています。しかし、この解釈は20世紀の歴史家ディエゴ・アバド・デ・サンティヤンによって普及され、革命期間の現代文書的支持が不足しています。太陽のデザインは、ヨーロッパの伝統的な紋章記号である「輝く太陽」に由来するものと理解される方が正確です。太陽は直線と波状の光線を交互に放つ人間の顔を持つ金色の円で構成されています。",
+   "variants": "アルゼンチンの太陽は32本の光線（16本の直線と16本の波状）を持ち、ウルグアイの太陽は16本の光線を持っています。ウルグアイの場合、太陽は1828年の独立以降、いくつかの変形を経て、1952年に現在のデザインとして公式化されました。",
+   "culture": ""
+  }
+ }
+}

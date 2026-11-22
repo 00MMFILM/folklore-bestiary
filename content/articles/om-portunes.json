@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Portunes",
+ "sourceLang": "en",
+ "sourceChars": 2272,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Portunes",
+ "generatedAt": "2026-11-22T13:32:21.699Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "포르투네스(Portunes)는 중세 라틴 문헌인 '오티아 임페리알리아(Otia Imperialia)'에서 기르바세(Gervase of Tilbury)에 의해 묘사된 잉글랜드 민속의 존재이다. 기르바세는 이들을 악마로 분류하였으나, 그 기원이 불명확한 '신비로운 유령'일 수도 있다고 언급하였다. 포르투네스는 밤에 농민의 집에 들어가 불 옆에서 몸을 따뜻하게 하고, 주머니에 담고 다니는 작은 개구리를 구워 먹는다고 전해진다. 그들은 '노인 같은 외모와 주름진 얼굴'을 가지고 있으며, '엄지손가락의 절반도 안 되는 매우 작은 키'를 지닌 존재로 묘사된다. 기르바세는 포르투네스가 농민들을 도와서 힘든 집안일을 신속하게 수행한다고 하였고, 또한 그들이 외로운 영국 기사의 고삐를 빼앗아 말을 진흙에 빠뜨리는 장난을 치고 '웃음소리를 내며 떠난다'고 설명하였다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "Portunes is a figure from English folklore described by Gervase of Tilbury in the medieval Latin work 'Otia Imperialia'. Gervase classified them as demons, but mentioned that they could be of unclear origin, possibly 'mysterious spirits'. It is said that Portunes enter farmers' homes at night to warm themselves by the fire and roast small frogs that they carry in their pockets. They are described as having 'an old man's appearance and wrinkled faces', and as beings of 'very small stature, less than half the height of a thumb'. Gervase noted that Portunes help farmers by quickly performing difficult household tasks, and also explained that they play pranks by stealing the reins of lonely English knights, causing their horses to get stuck in the mud, and 'leave with laughter'.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "波尔图内斯（Portunes）是中世纪拉丁文献《帝国闲暇》（Otia Imperialia）中由吉尔瓦斯（Gervase of Tilbury）描述的英格兰民俗存在。吉尔瓦斯将他们归类为恶魔，但提到他们可能是起源不明的“神秘幽灵”。波尔图内斯据说在夜间进入农民的家中，在火旁取暖，并吃着装在口袋里的小青蛙。他们被描述为“老年人的外貌和皱纹的脸”，以及“不到拇指一半的非常小的身高”。吉尔瓦斯提到波尔图内斯帮助农民迅速完成艰难的家务，并且他们还会恶作剧，抢走孤独的英国骑士的缰绳，让马陷入泥中，并“发出笑声离开”。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ポルトゥネス（Portunes）は、中世ラテン文献『オティア・インペリアリア（Otia Imperialia）』でギルバセ（Gervase of Tilbury）によって描かれたイングランドの民俗の存在である。ギルバセは彼らを悪魔に分類したが、その起源が不明な「神秘的な幽霊」である可能性も言及した。ポルトゥネスは夜に農民の家に入り、火のそばで体を温め、ポケットに入れて持ち歩く小さなカエルを焼いて食べると言われている。彼らは「老人のような外見としわくちゃの顔」を持ち、「親指の半分にも満たない非常に小さな身長」を持つ存在として描かれている。ギルバセはポルトゥネスが農民を助けて厄介な家事を迅速に行うと述べ、また彼らが孤独なイギリスの騎士の手綱を奪い、馬を泥に落とすいたずらをし、「笑い声を上げて去る」と説明した。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

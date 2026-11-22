@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Nyx",
+ "sourceLang": "en",
+ "sourceChars": 27015,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Nyx",
+ "generatedAt": "2026-11-22T13:31:37.045Z",
+ "locales": {
+  "ko": {
+   "origin": "그리스 신화에서 Nyx는 혼돈(Chaos)의 자손으로, 어둠(Erebus)과의 사이에서 상공(Aether)과 낮(Hemera)의 어머니가 됩니다. 그녀는 주로 부정적인 힘을 의인화한 자식들을 낳으며, 여러 초기 우주론에서 가장 먼저 존재한 신들 중 하나로 언급됩니다.",
+   "legend": "Nyx는 밤의 여신이자 밤의 의인화로, 고대 그리스 문헌에서 그녀는 검은 로브를 입고 하늘을 가로지르는 전차를 몰고 다니는 모습으로 묘사됩니다. 그녀는 여러 초기 신화에서 중요한 역할을 하며, 심지어 제우스조차 그녀의 불만을 두려워했다고 전해집니다. Nyx는 여러 신화에서 우주를 창조하는 데 관여하며, 그녀의 자식들은 주로 부정적인 힘을 상징합니다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "In Greek mythology, Nyx is a descendant of Chaos and becomes the mother of Aether (the upper air) and Hemera (day) with Erebus (darkness). She primarily gives birth to children that personify negative forces and is mentioned as one of the first gods to exist in various early cosmologies.",
+   "legend": "Nyx is the goddess of night and the personification of night, depicted in ancient Greek literature as wearing a black robe and driving a chariot across the sky. She plays a significant role in various early myths, and it is said that even Zeus feared her displeasure. Nyx is involved in the creation of the universe in several myths, and her children primarily symbolize negative forces.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "在希腊神话中，Nyx是混沌（Chaos）的后裔，和黑暗（Erebus）之间的关系使她成为天空（Aether）和白昼（Hemera）的母亲。她主要生下象征负面力量的孩子，并在多个早期宇宙论中被提及为最早存在的神之一。",
+   "legend": "Nyx是夜晚的女神和夜晚的化身，在古希腊文献中，她被描绘成穿着黑色长袍，驾驭着横跨天空的战车。她在多个早期神话中扮演着重要角色，甚至连宙斯（Zeus）也害怕她的不满。Nyx在多个神话中参与宇宙的创造，她的孩子们主要象征负面力量。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "ギリシャ神話において、Nyx（ニクス）は混沌（Chaos）の子孫であり、暗闇（Erebus）との間に空気（Aether）と昼（Hemera）の母となります。彼女は主に否定的な力を具現化した子供たちを産み、いくつかの初期宇宙論で最初に存在した神々の一つとして言及されます。",
+   "legend": "Nyx（ニクス）は夜の女神であり、夜の具現化として、古代ギリシャの文献では黒いローブを着て空を横切る戦車を操る姿で描かれます。彼女はいくつかの初期神話で重要な役割を果たし、さらにはゼウスさえも彼女の不満を恐れていたと伝えられています。Nyxはさまざまな神話で宇宙を創造することに関与し、彼女の子供たちは主に否定的な力を象徴します。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

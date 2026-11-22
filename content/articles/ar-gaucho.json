@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Gaucho",
+ "sourceLang": "en",
+ "sourceChars": 40555,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Gaucho",
+ "generatedAt": "2026-11-22T13:32:14.338Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "가우초는 주로 아르헨티나와 우루과이에서 전통적으로 용감하고 자유로운 기수로 알려져 있으며, 이들은 주로 소와 말을 다루는 데 능숙한 사람들로 여겨진다. 가우초는 전설, 민속, 문학에서 크게 존경받으며, 그들의 지역 문화 전통의 중요한 부분이 되었다. 19세기 후반부터 가우초는 남미 작가들에 의해 기념되었다.",
+   "variants": "",
+   "culture": "20세기 도시 지식인들은 가우초를 아르헨티나의 국가 아이콘으로 홍보하였다. 이는 대규모 유럽 이민과 급변하는 생활 방식에 대한 반응으로 나타났다. 이 새로운 가우초의 미화는 가우초가 거의 사라진 시점에서 이루어졌다. 작가들은 가우초의 전통적 가치로 돌아가려 했으며, 이들은 땅을 경작하는 사람보다 평원을 가로지르는 기수를 선택하였다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Gauchos are traditionally known as brave and free riders primarily in Argentina and Uruguay, and they are considered skilled individuals in handling cattle and horses. Gauchos are greatly respected in legends, folklore, and literature, becoming an important part of their regional cultural traditions. Since the late 19th century, gauchos have been commemorated by South American writers.",
+   "variants": "",
+   "culture": "20th-century urban intellectuals promoted the gaucho as a national icon of Argentina. This emerged as a response to large-scale European immigration and rapidly changing lifestyles. The romanticization of the new gaucho occurred at a time when gauchos were nearly extinct. Writers sought to return to the traditional values of the gaucho, choosing the rider crossing the plains over the farmer."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "高乔（Gaucho）主要在阿根廷（Argentina）和乌拉圭（Uruguay）被传统地认为是勇敢和自由的骑手，他们被视为擅长处理牛和马的人。高乔在传说、民俗和文学中受到极大的尊敬，成为其地区文化传统的重要部分。从19世纪后半期开始，高乔被南美作家们所纪念。",
+   "variants": "",
+   "culture": "20世纪的城市知识分子将高乔宣传为阿根廷的国家图标。这是对大规模欧洲移民和快速变化的生活方式的反应。这种对高乔的新美化发生在高乔几乎消失的时刻。作家们试图回归高乔的传统价值观，他们选择了横跨平原的骑手，而不是耕种土地的人。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ガウチョ（Gaucho）は主にアルゼンチン（Arutentina）とウルグアイ（Uruguai）で伝統的に勇敢で自由な騎手として知られており、彼らは主に牛と馬を扱うのに熟練した人々と見なされている。ガウチョは伝説、民俗、文学で大いに尊敬されており、彼らの地域文化の伝統の重要な部分となっている。19世紀後半からガウチョは南米の作家たちによって記念されてきた。",
+   "variants": "",
+   "culture": "20世紀の都市知識人たちはガウチョをアルゼンチンの国家アイコンとして宣伝した。これは大規模なヨーロッパ移民と急変する生活様式への反応として現れた。この新しいガウチョの美化は、ガウチョがほぼ消え去った時点で行われた。作家たちはガウチョの伝統的な価値に戻ろうとし、彼らは土地を耕す人々よりも平原を横断する騎手を選んだ。"
+  }
+ }
+}

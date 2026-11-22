@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Argalus",
+ "sourceLang": "en",
+ "sourceChars": 1853,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Argalus",
+ "generatedAt": "2026-11-22T13:31:26.072Z",
+ "locales": {
+  "ko": {
+   "origin": "그리스 신화에서 아르갈루스는 전설의 시대에 라케다이모니드 그리스의 지도자로 여겨지며, 현재는 그리스의 청동기 시대와 관련이 있다.",
+   "legend": "아르갈루스는 스파르타의 왕 아미클라스의 장남이자 후계자로, 그의 아내 디오메데(라피테스의 딸)와의 사이에서 태어난 것으로 추정된다. 그는 왕 시노르테스(그의 후계자), 하이아킨투스, 폴리보에아, 라오다미아(또는 리안이라), 하르팔루스, 헤게산드레, 그리고 다른 전승에서는 다프네의 형제로 여겨진다. 아르갈루스는 또한 왕 오에발루스의 아버지로도 알려져 있다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "In Greek mythology, Argallus is considered a leader of the Lacedaemonians in the legendary era, and is now associated with the Bronze Age of Greece.",
+   "legend": "Argallus is presumed to be the eldest son and heir of King Amiclas of Sparta, born to his wife Diomede (daughter of Lapithes). He is regarded as the brother of King Sinortes (his successor), Hyacinthus, Polyboea, Laodamia (or Lianira), Harpalus, Hegesandrus, and in other traditions, Daphne. Argallus is also known to be the father of King Oebalus.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "在希腊神话中，阿尔加鲁斯（Argalus）被认为是传说时代拉凯达伊莫尼德（Lakedaimonid）希腊的领导者，现在与希腊的青铜时代有关。",
+   "legend": "阿尔加鲁斯是斯巴达王阿米克拉斯（Amiklas）的长子和继承人，推测是与他的妻子迪奥梅德（Diomede，拉菲特斯（Lapithes）的女儿）所生。他被认为是王辛诺尔特斯（Sinortes，阿尔加鲁斯的继承人）、海亚金图斯（Hyacinthus）、波利博亚（Poliboea）、拉奥达米亚（Laodamia，或称为利安（Lian））、哈帕鲁斯（Harpalus）、赫戈桑德雷（Hegesandros）以及在其他传说中被视为达夫妮（Daphne）的兄弟。阿尔加鲁斯也被称为王欧埃巴鲁斯（Oebalus）的父亲。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "ギリシャ神話において、アルガルスは伝説の時代にラケダイモニスのギリシャの指導者と見なされており、現在はギリシャの青銅器時代に関連しています。",
+   "legend": "アルガルスはスパルタの王アミクラスの長男であり後継者であり、彼の妻ディオメデ（ラピテスの娘）との間に生まれたと推定されています。彼は王シノルテス（彼の後継者）、ハイアキントス、ポリボエア、ラオダミア（またはリアニラ）、ハルパルス、ヘゲサンドレ、そして他の伝承ではダフネの兄弟とも見なされています。アルガルスはまた、王オエバルスの父としても知られています。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

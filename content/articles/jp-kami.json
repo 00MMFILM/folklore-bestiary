@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Kami",
+ "sourceLang": "en",
+ "sourceChars": 21257,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Kami",
+ "generatedAt": "2026-11-22T13:32:30.890Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "카미(神)는 일본의 전통 신도에서 숭배되는 신, 신성한 존재, 영혼, 신화적 또는 자연 현상을 의미한다. 카미는 풍경의 요소, 자연의 힘, 존재, 그리고 이러한 존재가 표현하는 특성, 그리고 숭배받는 고인의 영혼을 포함할 수 있다. 많은 카미는 특정 씨족의 고대 조상으로 여겨지며, 일부 조상은 생전에 카미의 가치와 미덕을 구현할 수 있었던 경우 사망 후 카미가 된다. 신도에서 카미는 자연과 분리된 존재가 아니라 자연의 일부로, 긍정적이고 부정적인 특성을 모두 지닌다. 카미는 우주의 상호 연결된 에너지인 무스비(結び)의 표현으로 여겨지며, 인류가 지향해야 할 본보기가 된다. 카미는 '숨겨진' 존재로 여겨지며, 우리의 세계를 반영하는 보완적인 존재인 신계(神界)에 거주한다고 믿어진다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "Kami (神) refers to the gods worshipped in traditional Japanese Shinto, representing divine beings, spirits, mythological or natural phenomena. Kami can include elements of landscapes, forces of nature, beings, and the characteristics expressed by these beings, as well as the souls of revered ancestors. Many kami are considered ancient ancestors of specific clans, and some ancestors become kami after death if they embodied the values and virtues of kami during their lifetime. In Shinto, kami are not separate from nature but are part of it, possessing both positive and negative traits. Kami are viewed as expressions of musubi (結び), the interconnected energy of the universe, serving as models for humanity to aspire to. Kami are believed to be 'hidden' beings residing in the divine realm (神界), which is a complementary existence reflecting our world.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "神（Kami）是日本传统神道中崇拜的神灵、神圣存在、灵魂、神话或自然现象的意思。神可以包括风景的元素、自然的力量、存在，以及这些存在所表现的特性，以及受到崇拜的故人的灵魂。许多神被视为特定氏族的古代祖先，一些祖先在生前能够体现神的价值和美德，死后便成为神。在神道中，神并不是与自然分离的存在，而是自然的一部分，具有正面和负面的特性。神被视为宇宙相互连接的能量的表现，即结（Musubi），成为人类应当追求的榜样。神被认为是“隐藏”的存在，居住在反映我们世界的补充存在的神界（Shinkai）。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "カミ（神）は日本の伝統的な神道で崇拝される神、神聖な存在、霊、神話的または自然現象を意味する。カミは風景の要素、自然の力、存在、そしてこれらの存在が表現する特性、さらに崇拝される先祖の霊を含むことができる。多くのカミは特定の氏族の古代の祖先と見なされ、一部の祖先は生前にカミの価値と美徳を体現できた場合、死後にカミとなる。神道においてカミは自然と分離された存在ではなく、自然の一部であり、肯定的および否定的な特性の両方を持つ。カミは宇宙の相互に結びついたエネルギーであるムスビ（結び）の表現と見なされ、人類が目指すべき模範となる。カミは「隠された」存在と見なされ、私たちの世界を反映する補完的な存在である神界（神界）に住んでいると信じられている。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}
