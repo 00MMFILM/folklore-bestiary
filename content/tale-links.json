@@ -11,6 +11,18 @@
    "n": "I Verbti"
   }
  ],
+ "al-the-twins-folktale": [
+  {
+   "id": "al-dheu",
+   "n": "Dheu"
+  }
+ ],
+ "al-dheu": [
+  {
+   "id": "al-the-twins-folktale",
+   "n": "The Twins (folktale)"
+  }
+ ],
  "bo-anchancho": [
   {
    "id": "bo-ekeko",
@@ -33,6 +45,18 @@
   {
    "id": "br-mapinguari",
    "n": "Mapinguari (마핑구아리)"
+  }
+ ],
+ "ca-tuluŋigraq": [
+  {
+   "id": "ca-nuliajuk",
+   "n": "Nuliajuk"
+  }
+ ],
+ "ca-nuliajuk": [
+  {
+   "id": "ca-tuluŋigraq",
+   "n": "Tuluŋigraq"
   }
  ],
  "cl-kalku": [
@@ -1039,6 +1063,28 @@
    "n": "Yeoksin (역신)"
   }
  ],
+ "lt-kalvis": [
+  {
+   "id": "lt-perkunas",
+   "n": "Perkūnas"
+  },
+  {
+   "id": "lt-ausrine",
+   "n": "아우슈리네"
+  }
+ ],
+ "lt-ausrine": [
+  {
+   "id": "lt-kalvis",
+   "n": "칼비스"
+  }
+ ],
+ "lt-perkunas": [
+  {
+   "id": "lt-kalvis",
+   "n": "칼비스"
+  }
+ ],
  "mx-tzitzimitl": [
   {
    "id": "mx-cihuateteo",
@@ -1125,6 +1171,18 @@
   {
    "id": "no-regin",
    "n": "Regin"
+  }
+ ],
+ "ru-alyosha-popovich": [
+  {
+   "id": "ru-tugarin",
+   "n": "Tugarin"
+  }
+ ],
+ "ru-tugarin": [
+  {
+   "id": "ru-alyosha-popovich",
+   "n": "Alyosha Popovich"
   }
  ],
  "us-flying-africans": [

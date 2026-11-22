@@ -1,12 +1,6 @@
 {
-  "lastCategoryIndex": 119,
+  "lastCategoryIndex": 122,
   "processedPageIds": [
-    1253138,
-    42595734,
-    27292409,
-    2913328,
-    5318217,
-    450880,
     46919041,
     42274428,
     2987732,
@@ -8000,7 +7994,13 @@
     82809,
     37908602,
     38520288,
-    77552875
+    77552875,
+    84116579,
+    84211599,
+    84366615,
+    73426558,
+    73194519,
+    44971747
   ],
   "discoveredCategories": [
     {
@@ -26114,10 +26114,18 @@
       "label": "Mythological kings of Sparta",
       "discoveredFrom": "Amyclas of Sparta",
       "discoveredAt": 715
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Hindu fertility goddesses",
+      "iso": "IN",
+      "label": "Hindu fertility goddesses",
+      "discoveredFrom": "Kadangot Makkam",
+      "discoveredAt": 716
     }
   ],
-  "totalAdded": 4470,
-  "runs": 716,
-  "lastRun": "2026-11-22T04:11:35.193Z",
-  "lastDiscoveredIndex": 903
+  "totalAdded": 4475,
+  "runs": 717,
+  "lastRun": "2026-11-22T13:48:49.114Z",
+  "lastDiscoveredIndex": 906
 }
