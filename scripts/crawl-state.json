@@ -1,22 +1,6 @@
 {
-  "lastCategoryIndex": 122,
+  "lastCategoryIndex": 125,
   "processedPageIds": [
-    46919041,
-    42274428,
-    2987732,
-    26569724,
-    95292,
-    5874586,
-    5873281,
-    65873234,
-    76030955,
-    75442750,
-    75896898,
-    76030957,
-    2020688,
-    24538680,
-    63999951,
-    381830,
     1949269,
     1338838,
     92873,
@@ -8000,7 +7984,23 @@
     84366615,
     73426558,
     73194519,
-    44971747
+    44971747,
+    84144048,
+    21197664,
+    96310,
+    71049429,
+    71032406,
+    63931678,
+    71080035,
+    850544,
+    681675,
+    7285960,
+    44490869,
+    95937,
+    21894733,
+    95942,
+    95470,
+    4594804
   ],
   "discoveredCategories": [
     {
@@ -26122,10 +26122,26 @@
       "label": "Hindu fertility goddesses",
       "discoveredFrom": "Kadangot Makkam",
       "discoveredAt": 716
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Norse mythology in music",
+      "iso": "NO",
+      "label": "Norse mythology in music",
+      "discoveredFrom": "Baldurs draumar",
+      "discoveredAt": 717
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Norse mythology in comics",
+      "iso": "NO",
+      "label": "Norse mythology in comics",
+      "discoveredFrom": "The Ballad of Baldr",
+      "discoveredAt": 717
     }
   ],
-  "totalAdded": 4475,
-  "runs": 717,
-  "lastRun": "2026-11-22T13:48:49.114Z",
-  "lastDiscoveredIndex": 906
+  "totalAdded": 4478,
+  "runs": 718,
+  "lastRun": "2026-11-22T22:59:48.467Z",
+  "lastDiscoveredIndex": 909
 }
