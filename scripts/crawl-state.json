@@ -1,12 +1,6 @@
 {
-  "lastCategoryIndex": 116,
+  "lastCategoryIndex": 119,
   "processedPageIds": [
-    20928681,
-    90281,
-    3854823,
-    50065167,
-    68531376,
-    95211,
     1253138,
     42595734,
     27292409,
@@ -8000,7 +7994,13 @@
     66487113,
     81101,
     13739543,
-    58622485
+    58622485,
+    9510999,
+    13813233,
+    82809,
+    37908602,
+    38520288,
+    77552875
   ],
   "discoveredCategories": [
     {
@@ -26098,10 +26098,26 @@
       "label": "Mythological Colchians",
       "discoveredFrom": "Absyrtus",
       "discoveredAt": 714
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Athenian mythology",
+      "iso": "_MULTI",
+      "label": "Athenian mythology",
+      "discoveredFrom": "Aegleis",
+      "discoveredAt": 715
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythological kings of Sparta",
+      "iso": "_MULTI",
+      "label": "Mythological kings of Sparta",
+      "discoveredFrom": "Amyclas of Sparta",
+      "discoveredAt": 715
     }
   ],
-  "totalAdded": 4465,
-  "runs": 715,
-  "lastRun": "2026-11-21T22:37:11.655Z",
-  "lastDiscoveredIndex": 900
+  "totalAdded": 4470,
+  "runs": 716,
+  "lastRun": "2026-11-22T04:11:35.193Z",
+  "lastDiscoveredIndex": 903
 }
