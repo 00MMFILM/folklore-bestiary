@@ -21,6 +21,9 @@ import { getEditorialCountry } from "@/lib/editorial-countries";
 import { GrowthView, GrowthLink } from "@/components/GrowthAnalytics";
 import GrowthReadingLinks from "@/components/GrowthReadingLinks";
 import { GROWTH_CAMPAIGN_ID } from "@/lib/growth-campaign";
+import { KOREAN_FOLKLORE_IMAGE } from "@/lib/editorial-images";
+import EditorialFigure from "@/components/EditorialFigure";
+import CountryReadingCards from "@/components/CountryReadingCards";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://folklore-bestiary.vercel.app";
 
@@ -48,6 +51,7 @@ export async function generateMetadata({
   const creatures = getCreaturesByCountryCode(code).filter(c => !editorial?.listedIds || editorial.listedIds.includes(c.id));
   const cName = getCountryName(country.name, locale);
   const title = editorial?.title || `${cName}${t["list.creaturesInCountry"]} (${creatures.length}${t["list.creatureCount"]})`;
+  const illustration = locale === "ko" && code.toLowerCase() === "kr" ? KOREAN_FOLKLORE_IMAGE : null;
 
   const langAlternates: Record<string, string> = {};
   for (const l of LOCALES) {
@@ -69,9 +73,9 @@ export async function generateMetadata({
       title,
       description: editorial?.metaDescription,
       url: `${SITE_URL}/${locale}/creatures/country/${code}`,
-      images: [{ url: "/og-default.png", width: 1200, height: 630 }],
+      images: [{ url: illustration?.shareSrc || "/og-default.png", width: 1200, height: illustration ? 800 : 630, ...(illustration ? { alt: illustration.alt } : {}) }],
     },
-    twitter: { card: "summary_large_image", title, description: editorial?.metaDescription, images: ["/og-default.png"] },
+    twitter: { card: "summary_large_image", title, description: editorial?.metaDescription, images: [illustration?.shareSrc || "/og-default.png"] },
     alternates: {
       canonical: `${SITE_URL}/${locale}/creatures/country/${code}`,
       languages: langAlternates,
@@ -98,6 +102,7 @@ export default async function CountryPage({
   const regionSlug = regionToSlug(country.region);
   const countryName = getCountryName(country.name, locale);
   const regionName = getRegionName(country.region, locale);
+  const illustration = locale === "ko" && code.toLowerCase() === "kr" ? KOREAN_FOLKLORE_IMAGE : null;
 
   const breadcrumbItems = [
     { label: t["nav.home"], href: "/" },
@@ -124,6 +129,7 @@ export default async function CountryPage({
       ...(editorial ? { description: editorial.metaDescription, dateModified: editorial.reviewedAt, citation: editorial.sources.map(source => source.url) } : {}),
       url: `${SITE_URL}/${locale}/creatures/country/${code}`,
       inLanguage: locale,
+      ...(illustration ? { image: `${SITE_URL}${illustration.src}` } : {}),
       mainEntity: {
         "@type": "ItemList",
         numberOfItems: creatures.length,
@@ -184,12 +190,14 @@ export default async function CountryPage({
         {editorial && <section aria-label={locale === "ko" ? "처음 읽는 한국 설화" : "Start reading Jamaican folklore"} style={{ maxWidth: 800, lineHeight: 1.8, marginBottom: 32 }}>
           <GrowthView page={`/${locale}/creatures/country/${code.toLowerCase()}`} campaign={GROWTH_CAMPAIGN_ID} />
           <p style={{ fontSize: 18, color: "#ded6cc" }}>{editorial.intro}</p>
-          <ul style={{ paddingLeft: 20 }}>
+          {illustration && <EditorialFigure image={illustration} />}
+          {illustration ? <CountryReadingCards picks={editorial.picks} locale={locale}
+            page={`/${locale}/creatures/country/${code.toLowerCase()}`} /> : <ul style={{ paddingLeft: 20 }}>
             {editorial.picks.map(pick => <li key={pick.id}>
               <GrowthLink href={`/${locale}/creatures/${pick.id}`} page={`/${locale}/creatures/country/${code.toLowerCase()}`} campaign={GROWTH_CAMPAIGN_ID}>{pick.label}</GrowthLink>
               {" — "}{pick.reason}
             </li>)}
-          </ul>
+          </ul>}
           {editorial.sections.map(section => <section key={section.title} style={{ marginTop: 24 }}>
             <h2 style={{ fontSize: 20, color: colors.accent }}>{section.title}</h2><p>{section.text}</p>
           </section>)}

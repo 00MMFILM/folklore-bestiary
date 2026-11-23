@@ -1,0 +1,13 @@
+.reading { margin: 28px 0; }
+.reading h2 { font-size: 22px; color: #edc58c; margin-bottom: 8px; }
+.grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.grid > a { width: 100%; text-decoration: none; border-radius: 12px; }
+.grid > a:focus-visible { outline: 2px solid #edc58c; outline-offset: 4px; }
+.card { display: block; height: 100%; overflow: hidden; background: #ffffff05; border: 1px solid #edc58c30; border-radius: 12px; transition: border-color .15s; }
+.grid > a:hover .card { border-color: #edc58c; }
+.art { display: block; aspect-ratio: 3 / 2; overflow: hidden; background: #111; }
+.art img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.copy { display: flex; flex-direction: column; gap: 5px; padding: 14px; font-size: 14px; color: #c9beb1; line-height: 1.6; }
+.copy strong { font-size: 18px; color: #f0e5d6; }
+.action { margin-top: 8px; color: #edc58c; font-size: 13px; }
+@media (max-width: 600px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; } .copy { padding: 12px; } }
