@@ -401,6 +401,22 @@
    "n": "발로르"
   }
  ],
+ "in-bhasmasura": [
+  {
+   "id": "in-ravana",
+   "n": "라바나"
+  }
+ ],
+ "in-ravana": [
+  {
+   "id": "in-bhasmasura",
+   "n": "Bhasmasura"
+  },
+  {
+   "id": "in-asura",
+   "n": "아수라"
+  }
+ ],
  "in-kabandha": [
   {
    "id": "in-kali",
@@ -411,12 +427,6 @@
   {
    "id": "in-kabandha",
    "n": "Kabandha"
-  }
- ],
- "in-ravana": [
-  {
-   "id": "in-asura",
-   "n": "아수라"
   }
  ],
  "in-asura": [

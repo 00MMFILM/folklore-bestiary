@@ -1,15 +1,6 @@
 {
-  "lastCategoryIndex": 128,
+  "lastCategoryIndex": 131,
   "processedPageIds": [
-    313449,
-    95798,
-    70805750,
-    559041,
-    7811,
-    86245,
-    921437,
-    95755,
-    95754,
     4741925,
     60665737,
     3151959,
@@ -8000,7 +7991,16 @@
     16085355,
     74638557,
     202777,
-    84832273
+    84832273,
+    5320897,
+    1805236,
+    5320906,
+    277962,
+    777814,
+    100661,
+    4383399,
+    5320915,
+    88920
   ],
   "discoveredCategories": [
     {
@@ -26146,10 +26146,18 @@
       "label": "Hawaiian legends",
       "discoveredFrom": "Kaikilani",
       "discoveredAt": 718
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Names of God in Judaism",
+      "iso": "_MULTI",
+      "label": "Names of God in Judaism",
+      "discoveredFrom": "Elyon",
+      "discoveredAt": 719
     }
   ],
-  "totalAdded": 4483,
-  "runs": 719,
-  "lastRun": "2026-11-23T04:52:30.333Z",
-  "lastDiscoveredIndex": 912
+  "totalAdded": 4488,
+  "runs": 720,
+  "lastRun": "2026-11-23T16:54:20.662Z",
+  "lastDiscoveredIndex": 915
 }
