@@ -1,15 +1,6 @@
 {
-  "lastCategoryIndex": 125,
+  "lastCategoryIndex": 128,
   "processedPageIds": [
-    1949269,
-    1338838,
-    92873,
-    25672656,
-    95761,
-    18566480,
-    9570543,
-    77280,
-    198815,
     313449,
     95798,
     70805750,
@@ -8000,7 +7991,16 @@
     21894733,
     95942,
     95470,
-    4594804
+    4594804,
+    49808919,
+    36036230,
+    49043971,
+    84678601,
+    56413731,
+    16085355,
+    74638557,
+    202777,
+    84832273
   ],
   "discoveredCategories": [
     {
@@ -26138,10 +26138,18 @@
       "label": "Norse mythology in comics",
       "discoveredFrom": "The Ballad of Baldr",
       "discoveredAt": 717
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Hawaiian legends",
+      "iso": "US",
+      "label": "Hawaiian legends",
+      "discoveredFrom": "Kaikilani",
+      "discoveredAt": 718
     }
   ],
-  "totalAdded": 4478,
-  "runs": 718,
-  "lastRun": "2026-11-22T22:59:48.467Z",
-  "lastDiscoveredIndex": 909
+  "totalAdded": 4483,
+  "runs": 719,
+  "lastRun": "2026-11-23T04:52:30.333Z",
+  "lastDiscoveredIndex": 912
 }
