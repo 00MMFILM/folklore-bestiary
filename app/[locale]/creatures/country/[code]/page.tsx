@@ -20,6 +20,7 @@ import WriterStudioPromo from "@/components/writer/WriterStudioPromo";
 import { getEditorialCountry } from "@/lib/editorial-countries";
 import { GrowthView, GrowthLink } from "@/components/GrowthAnalytics";
 import GrowthReadingLinks from "@/components/GrowthReadingLinks";
+import ArtlinkPromo from "@/components/ArtlinkPromo";
 import { GROWTH_CAMPAIGN_ID } from "@/lib/growth-campaign";
 import { KOREAN_FOLKLORE_IMAGE } from "@/lib/editorial-images";
 import EditorialFigure from "@/components/EditorialFigure";
@@ -240,6 +241,7 @@ export default async function CountryPage({
             />
           ))}
         </div>
+        <ArtlinkPromo key={code} locale={locale} placement="country" />
       </div>
     </main>
     </>

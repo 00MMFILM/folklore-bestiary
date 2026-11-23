@@ -17,6 +17,7 @@ import GuidePromoCard, { KOREAN_GUIDE_CREATURE_IDS } from "@/components/GuidePro
 
 import { GrowthView } from "@/components/GrowthAnalytics";
 import GrowthReadingLinks from "@/components/GrowthReadingLinks";
+import ArtlinkPromo from "@/components/ArtlinkPromo";
 import { isGrowthPage, GROWTH_CAMPAIGN_ID } from "@/lib/growth-campaign";
 import { getEditorialImage } from "@/lib/editorial-images";
 import EditorialFigure from "@/components/EditorialFigure";
@@ -607,6 +608,8 @@ export default async function CreaturePage({
               </Link>
             </aside>
           )}
+
+          <ArtlinkPromo key={pagePath} locale={locale} placement="creature" />
 
           {/* Related creatures (internal links) */}
           {[

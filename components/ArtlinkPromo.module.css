@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 24px;
+  margin: 32px 0;
+  padding: 20px 0;
+  border-top: 1px solid #ffffff1a;
+  border-bottom: 1px solid #ffffff1a;
+  color: #ccc;
+}
+
+.copy { min-width: 0; }
+.label { margin: 0 0 7px; color: #999; font-size: 11px; line-height: 1.5; }
+.title { margin: 0; color: #ddd3c7; font-size: 15px; font-weight: 600; line-height: 1.6; }
+.description { margin: 4px 0 0; color: #aaa; font-size: 13px; line-height: 1.7; }
+.link {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  min-height: 44px;
+  color: #cdbb9e;
+  font-size: 13px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.link:hover { color: #edc68f; }
+.link:focus-visible { outline: 2px solid #edc68f; outline-offset: 5px; border-radius: 2px; }
+
+@media (max-width: 600px) {
+  .card { align-items: flex-start; flex-direction: column; gap: 4px; }
+}
