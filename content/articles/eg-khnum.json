@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Khnum",
+ "sourceLang": "en",
+ "sourceChars": 13137,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Khnum",
+ "generatedAt": "2026-11-23T16:21:40.080Z",
+ "locales": {
+  "ko": {
+   "origin": "Khnum은 고대 이집트의 신으로, 상이집트에서 가장 초기의 신 중 하나로 알려져 있다. 그는 나일 강의 폭포와 관련이 있으며, 매년 발생하는 홍수를 조절하는 책임을 지고 있었다. 나일 강의 연례 홍수는 비옥한 토양과 생명을 가져왔기 때문에, 그는 인간의 몸과 생명력인 '카'(kꜣ)의 창조자로 알려지게 되었다.",
+   "legend": "Khnum은 도예가의 바퀴와 점토를 사용하여 인간의 몸을 만들고, 이를 어머니의 자궁에 두는 역할을 한다고 전해진다. 그는 다른 신들의 창조에도 관여하며, 동물 왕국의 창조자로 숭배받았다. 그의 주요 기능은 인간의 창조로, 일반적으로 양의 뿔을 가진 모습으로 묘사된다. Khnum은 또한 악어의 머리를 가진 모습으로도 나타나며, 이는 그가 나일 강을 지배한다는 것을 나타낸다.",
+   "variants": "",
+   "culture": "Khnum은 1989년 히로히코 아라키의 만화 '죠죠의 기묘한 모험' 제3부 '스타더스트 크루세이더스'에 등장하며, 등장인물 오잉고의 스탠드로 묘사된다. 이 스탠드는 Khnum의 인간 창조 능력을 참조하여 외모를 변화시키는 능력을 가진다."
+  },
+  "en": {
+   "origin": "Khnum is an ancient Egyptian god, known as one of the earliest deities in Upper Egypt. He is associated with the waterfalls of the Nile River and was responsible for regulating the annual floods that occur. The annual flooding of the Nile brought fertile soil and life, so he became known as the creator of the human body and life force, 'ka' (kꜣ).",
+   "legend": "Khnum is said to create the human body using a potter's wheel and clay, placing it in the mother's womb. He is also involved in the creation of other gods and is worshipped as the creator of the animal kingdom. His primary function is the creation of humans, and he is typically depicted with the horns of a ram. Khnum is also represented with the head of a crocodile, symbolizing his dominion over the Nile River.",
+   "variants": "",
+   "culture": "Khnum appears in Hirohiko Araki's 1989 manga 'JoJo's Bizarre Adventure', Part 3 'Stardust Crusaders', where he is depicted as the Stand of the character Oingo. This Stand has the ability to change appearance, referencing Khnum's human creation abilities."
+  },
+  "zh": {
+   "origin": "Khnum是古埃及的神，被认为是上埃及最早的神之一。他与尼罗河的瀑布有关，负责调节每年发生的洪水。尼罗河的年度洪水带来了肥沃的土壤和生命，因此他被认为是人类身体和生命力'卡'(kꜣ)的创造者。",
+   "legend": "据说Khnum使用陶艺家的轮子和粘土来创造人类的身体，并将其放置在母亲的子宫中。他还参与其他神的创造，并被崇拜为动物王国的创造者。他的主要功能是创造人类，通常被描绘为有羊角的形象。Khnum还以鳄鱼头的形象出现，这表明他统治着尼罗河。",
+   "variants": "",
+   "culture": "Khnum在1989年广井弘彦的漫画《乔乔的奇妙冒险》第三部《星尘斗士》中出现，并被描绘为角色Oingo的替身。这个替身参考了Khnum的人类创造能力，具有改变外貌的能力。"
+  },
+  "ja": {
+   "origin": "Khnum（クヌム）は古代エジプトの神で、上エジプトで最も初期の神の一つとして知られている。彼はナイル川の滝に関連しており、毎年発生する洪水を調整する責任を負っていた。ナイル川の年次洪水は肥沃な土壌と生命をもたらしたため、彼は人間の体と生命力である「カ」（kꜣ）の創造者として知られるようになった。",
+   "legend": "Khnumは陶芸家の車輪と粘土を使って人間の体を作り、それを母の子宮に置く役割を果たすと伝えられている。彼は他の神々の創造にも関与し、動物王国の創造者として崇拝された。彼の主要な機能は人間の創造であり、一般的に羊の角を持つ姿で描かれる。Khnumはまたワニの頭を持つ姿でも現れ、これは彼がナイル川を支配していることを示している。",
+   "variants": "",
+   "culture": "Khnumは1989年に広彦荒木の漫画『ジョジョの奇妙な冒険』第3部『スターダストクルセイダース』に登場し、登場人物オインゴのスタンドとして描かれる。このスタンドはKhnumの人間創造能力を参照して外見を変化させる能力を持っている。"
+  }
+ }
+}

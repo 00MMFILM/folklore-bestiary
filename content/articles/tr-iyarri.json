@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Iyarri",
+ "sourceLang": "en",
+ "sourceChars": 11224,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Iyarri",
+ "generatedAt": "2026-11-23T16:21:12.410Z",
+ "locales": {
+  "ko": {
+   "origin": "Iyarri는 청동기 시대 아나톨리아에서 히타이트와 루비안에 의해 숭배된 신으로, 메소포타미아의 신 에라에서 발전했거나 영향을 받았을 가능성이 제기된다.",
+   "legend": "Iyarri는 전염병과 전쟁과 관련된 신으로, 화살을 쏘아 사람들에게 질병을 일으키는 모습으로 묘사된다. 그는 전쟁의 신으로 여겨졌으며, 왕의 전투에서 도움을 주는 신으로 언급되기도 했다. 그의 화살은 전염병을 가져오는 것으로 믿어졌으며, 적을 공격하도록 설득할 수 있다고 여겨졌다.",
+   "variants": "",
+   "culture": "Iyarri의 숭배는 중앙 아나톨리아와 루비안이 거주하는 지역에서 가장 잘 증명되며, 그는 여러 히타이트 조약에서 언급되었다. 그의 이름을 가진 신의 숭배는 후에 Šanta라는 유사한 신으로 대체된 것으로 보인다."
+  },
+  "en": {
+   "origin": "Iyarri is a deity worshipped by the Hittites and Luwians in Bronze Age Anatolia, and it has been suggested that he may have developed from or been influenced by the Mesopotamian god Erra.",
+   "legend": "Iyarri is depicted as a god associated with plagues and war, portrayed as shooting arrows that cause disease among people. He was considered a god of war and was sometimes mentioned as a deity who aids kings in battle. His arrows were believed to bring epidemics and were thought to persuade enemies to attack.",
+   "variants": "",
+   "culture": "The worship of Iyarri is best evidenced in central Anatolia and the regions inhabited by the Luwians, and he is mentioned in several Hittite treaties. The worship of the god bearing his name seems to have been later replaced by a similar deity named Šanta."
+  },
+  "zh": {
+   "origin": "Iyarri是青铜时代安纳托利亚由赫梯和鲁比安崇拜的神，可能是从美索不达米亚的神埃拉发展或受到影响。",
+   "legend": "Iyarri被描绘为与瘟疫和战争相关的神，他用箭射击人们，引发疾病。他被视为战争之神，有时被提及为在国王的战斗中给予帮助的神。他的箭被认为带来瘟疫，并被认为能够说服敌人攻击。",
+   "variants": "",
+   "culture": "Iyarri的崇拜在中央安纳托利亚和鲁比安居住的地区得到了最好的证明，他在多个赫梯条约中被提及。以他的名字命名的神的崇拜似乎后来被名为Šanta的类似神取代。"
+  },
+  "ja": {
+   "origin": "Iyarriは青銅器時代のアナトリアでヒッタイトとルビア人によって崇拝された神で、メソポタミアの神エラから発展したか、影響を受けた可能性が指摘されている。",
+   "legend": "Iyarriは伝染病と戦争に関連する神で、矢を放って人々に病気を引き起こす姿で描かれる。彼は戦争の神と見なされ、王の戦闘で助けを与える神として言及されることもあった。彼の矢は伝染病をもたらすと信じられ、敵を攻撃するように説得できると考えられていた。",
+   "variants": "",
+   "culture": "Iyarriの崇拝は中央アナトリアとルビア人が居住する地域で最もよく証明されており、彼は複数のヒッタイト条約で言及された。彼の名前を持つ神の崇拝は後にŠantaという類似の神に置き換えられたようである。"
+  }
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Khepri",
+ "sourceLang": "en",
+ "sourceChars": 7419,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Khepri",
+ "generatedAt": "2026-11-23T16:21:39.474Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "케프리는 고대 이집트 종교에서 태양의 상승 또는 아침을 나타내는 스카라브 얼굴의 신이다. 그는 창조와 생명의 재생을 상징하기도 한다. 케프리는 피라미드 문서에서 이름이 나타나며, 일반적으로 스카라브 상형문자가 그의 신을 명확히 하기 위한 결정자 또는 아이디어그램으로 포함된다. 또한, 그는 아므두아트에서 언급되며, 태양의 주기와 라의 밤의 여정과 본질적으로 연결되어 있다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "Khepri is a god with a scarab face representing the rising sun or morning in ancient Egyptian religion. He also symbolizes creation and the regeneration of life. Khepri's name appears in pyramid texts, and the scarab hieroglyph is generally included as a determinative or ideogram to clarify his deity. Additionally, he is mentioned in the Amduat and is essentially connected to the solar cycle and Ra's journey through the night.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "凯普里（Kepri）是古埃及宗教中代表太阳升起或早晨的甲虫面神。他象征着创造和生命的再生。凯普里的名字出现在金字塔文献中，通常甲虫象形文字作为他的神的明确标识或意念图被包含在内。此外，他在阿姆杜瓦特（Amduat）中被提及，与太阳的周期和拉（Ra）在夜间的旅程本质上相连。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ケフリは古代エジプトの宗教において太陽の昇りまたは朝を表すスカラベの顔を持つ神である。彼は創造と生命の再生を象徴することもある。ケフリはピラミッドの文書に名前が現れ、一般的にスカラベの象形文字が彼の神を明確にするための決定者またはアイデアグラムとして含まれる。また、彼はアムドゥアトにも言及されており、太陽の周期とラーの夜の旅と本質的に結びついている。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

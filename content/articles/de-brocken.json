@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Brocken",
+ "sourceLang": "en",
+ "sourceChars": 27119,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Brocken",
+ "generatedAt": "2026-11-23T16:22:03.745Z",
+ "locales": {
+  "ko": {
+   "origin": "Brocken은 독일 작센안할트 주의 Schierke 근처에 위치한 1,141m(3,743ft) 높이의 산으로, 하르츠 산맥에서 가장 높은 봉우리이다. 이 지역은 300일 이상 안개와 안개에 쌓이는 특성을 가지고 있으며, 평균 기온은 2.9°C(37.2°F)로 매우 낮다.",
+   "legend": "Brocken은 전통적으로 마녀와 악마와 관련된 전설이 존재하며, 요한 볼프강 폰 괴테는 그의 비극적 희곡 '파우스트'에서 이러한 전설을 다루었다. Brocken의 안개 속에서 나타나는 'Brocken spectre'는 등산객의 그림자가 안개에 비쳐지는 신비로운 광경을 만들어낸다.",
+   "variants": "",
+   "culture": "Brocken은 현대 대중문화에서도 중요한 위치를 차지하고 있으며, 괴테의 '파우스트'와 같은 문학 작품에서 언급되며, 하르츠 지역의 관광 명소로 알려져 있다."
+  },
+  "en": {
+   "origin": "Brocken is a mountain located near Schierke in the German state of Saxony-Anhalt, with an elevation of 1,141m (3,743ft), making it the highest peak in the Harz mountain range. This area is characterized by more than 300 days of fog and mist, and the average temperature is very low at 2.9°C (37.2°F).",
+   "legend": "Brocken has traditionally been associated with legends of witches and demons, and Johann Wolfgang von Goethe addressed these legends in his tragic play 'Faust'. The 'Brocken spectre' that appears in the fog of Brocken creates a mystical spectacle where a hiker's shadow is projected onto the mist.",
+   "variants": "",
+   "culture": "Brocken also holds an important place in modern popular culture, being mentioned in literary works such as Goethe's 'Faust', and is known as a tourist attraction in the Harz region."
+  },
+  "zh": {
+   "origin": "Brocken是位于德国萨克森-安哈尔特州Schierke附近的1,141米（3,743英尺）高的山，是哈茨山脉中最高的峰。该地区具有300天以上被雾和云雾笼罩的特性，平均气温为2.9°C（37.2°F），非常低。",
+   "legend": "Brocken传统上与女巫和恶魔相关的传说存在，约翰·沃尔夫冈·冯·歌德在他的悲剧剧作《浮士德》中探讨了这些传说。Brocken的雾气中出现的'Brocken spectre'创造了登山者的影子在雾中投射出的神秘景象。",
+   "variants": "",
+   "culture": "Brocken在现代大众文化中也占据着重要地位，并在歌德的《浮士德》等文学作品中被提及，是哈茨地区的旅游景点。"
+  },
+  "ja": {
+   "origin": "ブロッケン（Brocken）はドイツのザクセン＝アンハルト州のシアーケ（Schierke）近くに位置する1,141m（3,743フィート）の高さを持つ山で、ハルツ山脈で最も高い峰です。この地域は300日以上霧と雲に覆われる特性を持ち、平均気温は2.9°C（37.2°F）と非常に低いです。",
+   "legend": "ブロッケンは伝統的に魔女や悪魔に関連する伝説が存在し、ヨハン・ヴォルフガング・フォン・ゲーテは彼の悲劇的な戯曲『ファウスト』でこれらの伝説を扱いました。ブロッケンの霧の中に現れる『ブロッケンの光景（Brocken spectre）』は、登山者の影が霧に映し出される神秘的な光景を生み出します。",
+   "variants": "",
+   "culture": "ブロッケンは現代の大衆文化でも重要な位置を占めており、ゲーテの『ファウスト』のような文学作品で言及され、ハルツ地域の観光名所として知られています。"
+  }
+ }
+}

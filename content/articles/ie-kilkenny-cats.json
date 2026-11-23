@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Kilkenny cats",
+ "sourceLang": "en",
+ "sourceChars": 31541,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Kilkenny%20cats",
+ "generatedAt": "2026-11-23T16:21:59.559Z",
+ "locales": {
+  "ko": {
+   "origin": "킬케니 고양이 이야기는 아일랜드 킬케니 카운티에서 유래된 전설로, 두 마리의 고양이가 서로 싸우다가 결국 그들의 꼬리만 남게 되었다는 내용이다. 이 이야기는 1807년부터 간단한 농담이나 아일랜드식 우화로 전해져 왔으며, 초기 버전은 킬케니 외의 다른 지역에서도 설정되기도 했다. 이 이야기는 킬케니의 지역적 특성과 관련이 있으며, 킬케니 고양이의 전투는 서로를 파괴하는 갈등의 상징으로 여겨졌다.",
+   "legend": "킬케니 고양이는 킬케니 카운티에서 전해지는 전설적인 두 마리의 고양이로, 서로 싸우다가 결국 서로를 먹어치운 것으로 전해진다. 이 전투의 끝에는 두 마리의 고양이의 꼬리만 남았다는 이야기가 있다. 19세기에는 킬케니 고양이가 서로를 파괴하는 갈등의 비유로 자주 사용되었으며, 현재는 강한 전투력이나 다투기 좋아하는 사람을 지칭하는 용어로도 사용된다.",
+   "variants": "킬케니 고양이 이야기는 여러 버전으로 전해지며, 초기에는 킬케니가 아닌 다른 지역에서의 이야기도 존재했다. 예를 들어, 1817년의 회고록에서는 슬라이고에서의 고양이 싸움 이야기가 등장하며, 1821년의 소설에서는 더블린 근처에서의 고양이 싸움이 언급된다. 이러한 다양한 버전들은 킬케니 고양이 이야기가 단순한 농담에서 출발했음을 보여준다.",
+   "culture": "킬케니 고양이는 현대에도 여전히 사용되는 비유로, 특히 스포츠와 관련하여 킬케니 카운티의 하키 팀의 별명으로 사용된다. 20세기 후반에는 킬케니 사람들에 의해 긍정적인 상징으로 재조명되었으며, '고양이들'이라는 별명은 킬케니 하키 팀의 상징으로 자리잡았다."
+  },
+  "en": {
+   "origin": "The Kilkenny Cats story is a legend originating from County Kilkenny in Ireland, which tells of two cats that fought each other until only their tails remained. This story has been passed down since 1807 as a simple joke or Irish fable, and early versions were also set in areas outside of Kilkenny. The story is related to the regional characteristics of Kilkenny, and the battle of the Kilkenny Cats was seen as a symbol of conflict that destroys each other.",
+   "legend": "The Kilkenny Cats are legendary cats passed down in County Kilkenny, said to have fought each other until they ultimately devoured one another. There is a tale that at the end of this battle, only the tails of the two cats remained. In the 19th century, the Kilkenny Cats were often used as a metaphor for destructive conflict, and today it is also used to refer to someone with strong fighting ability or a penchant for quarrels.",
+   "variants": "The Kilkenny Cats story has been passed down in various versions, and initially, there were stories from regions other than Kilkenny. For example, a memoir from 1817 features a story of a cat fight in Sligo, and a novel from 1821 mentions a cat fight near Dublin. These various versions show that the Kilkenny Cats story originated from a simple joke.",
+   "culture": "The Kilkenny Cats are still used as a metaphor today, particularly in relation to sports, where it is used as a nickname for the hockey team from County Kilkenny. In the late 20th century, it was reinterpreted positively by the people of Kilkenny, and the nickname 'Cats' became established as a symbol of the Kilkenny hockey team."
+  },
+  "zh": {
+   "origin": "基尔肯尼猫的故事源于爱尔兰基尔肯尼县，传说中两只猫互相争斗，最终只剩下它们的尾巴。这个故事自1807年以来以简单的笑话或爱尔兰寓言的形式流传，早期版本也曾在基尔肯尼以外的其他地区设定。这个故事与基尔肯尼的地方特色有关，基尔肯尼猫的战斗被视为互相毁灭的冲突的象征。",
+   "legend": "基尔肯尼猫是传说中来自基尔肯尼县的两只猫，传说它们在争斗中最终互相吞噬。这个战斗的结局是只剩下两只猫的尾巴。19世纪，基尔肯尼猫常被用作互相毁灭冲突的比喻，现在也用来指代强大的战斗力或喜欢争斗的人。",
+   "variants": "基尔肯尼猫的故事有多个版本，早期也存在非基尔肯尼地区的故事。例如，1817年的回忆录中出现了斯莱戈的猫斗故事，1821年的小说中提到了都柏林附近的猫斗。这些不同的版本显示出基尔肯尼猫的故事起初是一个简单的笑话。",
+   "culture": "基尔肯尼猫在现代仍然被用作比喻，特别是在与体育相关的方面，作为基尔肯尼县冰球队的绰号。在20世纪后半叶，基尔肯尼人重新赋予其积极的象征意义，'猫咪'这个绰号成为基尔肯尼冰球队的象征。"
+  },
+  "ja": {
+   "origin": "キルケニーの猫の話は、アイルランドのキルケニー郡に由来する伝説で、二匹の猫が互いに戦った結果、最終的に彼らの尾だけが残ったという内容である。この話は1807年から簡単なジョークやアイルランド風の寓話として伝えられており、初期のバージョンはキルケニー以外の地域でも設定されることがあった。この話はキルケニーの地域的特性に関連しており、キルケニーの猫の戦いは互いを破壊する対立の象徴と見なされていた。",
+   "legend": "キルケニーの猫は、キルケニー郡で伝えられる伝説的な二匹の猫で、互いに戦った結果、最終的に互いを食い尽くしたと伝えられている。この戦いの終わりには二匹の猫の尾だけが残ったという話がある。19世紀にはキルケニーの猫が互いを破壊する対立の比喩として頻繁に使用されており、現在では強い戦闘力や争い好きな人を指す用語としても使われている。",
+   "variants": "キルケニーの猫の話は様々なバージョンで伝えられており、初期にはキルケニーではない他の地域での話も存在した。例えば、1817年の回顧録ではスライゴでの猫の戦いの話が登場し、1821年の小説ではダブリン近郊での猫の戦いが言及されている。これらの多様なバージョンは、キルケニーの猫の話が単なるジョークから始まったことを示している。",
+   "culture": "キルケニーの猫は現代でも依然として使用される比喩で、特にスポーツに関連してキルケニー郡のホッケーチームの愛称として使われている。20世紀後半にはキルケニーの人々によって肯定的な象徴として再評価され、「猫たち」という愛称はキルケニーのホッケーチームの象徴として定着した。"
+  }
+ }
+}

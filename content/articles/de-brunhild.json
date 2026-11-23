@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Brunhild",
+ "sourceLang": "en",
+ "sourceChars": 32401,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Brunhild",
+ "generatedAt": "2026-11-23T16:22:23.376Z",
+ "locales": {
+  "ko": {
+   "origin": "브룬힐드의 전설은 메로빙거 왕조의 두 역사적 인물인 오스트라시아의 브룬힐다와 프레데군드에서 유래했을 가능성이 가장 높다. 브룬힐다는 비시고트 공주로 프랑크 왕 시게베르트 1세와 결혼하였고, 프레데군드는 시게베르트의 형인 칠페리크 1세와 결혼하였다. 프랑크 역사학자 그레고리우스는 575년에 프레데군드가 시게베르트를 살해한 책임이 있다고 주장하며, 이후 브룬힐다와 프레데군드는 613년까지 지속된 불화를 겪었다. 이 이론이 맞다면, 브룬힐드는 본질적으로 '니벨룽겐' 이야기에서 프레데군드의 역할을 맡고 있으며, 오스트라시아의 브룬힐다의 이름을 유지하고 있다.",
+   "legend": "브룬힐드는 독일 전설에서 중요한 여성 캐릭터로, 노르드 전통에서는 방패 전사 또는 발키리로 묘사된다. 그녀는 '볼숑가 사가'와 관련된 에딕 시가에서 주요 인물로 등장하며, 대륙 독일 전통에서는 '니벨룽겐리드'에서 강력한 아마존 같은 여왕으로 나타난다. 두 전통 모두에서 그녀는 영웅 지그프리드가 그녀를 속여 부르군드 왕인 군터와 결혼하게 만든 후 그의 죽음을 초래하는 데 중요한 역할을 한다. 그녀가 지그프리드를 죽이기를 원하는 즉각적인 이유는 영웅의 아내인 구드룬과의 다툼 때문이다. 스칸디나비아 전통에서는 지그프리드의 죽음 이후 브룬힐드가 자살한다.",
+   "variants": "브룬힐드는 스칸디나비아의 여러 구술 전통에서 인기가 있었으며, 1220년경 '프로세 에다'의 작곡과 함께 그녀에 대한 전통이 확고히 증명되었다. 스칸디나비아 전통은 대륙 독일 전통에 대한 지식을 보여준다. '니벨룽겐리드'에서 브룬힐드는 아이슬란드의 여왕으로 처음 소개되며, 그녀의 왕국은 부르군드 수도인 웜스에서 배로 12일 거리에 위치해 있다.",
+   "culture": "리하르트 바그너는 그의 오페라 사이클 '니벨룽의 반지'에서 브룬힐드를 중요한 캐릭터로 만들었다. 현대의 브룬힐드에 대한 개념은 바그너의 묘사에서 영감을 받거나 영향을 받았다."
+  },
+  "en": {
+   "origin": "The legend of Brunhilde is most likely derived from two historical figures of the Merovingian dynasty, Brunhilda of Austrasia and Fredegund. Brunhilda was a Visigoth princess who married the Frankish king Sigibert I, while Fredegund married Sigibert's brother Chilperic I. The Frankish historian Gregory claimed in 575 that Fredegund was responsible for the murder of Sigibert, leading to a feud between Brunhilda and Fredegund that lasted until 613. If this theory is correct, Brunhilde essentially takes on Fredegund's role in the 'Nibelungen' story while retaining the name of Brunhilda of Austrasia.",
+   "legend": "Brunhilde is an important female character in German legend, depicted as a shieldmaiden or Valkyrie in Norse tradition. She appears as a major figure in the Eddic poetry associated with the 'Völsunga saga' and is portrayed as a powerful Amazon-like queen in the continental German tradition of 'Nibelungenlied'. In both traditions, she plays a crucial role in the death of the hero Siegfried after he is tricked into marrying Gunther, the king of Burgund. Her immediate reason for wanting Siegfried dead is a dispute with Gudrun, the hero's wife. In Scandinavian tradition, Brunhilde commits suicide after Siegfried's death.",
+   "variants": "Brunhilde was popular in various oral traditions of Scandinavia, and her tradition was firmly established with the composition of the 'Prose Edda' around 1220. The Scandinavian tradition shows knowledge of the continental German tradition. In 'Nibelungenlied', Brunhilde is first introduced as the queen of Iceland, and her kingdom is located 12 days by boat from the Burgundian capital of Worms.",
+   "culture": "Richard Wagner made Brunhilde an important character in his opera cycle 'Der Ring des Nibelungen'. The modern concept of Brunhilde has been inspired or influenced by Wagner's portrayal."
+  },
+  "zh": {
+   "origin": "布伦希尔德的传说最有可能源于美洛温王朝的两位历史人物，即奥斯特拉西亚的布伦希尔达（Brunhilda）和弗雷德贡德（Fredegund）。布伦希尔达是维西哥特公主，与法兰克王希吉贝尔特一世结婚，而弗雷德贡德则嫁给了希吉贝尔特的兄弟基尔佩里克一世。法兰克历史学家格雷戈里乌斯在575年声称弗雷德贡德对希吉贝尔特的谋杀负责，随后布伦希尔达和弗雷德贡德经历了持续到613年的不和。如果这个理论正确，布伦希尔德本质上承担了《尼贝龙根》故事中弗雷德贡德的角色，并保留了奥斯特拉西亚的布伦希尔达的名字。",
+   "legend": "布伦希尔德在德国传说中是一个重要的女性角色，在北欧传统中被描绘为女战士或女武神。她在与《沃尔松格传奇》相关的艾达诗歌中是主要人物，而在大陆德国传统中则在《尼贝龙根之歌》中以强大的亚马逊女王的形象出现。在这两种传统中，她在英雄齐格弗里德被欺骗与布尔根德王国的君特结婚后，扮演了导致他死亡的重要角色。她想要杀死齐格弗里德的直接原因是与英雄的妻子古德伦的争执。在斯堪的纳维亚传统中，齐格弗里德死后布伦希尔德自杀。",
+   "variants": "布伦希尔德在斯堪的纳维亚的多种口头传统中颇受欢迎，并在1220年左右的《普罗塞·艾达》创作中得到了确凿的证明。斯堪的纳维亚传统展示了对大陆德国传统的知识。在《尼贝龙根之歌》中，布伦希尔德首次被介绍为冰岛的女王，她的王国距离布尔根德首都温斯乘船需12天的路程。",
+   "culture": "理查德·瓦格纳在他的歌剧系列《尼贝龙的指环》中将布伦希尔德塑造成一个重要角色。现代对布伦希尔德的概念受到瓦格纳描绘的启发或影响。"
+  },
+  "ja": {
+   "origin": "ブリュンヒルデの伝説はメロヴィング朝の二人の歴史的人物、オストラシアのブリュンヒルデ（Burkhilde）とフレデグンド（Fredegund）に由来する可能性が最も高い。ブリュンヒルデは西ゴート王国の王女で、フランク王シゲベルト1世（Sigibert I）と結婚し、フレデグンドはシゲベルトの兄であるチルペリック1世（Chilperic I）と結婚した。フランクの歴史家グレゴリウス（Gregorius）は、575年にフレデグンドがシゲベルトを殺害した責任があると主張し、その後ブリュンヒルデとフレデグンドは613年まで続いた不和を経験した。この理論が正しければ、ブリュンヒルデは本質的に『ニーベルンゲン』の物語でフレデグンドの役割を担い、オストラシアのブリュンヒルデの名前を保持している。",
+   "legend": "ブリュンヒルデはドイツの伝説で重要な女性キャラクターであり、北欧の伝統では盾の戦士またはワルキューレとして描かれる。彼女は『ヴォルスンガ・サガ』に関連するエディック詩で主要な人物として登場し、大陸ドイツの伝統では『ニーベルンゲンリート』で強力なアマゾンのような女王として現れる。両方の伝統において、彼女は英雄ジークフリート（Siegfried）が彼女を騙してブルグント王であるギュンター（Günther）と結婚させた後、彼の死を引き起こす重要な役割を果たす。彼女がジークフリートを殺したいと思う直接的な理由は、英雄の妻であるグドゥルン（Gudrun）との争いによるものである。スカンジナビアの伝統では、ジークフリートの死後、ブリュンヒルデは自殺する。",
+   "variants": "ブリュンヒルデはスカンジナビアのいくつかの口承伝統で人気があり、1220年頃に『プロセ・エダ』の作曲と共に彼女に関する伝統が確固たる証拠となった。スカンジナビアの伝統は大陸ドイツの伝統に対する知識を示している。『ニーベルンゲンリート』でブリュンヒルデはアイスランドの女王として初めて紹介され、彼女の王国はブルグントの首都であるヴェルムス（Worms）から船で12日かかる場所に位置している。",
+   "culture": "リヒャルト・ワーグナー（Richard Wagner）は彼のオペラサイクル『ニーベルングの指環』でブリュンヒルデを重要なキャラクターにした。現代のブリュンヒルデに関する概念はワーグナーの描写からインスパイアを受けたり影響を受けたりしている。"
+  }
+ }
+}
