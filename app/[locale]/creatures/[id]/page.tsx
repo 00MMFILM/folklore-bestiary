@@ -18,6 +18,8 @@ import GuidePromoCard, { KOREAN_GUIDE_CREATURE_IDS } from "@/components/GuidePro
 import { GrowthView } from "@/components/GrowthAnalytics";
 import GrowthReadingLinks from "@/components/GrowthReadingLinks";
 import { isGrowthPage, GROWTH_CAMPAIGN_ID } from "@/lib/growth-campaign";
+import { getEditorialImage } from "@/lib/editorial-images";
+import EditorialFigure from "@/components/EditorialFigure";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://folklore-bestiary.vercel.app";
 
@@ -44,8 +46,9 @@ export async function generateMetadata({
   if (!creature) return { title: "Creature Not Found" };
 
   const editorial = getEditorialCreature(id, locale);
-  const image = getCreatureImage(creature.id);
-  const ogImage = image || "/og-default.png";
+  const illustration = getEditorialImage(id, locale);
+  const image = illustration?.src || getCreatureImage(creature.id);
+  const ogImage = illustration?.shareSrc || image || "/og-default.png";
   const countryLocalized = getCountryName(creature.country, locale as Locale);
   const typeLocalized = getTypeName(creature.t, locale as Locale);
   const trans = getCreatureTranslation(creature.id, locale as Locale);
@@ -71,7 +74,7 @@ export async function generateMetadata({
       title,
       description,
       url: `${SITE_URL}/${locale}/creatures/${creature.id}`,
-      images: [{ url: ogImage, width: 1200, height: 630, alt: creature.n }],
+      images: [{ url: ogImage, width: 1200, height: illustration ? 800 : 630, alt: illustration?.alt || creature.n }],
     },
     twitter: {
       card: "summary_large_image",
@@ -105,7 +108,8 @@ export default async function CreaturePage({
   const pagePath = `/${locale}/creatures/${creature.id}`;
   const growth = isGrowthPage(pagePath);
   const t = getDictionary(locale);
-  const image = getCreatureImage(creature.id);
+  const illustration = getEditorialImage(id, locale);
+  const image = illustration?.src || getCreatureImage(creature.id);
   const colors = getRegionColors(creature.region);
   const trans = getCreatureTranslation(creature.id, locale);
 
@@ -253,7 +257,7 @@ export default async function CreaturePage({
 
         <article style={{ maxWidth: "800px", margin: "0 auto", padding: "40px 24px" }}>
           {/* Creature Image */}
-          {image && !growth && (
+          {image && !growth && !illustration && (
             <div
               style={{
                 width: "100%",
@@ -355,6 +359,8 @@ export default async function CreaturePage({
             <p style={{ lineHeight: 1.8, fontSize: "16px", color: "#ccc" }}>{description}</p>
           </section>
 
+          {illustration && <EditorialFigure image={illustration} />}
+
           {growth && <>
             <GrowthView page={pagePath} campaign={GROWTH_CAMPAIGN_ID} />
             <GrowthReadingLinks page={pagePath} locale={locale} links={[
@@ -363,7 +369,7 @@ export default async function CreaturePage({
             ]} />
           </>}
           {/* Creature Image */}
-          {image && growth && (
+          {image && growth && !illustration && (
             <div
               style={{
                 width: "100%",
