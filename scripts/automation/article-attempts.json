@@ -1798,5 +1798,155 @@
     "status": "generated",
     "at": "2026-11-23T16:22:35.819Z",
     "retryAfter": "2026-11-24T16:22:35.819Z"
+  },
+  "gr-acte-mythology": {
+    "status": "thin",
+    "at": "2026-11-24T16:08:49.894Z",
+    "retryAfter": "2026-12-01T16:08:49.894Z"
+  },
+  "gr-dragon-s-teeth-mythology": {
+    "status": "rejected",
+    "at": "2026-11-24T16:08:50.267Z",
+    "retryAfter": "2026-12-01T16:08:50.267Z"
+  },
+  "gr-aegaeon-mythology": {
+    "status": "thin",
+    "at": "2026-11-24T16:08:50.813Z",
+    "retryAfter": "2026-12-01T16:08:50.813Z"
+  },
+  "ru-psoglav": {
+    "status": "thin",
+    "at": "2026-11-24T16:08:51.608Z",
+    "retryAfter": "2026-12-01T16:08:51.608Z"
+  },
+  "rs-black-arab-mythology": {
+    "status": "thin",
+    "at": "2026-11-24T16:08:52.329Z",
+    "retryAfter": "2026-12-01T16:08:52.329Z"
+  },
+  "gr-lampus": {
+    "status": "generated",
+    "at": "2026-11-24T16:08:58.588Z",
+    "retryAfter": "2026-11-25T16:08:58.588Z"
+  },
+  "al-shurdh": {
+    "status": "generated",
+    "at": "2026-11-24T16:09:03.872Z",
+    "retryAfter": "2026-11-25T16:09:03.872Z"
+  },
+  "ug-lukwata": {
+    "status": "generated",
+    "at": "2026-11-24T16:09:06.521Z",
+    "retryAfter": "2026-11-25T16:09:06.521Z"
+  },
+  "us-matshishkapeu": {
+    "status": "thin",
+    "at": "2026-11-24T16:09:07.339Z",
+    "retryAfter": "2026-12-01T16:09:07.339Z"
+  },
+  "us-crybaby-bridge": {
+    "status": "generated",
+    "at": "2026-11-24T16:09:15.942Z",
+    "retryAfter": "2026-11-25T16:09:15.942Z"
+  },
+  "gr-hippalectryon": {
+    "status": "generated",
+    "at": "2026-11-24T16:09:18.757Z",
+    "retryAfter": "2026-11-25T16:09:18.757Z"
+  },
+  "us-black-eyed-children": {
+    "status": "generated",
+    "at": "2026-11-24T16:09:22.928Z",
+    "retryAfter": "2026-11-25T16:09:22.928Z"
+  },
+  "mx-lords-of-the-night": {
+    "status": "generated",
+    "at": "2026-11-24T16:09:29.582Z",
+    "retryAfter": "2026-11-25T16:09:29.582Z"
+  },
+  "mx-xiuhtecuhtli": {
+    "status": "generated",
+    "at": "2026-11-24T16:09:35.472Z",
+    "retryAfter": "2026-11-25T16:09:35.472Z"
+  },
+  "br-uakti-myth": {
+    "status": "thin",
+    "at": "2026-11-24T16:09:36.258Z",
+    "retryAfter": "2026-12-01T16:09:36.258Z"
+  },
+  "us-tsul-kalu": {
+    "status": "generated",
+    "at": "2026-11-24T16:09:36.286Z",
+    "retryAfter": "2026-11-25T16:09:36.286Z"
+  },
+  "us-chernobog-and-belobog": {
+    "status": "generated",
+    "at": "2026-11-24T16:09:37.467Z",
+    "retryAfter": "2026-11-25T16:09:37.467Z"
+  },
+  "cl-caballo-marino-chilote": {
+    "status": "thin",
+    "at": "2026-11-24T16:09:37.828Z",
+    "retryAfter": "2026-12-01T16:09:37.828Z"
+  },
+  "mx-coyolxauhqui-imperative": {
+    "status": "generated",
+    "at": "2026-11-24T16:09:38.167Z",
+    "retryAfter": "2026-11-25T16:09:38.167Z"
+  },
+  "au-warraguk": {
+    "status": "thin",
+    "at": "2026-11-24T16:09:38.529Z",
+    "retryAfter": "2026-12-01T16:09:38.529Z"
+  },
+  "jp-namazu": {
+    "status": "generated",
+    "at": "2026-11-24T16:09:52.445Z",
+    "retryAfter": "2026-11-25T16:09:52.445Z"
+  },
+  "au-whowie": {
+    "status": "generated",
+    "at": "2026-11-24T16:09:52.822Z",
+    "retryAfter": "2026-11-25T16:09:52.822Z"
+  },
+  "pe-staff-god": {
+    "status": "generated",
+    "at": "2026-11-24T16:09:54.294Z",
+    "retryAfter": "2026-11-25T16:09:54.294Z"
+  },
+  "jp-namahage": {
+    "status": "generated",
+    "at": "2026-11-24T16:09:55.014Z",
+    "retryAfter": "2026-11-25T16:09:55.014Z"
+  },
+  "cn-fengxi-mythology": {
+    "status": "thin",
+    "at": "2026-11-24T16:09:55.817Z",
+    "retryAfter": "2026-12-01T16:09:55.817Z"
+  },
+  "jp-ae-oyna-kamuy": {
+    "status": "generated",
+    "at": "2026-11-24T16:10:01.129Z",
+    "retryAfter": "2026-11-25T16:10:01.129Z"
+  },
+  "cn-fenshen": {
+    "status": "generated",
+    "at": "2026-11-24T16:10:08.507Z",
+    "retryAfter": "2026-11-25T16:10:08.507Z"
+  },
+  "jp-godzilla-heisei": {
+    "status": "generated",
+    "at": "2026-11-24T16:10:09.308Z",
+    "retryAfter": "2026-11-25T16:10:09.308Z"
+  },
+  "jp-shibaemon-tanuki": {
+    "status": "generated",
+    "at": "2026-11-24T16:10:23.245Z",
+    "retryAfter": "2026-11-25T16:10:23.245Z"
+  },
+  "cn-chang-e": {
+    "status": "generated",
+    "at": "2026-11-24T16:10:26.992Z",
+    "retryAfter": "2026-11-25T16:10:26.992Z"
   }
 }

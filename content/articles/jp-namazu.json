@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Namazu",
+ "sourceLang": "en",
+ "sourceChars": 5548,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Namazu",
+ "generatedAt": "2026-11-24T16:09:52.444Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "일본 신화에서 나마즈(鯰) 또는 오나마즈(大鯰)는 지진을 일으키는 거대한 지하 메기이다. 이 생물은 일본의 섬들 아래에 살며, 카시마에 봉안된 신 타케미카즈치에 의해 보호받고 있다. 타케미카즈치는 이 메기를 돌로 억제하고 있으며, 그가 경계를 풀면 나마즈가 몸부림쳐 격렬한 지진을 일으킨다고 전해진다.",
+   "variants": "",
+   "culture": "나마즈는 일본에서 지진과 관련된 상징으로 널리 알려져 있으며, 19세기에는 지진을 예고하거나 유발하는 존재로 인식되었다. 1855년 에도 지진 이전에 한 장어 어부가 강에서 비정상적으로 활동적인 메기를 발견하고 이를 지진의 예고로 해석한 일화가 있다. 1930년대 일본의 지진학자들은 수조의 메기가 지진 발생 몇 시간 전에 불안정한 행동을 보인다는 것을 입증하였다. 현대에는 일본 기상청의 지진 조기 경고 시스템과 같은 여러 곳에서 나마즈의 이미지를 사용하고 있다. 또한, 포켓몬의 '위스캐시'는 나마즈를 모티프로 하여 만들어졌으며, '지진'이라는 특수 기술을 가지고 있다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "In Japanese mythology, Namazu (鯰) or Onamazu (大鯰) is a giant underground catfish that causes earthquakes. This creature lives beneath the islands of Japan and is protected by the deity Takemikazuchi enshrined in Kashima. It is said that Takemikazuchi suppresses this catfish with a stone, and when he relaxes his vigilance, Namazu thrashes about, causing violent earthquakes.",
+   "variants": "",
+   "culture": "Namazu is widely known in Japan as a symbol related to earthquakes, and in the 19th century, it was recognized as a being that predicted or caused earthquakes. There is a tale from before the 1855 Edo earthquake where an eel fisherman discovered an unusually active catfish in the river and interpreted it as a sign of an impending earthquake. In the 1930s, Japanese seismologists proved that catfish in tanks exhibited unstable behavior hours before an earthquake occurred. In modern times, the image of Namazu is used in various places, such as the Japan Meteorological Agency's earthquake early warning system. Additionally, the Pokémon 'Whiscash' is inspired by Namazu and possesses a special move called 'Earthquake.'"
+  },
+  "zh": {
+   "origin": "",
+   "legend": "在日本神话中，纳马兹（鯰）或大纳马兹（大鯰）是一种引发地震的巨大地下鳝鱼。这个生物生活在日本的岛屿下，受到供奉在鹿岛的神武神（タケミカヅチ）的保护。武神用石头压制着这条鳝鱼，传说当他放松警惕时，纳马兹就会挣扎，引发剧烈的地震。",
+   "variants": "",
+   "culture": "纳马兹在日本被广泛认为与地震相关的象征，19世纪被视为预告或引发地震的存在。1855年江户地震之前，一位鳗鱼渔夫在河中发现了一条异常活跃的鳝鱼，并将其解读为地震的预兆。1930年代，日本的地震学家证明了水槽中的鳝鱼在地震发生前几小时会表现出不稳定的行为。现代中，日本气象厅的地震预警系统等多个地方使用纳马兹的形象。此外，口袋妖怪中的“威斯卡西”是以纳马兹为灵感创作的，并拥有“地震”这一特殊技能。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "日本の神話において、ナマズ（鯰）またはオナマズ（大鯰）は、地震を引き起こす巨大な地下のナマズである。この生物は日本の島々の下に住んでおり、カシマに奉納された神タケミカヅチによって守られている。タケミカヅチはこのナマズを石で抑えており、彼が警戒を解くとナマズが身をよじり激しい地震を引き起こすと伝えられている。",
+   "variants": "",
+   "culture": "ナマズは日本で地震に関連する象徴として広く知られており、19世紀には地震を予告または引き起こす存在として認識されていた。1855年の江戸地震の前に、一人のウナギ漁師が川で異常に活発なナマズを発見し、これを地震の予告と解釈した逸話がある。1930年代の日本の地震学者たちは、水槽のナマズが地震発生の数時間前に不安定な行動を示すことを証明した。現代では、日本気象庁の地震早期警報システムなど、さまざまな場所でナマズのイメージが使用されている。また、ポケモンの「ウィスキャシ」はナマズをモチーフにして作られており、「地震」という特別な技を持っている。"
+  }
+ }
+}

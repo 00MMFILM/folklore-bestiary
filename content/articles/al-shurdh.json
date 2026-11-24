@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Shurdh",
+ "sourceLang": "en",
+ "sourceChars": 3294,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Shurdh",
+ "generatedAt": "2026-11-24T16:09:03.872Z",
+ "locales": {
+  "ko": {
+   "origin": "Shurdh는 알바니아 이교 신화에서 날씨와 폭풍의 신을 지칭하는 이름이다. 이 신은 고대 일리리아의 신명으로 여겨지며, 트라키아의 신 지벨스우르두스와 부분적으로 관련이 있는 것으로 보인다.",
+   "legend": "Shurdhi는 폭풍 구름을 타고 이동하며, 그의 도착을 알리는 우박을 동반한다고 전해진다. 그는 금속 물체의 소리나 총소리로 맞이하거나 쫓아낼 수 있으며, 이는 알바니아에서 큰 폭풍으로 인한 피해를 막기 위한 아포트로파이적 의식의 일환으로 행해진다. Shurdhi는 농업과 가축, 그리고 농촌 경제에 큰 피해를 주는 폭우와 우박을 피하기 위한 신으로 숭배되었다.",
+   "variants": "알바니아 알프스 지역에서는 Shurdh 외에도 Rmoria 또는 Shën Verbti라는 이름으로 불리며, 후자는 '맹인'을 의미하는 알바니아어 형용사 명사이다. Zadrima 지역에서는 하늘과 번개 신을 Zojz라고 부르며, 이는 고대 그리스어 제우스와 동계어로 연결된다.",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Shurdh is a name referring to the god of weather and storms in Albanian pagan mythology. This god is considered a deity of ancient Illyria and seems to be partially related to the Thracian god Gibelusurdus.",
+   "legend": "Shurdhi is said to travel on storm clouds, accompanied by hail that announces his arrival. He can be welcomed or chased away by the sound of metal objects or gunfire, which is performed as part of apotropaic rituals to prevent damage from severe storms in Albania. Shurdhi was worshipped as a god to avoid heavy rain and hail that could cause significant harm to agriculture, livestock, and the rural economy.",
+   "variants": "In the Albanian Alps region, Shurdh is also known by the names Rmoria or Shën Verbti, the latter meaning 'blind' in the Albanian adjectival noun. In the Zadrima region, the god of sky and lightning is called Zojz, which connects to the ancient Greek Zeus and the Indo-European language.",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "Shurdh是阿尔巴尼亚异教神话中指代天气和暴风的神的名称。这个神被认为是古代伊利里亚的神明，并且似乎与色拉基亚的神Gibelshurdus部分相关。",
+   "legend": "Shurdhi被传说骑乘暴风云而来，并伴随着预示他到来的冰雹。他可以通过金属物体的声音或枪声来迎接或驱赶，这是一种在阿尔巴尼亚为了防止大暴风雨造成的损害而进行的驱邪仪式。Shurdhi被崇拜为避免对农业、牲畜和农村经济造成重大损害的暴雨和冰雹的神。",
+   "variants": "在阿尔巴尼亚阿尔卑斯地区，除了Shurdh外，还被称为Rmoria或Shën Verbti，后者是阿尔巴尼亚语形容词名词，意为“盲人”。在Zadrima地区，天空和闪电之神被称为Zojz，这与古希腊语的宙斯和同源词相联系。",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "Shurdhはアルバニアの異教神話において天候と嵐の神を指す名前である。この神は古代イリリアの神々と見なされ、トラキアの神ジベルスウルドゥスと部分的に関連しているようである。",
+   "legend": "Shurdhiは嵐の雲に乗って移動し、彼の到着を告げる雹を伴うと伝えられている。彼は金属の物体の音や銃声で迎えられたり追い払われたりすることができ、これはアルバニアで大きな嵐による被害を防ぐためのアポトロパイ的儀式の一環として行われる。Shurdhiは農業や家畜、そして農村経済に大きな被害をもたらす豪雨や雹を避けるための神として崇拝されていた。",
+   "variants": "アルバニアアルプス地域ではShurdhの他にRmoriaまたはShën Verbtiという名前で呼ばれ、後者は「盲目」を意味するアルバニア語の形容詞名詞である。Zadrima地域では空と雷の神をZojzと呼び、これは古代ギリシャ語のゼウスと関連している。",
+   "culture": ""
+  }
+ }
+}

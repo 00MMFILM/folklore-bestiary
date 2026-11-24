@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Fenshen",
+ "sourceLang": "en",
+ "sourceChars": 25349,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Fenshen",
+ "generatedAt": "2026-11-24T16:10:08.506Z",
+ "locales": {
+  "ko": {
+   "origin": "Fenshen(分身) 또는 fenxing(分形)은 '신체를 나누다'라는 의미를 가진 전설적인 도교 및 방사(方士) 마스터의 비전술로, 자신의 신체를 두 개 이상의 동일한 버전으로 변형하거나 복제하는 기술을 의미한다. 이와 관련된 유명한 이야기는 장군 조조가 연금술사 좌자(左慈)를 처형하라고 명령한 사건이다. 좌자는 감옥에 수감된 후 장난스럽게 자신을 여러 명의 좌자로 나누어 경비원들을 속이고 죽음을 피했다.",
+   "legend": "Fenshen은 자신의 신체를 여러 개의 신체로 변형하는 능력을 지닌 존재로 전해진다. 이 능력은 도교의 전설적인 인물들, 특히 좌자와 같은 인물들에게서 나타나며, 그들은 이 능력을 사용하여 여러 장소에 동시에 존재하거나, 자신의 모습을 다른 형태로 변형하는 등의 신비로운 능력을 발휘한다. 예를 들어, 좌자는 자신의 신체를 여러 개로 나누어 경비원들을 혼란스럽게 하고, 심지어는 자신을 양으로 변형시켜 추적자들을 속이는 이야기가 전해진다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Fenshen (分身) or fenxing (分形) refers to a legendary Taoist and fangshi (方士) master's vision technique that means 'to divide the body,' signifying the ability to transform or replicate one's body into two or more identical versions. A famous story related to this is the incident where General Cao Cao ordered the execution of the alchemist Zuo Ci (左慈). After being imprisoned, Zuo Ci playfully divided himself into multiple versions of Zuo Ci to deceive the guards and escape death.",
+   "legend": "Fenshen is said to be an entity with the ability to transform its body into multiple bodies. This ability is attributed to legendary figures in Taoism, particularly individuals like Zuo Ci, who use this power to exist simultaneously in multiple places or to transform their appearance into different forms. For example, it is said that Zuo Ci divided his body into several parts to confuse the guards and even transformed himself into a sheep to deceive his pursuers.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "Fenshen(分身) 或者 fenxing(分形) 是一种具有 '分割身体' 意思的传说中的道教和方士大师的秘术，指的是将自己的身体变形或复制成两个或多个相同版本的技术。与此相关的著名故事是将军曹操命令处决炼金术士左慈(左慈)的事件。左慈在被监禁后，顽皮地将自己分成多个左慈以欺骗警卫，逃避了死亡。",
+   "legend": "Fenshen被传说为具有将自己的身体变形为多个身体的能力的存在。这种能力出现在道教的传奇人物中，尤其是像左慈这样的角色，他们利用这种能力同时存在于多个地方，或者将自己的形象变形为其他形态，展现出神秘的能力。例如，左慈将自己的身体分成多个部分，使警卫感到困惑，甚至将自己变成羊以欺骗追踪者的故事被传颂。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "Fenshen(分身)またはfenxing(分形)は「身体を分ける」という意味を持つ伝説的な道教および方士のマスターの秘術であり、自身の身体を二つ以上の同一のバージョンに変形または複製する技術を指す。これに関連する有名な話は、将軍曹操が錬金術師左慈(zuǒ cí)を処刑するよう命じた事件である。左慈は監獄に収監された後、いたずらに自分を複数の左慈に分けて警備員たちを欺き、死を逃れた。",
+   "legend": "Fenshenは自身の身体を複数の身体に変形させる能力を持つ存在として伝えられている。この能力は道教の伝説的な人物たち、特に左慈のような人物に現れ、彼らはこの能力を使って複数の場所に同時に存在したり、自身の姿を他の形に変形させるなどの神秘的な能力を発揮する。例えば、左慈は自身の身体を複数に分けて警備員たちを混乱させ、さらには自分を羊に変形させて追跡者たちを欺く話が伝えられている。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Lords of the Night",
+ "sourceLang": "en",
+ "sourceChars": 1958,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Lords%20of%20the%20Night",
+ "generatedAt": "2026-11-24T16:09:29.582Z",
+ "locales": {
+  "ko": {
+   "origin": "메소아메리카 신화에서, 밤의 군주들은 9명의 신들로 구성되어 있으며, 각각은 9일마다 순환하는 달력을 지배한다. 이들은 각기 특정한 운세와 관련이 있으며, 그들이 지배하는 밤에 대한 징조로 여겨진다. 이러한 9일 주기는 1904년 에두아르드 셀러에 의해 유럽 학계에 처음으로 발견되었다.",
+   "legend": "밤의 군주들은 나우아와 마야 달력 모두에서 알려져 있으며, 각 군주는 그들이 지배하는 밤에 대한 특정한 운세를 지니고 있다. 아즈텍 신화에서의 9명의 밤의 군주들은 시우테쿠틀리, 테즈카틀리포카, 필친테쿠틀리, 센테오틀, 미크틀란테쿠틀리, 찰치우틀리쿠에, 틀라졸테오틀, 테페욜로틀, 틀라로크로 구성된다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "In Mesoamerican mythology, the Lords of the Night consist of 9 deities, each governing a calendar that cycles every 9 days. They are associated with specific fortunes and are considered omens for the nights they govern. This 9-day cycle was first discovered in European academia by Eduard Seler in 1904.",
+   "legend": "The Lords of the Night are known in both Nahua and Maya calendars, with each lord possessing a specific fortune related to the night they govern. The 9 Lords of the Night in Aztec mythology are Siueteotl, Tezcatlipoca, Piltzintecuhtli, Centéotl, Mictlantecuhtli, Chalchiuhtlicue, Tlazolteotl, Tepeyollotl, and Tlaloc.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "在美索美洲神话中，夜之君主由9位神灵组成，每位神灵掌管一个每9天循环的日历。这些神灵与特定的命运相关，被视为他们所统治的夜晚的征兆。这种9天的周期在1904年由爱德华·塞勒（Eduard Seler）首次在欧洲学术界被发现。",
+   "legend": "夜之君主在纳瓦特尔（Nahuatl）和玛雅（Maya）日历中都有记载，每位君主都有特定的命运与他们所统治的夜晚相关。在阿兹特克（Aztec）神话中，9位夜之君主分别是西乌特克特利（Xiuhtecuhtli）、特斯卡特利波卡（Tezcatlipoca）、菲尔钦特克特利（Piltzintecuhtli）、森特奥特尔（Centéotl）、米克特兰特克特利（Mictlantecuhtli）、查尔奇乌特利库埃（Chalchiuhtlicue）、特拉佐尔特奥特尔（Tlazolteotl）、特佩约洛特尔（Tepeyollotl）、特拉洛克（Tlaloc）。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "メソアメリカの神話では、夜の君主たちは9人の神々で構成されており、それぞれが9日ごとに循環するカレンダーを支配しています。彼らはそれぞれ特定の運勢に関連しており、彼らが支配する夜に対する前兆と見なされています。この9日周期は1904年にエドゥアルド・セラーによってヨーロッパの学界で初めて発見されました。",
+   "legend": "夜の君主たちはナワトル（Nahuatl）とマヤのカレンダーの両方で知られており、各君主は彼らが支配する夜に対する特定の運勢を持っています。アステカ神話における9人の夜の君主はシウテクトリ（Xiuhtecuhtli）、テスカトリポカ（Tezcatlipoca）、フィルチンテクトリ（Piltzintecuhtli）、センテオトル（Centéotl）、ミクトランテクトリ（Mictlantecuhtli）、チャルチウィトリクエ（Chalchiuhtlicue）、トラロト（Tlazolteotl）、テペヨロト（Tepeyollotl）、トラロク（Tlaloc）で構成されています。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

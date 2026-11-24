@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Namahage",
+ "sourceLang": "en",
+ "sourceChars": 8169,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Namahage",
+ "generatedAt": "2026-11-24T16:09:55.014Z",
+ "locales": {
+  "ko": {
+   "origin": "Namahage는 일본 아키타현 오가 반도 지역의 전통 설화로, 원래는 새해 시즌에 방문하는 신을 모방한 젊은이들의 관습에서 유래하였다. 이들은 시간이 지나면서 오니(악마)로 인식되게 되었다.",
+   "legend": "Namahage의 전설은 지역마다 다르며, 오가 반도에서의 기원에 대한 네 가지 이론이 있다. 첫 번째 이론은 엄격한 수행을 마친 산伏(야마부시)가 마을의 집에서 기도하는 모습에서 영감을 받았다. 두 번째 이론은 산신의 사자로서의 이미지를 기반으로 하며, 오가 반도가 바다에서 보면 산처럼 보인다는 점에서 유래한다. 세 번째 이론은 외국인이 해안에 표류해 온 모습에서 비롯되었으며, 주민들은 그를 오니로 간주하였다. 네 번째 이론은 한나라의 무제와 관련이 있으며, 다섯 마리의 박쥐가 오가 반도로 따라와 오니로 변했다는 전설이다.",
+   "variants": "Namahage의 전통은 아키타현 오가 반도 지역에서 주로 이루어지며, 일본의 다른 지역에서도 유사한 전통이 존재한다. 예를 들어, 야에야마 제도의 아카마타-쿠로마타, 시코쿠의 아마부라코사기, 야마가타현의 아마하게, 이시카와현의 아마메하기, 후쿠이현의 아뽀샤, 아키타의 노시로에서의 나고메하기, 이와테현 북부의 스네카 등이 있다.",
+   "culture": "Namahage는 현대에 들어서도 여전히 새해의 전통으로 이어지고 있으며, 1964년부터 매년 2월 둘째 주에 열리는 나마하게 세도 축제에서 관광객들에게 모치를 나누어 주는 방식으로 그 역할이 변화하였다."
+  },
+  "en": {
+   "origin": "Namahage is a traditional folklore from the Oga Peninsula region of Akita Prefecture in Japan, originally derived from the practice of young people imitating gods that visit during the New Year season. Over time, they came to be recognized as oni (demons).",
+   "legend": "The legend of Namahage varies by region, and there are four theories regarding its origin in the Oga Peninsula. The first theory is inspired by the image of yamabushi (mountain ascetics) praying at the homes in the village after completing strict training. The second theory is based on the image of a messenger of the mountain god, stemming from the fact that the Oga Peninsula appears mountain-like when viewed from the sea. The third theory originates from the sight of foreigners drifting ashore, whom the locals considered to be oni. The fourth theory is related to the Emperor Wu of the Han dynasty, and it tells of five bats that followed to the Oga Peninsula and transformed into oni.",
+   "variants": "The tradition of Namahage primarily takes place in the Oga Peninsula region of Akita Prefecture, but similar traditions exist in other parts of Japan. For example, there are Akamata-Kuromata in the Yaeyama Islands, Amaburakosagi in Shikoku, Amahage in Yamagata Prefecture, Amamehagi in Ishikawa Prefecture, Apposha in Fukui Prefecture, Nagomehagi in Noshiro, Akita, and Suneka in northern Iwate Prefecture.",
+   "culture": "Namahage continues to be a New Year tradition in modern times, and since 1964, its role has changed to distributing mochi to tourists during the Namahage Sedo Festival held in the second week of February each year."
+  },
+  "zh": {
+   "origin": "Namahage是日本秋田县男鹿半岛地区的传统故事，最初源于模仿在新年季节拜访的神灵的年轻人的习俗。随着时间的推移，他们被视为鬼（恶魔）。",
+   "legend": "Namahage的传说因地区而异，关于男鹿半岛的起源有四种理论。第一种理论是受到完成严格修行的山伏（Yamabushi）在村庄的家中祈祷的形象启发。第二种理论基于山神的使者形象，源于男鹿半岛从海上看像山的特点。第三种理论源于外国人漂流到海岸的情景，居民们将其视为鬼。第四种理论与汉朝的武帝有关，传说五只蝙蝠跟随来到男鹿半岛并变成了鬼。",
+   "variants": "Namahage的传统主要在秋田县男鹿半岛地区进行，日本其他地区也存在类似的传统。例如，八重山群岛的赤马田-黑马田，四国的天妇罗小崎，山形县的天马家，石川县的天女家，福井县的阿波社，秋田的能代的名古屋家，岩手县北部的砂川等。",
+   "culture": "Namahage至今仍作为新年的传统延续，自1964年以来，每年2月第二周举行的Namahage Sedo Festival中，通过向游客分发年糕的方式改变了其角色。"
+  },
+  "ja": {
+   "origin": "Namahage（ナマハゲ）は日本の秋田県男鹿半島地域の伝統的な民話で、元々は新年の季節に訪れる神を模倣した若者たちの習慣に由来しています。彼らは時が経つにつれて鬼（おに）として認識されるようになりました。",
+   "legend": "Namahageの伝説は地域によって異なり、男鹿半島での起源に関する4つの理論があります。第一の理論は、厳しい修行を終えた山伏（やまぶし）が村の家で祈る姿からインスピレーションを受けたものです。第二の理論は、山神の使者としてのイメージに基づき、男鹿半島が海から見ると山のように見えることに由来します。第三の理論は、外国人が海岸に漂流してきた姿に由来し、住民は彼を鬼と見なしました。第四の理論は漢の武帝に関連しており、5匹のコウモリが男鹿半島に従ってきて鬼に変わったという伝説です。",
+   "variants": "Namahageの伝統は秋田県男鹿半島地域で主に行われており、日本の他の地域でも類似の伝統が存在します。例えば、八重山諸島の赤又-黒又、四国の天ブラコサギ、山形県の天羽毛、石川県の天女羽、福井県のアポシャ、秋田の能代での名護女羽、岩手県北部のスネカなどがあります。",
+   "culture": "Namahageは現代においても新年の伝統として続いており、1964年から毎年2月の第2週に行われるナマハゲセド祭りで観光客に餅を配る形でその役割が変化しました。"
+  }
+ }
+}
