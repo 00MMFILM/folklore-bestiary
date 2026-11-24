@@ -81,6 +81,28 @@
    "n": "Kalku"
   }
  ],
+ "cn-chang-e": [
+  {
+   "id": "cn-hou-yi",
+   "n": "Hou Yi"
+  },
+  {
+   "id": "cn-서유기",
+   "n": "서유기"
+  }
+ ],
+ "cn-서유기": [
+  {
+   "id": "cn-chang-e",
+   "n": "Chang'e"
+  }
+ ],
+ "cn-hou-yi": [
+  {
+   "id": "cn-chang-e",
+   "n": "Chang'e"
+  }
+ ],
  "eg-sekhmet": [
   {
    "id": "eg-hathor",
@@ -217,6 +239,10 @@
   {
    "id": "gr-broteas",
    "n": "Broteas"
+  },
+  {
+   "id": "gr-lampus",
+   "n": "Lampus"
   }
  ],
  "gr-charybdis": [
@@ -299,16 +325,34 @@
    "n": "Eurytus and Cteatus"
   }
  ],
- "gr-lernaean-hydra": [
+ "gr-lampus": [
   {
-   "id": "gr-hydra",
-   "n": "히드라"
+   "id": "gr-actaeon",
+   "n": "Actaeon"
+  },
+  {
+   "id": "gr-aegyptus",
+   "n": "Aegyptus"
+  },
+  {
+   "id": "gr-helios",
+   "n": "Helios"
+  },
+  {
+   "id": "gr-ocypete",
+   "n": "오퀴페테"
   }
  ],
- "gr-hydra": [
+ "gr-helios": [
   {
-   "id": "gr-lernaean-hydra",
-   "n": "Lernaean Hydra"
+   "id": "gr-lampus",
+   "n": "Lampus"
+  }
+ ],
+ "gr-aegyptus": [
+  {
+   "id": "gr-lampus",
+   "n": "Lampus"
   }
  ],
  "gr-ocypete": [
@@ -323,6 +367,22 @@
   {
    "id": "gr-celaeno",
    "n": "Celaeno"
+  },
+  {
+   "id": "gr-lampus",
+   "n": "Lampus"
+  }
+ ],
+ "gr-lernaean-hydra": [
+  {
+   "id": "gr-hydra",
+   "n": "히드라"
+  }
+ ],
+ "gr-hydra": [
+  {
+   "id": "gr-lernaean-hydra",
+   "n": "Lernaean Hydra"
   }
  ],
  "gr-aello": [
@@ -553,6 +613,18 @@
   {
    "id": "jp-fujin",
    "n": "Fūjin"
+  }
+ ],
+ "jp-shibaemon-tanuki": [
+  {
+   "id": "jp-ehon-hyaku-monogatari",
+   "n": "Ehon Hyaku Monogatari"
+  }
+ ],
+ "jp-ehon-hyaku-monogatari": [
+  {
+   "id": "jp-shibaemon-tanuki",
+   "n": "Shibaemon-tanuki"
   }
  ],
  "kr-cheoyong": [
@@ -1127,6 +1199,28 @@
    "n": "Tzitzimitl (치치미틀)"
   }
  ],
+ "mx-xiuhtecuhtli": [
+  {
+   "id": "mx-chalchiuhtlicue",
+   "n": "Chalchiuhtlicue"
+  },
+  {
+   "id": "mx-huehueteotl",
+   "n": "Huehueteotl"
+  }
+ ],
+ "mx-chalchiuhtlicue": [
+  {
+   "id": "mx-xiuhtecuhtli",
+   "n": "Xiuhtecuhtli"
+  }
+ ],
+ "mx-huehueteotl": [
+  {
+   "id": "mx-xiuhtecuhtli",
+   "n": "Xiuhtecuhtli"
+  }
+ ],
  "ng-sopona": [
   {
    "id": "ng-babalu-aye",
@@ -1181,6 +1275,18 @@
   {
    "id": "no-regin",
    "n": "Regin"
+  }
+ ],
+ "pe-staff-god": [
+  {
+   "id": "pe-viracocha",
+   "n": "Viracocha"
+  }
+ ],
+ "pe-viracocha": [
+  {
+   "id": "pe-staff-god",
+   "n": "Staff God"
   }
  ],
  "ru-alyosha-popovich": [
