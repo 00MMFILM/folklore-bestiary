@@ -103,6 +103,18 @@
    "n": "Chang'e"
   }
  ],
+ "de-treuer-eckart": [
+  {
+   "id": "de-frau-holle",
+   "n": "Frau Holle"
+  }
+ ],
+ "de-frau-holle": [
+  {
+   "id": "de-treuer-eckart",
+   "n": "Treuer Eckart"
+  }
+ ],
  "eg-sekhmet": [
   {
    "id": "eg-hathor",
@@ -125,6 +137,18 @@
   {
    "id": "fr-gradlon",
    "n": "Gradlon"
+  }
+ ],
+ "gb-beheading-game": [
+  {
+   "id": "gb-green-knight",
+   "n": "녹색 기사"
+  }
+ ],
+ "gb-green-knight": [
+  {
+   "id": "gb-beheading-game",
+   "n": "Beheading game"
   }
  ],
  "gb-simonside-dwarfs": [

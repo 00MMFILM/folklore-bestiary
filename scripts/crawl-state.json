@@ -1,18 +1,6 @@
 {
-  "lastCategoryIndex": 140,
+  "lastCategoryIndex": 0,
   "processedPageIds": [
-    8892424,
-    1701111,
-    142388,
-    99585,
-    2283861,
-    20025927,
-    22094702,
-    1424697,
-    100511,
-    4453740,
-    80726179,
-    1240857,
     5108286,
     26848063,
     1609373,
@@ -8000,7 +7988,19 @@
     63617951,
     979303,
     21262874,
-    62285329
+    62285329,
+    69098467,
+    1525507,
+    5372508,
+    4050556,
+    71000704,
+    84133,
+    2016905,
+    44880967,
+    7564146,
+    84511361,
+    5210801,
+    84370389
   ],
   "discoveredCategories": [
     {
@@ -26162,10 +26162,18 @@
       "label": "Legend Books books",
       "discoveredFrom": "The Hammer and the Cross",
       "discoveredAt": 720
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Mythology of Phocis",
+      "iso": "_MULTI",
+      "label": "Mythology of Phocis",
+      "discoveredFrom": "Mestra",
+      "discoveredAt": 723
     }
   ],
-  "totalAdded": 4498,
-  "runs": 723,
-  "lastRun": "2026-11-25T01:46:11.928Z",
-  "lastDiscoveredIndex": 924
+  "totalAdded": 4503,
+  "runs": 724,
+  "lastRun": "2026-11-25T16:30:51.827Z",
+  "lastDiscoveredIndex": 927
 }
