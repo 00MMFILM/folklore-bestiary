@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Battle of Barry",
+ "sourceLang": "en",
+ "sourceChars": 9476,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Battle%20of%20Barry",
+ "generatedAt": "2026-11-25T15:56:30.624Z",
+ "locales": {
+  "ko": {
+   "origin": "Battle of Barry는 1010년에 스코틀랜드가 덴마크의 침략 세력을 물리친 전설적인 전투로, 말콤 2세가 이끌었다고 전해진다. 이 전투의 장소는 앵거스의 카르노스티(Carnoustie)로 추정되며, 초기 지형도에서 그 위치를 확인할 수 있다. 그러나 이 사건의 역사적 사실성은 전통에 크게 의존하고 있으며, 사실이 아닐 것으로 여겨진다.",
+   "legend": "전투의 이야기는 16세기 스코틀랜드 역사학자 헥터 보에스(Hector Boece)에 의해 처음 보고되었다. 보에스에 따르면, 덴마크와 잉글랜드의 왕 스웨노(Sueno)는 자신의 군대가 모르틀라흐(Mortlach)에서 패배한 소식을 듣고 스코틀랜드로 향하는 해군 작전 부대를 보냈다. 이 군대는 앵거스의 루난 베이(Lunan Bay)에 상륙한 후 몬트로즈(Montrose)를 약탈하고 브레친(Brechin)을 파괴했다. 이후 말콤 2세가 스코틀랜드 군대를 던디(Dundee)로 이끌고, 두 군대는 로흐티 번(Lochty Burn) 근처에서 격돌하게 된다. 전투가 치열해지자, 패배를 직감한 카무스(Camus)는 도망쳤고, 로버트 드 키스(Robert de Keith)에 의해 사망하게 된다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "The Battle of Barry is a legendary battle in which Scotland repelled Danish invading forces in 1010, said to be led by Malcolm II. The location of this battle is believed to be Carnoustie in Angus, and its position can be confirmed in early maps. However, the historical veracity of this event largely relies on tradition and is considered to be untrue.",
+   "legend": "The story of the battle was first reported by 16th-century Scottish historian Hector Boece. According to Boece, Sweno (Suen), the king of Denmark and England, sent a naval expedition to Scotland upon hearing the news of his army's defeat at Mortlach. This army landed at Lunan Bay in Angus, plundering Montrose and destroying Brechin. Subsequently, Malcolm II led the Scottish army to Dundee, where the two armies clashed near Lochty Burn. As the battle intensified, Camus sensed defeat and fled, ultimately being killed by Robert de Keith.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "巴里之战（Battle of Barry）是1010年苏格兰击退丹麦侵略者的传奇战斗，传说由马尔科姆二世（Malcolm II）领导。这场战斗的地点被认为是在安格斯的卡尔诺斯蒂（Carnoustie），在早期的地形图中可以确认其位置。然而，这一事件的历史真实性在很大程度上依赖于传统，被认为并非事实。",
+   "legend": "战斗的故事最早由16世纪苏格兰历史学家赫克托·博伊斯（Hector Boece）报道。博伊斯称，丹麦和英格兰的国王斯维诺（Sueno）在得知自己的军队在莫特拉赫（Mortlach）战败的消息后，派遣海军作战部队前往苏格兰。这支军队在安格斯的卢南湾（Lunan Bay）登陆后，掠夺了蒙特罗斯（Montrose）并摧毁了布雷欣（Brechin）。随后，马尔科姆二世率领苏格兰军队前往邓迪（Dundee），两军在洛赫提河（Lochty Burn）附近交锋。战斗愈发激烈，感到失败的卡穆斯（Camus）逃跑，最终被罗伯特·德·基斯（Robert de Keith）杀死。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "バリーの戦い（Battle of Barry）は1010年にスコットランドがデンマークの侵略勢力を撃退した伝説的な戦闘で、マルコム2世（Malcolm II）が指導したと伝えられています。この戦闘の場所はアンガスのカーヌスティ（Carnoustie）と推定されており、初期の地形図でその位置を確認することができます。しかし、この事件の歴史的な事実性は伝承に大きく依存しており、事実ではないと考えられています。",
+   "legend": "戦闘の物語は16世紀のスコットランドの歴史家ヘクター・ボエス（Hector Boece）によって初めて報告されました。ボエスによれば、デンマークとイングランドの王スウェノ（Sueno）は、自軍がモートラフ（Mortlach）で敗北した知らせを聞き、スコットランドに向かう海軍作戦部隊を送りました。この軍隊はアンガスのルナン湾（Lunan Bay）に上陸した後、モントローズ（Montrose）を略奪し、ブレヒン（Brechin）を破壊しました。その後、マルコム2世がスコットランド軍をダンディ（Dundee）に導き、両軍はロクティバーン（Lochty Burn）近くで衝突することになります。戦闘が激化する中、敗北を直感したカムス（Camus）は逃げ出し、ロバート・ド・キース（Robert de Keith）によって死亡します。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}
