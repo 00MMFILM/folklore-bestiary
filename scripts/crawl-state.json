@@ -1,23 +1,6 @@
 {
-  "lastCategoryIndex": 0,
+  "lastCategoryIndex": 3,
   "processedPageIds": [
-    5108286,
-    26848063,
-    1609373,
-    78436648,
-    60091454,
-    5858830,
-    76410182,
-    25632245,
-    67483506,
-    67245314,
-    16993240,
-    36612104,
-    5977485,
-    6824693,
-    47274448,
-    51343553,
-    78745,
     82466991,
     836841,
     82525073,
@@ -8000,7 +7983,24 @@
     7564146,
     84511361,
     5210801,
-    84370389
+    84370389,
+    4244061,
+    4244057,
+    4291380,
+    4291374,
+    5654828,
+    380583,
+    449973,
+    2177194,
+    165964,
+    29028054,
+    1664115,
+    6446432,
+    1392358,
+    50675795,
+    76691848,
+    98304,
+    2307245
   ],
   "discoveredCategories": [
     {
@@ -26170,10 +26170,26 @@
       "label": "Mythology of Phocis",
       "discoveredFrom": "Mestra",
       "discoveredAt": 723
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Heroes in European mythology",
+      "iso": "_MULTI",
+      "label": "Heroes in European mythology",
+      "discoveredFrom": "Dazhbog",
+      "discoveredAt": 724
+    },
+    {
+      "lang": "en",
+      "cat": "Category:Heroes in Chinese mythology",
+      "iso": "CN",
+      "label": "Heroes in Chinese mythology",
+      "discoveredFrom": "Fuxi",
+      "discoveredAt": 724
     }
   ],
-  "totalAdded": 4503,
-  "runs": 724,
-  "lastRun": "2026-11-25T16:30:51.827Z",
-  "lastDiscoveredIndex": 927
+  "totalAdded": 4508,
+  "runs": 725,
+  "lastRun": "2026-11-26T01:20:55.244Z",
+  "lastDiscoveredIndex": 930
 }

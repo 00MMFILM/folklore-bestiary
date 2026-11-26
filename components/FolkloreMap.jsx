@@ -13,7 +13,7 @@ import { getScenarioAccessToken } from "@/lib/supabase-browser";
 import { parseScenarioLoginDraft, SCENARIO_DRAFT_KEY } from "@/lib/scenario-login-draft";
 
 // 크롤 스크립트가 자동 갱신 (아래 한 줄만 교체)
-const LAST_UPDATED = "2026-11-25T16:30:51.826Z";
+const LAST_UPDATED = "2026-11-26T01:20:55.243Z";
 
 
 // ═══════════════════════════════════════════════════════════════
