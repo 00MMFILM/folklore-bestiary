@@ -1,15 +1,15 @@
 {
-  "lastRun": "2026-11-26T01:20:55.247Z",
-  "runs": 33,
-  "lastProductiveRun": "2026-11-26T01:20:55.247Z",
+  "lastRun": "2026-11-26T16:03:38.735Z",
+  "runs": 34,
+  "lastProductiveRun": "2026-11-26T16:03:38.735Z",
   "zeroStreak": 0,
   "lastResult": {
-    "attempted": 31,
+    "attempted": 22,
     "generated": 5,
     "errors": 0,
     "remaining": null,
-    "categoryIndex": 3,
-    "discoveredIndex": 930
+    "categoryIndex": 6,
+    "discoveredIndex": 933
   },
-  "runUrl": "https://github.com/00MMFILM/folklore-bestiary/actions/runs/45735041114"
+  "runUrl": "https://github.com/00MMFILM/folklore-bestiary/actions/runs/45855006015"
 }

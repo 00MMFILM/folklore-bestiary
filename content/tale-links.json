@@ -519,6 +519,18 @@
    "n": "라바나"
   }
  ],
+ "in-sharabha": [
+  {
+   "id": "in-gandabherunda",
+   "n": "간다베룬다"
+  }
+ ],
+ "in-gandabherunda": [
+  {
+   "id": "in-sharabha",
+   "n": "Sharabha"
+  }
+ ],
  "iq-lamashtu": [
   {
    "id": "iq-anzu",
@@ -571,6 +583,20 @@
    "n": "Ahriman"
   },
   {
+   "id": "ir-fereydun",
+   "n": "Fereydun"
+  },
+  {
+   "id": "ir-zahhak",
+   "n": "Zahhak"
+  }
+ ],
+ "ir-fereydun": [
+  {
+   "id": "ir-ahura-mazda",
+   "n": "Ahura Mazda"
+  },
+  {
    "id": "ir-zahhak",
    "n": "Zahhak"
   }
@@ -587,6 +613,10 @@
   {
    "id": "ir-azhdaha",
    "n": "Azhdaha"
+  },
+  {
+   "id": "ir-fereydun",
+   "n": "Fereydun"
   }
  ],
  "ir-azhdaha": [
@@ -1169,6 +1199,22 @@
    "n": "Yeoksin (역신)"
   }
  ],
+ "lt-dievas": [
+  {
+   "id": "lt-perkunas",
+   "n": "Perkūnas"
+  }
+ ],
+ "lt-perkunas": [
+  {
+   "id": "lt-dievas",
+   "n": "Dievas"
+  },
+  {
+   "id": "lt-kalvis",
+   "n": "칼비스"
+  }
+ ],
  "lt-kalvis": [
   {
    "id": "lt-perkunas",
@@ -1180,12 +1226,6 @@
   }
  ],
  "lt-ausrine": [
-  {
-   "id": "lt-kalvis",
-   "n": "칼비스"
-  }
- ],
- "lt-perkunas": [
   {
    "id": "lt-kalvis",
    "n": "칼비스"
@@ -1335,6 +1375,30 @@
   {
    "id": "us-flying-africans",
    "n": "Flying Africans"
+  }
+ ],
+ "us-folklore-of-the-united-states": [
+  {
+   "id": "us-bigfoot",
+   "n": "빅풋(사스콰치)"
+  }
+ ],
+ "us-bigfoot": [
+  {
+   "id": "us-folklore-of-the-united-states",
+   "n": "미국의 민속"
+  }
+ ],
+ "us-lono": [
+  {
+   "id": "us-laka",
+   "n": "Laka"
+  }
+ ],
+ "us-laka": [
+  {
+   "id": "us-lono",
+   "n": "Lono"
   }
  ],
  "us-malsumis": [
