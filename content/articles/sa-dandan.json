@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Dandan",
+ "sourceLang": "en",
+ "sourceChars": 2095,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Dandan",
+ "generatedAt": "2026-11-26T15:36:59.498Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "Dandan 또는 dendan은 '아라비안 나이트'의 이야기 '어부 압둘라와 인어 압둘라'에 등장하는 신화적인 바다 생물이다. 이 이야기에서 인어는 dandan을 가장 크고 사나운 물고기로 묘사하며, 큰 동물을 한 입에 삼킬 수 있는 능력을 지닌 존재로 설명한다. dandan의 지방은 '황금처럼 노랗고 맛이 달콤한 소의 지방'으로 묘사되며, 인간이 수중에서 생존할 수 있도록 해주는 연고처럼 사용된다. dandan은 육상의 어떤 짐승보다도 크며, 낙타나 코끼리를 만나면 한 입에 삼킬 수 있다고 전해진다. 또한, dandan은 바다의 짐승들을 먹으며, '바다의 물고기처럼 강한 자가 약한 자를 먹는다'는 속담이 있다.",
+   "variants": "",
+   "culture": "dandan은 'Magic: The Gathering' 카드 게임의 아라비안 나이트 확장 세트에서 묘사되었으며, 이 생물은 'Forgetful Fish' 또는 'Dandân'이라는 인기 있는 팬 제작 변형 게임의 주제가 되기도 했다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Dandan or dendan is a mythical sea creature that appears in the story 'The Fisherman Abdullah and the Mermaid Abdullah' from 'Arabian Nights'. In this tale, the mermaid describes dandan as the largest and fiercest fish, explaining it as a being capable of swallowing large animals whole. The fat of dandan is described as 'golden yellow and sweet like cow fat', used like an ointment that allows humans to survive underwater. Dandan is said to be larger than any beast on land, capable of swallowing a camel or an elephant in one bite. Additionally, dandan feeds on the beasts of the sea, and there is a proverb that states, 'the strong eat the weak like the fish of the sea.'",
+   "variants": "",
+   "culture": "Dandan is depicted in the Arabian Nights expansion set of the card game 'Magic: The Gathering', and this creature has also become the theme of a popular fan-made variant game called 'Forgetful Fish' or 'Dandân'."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "Dandan或dendan是《一千零一夜》故事《渔夫阿卜杜拉与人鱼阿卜杜拉》中出现的神话海洋生物。在这个故事中，人鱼将dandan描述为最大的、最凶猛的鱼，说明它具有一口吞下大型动物的能力。dandan的脂肪被描述为“像黄金一样黄色且味道甜美的牛脂”，被用作像药膏一样帮助人类在水中生存。dandan的体型比任何陆地上的兽类都要大，传说中遇到骆驼或大象时可以一口吞下。此外，dandan以海洋中的兽类为食，流传着“海中的鱼强者吃弱者”的谚语。",
+   "variants": "",
+   "culture": "dandan在《Magic: The Gathering》卡牌游戏的阿拉伯之夜扩展集中被描述，这种生物也成为了“忘记的鱼”或“Dandân”等受欢迎的粉丝创作变体游戏的主题。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ダンダン (Dandan) または dendan は、『アラビアンナイト』の物語『漁師アブドゥラと人魚アブドゥラ』に登場する神話的な海の生物です。この物語では、人魚は dandan を最も大きく、凶暴な魚として描写し、大きな動物を一口で飲み込む能力を持つ存在として説明しています。dandan の脂肪は「黄金のように黄色く、甘い味の牛の脂肪」と描写され、人間が水中で生存できるようにする軟膏のように使用されます。dandan は陸上のどの獣よりも大きく、ラクダや象に出会うと一口で飲み込むことができると伝えられています。また、dandan は海の獣を食べ、「海の魚のように強い者が弱い者を食べる」ということわざがあります。",
+   "variants": "",
+   "culture": "dandan は『Magic: The Gathering』カードゲームのアラビアンナイト拡張セットで描写されており、この生物は「忘れっぽい魚 (Forgetful Fish)」または「ダンダン (Dandân)」という人気のファン制作の変形ゲームのテーマにもなっています。"
+  }
+ }
+}

@@ -2098,5 +2098,155 @@
     "status": "generated",
     "at": "2026-11-25T15:56:49.903Z",
     "retryAfter": "2026-11-26T15:56:49.903Z"
+  },
+  "gr-xanthus-mythology": {
+    "status": "rejected",
+    "at": "2026-11-26T15:35:47.041Z",
+    "retryAfter": "2026-12-03T15:35:47.041Z"
+  },
+  "ir-fereydun": {
+    "status": "generated",
+    "at": "2026-11-26T15:35:56.826Z",
+    "retryAfter": "2026-11-27T15:35:56.826Z"
+  },
+  "gn-baloma": {
+    "status": "thin",
+    "at": "2026-11-26T15:35:57.596Z",
+    "retryAfter": "2026-12-03T15:35:57.596Z"
+  },
+  "us-glawackus": {
+    "status": "thin",
+    "at": "2026-11-26T15:35:58.321Z",
+    "retryAfter": "2026-12-03T15:35:58.321Z"
+  },
+  "lt-dievas": {
+    "status": "generated",
+    "at": "2026-11-26T15:35:58.597Z",
+    "retryAfter": "2026-11-27T15:35:58.597Z"
+  },
+  "gh-mbombo": {
+    "status": "generated",
+    "at": "2026-11-26T15:35:59.571Z",
+    "retryAfter": "2026-11-27T15:35:59.571Z"
+  },
+  "gr-the-bacchae": {
+    "status": "generated",
+    "at": "2026-11-26T15:36:03.471Z",
+    "retryAfter": "2026-11-27T15:36:03.471Z"
+  },
+  "us-moon-eyed-people": {
+    "status": "generated",
+    "at": "2026-11-26T15:36:10.042Z",
+    "retryAfter": "2026-11-27T15:36:10.042Z"
+  },
+  "us-baymax": {
+    "status": "generated",
+    "at": "2026-11-26T15:36:10.373Z",
+    "retryAfter": "2026-11-27T15:36:10.373Z"
+  },
+  "us-folklore-of-the-united-states": {
+    "status": "generated",
+    "at": "2026-11-26T15:36:11.542Z",
+    "retryAfter": "2026-11-27T15:36:11.542Z"
+  },
+  "mx-ehecatl": {
+    "status": "thin",
+    "at": "2026-11-26T15:36:11.563Z",
+    "retryAfter": "2026-12-03T15:36:11.563Z"
+  },
+  "co-muisca-religion": {
+    "status": "generated",
+    "at": "2026-11-26T15:36:21.018Z",
+    "retryAfter": "2026-11-27T15:36:21.018Z"
+  },
+  "us-lono": {
+    "status": "generated",
+    "at": "2026-11-26T15:36:21.243Z",
+    "retryAfter": "2026-11-27T15:36:21.243Z"
+  },
+  "pe-pariacaca-god": {
+    "status": "thin",
+    "at": "2026-11-26T15:36:22.504Z",
+    "retryAfter": "2026-12-03T15:36:22.504Z"
+  },
+  "us-loveland-frog": {
+    "status": "generated",
+    "at": "2026-11-26T15:36:23.133Z",
+    "retryAfter": "2026-11-27T15:36:23.133Z"
+  },
+  "au-mokoi": {
+    "status": "thin",
+    "at": "2026-11-26T15:36:23.914Z",
+    "retryAfter": "2026-12-03T15:36:23.914Z"
+  },
+  "mx-vision-serpent": {
+    "status": "generated",
+    "at": "2026-11-26T15:36:27.174Z",
+    "retryAfter": "2026-11-27T15:36:27.174Z"
+  },
+  "pe-viracocha": {
+    "status": "generated",
+    "at": "2026-11-26T15:36:33.652Z",
+    "retryAfter": "2026-11-27T15:36:33.652Z"
+  },
+  "jp-ashinazuchi-and-tenazuchi": {
+    "status": "thin",
+    "at": "2026-11-26T15:36:34.475Z",
+    "retryAfter": "2026-12-03T15:36:34.475Z"
+  },
+  "ws-guayota": {
+    "status": "generated",
+    "at": "2026-11-26T15:36:40.693Z",
+    "retryAfter": "2026-11-27T15:36:40.693Z"
+  },
+  "nz-te-wheke-a-muturangi": {
+    "status": "generated",
+    "at": "2026-11-26T15:36:41.585Z",
+    "retryAfter": "2026-11-27T15:36:41.585Z"
+  },
+  "jp-ningyo": {
+    "status": "generated",
+    "at": "2026-11-26T15:36:44.494Z",
+    "retryAfter": "2026-11-27T15:36:44.494Z"
+  },
+  "cn-진묘수": {
+    "status": "thin",
+    "at": "2026-11-26T15:36:45.218Z",
+    "retryAfter": "2026-12-03T15:36:45.218Z"
+  },
+  "jp-matarajin": {
+    "status": "generated",
+    "at": "2026-11-26T15:36:45.381Z",
+    "retryAfter": "2026-11-27T15:36:45.381Z"
+  },
+  "ph-laon-deity": {
+    "status": "rejected",
+    "at": "2026-11-26T15:36:46.665Z",
+    "retryAfter": "2026-12-03T15:36:46.665Z"
+  },
+  "in-gajasura": {
+    "status": "thin",
+    "at": "2026-11-26T15:36:46.763Z",
+    "retryAfter": "2026-12-03T15:36:46.763Z"
+  },
+  "jp-minamoto-no-yoshiie": {
+    "status": "generated",
+    "at": "2026-11-26T15:36:51.604Z",
+    "retryAfter": "2026-11-27T15:36:51.604Z"
+  },
+  "jp-huri-ainu-legendary-bird": {
+    "status": "generated",
+    "at": "2026-11-26T15:36:52.359Z",
+    "retryAfter": "2026-11-27T15:36:52.359Z"
+  },
+  "sa-dandan": {
+    "status": "generated",
+    "at": "2026-11-26T15:36:59.498Z",
+    "retryAfter": "2026-11-27T15:36:59.498Z"
+  },
+  "in-sharabha": {
+    "status": "generated",
+    "at": "2026-11-26T15:37:05.849Z",
+    "retryAfter": "2026-11-27T15:37:05.849Z"
   }
 }

@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Ningyo",
+ "sourceLang": "en",
+ "sourceChars": 37413,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Ningyo",
+ "generatedAt": "2026-11-26T15:36:44.494Z",
+ "locales": {
+  "ko": {
+   "origin": "Ningyo(人魚; '인어')는 일본 문헌에서 인간과 물고기 특성을 모두 가진 존재로 묘사되며, 그 기원은 7세기로 거슬러 올라간다. 초기 기록은 일본의 고대 문헌인 '일본서기'에 등장하며, 주로 담수에서 잡힌 생물로 언급된다. 그러나 이후의 예시들은 대개 해수에서 발견된 생물들이다.",
+   "legend": "Ningyo는 종종 불길한 징조로 여겨졌으며, 해변에 떠밀려 오는 것이 전투나 재난을 예고하는 것으로 간주되었다. 또한, ningyo의 살을 먹으면 장수하게 된다는 전설이 있으며, 이는 '야오 비쿠니'(八百比丘尼) 전설과 관련이 있다. Edo 시대에는 ningyo가 풍자적인 소설의 주제로 다루어지기도 하였다.",
+   "variants": "",
+   "culture": "Edo 시대에는 ningyo가 주로 여성으로 묘사되었으며, 이는 유럽의 영향으로 인한 성 편향이 작용했을 가능성이 있다. 그러나 남성 인어에 대한 예시도 존재하며, 현대 대중문화에서도 ningyo의 이미지가 다양한 형태로 재현되고 있다."
+  },
+  "en": {
+   "origin": "Ningyo (人魚; '인어') is described in Japanese literature as a being that possesses both human and fish characteristics, with origins tracing back to the 7th century. The earliest records appear in Japan's ancient text 'Nihon Shoki' (日本書紀), where it is primarily mentioned as a creature caught in freshwater. However, later examples are mostly creatures found in saltwater.",
+   "legend": "Ningyo was often considered an ominous sign, with its washing ashore seen as a portent of battles or disasters. Additionally, there is a legend that eating the flesh of a ningyo grants longevity, which is related to the legend of 'Yao Bikuni' (八百比丘尼). During the Edo period, ningyo was also addressed as a subject in satirical novels.",
+   "variants": "",
+   "culture": "During the Edo period, ningyo was predominantly depicted as female, possibly influenced by European gender biases. However, there are also examples of male mermaids, and in modern popular culture, the image of ningyo is represented in various forms."
+  },
+  "zh": {
+   "origin": "Ningyo(人鱼; '인어')在日本文献中被描述为同时具有人的和鱼的特征，其起源可以追溯到7世纪。最早的记录出现在日本的古代文献《日本书纪》中，主要提到的是在淡水中捕获的生物。然而，后来的例子大多是发现于海水中的生物。",
+   "legend": "Ningyo常常被视为不祥的征兆，被认为冲上海滩是预示战斗或灾难的征兆。此外，关于吃ningyo的肉可以长寿的传说与《八百比丘尼》(Yao Bikuni)的传说有关。在江户时代，ningyo也曾作为讽刺小说的主题。",
+   "variants": "",
+   "culture": "在江户时代，ningyo主要被描绘为女性，这可能是由于欧洲影响所导致的性别偏见。然而，也存在男性人鱼的例子，现代大众文化中ningyo的形象以各种形式再现。"
+  },
+  "ja": {
+   "origin": "Ningyo(人魚; 'にんぎょ')は日本の文献で人間と魚の特性を持つ存在として描かれ、その起源は7世紀に遡ります。初期の記録は日本の古代文献である「日本書紀」に登場し、主に淡水で捕らえられた生物として言及されています。しかし、その後の例は主に海水で発見された生物です。",
+   "legend": "Ningyoはしばしば不吉な前兆と見なされ、海岸に打ち上げられることは戦闘や災害を予告するものと考えられていました。また、ningyoの肉を食べると長生きできるという伝説があり、これは「八百比丘尼」（やおびくに）伝説と関連しています。江戸時代にはningyoが風刺的な小説のテーマとして扱われることもありました。",
+   "variants": "",
+   "culture": "江戸時代にはningyoが主に女性として描かれ、これはヨーロッパの影響による性偏向が作用した可能性があります。しかし、男性の人魚に関する例も存在し、現代の大衆文化でもningyoのイメージがさまざまな形で再現されています。"
+  }
+ }
+}

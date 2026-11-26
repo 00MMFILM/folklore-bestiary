@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Baymax",
+ "sourceLang": "en",
+ "sourceChars": 9949,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Baymax",
+ "generatedAt": "2026-11-26T15:36:10.373Z",
+ "locales": {
+  "ko": {
+   "origin": "Baymax는 스티븐 T. 시글과 던컨 루로가 창조한 허구의 슈퍼히어로 캐릭터로, 1998년 9월에 발행된 'Sunfire & Big Hero 6 #1'에서 처음 등장하였다. Baymax는 원래 히로 타카치호의 과학 프로젝트로 시작되었으며, 히로의 개인 경호원, 집사 및 운전사로서 기능하도록 설계된 수력 동력 로봇 신스포머이다.",
+   "legend": "Baymax는 히로의 아버지의 뇌파를 기반으로 프로그래밍된 인공지능을 가지고 있으며, 히로의 가장 친한 친구이자 아버지 같은 존재로 기능한다. 그는 히로를 보호하고 돕기 위해 설계되었으며, Big Hero 6라는 슈퍼팀에 합류하여 그의 힘과 감시 및 데이터 분석 능력을 발휘한다.",
+   "variants": "",
+   "culture": "Baymax는 2014년 디즈니 애니메이션 영화 'Big Hero 6'에서 스콧 애드싯의 목소리로 등장하며, 이후 여러 매체에서 그 이야기가 확장되었다. Baymax는 디즈니+의 스핀오프 시리즈 'Baymax!'의 주인공으로 등장하며, 샌프란소키오의 여러 시민들을 돕는 역할을 한다. COVID-19 팬데믹 동안 중국에서는 Baymax라는 용어가 백색 방호복을 착용한 전염병 예방 인력을 지칭하는 데 사용되었다."
+  },
+  "en": {
+   "origin": "Baymax is a fictional superhero character created by Steven T. Seagle and Duncan Rouleau, who first appeared in 'Sunfire & Big Hero 6 #1' published in September 1998. Baymax originally started as a science project by Hiro Takachiho and is a hydraulically powered robot synthformer designed to function as Hiro's personal bodyguard, butler, and driver.",
+   "legend": "Baymax has an artificial intelligence programmed based on the brainwaves of Hiro's father, functioning as Hiro's best friend and a father figure. He is designed to protect and assist Hiro, and joins the superhero team Big Hero 6, showcasing his strength and abilities in surveillance and data analysis.",
+   "variants": "",
+   "culture": "Baymax appears in the 2014 Disney animated film 'Big Hero 6', voiced by Scott Adsit, and the story has since expanded across various media. Baymax is the protagonist of the Disney+ spin-off series 'Baymax!', where he helps various citizens of San Fransokyo. During the COVID-19 pandemic, the term Baymax was used in China to refer to epidemic prevention personnel wearing white protective suits."
+  },
+  "zh": {
+   "origin": "Baymax是由斯蒂芬·T·西格尔（Steven T. Siegel）和邓肯·鲁罗（Duncan Rouleau）创造的虚构超级英雄角色，首次出现在1998年9月发行的《Sunfire & Big Hero 6 #1》中。Baymax最初是作为广岛·高桥（Hiro Takachiho）的科学项目开始的，设计为他的私人保镖、管家和司机的水力驱动机器人合成者。",
+   "legend": "Baymax拥有基于广岛·高桥（Hiro Takachiho）父亲脑波编程的人工智能，作为广岛的最好的朋友和父亲般的存在。他被设计用来保护和帮助广岛，并加入超级团队Big Hero 6，发挥他的力量、监视和数据分析能力。",
+   "variants": "",
+   "culture": "Baymax在2014年迪士尼动画电影《Big Hero 6》中由斯科特·艾德西特（Scott Adsit）配音，之后在多个媒体中扩展了这个故事。Baymax作为迪士尼+的衍生系列《Baymax!》的主角，帮助旧金山（San Fransokyo）中的多个市民。在COVID-19大流行期间，中国使用Baymax这个词来指代穿着白色防护服的疫情防控人员。"
+  },
+  "ja": {
+   "origin": "ベイマックス（Baymax）は、スティーブン・T・シーグル（Steven T. Siegel）とダンカン・ルーロ（Duncan Rouleau）が創造した架空のスーパーヒーローキャラクターで、1998年9月に発行された『サンファイア＆ビッグヒーロー6 #1』で初めて登場しました。ベイマックスは元々ヒロ・タカチホ（Hiro Takachiho）の科学プロジェクトとして始まり、ヒロの個人警護者、執事、運転手として機能するように設計された水圧駆動ロボットシンフォーマーです。",
+   "legend": "ベイマックスはヒロの父親の脳波を基にプログラムされた人工知能を持ち、ヒロの最も親しい友人であり父親のような存在として機能します。彼はヒロを保護し助けるために設計されており、ビッグ・ヒーロー6というスーパーチームに参加して彼の力と監視およびデータ分析能力を発揮します。",
+   "variants": "",
+   "culture": "ベイマックスは2014年のディズニーアニメ映画『ビッグ・ヒーロー6』でスコット・アッドシット（Scott Adsit）の声で登場し、その後さまざまなメディアでその物語が拡張されました。ベイマックスはディズニープラスのスピンオフシリーズ『ベイマックス！』の主人公として登場し、サンフランソキオのさまざまな市民を助ける役割を果たします。COVID-19パンデミックの間、中国ではベイマックスという用語が白い防護服を着用した感染症予防の人員を指すのに使用されました。"
+  }
+ }
+}

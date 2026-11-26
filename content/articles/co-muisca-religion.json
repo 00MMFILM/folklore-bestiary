@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Muisca religion",
+ "sourceLang": "en",
+ "sourceChars": 11113,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Muisca%20religion",
+ "generatedAt": "2026-11-26T15:36:21.017Z",
+ "locales": {
+  "ko": {
+   "origin": "Muisca 종교는 스페인 정복 이전 콜롬비아 안데스 중앙 고원에 거주했던 무이스카의 종교를 설명한다. 무이스카는 신성한 통치자들의 연합체를 형성하였으며, 그들의 문화에는 다양한 신들, 사원 및 의식이 포함되어 있었다.",
+   "legend": "무이스카 종교의 최고 존재는 치미니가구아로, 그는 빛과 지구를 창조한 신이다. 그는 직접적으로 경배받지 않았고, 대신 달의 여신인 치아와 태양의 신인 수에에게 경배가 이루어졌다. 두 주요 천체의 부부로서의 표현은 남성과 여성의 상호 보완적 특성과 결혼의 신성한 지위를 보여주었다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "The Muisca religion describes the beliefs of the Muisca people who inhabited the central Andean highlands of Colombia before the Spanish conquest. The Muisca formed a confederation of sacred rulers, and their culture included various gods, temples, and rituals.",
+   "legend": "The highest being in Muisca religion is Chiminigagua, who is the god that created light and the earth. He was not worshipped directly; instead, worship was directed to the moon goddess Chía and the sun god Sué. The representation of these two major celestial bodies as a couple illustrated the complementary characteristics of male and female and the sacred status of marriage.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "Muisca宗教是描述在西班牙征服之前居住在哥伦比亚安第斯中央高原的穆伊斯卡的宗教。穆伊斯卡形成了神圣统治者的联合体，他们的文化包括各种神灵、寺庙和仪式。",
+   "legend": "穆伊斯卡宗教的最高存在是Chiminigagua，他是光和地球的创造神。他并没有直接受到崇拜，而是崇拜的是月亮女神Chía和太阳神Sué。作为两个主要天体的夫妻表现出男性和女性的互补特性以及婚姻的神圣地位。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "ムイスカ宗教はスペインの征服以前にコロンビアのアンデス中央高原に住んでいたムイスカの宗教を説明する。ムイスカは神聖な統治者たちの連合体を形成し、彼らの文化には様々な神々、寺院、儀式が含まれていた。",
+   "legend": "ムイスカ宗教の最高存在はチミニガグアで、彼は光と地球を創造した神である。彼は直接的に崇拝されることはなく、代わりに月の女神チアと太陽の神スエに崇拝が行われた。二つの主要天体の夫婦としての表現は、男性と女性の相互補完的特性と結婚の神聖な地位を示していた。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

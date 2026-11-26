@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Moon-eyed people",
+ "sourceLang": "en",
+ "sourceChars": 9583,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Moon-eyed%20people",
+ "generatedAt": "2026-11-26T15:36:10.041Z",
+ "locales": {
+  "ko": {
+   "origin": "달눈 사람들은 아팔래치아 지역에 살았던 전설적인 집단으로, 체로키족에 의해 추방되었다고 전해진다. 이들에 대한 이야기는 초기 유럽 정착민들에 의해 언급되었으며, 1797년 벤자민 스미스 바턴의 저서에서 이들이 '달눈'이라고 불리는 이유는 낮에 시력이 좋지 않았기 때문이라고 설명된다. 바턴은 조지아의 초기 정착민인 레너드 마버리와의 대화를 출처로 인용하였다.",
+   "legend": "달눈 사람들은 짧고 수염이 있는 백인으로 묘사되며, 체로키족이 이 지역에 들어오기 전 아팔래치아 남부 지역에 살았던 고대의 존재로 전해진다. 이들은 낮에 잘 보지 못하는 특성 때문에 '달눈'이라는 이름을 얻었다. 일부 이야기에서는 이들이 지역의 선사 시대 유적을 만들었다고 주장하며, 이후 이 지역에서 사라졌다고 전해진다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "The Moon-eyed People are a legendary group said to have lived in the Appalachian region and were expelled by the Cherokee tribe. Stories about them were mentioned by early European settlers, and in Benjamin Smith Barton’s 1797 work, it is explained that they are called 'Moon-eyed' because they had poor eyesight during the day. Barton cited a conversation with Leonard Marbury, an early settler of Georgia, as his source.",
+   "legend": "The Moon-eyed People are described as short, bearded white individuals and are said to be ancient beings that lived in the southern Appalachian region before the Cherokee tribe arrived. They earned the name 'Moon-eyed' due to their inability to see well during the day. Some stories claim that they created prehistoric sites in the area and later disappeared from the region.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "月眼人是传说中生活在阿巴拉契亚地区的一个神秘群体，传说他们被切罗基族驱逐。关于他们的故事在早期欧洲定居者中被提及，1797年本杰明·史密斯·巴顿的著作中解释了他们被称为“月眼”的原因是因为他们在白天视力不好。巴顿引用了乔治亚州早期定居者伦纳德·马伯里的对话作为来源。",
+   "legend": "月眼人被描述为矮小且有胡子的白人，传说他们是生活在阿巴拉契亚南部地区的古代存在，在切罗基族进入该地区之前。他们因在白天视力不佳而得名“月眼”。一些故事声称他们建造了该地区的史前遗迹，随后便在该地区消失。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "ダルヌン人々はアパラチア地域に住んでいた伝説的な集団で、チェロキー族によって追放されたと伝えられています。彼らに関する話は初期のヨーロッパの入植者によって言及され、1797年にベンジャミン・スミス・バートンの著書では、彼らが「ダルヌン」と呼ばれる理由は昼間に視力が良くなかったからだと説明されています。バートンはジョージアの初期入植者であるレナード・マーバリーとの対話を出典として引用しました。",
+   "legend": "ダルヌン人々は短くひげを生やした白人として描写され、チェロキー族がこの地域に入ってくる前にアパラチア南部地域に住んでいた古代の存在として伝えられています。彼らは昼間にあまり見えない特性のために「ダルヌン」という名前を得ました。一部の話では、彼らが地域の先史時代の遺跡を作ったと主張され、その後この地域から姿を消したと伝えられています。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

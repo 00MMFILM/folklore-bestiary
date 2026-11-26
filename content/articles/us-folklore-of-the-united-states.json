@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Folklore of the United States",
+ "sourceLang": "en",
+ "sourceChars": 47527,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Folklore%20of%20the%20United%20States",
+ "generatedAt": "2026-11-26T15:36:11.542Z",
+ "locales": {
+  "ko": {
+   "origin": "미국의 민속은 수세기 동안 미국 내에서 발전해 온 신화, 전설, 이야기, 구술 전통, 음악, 관습 및 문화적 표현을 포함한다. 이는 원주율 미국 전통, 유럽 정착민의 이야기, 아프리카계 미국인의 이야기, 아시아, 라틴 아메리카 및 기타 지역의 이민자 공동체의 민속에서 비롯된 다양한 기원을 반영한다.",
+   "legend": "미국 민속에는 폴 바니언(Paul Bunyan)과 조니 애플시드(Johnny Appleseed)와 같은 상징적인 인물, 빅풋(Bigfoot)과 저지 악마(Jersey Devil)와 같은 지역 생물, 그리고 디지털 시대에도 지속되는 도시 전설이 포함된다. 또한 지역과 인구에 따라 다양한 민속 음악, 미신, 유령 이야기 및 축제 전통도 포함된다.",
+   "variants": "",
+   "culture": "미국 민속은 변화하는 기술, 사회 구조 및 문화 정체성과 함께 진화하고 있으며, 공유된 역사적 관점과 상충하는 관점을 모두 반영하고 있다."
+  },
+  "en": {
+   "origin": "American folklore includes myths, legends, stories, oral traditions, music, customs, and cultural expressions that have developed over centuries within the United States. It reflects a diverse origin stemming from Native American traditions, stories of European settlers, African American narratives, and folklore from immigrant communities from Asia, Latin America, and other regions.",
+   "legend": "American folklore includes iconic figures such as Paul Bunyan and Johnny Appleseed, regional creatures like Bigfoot and the Jersey Devil, as well as urban legends that persist even in the digital age. It also encompasses a variety of folk music, superstitions, ghost stories, and festival traditions that vary by region and population.",
+   "variants": "",
+   "culture": "American folklore is evolving alongside changing technologies, social structures, and cultural identities, reflecting both shared historical perspectives and conflicting viewpoints."
+  },
+  "zh": {
+   "origin": "美国的民俗是数世纪以来在美国境内发展起来的神话、传说、故事、口头传统、音乐、习俗和文化表现。这反映了源自美洲土著传统、欧洲移民的故事、非裔美国人的故事以及来自亚洲、拉丁美洲和其他地区的移民社区的多样起源。",
+   "legend": "美国民俗包括保罗·巴尼恩（Paul Bunyan）和约翰尼·苹果种子（Johnny Appleseed）等象征性人物，大脚怪（Bigfoot）和泽西恶魔（Jersey Devil）等地方生物，以及在数字时代仍然存在的城市传说。此外，还包括根据地区和人口的不同而变化的民俗音乐、迷信、鬼故事和节日传统。",
+   "variants": "",
+   "culture": "美国民俗随着技术、社会结构和文化身份的变化而不断演变，反映了共享的历史视角和相互冲突的观点。"
+  },
+  "ja": {
+   "origin": "アメリカの民俗は、数世紀にわたってアメリカ国内で発展してきた神話、伝説、物語、口承伝統、音楽、習慣、文化的表現を含む。これは、先住民アメリカの伝統、ヨーロッパの入植者の物語、アフリカ系アメリカ人の物語、アジア、ラテンアメリカ、その他の地域の移民コミュニティの民俗に由来する多様な起源を反映している。",
+   "legend": "アメリカの民俗には、ポール・バニアン（Paul Bunyan）やジョニー・アップルシード（Johnny Appleseed）などの象徴的な人物、ビッグフット（Bigfoot）やジャージー・デビル（Jersey Devil）などの地域の生物、そしてデジタル時代にも続く都市伝説が含まれる。また、地域や人口に応じて多様な民俗音楽、迷信、幽霊話、祭りの伝統も含まれる。",
+   "variants": "",
+   "culture": "アメリカの民俗は、変化する技術、社会構造、文化的アイデンティティとともに進化しており、共有された歴史的視点と対立する視点の両方を反映している。"
+  }
+ }
+}
