@@ -1,20 +1,6 @@
 {
-  "lastCategoryIndex": 9,
+  "lastCategoryIndex": 12,
   "processedPageIds": [
-    37018125,
-    8483179,
-    37020322,
-    93127,
-    2823549,
-    17508739,
-    65861040,
-    7531819,
-    92858,
-    12585402,
-    12585087,
-    93102,
-    64088598,
-    9820863,
     3546630,
     6425276,
     18863954,
@@ -8000,7 +7986,21 @@
     2528782,
     56357318,
     2528753,
-    10361936
+    10361936,
+    4302910,
+    2277880,
+    193457,
+    1065300,
+    2953898,
+    3317960,
+    65993,
+    2616884,
+    1662777,
+    2465101,
+    81597,
+    66357,
+    157142,
+    80283
   ],
   "discoveredCategories": [
     {
@@ -26194,10 +26194,42 @@
       "label": "Ghost towns in Idaho",
       "discoveredFrom": "List of ghost towns in Idaho",
       "discoveredAt": 726
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:프랑스의 민담",
+      "iso": "FR",
+      "label": "프랑스의 민담",
+      "discoveredFrom": "미녀와 야수",
+      "discoveredAt": 727
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:그리스 신화의 여자",
+      "iso": "_MULTI",
+      "label": "그리스 신화의 여자",
+      "discoveredFrom": "갈린티아스",
+      "discoveredAt": 727
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:그리스 신화를 바탕으로 한 작품",
+      "iso": "_MULTI",
+      "label": "그리스 신화를 바탕으로 한 작품",
+      "discoveredFrom": "변신 이야기",
+      "discoveredAt": 727
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:아르카디아 신화",
+      "iso": "_MULTI",
+      "label": "아르카디아 신화",
+      "discoveredFrom": "칼리스토 (신화)",
+      "discoveredAt": 727
     }
   ],
-  "totalAdded": 4517,
-  "runs": 727,
-  "lastRun": "2026-11-27T01:19:15.901Z",
-  "lastDiscoveredIndex": 936
+  "totalAdded": 4519,
+  "runs": 728,
+  "lastRun": "2026-11-27T15:52:42.864Z",
+  "lastDiscoveredIndex": 939
 }

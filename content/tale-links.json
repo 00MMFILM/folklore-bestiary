@@ -151,6 +151,48 @@
    "n": "Beheading game"
   }
  ],
+ "gb-jack-the-giant-killer": [
+  {
+   "id": "gb-blunderbore",
+   "n": "Blunderbore"
+  },
+  {
+   "id": "gb-cormoran",
+   "n": "Cormoran"
+  },
+  {
+   "id": "gb-jack-and-the-beanstalk",
+   "n": "Jack and the Beanstalk"
+  },
+  {
+   "id": "gb-tom-thumb",
+   "n": "Tom Thumb"
+  }
+ ],
+ "gb-tom-thumb": [
+  {
+   "id": "gb-jack-the-giant-killer",
+   "n": "Jack the Giant Killer"
+  }
+ ],
+ "gb-blunderbore": [
+  {
+   "id": "gb-jack-the-giant-killer",
+   "n": "Jack the Giant Killer"
+  }
+ ],
+ "gb-cormoran": [
+  {
+   "id": "gb-jack-the-giant-killer",
+   "n": "Jack the Giant Killer"
+  }
+ ],
+ "gb-jack-and-the-beanstalk": [
+  {
+   "id": "gb-jack-the-giant-killer",
+   "n": "Jack the Giant Killer"
+  }
+ ],
  "gb-simonside-dwarfs": [
   {
    "id": "gb-will-o-the-wisp",
@@ -347,6 +389,18 @@
   {
    "id": "gr-eurytus-and-cteatus",
    "n": "Eurytus and Cteatus"
+  }
+ ],
+ "gr-labyrinth": [
+  {
+   "id": "gr-minotaur",
+   "n": "미노타우로스"
+  }
+ ],
+ "gr-minotaur": [
+  {
+   "id": "gr-labyrinth",
+   "n": "Labyrinth"
   }
  ],
  "gr-lampus": [
@@ -1307,6 +1361,28 @@
   {
    "id": "no-nidhogg",
    "n": "Nidhogg"
+  }
+ ],
+ "no-nott": [
+  {
+   "id": "no-dagr",
+   "n": "Dagr"
+  },
+  {
+   "id": "no-dellingr",
+   "n": "Dellingr"
+  }
+ ],
+ "no-dagr": [
+  {
+   "id": "no-nott",
+   "n": "Nótt"
+  }
+ ],
+ "no-dellingr": [
+  {
+   "id": "no-nott",
+   "n": "Nótt"
   }
  ],
  "no-regin": [
