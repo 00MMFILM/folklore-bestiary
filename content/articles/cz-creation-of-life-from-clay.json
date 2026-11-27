@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Creation of life from clay",
+ "sourceLang": "en",
+ "sourceChars": 10469,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Creation%20of%20life%20from%20clay",
+ "generatedAt": "2026-11-27T15:28:26.959Z",
+ "locales": {
+  "ko": {
+   "origin": "생명 창조의 개념은 고대 근동의 우주론에서 인간의 기원에 대한 창조 신화에서 가장 먼저 나타납니다. 이 개념은 성경과 꾸란의 우주론에서도 발견됩니다. 점토는 형체가 없는 혼돈의 물질을 나타내며, 신들이 창조 과정에서 이를 형상화하고 형태를 부여합니다.",
+   "legend": "점토로부터 생명을 창조하는 이야기는 여러 종교와 신화에서 전해집니다. 예를 들어, 성경의 창세기 2장 7절에서는 아담이 흙으로 만들어졌다고 기록되어 있습니다. 유대 민속에서는 고렘이라는 존재가 점토로 만들어진 생명체로 묘사됩니다. 이와 유사하게, 이슬람에서는 꾸란 23장 12절에서 인간이 점토로 창조되었다고 언급됩니다.",
+   "variants": "유대교에서는 아담의 이름이 히브리어 '아다마'에서 유래되며, 이는 '붉은 점토'를 의미합니다. 기독교에서는 아담의 점토 창조가 겸손의 교훈으로 해석됩니다. 이슬람에서는 아담이 점토와 먼지로 만들어졌다고 하며, 이 개념은 부정적인 의미를 내포하고 있습니다.",
+   "culture": "대중문화에서는 점토로 조각된 존재가 생명을 얻는 이야기가 종종 등장합니다. 예를 들어, 슈퍼히어로 원더우먼은 그녀의 어머니 히폴리타에 의해 점토로 조각되어 그리스 신들에 의해 생명을 부여받았습니다."
+  },
+  "en": {
+   "origin": "The concept of creation of life first appears in the creation myths regarding the origin of humans in ancient Near Eastern cosmology. This concept is also found in the cosmology of the Bible and the Quran. Clay represents the formless material of chaos, and the gods shape and give form to it during the creation process.",
+   "legend": "The story of creating life from clay is passed down in various religions and myths. For example, in Genesis 2:7 of the Bible, it is recorded that Adam was made from dust. In Jewish folklore, a being called Golem is described as a creature made from clay. Similarly, in Islam, it is mentioned in Quran 23:12 that humans were created from clay.",
+   "variants": "In Judaism, the name Adam is derived from the Hebrew 'Adamah', which means 'red clay'. In Christianity, the creation of Adam from clay is interpreted as a lesson in humility. In Islam, it is said that Adam was made from clay and dust, and this concept carries a negative connotation.",
+   "culture": "In popular culture, stories of beings sculpted from clay gaining life often appear. For example, the superhero Wonder Woman was sculpted from clay by her mother Hippolyta and was given life by the Greek gods."
+  },
+  "zh": {
+   "origin": "生命创造的概念最早出现在古代近东的宇宙论中，关于人类起源的创造神话中。这个概念也在《圣经》和《古兰经》的宇宙论中被发现。泥土代表着没有形状的混沌物质，神在创造过程中将其塑造并赋予形态。",
+   "legend": "从泥土中创造生命的故事在多个宗教和神话中流传。例如，在《圣经》的创世纪第2章第7节中记载了亚当是由土而造。犹太民俗中，戈LEM（Golem）被描述为由泥土制成的生命体。类似地，在伊斯兰教中，《古兰经》23章第12节提到人类是由泥土创造的。",
+   "variants": "在犹太教中，亚当的名字源于希伯来语'亚达玛'（Adamah），意为'红土'。在基督教中，亚当的泥土创造被解读为谦卑的教训。在伊斯兰教中，亚当是由泥土和尘土制成的，这个概念蕴含着消极的意义。",
+   "culture": "在大众文化中，泥土雕刻的存在获得生命的故事经常出现。例如，超级英雄神奇女侠（Wonder Woman）是由她的母亲希波吕忒（Hippolyta）用泥土雕刻而成，并由希腊神祇赋予生命。"
+  },
+  "ja": {
+   "origin": "生命創造の概念は古代近東の宇宙論において人間の起源に関する創造神話に最初に現れます。この概念は聖書とクルアーンの宇宙論でも見られます。粘土は形のない混沌の物質を表し、神々は創造過程でこれを形作り、形を与えます。",
+   "legend": "粘土から生命を創造する話は、さまざまな宗教や神話で伝えられています。例えば、聖書の創世記2章7節ではアダムが土から作られたと記されています。ユダヤ民俗ではゴーレムという存在が粘土で作られた生命体として描かれています。このように、イスラムではクルアーン23章12節で人間が粘土で創造されたと述べられています。",
+   "variants": "ユダヤ教ではアダムの名前がヘブライ語の「アダマ」から派生しており、これは「赤い粘土」を意味します。キリスト教ではアダムの粘土創造が謙虚さの教訓として解釈されます。イスラムではアダムが粘土と埃で作られたとされ、この概念は否定的な意味を含んでいます。",
+   "culture": "大衆文化では粘土で彫刻された存在が生命を得る話がしばしば登場します。例えば、スーパーヒーローのワンダーウーマンは彼女の母ヒポリタによって粘土で彫刻され、ギリシャの神々によって生命を与えられました。"
+  }
+ }
+}

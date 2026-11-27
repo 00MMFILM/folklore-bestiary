@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Labyrinth",
+ "sourceLang": "en",
+ "sourceChars": 23656,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Labyrinth",
+ "generatedAt": "2026-11-27T15:27:35.862Z",
+ "locales": {
+  "ko": {
+   "origin": "그리스 신화에서, 미로(라틴어: λαβύρινθος)는 신화적인 장인 다에달로스가 크레타의 미노스 왕을 위해 설계하고 건축한 복잡하고 혼란스러운 구조물이다. 이 미로의 기능은 미노타우르스를 가두는 것이었으며, 미노타우르는 결국 영웅 테세우스에 의해 죽임을 당하게 된다. 다에달로스는 미로를 너무 교묘하게 만들었기 때문에 자신이 만든 후에도 겨우 탈출할 수 있었다.",
+   "legend": "미로는 복잡한 가지가 있는 미로로, 미노타우르스가 갇혀 있었던 장소로 전해진다. 미노타우르스는 인간의 몸에 황소의 머리를 가진 괴물로, 테세우스가 그를 죽이기 위해 미로에 들어갔다고 전해진다. 미로는 단순한 경로가 아닌 복잡한 가지가 있는 구조로, 그 안에서 길을 잃을 수 있는 가능성이 있다.",
+   "variants": "",
+   "culture": "영어에서 'labyrinth'라는 용어는 일반적으로 'maze'와 동의어로 사용된다. 그러나 신화적인 미로의 오랜 유니커설 표현의 역사로 인해, 많은 현대 학자들은 두 개념 간의 구별을 관찰한다. 현대 미술에서도 미로는 다양한 형태로 표현되며, 예를 들어 피에트 몬드리안의 'Pier and Ocean'(1915), 파블로 피카소의 'Minotauromachy'(1935)와 같은 작품에서 그 주제를 다루고 있다. 또한, 비디오 게임 산업에서도 미로는 중요한 요소로 자리 잡고 있으며, 1994년 비디오 게임 'Marathon'에서는 플레이어가 탐색해야 하는 미로 같은 통로가 등장한다."
+  },
+  "en": {
+   "origin": "In Greek mythology, the labyrinth (Latin: λαβύρινθος) is a complex and confusing structure designed and built by the mythical craftsman Daedalus for King Minos of Crete. The function of this labyrinth was to confine the Minotaur, who was eventually killed by the hero Theseus. Daedalus made the labyrinth so cleverly that he could barely escape after creating it.",
+   "legend": "The labyrinth is said to be a maze with complex branches, where the Minotaur was trapped. The Minotaur is a monster with the body of a man and the head of a bull, and it is said that Theseus entered the labyrinth to kill him. The labyrinth is not a simple path but a structure with complex branches, making it possible to get lost inside.",
+   "variants": "",
+   "culture": "In English, the term 'labyrinth' is generally used synonymously with 'maze.' However, due to the long history of the unique expression of the mythical labyrinth, many modern scholars observe a distinction between the two concepts. In modern art, labyrinths are expressed in various forms, addressing the theme in works such as Piet Mondrian's 'Pier and Ocean' (1915) and Pablo Picasso's 'Minotauromachy' (1935). Additionally, in the video game industry, labyrinths have become an important element, with maze-like passages appearing in the 1994 video game 'Marathon' that players must navigate."
+  },
+  "zh": {
+   "origin": "在希腊神话中，迷宫（拉丁语：λαβύρινθος）是神话工匠达达罗斯（Daedalus）为克里特岛的米诺斯王（Minos）设计和建造的复杂而混乱的结构。这座迷宫的功能是关押米诺陶罗斯（Minotaurus），而米诺陶罗斯最终被英雄忒修斯（Theseus）杀死。达达罗斯将迷宫建造得如此巧妙，以至于在建造后他也仅能勉强逃脱。",
+   "legend": "迷宫被传说为一个复杂的分支迷宫，米诺陶罗斯被关押的地方。米诺陶罗斯是一种拥有牛头的人形怪物，传说忒修斯为了杀死他进入了迷宫。迷宫不是简单的路径，而是一个复杂的分支结构，里面有迷失方向的可能性。",
+   "variants": "",
+   "culture": "在英语中，'labyrinth'一词通常与'maze'同义。然而，由于神话迷宫的悠久独特表达历史，许多现代学者观察到这两个概念之间的区别。在现代艺术中，迷宫以各种形式表现，例如皮特·蒙德里安（Piet Mondrian）的《Pier and Ocean》（1915年）、巴勃罗·毕加索（Pablo Picasso）的《米诺陶之战》（Minotauromachy，1935年）等作品中都涉及到这一主题。此外，在视频游戏产业中，迷宫也成为了一个重要元素，1994年的视频游戏《马拉松》（Marathon）中出现了玩家需要探索的迷宫般的通道。"
+  },
+  "ja": {
+   "origin": "ギリシャ神話において、ミロ（ラテン語: λαβύρινθος）は、神話的な職人ダイダロスがクレタのミノス王のために設計し建設した複雑で混乱した構造物である。この迷路の機能はミノタウロスを閉じ込めることであり、ミノタウロスは最終的に英雄テセウスによって殺されることになる。ダイダロスは迷路をあまりにも巧妙に作ったため、自分が作った後でもかろうじて脱出することができた。",
+   "legend": "迷路は複雑な分岐がある迷路で、ミノタウロスが閉じ込められていた場所として伝えられている。ミノタウロスは人間の体に牛の頭を持つ怪物で、テセウスが彼を殺すために迷路に入ったと伝えられている。迷路は単純な経路ではなく、複雑な分岐がある構造であり、その中で道に迷う可能性がある。",
+   "variants": "",
+   "culture": "英語で「labyrinth」という用語は一般的に「maze」と同義語として使用される。しかし、神話的な迷路の長いユニークな表現の歴史のため、多くの現代の学者は二つの概念の間の区別を観察している。現代美術においても迷路はさまざまな形で表現されており、例えばピエト・モンドリアンの「Pier and Ocean」（1915）、パブロ・ピカソの「Minotauromachy」（1935）などの作品でそのテーマが扱われている。また、ビデオゲーム産業においても迷路は重要な要素として位置づけられており、1994年のビデオゲーム「Marathon」ではプレイヤーが探索する必要がある迷路のような通路が登場する。"
+  }
+ }
+}

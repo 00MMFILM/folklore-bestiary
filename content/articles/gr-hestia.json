@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Hestia",
+ "sourceLang": "en",
+ "sourceChars": 13856,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Hestia",
+ "generatedAt": "2026-11-27T15:28:14.373Z",
+ "locales": {
+  "ko": {
+   "origin": "고대 그리스 종교와 신화에서, 헤스티아는 티탄 크로노스와 레아의 여섯 자녀 중 하나로 태어났다. 그녀는 제우스의 도움으로 아버지에게서 구출된 후, 올림포스 신들 중 하나가 되었다.",
+   "legend": "헤스티아는 화덕과 가정의 처녀 신으로, 올림포스의 화덕을 돌보며 영원한 처녀로 남기로 선택했다. 그녀는 모든 가정의 제물에서 첫 번째 제물을 받았으며, 공공의 화덕은 그녀의 공식적인 성소로 기능했다.",
+   "variants": "",
+   "culture": "헤스티아는 로마 신화에서 베스타와 동일시되며, 그녀의 이름은 '화덕, 난로, 제단'을 의미한다. 고대 그리스에서 그녀의 숭배는 가정과 공동체의 중심에 있었으며, 그녀의 제물은 가정의 안전과 번영을 기원하는 중요한 의식의 일부였다."
+  },
+  "en": {
+   "origin": "In ancient Greek religion and mythology, Hestia was born as one of the six children of the Titans Cronus and Rhea. After being rescued from her father with the help of Zeus, she became one of the Olympian gods.",
+   "legend": "Hestia is the virgin goddess of the hearth and home, and she chose to remain an eternal virgin while tending to the hearth of Olympus. She received the first offerings from every household, and the public hearth functioned as her official sanctuary.",
+   "variants": "",
+   "culture": "Hestia is identified with Vesta in Roman mythology, and her name means 'hearth, fireplace, altar.' In ancient Greece, her worship was central to the home and community, and her offerings were an important part of rituals wishing for the safety and prosperity of the household."
+  },
+  "zh": {
+   "origin": "在古希腊宗教和神话中，赫斯提亚（Hestia）是泰坦克罗诺斯（Kronos）和瑞亚（Rhea）的六个孩子之一。她在宙斯（Zeus）的帮助下从父亲那里被救出，成为奥林匹斯众神之一。",
+   "legend": "赫斯提亚是火炉和家庭的处女神，她选择永远保持处女，照顾奥林匹斯的火炉。她在所有家庭的祭品中接受第一份祭品，公共火炉作为她的正式圣所。",
+   "variants": "",
+   "culture": "赫斯提亚在罗马神话中与维斯塔（Vesta）同一，她的名字意为“火炉、炉子、祭坛”。在古希腊，她的崇拜是家庭和社区的中心，她的祭品是祈求家庭安全和繁荣的重要仪式的一部分。"
+  },
+  "ja": {
+   "origin": "古代ギリシャの宗教と神話において、ヘスティア（Hestia）はティタンのクロノス（Kronos）とレア（Rhea）の六人の子供の一人として生まれた。彼女はゼウス（Zeus）の助けによって父から救出された後、オリンポスの神々の一人となった。",
+   "legend": "ヘスティアは炉と家庭の処女神であり、オリンポスの炉を見守り、永遠の処女でいることを選んだ。彼女はすべての家庭の供物の中で最初の供物を受け取り、公の炉は彼女の公式な聖域として機能した。",
+   "variants": "",
+   "culture": "ヘスティアはローマ神話でヴェスタ（Vesta）と同一視され、彼女の名前は「炉、暖炉、祭壇」を意味する。古代ギリシャにおいて彼女の崇拝は家庭と共同体の中心にあり、彼女の供物は家庭の安全と繁栄を願う重要な儀式の一部であった。"
+  }
+ }
+}

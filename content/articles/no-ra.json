@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Rå",
+ "sourceLang": "en",
+ "sourceChars": 2879,
+ "sourceUrl": "https://en.wikipedia.org/wiki/R%C3%A5",
+ "generatedAt": "2026-11-27T15:28:04.356Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "스칸디나비아 민속에서, rå(스웨덴어로)는 특정 장소나 지형의 수호자 또는 관리자로 알려진 영혼이다. 이들은 자연의 힘과 그들이 돌보는 동물들에 대한 권한을 가지고 있으며, 인간이 그들의 영역에 간섭할 경우 좋은 운과 나쁜 운을 모두 초래할 수 있다. 인간은 이들과 좋은 관계를 유지하는 것이 중요하다.",
+   "variants": "rår의 다양한 종류는 각기 다른 자연의 영역과 관련하여 구분되며, 예를 들어 skogsrå(숲), sjörå(담수), havsrå(염수), bergsrå(산) 등이 있다. 각 rår는 특정한 영역을 보호하며, 인간의 소유물에 대해서도 관할권을 가질 수 있다. 예를 들어, skeppsrået(배의 rår)와 gruvrået(광산의 rår)가 있다.",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "In Scandinavian folklore, rå (in Swedish) is a spirit known as the guardian or overseer of a specific place or terrain. They possess authority over the forces of nature and the animals they care for, and human interference in their domain can bring both good and bad fortune. It is important for humans to maintain a good relationship with them.",
+   "variants": "The various types of rår are distinguished according to different realms of nature, such as skogsrå (forest), sjörå (freshwater), havsrå (saltwater), and bergsrå (mountain). Each rå protects a specific area and may also have jurisdiction over human possessions. For example, there are skeppsrået (ship's rå) and gruvrået (mine's rå).",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "在斯堪的纳维亚民俗中，rå（瑞典语）是被认为是特定地点或地形的守护者或管理者的灵魂。它们拥有自然力量以及对它们所照顾的动物的权力，如果人类干涉它们的领域，可能会带来好运和厄运。人类与它们保持良好的关系是非常重要的。",
+   "variants": "rår的不同种类与各自不同的自然领域相关，例如skogsrå（森林）、sjörå（淡水）、havsrå（盐水）、bergsrå（山）等。每个rår保护特定的领域，并且可能对人类的财物拥有管辖权。例如，skeppsrået（船的rår）和gruvrået（矿山的rår）。",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "スカンジナビアの民俗において、rå（スウェーデン語で）は特定の場所や地形の守護者または管理者として知られる精霊である。彼らは自然の力と彼らが世 after る動物たちに対する権限を持っており、人間が彼らの領域に干渉する場合、良い運と悪い運の両方を引き起こす可能性がある。人間は彼らと良好な関係を維持することが重要である。",
+   "variants": "rårのさまざまな種類は、それぞれ異なる自然の領域に関連して区別され、例えばskogsrå（森）、sjörå（淡水）、havsrå（塩水）、bergsrå（山）などがある。各rårは特定の領域を保護し、人間の所有物に対しても管轄権を持つことができる。例えば、skeppsrået（船のrår）やgruvrået（鉱山のrår）がある。",
+   "culture": ""
+  }
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Hades",
+ "sourceLang": "en",
+ "sourceChars": 33277,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Hades",
+ "generatedAt": "2026-11-27T15:28:32.385Z",
+ "locales": {
+  "ko": {
+   "origin": "하데스는 고대 그리스 종교와 신화에서 죽음과 부의 신이자 지하 세계의 왕으로 알려져 있다. 그는 크로노스와 레아의 첫째 아들로 태어났으며, 그의 형제인 제우스와 포세이돈과 함께 아버지의 세대인 타이탄을 무찌르고 우주에 대한 공동 지배권을 주장하였다. 하데스는 지하 세계를 차지하게 되었고, 제우스는 하늘을, 포세이돈은 바다를 차지하였다.",
+   "legend": "하데스는 죽은 자의 영혼이 가는 지하 세계를 지배하며, 그의 이름은 '보이지 않는 자'라는 의미로 해석된다. 그는 종종 수동적이고 상대적으로 균형을 유지하는 역할로 묘사되지만, 법을 어기는 자에게는 엄격하고 잔인한 면모도 보인다. 하데스는 페르세포네를 납치하여 아내로 삼았으며, 이 이야기는 엘레우시스 신비와 올림포스 신들 사이의 연결을 나타낸다.",
+   "variants": "",
+   "culture": "하데스는 대중문화에서 종종 두려움의 상징으로 묘사되며, 그의 이름을 직접 언급하는 것을 피하는 경향이 있다. 그는 다양한 문학 작품과 영화에서 등장하며, 고대 그리스 신화의 복잡한 캐릭터로서 현대적 해석을 통해 재조명되고 있다."
+  },
+  "en": {
+   "origin": "Hades is known as the god of death and wealth and the king of the underworld in ancient Greek religion and mythology. He was born as the first son of Cronus and Rhea, and along with his brothers Zeus and Poseidon, he defeated their father's generation, the Titans, and claimed joint dominion over the universe. Hades came to rule the underworld, while Zeus took the sky and Poseidon took the sea.",
+   "legend": "Hades rules the underworld where the souls of the dead go, and his name is interpreted to mean 'the unseen one.' He is often depicted as passive and relatively maintaining balance, but he also shows strict and cruel aspects towards those who break the law. Hades kidnapped Persephone to make her his wife, and this story represents the connection between the Eleusinian Mysteries and the Olympian gods.",
+   "variants": "",
+   "culture": "Hades is often depicted as a symbol of fear in popular culture, and there is a tendency to avoid directly mentioning his name. He appears in various literary works and films, and as a complex character from ancient Greek mythology, he is being reinterpreted through modern interpretations."
+  },
+  "zh": {
+   "origin": "哈迪斯（Hades）在古希腊宗教和神话中被称为死亡和财富之神，以及地下世界的王。他是克罗诺斯（Cronus）和瑞亚（Rhea）的长子，与他的兄弟宙斯（Zeus）和波塞冬（Poseidon）一起击败了父亲的世代泰坦（Titan），并声称对宇宙的共同统治权。哈迪斯占据了地下世界，而宙斯则占据了天空，波塞冬则占据了海洋。",
+   "legend": "哈迪斯统治着死者的灵魂所去的地下世界，他的名字被解释为“看不见的人”。他常常被描绘为一个被动且相对保持平衡的角色，但对违反法律的人则表现出严格和残酷的一面。哈迪斯绑架了珀尔塞福涅（Persephone）作为妻子，这个故事象征着埃勒乌西斯（Eleusis）神秘和奥林匹斯（Olympus）神之间的联系。",
+   "variants": "",
+   "culture": "哈迪斯在大众文化中常常被描绘为恐惧的象征，人们倾向于避免直接提及他的名字。他出现在各种文学作品和电影中，作为古希腊神话中复杂的角色，通过现代解读重新被关注。"
+  },
+  "ja": {
+   "origin": "ハデスは古代ギリシャの宗教と神話において、死と富の神であり、地下世界の王として知られている。彼はクロノスとレアの最初の息子として生まれ、彼の兄弟であるゼウスとポセイドンと共に、父の世代であるタイタンを打ち倒し、宇宙に対する共同支配権を主張した。ハデスは地下世界を占有し、ゼウスは空を、ポセイドンは海を占有した。",
+   "legend": "ハデスは死者の魂が行く地下世界を支配し、彼の名前は「見えない者」という意味に解釈される。彼はしばしば受動的で相対的にバランスを保つ役割として描かれるが、法を破る者に対しては厳格で残酷な一面も見せる。ハデスはペルセポネを誘拐して妻とし、この物語はエレウシスの神秘とオリンポスの神々とのつながりを示している。",
+   "variants": "",
+   "culture": "ハデスは大衆文化においてしばしば恐怖の象徴として描かれ、彼の名前を直接言及することを避ける傾向がある。彼はさまざまな文学作品や映画に登場し、古代ギリシャ神話の複雑なキャラクターとして現代的解釈を通じて再評価されている。"
+  }
+ }
+}

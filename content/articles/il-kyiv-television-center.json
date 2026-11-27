@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Kyiv Television Center",
+ "sourceLang": "en",
+ "sourceChars": 16761,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Kyiv%20Television%20Center",
+ "generatedAt": "2026-11-27T15:27:44.260Z",
+ "locales": {
+  "ko": {
+   "origin": "키이우 텔레비전 센터는 1960년대에 건축 구상이 시작되었으나, 실제 건설은 1983년에 시작되었다. 이 건물은 1970년대에 철거된 구 유대인 묘지 위에 세워졌다. 1992년, 우크라이나의 공영 방송이 이전 본부에서 이 건물로 이전하였다.",
+   "legend": "이 건물은 '연필'이라는 별명으로도 알려져 있으며, 우크라이나 공영 방송의 상징적인 본부로 기능하고 있다. 겨울철 난방이 어려워, 이 건물은 쿠바 출신의 설계자들이 설계한 것이라는 도시 전설이 생겨났다.",
+   "variants": "",
+   "culture": "2018년, 이 건물은 대중에게 개방되었으며, 다양한 문화 행사와 활동이 개최되기 시작했다. 2017년 새해 전야에는 대중 축제가 열려 1,200명이 넘는 관객이 참석하였다."
+  },
+  "en": {
+   "origin": "The Kyiv Television Center's architectural concept began in the 1960s, but actual construction started in 1983. This building was erected on the site of the former Jewish cemetery, which was demolished in the 1970s. In 1992, Ukraine's public broadcasting moved from its previous headquarters to this building.",
+   "legend": "This building is also known by the nickname 'Pencil' and serves as the symbolic headquarters of Ukraine's public broadcasting. Due to difficulties in heating during winter, an urban legend arose that this building was designed by architects from Cuba.",
+   "variants": "",
+   "culture": "In 2018, this building was opened to the public, and various cultural events and activities began to take place. On New Year's Eve in 2017, a public festival was held, attended by over 1,200 spectators."
+  },
+  "zh": {
+   "origin": "基辅电视中心的建筑构思始于1960年代，但实际建设于1983年开始。该建筑建立在1970年代被拆除的旧犹太墓地上。1992年，乌克兰公共广播从之前的总部迁至该建筑。",
+   "legend": "这座建筑也被称为“铅笔”，并作为乌克兰公共广播的标志性总部。由于冬季取暖困难，关于该建筑是由古巴设计师设计的城市传说应运而生。",
+   "variants": "",
+   "culture": "2018年，该建筑向公众开放，开始举办各种文化活动和活动。2017年新年前夕，举行了公众节日，超过1200名观众参加。"
+  },
+  "ja": {
+   "origin": "キーウテレビジョンセンターは1960年代に建築構想が始まったが、実際の建設は1983年に始まった。この建物は1970年代に取り壊された旧ユダヤ人墓地の上に建てられた。1992年、ウクライナの公共放送が以前の本部からこの建物に移転した。",
+   "legend": "この建物は「ペンシル」という愛称でも知られており、ウクライナ公共放送の象徴的な本部として機能している。冬季の暖房が難しいため、この建物はキューバ出身の設計者たちによって設計されたという都市伝説が生まれた。",
+   "variants": "",
+   "culture": "2018年、この建物は一般に開放され、さまざまな文化イベントや活動が開催され始めた。2017年の大晦日には大衆祭りが開催され、1,200人を超える観客が参加した。"
+  }
+ }
+}

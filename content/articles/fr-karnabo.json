@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Karnabo",
+ "sourceLang": "en",
+ "sourceChars": 2519,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Karnabo",
+ "generatedAt": "2026-11-27T15:27:51.353Z",
+ "locales": {
+  "ko": {
+   "origin": "Karnabo는 아르덴느 민속의 생물로, 초자연적인 존재(악마 또는 구울)와 보헤미아 여행자의 자손으로 전해진다. 이 이야기는 고대에 아르덴느를 여행한 보헤미아인이 강력한 마법사였다는 전설도 포함되어 있다.",
+   "legend": "Karnabo는 인간의 얼굴을 가지고 있지만 코는 코끼리의 코처럼 생겼고, 눈은 바실리스크의 눈을 닮았다. 이 생물의 숨결은 사람을 마비시키고 동물을 죽일 수 있다고 전해진다. Karnabo는 한 젊은 소녀를 납치한 것으로 알려져 있으며, 폭풍우가 치는 날에는 그녀의 신음소리와 Karnabo의 나팔 소리가 들린다고 한다.",
+   "variants": "Karnabo 이야기는 프랑코-벨기에 아르덴느의 하류 뫼즈 계곡에서 전해진다. 민속학자 클로드 세뇰은 Karnabo를 아르덴느 신화의 더 넓은 변형인 마우워(Mahwot)의 지역적 변형으로 간주한다.",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Karnabo is a creature from Ardennes folklore, said to be a descendant of a supernatural being (demon or ghoul) and a Bohemian traveler. This story also includes a legend that a Bohemian who traveled through Ardennes in ancient times was a powerful wizard.",
+   "legend": "Karnabo has a human face but a nose resembling that of an elephant, and its eyes are said to resemble those of a basilisk. The breath of this creature is said to paralyze people and kill animals. Karnabo is known to have kidnapped a young girl, and on stormy days, her moans and the sound of Karnabo's horn can be heard.",
+   "variants": "The story of Karnabo is passed down in the lower Meuse Valley of Franco-Belgian Ardennes. Folklorist Claude Sénoil considers Karnabo to be a regional variant of Mahwot, a broader transformation in Ardennes mythology.",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "Karnabo是阿尔登地区民俗中的生物，传说是超自然存在（恶魔或食尸鬼）与波希米亚旅行者的后代。这个故事还包含了一个传说，讲述了一位强大的魔法师曾在古代旅行于阿尔登。",
+   "legend": "Karnabo拥有人的脸，但鼻子像大象的鼻子，眼睛则像巴西利斯克的眼睛。传说这个生物的呼吸可以使人麻痹并杀死动物。Karnabo被认为绑架了一位年轻女孩，传说在暴风雨的日子里可以听到她的呻吟声和Karnabo的号角声。",
+   "variants": "Karnabo的故事在法兰克-比利时的阿尔登下游的梅兹河谷流传。民俗学家克劳德·塞诺尔（Claude Sénoir）认为Karnabo是阿尔登神话更广泛变体马乌沃（Mahwot）的地方变体。",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "カーナボ（Karnabo）はアルデンヌ（Ardenne）民俗の生物で、超自然的存在（悪魔またはグール）とボヘミア（Bohemia）旅行者の子孫として伝えられています。この物語には、古代にアルデンヌを旅したボヘミア人が強力な魔法使いであったという伝説も含まれています。",
+   "legend": "カーナボは人間の顔を持っていますが、鼻は象の鼻のように見え、目はバジリスクの目に似ています。この生物の息は人を麻痺させ、動物を殺すことができると言われています。カーナボは若い少女を誘拐したことで知られており、嵐の日には彼女のうめき声とカーナボのラッパの音が聞こえると言われています。",
+   "variants": "カーナボの物語はフランコ・ベルギーのアルデンヌの下流メーズ渓谷で伝えられています。民俗学者クロード・セニョール（Claude Sénoir）はカーナボをアルデンヌ神話のより広い変形であるマウウォ（Mahwot）の地域的変形と見なしています。",
+   "culture": ""
+  }
+ }
+}
