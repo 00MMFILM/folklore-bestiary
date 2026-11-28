@@ -1,28 +1,6 @@
 {
-  "lastCategoryIndex": 15,
+  "lastCategoryIndex": 18,
   "processedPageIds": [
-    164304,
-    76210696,
-    20611803,
-    98309,
-    58456458,
-    14960072,
-    19058337,
-    118571,
-    164185,
-    2164264,
-    2268420,
-    7782933,
-    47797834,
-    79465,
-    16422760,
-    77353957,
-    78364251,
-    44612715,
-    73423994,
-    73636029,
-    23250197,
-    73823216,
     70590656,
     6584824,
     19667085,
@@ -8000,7 +7978,29 @@
     234579,
     848935,
     330727,
-    475648
+    475648,
+    675407,
+    5448,
+    3920899,
+    122838,
+    189930,
+    2675694,
+    1028070,
+    1077624,
+    387306,
+    491325,
+    2775077,
+    3082356,
+    4134565,
+    3816529,
+    1307184,
+    1311060,
+    61139,
+    4246933,
+    296712,
+    1361370,
+    431363,
+    135103
   ],
   "discoveredCategories": [
     {
@@ -26258,10 +26258,58 @@
       "label": "중동의 신화",
       "discoveredFrom": "구울",
       "discoveredAt": 728
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:도치기현의 요괴",
+      "iso": "_MULTI",
+      "label": "도치기현의 요괴",
+      "discoveredFrom": "다마모노마에",
+      "discoveredAt": 729
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:천문 신화",
+      "iso": "_MULTI",
+      "label": "천문 신화",
+      "discoveredFrom": "라이라프스 (신화)",
+      "discoveredAt": 729
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:과라니 신화",
+      "iso": "_MULTI",
+      "label": "과라니 신화",
+      "discoveredFrom": "루이손",
+      "discoveredAt": 729
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:노르드 신화",
+      "iso": "_MULTI",
+      "label": "노르드 신화",
+      "discoveredFrom": "와일드 헌트",
+      "discoveredAt": 729
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:스페인의 전설의 생물",
+      "iso": "_MULTI",
+      "label": "스페인의 전설의 생물",
+      "discoveredFrom": "와일드 헌트",
+      "discoveredAt": 729
+    },
+    {
+      "lang": "ko",
+      "cat": "분류:웨일스의 전설의 생물",
+      "iso": "_MULTI",
+      "label": "웨일스의 전설의 생물",
+      "discoveredFrom": "와일드 헌트",
+      "discoveredAt": 729
     }
   ],
-  "totalAdded": 4520,
-  "runs": 729,
-  "lastRun": "2026-11-28T00:52:49.154Z",
-  "lastDiscoveredIndex": 942
+  "totalAdded": 4522,
+  "runs": 730,
+  "lastRun": "2026-11-28T14:47:04.690Z",
+  "lastDiscoveredIndex": 945
 }

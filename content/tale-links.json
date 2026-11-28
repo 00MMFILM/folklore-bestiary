@@ -597,6 +597,28 @@
    "n": "Lamashtu"
   }
  ],
+ "iq-nergal": [
+  {
+   "id": "iq-enlil",
+   "n": "Enlil"
+  },
+  {
+   "id": "iq-ereshkigal",
+   "n": "Ereshkigal"
+  }
+ ],
+ "iq-ereshkigal": [
+  {
+   "id": "iq-nergal",
+   "n": "Nergal"
+  }
+ ],
+ "iq-enlil": [
+  {
+   "id": "iq-nergal",
+   "n": "Nergal"
+  }
+ ],
  "iq-ullikummi": [
   {
    "id": "iq-upelluri",
@@ -721,6 +743,18 @@
   {
    "id": "jp-fujin",
    "n": "Fūjin"
+  }
+ ],
+ "jp-inugami-gyobu": [
+  {
+   "id": "jp-inugami",
+   "n": "이누가미"
+  }
+ ],
+ "jp-inugami": [
+  {
+   "id": "jp-inugami-gyobu",
+   "n": "Inugami Gyōbu"
   }
  ],
  "jp-shibaemon-tanuki": [
@@ -1415,6 +1449,28 @@
   {
    "id": "no-regin",
    "n": "Regin"
+  }
+ ],
+ "no-sons-of-ivaldi": [
+  {
+   "id": "no-brokkr",
+   "n": "Brokkr"
+  },
+  {
+   "id": "no-gullinbursti",
+   "n": "Gullinbursti"
+  }
+ ],
+ "no-gullinbursti": [
+  {
+   "id": "no-sons-of-ivaldi",
+   "n": "이발디의 아들들"
+  }
+ ],
+ "no-brokkr": [
+  {
+   "id": "no-sons-of-ivaldi",
+   "n": "이발디의 아들들"
   }
  ],
  "pe-staff-god": [
