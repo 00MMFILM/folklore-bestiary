@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Mephistopheles",
+ "sourceLang": "en",
+ "sourceChars": 13621,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Mephistopheles",
+ "generatedAt": "2026-11-28T14:27:50.278Z",
+ "locales": {
+  "ko": {
+   "origin": "메피스토펠레스는 독일 민속에서 등장하는 악마로, 파우스트 전설의 주요 악마로 알려져 있다. 15세기에서 17세기 사이 유럽에서 마녀 사냥이 줄어들면서 악마는 문학에서 더욱 두드러진 존재가 되었다. 이 시기에 사탄의 '형이상학적 존재'에 대한 개념이 덜 중요해지면서, 악마는 문학에서 악한 인물과 부패를 상징하는 존재로 자리 잡았다. 요한 볼프강 폰 괴테의 작품인 '파우스트'에서 메피스토펠레스는 괴테가 창조한 악마의 버전으로, 이후 큰 영향을 미쳤다.",
+   "legend": "메피스토펠레스는 파우스트 전설과 관련이 깊으며, 역사적 인물인 요한 게오르크 파우스트를 바탕으로 한다. 전설에서 파우스트는 야망 있는 학자로, 자신의 영혼을 대가로 악마와 거래를 하며 메피스토펠레스는 악마의 대리인 역할을 한다. 이 전설은 지식과 권력의 추구가 기독교 중세 질서의 지적 및 도덕적 제약을 넘어설 때의 결과를 상징한다. 메피스토펠레스는 속임수, 거짓말, 협상가의 역할을 하며, 영혼을 거래하는 인물로 묘사된다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Mephistopheles is a demon that appears in German folklore and is known as the main demon of the Faust legend. Between the 15th and 17th centuries, as witch hunts decreased in Europe, demons became more prominent figures in literature. During this period, the concept of Satan as a 'metaphysical being' became less important, and demons established themselves as symbols of evil characters and corruption in literature. In Johann Wolfgang von Goethe's work 'Faust', Mephistopheles is a version of the demon created by Goethe, which had a significant influence thereafter.",
+   "legend": "Mephistopheles is closely related to the Faust legend and is based on the historical figure Johann Georg Faust. In the legend, Faust is an ambitious scholar who makes a deal with the demon in exchange for his soul, with Mephistopheles acting as the demon's agent. This legend symbolizes the consequences when the pursuit of knowledge and power transcends the intellectual and moral constraints of the Christian medieval order. Mephistopheles is portrayed as a trickster, liar, and negotiator, depicted as a character who trades souls.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "梅菲斯特（Mephistopheles）是德国民俗中出现的恶魔，以《浮士德》（Faust）传说中的主要恶魔而闻名。在15世纪到17世纪之间，随着欧洲女巫狩猎的减少，恶魔在文学中变得更加突出。在这个时期，撒旦的“形而上学存在”概念变得不那么重要，恶魔在文学中成为象征邪恶人物和腐败的存在。在约翰·沃尔夫冈·冯·歌德（Johann Wolfgang von Goethe）的作品《浮士德》中，梅菲斯特是歌德创造的恶魔版本，后来产生了重大影响。",
+   "legend": "梅菲斯特与《浮士德》传说关系密切，基于历史人物约翰·乔治·浮士德（Johann Georg Faust）。传说中，浮士德是一位雄心勃勃的学者，以自己的灵魂作为代价与恶魔交易，而梅菲斯特则扮演恶魔的代理人。这个传说象征着追求知识和权力超越基督教中世纪秩序的智力和道德限制时的结果。梅菲斯特被描绘为一个欺骗、说谎和谈判者的角色，是一个交易灵魂的人物。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "メフィストフェレスはドイツの民俗に登場する悪魔で、ファウスト伝説の主要な悪魔として知られている。15世紀から17世紀の間、ヨーロッパで魔女狩りが減少するにつれて、悪魔は文学でより際立った存在となった。この時期、サタンの「形而上学的存在」に関する概念があまり重要でなくなり、悪魔は文学で悪い人物と腐敗を象徴する存在として定着した。ヨハン・ヴォルフガング・フォン・ゲーテの作品『ファウスト』において、メフィストフェレスはゲーテが創造した悪魔のバージョンであり、その後大きな影響を与えた。",
+   "legend": "メフィストフェレスはファウスト伝説と深く関係しており、歴史的人物であるヨハン・ゲオルク・ファウストを基にしている。伝説の中でファウストは野心的な学者であり、自らの魂を代償に悪魔と取引をし、メフィストフェレスは悪魔の代理人の役割を果たす。この伝説は、知識と権力の追求がキリスト教中世秩序の知的および道徳的制約を超えるときの結果を象徴している。メフィストフェレスは欺き、嘘、交渉者の役割を果たし、魂を取引する人物として描かれている。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

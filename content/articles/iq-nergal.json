@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Nergal",
+ "sourceLang": "en",
+ "sourceChars": 43087,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Nergal",
+ "generatedAt": "2026-11-28T14:27:25.701Z",
+ "locales": {
+  "ko": {
+   "origin": "Nergal은 메소포타미아 신으로, 초기 왕조 시대부터 신바빌로니아 시대까지 모든 시대에 걸쳐 숭배되었다. 그의 숭배는 아케메네스 제국의 지배 시기까지 이어진 것으로 보인다.",
+   "legend": "Nergal은 전쟁, 죽음, 질병과 관련된 신으로, '가해진 죽음의 신'으로 알려져 있다. 그는 메소포타미아의 저승인 Kur를 지배하며, 전설에 따라 그의 부모인 Enlil과 Ninlil을 대신하거나, 후에 여신 Ereshkigal과의 결혼으로 인해 저승의 지배자가 되었다.",
+   "variants": "Nergal의 이름은 여러 형태로 나타나며, Akkadian 신 Erra와의 동질성이 강조된다. Erra는 Nergal과 함께 문헌에서 동의어로 사용되며, 두 신은 종종 같은 인물로 간주된다.",
+   "culture": ""
+  },
+  "en": {
+   "origin": "Nergal is a Mesopotamian god who was worshipped from the Early Dynastic period to the Neo-Babylonian period. His worship seems to have continued until the time of the Achaemenid Empire.",
+   "legend": "Nergal is a god associated with war, death, and disease, known as the 'god of inflicted death.' He rules over the underworld of Mesopotamia, Kur, and according to legend, he either replaced his parents, Enlil and Ninlil, or became the ruler of the underworld later due to his marriage to the goddess Ereshkigal.",
+   "variants": "The name Nergal appears in various forms, emphasizing its similarity to the Akkadian god Erra. Erra is used synonymously with Nergal in literature, and the two gods are often considered the same figure.",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "Nergal是美索不达米亚的神，从早期王朝时代到新巴比伦时代都受到崇拜。他的崇拜似乎一直持续到阿契美尼德帝国的统治时期。",
+   "legend": "Nergal是与战争、死亡和疾病相关的神，被称为“施加死亡的神”。他统治着美索不达米亚的冥界Kur，传说中他是Enlil和Ninlil的替代者，或者因后来与女神Ereshkigal的婚姻而成为冥界的统治者。",
+   "variants": "Nergal的名字以多种形式出现，强调与阿卡德神Erra的同质性。Erra在文献中与Nergal同义使用，这两个神常常被视为同一个人物。",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "Nergal（ネルガル）はメソポタミアの神で、初期王朝時代から新バビロニア時代までのすべての時代にわたって崇拝されていました。彼の崇拝はアケメネス帝国の支配時期まで続いたと見られています。",
+   "legend": "Nergalは戦争、死、病気に関連する神で、「与えられた死の神」として知られています。彼はメソポタミアの冥界であるKurを支配し、伝説によれば彼の親であるEnlil（エンリル）とNinlil（ニンリル）を代わりに、または後に女神Ereshkigal（エレシュキガル）との結婚によって冥界の支配者となりました。",
+   "variants": "Nergalの名前はいくつかの形で現れ、アッカド神Erra（エラ）との同質性が強調されます。ErraはNergalと共に文献で同義語として使用され、二神はしばしば同一人物と見なされます。",
+   "culture": ""
+  }
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Sons of Ivaldi",
+ "sourceLang": "en",
+ "sourceChars": 1810,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Sons%20of%20Ivaldi",
+ "generatedAt": "2026-11-28T14:28:02.540Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "노르드 신화에서 이발디의 아들들(Ívaldasynir)은 드워프 집단으로, 프레이르의 비행선 스키드블라드니르(Skíðblaðnir), 오딘의 창 군그니르(Gungnir), 그리고 로키가 잘라낸 시프의 금발을 대체하기 위한 금발을 제작한 것으로 전해진다. 스칼드스카파말(Skáldskaparmál)에 따르면, 이 물건들이 만들어진 후 로키는 드워프 브로크르(Brokkr)와 내기를 하였고, 그의 형제 에이트리(Eitri) 또는 신드리(Sindri)가 이발디의 아들들이 만든 물건들과 같은 품질의 아이템을 제작할 수 없다고 주장하였다. 이 대결의 결과로 프레이르의 멧돼지(굴린부르스티, Gullinbursti), 오딘의 반지(드라우프니르, Draupnir), 그리고 토르의 망치(묠니르, Mjolnir)가 만들어졌으며, 신들에 의해 이 물건들이 다른 것들보다 더욱 경이로운 것으로 평가되었다. 따라서 브로크르는 내기를 이겼다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "In Norse mythology, the sons of Ívaldi (Ívaldasynir) are a group of dwarves known for crafting Freyr's ship Skíðblaðnir, Odin's spear Gungnir, and a replacement for Loki's cut-off golden hair of Sif. According to Skáldskaparmál, after these items were created, Loki made a wager with the dwarf Brokkr, claiming that his brother Eitri or Sindri could not produce items of the same quality as those made by the sons of Ívaldi. As a result of this contest, Freyr's boar Gullinbursti, Odin's ring Draupnir, and Thor's hammer Mjolnir were created, and these items were deemed more wondrous than others by the gods. Thus, Brokkr won the wager.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "在北欧神话中，伊瓦尔达的儿子们（Ívaldasynir）是一群矮人，他们被传说制作了弗雷尔的飞船斯基德布拉德尼尔（Skíðblaðnir）、奥丁的长矛军戈尼尔（Gungnir），以及为了替代洛基剪掉的希芙的金发而制作的金发。根据《诗体歌谣》（Skáldskaparmál），在这些物品被制作出来后，洛基与矮人布罗克尔（Brokkr）打了个赌，并声称他的兄弟艾特里（Eitri）或辛德里（Sindri）无法制作出与伊瓦尔达的儿子们所制作的物品同样质量的物品。经过这场对决，弗雷尔的野猪（古林布尔斯蒂，Gullinbursti）、奥丁的戒指（德劳普尼尔，Draupnir）以及托尔的锤子（妙尔尼尔，Mjolnir）被制作出来，并被神灵们评估为比其他物品更加奇妙。因此，布罗克尔赢得了赌注。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "ノルド神話において、イヴァルディの息子たち（Ívaldasynir）はドワーフの集団であり、フレイの飛行船スキッドブラドニル（Skíðblaðnir）、オーディンの槍グングニル（Gungnir）、そしてロキが切り取ったシフの金髪を代替するための金髪を制作したと伝えられている。スカルドスカパルマール（Skáldskaparmál）によれば、これらの物が作られた後、ロキはドワーフのブロックル（Brokkr）と賭けをし、彼の兄弟エイトリ（Eitri）またはシンドリ（Sindri）がイヴァルディの息子たちが作った物と同じ品質のアイテムを制作できないと主張した。この対決の結果、フレイのイノシシ（グルリンブルスティ、Gullinbursti）、オーディンの指輪（ドラウプニル、Draupnir）、そしてトールのハンマー（ミョルニル、Mjolnir）が作られ、神々によってこれらの物が他のものよりもさらに驚異的であると評価された。したがって、ブロックルは賭けに勝った。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}

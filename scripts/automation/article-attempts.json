@@ -2398,5 +2398,155 @@
     "status": "generated",
     "at": "2026-11-27T15:28:34.628Z",
     "retryAfter": "2026-11-28T15:28:34.628Z"
+  },
+  "cl-nusta-huillac": {
+    "status": "thin",
+    "at": "2026-11-28T14:26:28.784Z",
+    "retryAfter": "2026-12-05T14:26:28.784Z"
+  },
+  "au-yalungur": {
+    "status": "thin",
+    "at": "2026-11-28T14:26:29.583Z",
+    "retryAfter": "2026-12-05T14:26:29.583Z"
+  },
+  "pg-flaming-teeth": {
+    "status": "thin",
+    "at": "2026-11-28T14:26:30.402Z",
+    "retryAfter": "2026-12-05T14:26:30.402Z"
+  },
+  "ee-vanemuine-god": {
+    "status": "rejected",
+    "at": "2026-11-28T14:26:34.715Z",
+    "retryAfter": "2026-12-05T14:26:34.715Z"
+  },
+  "sb-kahausibware": {
+    "status": "thin",
+    "at": "2026-11-28T14:26:35.529Z",
+    "retryAfter": "2026-12-05T14:26:35.529Z"
+  },
+  "ee-ved-ava": {
+    "status": "generated",
+    "at": "2026-11-28T14:26:45.672Z",
+    "retryAfter": "2026-11-29T14:26:45.672Z"
+  },
+  "pe-inkarri": {
+    "status": "generated",
+    "at": "2026-11-28T14:26:49.364Z",
+    "retryAfter": "2026-11-29T14:26:49.364Z"
+  },
+  "lv-incubus": {
+    "status": "generated",
+    "at": "2026-11-28T14:26:54.038Z",
+    "retryAfter": "2026-11-29T14:26:54.038Z"
+  },
+  "jp-kotan-kar-kamuy": {
+    "status": "generated",
+    "at": "2026-11-28T14:27:01.233Z",
+    "retryAfter": "2026-11-29T14:27:01.233Z"
+  },
+  "jp-awa-tanuki-gassen": {
+    "status": "generated",
+    "at": "2026-11-28T14:27:01.982Z",
+    "retryAfter": "2026-11-29T14:27:01.982Z"
+  },
+  "jp-inugami-gyobu": {
+    "status": "generated",
+    "at": "2026-11-28T14:27:07.248Z",
+    "retryAfter": "2026-11-29T14:27:07.248Z"
+  },
+  "tr-mhachkay": {
+    "status": "generated",
+    "at": "2026-11-28T14:27:14.944Z",
+    "retryAfter": "2026-11-29T14:27:14.944Z"
+  },
+  "ir-karkadann": {
+    "status": "generated",
+    "at": "2026-11-28T14:27:16.929Z",
+    "retryAfter": "2026-11-29T14:27:16.929Z"
+  },
+  "sa-dhikr": {
+    "status": "generated",
+    "at": "2026-11-28T14:27:20.259Z",
+    "retryAfter": "2026-11-29T14:27:20.259Z"
+  },
+  "iq-gunura": {
+    "status": "generated",
+    "at": "2026-11-28T14:27:25.348Z",
+    "retryAfter": "2026-11-29T14:27:25.348Z"
+  },
+  "iq-nergal": {
+    "status": "generated",
+    "at": "2026-11-28T14:27:25.702Z",
+    "retryAfter": "2026-11-29T14:27:25.702Z"
+  },
+  "eg-meskhenet": {
+    "status": "thin",
+    "at": "2026-11-28T14:27:27.199Z",
+    "retryAfter": "2026-12-05T14:27:27.199Z"
+  },
+  "gb-hob-folklore": {
+    "status": "rejected",
+    "at": "2026-11-28T14:27:29.832Z",
+    "retryAfter": "2026-12-05T14:27:29.832Z"
+  },
+  "il-angel-of-the-lord": {
+    "status": "generated",
+    "at": "2026-11-28T14:27:34.702Z",
+    "retryAfter": "2026-11-29T14:27:34.702Z"
+  },
+  "gb-angul-mythology": {
+    "status": "rejected",
+    "at": "2026-11-28T14:27:36.472Z",
+    "retryAfter": "2026-12-05T14:27:36.472Z"
+  },
+  "il-solomon-s-shamir": {
+    "status": "generated",
+    "at": "2026-11-28T14:27:42.849Z",
+    "retryAfter": "2026-11-29T14:27:42.849Z"
+  },
+  "mn-mongolian-death-worm": {
+    "status": "generated",
+    "at": "2026-11-28T14:27:43.451Z",
+    "retryAfter": "2026-11-29T14:27:43.451Z"
+  },
+  "de-mephistopheles": {
+    "status": "generated",
+    "at": "2026-11-28T14:27:50.278Z",
+    "retryAfter": "2026-11-29T14:27:50.278Z"
+  },
+  "de-biterolf-und-dietleib": {
+    "status": "generated",
+    "at": "2026-11-28T14:27:57.654Z",
+    "retryAfter": "2026-11-29T14:27:57.654Z"
+  },
+  "gb-father-thames": {
+    "status": "generated",
+    "at": "2026-11-28T14:27:59.285Z",
+    "retryAfter": "2026-11-29T14:27:59.285Z"
+  },
+  "dk-amarok-wolf": {
+    "status": "thin",
+    "at": "2026-11-28T14:28:00.120Z",
+    "retryAfter": "2026-12-05T14:28:00.120Z"
+  },
+  "de-turst": {
+    "status": "generated",
+    "at": "2026-11-28T14:28:01.383Z",
+    "retryAfter": "2026-11-29T14:28:01.383Z"
+  },
+  "no-sons-of-ivaldi": {
+    "status": "generated",
+    "at": "2026-11-28T14:28:02.540Z",
+    "retryAfter": "2026-11-29T14:28:02.540Z"
+  },
+  "se-harpans-kraft": {
+    "status": "generated",
+    "at": "2026-11-28T14:28:11.337Z",
+    "retryAfter": "2026-11-29T14:28:11.337Z"
+  },
+  "ro-martolea": {
+    "status": "generated",
+    "at": "2026-11-28T14:28:14.785Z",
+    "retryAfter": "2026-11-29T14:28:14.785Z"
   }
 }

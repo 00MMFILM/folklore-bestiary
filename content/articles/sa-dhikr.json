@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Dhikr",
+ "sourceLang": "en",
+ "sourceChars": 19722,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Dhikr",
+ "generatedAt": "2026-11-28T14:27:20.259Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "Dhikr(ذِكْر)은 이슬람의 예배 형태로, 하나님을 기억하기 위해 반복적으로 구절이나 기도를 암송하는 행위이다. 이는 수피즘에서 중심적인 역할을 하며, 각 수피 교단은 특정한 dhikr를 채택하고, 특정한 자세, 호흡 및 움직임과 함께 수행한다. Dhikr는 기억의 행위와 이 행위에 사용되는 기도를 모두 지칭하며, 일반적으로 하나님의 이름이나 꾸란 또는 하디스에서의 기도를 포함한다. Dhikr는 혼자 또는 집단으로 수행할 수 있으며, 이를 암송하는 사람을 dhākir(ذَاكِر)라고 한다.",
+   "variants": "",
+   "culture": "Dhikr는 현대 이슬람 문화에서 중요한 위치를 차지하고 있으며, 기도 구슬을 사용하여 기도를 세는 것이 일반적이다. 미국에서는 이슬람 수감자들이 기도 구슬을 사용하여 치료 효과를 얻는 것이 허용되며, 이는 정신 건강 문제와 약물 남용 문제를 겪는 수감자들을 성공적으로 재활시키는 데 기여했다."
+  },
+  "en": {
+   "origin": "",
+   "legend": "Dhikr (ذِكْر) is a form of worship in Islam, involving the act of reciting verses or prayers repeatedly to remember God. It plays a central role in Sufism, with each Sufi order adopting specific dhikrs and performing them with particular postures, breathing, and movements. Dhikr refers to both the act of remembrance and the prayers used in this act, generally including the names of God or prayers from the Quran or Hadith. Dhikr can be performed alone or in groups, and the person reciting it is called a dhākir (ذَاكِر).",
+   "variants": "",
+   "culture": "Dhikr holds an important place in modern Islamic culture, and it is common to use prayer beads to count prayers. In the United States, it is permitted for Muslim inmates to use prayer beads to gain therapeutic effects, contributing to the successful rehabilitation of inmates dealing with mental health issues and substance abuse problems."
+  },
+  "zh": {
+   "origin": "",
+   "legend": "Dhikr(ذِكْر)是伊斯兰教的一种礼拜形式，指的是为了记住真主而反复诵读经文或祷告的行为。这在苏菲主义中扮演着核心角色，各个苏菲教派会选择特定的dhikr，并与特定的姿势、呼吸和动作一起进行。Dhikr既指记忆的行为，也指用于此行为的祷告，通常包括真主的名字或《古兰经》或《哈迪斯》中的祷告。Dhikr可以单独或集体进行，进行诵读的人称为dhākir(ذَاكِر)。",
+   "variants": "",
+   "culture": "Dhikr在现代伊斯兰文化中占据重要地位，使用祷告珠来计数祷告是很常见的。在美国，允许伊斯兰囚犯使用祷告珠以获得治疗效果，这对成功 rehabilitate 遇到精神健康问题和药物滥用问题的囚犯起到了积极作用。"
+  },
+  "ja": {
+   "origin": "",
+   "legend": "Dhikr(ذِكْر)はイスラムの礼拝の形態であり、神を思い出すために詩句や祈りを繰り返し唱える行為です。これはスーフィズムで中心的な役割を果たし、各スーフィ教団は特定のdhikrを採用し、特定の姿勢、呼吸、動きと共に行います。Dhikrは記憶の行為とこの行為に使用される祈りの両方を指し、一般的に神の名前やクルアーンまたはハディースからの祈りを含みます。Dhikrは一人または集団で行うことができ、これを唱える人をdhākir(ذَاكِر)と呼びます。",
+   "variants": "",
+   "culture": "Dhikrは現代イスラム文化で重要な位置を占めており、祈りの数珠を使用して祈りを数えることが一般的です。アメリカでは、イスラムの受刑者が祈りの数珠を使用して治療効果を得ることが許可されており、これは精神的健康問題や薬物乱用問題に苦しむ受刑者を成功裏にリハビリさせるのに寄与しました。"
+  }
+ }
+}

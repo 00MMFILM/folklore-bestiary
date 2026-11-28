@@ -1,0 +1,33 @@
+{
+ "sourceTitle": "Angel of the Lord",
+ "sourceLang": "en",
+ "sourceChars": 12465,
+ "sourceUrl": "https://en.wikipedia.org/wiki/Angel%20of%20the%20Lord",
+ "generatedAt": "2026-11-28T14:27:34.702Z",
+ "locales": {
+  "ko": {
+   "origin": "",
+   "legend": "주님의 사자(Angel of the Lord)는 히브리 성경에서 이스라엘의 하나님을 대신하여 반복적으로 나타나는 존재이다. 이 용어는 '주님의 사자' 또는 '주님의 한 사자'로 번역될 수 있으며, 히브리 성경에서는 65회 등장한다. 구약에서 주님의 사자는 하나님을 1인칭으로 언급하며, 다른 사자들과는 달리 하나님과 동일시되는 경우가 많다. 예를 들어, 창세기 16장에서는 하갈에게 나타나 하나님 자신처럼 말하며, 출애굽기 3장에서는 모세에게 불꽃 속에서 나타나 하나님으로서의 권위를 행사한다. 이러한 모습은 주님의 사자가 단순한 사자가 아니라 신적 존재로서의 역할을 수행함을 나타낸다.",
+   "variants": "",
+   "culture": ""
+  },
+  "en": {
+   "origin": "",
+   "legend": "The Angel of the Lord is a being that appears repeatedly in the Hebrew Bible on behalf of the God of Israel. This term can be translated as 'the Angel of the Lord' or 'an Angel of the Lord,' and it appears 65 times in the Hebrew Bible. In the Old Testament, the Angel of the Lord refers to God in the first person and is often identified with God, unlike other angels. For example, in Genesis 16, the Angel appears to Hagar and speaks as if He were God Himself, and in Exodus 3, He appears to Moses in the burning bush, exercising authority as God. These instances indicate that the Angel of the Lord is not merely an angel but fulfills a role as a divine being.",
+   "variants": "",
+   "culture": ""
+  },
+  "zh": {
+   "origin": "",
+   "legend": "主的使者（Angel of the Lord）是希伯来圣经中代表以色列的神反复出现的存在。这个术语可以翻译为“主的使者”或“主的一个使者”，在希伯来圣经中出现了65次。在旧约中，主的使者以第一人称提及神，且与其他使者不同，常常被视为与神相同。例如，在创世纪16章中，主的使者向哈迦尔显现，像神一样说话；在出埃及记3章中，主的使者在火焰中向摩西显现，行使作为神的权威。这种形象表明主的使者不仅仅是一个使者，而是作为神圣存在的角色。",
+   "variants": "",
+   "culture": ""
+  },
+  "ja": {
+   "origin": "",
+   "legend": "主の使い（Angel of the Lord）は、ヘブライ聖書においてイスラエルの神を代わりに繰り返し現れる存在である。この用語は「主の使い」または「主の一人の使い」と翻訳され、ヘブライ聖書では65回登場する。旧約聖書において主の使いは神を一人称で言及し、他の使いとは異なり神と同一視されることが多い。例えば、創世記16章ではハガルに現れ神自身のように語り、出エジプト記3章ではモーセに火の中から現れ神としての権威を行使する。このような姿は主の使いが単なる使いではなく神的存在としての役割を果たしていることを示している。",
+   "variants": "",
+   "culture": ""
+  }
+ }
+}
